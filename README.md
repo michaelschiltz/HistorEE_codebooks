@@ -1,3 +1,3 @@
 # HistorEE_codebooks
 
-Versioned, timestamped, attributed data and codebook for the project HistorEE.
+Versioned, timestamped, attributed data and codebooks for the project HistorEE.
