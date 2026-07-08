@@ -6,14 +6,14 @@ authors:
   - family-names: Schiltz
     given-names: Michael
     affiliation: Hokkaido University
-    orcid: "https://orcid.org/0000-0000-0000-0000"  # replace with real ORCID
+    orcid: "https://orcid.org/0000-0001-9776-7918"
     role: Maintainer
 # Add team members below as they join, with roles:
 #  - family-names: ...
 #    given-names: ...
 #    affiliation: ...
 #    role: Coder
-repository-code: "https://github.com/michaelschiltz/clearing-and-settling"
+repository-code: "https://github.com/michaelschiltz/HistorEE_codebooks"
 license: CC-BY-4.0            # data licence; code is under LICENSE (MIT)
 version: 0.1.0
 date-released: 2026-07-08
