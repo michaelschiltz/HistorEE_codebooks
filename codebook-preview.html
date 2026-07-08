@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>codebook-preview — clearing-and-settling</title>
+<style>
+  :root{
+    --fg:#1f2328; --muted:#59636e; --line:#d1d9e0; --bg:#ffffff;
+    --accent:#0969da; --canvas:#f6f8fa; --green:#1a7f37; --amber:#9a6700;
+    --red:#cf222e; --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#eaeef2;color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+    font-size:14px;line-height:1.55;padding:24px}
+  .wrap{max-width:1040px;margin:0 auto;background:var(--bg);border:1px solid var(--line);
+    border-radius:10px;overflow:hidden}
+  .crumb{display:flex;align-items:center;gap:6px;padding:14px 18px;border-bottom:1px solid var(--line);
+    background:var(--bg);font-size:15px}
+  .crumb .repo{color:var(--accent);font-weight:600}
+  .crumb .sep{color:var(--muted)}
+  .crumb .file{font-weight:600}
+  .crumb .book{margin-left:auto;color:var(--muted);font-size:12px;border:1px solid var(--line);
+    border-radius:6px;padding:3px 8px}
+  .banner{background:#fff8c5;border-bottom:1px solid #eac54f;padding:10px 18px;font-size:12.5px;color:#4d3800}
+  .body{padding:22px 26px}
+  h1{font-size:22px;margin:0 0 4px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  h2{font-size:16px;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+  .chip{background:var(--canvas);border:1px solid var(--line);border-radius:20px;
+    padding:3px 11px;font-size:12px;color:var(--muted)}
+  .chip b{color:var(--fg);font-weight:600}
+  p.desc{color:var(--muted);margin:12px 0}
+  table{border-collapse:collapse;width:100%;font-size:12.5px;margin:8px 0}
+  th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+  th{background:var(--canvas);font-weight:600}
+  tr:nth-child(even) td{background:#fbfcfd}
+  code,.m{font-family:var(--mono);font-size:12px}
+  .m{background:var(--canvas);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+  .kanji{font-size:14px}
+  .tok{font-family:var(--mono);font-size:11.5px;font-weight:600;border-radius:5px;padding:1px 6px}
+  .t-il{background:#ffebe9;color:var(--red);border:1px solid #ffcecb}
+  .t-nr{background:#fff1e5;color:var(--amber);border:1px solid #ffd8a8}
+  .t-zero{background:#dafbe1;color:var(--green);border:1px solid #aceebb}
+  .t-obs{color:var(--muted)}
+  .conf-low{color:var(--red);font-weight:600}
+  .conf-med{color:var(--amber);font-weight:600}
+  .conf-high{color:var(--green);font-weight:600}
+  .coder{font-family:var(--mono);font-weight:600;color:var(--accent)}
+  .right{text-align:right}
+  .cap{color:var(--muted);font-size:12px;margin:2px 0 14px}
+  .gen{color:var(--muted);font-size:12px;font-style:italic;margin-top:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="crumb">
+    <span>📖</span>
+    <span class="repo">michaelschiltz</span><span class="sep">/</span>
+    <span class="repo">clearing-and-settling</span><span class="sep">/</span>
+    <span class="muted">datasets / clearing_records /</span>
+    <span class="file">codebook.md</span>
+    <span class="book">v0.1.0 · CC-BY-4.0</span>
+  </div>
+  <div class="banner">⚙️ <b>Generated file.</b> Compiled from <code>datapackage.json</code> by
+    <code>scripts/build_codebook.py</code>. Do not hand-edit — change the schema and regenerate.
+    Data shown is <b>illustrative / synthetic</b>.</div>
+
+  <div class="body">
+    <h1>Codebook — Clearing and settlement records</h1>
+    <div class="meta">
+      <span class="chip"><b>Dataset</b> clearing_records</span>
+      <span class="chip"><b>Version</b> 0.1.0</span>
+      <span class="chip"><b>License</b> CC-BY-4.0</span>
+      <span class="chip"><b>Rows</b> 8</span>
+      <span class="chip"><b>Contributors</b> M. Schiltz (maintainer)</span>
+      <span class="chip"><b>Generated</b> 2026-07-08</span>
+    </div>
+    <p class="desc">Tokugawa-period money-changer and remittance settlements, structured to demonstrate the
+      project's coding conventions: transparent unit normalisation across the <i>sanka</i>
+      (gold/silver/copper) system, disaggregated missingness, explicit uncertainty, a source-language
+      layer, and per-observation coder attribution.</p>
+
+    <h2>Sample of coded data — <code>data.csv</code></h2>
+    <table>
+      <thead>
+        <tr>
+          <th>record_id</th><th>date (wareki)</th><th>instrument</th>
+          <th class="right">amount</th><th class="right">→ monme (silver)</th>
+          <th>normalization</th><th>missingness</th><th>conf.</th><th>coder</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><code>CR-0001</code></td><td>天保5.3.12</td><td><span class="kanji">手形</span> <span class="muted">tegata</span></td><td class="right">120 <span class="muted">monme</span></td><td class="right">120</td><td><span class="m">identity_silver</span></td><td><span class="tok t-obs">observed</span></td><td class="conf-high">high</td><td class="coder">MS</td></tr>
+        <tr><td><code>CR-0002</code></td><td>天保5.4.02</td><td><span class="kanji">為替</span> <span class="muted">kawase</span></td><td class="right">15 <span class="muted">ryo</span></td><td class="right">900</td><td><span class="m">ryo_to_monme@60_official1700</span></td><td><span class="tok t-obs">observed</span></td><td class="conf-med">medium</td><td class="coder">MS</td></tr>
+        <tr><td><code>CR-0003</code></td><td>天保5.4.02</td><td><span class="kanji">為替</span> <span class="muted">kawase</span></td><td class="right">15 <span class="muted">ryo</span></td><td class="right">915</td><td><span class="m">ryo_to_monme@61_market_est</span></td><td><span class="tok t-obs">observed</span></td><td class="conf-low">low</td><td class="coder">YT</td></tr>
+        <tr><td><code>CR-0004</code></td><td>天保5.5.__</td><td><span class="kanji">振替</span> <span class="muted">furikae</span></td><td class="right"><span class="tok t-il">.IL</span> <span class="muted">monme</span></td><td class="right"><span class="tok t-il">.IL</span></td><td><span class="m">.NA</span></td><td><span class="tok t-il">illegible</span></td><td class="conf-low">low</td><td class="coder">MS</td></tr>
+        <tr><td><code>CR-0005</code></td><td>天保6.1.20</td><td><span class="kanji">両替</span> <span class="muted">ryogae</span></td><td class="right">2000 <span class="muted">mon</span></td><td class="right">33</td><td><span class="m">mon_to_monme_via_board_rate</span></td><td><span class="tok t-obs">observed</span></td><td class="conf-med">medium</td><td class="coder">YT</td></tr>
+        <tr><td><code>CR-0006</code></td><td>天保6.2.05</td><td><span class="kanji">手形</span> <span class="muted">tegata</span></td><td class="right">0 <span class="muted">monme</span></td><td class="right">0</td><td><span class="m">identity_silver</span></td><td><span class="tok t-zero">explicit_zero</span></td><td class="conf-high">high</td><td class="coder">MS</td></tr>
+        <tr><td><code>CR-0007</code></td><td>(欠) 推定天保6</td><td><span class="kanji">為替</span> <span class="muted">kawase</span></td><td class="right">50 <span class="muted">ryo</span></td><td class="right">3000</td><td><span class="m">ryo_to_monme@60_official1700</span></td><td><span class="tok t-obs">observed</span></td><td class="conf-low">low</td><td class="coder">MS</td></tr>
+        <tr><td><code>CR-0008</code></td><td>天保6.3.11</td><td><span class="kanji">手形</span> <span class="muted">tegata</span></td><td class="right">340 <span class="muted">monme</span></td><td class="right">340</td><td><span class="m">identity_silver</span></td><td><span class="tok t-obs">observed</span></td><td class="conf-high">high</td><td class="coder">YT</td></tr>
+      </tbody>
+    </table>
+    <p class="cap">Payee for CR-0004 and CR-0007 is <span class="tok t-nr">.NR</span> (not recorded) — never left blank.
+      Four kinds of absence are kept distinct; an explicit source zero is a value, not a gap.</p>
+
+    <h2>Variables at a glance</h2>
+    <table>
+      <thead><tr><th>Field</th><th>Type</th><th>Req.</th><th>Coded values</th><th class="right">Present</th></tr></thead>
+      <tbody>
+        <tr><td><code>record_id</code></td><td>string</td><td>✓</td><td><span class="muted">pattern <code>^CR-\d{4}$</code></span></td><td class="right">8/8</td></tr>
+        <tr><td><code>date_wareki</code></td><td>string</td><td></td><td><span class="muted">original era date</span></td><td class="right">8/8</td></tr>
+        <tr><td><code>date_iso</code></td><td>string</td><td></td><td><span class="muted">ISO 8601, reduced precision allowed</span></td><td class="right">8/8</td></tr>
+        <tr><td><code>date_confidence</code></td><td>string</td><td></td><td><code>high</code> <code>medium</code> <code>low</code></td><td class="right">8/8</td></tr>
+        <tr><td><code>instrument_wareki</code></td><td>string</td><td></td><td><span class="muted">original script</span></td><td class="right">8/8</td></tr>
+        <tr><td><code>instrument_type</code></td><td>string</td><td></td><td><code>bill_note</code> <code>remittance_bill</code> <code>book_transfer</code> <code>money_exchange</code></td><td class="right">8/8</td></tr>
+        <tr><td><code>amount_original</code></td><td>number</td><td></td><td><span class="muted">in amount_unit</span></td><td class="right">7/8</td></tr>
+        <tr><td><code>amount_unit</code></td><td>string</td><td></td><td><code>ryo</code> <code>monme</code> <code>kanme</code> <code>mon</code></td><td class="right">8/8</td></tr>
+        <tr><td><code>amount_monme_silver</code></td><td>number</td><td></td><td><span class="muted">normalised common unit</span></td><td class="right">7/8</td></tr>
+        <tr><td><code>normalization_method</code></td><td>string</td><td></td><td><span class="muted">named conversion + rate</span></td><td class="right">7/8</td></tr>
+        <tr><td><code>missingness</code></td><td>string</td><td></td><td><code>observed</code> <code>not_recorded</code> <code>illegible</code> <code>not_applicable</code> <code>explicit_zero</code></td><td class="right">8/8</td></tr>
+        <tr><td><code>payer</code> / <code>payee</code></td><td>string</td><td></td><td><span class="muted">source name, romanised</span></td><td class="right">8/8 · 6/8</td></tr>
+        <tr><td><code>source_ref</code></td><td>string</td><td></td><td><span class="muted">archive call no. + folio</span></td><td class="right">8/8</td></tr>
+        <tr><td><code>source_lang</code></td><td>string</td><td></td><td><code>ja</code> <code>nl</code> <code>de</code> <code>fr</code> <code>en</code></td><td class="right">8/8</td></tr>
+        <tr><td><code>confidence</code></td><td>string</td><td></td><td><code>high</code> <code>medium</code> <code>low</code></td><td class="right">8/8</td></tr>
+        <tr><td><code>coder</code></td><td>string</td><td>✓</td><td><span class="muted">team initials · git blame backstop</span></td><td class="right">8/8</td></tr>
+      </tbody>
+    </table>
+    <p class="gen">Compiled 2026-07-08 from datapackage.json · schema version 0.1.0 · provenance via Git + Zenodo DOI on release.</p>
+  </div>
+</div>
+</body>
+</html>

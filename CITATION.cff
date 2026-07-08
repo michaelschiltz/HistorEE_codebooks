@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Clearing and Settling the Realm — Data & Codebooks"
+message: "If you use this data or codebook, please cite it using these metadata."
+type: dataset
+authors:
+  - family-names: Schiltz
+    given-names: Michael
+    affiliation: Hokkaido University
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # replace with real ORCID
+    role: Maintainer
+# Add team members below as they join, with roles:
+#  - family-names: ...
+#    given-names: ...
+#    affiliation: ...
+#    role: Coder
+repository-code: "https://github.com/michaelschiltz/clearing-and-settling"
+license: CC-BY-4.0            # data licence; code is under LICENSE (MIT)
+version: 0.1.0
+date-released: 2026-07-08
+keywords:
+  - economic history
+  - Japan
+  - clearing and settlement
+  - monetary history
+  - ergodicity economics
