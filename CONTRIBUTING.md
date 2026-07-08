@@ -23,11 +23,11 @@ a `coder` field naming the person who entered it. Interpretive decisions that ar
 contestable additionally carry an `authority` note in the codebook. `git blame`
 is the backstop: it shows who changed which line, when, in which commit.
 
-| Role | Responsibility |
-|------|----------------|
-| Maintainer | Owns the schema; approves merges to `main`; cuts releases. |
-| Coder | Enters and normalises data; documents decisions in the logbook. |
-| Reviewer | Second pair of eyes on every PR touching data or schema. |
+| Role       | Responsibility                                                  |
+|------------|-----------------------------------------------------------------|
+| Maintainer | Owns the schema; approves merges to `main`; cuts releases.      |
+| Coder      | Enters and normalises data; documents decisions in the logbook. |
+| Reviewer   | Second pair of eyes on every PR touching data or schema.        |
 
 ## 3. The workflow
 
@@ -42,12 +42,12 @@ is the backstop: it shows who changed which line, when, in which commit.
 
 **Missingness is disaggregated.** Never leave a cell blank. Use:
 
-| Code | Meaning |
-|------|---------|
-| `.NR` | not recorded in the source |
-| `.IL` | present but illegible / damaged |
-| `.NA` | not applicable to this record type |
-| `.ZERO` | the source records an actual zero |
+| Code    | Meaning                            |
+|---------|------------------------------------|
+| `.NR`   | not recorded in the source         |
+| `.IL`   | present but illegible / damaged    |
+| `.NA`   | not applicable to this record type |
+| `.ZERO` | the source records an actual zero  |
 
 Conflating these is the single most common way a historical dataset gets
 discredited. They are four different epistemic states.
