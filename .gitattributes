@@ -1,0 +1,22 @@
+# Enforce LF line endings for all text so no editor or OS can introduce
+# CRLF churn. This is what keeps `git blame` on the data meaningful: a tool
+# that rewrites every line's ending (e.g. a CSV grid editor defaulting to
+# CRLF, or a Windows checkout) would otherwise destroy line-level attribution.
+
+* text=auto eol=lf
+
+# Data and documentation are text, always LF:
+*.csv   text eol=lf
+*.tsv   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.jl    text eol=lf
+*.yml   text eol=lf
+*.cff   text eol=lf
+
+# Treat these as binary (never normalise / never diff as text):
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.pdf   binary
