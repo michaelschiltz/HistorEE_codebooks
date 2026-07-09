@@ -4,7 +4,7 @@ Versioned, timestamped, attributed data and codebooks for the project HistorEE.
 
 This repository is the data-and-documentation backbone of HistorEE. It is the successor to the single-author logbook method used in [`even-keel`](https://github.com/michaelschiltz/even-keel), extended into a team-grade apparatus for a multi-year, multi-member project.
 
-The design goal is provenance that survives scrutiny: every datum traceable to a source, every coding decision attributed to a person and a date, every published state frozen and citable.
+The design goal is *provenance that survives scrutiny*: every datum traceable to a source, every coding decision attributed to a person and a date, every published state frozen and citable.
 
 ## How this repository is organised
 
@@ -27,7 +27,7 @@ HistorEE_codebooks/
 
 1. **Data** — `data.csv`. Plain-text UTF-8. Canonical. Never a spreadsheet.
 2. **Schema** — `datapackage.json`. Machine-readable field definitions, types, constraints, and controlled-vocabulary references (Frictionless standard).
-3. **Codebook** — `codebook.md`. The human-readable, interpretive layer. It is **generated** from `datapackage.json` by `scripts/build_codebook.py` (a Julia port, `build_codebook.jl`, is also provided — use one, not both). Editing the codebook by hand is a mistake: edit the schema and regenerate. One source of truth, rendered two ways.
+3. **Codebook** — `codebook.md`. The human-readable, interpretive layer. It is **generated** from `datapackage.json` by `scripts/build_codebook.py` (a Julia port, `build_codebook.jl`, is also provided — use one, not both). **Editing the codebooks by hand is a mistake**: edit the schema and regenerate. One source of truth, rendered two ways.
 
 ## Provenance apparatus
 
