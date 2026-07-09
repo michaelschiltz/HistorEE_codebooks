@@ -1,0 +1,38 @@
+name: validate-data
+
+# Every push and PR revalidates the data against its schema and checks that the
+# committed codebook.md matches what the generator produces. A drifted codebook
+# fails the build — you cannot merge a codebook that no longer matches the schema.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install tooling
+        run: pip install frictionless pyyaml
+
+      - name: Validate every datapackage against its data
+        run: |
+          for dp in datasets/*/datapackage.json; do
+            echo "Validating $dp"
+            frictionless validate "$dp"
+          done
+
+      - name: Check codebooks are up to date
+        run: |
+          python scripts/build_codebook.py
+          if ! git diff --exit-code -- 'datasets/*/codebook.md'; then
+            echo "::error::codebook.md is out of date. Run scripts/build_codebook.py and commit."
+            exit 1
+          fi

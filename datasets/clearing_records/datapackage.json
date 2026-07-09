@@ -1,0 +1,50 @@
+{
+  "name": "clearing_records",
+  "title": "Clearing and settlement records (illustrative)",
+  "description": "ILLUSTRATIVE / SYNTHETIC worked example. Tokugawa-period money-changer and remittance settlements, structured to demonstrate the project's coding conventions: transparent unit normalisation across the sanka (gold/silver/copper) system, disaggregated missingness, explicit uncertainty, a source-language layer, and per-observation coder attribution. Not archival data.",
+  "version": "0.1.0",
+  "licenses": [
+    { "name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0" }
+  ],
+  "contributors": [
+    { "title": "Michael Schiltz", "role": "maintainer", "organization": "Hokkaido University" }
+  ],
+  "created": "2026-07-08T00:00:00Z",
+  "resources": [
+    {
+      "name": "clearing_records",
+      "path": "data.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": { "delimiter": ",", "header": true },
+      "schema": {
+        "primaryKey": "record_id",
+        "missingValues": ["", ".NR", ".IL", ".NA"],
+        "fields": [
+          { "name": "record_id", "type": "string", "title": "Record ID", "description": "Stable unique identifier for the settlement record. Never reused.", "constraints": { "required": true, "unique": true, "pattern": "^CR-[0-9]{4}$" } },
+          { "name": "date_wareki", "type": "string", "title": "Date (Japanese era, original)", "description": "Date exactly as written in the source, in the Japanese era (wareki) calendar. Preserves the original, including markers of loss or inference (e.g. 欠 'missing', 推定 'inferred')." },
+          { "name": "date_iso", "type": "string", "title": "Date (ISO 8601, normalised)", "description": "Gregorian/ISO normalisation of date_wareki. Reduced precision (year, or year-month) is expressed by a truncated ISO string when the source does not license a full date." },
+          { "name": "date_confidence", "type": "string", "title": "Date confidence", "description": "Confidence in the normalised date.", "constraints": { "enum": ["high", "medium", "low"] } },
+          { "name": "instrument_wareki", "type": "string", "title": "Instrument (original term)", "description": "The instrument as named in the source, in the original script (e.g. 手形, 為替, 振替, 両替)." },
+          { "name": "instrument_romaji", "type": "string", "title": "Instrument (romanisation)", "description": "Hepburn romanisation of instrument_wareki." },
+          { "name": "instrument_type", "type": "string", "title": "Instrument type (coded)", "description": "Controlled code mapping the source term to a project category. Vocabulary: vocabularies/instrument_type.csv. Where a term's referent shifts across periods, the shift is documented in the logbook rather than silently recoded.", "constraints": { "enum": ["bill_note", "remittance_bill", "book_transfer", "money_exchange"] } },
+          { "name": "amount_original", "type": "number", "title": "Amount (as written)", "description": "The figure as recorded in the source, in its original unit (amount_unit). Missing values use the disaggregated codes (see missingness and missingValues); an explicit source zero is the number 0, not a missing code." },
+          { "name": "amount_unit", "type": "string", "title": "Original unit", "description": "Monetary unit of amount_original within the sanka three-currency system.", "constraints": { "enum": ["ryo", "monme", "kanme", "mon"] } },
+          { "name": "amount_monme_silver", "type": "number", "title": "Amount (normalised, silver monme)", "description": "amount_original normalised to a common unit — silver monme — to make cross-currency records comparable. The conversion applied is named in normalization_method; the choice of common unit and its assumptions are the project's, and are auditable per row." },
+          { "name": "normalization_method", "type": "string", "title": "Normalisation method", "description": "The exact conversion applied to reach amount_monme_silver: 'identity_silver' (already silver), a named gold/copper conversion with its rate and source (e.g. 'ryo_to_monme@60_official1700'), or '.NA' where no amount exists to convert." },
+          { "name": "missingness", "type": "string", "title": "Missingness (of amount)", "description": "Epistemic status of the amount. Four kinds of absence are never conflated: observed, not_recorded, illegible, not_applicable — plus explicit_zero for a source-recorded nil, which is a value, not an absence.", "constraints": { "enum": ["observed", "not_recorded", "illegible", "not_applicable", "explicit_zero"] } },
+          { "name": "payer", "type": "string", "title": "Payer / remitter", "description": "Party debited, as named in the source (romanised). Missing coded per convention." },
+          { "name": "payee", "type": "string", "title": "Payee / beneficiary", "description": "Party credited, as named in the source (romanised). Missing coded per convention." },
+          { "name": "place_romaji", "type": "string", "title": "Place", "description": "Place of settlement (romanised)." },
+          { "name": "source_ref", "type": "string", "title": "Source reference", "description": "Archive/series call number and folio, keyed to logbook 5 (quality and nature of sources)." },
+          { "name": "source_lang", "type": "string", "title": "Source language", "description": "ISO 639-1 language of the source text.", "constraints": { "enum": ["ja", "nl", "de", "fr", "en"] } },
+          { "name": "confidence", "type": "string", "title": "Record confidence", "description": "Overall confidence in the coded record. Uncertainty is made an explicit column, not laundered into prose.", "constraints": { "enum": ["high", "medium", "low"] } },
+          { "name": "coder", "type": "string", "title": "Coder", "description": "Initials of the team member who entered the record. The backstop for attribution is git blame; contestable interpretive calls additionally carry an authority note in the logbook.", "constraints": { "required": true } },
+          { "name": "notes", "type": "string", "title": "Notes", "description": "Free-text coder note: rationale, caveats, cross-references." }
+        ]
+      }
+    }
+  ]
+}

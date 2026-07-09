@@ -1,0 +1,8 @@
+# Every change to schema, data, or vocabularies requires maintainer review
+# before it can merge to a protected main. Replace with real GitHub handles.
+
+*                       @michaelschiltz
+/datasets/              @michaelschiltz
+/vocabularies/          @michaelschiltz
+/scripts/               @michaelschiltz
+datapackage.json        @michaelschiltz
