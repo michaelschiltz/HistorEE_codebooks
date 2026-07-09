@@ -49,23 +49,15 @@ is the backstop: it shows who changed which line, when, in which commit.
 | `.NA`   | not applicable to this record type |
 | `.ZERO` | the source records an actual zero  |
 
-Conflating these is the single most common way a historical dataset gets
-discredited. They are four different epistemic states.
+Conflating these is the single most common way a historical dataset gets discredited. They are four different epistemic states.
 
-**Uncertainty is explicit.** The `confidence` field is coded `high` / `medium`
-/ `low`, defined in the codebook. Do not launder uncertainty into prose.
+**Uncertainty is explicit.** The `confidence` field is coded `high` / `medium`/ `low`, defined in the codebook. Do not launder uncertainty into prose.
 
-**Units are normalised transparently.** Any monetary amount carries both its
-original figure/unit *and* a normalised value, with the `normalization_method`
-naming the conversion applied. For Tokugawa material this means the *sanka* (三貨)
-gold/silver/copper problem is made auditable per row, not buried in a footnote.
+**Units are normalised transparently.** Any monetary amount carries both its original figure/unit *and* a normalised value, with the `normalization_method` naming the conversion applied. For Tokugawa material this means the *sanka* (三貨) gold/silver/copper problem is made auditable per row, not buried in a footnote.
 
-**Source language is preserved.** Original term, romanisation, and gloss are
-kept as separate fields. Where a term's referent shifts across periods, record
-the shift in the codebook rather than smoothing it over.
+**Source language is preserved.** Original term, romanisation, and gloss are kept as separate fields. Where a term's referent shifts across periods, record the shift in the codebook rather than smoothing it over.
 
 ## 5. Extending the schema
 
 Schema growth is **additive**. Add a field; do not repurpose an existing one.
-Bump the data-package `version` (semantic versioning) and record the change in
-`CHANGELOG.md`. Additive change never breaks a downstream consumer.
+Bump the data-package `version` (semantic versioning) and record the change in `CHANGELOG.md`. Additive change never breaks a downstream consumer.
