@@ -15,4 +15,4 @@ decisions that matter to a data *consumer*. Format follows
 ## [0.1.0] — 2026-07-08
 
 - Provisional schema. Provenance apparatus established from commit one.
-- Snapshot to be minted to a Zenodo DOI on first tagged release.
+- Snapshot to be minted to a FigShare and Zenodo DOI on first tagged release.
