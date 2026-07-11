@@ -9,6 +9,7 @@ decisions that matter to a data *consumer*. Format follows
 ## [Unreleased]
 
 ### Added
+
 - Initial repository scaffold and governance layer.
 - `clearing_records` illustrative dataset (synthetic) demonstrating the schema.
 
