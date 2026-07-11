@@ -27,7 +27,7 @@ HistorEE_codebooks/
 
 1. **Data** — `data.csv`. Plain-text UTF-8. Canonical. Never a spreadsheet.
 2. **Schema** — `datapackage.json`. Machine-readable field definitions, types, constraints, and controlled-vocabulary references (Frictionless standard).
-3. **Codebook** — `codebook.md`. The human-readable, interpretive layer. It is **generated** from `datapackage.json` by `scripts/build_codebook.py` (a Julia port, `build_codebook.jl`, is also provided — use one, not both). **Editing the codebooks by hand is a mistake**: edit the schema and regenerate. One source of truth, rendered two ways.
+3. **Codebook** — `codebook.md`. The human-readable, interpretive layer. It is **generated** from `datapackage.json` by `scripts/build_codebook.py` (Python, standard library only — no dependencies). **Editing the codebooks by hand is a mistake**: edit the schema and regenerate. One source of truth, rendered two ways.
 
 ## Provenance apparatus
 
