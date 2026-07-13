@@ -36,6 +36,15 @@ HistorEE_codebooks/
 - **Tagged releases minted to a FigShare and Zenodo DOI** freeze citable snapshots at each milestone (the model used by the Seshat Global History Databank).
 - **Redundancy**: the repository is mirrored to the Hokkaido University institutional repository, FigShare and Zenodo, so survival does not solely depend on GitHub.
 
+## Licensing
+
+This repository uses a **dual licence**, because code and data are different things and conflating them causes exactly the mess visible in the Seshat databank (where the GitHub copy carried CC0 while the project page asserted CC-BY-NC-SA). Do not repeat that.
+
+- **Code** (`scripts/`, workflows) — MIT. See [`LICENSE`](LICENSE).
+- **Data and codebooks** (`datasets/`, `vocabularies/`, `logbook/`) — **Creative Commons Attribution 4.0 (CC-BY-4.0)**. See [`LICENSE-DATA.md`](LICENSE-DATA.md).
+
+If a source archive imposes non-commercial or redistribution restrictions on transcribed material, that dataset's folder carries its own `LICENSE` overriding this default, and the restriction is noted in its codebook. Resolve licence questions **before** publishing a dataset, never after.
+
 ## Provisional status
 
 The schema is deliberately minimal and **additive-extensible**. Fields will accrete from archival work; they will not be retrofitted. The provenance apparatus is fixed from the first commit, because history cannot be back-dated.

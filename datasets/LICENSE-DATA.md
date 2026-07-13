@@ -1,16 +1,7 @@
-# Licensing — decide once, decide coherently
+# Data licensing
 
-This project uses a **dual licence**, because code and data are different things
-and conflating them causes exactly the mess visible in the Seshat databank
-(where the GitHub copy carried CC0 while the project page asserted CC-BY-NC-SA).
-Do not repeat that.
-
-- **Code** (`scripts/`, workflows) — MIT. See `LICENSE`.
-- **Data and codebooks** (`datasets/`, `vocabularies/`, `logbook/`) —
-  **Creative Commons Attribution 4.0 (CC-BY-4.0)** unless a source archive's
-  terms require otherwise.
-
-If any archive imposes non-commercial or redistribution restrictions on
-transcribed material, that dataset folder carries its own `LICENSE` overriding
-this default, and the restriction is noted in its codebook. Resolve licence
-questions **before** publishing a dataset, never after.
+Data and codebooks in this folder are licensed under **CC BY 4.0** by default.
+See [`/LICENSE-DATA.md`](../LICENSE-DATA.md) at the repository root for the
+full license text, and the root [`README.md`](../README.md#licensing) for the
+per-dataset override policy (source archives with NC/redistribution
+restrictions carry their own `LICENSE` in that dataset's folder).
