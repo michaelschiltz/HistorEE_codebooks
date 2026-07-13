@@ -8,12 +8,12 @@ decisions that matter to a data *consumer*. Format follows
 
 ## [Unreleased]
 
+## [0.1.0] — 2026-07-08
+
 ### Added
 
 - Initial repository scaffold and governance layer.
 - `clearing_records` illustrative dataset (synthetic) demonstrating the schema.
-
-## [0.1.0] — 2026-07-08
-
 - Provisional schema. Provenance apparatus established from commit one.
-- Snapshot to be minted to a FigShare and Zenodo DOI on first tagged release.
+
+Snapshot minted to a FigShare and Zenodo DOI on this, the first tagged release.
