@@ -20,3 +20,8 @@
 *.jpg   binary
 *.jpeg  binary
 *.pdf   binary
+
+# Keep the language bar honest: the HTML preview is a rendered/generated
+# artifact, not authored source. Exclude it from Linguist's language stats
+# (and collapse it in diffs).
+codebook-preview.html linguist-generated=true
