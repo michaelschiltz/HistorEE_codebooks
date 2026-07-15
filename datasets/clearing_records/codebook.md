@@ -15,7 +15,7 @@ ILLUSTRATIVE / SYNTHETIC worked example. Tokugawa-period money-changer and remit
 
 ## Provenance
 
-Attribution and timestamps are supplied by Git (`git blame` for line-level history); releases are frozen and citable via a Zenodo DOI. Per-observation coder attribution is carried in the `coder` field.
+Attribution and timestamps are supplied by Git (`git blame` for line-level history); releases are frozen and citable via a Zenodo and FigShare DOI. Per-observation coder attribution is carried in the `coder` field.
 
 
 ## Missing-value conventions
