@@ -23,10 +23,10 @@ Attribution and timestamps are supplied by Git (`git blame` for line-level histo
 Absence is coded, never blank. These tokens are treated as missing by the schema (`missingValues`):
 
 
-| Token | Meaning |
-|---|---|
-| `.NR` | not recorded in the source |
-| `.IL` | present but illegible / damaged |
+| Token | Meaning                            |
+|-------|------------------------------------|
+| `.NR` | not recorded in the source         |
+| `.IL` | present but illegible / damaged    |
 | `.NA` | not applicable to this record type |
 
 > `.ZERO` is **not** here: a source-recorded zero is the value `0`, a datum, not an absence (see the `missingness` field).
@@ -34,28 +34,28 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 ## Variables at a glance
 
-| # | Field | Type | Required | Coded values | Present |
-|---:|---|---|:---:|---|---:|
-| 1 | `record_id` | string | ✓ |  | 8/8 |
-| 2 | `date_wareki` | string |  |  | 8/8 |
-| 3 | `date_iso` | string |  |  | 8/8 |
-| 4 | `date_confidence` | string |  | `high`, `medium`, `low` | 8/8 |
-| 5 | `instrument_wareki` | string |  |  | 8/8 |
-| 6 | `instrument_romaji` | string |  |  | 8/8 |
-| 7 | `instrument_type` | string |  | `bill_note`, `remittance_bill`, `book_transfer`, `money_exchange` | 8/8 |
-| 8 | `amount_original` | number |  |  | 7/8 |
-| 9 | `amount_unit` | string |  | `ryo`, `monme`, `kanme`, `mon` | 8/8 |
-| 10 | `amount_monme_silver` | number |  |  | 7/8 |
-| 11 | `normalization_method` | string |  |  | 7/8 |
-| 12 | `missingness` | string |  | `observed`, `not_recorded`, `illegible`, `not_applicable`, `explicit_zero` | 8/8 |
-| 13 | `payer` | string |  |  | 8/8 |
-| 14 | `payee` | string |  |  | 6/8 |
-| 15 | `place_romaji` | string |  |  | 8/8 |
-| 16 | `source_ref` | string |  |  | 8/8 |
-| 17 | `source_lang` | string |  | `ja`, `nl`, `de`, `fr`, `en` | 8/8 |
-| 18 | `confidence` | string |  | `high`, `medium`, `low` | 8/8 |
-| 19 | `coder` | string | ✓ |  | 8/8 |
-| 20 | `notes` | string |  |  | 8/8 |
+|  # | Field                  | Type   | Required | Coded values                                                               | Present |
+|---:|------------------------|--------|:--------:|----------------------------------------------------------------------------|--------:|
+|  1 | `record_id`            | string |    ✓     |                                                                            |     8/8 |
+|  2 | `date_wareki`          | string |          |                                                                            |     8/8 |
+|  3 | `date_iso`             | string |          |                                                                            |     8/8 |
+|  4 | `date_confidence`      | string |          | `high`, `medium`, `low`                                                    |     8/8 |
+|  5 | `instrument_wareki`    | string |          |                                                                            |     8/8 |
+|  6 | `instrument_romaji`    | string |          |                                                                            |     8/8 |
+|  7 | `instrument_type`      | string |          | `bill_note`, `remittance_bill`, `book_transfer`, `money_exchange`          |     8/8 |
+|  8 | `amount_original`      | number |          |                                                                            |     7/8 |
+|  9 | `amount_unit`          | string |          | `ryo`, `monme`, `kanme`, `mon`                                             |     8/8 |
+| 10 | `amount_monme_silver`  | number |          |                                                                            |     7/8 |
+| 11 | `normalization_method` | string |          |                                                                            |     7/8 |
+| 12 | `missingness`          | string |          | `observed`, `not_recorded`, `illegible`, `not_applicable`, `explicit_zero` |     8/8 |
+| 13 | `payer`                | string |          |                                                                            |     8/8 |
+| 14 | `payee`                | string |          |                                                                            |     6/8 |
+| 15 | `place_romaji`         | string |          |                                                                            |     8/8 |
+| 16 | `source_ref`           | string |          |                                                                            |     8/8 |
+| 17 | `source_lang`          | string |          | `ja`, `nl`, `de`, `fr`, `en`                                               |     8/8 |
+| 18 | `confidence`           | string |          | `high`, `medium`, `low`                                                    |     8/8 |
+| 19 | `coder`                | string |    ✓     |                                                                            |     8/8 |
+| 20 | `notes`                | string |          |                                                                            |     8/8 |
 
 ## Variable definitions
 
