@@ -11,9 +11,16 @@ it, so every contributor reads this before touching data.
    or through a script.
 2. **Never hand-edit `codebook.md`.** It is generated. Edit `datapackage.json`
    and run `python scripts/build_codebook.py`.
-3. **No blank cells.** Absence is coded, never empty. See §4.
-4. **One decision, one commit.** Commit messages record *why*, not just *what*.
-5. **Sign your commits** (`git commit -S`). Attribution must be cryptographic,
+3. **Each dataset is its own package.** Distinct corpora (different period,
+   region, or source type — e.g. medieval Japanese registers vs. early modern
+   Armenian ledgers) get their own folder under `datasets/`, each with its own
+   `datapackage.json`, `data.csv`, and generated `codebook.md`. Do not merge
+   unrelated corpora into one schema just because they share this repo;
+   `build_codebook.py` regenerates every dataset folder it finds, so adding a
+   new one is just adding a new folder.
+4. **No blank cells.** Absence is coded, never empty. See §4.
+5. **One decision, one commit.** Commit messages record *why*, not just *what*.
+6. **Sign your commits** (`git commit -S`). Attribution must be cryptographic,
    not merely a name string.
 
 ## 2. Roles and attribution
