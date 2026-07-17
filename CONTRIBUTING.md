@@ -17,7 +17,9 @@ it, so every contributor reads this before touching data.
    `datapackage.json`, `data.csv`, and generated `codebook.md`. Do not merge
    unrelated corpora into one schema just because they share this repo;
    `build_codebook.py` regenerates every dataset folder it finds, so adding a
-   new one is just adding a new folder.
+   new one is just adding a new folder. Start from `datasets/_template/`
+   (§3) rather than copying an existing dataset — a real corpus carries
+   fields specific to it that a new one should not inherit by accident.
 4. **No blank cells.** Absence is coded, never empty. See §4.
 5. **One decision, one commit.** Commit messages record *why*, not just *what*.
 6. **Sign your commits** (`git commit -S`). Attribution must be cryptographic,
@@ -39,11 +41,47 @@ is the backstop: it shows who changed which line, when, in which commit.
 ## 3. The workflow
 
 1. Branch from `main` (`git switch -c coding/<dataset>-<yourname>`).
-2. Make changes. Regenerate the codebook if you touched the schema.
-3. Run validation locally: `frictionless validate datasets/<dataset>/datapackage.json`.
-4. Open a pull request using the template. CI re-runs validation.
-5. A reviewer approves. Only then does it merge to `main`.
-6. `main` is protected: no direct pushes, no unreviewed data.
+2. **New dataset?** Scaffold it from the template rather than writing
+   `datapackage.json` from scratch:
+
+   ```sh
+   cp -r datasets/_template datasets/<dataset_name>
+   ```
+
+   Fill in every `REPLACE_...` placeholder, and keep or delete each
+   `TEMPLATE —` field depending on whether that pattern applies (full
+   instructions in `datasets/_template/README.md`). The mandatory fields —
+   `record_id`, `source_ref`, `source_lang`, `confidence`, `coder`,
+   `notes` — are not optional patterns; every dataset carries them. For
+   reference, here is an excerpt of the template showing the two kinds of
+   field (the real, validated version lives at
+   `datasets/_template/datapackage.json` — treat this as illustration, not
+   the source of truth):
+
+   ```jsonc
+   {
+     "schema": {
+       "fields": [
+         // mandatory — every dataset keeps this as-is
+         { "name": "coder", "type": "string", "title": "Coder",
+           "constraints": { "required": true } },
+
+         // optional pattern — keep only if this dataset has monetary
+         // amounts; rename example_amount_original -> amount_original, etc.
+         { "name": "example_amount_original", "type": "number",
+           "title": "TEMPLATE — Amount (as written)",
+           "description": "OPTIONAL PATTERN, delete if not applicable — ..." }
+       ]
+     }
+   }
+   ```
+
+3. Make changes. Regenerate the codebook if you touched the schema:
+   `python scripts/build_codebook.py datasets/<dataset_name>`.
+4. Run validation locally: `frictionless validate datasets/<dataset>/datapackage.json`.
+5. Open a pull request using the template. CI re-runs validation.
+6. A reviewer approves. Only then does it merge to `main`.
+7. `main` is protected: no direct pushes, no unreviewed data.
 
 ## 4. Coding conventions (the parts referees test)
 

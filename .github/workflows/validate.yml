@@ -25,6 +25,7 @@ jobs:
       - name: Validate every datapackage against its data
         run: |
           for dp in datasets/*/datapackage.json; do
+            [[ "$dp" == datasets/_template/* ]] && continue
             echo "Validating $dp"
             frictionless validate "$dp"
           done

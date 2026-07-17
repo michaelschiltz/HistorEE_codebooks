@@ -121,7 +121,10 @@ def main() -> None:
     targets = (
         [Path(sys.argv[1])]
         if len(sys.argv) > 1
-        else sorted(p for p in DATASETS.iterdir() if (p / "datapackage.json").exists())
+        else sorted(
+            p for p in DATASETS.iterdir()
+            if (p / "datapackage.json").exists() and not p.name.startswith("_")
+        )
     )
     for d in targets:
         dest = build(d)

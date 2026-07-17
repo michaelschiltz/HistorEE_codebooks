@@ -1,0 +1,47 @@
+{
+  "name": "REPLACE_WITH_DATASET_NAME",
+  "title": "REPLACE — short human-readable title",
+  "description": "REPLACE — what this dataset covers (period, region, source type) and why it is its own package rather than merged into another (CONTRIBUTING §1.3).",
+  "version": "0.1.0",
+  "licenses": [
+    { "name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0" }
+  ],
+  "contributors": [
+    { "title": "REPLACE Name", "role": "maintainer", "organization": "REPLACE Affiliation" }
+  ],
+  "created": "REPLACE — ISO 8601, e.g. 2026-07-17T00:00:00Z",
+  "resources": [
+    {
+      "name": "REPLACE_WITH_DATASET_NAME",
+      "path": "data.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": { "delimiter": ",", "header": true },
+      "schema": {
+        "primaryKey": "record_id",
+        "missingValues": ["", ".NR", ".IL", ".NA"],
+        "fields": [
+          { "name": "record_id", "type": "string", "title": "Record ID", "description": "Stable unique identifier. Never reused. Replace the pattern prefix below with a short dataset code.", "constraints": { "required": true, "unique": true, "pattern": "^REPLACE-[0-9]{4}$" } },
+
+          { "name": "example_amount_original", "type": "number", "title": "TEMPLATE — Amount (as written)", "description": "OPTIONAL PATTERN, delete if not applicable — include only if this dataset records monetary amounts (CONTRIBUTING §4). Original figure in its source unit; pairs with example_amount_unit and example_amount_normalized." },
+          { "name": "example_amount_unit", "type": "string", "title": "TEMPLATE — Original unit", "description": "OPTIONAL PATTERN, delete if not applicable — unit of example_amount_original.", "constraints": { "enum": ["REPLACE_UNIT_A", "REPLACE_UNIT_B"] } },
+          { "name": "example_amount_normalized", "type": "number", "title": "TEMPLATE — Amount (normalised)", "description": "OPTIONAL PATTERN, delete if not applicable — example_amount_original converted to one common unit for comparability. The conversion applied is named in example_normalization_method, auditable per row." },
+          { "name": "example_normalization_method", "type": "string", "title": "TEMPLATE — Normalisation method", "description": "OPTIONAL PATTERN, delete if not applicable — the exact conversion applied (e.g. 'identity', a named rate with its source, or '.NA' where nothing was converted)." },
+          { "name": "example_missingness", "type": "string", "title": "TEMPLATE — Missingness (of amount)", "description": "OPTIONAL PATTERN, delete if not applicable — needed only when a field must distinguish a true source-recorded zero (a value) from the other kinds of absence, which the missingValues tokens already cover.", "constraints": { "enum": ["observed", "not_recorded", "illegible", "not_applicable", "explicit_zero"] } },
+
+          { "name": "example_term_original", "type": "string", "title": "TEMPLATE — Term (original script)", "description": "OPTIONAL PATTERN, delete if not applicable — include only if the source is not in English (CONTRIBUTING §4, source language preserved). Original term, kept separate from its romanisation and gloss." },
+          { "name": "example_term_romanised", "type": "string", "title": "TEMPLATE — Term (romanised)", "description": "OPTIONAL PATTERN, delete if not applicable — romanisation of example_term_original." },
+          { "name": "example_term_gloss", "type": "string", "title": "TEMPLATE — Term (gloss)", "description": "OPTIONAL PATTERN, delete if not applicable — English gloss of example_term_original. Where a term's referent shifts across periods, record the shift in the logbook rather than smoothing it over." },
+
+          { "name": "source_ref", "type": "string", "title": "Source reference", "description": "Archive/series call number and folio (or equivalent), keyed to the logbook." },
+          { "name": "source_lang", "type": "string", "title": "Source language", "description": "ISO 639-1 language code of the source text." },
+          { "name": "confidence", "type": "string", "title": "Record confidence", "description": "Overall confidence in the coded record. Uncertainty is an explicit column, not prose.", "constraints": { "enum": ["high", "medium", "low"] } },
+          { "name": "coder", "type": "string", "title": "Coder", "description": "Initials of the team member who entered the record (CONTRIBUTING §2).", "constraints": { "required": true } },
+          { "name": "notes", "type": "string", "title": "Notes", "description": "Free-text coder note: rationale, caveats, cross-references." }
+        ]
+      }
+    }
+  ]
+}
