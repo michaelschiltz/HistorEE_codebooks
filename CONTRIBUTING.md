@@ -1,6 +1,6 @@
 # Contributing — the coding manual
 
-This is not boilerplate. It is the coding protocol for the project. In amulti-member team the codebook is only  as trustworthy as the discipline behindit, so every contributor reads this before touching data.
+This is *not boilerplate*. It is the coding protocol for the project. In a multi-member team the codebook is only  as trustworthy as the discipline behind it, so every contributor reads this before touching data.
 
 ## 1. Golden rules
 
