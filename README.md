@@ -34,7 +34,7 @@ HistorEE_codebooks/
 - **Git history** supplies line-level attribution and timestamps (`git blame`).
 - **Signed commits** and a **protected `main`** make attribution cryptographic.
 - **Tagged releases minted to a FigShare and Zenodo DOI** freeze citable snapshots at each milestone (the model used by the Seshat Global History Databank).
-- **Redundancy**: the repository is mirrored to the Hokkaido University institutional repository, FigShare and Zenodo, so survival does not solely depend on GitHub.
+- **Redundancy**: the repository is mirrored to FigShare and Zenodo, so survival does not solely depend on GitHub.
 
 ## Licensing
 
