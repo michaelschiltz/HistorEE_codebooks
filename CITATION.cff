@@ -5,6 +5,7 @@ type: dataset
 authors:
   - family-names: Schiltz
     given-names: Michael
+    affiliation: London Mathematical Laboratory (incoming)
     orcid: "https://orcid.org/0000-0001-9776-7918"
     role: Maintainer
 # Add team members below as they join, with roles:
