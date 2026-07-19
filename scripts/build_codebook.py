@@ -40,6 +40,34 @@ def md_escape(text: str) -> str:
     return (text or "").replace("|", "\\|").replace("\n", " ")
 
 
+def md_table(headers: list[str], rows: list[list[str]], aligns: str = "") -> list[str]:
+    """Render an aligned GitHub-flavoured markdown table.
+
+    aligns: one char per column, 'l' (default) / 'c' / 'r'.
+    """
+    aligns = (aligns + "l" * len(headers))[: len(headers)]
+    widths = [len(h) for h in headers]
+    for row in rows:
+        for i, c in enumerate(row):
+            widths[i] = max(widths[i], len(c))
+
+    def cell(text: str, w: int, a: str) -> str:
+        return text.rjust(w) if a == "r" else text.center(w) if a == "c" else text.ljust(w)
+
+    def sep(w: int, a: str) -> str:
+        if a == "r":
+            return "-" * (w + 1) + ":"
+        if a == "c":
+            return ":" + "-" * w + ":"
+        return "-" * (w + 2)
+
+    lines = ["| " + " | ".join(cell(h, w, a) for h, w, a in zip(headers, widths, aligns)) + " |"]
+    lines.append("|" + "|".join(sep(w, a) for w, a in zip(widths, aligns)) + "|")
+    for row in rows:
+        lines.append("| " + " | ".join(cell(c, w, a) for c, w, a in zip(row, widths, aligns)) + " |")
+    return lines
+
+
 def build(dataset_dir: Path) -> Path:
     dp = json.loads((dataset_dir / "datapackage.json").read_text(encoding="utf-8"))
     res = dp["resources"][0]
@@ -71,29 +99,34 @@ def build(dataset_dir: Path) -> Path:
 
     w("\n## Provenance\n")
     w("Attribution and timestamps are supplied by Git (`git blame` for line-level "
-      "history); releases are frozen and citable via a Zenodo DOI. Per-observation "
-      "coder attribution is carried in the `coder` field.\n")
+      "history); releases are frozen and citable via a FigShare and Zenodo DOI. "
+      "Per-observation coder attribution is carried in the `coder` field.\n")
 
     w("\n## Missing-value conventions\n")
     w("Absence is coded, never blank. These tokens are treated as missing by the "
       "schema (`missingValues`):\n")
-    w("\n| Token | Meaning |")
-    w("|---|---|")
-    w("| `.NR` | not recorded in the source |")
-    w("| `.IL` | present but illegible / damaged |")
-    w("| `.NA` | not applicable to this record type |")
+    for line in md_table(
+        ["Token", "Meaning"],
+        [
+            ["`.NR`", "not recorded in the source"],
+            ["`.IL`", "present but illegible / damaged"],
+            ["`.NA`", "not applicable to this record type"],
+        ],
+    ):
+        w(line)
     w("\n> `.ZERO` is **not** here: a source-recorded zero is the value `0`, a datum, "
       "not an absence (see the `missingness` field).\n")
 
     w("\n## Variables at a glance\n")
-    w("| # | Field | Type | Required | Coded values | Present |")
-    w("|---:|---|---|:---:|---|---:|")
+    rows = []
     for i, f in enumerate(fields, 1):
         c = f.get("constraints", {}) or {}
         req = "✓" if c.get("required") else ""
         enum = ", ".join(f"`{v}`" for v in c["enum"]) if "enum" in c else ""
-        cov = f"{present.get(f['name'],0)}/{n_rows}" if n_rows else "—"
-        w(f"| {i} | `{f['name']}` | {f.get('type','')} | {req} | {md_escape(enum)} | {cov} |")
+        cov = f"{present.get(f['name'], 0)}/{n_rows}" if n_rows else "—"
+        rows.append([str(i), f"`{f['name']}`", f.get("type", ""), req, md_escape(enum), cov])
+    for line in md_table(["#", "Field", "Type", "Required", "Coded values", "Present"], rows, aligns="rllclr"):
+        w(line)
 
     w("\n## Variable definitions\n")
     for f in fields:

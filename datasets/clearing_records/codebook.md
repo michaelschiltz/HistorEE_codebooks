@@ -15,13 +15,12 @@ ILLUSTRATIVE / SYNTHETIC worked example. Tokugawa-period money-changer and remit
 
 ## Provenance
 
-Attribution and timestamps are supplied by Git (`git blame` for line-level history); releases are frozen and citable via a Zenodo and FigShare DOI. Per-observation coder attribution is carried in the `coder` field.
+Attribution and timestamps are supplied by Git (`git blame` for line-level history); releases are frozen and citable via a FigShare and Zenodo DOI. Per-observation coder attribution is carried in the `coder` field.
 
 
 ## Missing-value conventions
 
 Absence is coded, never blank. These tokens are treated as missing by the schema (`missingValues`):
-
 
 | Token | Meaning                            |
 |-------|------------------------------------|
