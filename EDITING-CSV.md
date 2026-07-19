@@ -43,11 +43,11 @@ Edit CSV writes the whole file back out on save, so it's worth confirming those 
 
 ## Which one, when
 
-| Task | Reach for |
-|---|---|
-| Fixing a typo, changing one or two values | Plain text, or Rainbow CSV if the row is wide |
-| Scanning/verifying a block of rows | Rainbow CSV |
-| Adding several new rows, or you're not comfortable hand-typing CSV | Edit CSV |
-| Bulk transformation across many rows | A script (per CONTRIBUTING §1) — none of the above scale to that |
+| Task                                                               | Reach for                                                        |
+|--------------------------------------------------------------------|------------------------------------------------------------------|
+| Fixing a typo, changing one or two values                          | Plain text, or Rainbow CSV if the row is wide                    |
+| Scanning/verifying a block of rows                                 | Rainbow CSV                                                      |
+| Adding several new rows, or you're not comfortable hand-typing CSV | Edit CSV                                                         |
+| Bulk transformation across many rows                               | A script (per CONTRIBUTING §1) — none of the above scale to that |
 
 Whichever you use: no blank cells (use `.NR` / `.IL` / `.NA` per CONTRIBUTING §4), and run `frictionless validate datasets/<dataset>/datapackage.json` before opening a PR.
