@@ -20,6 +20,8 @@ Then, in the new `datapackage.json`:
 4. Delete this README from the copy — it documents the template, not the dataset.
 5. Run `python scripts/build_codebook.py datasets/<dataset_name>` and `frictionless validate datasets/<dataset_name>/datapackage.json`.
 
+For hands-on editing of `data.csv` itself (plain text, or VS Code extensions like Rainbow CSV / Edit CSV), see `EDITING-CSV.md` at the repo root.
+
 ## Always kept
 
 `record_id`, `source_ref`, `source_lang`, `confidence`, `coder`, `notes`, and the schema-level `missingValues` are not template patterns — they are the project's mandatory conventions (CONTRIBUTING §2 and §4) and every dataset carries them as-is.

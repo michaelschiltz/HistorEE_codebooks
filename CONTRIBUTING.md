@@ -4,7 +4,7 @@ This is *not boilerplate*. It is the coding protocol for the project. In a multi
 
 ## 1. Golden rules
 
-1. **The CSV is canonical.** Never edit data in Excel and paste back — you will silently mangle encodings, dates, and leading zeros. Edit `data.csv` as text, or through a script.
+1. **The CSV is canonical.** Never edit data in Excel and paste back — you will silently mangle encodings, dates, and leading zeros. Edit `data.csv` as text, or through a script. See `EDITING-CSV.md` for concrete VS Code workflows (plain text, Rainbow CSV, Edit CSV).
 2. **Never hand-edit `codebook.md`.** It is generated. Edit `datapackage.json` and run `python scripts/build_codebook.py`.
 3. **Each dataset is its own package.** Distinct corpora (different period, region, or source type — e.g. medieval Japanese registers vs. early modern Armenian ledgers) get their own folder under `datasets/`, each with its own `datapackage.json`, `data.csv`, and generated `codebook.md`. Do not merge unrelated corpora into one schema just because they share this repo; `build_codebook.py` regenerates every dataset folder it finds, so adding a new one is just adding a new folder. Start from `datasets/_template/` (§3) rather than copying an existing dataset — a real corpus carries fields specific to it that a new one should not inherit by accident.
 4. **No blank cells.** Absence is coded, never empty. See §4.
