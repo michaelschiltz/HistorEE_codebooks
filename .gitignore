@@ -1,4 +1,5 @@
 # Never commit spreadsheet round-trips or OS cruft — the CSV is canonical.
+
 *.xlsx
 *.xls
 ~$*
