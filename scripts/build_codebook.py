@@ -152,7 +152,7 @@ def build(dataset_dir: Path) -> Path:
 
 def main() -> None:
     targets = (
-        [Path(sys.argv[1])]
+        [Path(sys.argv[1]).resolve()]
         if len(sys.argv) > 1
         else sorted(
             p for p in DATASETS.iterdir()

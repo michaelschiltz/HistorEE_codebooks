@@ -16,4 +16,4 @@ decisions that matter to a data *consumer*. Format follows
 - `clearing_records` illustrative dataset (synthetic) demonstrating the schema.
 - Provisional schema. Provenance apparatus established from commit one.
 
-Snapshot minted to a FigShare and Zenodo DOI on this, the first tagged release.
+Snapshot minted to a FigShare and Zenodo DOI on this, the first tagged release: [Zenodo](https://doi.org/10.5281/zenodo.21341361) · [FigShare](https://doi.org/10.6084/m9.figshare.32947250).

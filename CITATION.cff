@@ -5,7 +5,6 @@ type: dataset
 authors:
   - family-names: Schiltz
     given-names: Michael
-    affiliation: Hokkaido University
     orcid: "https://orcid.org/0000-0001-9776-7918"
     role: Maintainer
 # Add team members below as they join, with roles:
@@ -17,6 +16,13 @@ repository-code: "https://github.com/michaelschiltz/HistorEE_codebooks"
 license: CC-BY-4.0            # data licence; code is under LICENSE (MIT)
 version: 0.1.0
 date-released: 2026-07-08
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21341361"
+    description: "Zenodo archive of v0.1.0"
+  - type: doi
+    value: "10.6084/m9.figshare.32947250"
+    description: "FigShare archive of v0.1.0"
 keywords:
   - economic history
   - Japan
