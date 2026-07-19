@@ -60,22 +60,40 @@ Contributors and roles are declared in `CITATION.cff`. Every observation carries
 
 ## 4. Coding conventions (the parts referees test)
 
-**Missingness is disaggregated.** Never leave a cell blank. Use:
+**Missingness is disaggregated.** Never leave a cell blank. Any field may carry one of three inline tokens, which the schema's `missingValues` treats as missing rather than as a value:
 
-| Code    | Meaning                            |
-|---------|------------------------------------|
-| `.NR`   | not recorded in the source         |
-| `.IL`   | present but illegible / damaged    |
-| `.NA`   | not applicable to this record type |
-| `.ZERO` | the source records an actual zero  |
+| Token | Meaning                            |
+|-------|------------------------------------|
+| `.NR` | not recorded in the source         |
+| `.IL` | present but illegible / damaged    |
+| `.NA` | not applicable to this record type |
 
-Conflating these is the single most common way a historical dataset gets discredited. They are four different epistemic states.
+Conflating these is the single most common way a historical dataset gets discredited. They are three different epistemic states, and a blank cell tells you none of them.
+
+A fourth state — the source recording an actual zero — is **not** a fourth token. `0` is a datum, and writing a special string for it would make it indistinguishable from the other three. Where a field could plausibly be either a real zero or an unrecorded absence (typically amounts), pair the literal `0` with a companion `missingness` field (the `example_missingness` pattern in the template) coded `observed` / `not_recorded` / `illegible` / `not_applicable` / `explicit_zero`. `clearing_records` shows both mechanisms in the same two rows — inline tokens on `amount_original` and `payee`, and the field pair on a real zero:
+
+```csv
+record_id,amount_original,amount_unit,missingness,payee,notes
+CR-0004,.IL,monme,illegible,.NR,Amount illegible (water damage); counterparty not recorded in source.
+CR-0006,0,monme,explicit_zero,Kōnoike-ya,Source records a nil settlement (offsetting entry) — a real zero, not missing.
+```
 
 **Uncertainty is explicit.** The `confidence` field is coded `high` / `medium`/ `low`, defined in the codebook. Do not launder uncertainty into prose.
 
-**Units are normalised transparently.** Any monetary amount carries both its original figure/unit *and* a normalised value, with the `normalization_method` naming the conversion applied. For Tokugawa material this means the *sanka* (三貨) gold/silver/copper problem is made auditable per row, not buried in a footnote.
+**Units are normalised transparently.** Any monetary amount carries both its original figure/unit *and* a normalised value, with the `normalization_method` naming the conversion applied. For Tokugawa material this means the *sanka* (三貨) gold/silver/copper problem is made auditable per row, not buried in a footnote:
 
-**Source language is preserved.** Original term, romanisation, and gloss are kept as separate fields. Where a term's referent shifts across periods, record the shift in the codebook rather than smoothing it over.
+```csv
+record_id,amount_original,amount_unit,amount_monme_silver,normalization_method,confidence,notes
+CR-0001,120,monme,120,identity_silver,high,Silver-denominated; no conversion needed.
+CR-0002,15,ryo,900,ryo_to_monme@60_official1700,medium,Gold ryō remittance at the official 60-monme rate.
+CR-0003,15,ryo,915,ryo_to_monme@61_market_est,low,Same transaction at an estimated market rate — retained to show sensitivity.
+```
+
+`normalization_method` names the exact rate and its vintage, so a reader can trace the number back to a decision rather than a black box. Where a rate is contested, keep both conversions as separate rows (as above) instead of silently picking a winner — the discarded alternative stays auditable, just flagged with lower `confidence`.
+
+**Source language is preserved.** Original term, romanisation, and gloss are kept as separate fields. Where a term's referent shifts across periods, record the shift in the logbook rather than smoothing it over.
+
+**Controlled vocabularies are documentation, not enforcement.** `vocabularies/*.csv` explains what each coded value means and where its definition or rate comes from; the `enum` constraint that `frictionless validate` actually checks against `data.csv` lives in `datapackage.json`, as a hand-maintained duplicate of the vocabulary's `code` column. Adding or renaming a code means editing both files — validation will not catch a vocabulary and schema that have drifted apart.
 
 ## 5. Extending the schema
 
