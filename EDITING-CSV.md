@@ -35,6 +35,7 @@ Install [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.v
 Right-click `data.csv` (or use the editor's "Edit as CSV" button) to open it as an actual table — click a cell, type a value, tab to the next one. This is the easiest route for adding a new row or editing several cells without hand-counting commas, and is the option to reach for if you're new to editing raw CSV.
 
 Before relying on it for this project's data, check on a throwaway copy that a save round-trips cleanly:
+
 - non-Latin characters (e.g. `天保5.3.12`) come back unchanged, not mangled or escaped;
 - a `notes` value containing a comma is still quoted correctly on save;
 - the missingness tokens `.NR`, `.IL`, `.NA` are written back literally, not auto-converted to an empty cell.
