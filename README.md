@@ -14,10 +14,16 @@ HistorEE_codebooks/
 │   ├── data.csv               the data — plain text, diffable, canonical
 │   ├── datapackage.json       machine-readable schema (Frictionless Table Schema)
 │   └── codebook.md            human-readable codebook — GENERATED, do not hand-edit
+├── datasets/_template/        scaffold for a new dataset — copy it, don't edit in place
+├── datasets/LICENSE           MIT — code-style licence text present in the data folder
+├── datasets/LICENSE-DATA.md   pointer reaffirming the CC-BY-4.0 default and override policy
 ├── vocabularies/              controlled vocabularies (one CSV per coded field)
 ├── logbook/                   narrative decision log (the even-keel convention)
 ├── scripts/build_codebook.py  regenerates every codebook.md from its datapackage.json
+├── .github/workflows/validate.yml  CI: validates data against schema, checks codebooks aren't stale
+├── .github/CODEOWNERS         enforces review on schema/data/vocabulary changes to protected main
 ├── CONTRIBUTING.md            the coding manual — read before touching data
+├── EDITING-CSV.md             how to hand-edit data.csv in VS Code without breaking it
 ├── CITATION.cff               makes the repo citable ("Cite this repository")
 ├── CHANGELOG.md               human-readable record of dataset-level changes
 └── LICENSE / LICENSE-DATA.md  dual licence: code vs. data (see below)
