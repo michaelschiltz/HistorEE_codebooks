@@ -2,7 +2,7 @@
   "name": "clearing_records",
   "title": "Clearing and settlement records (illustrative)",
   "description": "ILLUSTRATIVE / SYNTHETIC worked example. Tokugawa-period money-changer and remittance settlements, structured to demonstrate the project's coding conventions: transparent unit normalisation across the sanka (gold/silver/copper) system, disaggregated missingness, explicit uncertainty, a source-language layer, and per-observation coder attribution. Not archival data.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "licenses": [
     { "name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0" }
   ],
@@ -42,7 +42,11 @@
           { "name": "source_lang", "type": "string", "title": "Source language", "description": "ISO 639-1 language of the source text.", "constraints": { "enum": ["ja", "nl", "de", "fr", "en"] } },
           { "name": "confidence", "type": "string", "title": "Record confidence", "description": "Overall confidence in the coded record. Uncertainty is made an explicit column, not laundered into prose.", "constraints": { "enum": ["high", "medium", "low"] } },
           { "name": "coder", "type": "string", "title": "Coder", "description": "Initials of the team member who entered the record. The backstop for attribution is git blame; contestable interpretive calls additionally carry an authority note in the logbook.", "constraints": { "required": true } },
-          { "name": "notes", "type": "string", "title": "Notes", "description": "Free-text coder note: rationale, caveats, cross-references." }
+          { "name": "notes", "type": "string", "title": "Notes", "description": "Free-text coder note: rationale, caveats, cross-references." },
+          { "name": "variant_of", "type": "string", "title": "Variant of (record link)", "description": "For a row that is an alternate coding of another record — e.g. a second normalisation retained to show rate sensitivity — the record_id it varies. Primary records carry .NA. The value must be a well-formed, existing record_id; referential integrity is enforced by the self-referencing foreign key below. Keeps the one-transaction/two-codings relation machine-readable rather than only in the notes prose.", "constraints": { "pattern": "^CR-[0-9]{4}$" } }
+        ],
+        "foreignKeys": [
+          { "fields": ["variant_of"], "reference": { "resource": "", "fields": ["record_id"] } }
         ]
       }
     }

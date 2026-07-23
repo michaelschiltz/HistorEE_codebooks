@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `clearing_records`  
-- **Version**: 0.1.0  
+- **Version**: 0.2.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
 - **Rows**: 8  
@@ -55,6 +55,7 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 | 18 | `confidence`           | string |          | `high`, `medium`, `low`                                                    |     8/8 |
 | 19 | `coder`                | string |    ✓     |                                                                            |     8/8 |
 | 20 | `notes`                | string |          |                                                                            |     8/8 |
+| 21 | `variant_of`           | string |          |                                                                            |     1/8 |
 
 ## Variable definitions
 
@@ -197,4 +198,11 @@ Initials of the team member who entered the record. The backstop for attribution
 Free-text coder note: rationale, caveats, cross-references.
 
 - **type** string
+
+
+### `variant_of` — Variant of (record link)
+
+For a row that is an alternate coding of another record — e.g. a second normalisation retained to show rate sensitivity — the record_id it varies. Primary records carry .NA. The value must be a well-formed, existing record_id; referential integrity is enforced by the self-referencing foreign key below. Keeps the one-transaction/two-codings relation machine-readable rather than only in the notes prose.
+
+- **type** string · **pattern** `^CR-[0-9]{4}$`
 

@@ -39,7 +39,7 @@ HistorEE_codebooks/
 
 - **Git history** supplies line-level attribution and timestamps (`git blame`).
 - **Signed commits** and a **protected `main`** make attribution cryptographic.
-- **Tagged releases minted to a FigShare and Zenodo DOI** freeze citable snapshots at each milestone (the model used by the Seshat Global History Databank). `v0.1.0`: [Zenodo](https://doi.org/10.5281/zenodo.21341361) · [FigShare](https://doi.org/10.6084/m9.figshare.32947250).
+- **Tagged releases minted to a FigShare and Zenodo DOI** freeze citable snapshots at each milestone (the model used by the Seshat Global History Databank). Cite the version-independent concept DOIs, which always resolve to the latest release: [Zenodo](https://doi.org/10.5281/zenodo.1462909) · [FigShare](https://doi.org/10.6084/m9.figshare.32947250). Each tagged version also receives its own snapshot DOI on the archive.
 - **Redundancy**: the repository is mirrored to FigShare and Zenodo, so survival does not solely depend on GitHub.
 
 ## Licensing

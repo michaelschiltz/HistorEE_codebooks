@@ -8,3 +8,7 @@ __pycache__/
 *.pyc
 .venv/
 *.code-workspace
+
+# Local, per-user agent settings (permission grants etc.); a shared
+# .claude/settings.json may still be committed if the team wants one.
+.claude/settings.local.json
