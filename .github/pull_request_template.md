@@ -10,7 +10,7 @@
 ## Checklist
 
 - [ ] Edited `data.csv` as text (not via Excel round-trip)
-- [ ] No blank cells — absence is coded (`.NR` / `.IL` / `.NA` / `.ZERO`)
+- [ ] No blank cells — absence is coded (`.NR` / `.IL` / `.NA`; a real zero is the literal `0` plus `missingness=explicit_zero`, not a token)
 - [ ] If schema changed: bumped `version`, updated `CHANGELOG.md`
 - [ ] If schema changed: regenerated `codebook.md` (`python scripts/build_codebook.py`)
 - [ ] `frictionless validate` passes locally
