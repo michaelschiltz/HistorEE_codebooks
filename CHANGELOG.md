@@ -8,6 +8,11 @@ decisions that matter to a data *consumer*. Format follows
 
 ## [Unreleased]
 
+### Added
+
+- `organizational_forms` dataset (v0.1.0): a morphological (Zwicky) feature-coding of cooperative and risk-pooling organizational forms against a granular characteristic set, stored long/tidy (one row per form × characteristic). Provisional and partly assistant-coded (`coder=ai`, `source_ref=[verify]` where citations are unpinned), pending human verification. Seed content: `waqf_khayri` coded across all characteristics plus illustrative cells for `joint_stock`, `natie`, and `nacion_cofradia`.
+- `vocabularies/organizational_form_type.csv` and `vocabularies/organizational_form_characteristic.csv`: controlled vocabularies for the two coded fields (`type_id`, `char_id`). Referenced in prose from the schema; `type_id`/`char_id` are deliberately not yet `enum`-enforced while the form census grows.
+
 ## [0.2.0] — 2026-07-23
 
 ### Added
