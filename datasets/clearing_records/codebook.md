@@ -1,6 +1,6 @@
 # Codebook — Clearing and settlement records (illustrative)
 
-> **Generated file.** Important: **Do not edit by hand**. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
+> **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `clearing_records`  
 - **Version**: 0.2.0  
