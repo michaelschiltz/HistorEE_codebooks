@@ -6,4 +6,4 @@ CR-0004,天保5.5.__,1834-06,low,振替,furikae,book_transfer,.IL,monme,.IL,.NA,
 CR-0005,天保6.1.20,1835-02-17,high,両替,ryogae,money_exchange,2000,mon,33,mon_to_monme_via_board_rate,observed,Izumi-ya,Public counter,Osaka,OSK-RG-015 f.1r,ja,medium,YT,"Copper-to-silver exchange; rate from posted ryōgae board, transcribed in logbook 5.",.NA
 CR-0006,天保6.2.05,1835-03-03,medium,手形,tegata,bill_note,0,monme,0,identity_silver,explicit_zero,Tennōji-ya,Kōnoike-ya,Osaka,OSK-RG-015 f.4v,ja,high,MS,"Source records a nil settlement (offsetting entry) — a real zero, not missing.",.NA
 CR-0007,(欠) 推定天保6,1835,low,為替,kawase,remittance_bill,50,ryo,3000,ryo_to_monme@60_official1700,observed,Ōno-gumi,.NR,Kyoto,KYO-ON-089 f.2r,ja,low,MS,Date lost; year inferred from ledger position (推定). Payee torn off.,.NA
-CR-0008,天保6.3.11,1835-04-08,high,手形,tegata,bill_note,340,monme,340,identity_silver,observed,Shimada-ya,Izumi-ya,Edo,EDO-SH-052 f.9r,ja,high,YT,Clean entry; both parties and amount legible.,.NA
+CR-0008,天保6.3.11,1835-04-08,high,手形,tegata,bill_note,340,monme,340,identity_silver,observed,Shimada-ya,Izumi-ya,Edo,EDO-SH-052 f.9r,ja,high,MS,Clean entry; both parties and amount legible.,.NA
