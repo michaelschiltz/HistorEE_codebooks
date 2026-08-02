@@ -3,10 +3,10 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
-- **Version**: 0.3.0  
+- **Version**: 0.4.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 91  
+- **Rows**: 123  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,15 +35,15 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 | # | Field         | Type   | Required | Coded values                                                      | Present |
 |--:|---------------|--------|:--------:|-------------------------------------------------------------------|--------:|
-| 1 | `record_id`   | string |    ✓     |                                                                   |   91/91 |
-| 2 | `type_id`     | string |          |                                                                   |   91/91 |
-| 3 | `char_id`     | string |          |                                                                   |   91/91 |
-| 4 | `value`       | string |          |                                                                   |   78/91 |
-| 5 | `confidence`  | string |          | `high`, `medium`, `low`                                           |   78/91 |
-| 6 | `source_ref`  | string |          |                                                                   |   78/91 |
-| 7 | `source_lang` | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |   43/91 |
-| 8 | `coder`       | string |    ✓     |                                                                   |   91/91 |
-| 9 | `notes`       | string |          |                                                                   |   91/91 |
+| 1 | `record_id`   | string |    ✓     |                                                                   | 123/123 |
+| 2 | `type_id`     | string |          |                                                                   | 123/123 |
+| 3 | `char_id`     | string |          |                                                                   | 123/123 |
+| 4 | `value`       | string |          |                                                                   | 108/123 |
+| 5 | `confidence`  | string |          | `high`, `medium`, `low`                                           | 108/123 |
+| 6 | `source_ref`  | string |          |                                                                   | 109/123 |
+| 7 | `source_lang` | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |  68/123 |
+| 8 | `coder`       | string |    ✓     |                                                                   | 123/123 |
+| 9 | `notes`       | string |          |                                                                   | 123/123 |
 
 ## Variable definitions
 
