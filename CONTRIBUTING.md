@@ -99,3 +99,7 @@ CR-0003,15,ryo,915,ryo_to_monme@61_market_est,low,Same transaction at an estimat
 
 Schema growth is **additive**. Add a field; do not repurpose an existing one.
 Bump the data-package `version` (semantic versioning) and record the change in `CHANGELOG.md`. Additive change never breaks a downstream consumer.
+
+That is the rule for *how* to grow the schema. For **whether** a new characteristic is warranted at all, see `CHARACTER-CODING.md`. The short form: discriminating power is free — given enough characteristics any two forms separate — so "it lets us tell X from Y" is not a justification. A characteristic earns its place by repairing a conflation (one characteristic silently asking two questions), not by adding resolution. Characteristics are paid for in forms, and this dataset is overdrawn: **add forms, not features.**
+
+Run `python scripts/check_dependence.py` alongside `frictionless validate` before opening a PR. It checks the `applicability_on` / `dependence_group` / `dependence_scope` columns against the codings, which the Table Schema cannot see.
