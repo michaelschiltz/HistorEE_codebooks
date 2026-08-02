@@ -6,7 +6,7 @@
 - **Version**: 0.4.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 123  
+- **Rows**: 155  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,15 +35,15 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 | # | Field         | Type   | Required | Coded values                                                      | Present |
 |--:|---------------|--------|:--------:|-------------------------------------------------------------------|--------:|
-| 1 | `record_id`   | string |    ✓     |                                                                   | 123/123 |
-| 2 | `type_id`     | string |          |                                                                   | 123/123 |
-| 3 | `char_id`     | string |          |                                                                   | 123/123 |
-| 4 | `value`       | string |          |                                                                   | 108/123 |
-| 5 | `confidence`  | string |          | `high`, `medium`, `low`                                           | 108/123 |
-| 6 | `source_ref`  | string |          |                                                                   | 109/123 |
-| 7 | `source_lang` | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |  68/123 |
-| 8 | `coder`       | string |    ✓     |                                                                   | 123/123 |
-| 9 | `notes`       | string |          |                                                                   | 123/123 |
+| 1 | `record_id`   | string |    ✓     |                                                                   | 155/155 |
+| 2 | `type_id`     | string |          |                                                                   | 155/155 |
+| 3 | `char_id`     | string |          |                                                                   | 155/155 |
+| 4 | `value`       | string |          |                                                                   | 137/155 |
+| 5 | `confidence`  | string |          | `high`, `medium`, `low`                                           | 137/155 |
+| 6 | `source_ref`  | string |          |                                                                   | 138/155 |
+| 7 | `source_lang` | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |  89/155 |
+| 8 | `coder`       | string |    ✓     |                                                                   | 155/155 |
+| 9 | `notes`       | string |          |                                                                   | 155/155 |
 
 ## Variable definitions
 
