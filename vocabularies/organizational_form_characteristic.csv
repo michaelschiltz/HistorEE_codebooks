@@ -19,6 +19,7 @@ LR2,liability-risk,outcome coupling,ordinal,coupled|attenuated|veiled,"Degree to
 LR3,liability-risk,profit-and-loss sharing,ternary,1|P|0,"Returns shared proportionally to stake rather than as a fixed claim."
 LR4,liability-risk,risk pooling,ternary,1|P|0,"Mutualizes idiosyncratic risk across members versus unshielded."
 LR5,liability-risk,pooling correlation,nominal,diversifying|synchronising|na,"Correlation of the pooled baskets, which sets the sign of the pooling."
+LR6,liability-risk,coupling symmetry,nominal,symmetric|upside-only|downside-only,"Directionality of the decision-maker's exposure, where LR2 is not 'veiled'. symmetric: exposed to gains and losses alike. upside-only: shares gains, insulated from losses (a call option). downside-only: bears losses without a corresponding share of gains. LR2 records whether the decision-maker is bound to outcomes; LR6 records which way. Without it a qirad agent holding a call and an isqa manager holding a debt both read as merely 'coupled'."
 MG1,membership-governance,entitlement basis,nominal,membership|contract|beneficiary,"Basis of a participant's claim on the entity."
 MG2,membership-governance,governance mode,nominal,collective|founder-fixed|single-principal,"Locus of decision-making."
 MG3,membership-governance,entry restriction,ternary,1|P|0,"Membership is closed or numerically restricted (1 = restricted)."
