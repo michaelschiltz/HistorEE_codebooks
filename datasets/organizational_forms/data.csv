@@ -35,3 +35,54 @@ OF-0033,joint_stock,AP3,P,low,Harris 2020,en,ai,"limited liability a late and pl
 OF-0034,natie,FP2,1,high,"Asaert, Devos & Suykens",nl,ai,"the alleenrecht held as tradable property"
 OF-0035,natie,CI3,1,high,"Asaert, Devos & Suykens",nl,ai,"natiebaas shares; the alleenrecht is tradable"
 OF-0036,nacion_cofradia,FP3,1,high,"Crespo Solana; Carrasco González",es,ai,"naturalization as access wrapper"
+OF-0037,isqa,LP1,0,high,BT Bava Metzia 104b,arc,ai,"bilateral contract, no entity; the sugya divides ownership of the stake between the parties rather than vesting it anywhere"
+OF-0038,isqa,LP2,0,high,BT Bava Metzia 104b,arc,ai,capital owned half by the manager as debt (pelga milveh) and half by the investor on deposit (pelga pikkadon); never held in a third name
+OF-0039,isqa,LP3,0,medium,[verify],.NR,ai,parties litigate against each other before the beit din; no entity standing
+OF-0040,isqa,AP1,0,medium,[verify],.NR,ai,"the pikkadon half is insulated from the manager's personal creditors, but through ordinary bailment law rather than entity shielding - partitioning without an entity"
+OF-0041,isqa,AP2,0,medium,[verify],.NR,ai,no protection against withdrawal or partition; either party can wind the arrangement up
+OF-0042,isqa,AP3,0,high,Udovitch 1962,en,ai,"DISCRIMINATING CELL. The manager is a debtor on the loan half, so his personal estate is exposed and his downside is not capped at his contribution. Coded 1 for qirad and commenda. Udovitch excludes the isqa as commenda ancestor on exactly this ground."
+OF-0043,isqa,AP4,0,high,BT Bava Metzia 104b,arc,ai,the doctrine's point is the opposite: the stake stays half in each party's patrimony and is never constituted as a separate fund
+OF-0044,isqa,TS1,0,high,[verify],.NR,ai,terminates on death; the loan half survives as a debt against the estate
+OF-0045,isqa,TS2,open,medium,Gamoran 2008,en,ai,"open-ended and renewable, unlike the single-voyage commenda; this is what allowed the form to be repurposed as standing credit"
+OF-0046,isqa,TS3,P,low,[verify],.NR,ai,"bifurcated with the ownership split: the pikkadon half is recallable as a deposit, the milveh half runs as a debt. Coded P because the schema's single ternary cannot represent the two halves separately - a limitation of the characteristic, not a partial state of the form."
+OF-0047,isqa,TS4,.NA,.NA,.NA,.NA,ai,no entity with rules to alter; terms vary only by fresh agreement
+OF-0048,isqa,CI1,several-accounts,high,BT Bava Metzia 104b,arc,ai,the defining feature: one stake split into two legally distinct halves under different owners. Best fit in the matrix for several-accounts.
+OF-0049,isqa,CI2,0,medium,[verify],.NR,ai,no lock-in
+OF-0050,isqa,CI3,0,medium,[verify],.NR,ai,interest not alienable
+OF-0051,isqa,CI4,0,high,[verify],.NR,ai,the arrangement turns on the manager's identity and trustworthiness; nothing negotiable
+OF-0052,isqa,LR1,unlimited-several,high,Udovitch 1962,en,ai,"the manager is severally liable for the loan half; the investor is not liable for the manager's obligations, so not joint"
+OF-0053,isqa,LR2,coupled,high,BT Bava Metzia 104b,arc,ai,both parties bound to the realised outcome. NB the heter isqa collapses this to veiled while leaving the clause structure unchanged - see vault: The heter iska restores the fixed return by evidentiary barrier.
+OF-0054,isqa,LR3,1,high,BT Bava Metzia 104b,arc,ai,"returns follow the halves, modified by the labour-compensation asymmetry (sekharo ke-po'el batel, or a profit share exceeding the loss share)"
+OF-0055,isqa,LR4,0,medium,[verify],.NR,ai,"bilateral risk-sharing, not mutualisation across a membership; sharing and pooling kept distinct"
+OF-0056,isqa,LR5,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
+OF-0057,isqa,MG1,contract,high,[verify],.NR,ai,"claim arises from the shetar, not from membership or beneficiary status"
+OF-0058,isqa,MG2,single-principal,medium,[verify],.NR,ai,the osek conducts the venture; the investor is passive
+OF-0059,isqa,MG3,.NA,.NA,.NA,.NA,ai,no membership
+OF-0060,isqa,MG4,religious,low,Gamoran 2008,en,ai,"CONTESTABLE. The instrument is a private contract; what is religious is the constraint fixing its shape (ribbit) and the beit din enforcing it. Coded religious for consistency with waqf_khayri, but private-contract is defensible and the two codings carry different claims."
+OF-0061,isqa,FP1,commercial-profit,high,[verify],.NR,ai,commercial investment
+OF-0062,isqa,FP2,0,high,[verify],.NR,ai,no franchise
+OF-0063,isqa,FP3,0,medium,[verify],.NR,ai,confers no status or access arbitrage
+OF-0064,isqa,FP4,P,low,[verify],.NR,ai,the shetar is drawn before the communal beit din - legible to communal but not territorial authority. The characteristic's political authority does not map cleanly onto a corporate minority community.
+OF-0065,isqa,CF1,1,high,BT Bava Metzia 104b,arc,ai,"investor supplies capital, manager supplies labour"
+OF-0066,isqa,CF2,1,high,Udovitch 1962,en,ai,"DISCRIMINATING CELL. The manager bears loss on the loan half. Coded 0 for qirad, mudaraba and commenda, where loss falls on capital alone. This single cell carries the comparative argument."
+OF-0067,isqa,CF3,bilateral,high,[verify],.NR,ai,two principals
+OF-0068,qirad,TS2,single-venture,medium,Udovitch 1970,en,ai,classically tied to a defined venture terminating in accounting; cf. vault: The mudaraba is revocable not locked in
+OF-0069,qirad,AP3,1,high,Udovitch 1970,en,ai,"the mudarib's personal assets are not exposed; liability attaches only on ta'addi, taqsir or mukhalafa. Contrast isqa = 0."
+OF-0070,qirad,LR1,limited,high,Udovitch 1970,en,ai,agent liable only for breach of trust or mandate; investor's exposure capped at capital advanced
+OF-0071,qirad,LR2,coupled,medium,[verify],.NR,ai,"agent bound to outcome through the profit share, but on the upside only - see vault: Skin in the game is asymmetric in the mudaraba"
+OF-0072,qirad,LR3,1,high,Udovitch 1970,en,ai,profit by agreed ratio
+OF-0073,qirad,LR4,0,medium,[verify],.NR,ai,"bilateral, not pooled"
+OF-0074,qirad,LR5,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
+OF-0075,qirad,CF1,1,high,Udovitch 1970,en,ai,capital against labour
+OF-0076,qirad,CF2,0,high,Udovitch 1962,en,ai,"DISCRIMINATING CELL. Loss falls on the rabb al-mal alone; the mudarib risks labour, not capital. Contrast isqa = 1."
+OF-0077,qirad,CF3,bilateral,high,[verify],.NR,ai,two principals
+OF-0078,commenda,TS2,single-venture,high,Pryor 1977,en,ai,"single voyage, terminating in accounting on return"
+OF-0079,commenda,AP3,1,high,Harris 2020,en,ai,unilateral form: the tractator contributes nothing and can lose nothing; in the bilateral societas maris his loss is capped at his contribution. Contrast isqa = 0.
+OF-0080,commenda,LR1,limited,high,Harris 2020,en,ai,travelling party's liability bounded by his stake
+OF-0081,commenda,LR2,coupled,medium,[verify],.NR,ai,"tractator bound through the profit share, upside only"
+OF-0082,commenda,LR3,1,high,Pryor 1977,en,ai,classic three-quarter/one-quarter unilateral split; half and half in the bilateral form
+OF-0083,commenda,LR4,0,medium,[verify],.NR,ai,"bilateral, not pooled"
+OF-0084,commenda,LR5,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
+OF-0085,commenda,CF1,1,high,Pryor 1977,en,ai,capital against labour
+OF-0086,commenda,CF2,0,high,Udovitch 1962,en,ai,DISCRIMINATING CELL. Loss falls on capital. Udovitch makes the absence of agent liability the commenda's differentia and excludes the isqa and the Byzantine chreokoinonia on that basis.
+OF-0087,commenda,CF3,bilateral,medium,[verify],.NR,ai,coded bilateral for the classic form; multilateral commende existed and would need separate rows

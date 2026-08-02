@@ -2,7 +2,7 @@
   "name": "organizational_forms",
   "title": "Cooperative organizational forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological (Zwicky) coding of cooperative and risk-pooling organizational forms (waqf, ie, compagnia, joint-stock corporation, nación, natie, kabu-nakama, and forms to be added) against a granular set of structural characteristics. Stored long/tidy: one row per form × characteristic. Supports the comparative typology in Clearing and Settling the Realm / HistorEE. Codes for forms and characteristics live in vocabularies/organizational_form_type.csv and vocabularies/organizational_form_characteristic.csv. Rows with coder 'ai' are provisional seed codings pending human verification; source_ref '[verify]' marks a coded value whose citation is not yet pinned.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "licenses": [
     { "name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0" }
   ],
@@ -29,7 +29,7 @@
           { "name": "value", "type": "string", "title": "Coded state", "description": "The characteristic's state for this form. Ternary characteristics: 1 present, P partial, 0 absent. Nominal/ordinal characteristics: one of that characteristic's allowed categories (see vocabulary). Absence (0) is a datum, kept distinct from .NA (characteristic does not apply to this form) and .NR (not yet coded). Because admissible values are per-characteristic, this field is not enum-constrained." },
           { "name": "confidence", "type": "string", "title": "Record confidence", "description": "Confidence in the coding. Orthogonal to value: a contested coding is low even where value is 1 (present). Uncertainty is an explicit column, not prose.", "constraints": { "enum": ["high", "medium", "low"] } },
           { "name": "source_ref", "type": "string", "title": "Source reference", "description": "Short citation supporting the coding, or '[verify]' where the value is asserted pending a pinned reference." },
-          { "name": "source_lang", "type": "string", "title": "Source language", "description": "ISO 639-1 language of source_ref.", "constraints": { "enum": ["ja", "nl", "de", "fr", "en", "es"] } },
+          { "name": "source_lang", "type": "string", "title": "Source language", "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.", "constraints": { "enum": ["ja", "nl", "de", "fr", "en", "es", "he", "arc", "ar", "la", "it"] } },
           { "name": "coder", "type": "string", "title": "Coder", "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification.", "constraints": { "required": true } },
           { "name": "notes", "type": "string", "title": "Notes", "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references." }
         ]

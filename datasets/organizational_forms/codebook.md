@@ -3,10 +3,10 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
-- **Version**: 0.1.0  
+- **Version**: 0.2.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 36  
+- **Rows**: 87  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -33,17 +33,17 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 ## Variables at a glance
 
-| # | Field         | Type   | Required | Coded values                       | Present |
-|--:|---------------|--------|:--------:|------------------------------------|--------:|
-| 1 | `record_id`   | string |    ✓     |                                    |   36/36 |
-| 2 | `type_id`     | string |          |                                    |   36/36 |
-| 3 | `char_id`     | string |          |                                    |   36/36 |
-| 4 | `value`       | string |          |                                    |   29/36 |
-| 5 | `confidence`  | string |          | `high`, `medium`, `low`            |   29/36 |
-| 6 | `source_ref`  | string |          |                                    |   29/36 |
-| 7 | `source_lang` | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es` |   16/36 |
-| 8 | `coder`       | string |    ✓     |                                    |   36/36 |
-| 9 | `notes`       | string |          |                                    |   36/36 |
+| # | Field         | Type   | Required | Coded values                                                      | Present |
+|--:|---------------|--------|:--------:|-------------------------------------------------------------------|--------:|
+| 1 | `record_id`   | string |    ✓     |                                                                   |   87/87 |
+| 2 | `type_id`     | string |          |                                                                   |   87/87 |
+| 3 | `char_id`     | string |          |                                                                   |   87/87 |
+| 4 | `value`       | string |          |                                                                   |   75/87 |
+| 5 | `confidence`  | string |          | `high`, `medium`, `low`                                           |   75/87 |
+| 6 | `source_ref`  | string |          |                                                                   |   75/87 |
+| 7 | `source_lang` | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |   40/87 |
+| 8 | `coder`       | string |    ✓     |                                                                   |   87/87 |
+| 9 | `notes`       | string |          |                                                                   |   87/87 |
 
 ## Variable definitions
 
@@ -92,9 +92,9 @@ Short citation supporting the coding, or '[verify]' where the value is asserted 
 
 ### `source_lang` — Source language
 
-ISO 639-1 language of source_ref.
+Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.
 
-- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`
+- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`
 
 
 ### `coder` — Coder
