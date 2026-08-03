@@ -52,6 +52,23 @@ Characteristics are paid for in forms. Marx & Duşa (2011) simulated over five m
 
 Treat the benchmark as contested rather than settled — Thiem & Mkrtchyan (2024) attack the case-to-factor framing and Duşa & Marx reply in the same issue. Cite the dispute; it is more defensible and more interesting than either side.
 
+## The declared component sets
+
+The answer to the ugly duckling theorem is not a smaller characteristic set. It is a **declared weighting, fixed in advance**. That is what the `component` and `work_package` columns record, and it is the only thing that licenses a similarity or difference claim across forms.
+
+Two sets, one per work package, because the project's mechanism operates on two units:
+
+- **WP2 / Objective 2 — continuity of capital.** The application's five: entity shielding, capital lock-in, transferable claims, legal personality, perpetual succession. Thirteen characteristics. These remove the absorbing barrier from the **entity's** trajectory.
+- **WP1 / Objective 1 — management of loss.** Four: owner shielding, outcome coupling, loss sharing, risk pooling. Eight characteristics. These remove it from the **individual's**.
+
+Eleven characteristics carry `none` in both. They are description. They may be coded as richly as the sources allow and must never enter a comparative claim.
+
+**Rules that follow, and they are not optional:**
+
+1. **No comparative claim runs on the full 32.** State which component set it runs on. A claim spanning both sets must say so and say why.
+2. **The set is declared before the coding it will be used on**, not assembled afterwards from whatever separated well. This is the falsifiability commitment; retrospective selection destroys it.
+3. **`none` is not a holding pen.** A characteristic is `none` because the theory makes no prediction about it, and moving one into a component set is a theoretical claim requiring the same justification as adding a characteristic.
+
 ## What this means in practice
 
 **Add forms, not features.** Tests 4 and 5 both say so, and the *asiento* demonstrated it in an afternoon: one new form falsified a dependence claim, gave the pooling facet its first variance, and exposed two characteristics as waqf-shaped.

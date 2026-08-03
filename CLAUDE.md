@@ -33,7 +33,9 @@ Discriminating power is free: with enough characteristics **any** two forms sepa
 The matrix serves three purposes with three different constraints. Do not let a rule from one migrate to another — the assistant has already made this mistake once by importing a QCA threshold into a descriptive coding that has no outcome variable.
 
 - **Description.** No budget. More characteristics is strictly better. This is most of what the matrix does.
-- **Similarity and distance claims** — clustering, "convergence pair", "A is more like B than C". The ugly duckling theorem binds here and **adding forms does not help**; only a declared weighting does. Never run or endorse an unweighted distance computation over the full characteristic set. If similarity claims are wanted, first declare an analytical core of six to eight characteristics on stated theoretical grounds and run only on those (Lazarsfeld's reduction of a property space).
+- **Similarity and distance claims** — clustering, "convergence pair", "A is more like B than C". The ugly duckling theorem binds here and **adding forms does not help**; only a declared weighting does. Never run or endorse an unweighted distance computation over the full characteristic set.
+
+  **The declared weighting already exists**: the `component` and `work_package` columns. WP2 carries the application's five (entity shielding, capital lock-in, transferable claims, legal personality, perpetual succession); WP1 carries four (owner shielding, outcome coupling, loss sharing, risk pooling). Eleven characteristics are `none` in both and are description only. **Any comparative claim must state which set it runs on, and must never run on all 32.** A characteristic marked `none` is `none` because the theory makes no prediction about it; promoting one into a set is a theoretical claim needing the same justification as adding a characteristic, and the set must be fixed before the coding it will be used on rather than assembled afterwards.
 - **Configurational or causal inference.** The QCA case-to-condition budget binds here and binds hard. At present *n* this is not available; say so rather than producing it.
 
 ## Missing values
