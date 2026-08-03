@@ -1,33 +1,33 @@
-code,facet,name,value_type,allowed_values,applicability_on,dependence_group,dependence_scope,definition
-LP1,legal-personality,juridical personhood,ternary,1|P|0,.NA,legal-personhood,conditional,Entity is a legal person distinct from its members. LP1-LP3 usually move together but are demonstrably separable: waqf_khayri codes LP1=0 with LP2=P and LP3=P.
-LP2,legal-personality,property in own name,ternary,1|P|0,.NA,legal-personhood,conditional,Capacity to hold and own property as the entity. See legal-personhood.
-LP3,legal-personality,capacity to sue,ternary,1|P|0,.NA,legal-personhood,conditional,Standing to sue and be sued as an entity. See legal-personhood.
-AP1,asset-partitioning,entity shielding weak,ternary,1|P|0,.NA,.NA,.NA,Entity creditors prioritized over members' personal creditors in entity assets.
-AP2,asset-partitioning,liquidation protection,ternary,1|P|0,.NA,capital-immobility,conditional,Members and their creditors cannot force partition or withdrawal of entity assets. OVERLAPS CI2 and may be redundant with it - AP2 adds the creditor dimension (members' creditors cannot force partition) that CI2 lacks. Flagged for review: candidate for merger rather than grouping.
-AP3,asset-partitioning,owner shielding limited liability,ternary,1|P|0,.NA,agent-loss-exposure,conditional,"Members' personal assets shielded from entity creditors. Collapses with LR1, CF2 and LR6 to a single degree of freedom for bilateral capital-labour contracts; separable for entity forms, where a member can be shielded without any capital-labour asymmetry."
-AP4,asset-partitioning,separation from founder estate,ternary,1|P|0,.NA,.NA,.NA,The corpus leaves the founder's personal patrimony on constitution.
-TS1,temporal,perpetual succession,ternary,1|P|0,.NA,duration,conditional,Entity persists across the death or exit of individual members. TS1=1 strongly constrains TS2 toward 'open'; the converse does not hold.
-TS2,temporal,venture horizon,nominal,open|fixed-term|single-venture,.NA,duration,conditional,Intended duration of the arrangement. See duration.
-TS3,temporal,revocability,ternary,1|P|0,.NA,.NA,.NA,Dissolvable or unwindable at will by a party (1 = revocable).
-TS4,temporal,mutability of purpose,ternary,1|P|0,.NA,.NA,.NA,Entity can alter its own rules or purpose by internal decision.
-CI1,capital,capital structure,nominal,common|several-accounts|none,.NA,.NA,.NA,Form of the capital held or pooled.
-CI2,capital,capital lock-in,ternary,1|P|0,.NA,capital-immobility,conditional,Contributed capital cannot be withdrawn at will. See capital-immobility; overlaps AP2.
-CI3,capital,transferable interest,ternary,1|P|0,.NA,interest-alienability,always,Membership or ownership interest is alienable or tradable. CI4 entails CI3: an interest cannot be depersonalised without being transferable. The converse does not hold.
-CI4,capital,depersonalised interest,ternary,1|P|0,.NA,interest-alienability,always,Interest is negotiable independent of the holder's identity. Entails CI3.
-LR1,liability-risk,liability extent,nominal,unlimited-joint|unlimited-several|limited|none,.NA,agent-loss-exposure,conditional,"Extent and form of members' liability for entity obligations. See agent-loss-exposure: for capital-labour contracts this restates AP3, CF2 and LR6 rather than adding evidence."
-LR2,liability-risk,outcome coupling,ordinal,coupled|attenuated|veiled,.NA,.NA,.NA,Degree to which decision-makers are exposed to the venture's outcomes.
-LR3,liability-risk,profit-and-loss sharing,ternary,1|P|0,.NA,.NA,.NA,Returns shared proportionally to stake rather than as a fixed claim.
-LR4,liability-risk,risk pooling,ternary,1|P|0,.NA,pooling,always,Mutualizes idiosyncratic risk across members versus unshielded. LR5 is .NA wherever LR4 is 0.
-LR5,liability-risk,pooling correlation,nominal,diversifying|synchronising|na,LR4,pooling,always,"Correlation of the pooled baskets, which sets the sign of the pooling. Meaningful only where LR4 is not 0."
-LR6,liability-risk,coupling symmetry,nominal,symmetric|upside-only|downside-only,LR2,agent-loss-exposure,conditional,"Directionality of the decision-maker's exposure, where LR2 is not 'veiled'. symmetric: exposed to gains and losses alike. upside-only: shares gains, insulated from losses (a call option). downside-only: bears losses without a corresponding share of gains. LR2 records whether the decision-maker is bound to outcomes; LR6 records which way. Without it a qirad agent holding a call and an isqa manager holding a debt both read as merely 'coupled'. See agent-loss-exposure. Applies only where LR2 is not 'veiled'."
-MG1,membership-governance,entitlement basis,nominal,membership|contract|beneficiary,.NA,.NA,.NA,Basis of a participant's claim on the entity.
-MG2,membership-governance,governance mode,nominal,collective|founder-fixed|single-principal,.NA,.NA,.NA,Locus of decision-making.
-MG3,membership-governance,entry restriction,ternary,1|P|0,MG1,.NA,.NA,Membership is closed or numerically restricted (1 = restricted). Meaningful only where MG1 is 'membership'.
-MG4,membership-governance,authorization source,nominal,state-charter|customary|private-contract|religious,.NA,.NA,.NA,Source of the entity's legal authorization.
-FP1,function-privilege,purpose orientation,nominal,pious-charitable|commercial-profit|mutual-provision|mixed,.NA,.NA,.NA,Primary declared purpose.
-FP2,function-privilege,monopoly franchise,ternary,1|P|0,.NA,.NA,.NA,Holds an exclusive right or franchise as property.
-FP3,function-privilege,identity wrapper,ternary,1|P|0,.NA,.NA,.NA,The form confers legal-status or access arbitrage for its principals.
-FP4,function-privilege,legibility registration,ternary,1|P|0,.NA,.NA,.NA,Entity is registered and legible to political authority.
-CF1,contractual-form,capital-labour asymmetry,ternary,1|P|0,.NA,.NA,.NA,"One party supplies capital, another labour or enterprise."
-CF2,contractual-form,agent bears capital loss,ternary,1|P|0,CF1,agent-loss-exposure,conditional,Working party bears loss of the principal's capital (0 = principal bears it). See agent-loss-exposure. Applies only where CF1 is present.
-CF3,contractual-form,principal count,nominal,bilateral|multilateral,.NA,.NA,.NA,Number of principals to the arrangement.
+code,facet,name,value_type,allowed_values,component,work_package,applicability_on,dependence_group,dependence_scope,definition
+LP1,legal-personality,juridical personhood,ternary,1|P|0,legal-personality,WP2,.NA,legal-personhood,conditional,Entity is a legal person distinct from its members. LP1-LP3 usually move together but are demonstrably separable: waqf_khayri codes LP1=0 with LP2=P and LP3=P.
+LP2,legal-personality,property in own name,ternary,1|P|0,legal-personality,WP2,.NA,legal-personhood,conditional,Capacity to hold and own property as the entity. See legal-personhood.
+LP3,legal-personality,capacity to sue,ternary,1|P|0,legal-personality,WP2,.NA,legal-personhood,conditional,Standing to sue and be sued as an entity. See legal-personhood.
+AP1,asset-partitioning,entity shielding weak,ternary,1|P|0,entity-shielding,WP2,.NA,.NA,.NA,Entity creditors prioritized over members' personal creditors in entity assets.
+AP2,asset-partitioning,liquidation protection,ternary,1|P|0,entity-shielding,WP2,.NA,capital-immobility,conditional,Members and their creditors cannot force partition or withdrawal of entity assets. OVERLAPS CI2 and may be redundant with it - AP2 adds the creditor dimension (members' creditors cannot force partition) that CI2 lacks. Flagged for review: candidate for merger rather than grouping.
+AP3,asset-partitioning,owner shielding limited liability,ternary,1|P|0,owner-shielding,WP1,.NA,agent-loss-exposure,conditional,"Members' personal assets shielded from entity creditors. Collapses with LR1, CF2 and LR6 to a single degree of freedom for bilateral capital-labour contracts; separable for entity forms, where a member can be shielded without any capital-labour asymmetry."
+AP4,asset-partitioning,separation from founder estate,ternary,1|P|0,entity-shielding,WP2,.NA,.NA,.NA,The corpus leaves the founder's personal patrimony on constitution.
+TS1,temporal,perpetual succession,ternary,1|P|0,perpetual-succession,WP2,.NA,duration,conditional,Entity persists across the death or exit of individual members. TS1=1 strongly constrains TS2 toward 'open'; the converse does not hold.
+TS2,temporal,venture horizon,nominal,open|fixed-term|single-venture,perpetual-succession,WP2,.NA,duration,conditional,Intended duration of the arrangement. See duration.
+TS3,temporal,revocability,ternary,1|P|0,perpetual-succession,WP2,.NA,.NA,.NA,Dissolvable or unwindable at will by a party (1 = revocable).
+TS4,temporal,mutability of purpose,ternary,1|P|0,perpetual-succession,WP2,.NA,.NA,.NA,Entity can alter its own rules or purpose by internal decision.
+CI1,capital,capital structure,nominal,common|several-accounts|none,none,none,.NA,.NA,.NA,Form of the capital held or pooled.
+CI2,capital,capital lock-in,ternary,1|P|0,capital-lock-in,WP2,.NA,capital-immobility,conditional,Contributed capital cannot be withdrawn at will. See capital-immobility; overlaps AP2.
+CI3,capital,transferable interest,ternary,1|P|0,transferable-claims,WP2,.NA,interest-alienability,always,Membership or ownership interest is alienable or tradable. CI4 entails CI3: an interest cannot be depersonalised without being transferable. The converse does not hold.
+CI4,capital,depersonalised interest,ternary,1|P|0,transferable-claims,WP2,.NA,interest-alienability,always,Interest is negotiable independent of the holder's identity. Entails CI3.
+LR1,liability-risk,liability extent,nominal,unlimited-joint|unlimited-several|limited|none,owner-shielding,WP1,.NA,agent-loss-exposure,conditional,"Extent and form of members' liability for entity obligations. See agent-loss-exposure: for capital-labour contracts this restates AP3, CF2 and LR6 rather than adding evidence."
+LR2,liability-risk,outcome coupling,ordinal,coupled|attenuated|veiled,outcome-coupling,WP1,.NA,.NA,.NA,Degree to which decision-makers are exposed to the venture's outcomes.
+LR3,liability-risk,profit-and-loss sharing,ternary,1|P|0,loss-sharing,WP1,.NA,.NA,.NA,Returns shared proportionally to stake rather than as a fixed claim.
+LR4,liability-risk,risk pooling,ternary,1|P|0,risk-pooling,WP1,.NA,pooling,always,Mutualizes idiosyncratic risk across members versus unshielded. LR5 is .NA wherever LR4 is 0.
+LR5,liability-risk,pooling correlation,nominal,diversifying|synchronising|na,risk-pooling,WP1,LR4,pooling,always,"Correlation of the pooled baskets, which sets the sign of the pooling. Meaningful only where LR4 is not 0."
+LR6,liability-risk,coupling symmetry,nominal,symmetric|upside-only|downside-only,outcome-coupling,WP1,LR2,agent-loss-exposure,conditional,"Directionality of the decision-maker's exposure, where LR2 is not 'veiled'. symmetric: exposed to gains and losses alike. upside-only: shares gains, insulated from losses (a call option). downside-only: bears losses without a corresponding share of gains. LR2 records whether the decision-maker is bound to outcomes; LR6 records which way. Without it a qirad agent holding a call and an isqa manager holding a debt both read as merely 'coupled'. See agent-loss-exposure. Applies only where LR2 is not 'veiled'."
+MG1,membership-governance,entitlement basis,nominal,membership|contract|beneficiary,none,none,.NA,.NA,.NA,Basis of a participant's claim on the entity.
+MG2,membership-governance,governance mode,nominal,collective|founder-fixed|single-principal,none,none,.NA,.NA,.NA,Locus of decision-making.
+MG3,membership-governance,entry restriction,ternary,1|P|0,none,none,MG1,.NA,.NA,Membership is closed or numerically restricted (1 = restricted). Meaningful only where MG1 is 'membership'.
+MG4,membership-governance,authorization source,nominal,state-charter|customary|private-contract|religious,none,none,.NA,.NA,.NA,Source of the entity's legal authorization.
+FP1,function-privilege,purpose orientation,nominal,pious-charitable|commercial-profit|mutual-provision|mixed,none,none,.NA,.NA,.NA,Primary declared purpose.
+FP2,function-privilege,monopoly franchise,ternary,1|P|0,none,none,.NA,.NA,.NA,Holds an exclusive right or franchise as property.
+FP3,function-privilege,identity wrapper,ternary,1|P|0,none,none,.NA,.NA,.NA,The form confers legal-status or access arbitrage for its principals.
+FP4,function-privilege,legibility registration,ternary,1|P|0,none,none,.NA,.NA,.NA,Entity is registered and legible to political authority.
+CF1,contractual-form,capital-labour asymmetry,ternary,1|P|0,none,none,.NA,.NA,.NA,"One party supplies capital, another labour or enterprise."
+CF2,contractual-form,agent bears capital loss,ternary,1|P|0,loss-sharing,WP1,CF1,agent-loss-exposure,conditional,Working party bears loss of the principal's capital (0 = principal bears it). See agent-loss-exposure. Applies only where CF1 is present.
+CF3,contractual-form,principal count,nominal,bilateral|multilateral,none,none,.NA,.NA,.NA,Number of principals to the arrangement.
