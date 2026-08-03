@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
-- **Version**: 0.5.0  
+- **Version**: 0.6.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
 - **Rows**: 155  
@@ -33,17 +33,18 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 ## Variables at a glance
 
-| # | Field         | Type   | Required | Coded values                                                      | Present |
-|--:|---------------|--------|:--------:|-------------------------------------------------------------------|--------:|
-| 1 | `record_id`   | string |    ✓     |                                                                   | 155/155 |
-| 2 | `type_id`     | string |          |                                                                   | 155/155 |
-| 3 | `char_id`     | string |          |                                                                   | 155/155 |
-| 4 | `value`       | string |          |                                                                   | 137/155 |
-| 5 | `confidence`  | string |          | `high`, `medium`, `low`                                           | 137/155 |
-| 6 | `source_ref`  | string |          |                                                                   | 138/155 |
-| 7 | `source_lang` | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |  89/155 |
-| 8 | `coder`       | string |    ✓     |                                                                   | 155/155 |
-| 9 | `notes`       | string |          |                                                                   | 155/155 |
+|  # | Field          | Type   | Required | Coded values                                                      | Present |
+|---:|----------------|--------|:--------:|-------------------------------------------------------------------|--------:|
+|  1 | `record_id`    | string |    ✓     |                                                                   | 155/155 |
+|  2 | `type_id`      | string |          |                                                                   | 155/155 |
+|  3 | `char_id`      | string |          |                                                                   | 155/155 |
+|  4 | `value`        | string |          |                                                                   | 137/155 |
+|  5 | `confidence`   | string |          | `high`, `medium`, `low`                                           | 137/155 |
+|  6 | `articulation` | string |          | `articulated`, `analyst-imposed`                                  |  22/155 |
+|  7 | `source_ref`   | string |          |                                                                   | 138/155 |
+|  8 | `source_lang`  | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |  89/155 |
+|  9 | `coder`        | string |    ✓     |                                                                   | 155/155 |
+| 10 | `notes`        | string |          |                                                                   | 155/155 |
 
 ## Variable definitions
 
@@ -81,6 +82,13 @@ The characteristic's state for this form. Ternary characteristics: 1 present, P 
 Confidence in the coding. Orthogonal to value: a contested coding is low even where value is 1 (present). Uncertainty is an explicit column, not prose.
 
 - **type** string · **values** `high`, `medium`, `low`
+
+
+### `articulation` — Articulation
+
+Whether the coded function was articulated by the tradition's own advocates in their own idiom ('articulated'), or is visible only under the analyst's description ('analyst-imposed'). '.NR' where not yet assessed; propagates '.NA' with the value. Implements the methodology's constraint that functional coding be bounded by the sources' vocabulary, so that the two kinds of claim are never aggregated.
+
+- **type** string · **values** `articulated`, `analyst-imposed`
 
 
 ### `source_ref` — Source reference

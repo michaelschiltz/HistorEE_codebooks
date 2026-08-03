@@ -1,156 +1,156 @@
-record_id,type_id,char_id,value,confidence,source_ref,source_lang,coder,notes
-OF-0001,waqf_khayri,LP1,0,low,Kuran 2011,en,ai,"approaches personhood but the corporation was never developed"
-OF-0002,waqf_khayri,LP2,P,low,Kuran 2011,en,ai,"property dedicated; ownership suspended, held via the endowment not a person"
-OF-0003,waqf_khayri,LP3,P,medium,[verify],.NR,ai,"litigation conducted by the mutawalli, not by an entity with standing"
-OF-0004,waqf_khayri,AP1,1,high,Cizakca 2000,en,ai,"dedicated assets insulated from personal claims"
-OF-0005,waqf_khayri,AP2,1,high,Kuran 2011,en,ai,"inalienable and irrevocable; cannot be forced into partition"
-OF-0006,waqf_khayri,AP3,.NA,.NA,.NA,.NA,ai,"no members or owners with entity creditors"
-OF-0007,waqf_khayri,AP4,1,high,Kuran 2011,en,ai,"corpus leaves the founder's patrimony on constitution"
-OF-0008,waqf_khayri,TS1,1,high,Kuran 2011,en,ai,"perpetual by design (ta'bid)"
-OF-0009,waqf_khayri,TS2,open,high,Kuran 2011,en,ai,"open-ended perpetuity"
-OF-0010,waqf_khayri,TS3,0,low,[verify],.NR,ai,"majority view irrevocable (Abu Yusuf); schools differ"
-OF-0011,waqf_khayri,TS4,0,high,Kuran 2011,en,ai,"founder conditions perpetually binding; petrification"
-OF-0012,waqf_khayri,CI1,none,medium,[verify],.NR,ai,"endowed corpus, not pooled member capital"
-OF-0013,waqf_khayri,CI2,1,high,Kuran 2011,en,ai,"inalienable"
-OF-0014,waqf_khayri,CI3,0,medium,[verify],.NR,ai,"interest not tradable"
-OF-0015,waqf_khayri,CI4,0,medium,[verify],.NR,ai,"no depersonalised interest"
-OF-0016,waqf_khayri,LR1,.NA,.NA,.NA,.NA,ai,"no member liability"
-OF-0017,waqf_khayri,LR2,veiled,low,[verify],.NR,ai,"mutawalli not entrepreneurially coupled; beneficiaries passive"
-OF-0018,waqf_khayri,LR3,0,medium,[verify],.NR,ai,"no profit-and-loss sharing"
-OF-0019,waqf_khayri,LR4,0,medium,Kuran 2011,en,ai,"No members and no mutualization: the corpus absorbs risk and transfers income to an indefinite beneficiary class that contributes nothing and bears no share of another's loss. Third-party absorption, not pooling. Corroborated by LR5 being inapplicable - there are no baskets whose correlation could be asked about, and that inapplicability is evidence about LR4 rather than an anomaly beside it. Was coded P with confidence low; the P was carrying a functional analogy (Kuran's claim that waqf provision substituted for what became social insurance elsewhere), which is a claim about function and belongs in this note rather than in the structural value."
-OF-0020,waqf_khayri,LR5,.NA,.NA,.NA,.NA,ai,"not a pooling vehicle"
-OF-0021,waqf_khayri,MG1,beneficiary,medium,[verify],.NR,ai,"beneficiaries, not members"
-OF-0022,waqf_khayri,MG2,founder-fixed,high,Kuran 2011,en,ai,"governed by the founder's stipulations (shurut al-waqif)"
-OF-0023,waqf_khayri,MG3,.NA,.NA,.NA,.NA,ai,"no membership"
-OF-0024,waqf_khayri,MG4,religious,medium,[verify],.NR,ai,"constituted under fiqh, registered with the qadi"
-OF-0025,waqf_khayri,FP1,pious-charitable,high,Cizakca 2000,en,ai,"coding the khayri variant; family waqf would be mixed"
-OF-0026,waqf_khayri,FP2,0,medium,[verify],.NR,ai,"no monopoly franchise"
-OF-0027,waqf_khayri,FP3,0,medium,[verify],.NR,ai,"no identity-wrapper function"
-OF-0028,waqf_khayri,FP4,1,medium,[verify],.NR,ai,"waqf deed registered with the qadi"
-OF-0029,waqf_khayri,CF1,.NA,.NA,.NA,.NA,ai,"not a capital-labour arrangement"
-OF-0030,waqf_khayri,CF2,.NA,.NA,.NA,.NA,ai,"not applicable"
-OF-0031,waqf_khayri,CF3,.NA,.NA,.NA,.NA,ai,"single founder, not a multi-principal contract"
-OF-0032,joint_stock,LP1,1,high,Harris 2020,en,ai,"chartered legal personhood"
-OF-0033,joint_stock,AP3,P,low,Harris 2020,en,ai,"limited liability a late and plural achievement, not an original feature"
-OF-0034,natie,FP2,1,high,"Asaert, Devos & Suykens",nl,ai,"the alleenrecht held as tradable property"
-OF-0035,natie,CI3,1,high,"Asaert, Devos & Suykens",nl,ai,"natiebaas shares; the alleenrecht is tradable"
-OF-0036,nacion_cofradia,FP3,1,high,"Crespo Solana; Carrasco González",es,ai,"naturalization as access wrapper"
-OF-0037,isqa,LP1,0,high,BT Bava Metzia 104b,arc,ai,"bilateral contract, no entity; the sugya divides ownership of the stake between the parties rather than vesting it anywhere"
-OF-0038,isqa,LP2,0,high,BT Bava Metzia 104b,arc,ai,capital owned half by the manager as debt (pelga milveh) and half by the investor on deposit (pelga pikkadon); never held in a third name
-OF-0039,isqa,LP3,0,medium,[verify],.NR,ai,parties litigate against each other before the beit din; no entity standing
-OF-0040,isqa,AP1,0,medium,[verify],.NR,ai,"the pikkadon half is insulated from the manager's personal creditors, but through ordinary bailment law rather than entity shielding - partitioning without an entity"
-OF-0041,isqa,AP2,0,medium,[verify],.NR,ai,no protection against withdrawal or partition; either party can wind the arrangement up
-OF-0042,isqa,AP3,0,high,Udovitch 1962,en,ai,"DISCRIMINATING CELL. The manager is a debtor on the loan half, so his personal estate is exposed and his downside is not capped at his contribution. Coded 1 for qirad and commenda. Udovitch excludes the isqa as commenda ancestor on exactly this ground."
-OF-0043,isqa,AP4,0,high,BT Bava Metzia 104b,arc,ai,the doctrine's point is the opposite: the stake stays half in each party's patrimony and is never constituted as a separate fund
-OF-0044,isqa,TS1,0,high,[verify],.NR,ai,terminates on death; the loan half survives as a debt against the estate
-OF-0045,isqa,TS2,open,medium,Gamoran 2008,en,ai,"open-ended and renewable, unlike the single-voyage commenda; this is what allowed the form to be repurposed as standing credit"
-OF-0046,isqa,TS3,P,low,[verify],.NR,ai,"bifurcated with the ownership split: the pikkadon half is recallable as a deposit, the milveh half runs as a debt. Coded P because the schema's single ternary cannot represent the two halves separately - a limitation of the characteristic, not a partial state of the form."
-OF-0047,isqa,TS4,.NA,.NA,.NA,.NA,ai,no entity with rules to alter; terms vary only by fresh agreement
-OF-0048,isqa,CI1,several-accounts,high,BT Bava Metzia 104b,arc,ai,the defining feature: one stake split into two legally distinct halves under different owners. Best fit in the matrix for several-accounts.
-OF-0049,isqa,CI2,0,medium,[verify],.NR,ai,no lock-in
-OF-0050,isqa,CI3,0,medium,[verify],.NR,ai,interest not alienable
-OF-0051,isqa,CI4,0,high,[verify],.NR,ai,the arrangement turns on the manager's identity and trustworthiness; nothing negotiable
-OF-0052,isqa,LR1,unlimited-several,high,Udovitch 1962,en,ai,"the manager is severally liable for the loan half; the investor is not liable for the manager's obligations, so not joint"
-OF-0053,isqa,LR2,coupled,high,BT Bava Metzia 104b,arc,ai,both parties bound to the realised outcome. NB the heter isqa collapses this to veiled while leaving the clause structure unchanged - see vault: The heter iska restores the fixed return by evidentiary barrier.
-OF-0054,isqa,LR3,1,high,BT Bava Metzia 104b,arc,ai,"returns follow the halves, modified by the labour-compensation asymmetry (sekharo ke-po'el batel, or a profit share exceeding the loss share)"
-OF-0055,isqa,LR4,0,medium,[verify],.NR,ai,"bilateral risk-sharing, not mutualisation across a membership; sharing and pooling kept distinct"
-OF-0056,isqa,LR5,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
-OF-0057,isqa,MG1,contract,high,[verify],.NR,ai,"claim arises from the shetar, not from membership or beneficiary status"
-OF-0058,isqa,MG2,single-principal,medium,[verify],.NR,ai,the osek conducts the venture; the investor is passive
-OF-0059,isqa,MG3,.NA,.NA,.NA,.NA,ai,no membership
-OF-0060,isqa,MG4,religious,low,Gamoran 2008,en,ai,"CONTESTABLE. The instrument is a private contract; what is religious is the constraint fixing its shape (ribbit) and the beit din enforcing it. Coded religious for consistency with waqf_khayri, but private-contract is defensible and the two codings carry different claims."
-OF-0061,isqa,FP1,commercial-profit,high,[verify],.NR,ai,commercial investment
-OF-0062,isqa,FP2,0,high,[verify],.NR,ai,no franchise
-OF-0063,isqa,FP3,0,medium,[verify],.NR,ai,confers no status or access arbitrage
-OF-0064,isqa,FP4,P,low,[verify],.NR,ai,the shetar is drawn before the communal beit din - legible to communal but not territorial authority. The characteristic's political authority does not map cleanly onto a corporate minority community.
-OF-0065,isqa,CF1,1,high,BT Bava Metzia 104b,arc,ai,"investor supplies capital, manager supplies labour"
-OF-0066,isqa,CF2,1,high,Udovitch 1962,en,ai,"DISCRIMINATING CELL. The manager bears loss on the loan half. Coded 0 for qirad, mudaraba and commenda, where loss falls on capital alone. This single cell carries the comparative argument."
-OF-0067,isqa,CF3,bilateral,high,[verify],.NR,ai,two principals
-OF-0068,qirad,TS2,single-venture,medium,Udovitch 1970,en,ai,classically tied to a defined venture terminating in accounting; cf. vault: The mudaraba is revocable not locked in
-OF-0069,qirad,AP3,1,high,Udovitch 1970,en,ai,"the mudarib's personal assets are not exposed; liability attaches only on ta'addi, taqsir or mukhalafa. Contrast isqa = 0."
-OF-0070,qirad,LR1,limited,high,Udovitch 1970,en,ai,agent liable only for breach of trust or mandate; investor's exposure capped at capital advanced
-OF-0071,qirad,LR2,coupled,medium,[verify],.NR,ai,"agent bound to outcome through the profit share, but on the upside only - see vault: Skin in the game is asymmetric in the mudaraba"
-OF-0072,qirad,LR3,1,high,Udovitch 1970,en,ai,profit by agreed ratio
-OF-0073,qirad,LR4,0,medium,[verify],.NR,ai,"bilateral, not pooled"
-OF-0074,qirad,LR5,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
-OF-0075,qirad,CF1,1,high,Udovitch 1970,en,ai,capital against labour
-OF-0076,qirad,CF2,0,high,Udovitch 1962,en,ai,"DISCRIMINATING CELL. Loss falls on the rabb al-mal alone; the mudarib risks labour, not capital. Contrast isqa = 1."
-OF-0077,qirad,CF3,bilateral,high,[verify],.NR,ai,two principals
-OF-0078,commenda,TS2,single-venture,high,Pryor 1977,en,ai,"single voyage, terminating in accounting on return"
-OF-0079,commenda,AP3,1,high,Harris 2020,en,ai,unilateral form: the tractator contributes nothing and can lose nothing; in the bilateral societas maris his loss is capped at his contribution. Contrast isqa = 0.
-OF-0080,commenda,LR1,limited,high,Harris 2020,en,ai,travelling party's liability bounded by his stake
-OF-0081,commenda,LR2,coupled,medium,[verify],.NR,ai,"tractator bound through the profit share, upside only"
-OF-0082,commenda,LR3,1,high,Pryor 1977,en,ai,classic three-quarter/one-quarter unilateral split; half and half in the bilateral form
-OF-0083,commenda,LR4,0,medium,[verify],.NR,ai,"bilateral, not pooled"
-OF-0084,commenda,LR5,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
-OF-0085,commenda,CF1,1,high,Pryor 1977,en,ai,capital against labour
-OF-0086,commenda,CF2,0,high,Udovitch 1962,en,ai,DISCRIMINATING CELL. Loss falls on capital. Udovitch makes the absence of agent liability the commenda's differentia and excludes the isqa and the Byzantine chreokoinonia on that basis.
-OF-0087,commenda,CF3,bilateral,medium,[verify],.NR,ai,coded bilateral for the classic form; multilateral commende existed and would need separate rows
-OF-0088,isqa,LR6,symmetric,high,BT Bava Metzia 104b,arc,ai,"the manager is exposed both ways: profit on the milveh half is his, loss on it is his debt. The labour-compensation asymmetry (a profit share exceeding the loss share) tilts the ratio but does not remove downside exposure."
-OF-0089,qirad,LR6,upside-only,high,Udovitch 1970,en,ai,"the mudarib holds a call: he shares profit but bears no capital loss, so his exposure is bounded below at zero. This is the cell that distinguishes him from the isqa manager, and it was invisible while LR2 read 'coupled' for both. See vault: Skin in the game is asymmetric in the mudaraba."
-OF-0090,commenda,LR6,upside-only,high,Harris 2020,en,ai,"unilateral form: the tractator risks labour and reputation, not capital. In the bilateral societas maris his downside is capped at his own contribution, which is still bounded, not open-ended."
-OF-0091,waqf_khayri,LR6,.NA,.NA,.NA,.NA,ai,"LR2 is veiled: the mutawalli is not entrepreneurially coupled and the beneficiaries are passive, so there is no directional exposure to characterise."
-OF-0092,asiento_averia,LP1,0,medium,Hierro Anibarro 2005,es,ai,"term partnership by private capitulation; the arca de tres llaves is administrative and fiscal segregation, not personhood"
-OF-0093,asiento_averia,LP2,P,low,Hierro Anibarro 2005,es,ai,"the fund sits in the three-key chest under a register, with jurisdictional independence for the administradores, but the source never asks who owns it"
-OF-0094,asiento_averia,LP3,P,low,Hierro Anibarro 2005,es,ai,"a separate Tribunal de la Contaduria de averias and jurisdictionally independent administradores give a special forum, which is not the same as entity standing"
-OF-0095,asiento_averia,AP1,.NR,.NR,[verify],.NR,ai,"NOT RECORDED, not absent. Hierro Anibarro nowhere asks whether a participe's private creditors could reach the arca - the word acreedor does not occur in the text. Coding 0 here would assert an absence the source cannot support. Resolvable only from the asiento capitulations or from litigation."
-OF-0096,asiento_averia,AP2,P,low,Hierro Anibarro 2005,es,ai,members cannot withdraw the puesto principal for the term; whether their creditors could force partition is exactly the unasked question flagged at AP1
-OF-0097,asiento_averia,AP3,1,high,Hierro Anibarro 2005,es,ai,"the substantive find of the article. Participes 'no han de estar obligados en mancomun, ni por el todo'; even 'que se perdieren todos los galeones' liability stops at the puesto principal. Owner shielding - the contractible half of the pair - by private capitulation rather than organisational law."
-OF-0098,asiento_averia,AP4,1,low,Hierro Anibarro 2005,es,ai,"FRAMING MISMATCH: the characteristic is written for founder-endowed forms. The analogue here is the puesto principal leaving the participe's patrimony once handed to the administrators, after which only that sum is obligated. Coded 1 with low confidence rather than P - the thing is fully present, it is the characteristic's applicability that is uncertain."
-OF-0099,asiento_averia,TS1,0,high,Hierro Anibarro 2005,es,ai,perpetuity absent by design; the asiento is a term contract
-OF-0100,asiento_averia,TS2,fixed-term,high,Hierro Anibarro 2005,es,ai,six years in the capitulation quoted at 3.2
-OF-0101,asiento_averia,TS3,0,medium,Hierro Anibarro 2005,es,ai,the puesto principal cannot be withdrawn for the term
-OF-0102,asiento_averia,TS4,0,low,[verify],.NR,ai,terms fixed by capitulation; internal amendment not evidenced
-OF-0103,asiento_averia,CI1,common,high,Hierro Anibarro 2005,es,ai,a common fund - the cifra de caudal - divided into aliquot puestos
-OF-0104,asiento_averia,CI2,1,high,Hierro Anibarro 2005,es,ai,"capital lock-in, contractual and terminable: the puesto principal is immobilised for the fixed term"
-OF-0105,asiento_averia,CI3,P,low,[verify],.NR,ai,"VERIFY. Transferability is present - a footnote cites Sayous 1902 on the transmision de las participaciones - but free transfer versus transfer-with-consent is unresolved, and that distinction decides whether the transferable-claim component is genuinely there."
-OF-0106,asiento_averia,CI4,P,low,[verify],.NR,ai,"'En el asiento no es importante la calidad del aportante, sino la de su credito' documents depersonalisation as to admission. Full negotiability follows transferability, which is unverified - so CI4 cannot exceed CI3 without asserting more than the source gives. See dependence group interest-alienability."
-OF-0107,asiento_averia,LR1,limited,high,Hierro Anibarro 2005,es,ai,"explicit and modern: no mancomun liability, goods remain 'libres sin carga de hipoteca especial, ni general'"
-OF-0108,asiento_averia,LR2,coupled,medium,Hierro Anibarro 2005,es,ai,participes bear the venture's outcome up to the puesto
-OF-0109,asiento_averia,LR3,1,medium,Hierro Anibarro 2005,es,ai,"returns and losses follow the aliquot puestos, with voting proportional to contribution"
-OF-0110,asiento_averia,LR4,1,medium,Hierro Anibarro 2005,es,ai,"UNIT AMBIGUITY, deliberate. Two levels: the averia is a compulsory ad valorem levy pooling the cost of convoy protection across all shippers; the asiento is the contracted vehicle administering it, whose participes pool capital and share loss proportionally. Coded 1 for the vehicle. If the levy is the intended unit the coding still holds, but the members differ."
-OF-0111,asiento_averia,LR5,synchronising,low,[verify],.NR,ai,"THE CELL THAT MATTERS, and the project's own note flags it as open. The pooled object is protection, and the hazard is an adversary who responds to the defence mounted rather than a storm - which makes losses correlated across participants and the pooling synchronising rather than diversifying. Bears directly on why the pool failed. Vault note 'The asiento de averia is the pooling-to-corporation hinge' says where this sits on the determinate-contingent typology is better asked than assumed; coded low on that authority."
-OF-0112,asiento_averia,LR6,symmetric,medium,Hierro Anibarro 2005,es,ai,"exposed to gain and loss alike, but truncated at the puesto in both directions. The vocabulary has no way to record bounded-symmetric as against unbounded-symmetric; the isqa manager is symmetric and unbounded, the participe symmetric and capped."
-OF-0113,asiento_averia,MG1,membership,medium,Hierro Anibarro 2005,es,ai,"aliquot shares, express equality of participes, and voting proportional to contribution read as membership in a fund rather than a bare contractual claim. Contestable: participation arises by subscription to a capitulation, which would argue for contract."
-OF-0114,asiento_averia,MG2,collective,medium,Hierro Anibarro 2005,es,ai,voting proportional to contribution; no participe may invoke a particular fuero to claim precedence
-OF-0115,asiento_averia,MG3,0,low,[verify],.NR,ai,"subscription appears open to those with credito; capital was chronically hard to assemble, which argues against restriction"
-OF-0116,asiento_averia,MG4,state-charter,medium,Hierro Anibarro 2005,es,ai,devolved by the Crown through the asientos as royal capitulations
-OF-0117,asiento_averia,FP1,mixed,medium,Hierro Anibarro 2005,es,ai,two levels again: the underlying averia is mutual provision - a compulsory levy funding common defence - while the asiento layer is commercial-profit for the asentistas
-OF-0118,asiento_averia,FP2,1,medium,Hierro Anibarro 2005,es,ai,the asentistas hold for the term the exclusive right to collect the averia and provision the armada
-OF-0119,asiento_averia,FP3,0,low,[verify],.NR,ai,no status or access arbitrage evidenced
-OF-0120,asiento_averia,FP4,1,high,Hierro Anibarro 2005,es,ai,"royal capitulations, a registered arca, and a dedicated Tribunal de la Contaduria de averias"
-OF-0121,asiento_averia,CF1,0,medium,Hierro Anibarro 2005,es,ai,capital pooled among participes; not a capital-against-labour arrangement
-OF-0122,asiento_averia,CF2,.NA,.NA,.NA,.NA,ai,inapplicable: CF1 is 0
-OF-0123,asiento_averia,CF3,multilateral,high,Hierro Anibarro 2005,es,ai,many participes to a single capitulation
-OF-0124,bazacle_mill,LP1,1,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"inherited, not achieved: the pariage was treated as a universitas, so legal personality applied automatically and without state approbation - unlike the East India companies, for which incorporation from the Crown was the crucial step. This is the cell on which the parallelism argument turns."
-OF-0125,bazacle_mill,LP2,1,medium,Sicard 2015,en,ai,the company held the mills
-OF-0126,bazacle_mill,LP3,P,low,[verify],.NR,ai,"universitas carried representation (Ulpian, Dig. 3.4.2, via Avi-Yonah); direct evidence of the mills' standing not yet checked in Sicard"
-OF-0127,bazacle_mill,AP1,P,low,[verify],.NR,ai,"Ulpian Dig. 3.4.7.1 - a debt owed to a universitas is not owed to its members - is entity shielding, but it is inherited doctrine applied to the mills by inference, not observed in their litigation. Verify against Sicard's primary material before this cell carries weight."
-OF-0128,bazacle_mill,AP2,1,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,shares transferable without dissolving the entity; the 1372 perpetual merger of the constituent pariages presupposes members cannot force partition
-OF-0129,bazacle_mill,AP3,P,low,[verify],.NR,ai,"the sanction for refusing a capital call was forfeiture of the share (Montpellier 1192, pariers could seize the pecol of non-payers), which caps exposure at the stake in practice. Whether limited liability was articulated as doctrine is a separate question, inferred from universitas rather than evidenced."
-OF-0130,bazacle_mill,AP4,.NA,.NA,.NA,.NA,ai,"no founder and no endowed corpus; the form arises from joint ownership, often by inheritance"
-OF-0131,bazacle_mill,TS1,1,high,"Le Bris, Goetzmann & Pouget 2023",en,ai,"perpetual, surviving the death of a parier; shares descended over generations. Constituted by perpetual merger in 1372 and running to nationalisation in 1946."
-OF-0132,bazacle_mill,TS2,open,high,"Le Bris, Goetzmann & Pouget 2023",en,ai,open-ended; 574 years of continuous operation
-OF-0133,bazacle_mill,TS3,0,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,not unwindable at will by a single parier
-OF-0134,bazacle_mill,TS4,P,low,[verify],.NR,ai,general assemblies existed and later a board and a professional executive; whether they could alter the purpose is unchecked
-OF-0135,bazacle_mill,CI1,common,medium,Sicard 2015,en,ai,"a single physical asset held in common and divided into aliquot fractions - pecol (1/16) at Montpellier, meules at Moissac, rases at Montauban"
-OF-0136,bazacle_mill,CI2,P,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"INVERTS THE VOC PATTERN. There is no subscribed permanent capital: contributions were called as needed and non-payment forfeited the share. Capital is therefore immobile in the sense that it cannot be withdrawn, but it was never locked in as a fixed sum either. The mills accumulate capital by call, the joint-stock company by subscription - a genuine structural difference, and the one Harris gestures at with the cost-book analogy."
-OF-0137,bazacle_mill,CI3,1,high,"Le Bris, Goetzmann & Pouget 2023",en,ai,"DECIDES THE HARRIS DISPUTE ON THE STRUCTURAL QUESTION. Pariers were free to sell their rights WITHOUT THE CONSENT of the other pariers, and the 1182 Castel enfeoffment schedules the tax on transactions in halves, thirds and quarters - so fractional alienation was routine and fiscally anticipated by the twelfth century. Harris does not deny transferability; he requires an impersonal exchange, which is a property of the venue, not of the share."
-OF-0138,bazacle_mill,CI4,P,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"the equality rule made shares identical irrespective of holder, which Le Bris, Goetzmann & Pouget call 'a preliminary for depersonalization' - their hedge, preserved here. Contrast the societas, where the share was tied to a specific partner. Coded P rather than 1 because the authors themselves stop short."
-OF-0139,bazacle_mill,LR1,limited,low,[verify],.NR,ai,inferred from universitas doctrine and from forfeiture as the sanction for non-payment; not evidenced directly
-OF-0140,bazacle_mill,LR2,coupled,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,pariers bore the mills' fortunes through distributions and through calls
-OF-0141,bazacle_mill,LR3,1,high,Sicard 2015,en,ai,capital expenditure and revenue distribution both in proportion to pars
-OF-0142,bazacle_mill,LR4,0,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"a single jointly-owned asset, not mutualisation of members' idiosyncratic risks. NB the milling pariages did contract mutual insurance BETWEEN themselves - pooling at the inter-firm level, not within the firm, and a candidate for separate coding."
-OF-0143,bazacle_mill,LR5,.NA,.NA,.NA,.NA,ai,inapplicable: LR4 is 0
-OF-0144,bazacle_mill,LR6,symmetric,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"exposed to gains through distributions and to losses through calls, capped at the share in both directions"
-OF-0145,bazacle_mill,MG1,membership,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,claim follows parier status in the pariage
-OF-0146,bazacle_mill,MG2,collective,high,"Le Bris, Goetzmann & Pouget 2023",en,ai,general assemblies and representation from early on; a board of directors and a professional chief executive before the EIC and VOC
-OF-0147,bazacle_mill,MG3,0,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"sale required no consent from other pariers, so entry was not restricted"
-OF-0148,bazacle_mill,MG4,customary,low,"Le Bris, Goetzmann & Pouget 2023",en,ai,"TWO SOURCES AT ONCE, and the tension is the point. The mills were held by comital enfeoffment (Bazacle 1177 and 1184, Castel 1182), a feudal grant; but their legal personality came from the ius commune without any approbation. Neither state-charter nor purely customary. The vocabulary cannot currently express authorization from received learned law - a candidate defect, flagged not fixed."
-OF-0149,bazacle_mill,FP1,mixed,low,[verify],.NR,ai,"THE CELL WHERE HARRIS AND LE BRIS/GOETZMANN/POUGET ACTUALLY DISAGREE. Harris reads the mills as providing services to the community and distributing accumulated profits, which is mutual-provision; the others read a profit-seeking firm, which is commercial-profit. Coded mixed to hold the dispute open rather than resolve it by fiat. Resolving this cell resolves much of the debate."
-OF-0150,bazacle_mill,FP2,P,low,[verify],.NR,ai,milling rights on the Garonne held by enfeoffment function as a franchise; extent unchecked
-OF-0151,bazacle_mill,FP3,0,low,[verify],.NR,ai,no status or access arbitrage evidenced
-OF-0152,bazacle_mill,FP4,1,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"enfeoffment charters, notarial registration of transfers, and a share-transaction tax scheduled in 1182"
-OF-0153,bazacle_mill,CF1,0,medium,"Le Bris, Goetzmann & Pouget 2023",en,ai,"pariers were capitalists not workers - the Daurade monastery, Capitouls - but there is no labour-contributing partner in the form"
-OF-0154,bazacle_mill,CF2,.NA,.NA,.NA,.NA,ai,inapplicable: CF1 is 0
-OF-0155,bazacle_mill,CF3,multilateral,high,Sicard 2015,en,ai,many pariers
+record_id,type_id,char_id,value,confidence,articulation,source_ref,source_lang,coder,notes
+OF-0001,waqf_khayri,LP1,0,low,.NR,Kuran 2011,en,ai,approaches personhood but the corporation was never developed
+OF-0002,waqf_khayri,LP2,P,low,.NR,Kuran 2011,en,ai,"property dedicated; ownership suspended, held via the endowment not a person"
+OF-0003,waqf_khayri,LP3,P,medium,.NR,[verify],.NR,ai,"litigation conducted by the mutawalli, not by an entity with standing"
+OF-0004,waqf_khayri,AP1,1,high,.NR,Cizakca 2000,en,ai,dedicated assets insulated from personal claims
+OF-0005,waqf_khayri,AP2,1,high,articulated,Kuran 2011,en,ai,inalienable and irrevocable; cannot be forced into partition
+OF-0006,waqf_khayri,AP3,.NA,.NA,.NA,.NA,.NA,ai,no members or owners with entity creditors
+OF-0007,waqf_khayri,AP4,1,high,.NR,Kuran 2011,en,ai,corpus leaves the founder's patrimony on constitution
+OF-0008,waqf_khayri,TS1,1,high,articulated,Kuran 2011,en,ai,perpetual by design (ta'bid)
+OF-0009,waqf_khayri,TS2,open,high,.NR,Kuran 2011,en,ai,open-ended perpetuity
+OF-0010,waqf_khayri,TS3,0,low,.NR,[verify],.NR,ai,majority view irrevocable (Abu Yusuf); schools differ
+OF-0011,waqf_khayri,TS4,0,high,.NR,Kuran 2011,en,ai,founder conditions perpetually binding; petrification
+OF-0012,waqf_khayri,CI1,none,medium,.NR,[verify],.NR,ai,"endowed corpus, not pooled member capital"
+OF-0013,waqf_khayri,CI2,1,high,articulated,Kuran 2011,en,ai,inalienable
+OF-0014,waqf_khayri,CI3,0,medium,.NR,[verify],.NR,ai,interest not tradable
+OF-0015,waqf_khayri,CI4,0,medium,.NR,[verify],.NR,ai,no depersonalised interest
+OF-0016,waqf_khayri,LR1,.NA,.NA,.NA,.NA,.NA,ai,no member liability
+OF-0017,waqf_khayri,LR2,veiled,low,.NR,[verify],.NR,ai,mutawalli not entrepreneurially coupled; beneficiaries passive
+OF-0018,waqf_khayri,LR3,0,medium,.NR,[verify],.NR,ai,no profit-and-loss sharing
+OF-0019,waqf_khayri,LR4,0,medium,.NR,Kuran 2011,en,ai,"No members and no mutualization: the corpus absorbs risk and transfers income to an indefinite beneficiary class that contributes nothing and bears no share of another's loss. Third-party absorption, not pooling. Corroborated by LR5 being inapplicable - there are no baskets whose correlation could be asked about, and that inapplicability is evidence about LR4 rather than an anomaly beside it. Was coded P with confidence low; the P was carrying a functional analogy (Kuran's claim that waqf provision substituted for what became social insurance elsewhere), which is a claim about function and belongs in this note rather than in the structural value."
+OF-0020,waqf_khayri,LR5,.NA,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
+OF-0021,waqf_khayri,MG1,beneficiary,medium,.NR,[verify],.NR,ai,"beneficiaries, not members"
+OF-0022,waqf_khayri,MG2,founder-fixed,high,articulated,Kuran 2011,en,ai,governed by the founder's stipulations (shurut al-waqif)
+OF-0023,waqf_khayri,MG3,.NA,.NA,.NA,.NA,.NA,ai,no membership
+OF-0024,waqf_khayri,MG4,religious,medium,.NR,[verify],.NR,ai,"constituted under fiqh, registered with the qadi"
+OF-0025,waqf_khayri,FP1,pious-charitable,high,.NR,Cizakca 2000,en,ai,coding the khayri variant; family waqf would be mixed
+OF-0026,waqf_khayri,FP2,0,medium,.NR,[verify],.NR,ai,no monopoly franchise
+OF-0027,waqf_khayri,FP3,0,medium,.NR,[verify],.NR,ai,no identity-wrapper function
+OF-0028,waqf_khayri,FP4,1,medium,.NR,[verify],.NR,ai,waqf deed registered with the qadi
+OF-0029,waqf_khayri,CF1,.NA,.NA,.NA,.NA,.NA,ai,not a capital-labour arrangement
+OF-0030,waqf_khayri,CF2,.NA,.NA,.NA,.NA,.NA,ai,not applicable
+OF-0031,waqf_khayri,CF3,.NA,.NA,.NA,.NA,.NA,ai,"single founder, not a multi-principal contract"
+OF-0032,joint_stock,LP1,1,high,.NR,Harris 2020,en,ai,chartered legal personhood
+OF-0033,joint_stock,AP3,P,low,.NR,Harris 2020,en,ai,"limited liability a late and plural achievement, not an original feature"
+OF-0034,natie,FP2,1,high,.NR,"Asaert, Devos & Suykens",nl,ai,the alleenrecht held as tradable property
+OF-0035,natie,CI3,1,high,.NR,"Asaert, Devos & Suykens",nl,ai,natiebaas shares; the alleenrecht is tradable
+OF-0036,nacion_cofradia,FP3,1,high,.NR,Crespo Solana; Carrasco González,es,ai,naturalization as access wrapper
+OF-0037,isqa,LP1,0,high,.NR,BT Bava Metzia 104b,arc,ai,"bilateral contract, no entity; the sugya divides ownership of the stake between the parties rather than vesting it anywhere"
+OF-0038,isqa,LP2,0,high,articulated,BT Bava Metzia 104b,arc,ai,capital owned half by the manager as debt (pelga milveh) and half by the investor on deposit (pelga pikkadon); never held in a third name
+OF-0039,isqa,LP3,0,medium,.NR,[verify],.NR,ai,parties litigate against each other before the beit din; no entity standing
+OF-0040,isqa,AP1,0,medium,.NR,[verify],.NR,ai,"the pikkadon half is insulated from the manager's personal creditors, but through ordinary bailment law rather than entity shielding - partitioning without an entity"
+OF-0041,isqa,AP2,0,medium,.NR,[verify],.NR,ai,no protection against withdrawal or partition; either party can wind the arrangement up
+OF-0042,isqa,AP3,0,high,.NR,Udovitch 1962,en,ai,"DISCRIMINATING CELL. The manager is a debtor on the loan half, so his personal estate is exposed and his downside is not capped at his contribution. Coded 1 for qirad and commenda. Udovitch excludes the isqa as commenda ancestor on exactly this ground."
+OF-0043,isqa,AP4,0,high,.NR,BT Bava Metzia 104b,arc,ai,the doctrine's point is the opposite: the stake stays half in each party's patrimony and is never constituted as a separate fund
+OF-0044,isqa,TS1,0,high,.NR,[verify],.NR,ai,terminates on death; the loan half survives as a debt against the estate
+OF-0045,isqa,TS2,open,medium,.NR,Gamoran 2008,en,ai,"open-ended and renewable, unlike the single-voyage commenda; this is what allowed the form to be repurposed as standing credit"
+OF-0046,isqa,TS3,P,low,.NR,[verify],.NR,ai,"bifurcated with the ownership split: the pikkadon half is recallable as a deposit, the milveh half runs as a debt. Coded P because the schema's single ternary cannot represent the two halves separately - a limitation of the characteristic, not a partial state of the form."
+OF-0047,isqa,TS4,.NA,.NA,.NA,.NA,.NA,ai,no entity with rules to alter; terms vary only by fresh agreement
+OF-0048,isqa,CI1,several-accounts,high,articulated,BT Bava Metzia 104b,arc,ai,the defining feature: one stake split into two legally distinct halves under different owners. Best fit in the matrix for several-accounts.
+OF-0049,isqa,CI2,0,medium,.NR,[verify],.NR,ai,no lock-in
+OF-0050,isqa,CI3,0,medium,.NR,[verify],.NR,ai,interest not alienable
+OF-0051,isqa,CI4,0,high,.NR,[verify],.NR,ai,the arrangement turns on the manager's identity and trustworthiness; nothing negotiable
+OF-0052,isqa,LR1,unlimited-several,high,.NR,Udovitch 1962,en,ai,"the manager is severally liable for the loan half; the investor is not liable for the manager's obligations, so not joint"
+OF-0053,isqa,LR2,coupled,high,articulated,BT Bava Metzia 104b,arc,ai,both parties bound to the realised outcome. NB the heter isqa collapses this to veiled while leaving the clause structure unchanged - see vault: The heter iska restores the fixed return by evidentiary barrier.
+OF-0054,isqa,LR3,1,high,articulated,BT Bava Metzia 104b,arc,ai,"returns follow the halves, modified by the labour-compensation asymmetry (sekharo ke-po'el batel, or a profit share exceeding the loss share)"
+OF-0055,isqa,LR4,0,medium,.NR,[verify],.NR,ai,"bilateral risk-sharing, not mutualisation across a membership; sharing and pooling kept distinct"
+OF-0056,isqa,LR5,.NA,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
+OF-0057,isqa,MG1,contract,high,.NR,[verify],.NR,ai,"claim arises from the shetar, not from membership or beneficiary status"
+OF-0058,isqa,MG2,single-principal,medium,.NR,[verify],.NR,ai,the osek conducts the venture; the investor is passive
+OF-0059,isqa,MG3,.NA,.NA,.NA,.NA,.NA,ai,no membership
+OF-0060,isqa,MG4,religious,low,.NR,Gamoran 2008,en,ai,"CONTESTABLE. The instrument is a private contract; what is religious is the constraint fixing its shape (ribbit) and the beit din enforcing it. Coded religious for consistency with waqf_khayri, but private-contract is defensible and the two codings carry different claims."
+OF-0061,isqa,FP1,commercial-profit,high,.NR,[verify],.NR,ai,commercial investment
+OF-0062,isqa,FP2,0,high,.NR,[verify],.NR,ai,no franchise
+OF-0063,isqa,FP3,0,medium,.NR,[verify],.NR,ai,confers no status or access arbitrage
+OF-0064,isqa,FP4,P,low,.NR,[verify],.NR,ai,the shetar is drawn before the communal beit din - legible to communal but not territorial authority. The characteristic's political authority does not map cleanly onto a corporate minority community.
+OF-0065,isqa,CF1,1,high,articulated,BT Bava Metzia 104b,arc,ai,"investor supplies capital, manager supplies labour"
+OF-0066,isqa,CF2,1,high,articulated,Udovitch 1962,en,ai,"DISCRIMINATING CELL. The manager bears loss on the loan half. Coded 0 for qirad, mudaraba and commenda, where loss falls on capital alone. This single cell carries the comparative argument."
+OF-0067,isqa,CF3,bilateral,high,.NR,[verify],.NR,ai,two principals
+OF-0068,qirad,TS2,single-venture,medium,.NR,Udovitch 1970,en,ai,classically tied to a defined venture terminating in accounting; cf. vault: The mudaraba is revocable not locked in
+OF-0069,qirad,AP3,1,high,.NR,Udovitch 1970,en,ai,"the mudarib's personal assets are not exposed; liability attaches only on ta'addi, taqsir or mukhalafa. Contrast isqa = 0."
+OF-0070,qirad,LR1,limited,high,.NR,Udovitch 1970,en,ai,agent liable only for breach of trust or mandate; investor's exposure capped at capital advanced
+OF-0071,qirad,LR2,coupled,medium,.NR,[verify],.NR,ai,"agent bound to outcome through the profit share, but on the upside only - see vault: Skin in the game is asymmetric in the mudaraba"
+OF-0072,qirad,LR3,1,high,.NR,Udovitch 1970,en,ai,profit by agreed ratio
+OF-0073,qirad,LR4,0,medium,.NR,[verify],.NR,ai,"bilateral, not pooled"
+OF-0074,qirad,LR5,.NA,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
+OF-0075,qirad,CF1,1,high,.NR,Udovitch 1970,en,ai,capital against labour
+OF-0076,qirad,CF2,0,high,.NR,Udovitch 1962,en,ai,"DISCRIMINATING CELL. Loss falls on the rabb al-mal alone; the mudarib risks labour, not capital. Contrast isqa = 1."
+OF-0077,qirad,CF3,bilateral,high,.NR,[verify],.NR,ai,two principals
+OF-0078,commenda,TS2,single-venture,high,.NR,Pryor 1977,en,ai,"single voyage, terminating in accounting on return"
+OF-0079,commenda,AP3,1,high,.NR,Harris 2020,en,ai,unilateral form: the tractator contributes nothing and can lose nothing; in the bilateral societas maris his loss is capped at his contribution. Contrast isqa = 0.
+OF-0080,commenda,LR1,limited,high,.NR,Harris 2020,en,ai,travelling party's liability bounded by his stake
+OF-0081,commenda,LR2,coupled,medium,.NR,[verify],.NR,ai,"tractator bound through the profit share, upside only"
+OF-0082,commenda,LR3,1,high,.NR,Pryor 1977,en,ai,classic three-quarter/one-quarter unilateral split; half and half in the bilateral form
+OF-0083,commenda,LR4,0,medium,.NR,[verify],.NR,ai,"bilateral, not pooled"
+OF-0084,commenda,LR5,.NA,.NA,.NA,.NA,.NA,ai,not a pooling vehicle
+OF-0085,commenda,CF1,1,high,.NR,Pryor 1977,en,ai,capital against labour
+OF-0086,commenda,CF2,0,high,.NR,Udovitch 1962,en,ai,DISCRIMINATING CELL. Loss falls on capital. Udovitch makes the absence of agent liability the commenda's differentia and excludes the isqa and the Byzantine chreokoinonia on that basis.
+OF-0087,commenda,CF3,bilateral,medium,.NR,[verify],.NR,ai,coded bilateral for the classic form; multilateral commende existed and would need separate rows
+OF-0088,isqa,LR6,symmetric,high,articulated,BT Bava Metzia 104b,arc,ai,"the manager is exposed both ways: profit on the milveh half is his, loss on it is his debt. The labour-compensation asymmetry (a profit share exceeding the loss share) tilts the ratio but does not remove downside exposure."
+OF-0089,qirad,LR6,upside-only,high,.NR,Udovitch 1970,en,ai,"the mudarib holds a call: he shares profit but bears no capital loss, so his exposure is bounded below at zero. This is the cell that distinguishes him from the isqa manager, and it was invisible while LR2 read 'coupled' for both. See vault: Skin in the game is asymmetric in the mudaraba."
+OF-0090,commenda,LR6,upside-only,high,.NR,Harris 2020,en,ai,"unilateral form: the tractator risks labour and reputation, not capital. In the bilateral societas maris his downside is capped at his own contribution, which is still bounded, not open-ended."
+OF-0091,waqf_khayri,LR6,.NA,.NA,.NA,.NA,.NA,ai,"LR2 is veiled: the mutawalli is not entrepreneurially coupled and the beneficiaries are passive, so there is no directional exposure to characterise."
+OF-0092,asiento_averia,LP1,0,medium,.NR,Hierro Anibarro 2005,es,ai,"term partnership by private capitulation; the arca de tres llaves is administrative and fiscal segregation, not personhood"
+OF-0093,asiento_averia,LP2,P,low,.NR,Hierro Anibarro 2005,es,ai,"the fund sits in the three-key chest under a register, with jurisdictional independence for the administradores, but the source never asks who owns it"
+OF-0094,asiento_averia,LP3,P,low,.NR,Hierro Anibarro 2005,es,ai,"a separate Tribunal de la Contaduria de averias and jurisdictionally independent administradores give a special forum, which is not the same as entity standing"
+OF-0095,asiento_averia,AP1,.NR,.NR,.NR,[verify],.NR,ai,"NOT RECORDED, not absent. Hierro Anibarro nowhere asks whether a participe's private creditors could reach the arca - the word acreedor does not occur in the text. Coding 0 here would assert an absence the source cannot support. Resolvable only from the asiento capitulations or from litigation."
+OF-0096,asiento_averia,AP2,P,low,.NR,Hierro Anibarro 2005,es,ai,members cannot withdraw the puesto principal for the term; whether their creditors could force partition is exactly the unasked question flagged at AP1
+OF-0097,asiento_averia,AP3,1,high,articulated,Hierro Anibarro 2005,es,ai,"the substantive find of the article. Participes 'no han de estar obligados en mancomun, ni por el todo'; even 'que se perdieren todos los galeones' liability stops at the puesto principal. Owner shielding - the contractible half of the pair - by private capitulation rather than organisational law."
+OF-0098,asiento_averia,AP4,1,low,.NR,Hierro Anibarro 2005,es,ai,"FRAMING MISMATCH: the characteristic is written for founder-endowed forms. The analogue here is the puesto principal leaving the participe's patrimony once handed to the administrators, after which only that sum is obligated. Coded 1 with low confidence rather than P - the thing is fully present, it is the characteristic's applicability that is uncertain."
+OF-0099,asiento_averia,TS1,0,high,.NR,Hierro Anibarro 2005,es,ai,perpetuity absent by design; the asiento is a term contract
+OF-0100,asiento_averia,TS2,fixed-term,high,.NR,Hierro Anibarro 2005,es,ai,six years in the capitulation quoted at 3.2
+OF-0101,asiento_averia,TS3,0,medium,.NR,Hierro Anibarro 2005,es,ai,the puesto principal cannot be withdrawn for the term
+OF-0102,asiento_averia,TS4,0,low,.NR,[verify],.NR,ai,terms fixed by capitulation; internal amendment not evidenced
+OF-0103,asiento_averia,CI1,common,high,.NR,Hierro Anibarro 2005,es,ai,a common fund - the cifra de caudal - divided into aliquot puestos
+OF-0104,asiento_averia,CI2,1,high,articulated,Hierro Anibarro 2005,es,ai,"capital lock-in, contractual and terminable: the puesto principal is immobilised for the fixed term"
+OF-0105,asiento_averia,CI3,P,low,.NR,[verify],.NR,ai,"VERIFY. Transferability is present - a footnote cites Sayous 1902 on the transmision de las participaciones - but free transfer versus transfer-with-consent is unresolved, and that distinction decides whether the transferable-claim component is genuinely there."
+OF-0106,asiento_averia,CI4,P,low,.NR,[verify],.NR,ai,"'En el asiento no es importante la calidad del aportante, sino la de su credito' documents depersonalisation as to admission. Full negotiability follows transferability, which is unverified - so CI4 cannot exceed CI3 without asserting more than the source gives. See dependence group interest-alienability."
+OF-0107,asiento_averia,LR1,limited,high,articulated,Hierro Anibarro 2005,es,ai,"explicit and modern: no mancomun liability, goods remain 'libres sin carga de hipoteca especial, ni general'"
+OF-0108,asiento_averia,LR2,coupled,medium,.NR,Hierro Anibarro 2005,es,ai,participes bear the venture's outcome up to the puesto
+OF-0109,asiento_averia,LR3,1,medium,.NR,Hierro Anibarro 2005,es,ai,"returns and losses follow the aliquot puestos, with voting proportional to contribution"
+OF-0110,asiento_averia,LR4,1,medium,.NR,Hierro Anibarro 2005,es,ai,"UNIT AMBIGUITY, deliberate. Two levels: the averia is a compulsory ad valorem levy pooling the cost of convoy protection across all shippers; the asiento is the contracted vehicle administering it, whose participes pool capital and share loss proportionally. Coded 1 for the vehicle. If the levy is the intended unit the coding still holds, but the members differ."
+OF-0111,asiento_averia,LR5,synchronising,low,.NR,[verify],.NR,ai,"THE CELL THAT MATTERS, and the project's own note flags it as open. The pooled object is protection, and the hazard is an adversary who responds to the defence mounted rather than a storm - which makes losses correlated across participants and the pooling synchronising rather than diversifying. Bears directly on why the pool failed. Vault note 'The asiento de averia is the pooling-to-corporation hinge' says where this sits on the determinate-contingent typology is better asked than assumed; coded low on that authority."
+OF-0112,asiento_averia,LR6,symmetric,medium,.NR,Hierro Anibarro 2005,es,ai,"exposed to gain and loss alike, but truncated at the puesto in both directions. The vocabulary has no way to record bounded-symmetric as against unbounded-symmetric; the isqa manager is symmetric and unbounded, the participe symmetric and capped."
+OF-0113,asiento_averia,MG1,membership,medium,.NR,Hierro Anibarro 2005,es,ai,"aliquot shares, express equality of participes, and voting proportional to contribution read as membership in a fund rather than a bare contractual claim. Contestable: participation arises by subscription to a capitulation, which would argue for contract."
+OF-0114,asiento_averia,MG2,collective,medium,.NR,Hierro Anibarro 2005,es,ai,voting proportional to contribution; no participe may invoke a particular fuero to claim precedence
+OF-0115,asiento_averia,MG3,0,low,.NR,[verify],.NR,ai,"subscription appears open to those with credito; capital was chronically hard to assemble, which argues against restriction"
+OF-0116,asiento_averia,MG4,state-charter,medium,.NR,Hierro Anibarro 2005,es,ai,devolved by the Crown through the asientos as royal capitulations
+OF-0117,asiento_averia,FP1,mixed,medium,.NR,Hierro Anibarro 2005,es,ai,two levels again: the underlying averia is mutual provision - a compulsory levy funding common defence - while the asiento layer is commercial-profit for the asentistas
+OF-0118,asiento_averia,FP2,1,medium,.NR,Hierro Anibarro 2005,es,ai,the asentistas hold for the term the exclusive right to collect the averia and provision the armada
+OF-0119,asiento_averia,FP3,0,low,.NR,[verify],.NR,ai,no status or access arbitrage evidenced
+OF-0120,asiento_averia,FP4,1,high,.NR,Hierro Anibarro 2005,es,ai,"royal capitulations, a registered arca, and a dedicated Tribunal de la Contaduria de averias"
+OF-0121,asiento_averia,CF1,0,medium,.NR,Hierro Anibarro 2005,es,ai,capital pooled among participes; not a capital-against-labour arrangement
+OF-0122,asiento_averia,CF2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: CF1 is 0
+OF-0123,asiento_averia,CF3,multilateral,high,.NR,Hierro Anibarro 2005,es,ai,many participes to a single capitulation
+OF-0124,bazacle_mill,LP1,1,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"inherited, not achieved: the pariage was treated as a universitas, so legal personality applied automatically and without state approbation - unlike the East India companies, for which incorporation from the Crown was the crucial step. This is the cell on which the parallelism argument turns."
+OF-0125,bazacle_mill,LP2,1,medium,.NR,Sicard 2015,en,ai,the company held the mills
+OF-0126,bazacle_mill,LP3,P,low,.NR,[verify],.NR,ai,"universitas carried representation (Ulpian, Dig. 3.4.2, via Avi-Yonah); direct evidence of the mills' standing not yet checked in Sicard"
+OF-0127,bazacle_mill,AP1,P,low,.NR,[verify],.NR,ai,"Ulpian Dig. 3.4.7.1 - a debt owed to a universitas is not owed to its members - is entity shielding, but it is inherited doctrine applied to the mills by inference, not observed in their litigation. Verify against Sicard's primary material before this cell carries weight."
+OF-0128,bazacle_mill,AP2,1,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,shares transferable without dissolving the entity; the 1372 perpetual merger of the constituent pariages presupposes members cannot force partition
+OF-0129,bazacle_mill,AP3,P,low,.NR,[verify],.NR,ai,"the sanction for refusing a capital call was forfeiture of the share (Montpellier 1192, pariers could seize the pecol of non-payers), which caps exposure at the stake in practice. Whether limited liability was articulated as doctrine is a separate question, inferred from universitas rather than evidenced."
+OF-0130,bazacle_mill,AP4,.NA,.NA,.NA,.NA,.NA,ai,"no founder and no endowed corpus; the form arises from joint ownership, often by inheritance"
+OF-0131,bazacle_mill,TS1,1,high,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"perpetual, surviving the death of a parier; shares descended over generations. Constituted by perpetual merger in 1372 and running to nationalisation in 1946."
+OF-0132,bazacle_mill,TS2,open,high,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,open-ended; 574 years of continuous operation
+OF-0133,bazacle_mill,TS3,0,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,not unwindable at will by a single parier
+OF-0134,bazacle_mill,TS4,P,low,.NR,[verify],.NR,ai,general assemblies existed and later a board and a professional executive; whether they could alter the purpose is unchecked
+OF-0135,bazacle_mill,CI1,common,medium,.NR,Sicard 2015,en,ai,"a single physical asset held in common and divided into aliquot fractions - pecol (1/16) at Montpellier, meules at Moissac, rases at Montauban"
+OF-0136,bazacle_mill,CI2,P,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"INVERTS THE VOC PATTERN. There is no subscribed permanent capital: contributions were called as needed and non-payment forfeited the share. Capital is therefore immobile in the sense that it cannot be withdrawn, but it was never locked in as a fixed sum either. The mills accumulate capital by call, the joint-stock company by subscription - a genuine structural difference, and the one Harris gestures at with the cost-book analogy."
+OF-0137,bazacle_mill,CI3,1,high,articulated,"Le Bris, Goetzmann & Pouget 2023",en,ai,"DECIDES THE HARRIS DISPUTE ON THE STRUCTURAL QUESTION. Pariers were free to sell their rights WITHOUT THE CONSENT of the other pariers, and the 1182 Castel enfeoffment schedules the tax on transactions in halves, thirds and quarters - so fractional alienation was routine and fiscally anticipated by the twelfth century. Harris does not deny transferability; he requires an impersonal exchange, which is a property of the venue, not of the share."
+OF-0138,bazacle_mill,CI4,P,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"the equality rule made shares identical irrespective of holder, which Le Bris, Goetzmann & Pouget call 'a preliminary for depersonalization' - their hedge, preserved here. Contrast the societas, where the share was tied to a specific partner. Coded P rather than 1 because the authors themselves stop short."
+OF-0139,bazacle_mill,LR1,limited,low,.NR,[verify],.NR,ai,inferred from universitas doctrine and from forfeiture as the sanction for non-payment; not evidenced directly
+OF-0140,bazacle_mill,LR2,coupled,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,pariers bore the mills' fortunes through distributions and through calls
+OF-0141,bazacle_mill,LR3,1,high,articulated,Sicard 2015,en,ai,capital expenditure and revenue distribution both in proportion to pars
+OF-0142,bazacle_mill,LR4,0,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"a single jointly-owned asset, not mutualisation of members' idiosyncratic risks. NB the milling pariages did contract mutual insurance BETWEEN themselves - pooling at the inter-firm level, not within the firm, and a candidate for separate coding."
+OF-0143,bazacle_mill,LR5,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: LR4 is 0
+OF-0144,bazacle_mill,LR6,symmetric,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"exposed to gains through distributions and to losses through calls, capped at the share in both directions"
+OF-0145,bazacle_mill,MG1,membership,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,claim follows parier status in the pariage
+OF-0146,bazacle_mill,MG2,collective,high,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,general assemblies and representation from early on; a board of directors and a professional chief executive before the EIC and VOC
+OF-0147,bazacle_mill,MG3,0,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"sale required no consent from other pariers, so entry was not restricted"
+OF-0148,bazacle_mill,MG4,customary,low,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"TWO SOURCES AT ONCE, and the tension is the point. The mills were held by comital enfeoffment (Bazacle 1177 and 1184, Castel 1182), a feudal grant; but their legal personality came from the ius commune without any approbation. Neither state-charter nor purely customary. The vocabulary cannot currently express authorization from received learned law - a candidate defect, flagged not fixed."
+OF-0149,bazacle_mill,FP1,mixed,low,.NR,[verify],.NR,ai,"THE CELL WHERE HARRIS AND LE BRIS/GOETZMANN/POUGET ACTUALLY DISAGREE. Harris reads the mills as providing services to the community and distributing accumulated profits, which is mutual-provision; the others read a profit-seeking firm, which is commercial-profit. Coded mixed to hold the dispute open rather than resolve it by fiat. Resolving this cell resolves much of the debate."
+OF-0150,bazacle_mill,FP2,P,low,.NR,[verify],.NR,ai,milling rights on the Garonne held by enfeoffment function as a franchise; extent unchecked
+OF-0151,bazacle_mill,FP3,0,low,.NR,[verify],.NR,ai,no status or access arbitrage evidenced
+OF-0152,bazacle_mill,FP4,1,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"enfeoffment charters, notarial registration of transfers, and a share-transaction tax scheduled in 1182"
+OF-0153,bazacle_mill,CF1,0,medium,.NR,"Le Bris, Goetzmann & Pouget 2023",en,ai,"pariers were capitalists not workers - the Daurade monastery, Capitouls - but there is no labour-contributing partner in the form"
+OF-0154,bazacle_mill,CF2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: CF1 is 0
+OF-0155,bazacle_mill,CF3,multilateral,high,.NR,Sicard 2015,en,ai,many pariers

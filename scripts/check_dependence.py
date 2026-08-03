@@ -131,6 +131,24 @@ def report_groups(chars, grid):
                       f" - {a} does not determine {b}{weak}")
 
 
+
+def check_articulation(dataset: Path) -> int:
+    """'articulated' asserts the tradition stated the function in its own idiom.
+    That cannot rest on a placeholder citation: a modern secondary work is
+    admissible only where it quotes the doctrinal text, which '[verify]' by
+    definition does not."""
+    import csv as _csv
+    problems = 0
+    for r in _csv.DictReader((dataset / "data.csv").open(encoding="utf-8")):
+        if r.get("articulation") == "articulated" and r.get("source_ref") in ("[verify]", ".NR", ""):
+            print(f"  VIOLATION  {r['record_id']} {r['type_id']}/{r['char_id']}: "
+                  f"articulated but source_ref={r['source_ref']!r}")
+            problems += 1
+    if not problems:
+        print("  no articulation problems")
+    return problems
+
+
 def main() -> int:
     root = Path(__file__).resolve().parent.parent
     dataset = Path(sys.argv[1]) if len(sys.argv) > 1 else root / "datasets/organizational_forms"
@@ -139,6 +157,8 @@ def main() -> int:
 
     print("=== applicability (enforced) ===")
     problems = check_applicability(chars, grid)
+    print("\n=== articulation (enforced) ===")
+    problems += check_articulation(dataset)
     print("\n=== redundancy groups (reported) ===")
     report_groups(chars, grid)
     print(f"\napplicability violations: {problems}")
