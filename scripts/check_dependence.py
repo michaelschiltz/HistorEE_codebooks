@@ -161,7 +161,7 @@ def main() -> int:
     # comparable at WP1 level without merging the schemas.
     VOCAB = {
         "organizational_forms": "vocabularies/organizational_form_characteristic.csv",
-        "cooperative_pooling_forms": "vocabularies/cooperative_pooling_characteristic.csv",
+        "loss_mitigation_forms": "vocabularies/loss_mitigation_characteristic.csv",
     }
     name = dataset.name
     if name not in VOCAB:

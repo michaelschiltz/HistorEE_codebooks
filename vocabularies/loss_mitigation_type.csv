@@ -1,0 +1,21 @@
+code,name,tradition,period,key_source
+averia_pool,Avería (compulsory convoy levy),Spanish / Carrera de Indias,1521-1681,Hierro Anibarro 2005; vault: asiento notes
+general_average,General average (jettison contribution),Mediterranean / lex Rhodia,antiquity onward,.NR
+ko_mujin,Kō / mujin (rotating credit and mutual finance),Japanese,.NR,.NR
+huiguan,Huiguan (native-place association mutual fund),Chinese,16c onward,.NR
+gongsi,Gongsi / kongsi (shared-profit mutual venture),Chinese,18c onward,.NR
+huf,Joint Hindu family (HUF),South Asian,.NR,"BOUNDARY DOUBT: arguably a capital-vehicle rather than a hazard-pool; retained here provisionally, revisit once coded"
+tontine,Tontine,European,17c onward,.NR
+confraternity_fund,Confraternity / burial and sickness fund,Latin Christendom,13c onward,.NR
+avariz_fund,Avarız-hane fund (Ottoman communal levy),Ottoman,16c onward,.NR
+guild_mutual_aid,Guild mutual-aid chest,European / Japanese,.NR,.NR
+sea_loan,Sea loan (foenus nauticum / nautikòn dáneion),Greco-Roman / Mediterranean,2nd millennium BCE onward,"Harris 2023; Harris 2020, 110-118; vault: sea loan notes"
+bottomry,Bottomry (sea loan secured on the ship),Mediterranean / Latin West,12c onward,Harris 2023
+respondentia,Respondentia (sea loan secured on the goods),Mediterranean / Latin West,12c onward,Harris 2023
+marine_insurance,Premium-based marine insurance,Italian city-states,c.1300 onward,Harris 2023; Ceccarelli; Piccinno 2016
+commenda_alloc,Commenda (loss-allocation aspect),Italian (Latin),10-13c,CROSS-REFERENCE: coded as an entity-question in organizational_forms 'commenda'. Here only its loss-allocation characteristics.
+qirad_alloc,Qirāḍ / muḍāraba (loss-allocation aspect),Islamic,7c onward,CROSS-REFERENCE: see organizational_forms 'qirad'.
+isqa_alloc,ʿIsqa (loss-allocation aspect),Jewish (Babylonian rabbinic),4c onward,CROSS-REFERENCE: see organizational_forms 'isqa'.
+societas_maris,Societas maris / collegantia,Venetian / Genoese,10-13c,.NR
+ortoq_alloc,Ortoq (loss-allocation aspect),Mongol / Inner Asian,13-14c,CROSS-REFERENCE: see organizational_forms 'ortoq'.
+caravan_partnership,Caravan trade partnership,Inner Asian / Islamic,.NR,.NR
