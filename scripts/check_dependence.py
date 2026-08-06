@@ -27,6 +27,10 @@ from pathlib import Path
 # Keyed (dependent, gate). Kept explicit rather than inferred: "which values
 # block" is a substantive claim about the characteristic, not a rule.
 BLOCKING = {
+    ("PY1", "PY0"): {"collective-good"},
+    ("PY2", "PY0"): {"collective-good"},
+    ("PY3", "PY0"): {"collective-good"},
+    ("DR2", "DR1"): {"open-ended"},
     ("LR5", "LR4"): {"0"},
     ("LR6", "LR2"): {"veiled"},
     ("CF2", "CF1"): {"0", ".NA"},
@@ -152,7 +156,18 @@ def check_articulation(dataset: Path) -> int:
 def main() -> int:
     root = Path(__file__).resolve().parent.parent
     dataset = Path(sys.argv[1]) if len(sys.argv) > 1 else root / "datasets/organizational_forms"
-    vocab = root / "vocabularies/organizational_form_characteristic.csv"
+    # Vocabulary is chosen by dataset: each package has its own characteristic set,
+    # but they share the component/work_package layer, which is what makes the two
+    # comparable at WP1 level without merging the schemas.
+    VOCAB = {
+        "organizational_forms": "vocabularies/organizational_form_characteristic.csv",
+        "cooperative_pooling_forms": "vocabularies/cooperative_pooling_characteristic.csv",
+    }
+    name = dataset.name
+    if name not in VOCAB:
+        print(f"no characteristic vocabulary registered for {name!r}; nothing to check")
+        return 0
+    vocab = root / VOCAB[name]
     chars, grid = load(dataset, vocab)
 
     print("=== applicability (enforced) ===")
