@@ -46,7 +46,7 @@
             "constraints": {
               "required": true,
               "unique": true,
-              "pattern": "^CP-[0-9]{4}$"
+              "pattern": "^LM-[0-9]{4}$"
             }
           },
           {

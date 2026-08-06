@@ -53,7 +53,7 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 Stable unique identifier for the coding. Never reused.
 
-- **type** string · **required** · **unique** · **pattern** `^CP-[0-9]{4}$`
+- **type** string · **required** · **unique** · **pattern** `^LM-[0-9]{4}$`
 
 
 ### `type_id` — Pooling form (coded)

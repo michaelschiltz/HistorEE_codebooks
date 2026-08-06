@@ -1,79 +1,79 @@
 record_id,type_id,char_id,value,confidence,articulation,source_ref,source_lang,coder,notes
-CP-0001,averia_pool,MB1,territorial-subject,high,.NR,Hierro Anibarro 2005,es,ai,"every shipper on the Carrera de Indias, by virtue of trading under the licence — membership follows the route, not kinship or occupation"
-CP-0002,averia_pool,MB2,0,medium,.NR,Hierro Anibarro 2005,es,ai,no numerical restriction: the levy fell on all cargo
-CP-0003,averia_pool,MB3,compulsory,high,articulated,Hierro Anibarro 2005,es,ai,"THE DISCRIMINATING CELL of this census so far. Alone among the instruments in the comparative frame, this pool is compulsory. It poses the framework a question rather than illustrating it: if pooling raises each participant's time-average growth rate, why must it be enforced, and why did merchants defect? The available answer is that convoy protection is non-excludable, so private and pooled optima diverge - but it has to be given, not assumed."
-CP-0004,averia_pool,CN1,ex-ante-periodic,high,.NR,Hierro Anibarro 2005,es,ai,"an ad valorem levy raised on cargo as it shipped, not an assessment after loss"
-CP-0005,averia_pool,CN2,proportional-to-stake,high,.NR,Hierro Anibarro 2005,es,ai,ad valorem: contribution scaled to the value shipped
-CP-0006,averia_pool,CN3,1,high,.NR,Hierro Anibarro 2005,es,ai,"a crown levy, collected through the Casa de la Contratación"
-CP-0007,averia_pool,HZ1,covariate,medium,.NR,[verify],.NR,ai,"enemy action against a convoy strikes the whole fleet at once, so losses are correlated across contributors rather than independent - which makes this pooling synchronising rather than diversifying, and bears directly on why the pool failed"
-CP-0008,averia_pool,HZ2,1,low,.NR,[verify],.NR,ai,"THE UNUSUAL FEATURE. The hazard is an adversary who responds to the defence mounted, not a storm indifferent to it. Where this sits on the determinate-contingent typology is flagged in the vault as better asked than assumed, hence low confidence."
-CP-0009,averia_pool,PY1,.NA,.NA,.NA,.NA,.NA,ai,"inapplicable: PY0 is collective-good. Originally coded realised-loss, which forced the characteristic to describe a distribution that never happens - the levy funded an armed escort, not an indemnity."
-CP-0010,averia_pool,PY2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: PY0 is collective-good. The limit this cell first exposed is now recorded structurally in PY0 rather than in prose.
-CP-0011,averia_pool,PY3,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no individual draw to cap
-CP-0012,averia_pool,LS1,residual-on-fund,medium,.NR,Hierro Anibarro 2005,es,ai,"shortfalls fell on the fund and ultimately on the crown and the asentistas, not back on the contributing shippers"
-CP-0013,averia_pool,LS2,0,medium,.NR,Hierro Anibarro 2005,es,ai,"contributors held no claim on any surplus; the levy was a tax, not a share"
-CP-0014,averia_pool,LS3,0,high,.NR,Hierro Anibarro 2005,es,ai,"a shipper's exposure ended at the levy paid. Contrast the asiento partícipes, who were shielded by an explicit clause (organizational_forms AP3=1) - two different populations, two different shieldings, and worth keeping distinct."
-CP-0015,averia_pool,VF1,official-adjudication,medium,.NR,Hierro Anibarro 2005,es,ai,the Casa de la Contratación and a dedicated Tribunal de la Contaduría de averías
-CP-0016,averia_pool,GV1,external-administered,high,.NR,Hierro Anibarro 2005,es,ai,"administered by the Consulado and, from the 1610s, devolved to asiento contractors"
-CP-0017,averia_pool,DR1,open-ended,high,.NR,Hierro Anibarro 2005,es,ai,raised from 1521 and running until the avería was practically extinct by the Recopilación of 1681
-CP-0018,averia_pool,DR2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: DR1 is open-ended
-CP-0019,averia_pool,PY0,collective-good,high,.NR,Hierro Anibarro 2005,es,ai,"THE STRUCTURAL POINT. The pooled object is protection, not indemnity: contributors bought an armed escort, a non-excludable good, and no shipper ever drew on the fund. This is why the pool had to be compulsory (MB3) - non-excludability makes the private and pooled optima diverge - and it is the cell that distinguishes this form from every distributive pool in the census."
-CP-0020,averia_pool,MC1,pooling,high,articulated,Harris 2023,en,ai,"Harris's category applied: the loss is averaged among those with a stake, no outsider takes it, and nothing is priced ex ante."
-CP-0021,averia_pool,RB1,all-stakeholders,high,.NR,Harris 2023,en,ai,peril loss spread across all contributing shippers by the levy
-CP-0022,averia_pool,RB2,capital-provider,medium,.NR,[verify],.NR,ai,"market risk on the cargo stayed with its owner; the levy covered protection, not price"
-CP-0023,averia_pool,RB3,none,high,.NR,Harris 2023,en,ai,"no pledge: a levy, not an advance"
-CP-0024,averia_pool,RB4,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no obligation to discharge
-CP-0025,averia_pool,PR1,0,high,.NR,Harris 2023,en,ai,"KNIGHT'S THRESHOLD. No ex-ante price: the levy was assessed on value shipped, not on a probability of loss. Harris's explanation for why pooling institutions are ancient and premium insurance is not."
-CP-0026,sea_loan,MC1,allocation,high,articulated,Harris 2023,en,ai,"risk assigned to a named counterparty by contract, not mutualised and not sold to a third party"
-CP-0027,sea_loan,RB1,capital-provider,high,articulated,Harris 2023,en,ai,"THE DEFINING SPLIT. 'The sea risk, loss of ship or goods at sea, was allocated to the lender' (Harris 2023)."
-CP-0028,sea_loan,RB2,labour-provider,high,articulated,Harris 2023,en,ai,"'while the business risk, changes in demand and supply and market price fluctuations, was held by the borrower' - the same sentence. RB1 and RB2 diverge here, which is why they are separate characteristics."
-CP-0029,sea_loan,RB3,none,medium,.NR,Harris 2023,en,ai,the generic ancient form; bottomry and respondentia are the medieval refinements that add security
-CP-0030,sea_loan,RB4,1,high,articulated,Harris 2023,en,ai,"'the borrower was exempted from repaying the loan if the ship was wrecked' - the feature canon law read as usurious, since the lender is paid for bearing peril"
-CP-0031,sea_loan,PR1,P,medium,.NR,Harris 2023,en,ai,"priced, but crudely: 25-33% for western Mediterranean round trips, 40-100% for the Levant. Harris's point is that the sea loan needed only rough categories, unlike insurance - 'the risk premium did not have to be calculated as precisely'."
-CP-0032,sea_loan,MB3,voluntary,high,.NR,Harris 2023,en,ai,"a contract, not a levy"
-CP-0033,sea_loan,PY0,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: not a fund with an output
-CP-0034,bottomry,MC1,allocation,high,.NR,Harris 2023,en,ai,a sea loan variant
-CP-0035,bottomry,RB1,capital-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
-CP-0036,bottomry,RB2,labour-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
-CP-0037,bottomry,RB3,vessel,high,articulated,Harris 2023,en,ai,"DISCRIMINATING CELL. 'The first was the bottomry, a loan secured by the ship itself' (Harris 2023). The only cell on which bottomry and respondentia differ."
-CP-0038,bottomry,RB4,1,high,.NR,Harris 2023,en,ai,"discharge on loss, as the parent form"
-CP-0039,bottomry,PR1,1,medium,.NR,Harris 2023,en,ai,"Harris: bottomry and respondentia 'functioned in an environment of risk, rather than uncertainty', so pricing is firmer than for the ancient sea loan"
-CP-0040,respondentia,MC1,allocation,high,.NR,Harris 2023,en,ai,a sea loan variant
-CP-0041,respondentia,RB1,capital-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
-CP-0042,respondentia,RB2,labour-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
-CP-0043,respondentia,RB3,cargo,high,articulated,Harris 2023,en,ai,"DISCRIMINATING CELL. 'The second was the respondentia, a loan secured by the goods' (Harris 2023)."
-CP-0044,respondentia,RB4,1,high,.NR,Harris 2023,en,ai,"discharge on loss, as the parent form"
-CP-0045,respondentia,PR1,1,medium,.NR,Harris 2023,en,ai,as bottomry
-CP-0046,marine_insurance,MC1,spreading,high,articulated,Harris 2023,en,ai,"'the sea loan did not allow the allocation of risk to a third party that was unconnected to the underlining trade transaction and did not yield itself to the spreading of the risk among many, as insurance did' (Harris 2023)."
-CP-0047,marine_insurance,RB1,third-party,high,articulated,Harris 2023,en,ai,"the underwriter, unconnected to the venture"
-CP-0048,marine_insurance,RB2,capital-provider,medium,.NR,[verify],.NR,ai,market risk stayed with the merchant
-CP-0049,marine_insurance,RB3,none,high,.NR,Harris 2023,en,ai,no pledge; a premium contract
-CP-0050,marine_insurance,RB4,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no advance to discharge
-CP-0051,marine_insurance,PR1,1,high,articulated,Harris 2023,en,ai,"KNIGHT'S THRESHOLD, the other side. Insurance requires the premium to be priced ex ante, which requires probabilities - hence c.1300 rather than antiquity. This cell and averia_pool's PR1=0 are the contrast Harris's whole timing argument rests on."
-CP-0052,general_average,MC1,pooling,high,articulated,Harris 2023,en,ai,"Harris's paradigm case. 'The significant advantage of General Average over insurance is that the risk is not allocated to outsiders. The Average was being calculated only between those who had stakes in the ship, cargo owners and passengers.'"
-CP-0053,general_average,MB1,contract,medium,.NR,Harris 2023,en,ai,"an implicit background term read into freight contracts rather than a membership; Harris canvasses mandatory rule, default rule and take-it-or-leave-it clause and inclines to the last"
-CP-0054,general_average,MB2,1,high,.NR,Harris 2023,en,ai,"restricted to those with a stake in the voyage - cargo owners, shipowner, passengers"
-CP-0055,general_average,MB3,compulsory,medium,articulated,Harris 2023,en,ai,"Harris: it 'could not be a default clause that some passengers and cargo freighters on a ship would accept, while others would reject by opting out'. Mixed cargo under different regimes would create unmanageable conflicts at the moment of jettison."
-CP-0056,general_average,CN1,ex-post-assessment,high,articulated,Harris 2023,en,ai,"THE DEFINING FEATURE, and the reason the institution is ancient. 'As the risk was not separated and as no one purchased it, there was no need to price the risk ex-ante. All calculations were made ex-post. This solved Knight's problem.'"
-CP-0057,general_average,CN2,proportional-to-stake,medium,.NR,Harris 2023,en,ai,'all stakeholders proportionally share any losses' - though Harris lists as a live question whether the share was assessed on weight or on value
-CP-0058,general_average,CN3,1,high,.NR,Harris 2023,en,ai,"carried in Mediterranean customary law, the Digest (Bk XIV, 'The Rhodian Law of Jettison') and Italian city regulation"
-CP-0059,general_average,HZ1,mixed,medium,.NR,Harris 2023,en,ai,"THE INTERESTING CELL. The trigger is covariate - the whole ship is in peril - but the incidence is idiosyncratic, since only some cargo is jettisoned. Harris: 'Some cargo owners could be more vulnerable than others to jettison'. Neither pure value fits, and that mismatch is what General Average exists to correct."
-CP-0060,general_average,HZ2,P,low,.NR,Harris 2023,en,ai,"storms are indifferent to the defence mounted; ransom paid to pirates, to which Harris says General Average was extended, is adversarial. Coded P because the form spans both."
-CP-0061,general_average,PY0,individual-indemnity,high,articulated,Harris 2023,en,ai,"the owner whose cargo was sacrificed is made good by the others - a genuine individual draw, unlike averia_pool's collective good. This is the cell that separates the two pooling forms."
-CP-0062,general_average,PY1,realised-loss,high,.NR,Harris 2023,en,ai,entitlement follows an actual sacrifice
-CP-0063,general_average,PY2,indemnity,high,.NR,Harris 2023,en,ai,"compensation measured by the loss, not by rotation or lot"
-CP-0064,general_average,PY3,0,low,.NR,[verify],.NR,ai,the sacrificed owner is made whole pro rata; whether any cap operated is unchecked
-CP-0065,general_average,LS1,pro-rata,high,.NR,Harris 2023,en,ai,"'the damage was averaged, the loss was shared by all'"
-CP-0066,general_average,LS2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: there is no standing fund to hold a surplus - contributions are raised only after the event
-CP-0067,general_average,LS3,0,medium,.NR,Harris 2023,en,ai,"exposure is a pro-rata share of an averaged loss, bounded by the value at stake in the voyage"
-CP-0068,general_average,VF1,official-adjudication,medium,.NR,Harris 2023,en,ai,"Harris lists the assessment questions - which damages, at which price, shared by whom - as the substance of the institution's development; adjudicated in port"
-CP-0069,general_average,GV1,collective,medium,.NR,Harris 2023,en,ai,"Goldschmidt's germinamento: a consultation on board followed by agreement to jettison, made when the danger becomes imminent. Harris notes Addobbati corrects long-standing misunderstandings of it."
-CP-0070,general_average,DR1,single-event,high,.NR,Harris 2023,en,ai,the Average is struck for one voyage and one sacrifice
-CP-0071,general_average,DR2,on-completion,medium,.NR,Harris 2023,en,ai,settled on arrival
-CP-0072,general_average,RB1,all-stakeholders,high,articulated,Harris 2023,en,ai,peril loss averaged across everyone with a stake
-CP-0073,general_average,RB2,capital-provider,medium,.NR,[verify],.NR,ai,price risk on the cargo stays with its owner
-CP-0074,general_average,RB3,none,high,.NR,Harris 2023,en,ai,"no advance, so no pledge"
-CP-0075,general_average,RB4,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no obligation to discharge
-CP-0076,general_average,PR1,0,high,articulated,Harris 2023,en,ai,"KNIGHT'S THRESHOLD, and Harris's whole timing argument. General Average 'could function well under uncertainty, even high uncertainty' because nothing is priced before the event - which is why it predates premium insurance by a millennium or more. THE LIMIT Harris names: it 'provided no relief in the event of sinking and total loss', where there is nothing left to average."
-CP-0077,tontine,MC1,pooling,high,.NR,[verify],.NR,ai,"STRUCTURALLY CERTAIN: mortality risk is mutualised among subscribers and no outsider bears it - the state pays a fixed total and survivors divide it. Coded on structure, not on a source."
-CP-0078,tontine,PR1,.NR,.NR,.NR,[verify],.NR,ai,"THE FALSIFICATION TEST, NOT YET RUNNABLE. If the hazard-to-pricing sequence holds, pooling forms should code PR1=0. The tontine is the candidate counter-example: subscribers grouped into age classes is ex-ante actuarial pricing inside a pooling form. If it codes PR1=1 the sequence collapses and pricing is orthogonal to mechanism rather than a stage of it. TWO PROBLEMS FIRST: (i) no source to hand - Harris 2023 does not treat tontines, and coding this from general knowledge would breach the repo's own rule; (ii) 'tontine' probably spans pre- and post-actuarial forms, so one row may not hold it and the type may need splitting by period."
+LM-0001,averia_pool,MB1,territorial-subject,high,.NR,Hierro Anibarro 2005,es,ai,"every shipper on the Carrera de Indias, by virtue of trading under the licence — membership follows the route, not kinship or occupation"
+LM-0002,averia_pool,MB2,0,medium,.NR,Hierro Anibarro 2005,es,ai,no numerical restriction: the levy fell on all cargo
+LM-0003,averia_pool,MB3,compulsory,high,articulated,Hierro Anibarro 2005,es,ai,"THE DISCRIMINATING CELL of this census so far. Alone among the instruments in the comparative frame, this pool is compulsory. It poses the framework a question rather than illustrating it: if pooling raises each participant's time-average growth rate, why must it be enforced, and why did merchants defect? The available answer is that convoy protection is non-excludable, so private and pooled optima diverge - but it has to be given, not assumed."
+LM-0004,averia_pool,CN1,ex-ante-periodic,high,.NR,Hierro Anibarro 2005,es,ai,"an ad valorem levy raised on cargo as it shipped, not an assessment after loss"
+LM-0005,averia_pool,CN2,proportional-to-stake,high,.NR,Hierro Anibarro 2005,es,ai,ad valorem: contribution scaled to the value shipped
+LM-0006,averia_pool,CN3,1,high,.NR,Hierro Anibarro 2005,es,ai,"a crown levy, collected through the Casa de la Contratación"
+LM-0007,averia_pool,HZ1,covariate,medium,.NR,[verify],.NR,ai,"enemy action against a convoy strikes the whole fleet at once, so losses are correlated across contributors rather than independent - which makes this pooling synchronising rather than diversifying, and bears directly on why the pool failed"
+LM-0008,averia_pool,HZ2,1,low,.NR,[verify],.NR,ai,"THE UNUSUAL FEATURE. The hazard is an adversary who responds to the defence mounted, not a storm indifferent to it. Where this sits on the determinate-contingent typology is flagged in the vault as better asked than assumed, hence low confidence."
+LM-0009,averia_pool,PY1,.NA,.NA,.NA,.NA,.NA,ai,"inapplicable: PY0 is collective-good. Originally coded realised-loss, which forced the characteristic to describe a distribution that never happens - the levy funded an armed escort, not an indemnity."
+LM-0010,averia_pool,PY2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: PY0 is collective-good. The limit this cell first exposed is now recorded structurally in PY0 rather than in prose.
+LM-0011,averia_pool,PY3,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no individual draw to cap
+LM-0012,averia_pool,LS1,residual-on-fund,medium,.NR,Hierro Anibarro 2005,es,ai,"shortfalls fell on the fund and ultimately on the crown and the asentistas, not back on the contributing shippers"
+LM-0013,averia_pool,LS2,0,medium,.NR,Hierro Anibarro 2005,es,ai,"contributors held no claim on any surplus; the levy was a tax, not a share"
+LM-0014,averia_pool,LS3,0,high,.NR,Hierro Anibarro 2005,es,ai,"a shipper's exposure ended at the levy paid. Contrast the asiento partícipes, who were shielded by an explicit clause (organizational_forms AP3=1) - two different populations, two different shieldings, and worth keeping distinct."
+LM-0015,averia_pool,VF1,official-adjudication,medium,.NR,Hierro Anibarro 2005,es,ai,the Casa de la Contratación and a dedicated Tribunal de la Contaduría de averías
+LM-0016,averia_pool,GV1,external-administered,high,.NR,Hierro Anibarro 2005,es,ai,"administered by the Consulado and, from the 1610s, devolved to asiento contractors"
+LM-0017,averia_pool,DR1,open-ended,high,.NR,Hierro Anibarro 2005,es,ai,raised from 1521 and running until the avería was practically extinct by the Recopilación of 1681
+LM-0018,averia_pool,DR2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: DR1 is open-ended
+LM-0019,averia_pool,PY0,collective-good,high,.NR,Hierro Anibarro 2005,es,ai,"THE STRUCTURAL POINT. The pooled object is protection, not indemnity: contributors bought an armed escort, a non-excludable good, and no shipper ever drew on the fund. This is why the pool had to be compulsory (MB3) - non-excludability makes the private and pooled optima diverge - and it is the cell that distinguishes this form from every distributive pool in the census."
+LM-0020,averia_pool,MC1,pooling,high,articulated,Harris 2023,en,ai,"Harris's category applied: the loss is averaged among those with a stake, no outsider takes it, and nothing is priced ex ante."
+LM-0021,averia_pool,RB1,all-stakeholders,high,.NR,Harris 2023,en,ai,peril loss spread across all contributing shippers by the levy
+LM-0022,averia_pool,RB2,capital-provider,medium,.NR,[verify],.NR,ai,"market risk on the cargo stayed with its owner; the levy covered protection, not price"
+LM-0023,averia_pool,RB3,none,high,.NR,Harris 2023,en,ai,"no pledge: a levy, not an advance"
+LM-0024,averia_pool,RB4,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no obligation to discharge
+LM-0025,averia_pool,PR1,0,high,.NR,Harris 2023,en,ai,"KNIGHT'S THRESHOLD. No ex-ante price: the levy was assessed on value shipped, not on a probability of loss. Harris's explanation for why pooling institutions are ancient and premium insurance is not."
+LM-0026,sea_loan,MC1,allocation,high,articulated,Harris 2023,en,ai,"risk assigned to a named counterparty by contract, not mutualised and not sold to a third party"
+LM-0027,sea_loan,RB1,capital-provider,high,articulated,Harris 2023,en,ai,"THE DEFINING SPLIT. 'The sea risk, loss of ship or goods at sea, was allocated to the lender' (Harris 2023)."
+LM-0028,sea_loan,RB2,labour-provider,high,articulated,Harris 2023,en,ai,"'while the business risk, changes in demand and supply and market price fluctuations, was held by the borrower' - the same sentence. RB1 and RB2 diverge here, which is why they are separate characteristics."
+LM-0029,sea_loan,RB3,none,medium,.NR,Harris 2023,en,ai,the generic ancient form; bottomry and respondentia are the medieval refinements that add security
+LM-0030,sea_loan,RB4,1,high,articulated,Harris 2023,en,ai,"'the borrower was exempted from repaying the loan if the ship was wrecked' - the feature canon law read as usurious, since the lender is paid for bearing peril"
+LM-0031,sea_loan,PR1,P,medium,.NR,Harris 2023,en,ai,"priced, but crudely: 25-33% for western Mediterranean round trips, 40-100% for the Levant. Harris's point is that the sea loan needed only rough categories, unlike insurance - 'the risk premium did not have to be calculated as precisely'."
+LM-0032,sea_loan,MB3,voluntary,high,.NR,Harris 2023,en,ai,"a contract, not a levy"
+LM-0033,sea_loan,PY0,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: not a fund with an output
+LM-0034,bottomry,MC1,allocation,high,.NR,Harris 2023,en,ai,a sea loan variant
+LM-0035,bottomry,RB1,capital-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
+LM-0036,bottomry,RB2,labour-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
+LM-0037,bottomry,RB3,vessel,high,articulated,Harris 2023,en,ai,"DISCRIMINATING CELL. 'The first was the bottomry, a loan secured by the ship itself' (Harris 2023). The only cell on which bottomry and respondentia differ."
+LM-0038,bottomry,RB4,1,high,.NR,Harris 2023,en,ai,"discharge on loss, as the parent form"
+LM-0039,bottomry,PR1,1,medium,.NR,Harris 2023,en,ai,"Harris: bottomry and respondentia 'functioned in an environment of risk, rather than uncertainty', so pricing is firmer than for the ancient sea loan"
+LM-0040,respondentia,MC1,allocation,high,.NR,Harris 2023,en,ai,a sea loan variant
+LM-0041,respondentia,RB1,capital-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
+LM-0042,respondentia,RB2,labour-provider,high,.NR,Harris 2023,en,ai,as the generic sea loan
+LM-0043,respondentia,RB3,cargo,high,articulated,Harris 2023,en,ai,"DISCRIMINATING CELL. 'The second was the respondentia, a loan secured by the goods' (Harris 2023)."
+LM-0044,respondentia,RB4,1,high,.NR,Harris 2023,en,ai,"discharge on loss, as the parent form"
+LM-0045,respondentia,PR1,1,medium,.NR,Harris 2023,en,ai,as bottomry
+LM-0046,marine_insurance,MC1,spreading,high,articulated,Harris 2023,en,ai,"'the sea loan did not allow the allocation of risk to a third party that was unconnected to the underlining trade transaction and did not yield itself to the spreading of the risk among many, as insurance did' (Harris 2023)."
+LM-0047,marine_insurance,RB1,third-party,high,articulated,Harris 2023,en,ai,"the underwriter, unconnected to the venture"
+LM-0048,marine_insurance,RB2,capital-provider,medium,.NR,[verify],.NR,ai,market risk stayed with the merchant
+LM-0049,marine_insurance,RB3,none,high,.NR,Harris 2023,en,ai,no pledge; a premium contract
+LM-0050,marine_insurance,RB4,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no advance to discharge
+LM-0051,marine_insurance,PR1,1,high,articulated,Harris 2023,en,ai,"KNIGHT'S THRESHOLD, the other side. Insurance requires the premium to be priced ex ante, which requires probabilities - hence c.1300 rather than antiquity. This cell and averia_pool's PR1=0 are the contrast Harris's whole timing argument rests on."
+LM-0052,general_average,MC1,pooling,high,articulated,Harris 2023,en,ai,"Harris's paradigm case. 'The significant advantage of General Average over insurance is that the risk is not allocated to outsiders. The Average was being calculated only between those who had stakes in the ship, cargo owners and passengers.'"
+LM-0053,general_average,MB1,contract,medium,.NR,Harris 2023,en,ai,"an implicit background term read into freight contracts rather than a membership; Harris canvasses mandatory rule, default rule and take-it-or-leave-it clause and inclines to the last"
+LM-0054,general_average,MB2,1,high,.NR,Harris 2023,en,ai,"restricted to those with a stake in the voyage - cargo owners, shipowner, passengers"
+LM-0055,general_average,MB3,compulsory,medium,articulated,Harris 2023,en,ai,"Harris: it 'could not be a default clause that some passengers and cargo freighters on a ship would accept, while others would reject by opting out'. Mixed cargo under different regimes would create unmanageable conflicts at the moment of jettison."
+LM-0056,general_average,CN1,ex-post-assessment,high,articulated,Harris 2023,en,ai,"THE DEFINING FEATURE, and the reason the institution is ancient. 'As the risk was not separated and as no one purchased it, there was no need to price the risk ex-ante. All calculations were made ex-post. This solved Knight's problem.'"
+LM-0057,general_average,CN2,proportional-to-stake,medium,.NR,Harris 2023,en,ai,'all stakeholders proportionally share any losses' - though Harris lists as a live question whether the share was assessed on weight or on value
+LM-0058,general_average,CN3,1,high,.NR,Harris 2023,en,ai,"carried in Mediterranean customary law, the Digest (Bk XIV, 'The Rhodian Law of Jettison') and Italian city regulation"
+LM-0059,general_average,HZ1,mixed,medium,.NR,Harris 2023,en,ai,"THE INTERESTING CELL. The trigger is covariate - the whole ship is in peril - but the incidence is idiosyncratic, since only some cargo is jettisoned. Harris: 'Some cargo owners could be more vulnerable than others to jettison'. Neither pure value fits, and that mismatch is what General Average exists to correct."
+LM-0060,general_average,HZ2,P,low,.NR,Harris 2023,en,ai,"storms are indifferent to the defence mounted; ransom paid to pirates, to which Harris says General Average was extended, is adversarial. Coded P because the form spans both."
+LM-0061,general_average,PY0,individual-indemnity,high,articulated,Harris 2023,en,ai,"the owner whose cargo was sacrificed is made good by the others - a genuine individual draw, unlike averia_pool's collective good. This is the cell that separates the two pooling forms."
+LM-0062,general_average,PY1,realised-loss,high,.NR,Harris 2023,en,ai,entitlement follows an actual sacrifice
+LM-0063,general_average,PY2,indemnity,high,.NR,Harris 2023,en,ai,"compensation measured by the loss, not by rotation or lot"
+LM-0064,general_average,PY3,0,low,.NR,[verify],.NR,ai,the sacrificed owner is made whole pro rata; whether any cap operated is unchecked
+LM-0065,general_average,LS1,pro-rata,high,.NR,Harris 2023,en,ai,"'the damage was averaged, the loss was shared by all'"
+LM-0066,general_average,LS2,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: there is no standing fund to hold a surplus - contributions are raised only after the event
+LM-0067,general_average,LS3,0,medium,.NR,Harris 2023,en,ai,"exposure is a pro-rata share of an averaged loss, bounded by the value at stake in the voyage"
+LM-0068,general_average,VF1,official-adjudication,medium,.NR,Harris 2023,en,ai,"Harris lists the assessment questions - which damages, at which price, shared by whom - as the substance of the institution's development; adjudicated in port"
+LM-0069,general_average,GV1,collective,medium,.NR,Harris 2023,en,ai,"Goldschmidt's germinamento: a consultation on board followed by agreement to jettison, made when the danger becomes imminent. Harris notes Addobbati corrects long-standing misunderstandings of it."
+LM-0070,general_average,DR1,single-event,high,.NR,Harris 2023,en,ai,the Average is struck for one voyage and one sacrifice
+LM-0071,general_average,DR2,on-completion,medium,.NR,Harris 2023,en,ai,settled on arrival
+LM-0072,general_average,RB1,all-stakeholders,high,articulated,Harris 2023,en,ai,peril loss averaged across everyone with a stake
+LM-0073,general_average,RB2,capital-provider,medium,.NR,[verify],.NR,ai,price risk on the cargo stays with its owner
+LM-0074,general_average,RB3,none,high,.NR,Harris 2023,en,ai,"no advance, so no pledge"
+LM-0075,general_average,RB4,.NA,.NA,.NA,.NA,.NA,ai,inapplicable: no obligation to discharge
+LM-0076,general_average,PR1,0,high,articulated,Harris 2023,en,ai,"KNIGHT'S THRESHOLD, and Harris's whole timing argument. General Average 'could function well under uncertainty, even high uncertainty' because nothing is priced before the event - which is why it predates premium insurance by a millennium or more. THE LIMIT Harris names: it 'provided no relief in the event of sinking and total loss', where there is nothing left to average."
+LM-0077,tontine,MC1,pooling,high,.NR,[verify],.NR,ai,"STRUCTURALLY CERTAIN: mortality risk is mutualised among subscribers and no outsider bears it - the state pays a fixed total and survivors divide it. Coded on structure, not on a source."
+LM-0078,tontine,PR1,.NR,.NR,.NR,[verify],.NR,ai,"THE FALSIFICATION TEST, NOT YET RUNNABLE. If the hazard-to-pricing sequence holds, pooling forms should code PR1=0. The tontine is the candidate counter-example: subscribers grouped into age classes is ex-ante actuarial pricing inside a pooling form. If it codes PR1=1 the sequence collapses and pricing is orthogonal to mechanism rather than a stage of it. TWO PROBLEMS FIRST: (i) no source to hand - Harris 2023 does not treat tontines, and coding this from general knowledge would breach the repo's own rule; (ii) 'tontine' probably spans pre- and post-actuarial forms, so one row may not hold it and the type may need splitting by period."
