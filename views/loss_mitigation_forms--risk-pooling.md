@@ -4,14 +4,14 @@ Mechanism filter: `MC1 = pooling`. **6 forms × 9 characteristics.** This is NOT
 
 ## Matrix
 
-| form | `CN1` | `HZ1` | `HZ2` | `MB3` | `MC1` | `PR1` | `PY0` | `PY1` | `PY2` |
-|---|---|---|---|---|---|---|---|---|---|
-| `averia_pool` | 0 | 1 | 1 | 1 | 2 | 0 | 0 | .NA | .NA |
-| `general_average` | 2 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
-| `tontine` | -- | -- | -- | -- | 2 | .NR | -- | -- | -- |
-| `tontine_en_1693` | 1 | 0 | -- | 0 | 2 | 0 | 2 | 1 | .NR |
-| `tontine_fr_royal` | -- | 0 | -- | 0 | 2 | 1 | 2 | -- | -- |
-| `widows_fund_scotland` | -- | 0 | -- | 1 | 2 | 1 | 1 | 1 | -- |
+| form                   | `CN1` | `HZ1` | `HZ2` | `MB3` | `MC1` | `PR1` | `PY0` | `PY1` | `PY2` |
+|------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| `averia_pool`          | 0     | 1     | 1     | 1     | 2     | 0     | 0     | .NA   | .NA   |
+| `general_average`      | 2     | 2     | P     | 1     | 2     | 0     | 1     | 0     | 3     |
+| `tontine`              | --    | --    | --    | --    | 2     | .NR   | --    | --    | --    |
+| `tontine_en_1693`      | 1     | 0     | --    | 0     | 2     | 0     | 2     | 1     | .NR   |
+| `tontine_fr_royal`     | --    | 0     | --    | 0     | 2     | 1     | 2     | --    | --    |
+| `widows_fund_scotland` | --    | 0     | --    | 1     | 2     | 1     | 1     | 1     | --    |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 
