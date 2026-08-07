@@ -1,0 +1,66 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=22mm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{document}
+
+\section*{Appendix: scoped morphological view}
+\textbf{Dataset} \texttt{loss\_mitigation\_forms} \quad \textbf{Component} \texttt{risk-pooling} \quad \textbf{Mechanism} \texttt{MC1 = pooling}
+\textbf{6 forms $\times$ 9 characteristics.} This view is restricted to one declared component set. Comparative claims never run on the full characteristic set: with enough characteristics any two forms separate, so a matrix printed over all of them reports how many characteristics were used rather than anything about the forms. At this $n$ the matrix below is a coverage map and not evidence; the comparative reading is confined to Table~2, whose two characteristics were fixed before the coding.
+\begin{table}[htbp]\centering\small
+\caption{Scoped matrix. States are coded; see the character-state list. Missingness is never collapsed: \texttt{--} no row entered, \texttt{.NR} not recorded in the source, \texttt{.IL} illegible, \texttt{.NA} inapplicable, \texttt{0} an observed absence.}
+\begin{tabular}{lccccccccc}
+\toprule
+form & \texttt{CN1} & \texttt{HZ1} & \texttt{HZ2} & \texttt{MB3} & \texttt{MC1} & \texttt{PR1} & \texttt{PY0} & \texttt{PY1} & \texttt{PY2} \\
+\midrule
+\texttt{averia\_pool} & \texttt{0} & \texttt{1} & \texttt{1} & \texttt{1} & \texttt{2} & \texttt{0} & \texttt{0} & \texttt{.NA} & \texttt{.NA} \\
+\texttt{general\_average} & \texttt{2} & \texttt{2} & \texttt{P} & \texttt{1} & \texttt{2} & \texttt{0} & \texttt{1} & \texttt{0} & \texttt{3} \\
+\texttt{tontine} & \texttt{--} & \texttt{--} & \texttt{--} & \texttt{--} & \texttt{2} & \texttt{.NR} & \texttt{--} & \texttt{--} & \texttt{--} \\
+\texttt{tontine\_en\_1693} & \texttt{1} & \texttt{0} & \texttt{--} & \texttt{0} & \texttt{2} & \texttt{0} & \texttt{2} & \texttt{1} & \texttt{.NR} \\
+\texttt{tontine\_fr\_royal} & \texttt{--} & \texttt{0} & \texttt{--} & \texttt{0} & \texttt{2} & \texttt{1} & \texttt{2} & \texttt{--} & \texttt{--} \\
+\texttt{widows\_fund\_scotland} & \texttt{--} & \texttt{0} & \texttt{--} & \texttt{1} & \texttt{2} & \texttt{1} & \texttt{1} & \texttt{1} & \texttt{--} \\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[htbp]\centering\small
+\caption{The comparative reading, printed with full values and no state codes. \texttt{PR1} takes both values \emph{inside} \texttt{MC1=pooling} at a fixed date, so ex-ante pricing is a separate axis rather than a stage of mechanism; \texttt{PY0} separates the forms on whether a draw corresponds to the recipient's own realised loss.}
+\begin{tabular}{lll}
+\toprule
+form & \texttt{PR1} peril priced ex ante & \texttt{PY0} pool output \\
+\midrule
+\texttt{averia\_pool} & \texttt{0} & \texttt{collective-good} \\
+\texttt{general\_average} & \texttt{0} & \texttt{individual-indemnity} \\
+\texttt{tontine} & \texttt{.NR} & \texttt{--} \\
+\texttt{tontine\_en\_1693} & \texttt{0} & \texttt{individual-draw} \\
+\texttt{tontine\_fr\_royal} & \texttt{1} & \texttt{individual-draw} \\
+\texttt{widows\_fund\_scotland} & \texttt{1} & \texttt{individual-indemnity} \\
+\bottomrule\end{tabular}\end{table}
+\subsection*{Character states}
+\begin{description}\setlength{\itemsep}{2pt}
+\item[\texttt{CN1}] \textit{contribution timing} — \texttt{0}~=~ex-ante-periodic; \texttt{1}~=~ex-ante-lump; \texttt{2}~=~ex-post-assessment
+\item[\texttt{HZ1}] \textit{hazard correlation} — \texttt{0}~=~idiosyncratic; \texttt{1}~=~covariate; \texttt{2}~=~mixed
+\item[\texttt{HZ2}] \textit{hazard responsiveness} — ternary: \texttt{1} present, \texttt{P} partial, \texttt{0} absent
+\item[\texttt{MB3}] \textit{participation basis} — \texttt{0}~=~voluntary; \texttt{1}~=~compulsory
+\item[\texttt{MC1}] \textit{mitigation mechanism} — \texttt{0}~=~allocation; \texttt{1}~=~spreading; \texttt{2}~=~pooling
+\item[\texttt{PR1}] \textit{peril priced ex ante} — ternary: \texttt{1} present, \texttt{P} partial, \texttt{0} absent
+\item[\texttt{PY0}] \textit{pool output} — \texttt{0}~=~collective-good; \texttt{1}~=~individual-indemnity; \texttt{2}~=~individual-draw
+\item[\texttt{PY1}] \textit{payout trigger} — \texttt{0}~=~realised-loss; \texttt{1}~=~life-event; \texttt{2}~=~rotation; \texttt{3}~=~need-assessed
+\item[\texttt{PY2}] \textit{allocation rule} — \texttt{0}~=~rotation-lot; \texttt{1}~=~rotation-fixed; \texttt{2}~=~auction; \texttt{3}~=~indemnity; \texttt{4}~=~need-assessed
+\end{description}
+\subsection*{Forms}
+\begin{description}\setlength{\itemsep}{2pt}
+\item[\texttt{averia\_pool}] Aver\'ia (compulsory convoy levy) \hfill \textit{Spanish / Carrera de Indias, 1521-1681}
+\item[\texttt{general\_average}] General average (jettison contribution) \hfill \textit{Mediterranean / lex Rhodia, antiquity onward}
+\item[\texttt{tontine}] Tontine \hfill \textit{European, 17c onward}
+\item[\texttt{tontine\_en\_1693}] Tontine --- English (Million Act 5 \& 6 Will. \& Mar. c. 5) \hfill \textit{English, 1693-1789}
+\item[\texttt{tontine\_fr\_royal}] Tontine --- French royal series (fourteen age classes) \hfill \textit{French, 1689-1759}
+\item[\texttt{widows\_fund\_scotland}] Scottish Ministers' Widows' Fund \hfill \textit{Scottish, 1744 onward}
+\end{description}
+\vfill\footnotesize All codings marked \texttt{coder=ai} are provisional and pending human verification. Cells carrying \texttt{[verify]} in \texttt{source\_ref} are asserted against an unpinned citation.
+\end{document}
