@@ -29,14 +29,14 @@ Mechanism filter: `MC1 = pooling`. **6 forms × 9 characteristics.** This is NOT
 
 ## The claim
 
-| form | `PR1` peril priced ex ante | `PY0` pool output |
-|---|---|---|
-| `averia_pool` | 0 | collective-good |
-| `general_average` | 0 | individual-indemnity |
-| `tontine` | .NR | -- |
-| `tontine_en_1693` | 0 | individual-draw |
-| `tontine_fr_royal` | 1 | individual-draw |
-| `widows_fund_scotland` | 1 | individual-indemnity |
+| form                   | `PR1` peril priced ex ante | `PY0` pool output    |
+|------------------------|----------------------------|----------------------|
+| `averia_pool`          | 0                          | collective-good      |
+| `general_average`      | 0                          | individual-indemnity |
+| `tontine`              | .NR                        | --                   |
+| `tontine_en_1693`      | 0                          | individual-draw      |
+| `tontine_fr_royal`     | 1                          | individual-draw      |
+| `widows_fund_scotland` | 1                          | individual-indemnity |
 
 ## Forms
 
