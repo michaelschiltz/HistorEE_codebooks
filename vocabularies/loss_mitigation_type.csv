@@ -19,3 +19,7 @@ isqa_alloc,ʿIsqa (loss-allocation aspect),Jewish (Babylonian rabbinic),4c onwar
 societas_maris,Societas maris / collegantia,Venetian / Genoese,10-13c,.NR
 ortoq_alloc,Ortoq (loss-allocation aspect),Mongol / Inner Asian,13-14c,CROSS-REFERENCE: see organizational_forms 'ortoq'.
 caravan_partnership,Caravan trade partnership,Inner Asian / Islamic,.NR,.NR
+tontine_en_1693,Tontine — English (Million Act 5 & 6 Will. & Mar. c. 5),English,1693-1789,"Weir 1989; Milevsky 2015 [verify]. SPLIT from the generic 'tontine' row: the type spans both values of PR1, which one row cannot hold."
+tontine_fr_royal,Tontine — French royal series (fourteen age classes),French,1689-1759,"[verify: Weir 1989; Velde & Weir 1992]. Age-classed from the first issue, hence PR1=1 against the English PR1=0."
+widows_fund_scotland,Scottish Ministers' Widows' Fund,Scottish,1744 onward,"[verify]. Contemporaneous with tontine mania and actuarially priced, but loss-corresponding — the contrast case for PY0."
+life_annuity_priced,"Life annuity priced on a tabulated survival function",Dutch / English,1671 onward,"de Witt 1671 (Waardije van Lyf-renten); Halley 1693 (Breslau table). The form that actually carries the pricing story."
