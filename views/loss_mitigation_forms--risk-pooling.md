@@ -1,6 +1,6 @@
 # Scoped view — component `risk-pooling`
 
-Mechanism filter: `MC1 = pooling`. **11 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+Mechanism filter: `MC1 = pooling`. **12 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -16,6 +16,7 @@ Mechanism filter: `MC1 = pooling`. **11 forms × 9 characteristics.** This is NO
 | `tontine` | -- | -- | -- | -- | 2 | .NR | -- | -- | -- |
 | `tontine_en_1693` | 1 | 0 | -- | 0 | 2 | 0 | 2 | 1 | .NR |
 | `tontine_fr_royal` | -- | 0 | -- | 0 | 2 | 1 | 2 | -- | -- |
+| `torinoke_mujin` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
 | `widows_fund_scotland` | -- | 0 | -- | 1 | 2 | 1 | 1 | 1 | -- |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
@@ -46,6 +47,7 @@ Mechanism filter: `MC1 = pooling`. **11 forms × 9 characteristics.** This is NO
 | `tontine` | .NR | -- |
 | `tontine_en_1693` | 0 | individual-draw |
 | `tontine_fr_royal` | 1 | individual-draw |
+| `torinoke_mujin` | 0 | individual-draw |
 | `widows_fund_scotland` | 1 | individual-indemnity |
 
 ## Forms
@@ -60,4 +62,5 @@ Mechanism filter: `MC1 = pooling`. **11 forms × 9 characteristics.** This is NO
 - `tontine` — Tontine · European · 17c onward
 - `tontine_en_1693` — Tontine — English (Million Act 5 & 6 Will. & Mar. c. 5) · English · 1693-1789
 - `tontine_fr_royal` — Tontine — French royal series (fourteen age classes) · French · 1689-1759
+- `torinoke_mujin` — 取退き無尽 (winner released from further contribution) · Japanese · 17c-1930s
 - `widows_fund_scotland` — Scottish Ministers' Widows' Fund · Scottish · 1744 onward
