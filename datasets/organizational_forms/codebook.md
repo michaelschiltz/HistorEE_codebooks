@@ -6,7 +6,7 @@
 - **Version**: 0.6.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 155  
+- **Rows**: 187  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,16 +35,16 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field          | Type   | Required | Coded values                                                      | Present |
 |---:|----------------|--------|:--------:|-------------------------------------------------------------------|--------:|
-|  1 | `record_id`    | string |    ✓     |                                                                   | 155/155 |
-|  2 | `type_id`      | string |          |                                                                   | 155/155 |
-|  3 | `char_id`      | string |          |                                                                   | 155/155 |
-|  4 | `value`        | string |          |                                                                   | 137/155 |
-|  5 | `confidence`   | string |          | `high`, `medium`, `low`                                           | 137/155 |
-|  6 | `articulation` | string |          | `articulated`, `analyst-imposed`                                  |  16/155 |
-|  7 | `source_ref`   | string |          |                                                                   | 138/155 |
-|  8 | `source_lang`  | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` |  89/155 |
-|  9 | `coder`        | string |    ✓     |                                                                   | 155/155 |
-| 10 | `notes`        | string |          |                                                                   | 155/155 |
+|  1 | `record_id`    | string |    ✓     |                                                                   | 187/187 |
+|  2 | `type_id`      | string |          |                                                                   | 187/187 |
+|  3 | `char_id`      | string |          |                                                                   | 187/187 |
+|  4 | `value`        | string |          |                                                                   | 164/187 |
+|  5 | `confidence`   | string |          | `high`, `medium`, `low`                                           | 164/187 |
+|  6 | `articulation` | string |          | `articulated`, `analyst-imposed`                                  |  23/187 |
+|  7 | `source_ref`   | string |          |                                                                   | 169/187 |
+|  8 | `source_lang`  | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` | 120/187 |
+|  9 | `coder`        | string |    ✓     |                                                                   | 187/187 |
+| 10 | `notes`        | string |          |                                                                   | 187/187 |
 
 ## Variable definitions
 
