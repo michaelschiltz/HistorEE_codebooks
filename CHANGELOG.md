@@ -10,6 +10,18 @@ decisions that matter to a data *consumer*. Format follows
 
 ### Added
 
+- **`particular_average` coded on 18 characteristics** (`LM-0196`–`LM-0213`) — **the census's first non-sharing baseline**. Not a mitigation institution but the default rule against which Harris's three mechanisms are defined: accidental damage "from an irresistible or unforeseeable external cause" falls on the owner under *casum sentit dominum* (Addobbati 2023). Added because a census containing only sharing arrangements has no null, and a criterion with no null is unfalsifiable.
+
+  **`MC1=.NR` is deliberate and is the finding.** Allocation, spreading and pooling are three ways of moving a loss; particular average moves it nowhere. It is not a fourth mechanism but the absence of one, and coding `allocation` would be wrong — that value means risk assigned to a named party *by contract*, whereas this operates in the absence of any arrangement.
+
+  **`RB1=capital-provider` against `general_average RB1=all-stakeholders` is the discriminating pair**, and the contrast is exact: same voyage, same hull, same peril, with incidence turning entirely on whether the damage was deliberate. Thirteen cells code `.NA` — no membership, no contribution, no fund, no duration — which is itself informative: the vocabulary is built for *arrangements*, and this is not one.
+
+  **`RB3` records a contractual override.** Zanini shows that under bottomry, particular-average damage reduced the borrower's repayment proportionally "since the relative risk had been transferred to the lender." The default rule is displaceable, and `sea_loan` is one instrument that displaces it.
+
+  **`VF1=.NR` flags a gap.** No verification is needed *within* the institution, since nothing is shared — but the classification requires it, Dreijer noting the distinction mattered "particularly for insurers." Verification attaches to the boundary rather than to the loss, and `VF1` cannot say so.
+
+  Context: Harris 2023, from whom `general_average` is coded, uses "particular average" not once, though the category is standard across the Fusaro volume. Recorded in logbook 6 as a question about what the `general_average` row denotes.
+
 - **`warichi_iwade` (割地) coded on 18 characteristics** (`LM-0178`–`LM-0195`), from Brown 2006 (`10.1215/01455532-2006-004`) and Brown 2011. Periodic reallocation of arable by drawn lot in Iwade village, Echigo — the first land-based form in this census.
 
   **`MC1`, `HZ1` and `HZ2` are deliberately `.NR`.** Reading *warichi* as spreading flood impact is the **received view in the Japanese literature** (Furushima 1939; Aono 1982), from individual village studies. Brown's regional GIS test over 113 villages finds flood and landslide frequency "insufficient causes by themselves, even if scholars ultimately see them as necessary conditions." Coding `pooling` would enter a contested orthodoxy as data; coding a hazard correlation would assert what its only regional test failed to establish.
