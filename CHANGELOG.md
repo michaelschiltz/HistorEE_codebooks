@@ -10,6 +10,19 @@ decisions that matter to a data *consumer*. Format follows
 
 ### Added
 
+- **`warichi_iwade` (割地) coded on 18 characteristics** (`LM-0178`–`LM-0195`), from Brown 2006 (`10.1215/01455532-2006-004`) and Brown 2011. Periodic reallocation of arable by drawn lot in Iwade village, Echigo — the first land-based form in this census.
+
+  **`MC1`, `HZ1` and `HZ2` are deliberately `.NR`.** Reading *warichi* as spreading flood impact is the **received view in the Japanese literature** (Furushima 1939; Aono 1982), from individual village studies. Brown's regional GIS test over 113 villages finds flood and landslide frequency "insufficient causes by themselves, even if scholars ultimately see them as necessary conditions." Coding `pooling` would enter a contested orthodoxy as data; coding a hazard correlation would assert what its only regional test failed to establish.
+
+  **`CN1=.NA` is the informative cell.** *Warichi* has no contribution stream and no fund — it reallocates an existing asset rather than assembling one, where every other form in the census collects something. `CN2`, `CN3` and `LS2` propagate `.NA`. That single fact is why the pooling category fits badly, and it is now visible in the matrix rather than in prose.
+
+  **`PY2=rotation-lot`** is the best-attested cell (*kujikae chō* lot-exchange notebooks; nine *kujigumi* lot-drawing groups across sixteen shares in 1756–57).
+
+### Proposed, not implemented
+
+- **No characteristic represents an opt-out from the allocation mechanism.** *Hikikuji*, the right to withhold land from redistribution, ran from under 2 per cent of Iwade's land in 1756–57 to 14 per cent in 1818, exceeded the 5 per cent Kaga permitted its shareholders, and was "concentrated in a few hands, not universally shared." This is structurally distinct from the channels already recorded in the tontine and the bidding kō, where the transfer toward the strong is *constitutive* of the mechanism rather than an exemption from it. Recorded in logbook 6.
+- **`PY0`/`PY1` presuppose a queue.** Both are coded for *warichi* on the basis that a draw occurs irrespective of loss, but all members draw simultaneously at each redistribution — there is no turn. Every previously coded rotating form allocates to one member per round.
+
 - **`torinoke_mujin` (取退き無尽) coded on 14 characteristics** (`LM-0164`–`LM-0177`), from 並松 2022 and 中川ほか 2013. The variant in which **a member who wins is released from all further contribution** — 次回以降の掛戻義務から免れ — while the association continues on the 未当籤講員, the winner taking only 講金の一部 so that the retained remainder funds the continuation (`PY3=1`). In every other coded association the winner keeps paying 空掛 to 満会.
 
   **`MB1=contract` separates it from the village forms**: 並松 records that the 講元 recruited 血縁・地縁にまったく関係なく, with no kin or locality tie whatever, against 松永's village kō built on 親戚・知人・取引相手・信仰. **`PY2=rotation-lot`**, and the consequence matters: allocation by 抽籤 removes the sorting by urgency that operates in bidding kō, replacing it with 射倖性 — an early draw yields far more relative to contributions than a late one. **Suppressed**: 大塩平八郎 investigated these from 文政12 and reported them to the 老中 in 天保元年 as 不正な無尽, on the winner's exemption and on 講元 returns exceeding the shogunal interest ceiling. That is the census's first documented prohibition.
