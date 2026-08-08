@@ -23,3 +23,8 @@ tontine_en_1693,Tontine — English (Million Act 5 & 6 Will. & Mar. c. 5),Englis
 tontine_fr_royal,Tontine — French royal series (fourteen age classes),French,1689-1759,"[verify: Weir 1989; Velde & Weir 1992]. Age-classed from the first issue, hence PR1=1 against the English PR1=0."
 widows_fund_scotland,Scottish Ministers' Widows' Fund,Scottish,1744 onward,"[verify]. Contemporaneous with tontine mania and actuarially priced, but loss-corresponding — the contrast case for PY0."
 life_annuity_priced,"Life annuity priced on a tabulated survival function",Dutch / English,1671 onward,"de Witt 1671 (Waardije van Lyf-renten); Halley 1693 (Breslau table). The form that actually carries the pricing story."
+ko_mochiyori_yutsu_1876,持寄融通社 (Mochiyori Yūtsū-sha),Japanese / Kawachi-Settsu,1876-1884,"池田 2022 (規約書, primary-source edition). Functional class: 親頼母子 — a designated preferential recipient (社元 大東象五郎)."
+ko_hokoin_1832,宝光院加入頼母子講 (the kō joined by Hōkō-in),Japanese / Dewa-Yamagata,1832-,"田中 2011 (宝光院文書 宝479号「頼母子連中構成書」). Functional class: 社寺頼母子講 — temple as 講元."
+ko_usui_bango_1822,碓井村伴吾講 (広域講),Japanese / Kawachi,1822-,"米谷 2026 (仕法帳, 史料1). 講元 碓井村伴吾, 大庄屋 and 代官. Allocation alternates 入札/振鬮 by round."
+ko_shijunin_1829,四拾人講 (広域講),Japanese / Kawachi,1829-1843,"米谷 2026 (「四拾人講定目録」, 史料2). Allocation by 振鬮 only across 41 rounds."
+ko_daimanin_1828,大満院講 (広域講),Japanese / Kawachi,1828-1833+,"米谷 2026. 講元 a 子院 of 誉田八幡宮. Rules near-identical to ko_usui_bango_1822 (shared 銀預り); coded thinly on purpose — its value is the 講元 contrast, not independent structural evidence."

@@ -10,6 +10,22 @@ decisions that matter to a data *consumer*. Format follows
 
 ### Added
 
+- **Five Japanese rotating associations coded at association level** (`LM-0104`–`LM-0163`, 60 rows): `ko_mochiyori_yutsu_1876` (持寄融通社, 池田 2022), `ko_hokoin_1832` (宝光院's kō, 田中 2011), `ko_usui_bango_1822`, `ko_shijunin_1829`, `ko_daimanin_1828` (all 米谷 2026). **The unit is the named association backed by a surviving 規約書 or 仕法帳, not an ideal type** — the parked `ko_mujin` row is superseded and left uncoded.
+
+  **Why the ideal type was abandoned, which is the finding.** 碓井村伴吾講 allocates 初会入札、弐会目振鬮、終リ迄一会替リ — bid and lot alternating round by round to the twenty-fifth. 四拾人講 allocates 振鬮 alone across forty-one rounds. 大満院講 inherits 伴吾講's rules verbatim because 岡田伊左衛門 and 塩野久右衛門 drafted the 仕法 for both. Same district, seven years apart, overlapping drafters, different rules. **Allocation is a drafting choice by named 銀預り, not a property of the tradition**, so no sentence of the form "Japanese rotating associations allocate by lot" or "by bid" is supportable. Period splitting was rejected on independent evidence: 松永 1999 shows collateral entering the same village form between Kyōhō and Hōreki–Meiwa driven by widening geographic scope and consequent 信用が不安, not by date.
+
+  **Cells that gained variance.** `CN3` takes its first `P` — 伴吾講 enforces only by forfeiture of that round's draw (掛銀不参 voids even a submitted 入札), against the 持寄融通社's litigation and forced sale of pledged land under the 規約書. `LS2` now runs `1`/`P`/`0`/`.NA`: 伴吾講 is `1` because the five members who never drew receive 1貫760匁 each at the 弐拾六会, where a tontine's non-survivors receive nothing. `MB1` holds `confession` (社寺講, joined as 檀那 out of 信仰心), `contract`, and `territorial-subject`. `PY2` holds `auction`, `rotation-lot`, `indemnity` and three `.NR`.
+
+  **A discriminant-validity result on `MC1`.** All five associations pass Harris's pooling test and are functionally three different objects. 持寄融通社 was convened for one man's relief from debt and he took the full 2,300円 in round one. For 社寺講, 加藤's finding (via 田中) is that the 名望家的商人 subscribing did not consider investment return and were in NPV terms lenders to the 講元 — donation wearing a pooling form, as the tontine is dispersal wearing one. `MC1=pooling` is satisfied by mutualisation, by subsidy and by dispersal alike. Reported, not repaired.
+
+  All rows `coder=ai` and provisional; `source_lang=ja` throughout. 榊原 2014 deliberately **not** coded — it is a three-person three-period model, and coding structural characteristics from it would be coding a model rather than an institution.
+
+### Proposed, not implemented
+
+- **A token or field distinguishing "no fitting value in the vocabulary" from `.NR` "not recorded in the source".** Several cells in this batch carry `.NR` for the former reason — `PY2` where allocation alternates by round, `GV1` where the 講元/銀預り split has no cell, `RB3` where a 田畑書入証 has none. The distinction survives only in `notes`, which is the class of conflation the `.NR`/`.NA`/`0` split exists to prevent. Recorded in logbook 6 for decision.
+
+- **`RB3` fails asymmetrically.** 伴吾講 codes `none` cleanly and articulated (但シ、証文等入不申候); a mortgage over fields and house plots has no cell, because the allowed values are maritime. The vocabulary can express the absence of security but not this kind of presence — the `AP4` comparative-concept problem in a second facet.
+
 - **`tontine` split into `tontine_en_1693` and `tontine_fr_royal`; `widows_fund_scotland` and `life_annuity_priced` added** (`LM-0079`–`LM-0103`, 25 rows). **The falsification test declared against the generic `tontine` row is now runnable, and the sequence it was built to test collapses.** The French royal series from 1689 divided subscribers into fourteen age classes carrying differentiated rates (`PR1=1`); the English tontine under the Million Act of 1693 did not differentiate by nominee age at all (`PR1=0`). Same mechanism, same decade, two polities. **`PR1` therefore has variance *inside* `MC1=pooling` at a fixed date, so ex-ante pricing is orthogonal to mitigation mechanism rather than a stage of it** — and Harris's timing argument survives only as a claim about what a mechanism *requires*, not about when societies learned to price.
 
   The generic row could not hold this, exactly as the doubt recorded against it anticipated. The result arrives by the route `CHARACTER-CODING.md` prescribes — **add forms, not features** — repeating the *asiento* pattern in which one new form settled what no amount of reasoning could.
