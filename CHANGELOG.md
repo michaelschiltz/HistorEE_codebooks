@@ -22,6 +22,8 @@ decisions that matter to a data *consumer*. Format follows
 
   `type_id` and `char_id` remain deliberately un-enum-constrained: the census is growing, and enumerating them would mean editing two files per form. The referential check is the right enforcement for an open list.
 
+  The script **reads each dataset's declared `missingValues` rather than restating them**, so it cannot drift from the schema it checks against. An earlier draft hardcoded the token set and would have needed an agreement check to stay honest; deriving removes both the duplicate and the check. Verified by adding a token to a schema and a row using it — tolerated — while a genuinely out-of-vocabulary value in the same file still fails.
+
 ### Fixed
 
 - **Two ragged vocabulary rows**, each caused by an unquoted comma inside a field, which shifted every value after it. `loss_mitigation_type.csv` (`warichi_iwade`, introduced in this cycle) and `amount_unit.csv` (`ryo`, pre-existing and unrelated). Both repaired and both files rewritten with proper quoting.

@@ -64,9 +64,37 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 VOCAB_DIR = ROOT / "vocabularies"
 
-# Tokens the schemas declare as missingValues. A cell holding one of these is
-# not measured against allowed_values.
-MISSING = {"", ".NR", ".IL", ".NA"}
+# Tokens treated as "no value here". A cell holding one of these is not
+# measured against allowed_values.
+#
+# These are NOT restated from the schemas — they are read out of each dataset's
+# own `missingValues` by missing_values() below, so the two cannot drift. The
+# constant here is only the fallback for reading a vocabulary file, which has no
+# schema of its own, and for the case where a datapackage cannot be parsed.
+MISSING_FALLBACK = {"", ".NR", ".IL", ".NA"}
+
+
+def missing_values(dataset: str) -> set[str]:
+    """The dataset's own declared missingValues, so this script cannot drift
+    from the schema it is checking against."""
+    dp = ROOT / "datasets" / dataset / "datapackage.json"
+    if not dp.exists():
+        return set(MISSING_FALLBACK)
+    try:
+        pkg = json.loads(dp.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        err(f"datasets/{dataset}/datapackage.json: not valid JSON ({e})")
+        return set(MISSING_FALLBACK)
+    tokens: set[str] = set()
+    for res in pkg.get("resources", []):
+        mv = res.get("schema", {}).get("missingValues")
+        if mv is not None:
+            tokens |= set(mv)
+    if not tokens:
+        err(f"datasets/{dataset}/datapackage.json: no missingValues declared; "
+            "falling back to the built-in token set")
+        return set(MISSING_FALLBACK)
+    return tokens
 
 # dataset -> (type vocabulary, characteristic vocabulary)
 REGISTERED = {
@@ -175,11 +203,14 @@ def check_dataset(name: str, type_v: str, char_v: str,
             "reference check skipped")
         return
 
+    # read the dataset's own missing tokens rather than restating them
+    MISSING = missing_values(name)
+
     # allowed_values per characteristic, split on the pipe
     allowed: dict[str, set[str]] = {}
     for code, r in rows.get(char_v, {}).items():
         spec = (r.get("allowed_values") or "").strip()
-        if spec and spec not in MISSING:
+        if spec and spec not in MISSING_FALLBACK:
             allowed[code] = {v.strip() for v in spec.split("|") if v.strip()}
 
     with data.open(encoding="utf-8", newline="") as fh:
