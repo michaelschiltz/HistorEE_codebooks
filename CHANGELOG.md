@@ -8,7 +8,21 @@ decisions that matter to a data *consumer*. Format follows
 
 ## [Unreleased]
 
+### Fixed
+
+- **Two ragged vocabulary rows**, each caused by an unquoted comma inside a field, which shifted every value after it. `loss_mitigation_type.csv` (`warichi_iwade`, introduced in this cycle) and `amount_unit.csv` (`ryo`, pre-existing and unrelated). Both repaired and both files rewritten with proper quoting.
+
+  **Neither could have been caught by CI: the vocabularies are not declared frictionless resources.** Three datasets are validated on every push; the six vocabulary files that carry `allowed_values`, component assignments and the dependence columns those datasets are checked *against* are not validated at all. A ragged-row and header check over `vocabularies/*.csv` is a few lines with no new dependency and is recommended — see logbook 6.
+
 ### Added
+
+- **`cooccurs_with` and `cooccurrence_basis` columns on `vocabularies/loss_mitigation_type.csv`.** Records which forms are attested together and — separately — *at what level*, so that the independence of forms can be assessed rather than assumed. Motivated by the observation that a single community may run several pooling arrangements segregated by medium (land, labour, money), in which case forms coded singly are not independent observations, and counting them as separate cases inflates *n* the way four collinear characteristics inflated the *ʿisqa* evidence.
+
+  `cooccurrence_basis` runs tightest to loosest: `same-instrument`, `same-persons`, `same-venture`, `same-community`, `same-polity`, `uncertain`. Twelve of thirty-two rows populated. Strongest cases: `tontine_en_1693`/`life_annuity_priced`, offered under the same Million Act; and `ko_usui_bango_1822`/`ko_daimanin_1828`, whose 仕法 were drafted by the same 銀預り.
+
+  **Nothing in `data.csv` changes and no comparative computation uses these columns.** They constrain what may be claimed, not what is recorded — description is unaffected, similarity and configurational claims are not.
+
+  Two caveats recorded in logbook 6: the cross-dataset reference syntax `code@dataset` is invented and wants ratification; and `same-venture` as applied to the maritime cluster records structural possibility rather than an attested joint instance, so the scale currently mixes the two. **And the case that motivated the column — `warichi_iwade` — is `.NR`**, because the Echigo kō it would pair with were never coded.
 
 - **`particular_average` coded on 18 characteristics** (`LM-0196`–`LM-0213`) — **the census's first non-sharing baseline**. Not a mitigation institution but the default rule against which Harris's three mechanisms are defined: accidental damage "from an irresistible or unforeseeable external cause" falls on the owner under *casum sentit dominum* (Addobbati 2023). Added because a census containing only sharing arrangements has no null, and a criterion with no null is unfalsifiable.
 

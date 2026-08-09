@@ -1,33 +1,33 @@
-code,name,tradition,period,key_source
-averia_pool,Avería (compulsory convoy levy),Spanish / Carrera de Indias,1521-1681,Hierro Anibarro 2005; vault: asiento notes
-general_average,General average (jettison contribution),Mediterranean / lex Rhodia,antiquity onward,.NR
-ko_mujin,Kō / mujin (rotating credit and mutual finance),Japanese,.NR,.NR
-huiguan,Huiguan (native-place association mutual fund),Chinese,16c onward,.NR
-gongsi,Gongsi / kongsi (shared-profit mutual venture),Chinese,18c onward,.NR
-huf,Joint Hindu family (HUF),South Asian,.NR,"BOUNDARY DOUBT: arguably a capital-vehicle rather than a hazard-pool; retained here provisionally, revisit once coded"
-tontine,Tontine,European,17c onward,.NR
-confraternity_fund,Confraternity / burial and sickness fund,Latin Christendom,13c onward,.NR
-avariz_fund,Avarız-hane fund (Ottoman communal levy),Ottoman,16c onward,.NR
-guild_mutual_aid,Guild mutual-aid chest,European / Japanese,.NR,.NR
-sea_loan,Sea loan (foenus nauticum / nautikòn dáneion),Greco-Roman / Mediterranean,2nd millennium BCE onward,"Harris 2023; Harris 2020, 110-118; vault: sea loan notes"
-bottomry,Bottomry (sea loan secured on the ship),Mediterranean / Latin West,12c onward,Harris 2023
-respondentia,Respondentia (sea loan secured on the goods),Mediterranean / Latin West,12c onward,Harris 2023
-marine_insurance,Premium-based marine insurance,Italian city-states,c.1300 onward,Harris 2023; Ceccarelli; Piccinno 2016
-commenda_alloc,Commenda (loss-allocation aspect),Italian (Latin),10-13c,CROSS-REFERENCE: coded as an entity-question in organizational_forms 'commenda'. Here only its loss-allocation characteristics.
-qirad_alloc,Qirāḍ / muḍāraba (loss-allocation aspect),Islamic,7c onward,CROSS-REFERENCE: see organizational_forms 'qirad'.
-isqa_alloc,ʿIsqa (loss-allocation aspect),Jewish (Babylonian rabbinic),4c onward,CROSS-REFERENCE: see organizational_forms 'isqa'.
-societas_maris,Societas maris / collegantia,Venetian / Genoese,10-13c,.NR
-ortoq_alloc,Ortoq (loss-allocation aspect),Mongol / Inner Asian,13-14c,CROSS-REFERENCE: see organizational_forms 'ortoq'.
-caravan_partnership,Caravan trade partnership,Inner Asian / Islamic,.NR,.NR
-tontine_en_1693,Tontine — English (Million Act 5 & 6 Will. & Mar. c. 5),English,1693-1789,"Weir 1989; Milevsky 2015 [verify]. SPLIT from the generic 'tontine' row: the type spans both values of PR1, which one row cannot hold."
-tontine_fr_royal,Tontine — French royal series (fourteen age classes),French,1689-1759,"[verify: Weir 1989; Velde & Weir 1992]. Age-classed from the first issue, hence PR1=1 against the English PR1=0."
-widows_fund_scotland,Scottish Ministers' Widows' Fund,Scottish,1744 onward,"[verify]. Contemporaneous with tontine mania and actuarially priced, but loss-corresponding — the contrast case for PY0."
-life_annuity_priced,"Life annuity priced on a tabulated survival function",Dutch / English,1671 onward,"de Witt 1671 (Waardije van Lyf-renten); Halley 1693 (Breslau table). The form that actually carries the pricing story."
-ko_mochiyori_yutsu_1876,持寄融通社 (Mochiyori Yūtsū-sha),Japanese / Kawachi-Settsu,1876-1884,"池田 2022 (規約書, primary-source edition). Functional class: 親頼母子 — a designated preferential recipient (社元 大東象五郎)."
-ko_hokoin_1832,宝光院加入頼母子講 (the kō joined by Hōkō-in),Japanese / Dewa-Yamagata,1832-,"田中 2011 (宝光院文書 宝479号「頼母子連中構成書」). Functional class: 社寺頼母子講 — temple as 講元."
-ko_usui_bango_1822,碓井村伴吾講 (広域講),Japanese / Kawachi,1822-,"米谷 2026 (仕法帳, 史料1). 講元 碓井村伴吾, 大庄屋 and 代官. Allocation alternates 入札/振鬮 by round."
-ko_shijunin_1829,四拾人講 (広域講),Japanese / Kawachi,1829-1843,"米谷 2026 (「四拾人講定目録」, 史料2). Allocation by 振鬮 only across 41 rounds."
-ko_daimanin_1828,大満院講 (広域講),Japanese / Kawachi,1828-1833+,"米谷 2026. 講元 a 子院 of 誉田八幡宮. Rules near-identical to ko_usui_bango_1822 (shared 銀預り); coded thinly on purpose — its value is the 講元 contrast, not independent structural evidence."
-torinoke_mujin,取退き無尽 (winner released from further contribution),Japanese,17c-1930s,"並松 2022 (京都産業大学日本文化研究所紀要 27); 中川ほか 2013 (辻六郎左衛門 無尽仕法帳, 文政7). SUPPRESSED: 大塩平八郎 investigated these from 文政12 and reported them to the 老中 in 天保元年 as 不正な無尽, on the grounds of the winner's exemption (gambling character) and 講元 returns above the shogunal interest ceiling."
-warichi_iwade,割地 (warichi) — periodic reallocation of arable, Iwade village,Japanese / Echigo,17c-1870s,"Brown 2006 (Social Science History 30:3, 10.1215/01455532-2006-004); Brown 2011 (Cultivating Commons). Received view (Furushima 1939; Aono 1982) reads warichi as spreading flood impact; Brown's regional GIS test finds hazard frequency an insufficient cause. MC1/HZ1/HZ2 held .NR pending resolution."
-particular_average,Particular average (avaria particolare) — accidental damage borne by its owner,Mediterranean / lex Rhodia and successors,antiquity onward,"Addobbati 2023 and Dreijer 2023, in Fusaro et al. eds., General Average and Risk Management (Palgrave). THE CENSUS'S NULL CASE: not a mitigation institution but the default rule against which the three mechanisms are defined — casum sentit dominum. Coded as the non-sharing baseline; see logbook 6."
+code,name,tradition,period,key_source,cooccurs_with,cooccurrence_basis
+averia_pool,Avería (compulsory convoy levy),Spanish / Carrera de Indias,1521-1681,Hierro Anibarro 2005; vault: asiento notes,asiento_averia@organizational_forms,same-instrument
+general_average,General average (jettison contribution),Mediterranean / lex Rhodia,antiquity onward,.NR,particular_average;sea_loan;bottomry;respondentia;marine_insurance,same-venture
+ko_mujin,Kō / mujin (rotating credit and mutual finance),Japanese,.NR,.NR,.NR,.NR
+huiguan,Huiguan (native-place association mutual fund),Chinese,16c onward,.NR,.NR,.NR
+gongsi,Gongsi / kongsi (shared-profit mutual venture),Chinese,18c onward,.NR,.NR,.NR
+huf,Joint Hindu family (HUF),South Asian,.NR,"BOUNDARY DOUBT: arguably a capital-vehicle rather than a hazard-pool; retained here provisionally, revisit once coded",.NR,.NR
+tontine,Tontine,European,17c onward,.NR,.NR,.NR
+confraternity_fund,Confraternity / burial and sickness fund,Latin Christendom,13c onward,.NR,.NR,.NR
+avariz_fund,Avarız-hane fund (Ottoman communal levy),Ottoman,16c onward,.NR,.NR,.NR
+guild_mutual_aid,Guild mutual-aid chest,European / Japanese,.NR,.NR,.NR,.NR
+sea_loan,Sea loan (foenus nauticum / nautikòn dáneion),Greco-Roman / Mediterranean,2nd millennium BCE onward,"Harris 2023; Harris 2020, 110-118; vault: sea loan notes",bottomry;respondentia;general_average;particular_average;marine_insurance,same-venture
+bottomry,Bottomry (sea loan secured on the ship),Mediterranean / Latin West,12c onward,Harris 2023,sea_loan;respondentia;general_average;particular_average;marine_insurance,same-venture
+respondentia,Respondentia (sea loan secured on the goods),Mediterranean / Latin West,12c onward,Harris 2023,sea_loan;bottomry;general_average;particular_average;marine_insurance,same-venture
+marine_insurance,Premium-based marine insurance,Italian city-states,c.1300 onward,Harris 2023; Ceccarelli; Piccinno 2016,general_average;particular_average;sea_loan;bottomry;respondentia,same-venture
+commenda_alloc,Commenda (loss-allocation aspect),Italian (Latin),10-13c,CROSS-REFERENCE: coded as an entity-question in organizational_forms 'commenda'. Here only its loss-allocation characteristics.,.NR,.NR
+qirad_alloc,Qirāḍ / muḍāraba (loss-allocation aspect),Islamic,7c onward,CROSS-REFERENCE: see organizational_forms 'qirad'.,.NR,.NR
+isqa_alloc,ʿIsqa (loss-allocation aspect),Jewish (Babylonian rabbinic),4c onward,CROSS-REFERENCE: see organizational_forms 'isqa'.,.NR,.NR
+societas_maris,Societas maris / collegantia,Venetian / Genoese,10-13c,.NR,.NR,.NR
+ortoq_alloc,Ortoq (loss-allocation aspect),Mongol / Inner Asian,13-14c,CROSS-REFERENCE: see organizational_forms 'ortoq'.,.NR,.NR
+caravan_partnership,Caravan trade partnership,Inner Asian / Islamic,.NR,.NR,.NR,.NR
+tontine_en_1693,Tontine — English (Million Act 5 & 6 Will. & Mar. c. 5),English,1693-1789,"Weir 1989; Milevsky 2015 [verify]. SPLIT from the generic 'tontine' row: the type spans both values of PR1, which one row cannot hold.",life_annuity_priced,same-instrument
+tontine_fr_royal,Tontine — French royal series (fourteen age classes),French,1689-1759,"[verify: Weir 1989; Velde & Weir 1992]. Age-classed from the first issue, hence PR1=1 against the English PR1=0.",.NR,.NR
+widows_fund_scotland,Scottish Ministers' Widows' Fund,Scottish,1744 onward,"[verify]. Contemporaneous with tontine mania and actuarially priced, but loss-corresponding — the contrast case for PY0.",.NR,.NR
+life_annuity_priced,Life annuity priced on a tabulated survival function,Dutch / English,1671 onward,de Witt 1671 (Waardije van Lyf-renten); Halley 1693 (Breslau table). The form that actually carries the pricing story.,tontine_en_1693,same-instrument
+ko_mochiyori_yutsu_1876,持寄融通社 (Mochiyori Yūtsū-sha),Japanese / Kawachi-Settsu,1876-1884,"池田 2022 (規約書, primary-source edition). Functional class: 親頼母子 — a designated preferential recipient (社元 大東象五郎).",.NR,.NR
+ko_hokoin_1832,宝光院加入頼母子講 (the kō joined by Hōkō-in),Japanese / Dewa-Yamagata,1832-,田中 2011 (宝光院文書 宝479号「頼母子連中構成書」). Functional class: 社寺頼母子講 — temple as 講元.,.NR,.NR
+ko_usui_bango_1822,碓井村伴吾講 (広域講),Japanese / Kawachi,1822-,"米谷 2026 (仕法帳, 史料1). 講元 碓井村伴吾, 大庄屋 and 代官. Allocation alternates 入札/振鬮 by round.",ko_daimanin_1828,same-persons
+ko_shijunin_1829,四拾人講 (広域講),Japanese / Kawachi,1829-1843,"米谷 2026 (「四拾人講定目録」, 史料2). Allocation by 振鬮 only across 41 rounds.",ko_usui_bango_1822;ko_daimanin_1828,same-community
+ko_daimanin_1828,大満院講 (広域講),Japanese / Kawachi,1828-1833+,"米谷 2026. 講元 a 子院 of 誉田八幡宮. Rules near-identical to ko_usui_bango_1822 (shared 銀預り); coded thinly on purpose — its value is the 講元 contrast, not independent structural evidence.",ko_usui_bango_1822,same-persons
+torinoke_mujin,取退き無尽 (winner released from further contribution),Japanese,17c-1930s,"並松 2022 (京都産業大学日本文化研究所紀要 27); 中川ほか 2013 (辻六郎左衛門 無尽仕法帳, 文政7). SUPPRESSED: 大塩平八郎 investigated these from 文政12 and reported them to the 老中 in 天保元年 as 不正な無尽, on the grounds of the winner's exemption (gambling character) and 講元 returns above the shogunal interest ceiling.",.NR,.NR
+warichi_iwade,"割地 (warichi) — periodic reallocation of arable, Iwade village",Japanese / Echigo,17c-1870s,"Brown 2006 (Social Science History 30:3, 10.1215/01455532-2006-004); Brown 2011 (Cultivating Commons). Received view (Furushima 1939; Aono 1982) reads warichi as spreading flood impact; Brown's regional GIS test finds hazard frequency an insufficient cause. MC1/HZ1/HZ2 held .NR pending resolution.",.NR,.NR
+particular_average,Particular average (avaria particolare) — accidental damage borne by its owner,Mediterranean / lex Rhodia and successors,antiquity onward,"Addobbati 2023 and Dreijer 2023, in Fusaro et al. eds., General Average and Risk Management (Palgrave). THE CENSUS'S NULL CASE: not a mitigation institution but the default rule against which the three mechanisms are defined — casum sentit dominum. Coded as the non-sharing baseline; see logbook 6.",general_average;sea_loan;bottomry;respondentia;marine_insurance,same-venture
