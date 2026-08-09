@@ -93,9 +93,20 @@ CR-0003,15,ryo,915,ryo_to_monme@61_market_est,low,Same transaction at an estimat
 
 **Source language is preserved.** Original term, romanisation, and gloss are kept as separate fields. Where a term's referent shifts across periods, record the shift in the logbook rather than smoothing it over.
 
-**Controlled vocabularies are documentation, not enforcement.** `vocabularies/*.csv` explains what each coded value means and where its definition or rate comes from; the `enum` constraint that `frictionless validate` actually checks against `data.csv` lives in `datapackage.json`, as a hand-maintained duplicate of the vocabulary's `code` column. Adding or renaming a code means editing both files — validation will not catch a vocabulary and schema that have drifted apart.
+**Controlled vocabularies are enforced, and they hold what the schema cannot.** A Table Schema states what is true of a *column*. The vocabulary states what is true of a *cell given another cell*: which values `value` may take depends on that row's `char_id`, and whether the cell exists at all depends on `applicability_on`. Frictionless has no way to express a conditional constraint, so `vocabularies/*.csv` is not a convenience duplicate of `datapackage.json` — it carries constraints the Table Schema is structurally incapable of carrying.
 
-`scripts/check_vocabularies.py` now closes part of that gap. It validates the vocabulary files themselves — ragged rows, header integrity, duplicate or empty codes, stray whitespace, BOM and line endings — and checks that every `type_id` and `char_id` used in a dataset resolves to a code in the matching vocabulary. **It does not check the `datapackage.json` enum duplication**, so a vocabulary and a Table Schema can still drift apart on `enum` without either file failing. Nor does it sweep `value` against `allowed_values`; that remains a manual step when adding rows.
+That fixes where each kind of controlled value belongs:
+
+| Kind | Authority | Enforced by |
+|---|---|---|
+| Conditional — `allowed_values` per characteristic | vocabulary | `check_vocabularies.py` |
+| Open, growing census — `type_id`, `char_id` | vocabulary (deliberately **not** enum-constrained, so adding a form touches one file) | `check_vocabularies.py`, referentially |
+| Small closed schematic set with no vocabulary file — `confidence`, `articulation`, `source_lang`, `missingness` | `datapackage.json` enum | `frictionless validate` |
+| Small closed set carried in **both** — `instrument_type`, `amount_unit` | duplicated on purpose | agreement check in `check_vocabularies.py` |
+
+The last row is the only deliberate duplication. It is kept so that an outside consumer running plain `frictionless validate` on the published deposit gets the same enforcement we do; the agreement check is what stops the two copies drifting. **Register any new such pair in `ENUM_VOCAB` in `check_vocabularies.py`** — an unregistered duplicate is precisely what drifts unnoticed.
+
+Do not create a vocabulary file for a value that already has an enum and needs no definition, and do not add an enum for a value that has a vocabulary. Never both, except by the rule above.
 
 ## 5. Extending the schema
 

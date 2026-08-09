@@ -10,11 +10,17 @@ decisions that matter to a data *consumer*. Format follows
 
 ### Added
 
-- **`scripts/check_vocabularies.py`, wired into CI ahead of the frictionless step.** Validates the vocabulary files themselves — ragged rows, header integrity, duplicate or empty codes, leading/trailing whitespace, BOM and CRLF — and checks referentially that every `type_id` and `char_id` used in a dataset resolves to a code in the matching vocabulary. Standard library only, so CI gains no dependency. Non-zero exit on any failure.
+- **`scripts/check_vocabularies.py`, wired into CI ahead of the frictionless step.** Standard library only, so CI gains no dependency. Non-zero exit on any failure. Three groups of checks:
 
-  It was tested against the defects that actually shipped: reintroducing the unquoted comma in `warichi_iwade` is caught at the ragged-row check, and the cascade is instructive — one malformed row silently drops the form code, which then fails eighteen downstream `type_id` references. Duplicate codes, padded fields and dangling `char_id` values are caught too.
+  **Structure** — ragged rows, header integrity, duplicate or empty codes, leading/trailing whitespace, BOM and CRLF, per vocabulary file. **Referential** — every `type_id` and `char_id` used in a dataset resolves to a code in the matching vocabulary, and **every `value` falls within that characteristic's `allowed_values`**. **Agreement** — where a field is deliberately carried in both a `datapackage.json` enum and a vocabulary, the two list the same set.
 
-  **What it still does not check**: the `datapackage.json` `enum` duplication of each vocabulary's `code` column, so a schema and a vocabulary can still drift apart; and the `value`-against-`allowed_values` sweep, which CONTRIBUTING §5 already flags as manual. Both noted there.
+  The `allowed_values` sweep closes a gap CONTRIBUTING §5 previously left to manual checking, and it is the one that matters most: `value` is a single column holding a different permitted set for every `char_id`, and **a Table Schema cannot express a conditional constraint at all**. Frictionless was never going to catch `MC1 = mutualising` or `PR1 = priced`; it now fails in CI.
+
+  Tested against the defects that actually shipped and against injected ones. Reintroducing the unquoted comma in `warichi_iwade` fails at the ragged-row check, and the cascade is instructive — one malformed row silently drops the form code, which then fails eighteen downstream `type_id` references. Out-of-vocabulary values, ternary characteristics given nominal values, duplicate codes, padded fields, dangling `char_id`s and an enum/vocabulary divergence are all caught.
+
+  **The division of labour is now stated as a rule in CONTRIBUTING §4** rather than as a standing hazard: conditional constraints and growing censuses belong to the vocabulary; small closed schematic sets belong to the enum; the two fields carried in both (`instrument_type`, `amount_unit`) are duplicated on purpose, so that an outside consumer running plain `frictionless validate` on the published deposit gets the same enforcement we do, with the agreement check preventing drift. New duplicated pairs must be registered in `ENUM_VOCAB`.
+
+  `type_id` and `char_id` remain deliberately un-enum-constrained: the census is growing, and enumerating them would mean editing two files per form. The referential check is the right enforcement for an open list.
 
 ### Fixed
 
