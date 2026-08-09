@@ -95,6 +95,8 @@ CR-0003,15,ryo,915,ryo_to_monme@61_market_est,low,Same transaction at an estimat
 
 **Controlled vocabularies are documentation, not enforcement.** `vocabularies/*.csv` explains what each coded value means and where its definition or rate comes from; the `enum` constraint that `frictionless validate` actually checks against `data.csv` lives in `datapackage.json`, as a hand-maintained duplicate of the vocabulary's `code` column. Adding or renaming a code means editing both files — validation will not catch a vocabulary and schema that have drifted apart.
 
+`scripts/check_vocabularies.py` now closes part of that gap. It validates the vocabulary files themselves — ragged rows, header integrity, duplicate or empty codes, stray whitespace, BOM and line endings — and checks that every `type_id` and `char_id` used in a dataset resolves to a code in the matching vocabulary. **It does not check the `datapackage.json` enum duplication**, so a vocabulary and a Table Schema can still drift apart on `enum` without either file failing. Nor does it sweep `value` against `allowed_values`; that remains a manual step when adding rows.
+
 ## 5. Extending the schema
 
 Schema growth is **additive**. Add a field; do not repurpose an existing one.
@@ -102,4 +104,4 @@ Bump the data-package `version` (semantic versioning) and record the change in `
 
 That is the rule for *how* to grow the schema. For **whether** a new characteristic is warranted at all, see `CHARACTER-CODING.md`. The short form: discriminating power is free — given enough characteristics any two forms separate — so "it lets us tell X from Y" is not a justification. A characteristic earns its place by repairing a conflation (one characteristic silently asking two questions), not by adding resolution. Characteristics are paid for in forms, and this dataset is overdrawn: **add forms, not features.**
 
-Run `python scripts/check_dependence.py` alongside `frictionless validate` before opening a PR. It checks the `applicability_on` / `dependence_group` / `dependence_scope` columns against the codings, which the Table Schema cannot see.
+Run `python scripts/check_vocabularies.py` and `python scripts/check_dependence.py` alongside `frictionless validate` before opening a PR. It checks the `applicability_on` / `dependence_group` / `dependence_scope` columns against the codings, which the Table Schema cannot see.

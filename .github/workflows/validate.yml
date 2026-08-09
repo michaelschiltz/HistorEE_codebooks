@@ -22,6 +22,14 @@ jobs:
       - name: Install tooling
         run: pip install frictionless pyyaml
 
+      - name: Validate controlled vocabularies
+        # The vocabularies are not frictionless resources, so the step below
+        # never sees them — yet they carry allowed_values, the component
+        # assignments and the dependence columns the datasets are checked
+        # against. Two rows once shipped with an unquoted comma inside a field,
+        # shifting every value after it and silently dropping a form code.
+        run: python scripts/check_vocabularies.py
+
       - name: Validate every datapackage against its data
         run: |
           for dp in datasets/*/datapackage.json; do

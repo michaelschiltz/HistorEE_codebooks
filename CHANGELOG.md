@@ -8,6 +8,14 @@ decisions that matter to a data *consumer*. Format follows
 
 ## [Unreleased]
 
+### Added
+
+- **`scripts/check_vocabularies.py`, wired into CI ahead of the frictionless step.** Validates the vocabulary files themselves — ragged rows, header integrity, duplicate or empty codes, leading/trailing whitespace, BOM and CRLF — and checks referentially that every `type_id` and `char_id` used in a dataset resolves to a code in the matching vocabulary. Standard library only, so CI gains no dependency. Non-zero exit on any failure.
+
+  It was tested against the defects that actually shipped: reintroducing the unquoted comma in `warichi_iwade` is caught at the ragged-row check, and the cascade is instructive — one malformed row silently drops the form code, which then fails eighteen downstream `type_id` references. Duplicate codes, padded fields and dangling `char_id` values are caught too.
+
+  **What it still does not check**: the `datapackage.json` `enum` duplication of each vocabulary's `code` column, so a schema and a vocabulary can still drift apart; and the `value`-against-`allowed_values` sweep, which CONTRIBUTING §5 already flags as manual. Both noted there.
+
 ### Fixed
 
 - **Two ragged vocabulary rows**, each caused by an unquoted comma inside a field, which shifted every value after it. `loss_mitigation_type.csv` (`warichi_iwade`, introduced in this cycle) and `amount_unit.csv` (`ryo`, pre-existing and unrelated). Both repaired and both files rewritten with proper quoting.
