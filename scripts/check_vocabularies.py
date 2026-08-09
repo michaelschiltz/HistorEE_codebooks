@@ -233,6 +233,36 @@ def check_dataset(name: str, type_v: str, char_v: str,
 
 # ----------------------------------------------------------------- agreement
 
+def check_cooccurrence(codes: dict[str, set[str]], rows: dict[str, dict]) -> None:
+    """Every code listed in cooccurs_with must exist.
+
+    Added after a dangling pair was written within minutes of this script's
+    first version — the referential check covered data.csv but not the
+    vocabulary's own new column. Cross-dataset references take the documented
+    form `code@dataset`.
+    """
+    DATASET_VOCAB = {ds: tv for ds, (tv, _) in REGISTERED.items()}
+    for vocab, by_code in rows.items():
+        for code, r in by_code.items():
+            spec = (r.get("cooccurs_with") or "").strip()
+            basis = (r.get("cooccurrence_basis") or "").strip()
+            if not spec or spec in MISSING_FALLBACK:
+                continue
+            if not basis or basis in MISSING_FALLBACK:
+                err(f"{vocab}: {code} lists cooccurs_with but no "
+                    "cooccurrence_basis — the level must be declared")
+            for ref in (x.strip() for x in spec.split(";") if x.strip()):
+                target, _, ds = ref.partition("@")
+                pool = codes.get(DATASET_VOCAB.get(ds, vocab)) if ds else codes.get(vocab)
+                if ds and ds not in DATASET_VOCAB:
+                    err(f"{vocab}: {code} references unknown dataset {ds!r} in {ref!r}")
+                elif pool is not None and target not in pool:
+                    err(f"{vocab}: {code} cooccurs_with {ref!r}, which is not a "
+                        "code in the target vocabulary")
+                elif target == code:
+                    err(f"{vocab}: {code} lists itself in cooccurs_with")
+
+
 def check_enum_agreement(codes: dict[str, set[str]]) -> None:
     for (name, field), vocab in ENUM_VOCAB.items():
         dp = ROOT / "datasets" / name / "datapackage.json"
@@ -276,6 +306,7 @@ def main() -> int:
     for name, (type_v, char_v) in REGISTERED.items():
         check_dataset(name, type_v, char_v, codes, rows)
 
+    check_cooccurrence(codes, rows)
     check_enum_agreement(codes)
 
     if errors:

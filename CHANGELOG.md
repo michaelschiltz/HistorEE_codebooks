@@ -10,6 +10,16 @@ decisions that matter to a data *consumer*. Format follows
 
 ### Added
 
+- **`ko_daikokuya_1848` coded on 13 characteristics** (`LM-0214`–`LM-0226`), from 小林惟司 1986 (『三田学会雑誌』79-3) **read in full**. The 大黒屋善兵衛頼母子講 of 長興寺村, 摂津国豊島郡 — the census's first 領主的金融講. Two parked type rows added alongside it, `ko_gotensama_1843` and `ko_choko_1854`, the other two associations 小林 documents in the same village.
+
+  **`MC1=.NR`, and that is the finding.** 小林 shows the association was 強制的に組織して返済を期待せず直接藩財政に入れてしまった and calls it 献金講 — a donation kō. A kō in form and a levy in function: nothing is mitigated and no output reaches members, so `PY0` is `.NR` too. Third form whose `MC1` cannot be set, after `warichi_iwade` and `particular_average`.
+
+  **`CN2=.NR` records a vocabulary gap with a substantive finding behind it.** Contributions are a two-part tariff — 高割 proportional to holding *plus* 家割 flat per household — and `CN2` admits one basis. The interaction is where the regressivity lives: the landless paid no 高掛り but 無高上層 were charged **1分 to 2分2厘 more flat charge than 高持百姓**, with a 無高下 stratum below. 小林: 石高が多いほど実質的な負担は少なくなり、無高ほど実質的な負担が多くなる。すなわち累進ではなくて逆進. This is a **fourth mechanism** by which a formally pooling institution disperses — after survivorship (tontine), emergent auction (bidding kō) and exemption (*hikikuji*) — and it sits in the arithmetic of contribution, before any allocation occurs.
+
+  Confidence is capped throughout: 小林 states that no 議定 or 仕法書 survives for this kō, only the 銀集帳, so procedural cells are inferred rather than read from a clause. Two further data recorded in the rows: 高槻藩 from 文久2 ran a kō with **an ex-ante model calculation of profitability** at 25,000 shares, which would code `PR1` differently; and 岡部藩's compulsory enrolment order of 寛政3 was **refused** by the villages, so compulsion was resistible.
+
+- **`cooccurs_with` reference validation** in `check_vocabularies.py`. Every code listed must exist, cross-dataset references resolve through `code@dataset`, self-reference is an error, and a `cooccurs_with` without a declared `cooccurrence_basis` fails. Added immediately after a dangling pair was written into `ko_daikokuya_1848` — the earlier referential check covered `data.csv` and not the vocabulary's own new column.
+
 - **`scripts/check_vocabularies.py`, wired into CI ahead of the frictionless step.** Standard library only, so CI gains no dependency. Non-zero exit on any failure. Three groups of checks:
 
   **Structure** — ragged rows, header integrity, duplicate or empty codes, leading/trailing whitespace, BOM and CRLF, per vocabulary file. **Referential** — every `type_id` and `char_id` used in a dataset resolves to a code in the matching vocabulary, and **every `value` falls within that characteristic's `allowed_values`**. **Agreement** — where a field is deliberately carried in both a `datapackage.json` enum and a vocabulary, the two list the same set.
