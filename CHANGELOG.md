@@ -10,6 +10,44 @@ decisions that matter to a data *consumer*. Format follows
 
 ### Added
 
+- **Four tanomoshi-kō coded on 76 rows** (`LM-0227`–`LM-0302`), from 三浦 1959 (『史林』42-6), 松永 1999 (『史料館研究紀要』30) and 加藤 1998 (doctoral thesis), ch. 5. Nine type rows added, four coded and five parked.
+
+  | code | form | date |
+  |---|---|---|
+  | `ko_yamakuni_1555` | 二石頼母子, 丹波国山国庄, 親 井ノ本左近 | 1555–1563 |
+  | `ko_mitarai_mujin_1773` | 「無尽」, 安芸国御手洗町 | 1773– |
+  | `ko_mitarai_gin_1805` | 「銀頼母子」, 安芸国御手洗町 | 1805– |
+  | `ko_hokinosawa_1820` | 久左衛門始頼母子, 越後国朴木沢新田 | 1820–1838 |
+
+  Parked, not coded: `ko_horyuji_50kan`, `ko_furuichi_sengan`, `ko_meio_1498`, `ko_kosaburo_1802`, `ko_mitarai_hanei_1840`. The three Mitarai associations and the two Nara ones carry `cooccurs_with … same-community` / `uncertain` so that they cannot later be counted as independent cases.
+
+  **The result is negative, and that is the entry.** Twenty forms become twenty-four and **no characteristic gains a state**: `CN1` 3→3, `PY2` 3→3, `MC1` 3→3, `PR1` 3→3, `MB1` 4→4. What rises is missingness — `RB3` 2→6, `VF1` 2→6, `MB1` 0→4, `GV1` 5→9. Pairwise on cells where both forms carry a substantive value, `ko_yamakuni_1555` is **identical to `ko_mitarai_gin_1805` on all eight**, and to `ko_mochiyori_yutsu_1876` on all eight; `ko_mitarai_mujin_1773` is identical to `ko_hokinosawa_1820` on all twelve. A rice-denominated kō in a Tanba estate in 1555, reconstructed from the deeds by which its members sold their patrimony, does not separate from a silver kō run by port-town rice merchants in 1805 under a written rulebook. Only four pairs in the whole kō set separate at all, on `MB3`, `CN3` and `PY2`.
+
+  Either the kō is one institution across two hundred and fifty years, or the characteristic set is blind to the dimension along which kō differ. The second is better supported, because the three authors differ from each other almost entirely on the **security and enforcement regime**, and `RB3` cannot express any of it.
+
+  **`RB3` is the reason, and it is now the census's best-evidenced vocabulary gap.** `allowed_values = vessel|cargo|personal|none` were written around the bottomry/respondentia contrast, as the characteristic's own `definition` says. The pledges in these three sources are: arable land (三浦: 頼母子講維持策として絶えず田地を質として要求している, and specifically land yielding enough 得分 to sustain the 懸足, which makes the pledge a membership qualification rather than a security taken after the fact); town lots, storehouses and outbuildings (竹原屋平三郎's 表口16間、裏行き22間の屋敷と2棟の蔵, registered under the town officers' 裏印); rice in store quantified in bales (2000俵 for 小原屋武七, 500–700俵 for three others); third-party suretyship made mandatory for a stated reason (屹度請合人相立…若懸戻し銀不埒之時者、右請合人ゟ相究可申事, because 右質所売払候迄も、所ニゟ急ニ埒明不申方角も可有之候間 — foreclosure was slow in some jurisdictions, so the pledge alone would not do); and, by 嘉永5年, a member's own future draw (右は今後の自分鬮当金を引当としている). Five `.NR` now stand as the recorded motivation. Not repaired in this cycle: proposing the repair in the same batch as the coding that motivates it is retrospective selection.
+
+  Note that `RB3` already separates kō on `none` — `ko_usui_bango_1822` is `high`/`articulated` for `none` on 米谷 2026, against associations that demanded a registered pledge. So the facet is not inert; the positive values are simply absent from its vocabulary.
+
+  **`VF1` is now `.NA` on eight of eight kō.** Every one has `PY1=rotation`, so no loss is ever claimed and there is nothing to verify. The characteristic has zero variance across the entire Japanese material and is carrying no information about it. Recorded as a candidate for review, not acted on.
+
+  **`MC1` is strained a fourth distinct way.** Coded `pooling`/`medium` for both Mitarai forms with the hedge on the record: 加藤's argument is that these performed a 商業資金調達機能 against the received image of 庶民金融 — 掛銀 of 1000–2000匁, 取銀 above 10貫匁, a third of the members rice merchants, returns of 1–6% he judges unattractive under 安永 and 天保 inflation, so that 一時に多額の資金を調達できるメリット was the point. What is mutualised is trading liquidity, not a peril. Not coded `.NR` only because the 安永2年 仕法書 carries a genuine liquidity-shock clause (御連中之内、不時ニ銀子御入用之儀有之候節者). Fourth form after `particular_average`, `warichi_iwade` and `ko_daikokuya_1848` where `MC1`'s presupposition fails, and the first where it fails because the arrangement is commercial funding rather than mitigation.
+
+  **Allocation rule is not a period or regional marker, and `PY2` records that.** 御手洗町 ran lot-allocated and bid-allocated associations simultaneously: the 安永2年 無尽 draws by 鬮 with the premium fixed by rule at 500目 on 1貫目, while the 寛政11年「入札頼母子定法書並連名帳」 and the 天保11年 繁栄持寄講 allocate by 入札 every 4月1日. `ko_mitarai_gin_1805 PY2` is therefore `.NR` rather than filled in from its neighbours. `ko_yamakuni_1555 PY2` is `.NR` for a different reason: 三浦 writes 落札 throughout but his own note has 講親は初回に落札するのが慣例, so the 親 took round one by customary right and the term cannot bear an auction reading.
+
+  `ko_hokinosawa_1820` supplies the **control case** for the bidding-kō transfer: order random, price fixed, the 刎金 set at one quarter by the 極証文 rather than bid. Two forms in the census now carry the auction mechanism and two carry its absence.
+
+  **Two data the census has no way to hold**, recorded here so they are not lost. 法隆寺's 五十貫頼母子規式 has 縦雖有天下一同徳政、此懸支懸銭不可有改動之儀事 — the association's 懸銭 stands even against a realm-wide 徳政, and 三浦 shows that naming a kō for a religious purpose (極楽頼母子; 経蔵修理用途) was the device for obtaining that exemption. This is a hazard to the **fund**, where `HZ1`/`HZ2` ask about the members' peril. And 加藤's 銀頼母子帳 has 銘々私之取引有之候共、此頼母子ニて差次之儀者、一向相成不申事 — a no-set-off clause barring members' private dealings from the association's accounts, which is asset partition and belongs to WP2 vocabulary rather than WP1's.
+
+  **Sources are image-only PDFs.** Every quotation in the `notes` fields was transcribed from rendered page images, not from a text layer. 三浦's Zotero OCR layer is badly degraded — it renders 頼母子 as 頼爆子 and 資支 as 葱支 — and was not used. Check against print before publication. The DOI `10.14989/shirin_42_773` for 三浦 1959 is a Kyoto University repository DOI and was **not resolved through CrossRef** in this session.
+
+  Verified before writing: `frictionless validate` VALID on all three datasets; `check_vocabularies.py` clean (6 files, 129 codes); `check_dependence.py` 0 applicability and 0 articulation violations. `views/loss_mitigation_forms--risk-pooling.md` regenerated (24 forms × 9 characteristics).
+
+### Fixed
+
+- **`build_views.py --check` reports the risk-pooling view stale under its own defaults, independently of any data change.** The committed view header reads `Mechanism filter: MC1 = None`, i.e. it was generated with `--mechanism all`; bare `--check` defaults to `--mechanism pooling` and therefore compares against a different rendering. `--component risk-pooling --mechanism all --check` reports it current. Pre-existing and not introduced by this cycle; the fix is to make the default and the committed artefact agree, or to have `--check` read the filter from the file's own header. Not acted on here.
+
+
 - **`ko_daikokuya_1848` coded on 13 characteristics** (`LM-0214`–`LM-0226`), from 小林惟司 1986 (『三田学会雑誌』79-3) **read in full**. The 大黒屋善兵衛頼母子講 of 長興寺村, 摂津国豊島郡 — the census's first 領主的金融講. Two parked type rows added alongside it, `ko_gotensama_1843` and `ko_choko_1854`, the other two associations 小林 documents in the same village.
 
   **`MC1=.NR`, and that is the finding.** 小林 shows the association was 強制的に組織して返済を期待せず直接藩財政に入れてしまった and calls it 献金講 — a donation kō. A kō in form and a levy in function: nothing is mitigated and no output reaches members, so `PY0` is `.NR` too. Third form whose `MC1` cannot be set, after `warichi_iwade` and `particular_average`.
