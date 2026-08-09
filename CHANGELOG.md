@@ -24,6 +24,18 @@ decisions that matter to a data *consumer*. Format follows
 
   The script **reads each dataset's declared `missingValues` rather than restating them**, so it cannot drift from the schema it checks against. An earlier draft hardcoded the token set and would have needed an agreement check to stay honest; deriving removes both the duplicate and the check. Verified by adding a token to a schema and a row using it — tolerated — while a genuinely out-of-vocabulary value in the same file still fails.
 
+### Changed
+
+- **`tontine_fr_royal PR1` corrected from `1` to `P`**, `confidence` medium → high, on Coudy 1957 (*Revue historique de droit français et étranger* 35), now a pinned source rather than a web survey. **This was the cell the "pricing is orthogonal to mechanism" result rested on, and verifying it improved the result.**
+
+  The fourteen classes are confirmed exactly — 1689, five-year bands, first to age five accomplished, last from sixty-five; a fifteenth from seventy in 1696; twenty in 1709 — and the rates genuinely were graded: *l'intérêt sera déclaré progressif, en 1689 : du denier 20 au denier 8 dans les treizième et quatorzième classes*, five per cent rising to twelve and a half.
+
+  But the grading is **not actuarial**. Coudy gives its purpose as *dans un but d'équité* and states that *l'on ne disposait d'aucune table de mortalité. L'on ne s'en souciait guère non plus*; he doubts the Crown grasped the operation's real cost. Peril priced ex ante by age band and not from any distribution is `P`, on the reading already applied to `sea_loan`.
+
+  **The census is better for it.** `PR1` now runs `0` (`tontine_en_1693`, undifferentiated), `P` (`tontine_fr_royal`, graded without a table) and `1` (`widows_fund_scotland`, built on projected mortality) **inside `MC1=pooling`** — the hazard-to-risk gradient as three coded values in one mechanism, all coexisting, rather than a binary asserted as a sequence.
+
+  One further datum, recorded in the row: **Deparcieux (1746) derived the survival chances of each class by observing the 1689 and 1696 tontines.** The actuarial knowledge came out of these instruments, not into them.
+
 ### Fixed
 
 - **Two ragged vocabulary rows**, each caused by an unquoted comma inside a field, which shifted every value after it. `loss_mitigation_type.csv` (`warichi_iwade`, introduced in this cycle) and `amount_unit.csv` (`ryo`, pre-existing and unrelated). Both repaired and both files rewritten with proper quoting.

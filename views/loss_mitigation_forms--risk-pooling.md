@@ -15,7 +15,7 @@ Mechanism filter: `MC1 = pooling`. **12 forms × 9 characteristics.** This is NO
 | `ko_usui_bango_1822` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
 | `tontine` | -- | -- | -- | -- | 2 | .NR | -- | -- | -- |
 | `tontine_en_1693` | 1 | 0 | -- | 0 | 2 | 0 | 2 | 1 | .NR |
-| `tontine_fr_royal` | -- | 0 | -- | 0 | 2 | 1 | 2 | -- | -- |
+| `tontine_fr_royal` | -- | 0 | -- | 0 | 2 | P | 2 | -- | -- |
 | `torinoke_mujin` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
 | `widows_fund_scotland` | -- | 0 | -- | 1 | 2 | 1 | 1 | 1 | -- |
 
@@ -46,7 +46,7 @@ Mechanism filter: `MC1 = pooling`. **12 forms × 9 characteristics.** This is NO
 | `ko_usui_bango_1822` | 0 | individual-draw |
 | `tontine` | .NR | -- |
 | `tontine_en_1693` | 0 | individual-draw |
-| `tontine_fr_royal` | 1 | individual-draw |
+| `tontine_fr_royal` | P | individual-draw |
 | `torinoke_mujin` | 0 | individual-draw |
 | `widows_fund_scotland` | 1 | individual-indemnity |
 
