@@ -3,10 +3,10 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
-- **Version**: 0.7.0  
+- **Version**: 0.7.1  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 222  
+- **Rows**: 282  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,16 +35,16 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field          | Type   | Required | Coded values                                                      | Present |
 |---:|----------------|--------|:--------:|-------------------------------------------------------------------|--------:|
-|  1 | `record_id`    | string |    ✓     |                                                                   | 222/222 |
-|  2 | `type_id`      | string |          |                                                                   | 222/222 |
-|  3 | `char_id`      | string |          |                                                                   | 222/222 |
-|  4 | `value`        | string |          |                                                                   | 192/222 |
-|  5 | `confidence`   | string |          | `high`, `medium`, `low`                                           | 192/222 |
-|  6 | `articulation` | string |          | `articulated`, `analyst-imposed`                                  |  24/222 |
-|  7 | `source_ref`   | string |          |                                                                   | 202/222 |
-|  8 | `source_lang`  | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` | 153/222 |
-|  9 | `coder`        | string |    ✓     |                                                                   | 222/222 |
-| 10 | `notes`        | string |          |                                                                   | 222/222 |
+|  1 | `record_id`    | string |    ✓     |                                                                   | 282/282 |
+|  2 | `type_id`      | string |          |                                                                   | 282/282 |
+|  3 | `char_id`      | string |          |                                                                   | 282/282 |
+|  4 | `value`        | string |          |                                                                   | 243/282 |
+|  5 | `confidence`   | string |          | `high`, `medium`, `low`                                           | 243/282 |
+|  6 | `articulation` | string |          | `articulated`, `analyst-imposed`                                  |  42/282 |
+|  7 | `source_ref`   | string |          |                                                                   | 260/282 |
+|  8 | `source_lang`  | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` | 211/282 |
+|  9 | `coder`        | string |    ✓     |                                                                   | 282/282 |
+| 10 | `notes`        | string |          |                                                                   | 282/282 |
 
 ## Variable definitions
 
