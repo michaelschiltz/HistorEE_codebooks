@@ -11,7 +11,7 @@ commenda,Commenda,Italian (Latin),10-13c,Harris; vault qirad notes
 mudaraba,Mudaraba,Islamic,7c onward,Udovitch; vault
 isqa,ʿIsqa,Jewish (Babylonian rabbinic),4c onward,BT Bava Metzia 104b; Udovitch 1962; Gamoran 2008; vault: isqa notes
 qirad,Qirad,Islamic (Maliki),7c onward,vault: qirad notes
-ortoq,Ortoq,Mongol / Inner Asian,13-14c,vault: The ortoq is the discriminating instrument
+ortoq,Ortoq,Mongol / Inner Asian,13-14c,"vault: The ortoq is the discriminating instrument. UMBRELLA ROW, NOT CODED — split into ortoq_equity and ortoq_loan on Enkhbold 2019; the type spans both values of AP3, CF2, LR1 and LR6."
 fraterna,Fraterna,Venetian,12-15c,vault: fraterna/compagnia note
 asiento_averia,Asiento de avería company,Spanish,17c,vault: asiento notes
 bazacle_mill,Bazacle milling company (pariage),Occitan / Toulouse,12c-1946,"Sicard 1953/2015; Le Bris, Goetzmann & Pouget 2023; Débax 2012"
@@ -19,3 +19,5 @@ voc,VOC (chartered company),Dutch,1602 onward,Harris 2020
 piaohao,Piaohao (Shanxi bank),Chinese,19c,.NR
 ton_ya,Ton'ya / toiya,Japanese,14c onward,.NR
 nakai_fictive_household,Fictive household entity (Nakai Genzaemon),Japanese / Tokugawa,1749-1868,"D'Amico 2026 (Enterprise & Society, 10.1017/eso.2026.10131), from the Nakai Genzaemon archive; Egashira, Ōmi shōnin Nakai-ke no kenkyū. First Japanese form in this dataset."
+ortoq_equity,Ortoq — equity regime (capital entrusted),Mongol / Inner Asian,c.1210s-1250s,"Enkhbold 2019 (Central Asian Survey 38:4, 10.1080/02634937.2019.1652799), 542-543, from Juvayni, Rashid al-Din and Vassaf. SPLIT from the generic 'ortoq' row: the type spans both values of AP3, CF2, LR1 and LR6, which one row cannot hold. The principal bears losses capped at his investment and the agent bears none — the qirad/commenda configuration."
+ortoq_loan,Ortoq — loan regime (capital advanced at interest),Mongol / Yuan and Il-khanid,later 13c-14c,"Enkhbold 2019, 543-544, on Allsen 1989 and Otagi 1973. The second half of the split. Ortoqs 'completely liable for the loans they took, which extended beyond partnership capital to their private properties'; guarantors unconditionally bound; on default, seizure and then enslavement of the defaulter and his family (Rashid al-Din 1998, 726). The isqa configuration. Enkhbold dates and explains the shift: the Yuan government spent 76,000 ding of silver in 1240 bailing out ortoqs, and 'the huge losses suffered by Mongol elites motivated Mongol authorities to shift towards a risk-transfer model'."
