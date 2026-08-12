@@ -24,7 +24,7 @@ decisions that matter to a data *consumer*. Format follows
 
   **`HZ1` left `.NR` and named to a source.** Sickness is idiosyncratic on any reading, but Masure never asks about correlation across members. Van Leeuwen 2012 (`10.1111/J.1468-0289.2011.00602.X`) is reported to treat correlated risk and moral hazard directly and is the study that should fill it — the first substantive `HZ1` outside the maritime forms.
 
-  **Metadata caution.** The search index gives the venue as *Noordbrabants Historisch Jaarboek*; a full-text read gives *Tijdschrift voor Sociale en Economische Geschiedenis* 15(2), 51–67. Verify before citing.
+  **Metadata caution.** **Resolved.** The DOI resolves to *Noordbrabants Historisch Jaarboek* on platform.openjournals.nl, which is open access; the *Tijdschrift voor Sociale en Economische Geschiedenis* attribution reported by a full-text read is a misread of an internal reference.
 
 ### Changed
 
