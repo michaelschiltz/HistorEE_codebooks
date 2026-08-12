@@ -4,34 +4,34 @@ Mechanism filter: `MC1 = None`. **26 forms × 9 characteristics.** This is NOT t
 
 ## Matrix
 
-| form | `CN1` | `HZ1` | `HZ2` | `MB3` | `MC1` | `PR1` | `PY0` | `PY1` | `PY2` |
-|---|---|---|---|---|---|---|---|---|---|
-| `averia_pool` | 0 | 1 | 1 | 1 | 2 | 0 | 0 | .NA | .NA |
-| `bottomry` | -- | -- | -- | -- | 0 | 1 | -- | -- | -- |
-| `general_average` | 2 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
-| `guild_box_brabant` | 0 | .NR | -- | 1 | 2 | 0 | 1 | 0 | 3 |
-| `ko_daikokuya_1848` | 0 | .NR | -- | 1 | .NR | 0 | .NR | -- | -- |
-| `ko_daimanin_1828` | -- | -- | -- | -- | 2 | -- | -- | -- | .NR |
-| `ko_hokinosawa_1820` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
-| `ko_hokoin_1832` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
-| `ko_mitarai_gin_1805` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
-| `ko_mitarai_mujin_1773` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
-| `ko_mochiyori_yutsu_1876` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 2 |
-| `ko_shijunin_1829` | 0 | -- | -- | -- | 2 | -- | -- | -- | 0 |
-| `ko_usui_bango_1822` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
-| `ko_yamakuni_1555` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
-| `life_annuity_priced` | -- | -- | -- | -- | 1 | 1 | .NA | -- | -- |
-| `marine_insurance` | -- | -- | -- | -- | 1 | 1 | -- | -- | -- |
-| `particular_average` | .NA | .NR | -- | .NA | .NR | 0 | .NA | .NA | .NA |
-| `respondentia` | -- | -- | -- | -- | 0 | 1 | -- | -- | -- |
-| `sea_loan` | -- | -- | -- | 0 | 0 | P | .NA | -- | -- |
-| `shenhui_gu_alloc` | 1 | .NR | -- | 0 | .NR | 0 | 0 | .NA | .NA |
-| `tontine` | -- | -- | -- | -- | 2 | .NR | -- | -- | -- |
-| `tontine_en_1693` | 1 | 0 | -- | 0 | 2 | 0 | 2 | 1 | .NR |
-| `tontine_fr_royal` | -- | 0 | -- | 0 | 2 | P | 2 | -- | -- |
-| `torinoke_mujin` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
-| `warichi_iwade` | .NA | .NR | .NR | 1 | .NR | 0 | 2 | 2 | 0 |
-| `widows_fund_scotland` | -- | 0 | -- | 1 | 2 | 1 | 1 | 1 | -- |
+| form                      | `CN1` | `HZ1` | `HZ2` | `MB3` | `MC1` | `PR1` | `PY0` | `PY1` | `PY2` |
+|---------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| `averia_pool`             | 0     | 1     | 1     | 1     | 2     | 0     | 0     | .NA   | .NA   |
+| `bottomry`                | --    | --    | --    | --    | 0     | 1     | --    | --    | --    |
+| `general_average`         | 2     | 2     | P     | 1     | 2     | 0     | 1     | 0     | 3     |
+| `guild_box_brabant`       | 0     | .NR   | --    | 1     | 2     | 0     | 1     | 0     | 3     |
+| `ko_daikokuya_1848`       | 0     | .NR   | --    | 1     | .NR   | 0     | .NR   | --    | --    |
+| `ko_daimanin_1828`        | --    | --    | --    | --    | 2     | --    | --    | --    | .NR   |
+| `ko_hokinosawa_1820`      | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 0     |
+| `ko_hokoin_1832`          | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | .NR   |
+| `ko_mitarai_gin_1805`     | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | .NR   |
+| `ko_mitarai_mujin_1773`   | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 0     |
+| `ko_mochiyori_yutsu_1876` | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 2     |
+| `ko_shijunin_1829`        | 0     | --    | --    | --    | 2     | --    | --    | --    | 0     |
+| `ko_usui_bango_1822`      | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | .NR   |
+| `ko_yamakuni_1555`        | 0     | .NR   | --    | .NR   | 2     | 0     | 2     | 2     | .NR   |
+| `life_annuity_priced`     | --    | --    | --    | --    | 1     | 1     | .NA   | --    | --    |
+| `marine_insurance`        | --    | --    | --    | --    | 1     | 1     | --    | --    | --    |
+| `particular_average`      | .NA   | .NR   | --    | .NA   | .NR   | 0     | .NA   | .NA   | .NA   |
+| `respondentia`            | --    | --    | --    | --    | 0     | 1     | --    | --    | --    |
+| `sea_loan`                | --    | --    | --    | 0     | 0     | P     | .NA   | --    | --    |
+| `shenhui_gu_alloc`        | 1     | .NR   | --    | 0     | .NR   | 0     | 0     | .NA   | .NA   |
+| `tontine`                 | --    | --    | --    | --    | 2     | .NR   | --    | --    | --    |
+| `tontine_en_1693`         | 1     | 0     | --    | 0     | 2     | 0     | 2     | 1     | .NR   |
+| `tontine_fr_royal`        | --    | 0     | --    | 0     | 2     | P     | 2     | --    | --    |
+| `torinoke_mujin`          | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 0     |
+| `warichi_iwade`           | .NA   | .NR   | .NR   | 1     | .NR   | 0     | 2     | 2     | 0     |
+| `widows_fund_scotland`    | --    | 0     | --    | 1     | 2     | 1     | 1     | 1     | --    |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 
@@ -49,34 +49,34 @@ Mechanism filter: `MC1 = None`. **26 forms × 9 characteristics.** This is NOT t
 
 ## The claim
 
-| form | `PR1` peril priced ex ante | `PY0` pool output |
-|---|---|---|
-| `averia_pool` | 0 | collective-good |
-| `bottomry` | 1 | -- |
-| `general_average` | 0 | individual-indemnity |
-| `guild_box_brabant` | 0 | individual-indemnity |
-| `ko_daikokuya_1848` | 0 | .NR |
-| `ko_daimanin_1828` | -- | -- |
-| `ko_hokinosawa_1820` | 0 | individual-draw |
-| `ko_hokoin_1832` | 0 | individual-draw |
-| `ko_mitarai_gin_1805` | 0 | individual-draw |
-| `ko_mitarai_mujin_1773` | 0 | individual-draw |
-| `ko_mochiyori_yutsu_1876` | 0 | individual-draw |
-| `ko_shijunin_1829` | -- | -- |
-| `ko_usui_bango_1822` | 0 | individual-draw |
-| `ko_yamakuni_1555` | 0 | individual-draw |
-| `life_annuity_priced` | 1 | .NA |
-| `marine_insurance` | 1 | -- |
-| `particular_average` | 0 | .NA |
-| `respondentia` | 1 | -- |
-| `sea_loan` | P | .NA |
-| `shenhui_gu_alloc` | 0 | collective-good |
-| `tontine` | .NR | -- |
-| `tontine_en_1693` | 0 | individual-draw |
-| `tontine_fr_royal` | P | individual-draw |
-| `torinoke_mujin` | 0 | individual-draw |
-| `warichi_iwade` | 0 | individual-draw |
-| `widows_fund_scotland` | 1 | individual-indemnity |
+| form                      | `PR1` peril priced ex ante | `PY0` pool output    |
+|---------------------------|----------------------------|----------------------|
+| `averia_pool`             | 0                          | collective-good      |
+| `bottomry`                | 1                          | --                   |
+| `general_average`         | 0                          | individual-indemnity |
+| `guild_box_brabant`       | 0                          | individual-indemnity |
+| `ko_daikokuya_1848`       | 0                          | .NR                  |
+| `ko_daimanin_1828`        | --                         | --                   |
+| `ko_hokinosawa_1820`      | 0                          | individual-draw      |
+| `ko_hokoin_1832`          | 0                          | individual-draw      |
+| `ko_mitarai_gin_1805`     | 0                          | individual-draw      |
+| `ko_mitarai_mujin_1773`   | 0                          | individual-draw      |
+| `ko_mochiyori_yutsu_1876` | 0                          | individual-draw      |
+| `ko_shijunin_1829`        | --                         | --                   |
+| `ko_usui_bango_1822`      | 0                          | individual-draw      |
+| `ko_yamakuni_1555`        | 0                          | individual-draw      |
+| `life_annuity_priced`     | 1                          | .NA                  |
+| `marine_insurance`        | 1                          | --                   |
+| `particular_average`      | 0                          | .NA                  |
+| `respondentia`            | 1                          | --                   |
+| `sea_loan`                | P                          | .NA                  |
+| `shenhui_gu_alloc`        | 0                          | collective-good      |
+| `tontine`                 | .NR                        | --                   |
+| `tontine_en_1693`         | 0                          | individual-draw      |
+| `tontine_fr_royal`        | P                          | individual-draw      |
+| `torinoke_mujin`          | 0                          | individual-draw      |
+| `warichi_iwade`           | 0                          | individual-draw      |
+| `widows_fund_scotland`    | 1                          | individual-indemnity |
 
 ## Forms
 
