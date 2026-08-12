@@ -1,6 +1,6 @@
 # Scoped view — component `risk-pooling`
 
-Mechanism filter: `MC1 = None`. **31 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+Mechanism filter: `MC1 = None`. **32 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -11,6 +11,7 @@ Mechanism filter: `MC1 = None`. **31 forms × 9 characteristics.** This is NOT t
 | `craft_pension_edinburgh` | 0 | .NR | -- | 1 | 2 | 0 | 1 | 3 | 4 |
 | `craft_widows_fund_edinburgh` | 0 | .NR | -- | 0 | 2 | P | 1 | 1 | .NR |
 | `friendly_society_england` | 0 | .NR | P | 0 | 2 | 0 | 1 | 0 | 3 |
+| `friendly_society_female_england` | 0 | .NR | P | 0 | 2 | P | 1 | 0 | 3 |
 | `general_average` | 2 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
 | `guild_box_brabant` | 0 | .NR | -- | 1 | 2 | 0 | 1 | 0 | 3 |
 | `guild_box_dutch` | 0 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
@@ -61,6 +62,7 @@ Mechanism filter: `MC1 = None`. **31 forms × 9 characteristics.** This is NOT t
 | `craft_pension_edinburgh` | 0 | individual-indemnity |
 | `craft_widows_fund_edinburgh` | P | individual-indemnity |
 | `friendly_society_england` | 0 | individual-indemnity |
+| `friendly_society_female_england` | P | individual-indemnity |
 | `general_average` | 0 | individual-indemnity |
 | `guild_box_brabant` | 0 | individual-indemnity |
 | `guild_box_dutch` | 0 | individual-indemnity |
@@ -95,6 +97,7 @@ Mechanism filter: `MC1 = None`. **31 forms × 9 characteristics.** This is NOT t
 - `craft_pension_edinburgh` — Craft pensions and supply, incorporation of Mary's Chapel · Scottish / Edinburgh · 1670-1768
 - `craft_widows_fund_edinburgh` — Widows' fund annuity scheme, incorporation of Mary's Chapel · Scottish / Edinburgh · 1768-
 - `friendly_society_england` — Friendly society / box club · English · 1870-1914 (this coding)
+- `friendly_society_female_england` — Female friendly society · English · 1780-1830 (this coding)
 - `general_average` — General average (jettison contribution) · Mediterranean / lex Rhodia · antiquity onward
 - `guild_box_brabant` — Ambachtsbus / armenbus — craft guild sickness box · Low Countries / Brabant · 1250-1600
 - `guild_box_dutch` — Gildebus — guild sickness, burial, old-age and widows fund · Dutch Republic · 1550-1800
