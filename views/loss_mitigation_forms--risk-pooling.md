@@ -1,6 +1,6 @@
 # Scoped view — component `risk-pooling`
 
-Mechanism filter: `MC1 = None`. **25 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+Mechanism filter: `MC1 = None`. **26 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -9,6 +9,7 @@ Mechanism filter: `MC1 = None`. **25 forms × 9 characteristics.** This is NOT t
 | `averia_pool` | 0 | 1 | 1 | 1 | 2 | 0 | 0 | .NA | .NA |
 | `bottomry` | -- | -- | -- | -- | 0 | 1 | -- | -- | -- |
 | `general_average` | 2 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
+| `guild_box_brabant` | 0 | .NR | -- | 1 | 2 | 0 | 1 | 0 | 3 |
 | `ko_daikokuya_1848` | 0 | .NR | -- | 1 | .NR | 0 | .NR | -- | -- |
 | `ko_daimanin_1828` | -- | -- | -- | -- | 2 | -- | -- | -- | .NR |
 | `ko_hokinosawa_1820` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
@@ -53,6 +54,7 @@ Mechanism filter: `MC1 = None`. **25 forms × 9 characteristics.** This is NOT t
 | `averia_pool` | 0 | collective-good |
 | `bottomry` | 1 | -- |
 | `general_average` | 0 | individual-indemnity |
+| `guild_box_brabant` | 0 | individual-indemnity |
 | `ko_daikokuya_1848` | 0 | .NR |
 | `ko_daimanin_1828` | -- | -- |
 | `ko_hokinosawa_1820` | 0 | individual-draw |
@@ -81,6 +83,7 @@ Mechanism filter: `MC1 = None`. **25 forms × 9 characteristics.** This is NOT t
 - `averia_pool` — Avería (compulsory convoy levy) · Spanish / Carrera de Indias · 1521-1681
 - `bottomry` — Bottomry (sea loan secured on the ship) · Mediterranean / Latin West · 12c onward
 - `general_average` — General average (jettison contribution) · Mediterranean / lex Rhodia · antiquity onward
+- `guild_box_brabant` — Ambachtsbus / armenbus — craft guild sickness box · Low Countries / Brabant · 1250-1600
 - `ko_daikokuya_1848` — 大黒屋善兵衛頼母子講 (a 領主的金融講 / 藩営頼母子, Iino domain) · Japanese / Settsu · 1848-1853
 - `ko_daimanin_1828` — 大満院講 (広域講) · Japanese / Kawachi · 1828-1833+
 - `ko_hokinosawa_1820` — 久左衛門始頼母子 (朴木沢新田, 中里村) · Japanese / Echigo · 1820-1838
