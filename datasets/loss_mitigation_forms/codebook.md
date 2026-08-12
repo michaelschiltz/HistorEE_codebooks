@@ -3,10 +3,10 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `loss_mitigation_forms`  
-- **Version**: 0.2.3  
+- **Version**: 0.2.4  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 365  
+- **Rows**: 386  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,16 +35,16 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field          | Type   | Required | Coded values                                                                  | Present |
 |---:|----------------|--------|:--------:|-------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`    | string |    ✓     |                                                                               | 365/365 |
-|  2 | `type_id`      | string |          |                                                                               | 365/365 |
-|  3 | `char_id`      | string |          |                                                                               | 365/365 |
-|  4 | `value`        | string |          |                                                                               | 260/365 |
-|  5 | `confidence`   | string |          | `high`, `medium`, `low`                                                       | 260/365 |
-|  6 | `articulation` | string |          | `articulated`, `analyst-imposed`                                              |  91/365 |
-|  7 | `source_ref`   | string |          |                                                                               | 327/365 |
-|  8 | `source_lang`  | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh` | 297/365 |
-|  9 | `coder`        | string |    ✓     |                                                                               | 365/365 |
-| 10 | `notes`        | string |          |                                                                               | 365/365 |
+|  1 | `record_id`    | string |    ✓     |                                                                               | 386/386 |
+|  2 | `type_id`      | string |          |                                                                               | 386/386 |
+|  3 | `char_id`      | string |          |                                                                               | 386/386 |
+|  4 | `value`        | string |          |                                                                               | 271/386 |
+|  5 | `confidence`   | string |          | `high`, `medium`, `low`                                                       | 271/386 |
+|  6 | `articulation` | string |          | `articulated`, `analyst-imposed`                                              |  94/386 |
+|  7 | `source_ref`   | string |          |                                                                               | 347/386 |
+|  8 | `source_lang`  | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh` | 317/386 |
+|  9 | `coder`        | string |    ✓     |                                                                               | 386/386 |
+| 10 | `notes`        | string |          |                                                                               | 386/386 |
 
 ## Variable definitions
 
