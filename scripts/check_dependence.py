@@ -35,6 +35,7 @@ BLOCKING = {
     ("LR6", "LR2"): {"veiled"},
     ("CF2", "CF1"): {"0", ".NA"},
     ("MG3", "MG1"): {"contract", "beneficiary"},
+    ("VF2", "VF1"): {"none"},
 }
 MISSING = {".NR", ".IL", ".NA"}
 

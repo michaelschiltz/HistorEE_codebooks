@@ -10,6 +10,30 @@ decisions that matter to a data *consumer*. Format follows
 
 ### Added
 
+- **`VF1` split into mode and object; new characteristic `VF2 verification object`.** `loss_mitigation_forms` 0.2.6 → **0.3.0** — a characteristic addition, hence the minor. Fifteen `VF2` rows (`LM-0451`–`LM-0465`), one for every form carrying a `VF1`.
+
+  **This is a repair of a conflation, not added resolution, and it was declined twice before it was made.** `CHARACTER-CODING.md` says a characteristic earns its place only by repairing a conflation in Sereno's sense — one characteristic silently asking two questions — and that discriminant validity cannot be settled analytically. On 2026-08-12 the split was proposed and **discarded** because mode and object came apart in only one form; the reasoning is in `logbook/4`. Prom 2010 supplied the missing evidence the following day.
+
+  **The evidence, stated as the pairing it is.** One mode takes three objects; one object takes three modes; and in `friendly_society_england` a communal mode carries a dual object *within a single form* — the sick visitor goes "to offer moral support for the ill member, **or** to investigate suspected fraud", while lodges banned drinking, being outdoors or working while on the box.
+
+  | form | `VF1` mode | `VF2` object |
+  |---|---|---|
+  | `guild_box_brabant` | official-adjudication | loss-occurrence |
+  | `guild_box_dutch` | documentary | loss-occurrence |
+  | `guild_relief_england` | official-adjudication | mixed (need **and** fault) |
+  | `craft_pension_edinburgh` | official-adjudication | claimant-need |
+  | `friendly_society_england` | communal-attestation | mixed (condition **and** conduct) |
+
+  `check_dependence.py` reports the pair as **separated on substantive values**: "VF1=official-adjudication occurs with VF2 in ['claimant-need', 'loss-occurrence', 'mixed'] — VF1 does not determine VF2".
+
+  **`VF2` values**: `loss-occurrence` (the defined misfortune happened or persists) · `claimant-need` (reduced to want, irrespective of the event) · `claimant-fault` (the misfortune did not arise from the claimant's own misconduct) · `conduct-compliance` (the claimant observes the conditions of relief while drawing it) · `mixed`.
+
+  **Ontological dependence declared and enforced.** `VF2 applicability_on VF1` — an object of verification presupposes that verification occurs — with `BLOCKING[("VF2","VF1")] = {"none"}` registered in `check_dependence.py`, since that table is where applicability gates actually live. **Verified by injection**: setting `guild_box_brabant VF2=.NA` against a substantive `VF1` raises `SUSPECT … does not block, yet VF2=.NA` and a non-zero violation count; reverted. Both are also declared `dependence_group=verification, scope=conditional`, so the separation is reported rather than assumed on every future run.
+
+  **`VF1`'s definition rewritten** to say it names the mode only, with the split and its warrant recorded in the definition itself. **Seven `VF1` row notes updated** to point at `VF2` and to record that the repair was a split and **not** the fourth state those notes had proposed — a fourth state would have entrenched the conflation by adding a mode to describe an object.
+
+  **Two cells deliberately left `.NR` and flagged.** `averia_pool` and `general_average` both carry `VF1=official-adjudication` coded before the split, and their objects were never asked about. `general_average`'s is very likely `loss-occurrence` — a jettison either happened or did not — but that must be read from source rather than assumed, and both are named in `logbook/4` as owing a return to the sources.
+
 - **`friendly_society_england` coded on 22 rows** (`LM-0429`–`LM-0450`), from Prom 2010, *Friendly Society Discipline and Charity in Late-Victorian and Edwardian England* (*The Historian* 72:4, 888–908, `10.1111/J.1540-6563.2010.00280.X`), read in full from Oddfellows and Free Gardeners lodge minute and fines books in Durham, Northumberland and Yorkshire. `loss_mitigation_forms` 0.2.5 → **0.2.6**. 450 rows, 31 forms.
 
   **`VF1=communal-attestation` — the value's first use anywhere in the census.** The verifier is neither an officer nor a document: the sick visitor is "the fellow member sent round to offer moral support for the ill member, or to investigate suspected fraud".
