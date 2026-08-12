@@ -76,7 +76,7 @@ decisions that matter to a data *consumer*. Format follows
 
   **Two further cells could not be set and both are value-set failures rather than silences.** `PY3=P` because most gilds fixed the allowance while Beverley's alderman and seneschals varied it case by case "anywhere from 4d. to 8d. per week" — and because Ludlow's cap is on **frequency**, which `PY3` cannot express at all. `GV1=.NR` for the third time: decisions rest with named officers, rector and stewards or alderman and seneschals, which is neither collective assembly, nor founder-fixed, nor external administration.
 
-  **Source-type caution recorded in the type row.** The 1388–89 returns record what gilds *promised*. McRee warns that gild leaders had reasons to shade their answers, so these codings describe normative provision and not necessarily practice. Goddard & Smalley's Nottingham serial accounts are the corrective and are in hand.
+  **Source-type caution recorded in the type row.** The 1388–89 returns record what gilds *promised*. McRee warns that gild leaders had reasons to shade their answers, so these codings describe normative provision and not necessarily practice. **Correction, 2026-08-13:** Goddard & Smalley's Nottingham accounts were named here as the corrective. Having read them, they are not — the article treats the guild's finances and the cult of death and contains no discussion of relief to members at all. The corrective for the promise/practice gap in the 1388-89 returns has still to be found.
 
 - **`guild_box_dutch` coded on 22 rows** (`LM-0344`–`LM-0365`), from van Leeuwen 2012, *Guilds and middle-class welfare, 1550–1800* (*Economic History Review* 65:1, 61–90, `10.1111/j.1468-0289.2011.00602.x`), read in full. `loss_mitigation_forms` 0.2.2 → **0.2.3**.
 
