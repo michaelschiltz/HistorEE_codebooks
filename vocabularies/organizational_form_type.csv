@@ -1,23 +1,23 @@
-code,name,tradition,period,key_source
-waqf_khayri,Waqf (charitable),Islamic,8c onward,Kuran 2011; Cizakca 2000
-waqf_ahli,Waqf (family),Islamic,8c onward,Kuran 2011
-ie,Ie (household),Japanese,12c onward,vault: The ie as entity-shielding
-compagnia,Compagnia,Italian (Latin),13-15c,vault: fraterna/compagnia note
-joint_stock,Joint-stock corporation,European,17c onward,Harris 2020
-nacion_cofradia,Nación (cofradía),Spanish (Habsburg),16-18c,Crespo Solana; Carrasco González
-natie,Antwerp natie,Low Countries,15c onward,"Asaert, Devos & Suykens"
-kabu_nakama,Kabu-nakama,Japanese (Tokugawa),17-19c,vault: natie/kabu-nakama note
-commenda,Commenda,Italian (Latin),10-13c,Harris; vault qirad notes
-mudaraba,Mudaraba,Islamic,7c onward,Udovitch; vault
-isqa,ʿIsqa,Jewish (Babylonian rabbinic),4c onward,BT Bava Metzia 104b; Udovitch 1962; Gamoran 2008; vault: isqa notes
-qirad,Qirad,Islamic (Maliki),7c onward,vault: qirad notes
-ortoq,Ortoq,Mongol / Inner Asian,13-14c,"vault: The ortoq is the discriminating instrument. UMBRELLA ROW, NOT CODED — split into ortoq_equity and ortoq_loan on Enkhbold 2019; the type spans both values of AP3, CF2, LR1 and LR6."
-fraterna,Fraterna,Venetian,12-15c,vault: fraterna/compagnia note
-asiento_averia,Asiento de avería company,Spanish,17c,vault: asiento notes
-bazacle_mill,Bazacle milling company (pariage),Occitan / Toulouse,12c-1946,"Sicard 1953/2015; Le Bris, Goetzmann & Pouget 2023; Débax 2012"
-voc,VOC (chartered company),Dutch,1602 onward,Harris 2020
-piaohao,Piaohao (Shanxi bank),Chinese,19c,.NR
-ton_ya,Ton'ya / toiya,Japanese,14c onward,.NR
-nakai_fictive_household,Fictive household entity (Nakai Genzaemon),Japanese / Tokugawa,1749-1868,"D'Amico 2026 (Enterprise & Society, 10.1017/eso.2026.10131), from the Nakai Genzaemon archive; Egashira, Ōmi shōnin Nakai-ke no kenkyū. First Japanese form in this dataset."
-ortoq_equity,Ortoq — equity regime (capital entrusted),Mongol / Inner Asian,13c (not periodised),"Enkhbold 2019 (Central Asian Survey 38:4, 10.1080/02634937.2019.1652799), 542-543, from Juvayni, Rashid al-Din and Vassaf. SPLIT from the generic 'ortoq' row: the type spans both values of AP3, CF2, LR1 and LR6, which one row cannot hold. Principal bears losses capped at his investment, agent bears none — the qirad/commenda configuration. NOT A PHASE: Enkhbold has loan financing adopted 'when Ogedei and Mongke ruled', i.e. contemporaneous with the equity examples from Ogedei's own reign, so equity and loan are COEXISTING CONTRACT TYPES whose relative prevalence shifted, not a sequence. Dates deliberately left unperiodised. NOT AN INDEPENDENT OBSERVATION from ortoq_loan — one institution, two contract forms; organizational_form_type.csv has no cooccurs_with column in which to say so."
-ortoq_loan,Ortoq — loan regime (capital advanced at interest),Mongol / Yuan and Il-khanid,"13c-14c, prevalent from late 13c","Enkhbold 2019, 543-544, on Allsen 1989 and Otagi 1973. The second half of the split: ortoqs 'completely liable for the loans they took, which extended beyond partnership capital to their private properties'; guarantors unconditionally bound; on default, seizure and then enslavement of the defaulter and his family (Rashid al-Din 1998, 726). The isqa configuration. Attested from Ogedei's and Mongke's reigns and 'eventually became prevalent... by the end of the thirteenth century'. Enkhbold's stated cause for the shift in prevalence: the government spent 76,000 ding of silver in 1240 bailing out ortoqs, and 'the huge losses suffered by Mongol elites motivated Mongol authorities to shift towards a risk-transfer model'. NOT AN INDEPENDENT OBSERVATION from ortoq_equity."
+code,name,tradition,period,key_source,cooccurs_with,cooccurrence_basis
+waqf_khayri,Waqf (charitable),Islamic,8c onward,Kuran 2011; Cizakca 2000,.NR,.NR
+waqf_ahli,Waqf (family),Islamic,8c onward,Kuran 2011,.NR,.NR
+ie,Ie (household),Japanese,12c onward,vault: The ie as entity-shielding,.NR,.NR
+compagnia,Compagnia,Italian (Latin),13-15c,vault: fraterna/compagnia note,.NR,.NR
+joint_stock,Joint-stock corporation,European,17c onward,Harris 2020,.NR,.NR
+nacion_cofradia,Nación (cofradía),Spanish (Habsburg),16-18c,Crespo Solana; Carrasco González,.NR,.NR
+natie,Antwerp natie,Low Countries,15c onward,"Asaert, Devos & Suykens",.NR,.NR
+kabu_nakama,Kabu-nakama,Japanese (Tokugawa),17-19c,vault: natie/kabu-nakama note,.NR,.NR
+commenda,Commenda,Italian (Latin),10-13c,Harris; vault qirad notes,.NR,.NR
+mudaraba,Mudaraba,Islamic,7c onward,Udovitch; vault,.NR,.NR
+isqa,ʿIsqa,Jewish (Babylonian rabbinic),4c onward,BT Bava Metzia 104b; Udovitch 1962; Gamoran 2008; vault: isqa notes,.NR,.NR
+qirad,Qirad,Islamic (Maliki),7c onward,vault: qirad notes,.NR,.NR
+ortoq,Ortoq,Mongol / Inner Asian,13-14c,"vault: The ortoq is the discriminating instrument. UMBRELLA ROW, NOT CODED — split into ortoq_equity and ortoq_loan on Enkhbold 2019; the type spans both values of AP3, CF2, LR1 and LR6.",.NR,.NR
+fraterna,Fraterna,Venetian,12-15c,vault: fraterna/compagnia note,.NR,.NR
+asiento_averia,Asiento de avería company,Spanish,17c,vault: asiento notes,.NR,.NR
+bazacle_mill,Bazacle milling company (pariage),Occitan / Toulouse,12c-1946,"Sicard 1953/2015; Le Bris, Goetzmann & Pouget 2023; Débax 2012",.NR,.NR
+voc,VOC (chartered company),Dutch,1602 onward,Harris 2020,.NR,.NR
+piaohao,Piaohao (Shanxi bank),Chinese,19c,.NR,.NR,.NR
+ton_ya,Ton'ya / toiya,Japanese,14c onward,.NR,.NR,.NR
+nakai_fictive_household,Fictive household entity (Nakai Genzaemon),Japanese / Tokugawa,1749-1868,"D'Amico 2026 (Enterprise & Society, 10.1017/eso.2026.10131), from the Nakai Genzaemon archive; Egashira, Ōmi shōnin Nakai-ke no kenkyū. First Japanese form in this dataset.",.NR,.NR
+ortoq_equity,Ortoq — equity regime (capital entrusted),Mongol / Inner Asian,13c (not periodised),"Enkhbold 2019 (Central Asian Survey 38:4, 10.1080/02634937.2019.1652799), 542-543, from Juvayni, Rashid al-Din and Vassaf. SPLIT from the generic 'ortoq' row: the type spans both values of AP3, CF2, LR1 and LR6, which one row cannot hold. Principal bears losses capped at his investment, agent bears none — the qirad/commenda configuration. NOT A PHASE: Enkhbold has loan financing adopted 'when Ogedei and Mongke ruled', i.e. contemporaneous with the equity examples from Ogedei's own reign, so equity and loan are COEXISTING CONTRACT TYPES whose relative prevalence shifted, not a sequence. Dates deliberately left unperiodised. NOT AN INDEPENDENT OBSERVATION from ortoq_loan — one institution, two contract forms; organizational_form_type.csv has no cooccurs_with column in which to say so.",ortoq_loan,same-institution
+ortoq_loan,Ortoq — loan regime (capital advanced at interest),Mongol / Yuan and Il-khanid,"13c-14c, prevalent from late 13c","Enkhbold 2019, 543-544, on Allsen 1989 and Otagi 1973. The second half of the split: ortoqs 'completely liable for the loans they took, which extended beyond partnership capital to their private properties'; guarantors unconditionally bound; on default, seizure and then enslavement of the defaulter and his family (Rashid al-Din 1998, 726). The isqa configuration. Attested from Ogedei's and Mongke's reigns and 'eventually became prevalent... by the end of the thirteenth century'. Enkhbold's stated cause for the shift in prevalence: the government spent 76,000 ding of silver in 1240 bailing out ortoqs, and 'the huge losses suffered by Mongol elites motivated Mongol authorities to shift towards a risk-transfer model'. NOT AN INDEPENDENT OBSERVATION from ortoq_equity.",ortoq_equity,same-institution
