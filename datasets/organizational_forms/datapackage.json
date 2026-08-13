@@ -2,12 +2,19 @@
   "name": "organizational_forms",
   "title": "Cooperative organizational forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological (Zwicky) coding of cooperative and risk-pooling organizational forms (waqf, ie, compagnia, joint-stock corporation, nación, natie, kabu-nakama, and forms to be added) against a granular set of structural characteristics. Stored long/tidy: one row per form × characteristic. Supports the comparative typology in Clearing and Settling the Realm / HistorEE. Codes for forms and characteristics live in vocabularies/organizational_form_type.csv and vocabularies/organizational_form_characteristic.csv. Rows with coder 'ai' are provisional seed codings pending human verification; source_ref '[verify]' marks a coded value whose citation is not yet pinned.",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "licenses": [
-    { "name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0" }
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0"
+    }
   ],
   "contributors": [
-    { "title": "Michael Schiltz", "role": "maintainer", "organization": "London Mathematical Laboratory (incoming)" }
+    {
+      "title": "Michael Schiltz",
+      "role": "maintainer",
+      "organization": "London Mathematical Laboratory (incoming)"
+    }
   ],
   "created": "2026-07-29T00:00:00Z",
   "resources": [
@@ -18,21 +25,152 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "dialect": { "delimiter": ",", "header": true },
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      },
       "schema": {
         "primaryKey": "record_id",
-        "missingValues": ["", ".NR", ".IL", ".NA"],
+        "missingValues": [
+          "",
+          ".NR",
+          ".IL",
+          ".NA"
+        ],
         "fields": [
-          { "name": "record_id", "type": "string", "title": "Record ID", "description": "Stable unique identifier for the coding. Never reused.", "constraints": { "required": true, "unique": true, "pattern": "^OF-[0-9]{4}$" } },
-          { "name": "type_id", "type": "string", "title": "Organizational form (coded)", "description": "Coded organizational form. Controlled vocabulary: vocabularies/organizational_form_type.csv. Not enum-constrained here because the form census is still growing (CONTRIBUTING §5); enforcement can be added once it stabilises." },
-          { "name": "char_id", "type": "string", "title": "Characteristic (coded)", "description": "Coded structural characteristic. Controlled vocabulary: vocabularies/organizational_form_characteristic.csv, which also gives each characteristic's value type and allowed values." },
-          { "name": "value", "type": "string", "title": "Coded state", "description": "The characteristic's state for this form. Ternary characteristics: 1 present, P partial, 0 absent. Nominal/ordinal characteristics: one of that characteristic's allowed categories (see vocabulary). Absence (0) is a datum, kept distinct from .NA (characteristic does not apply to this form) and .NR (not yet coded). Because admissible values are per-characteristic, this field is not enum-constrained." },
-          { "name": "confidence", "type": "string", "title": "Record confidence", "description": "Confidence in the coding. Orthogonal to value: a contested coding is low even where value is 1 (present). Uncertainty is an explicit column, not prose.", "constraints": { "enum": ["high", "medium", "low"] } },
-          { "name": "articulation", "type": "string", "title": "Articulation", "description": "Whether the coded function was articulated by the tradition's own advocates in their own idiom ('articulated'), or is visible only under the analyst's description ('analyst-imposed'). '.NR' where not yet assessed; propagates '.NA' with the value. Implements the methodology's constraint that functional coding be bounded by the sources' vocabulary, so that the two kinds of claim are never aggregated.", "constraints": { "enum": ["articulated", "analyst-imposed"] } },
-          { "name": "source_ref", "type": "string", "title": "Source reference", "description": "Short citation supporting the coding, or '[verify]' where the value is asserted pending a pinned reference." },
-          { "name": "source_lang", "type": "string", "title": "Source language", "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.", "constraints": { "enum": ["ja", "nl", "de", "fr", "en", "es", "he", "arc", "ar", "la", "it"] } },
-          { "name": "coder", "type": "string", "title": "Coder", "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification.", "constraints": { "required": true } },
-          { "name": "notes", "type": "string", "title": "Notes", "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references." }
+          {
+            "name": "record_id",
+            "type": "string",
+            "title": "Record ID",
+            "description": "Stable unique identifier for the coding. Never reused.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^OF-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "type_id",
+            "type": "string",
+            "title": "Organizational form (coded)",
+            "description": "Coded organizational form. Controlled vocabulary: vocabularies/organizational_form_type.csv. Not enum-constrained here because the form census is still growing (CONTRIBUTING §5); enforcement can be added once it stabilises."
+          },
+          {
+            "name": "char_id",
+            "type": "string",
+            "title": "Characteristic (coded)",
+            "description": "Coded structural characteristic. Controlled vocabulary: vocabularies/organizational_form_characteristic.csv, which also gives each characteristic's value type and allowed values."
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "title": "Coded state",
+            "description": "The characteristic's state for this form. Ternary characteristics: 1 present, P partial, 0 absent. Nominal/ordinal characteristics: one of that characteristic's allowed categories (see vocabulary). Absence (0) is a datum, kept distinct from .NA (characteristic does not apply to this form) and .NR (not yet coded). Because admissible values are per-characteristic, this field is not enum-constrained."
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "title": "Record confidence",
+            "description": "Confidence in the coding. Orthogonal to value: a contested coding is low even where value is 1 (present). Uncertainty is an explicit column, not prose.",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "articulation",
+            "type": "string",
+            "title": "Articulation",
+            "description": "Whether the coded function was articulated by the tradition's own advocates in their own idiom ('articulated'), or is visible only under the analyst's description ('analyst-imposed'). '.NR' where not yet assessed; propagates '.NA' with the value. Implements the methodology's constraint that functional coding be bounded by the sources' vocabulary, so that the two kinds of claim are never aggregated.",
+            "constraints": {
+              "enum": [
+                "articulated",
+                "analyst-imposed"
+              ]
+            }
+          },
+          {
+            "name": "source_ref",
+            "type": "string",
+            "title": "Source reference",
+            "description": "Short citation supporting the coding, or '[verify]' where the value is asserted pending a pinned reference."
+          },
+          {
+            "name": "source_lang",
+            "type": "string",
+            "title": "Source language",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.",
+            "constraints": {
+              "enum": [
+                "ja",
+                "nl",
+                "de",
+                "fr",
+                "en",
+                "es",
+                "he",
+                "arc",
+                "ar",
+                "la",
+                "it"
+              ]
+            }
+          },
+          {
+            "name": "coder",
+            "type": "string",
+            "title": "Coder",
+            "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_read",
+            "type": "string",
+            "title": "Source read",
+            "description": "Whether the coder had read source_ref when the cell was entered, or has since. 'full' = read throughout; 'partial' = read the cited passages and their context; 'none' = coded from secondary description without opening the source; 'unknown' = not recorded at coding time. '.NA' where the row has no source. PROCESS METADATA, NOT A CLAIM ABOUT THE SOURCE.",
+            "constraints": {
+              "enum": [
+                "full",
+                "partial",
+                "none",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "reviewed_by",
+            "type": "string",
+            "title": "Reviewed by",
+            "description": "Initials of the team member who has checked this cell, or 'none'. Distinct from 'coder'. Multiple reviewers separated by ';'.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "review_status",
+            "type": "string",
+            "title": "Review status",
+            "description": "'unreviewed' (default); 'source-checked' = a reviewer read source_ref and confirms the cell against it; 'coding-checked' = a reviewer accepts the reasoning but did not or could not verify against the source, which is the honest state where source_lang lies outside the reviewer's languages; 'disputed' = a reviewer disagrees and resolution is pending.",
+            "constraints": {
+              "enum": [
+                "unreviewed",
+                "source-checked",
+                "coding-checked",
+                "disputed"
+              ]
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "title": "Notes",
+            "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references."
+          }
         ]
       }
     }
