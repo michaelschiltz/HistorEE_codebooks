@@ -1,11 +1,12 @@
 # Scoped view — component `risk-pooling`
 
-Mechanism filter: `MC1 = None`. **32 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+Mechanism filter: `MC1 = None`. **33 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
 | form | `CN1` | `HZ1` | `HZ2` | `MB3` | `MC1` | `PR1` | `PY0` | `PY1` | `PY2` |
 |---|---|---|---|---|---|---|---|---|---|
+| `avariz_vakfi_kirkcesme` | .NA | 2 | .NR | .NA | 0 | 0 | 1 | 0 | 4 |
 | `averia_pool` | 0 | 1 | 1 | 1 | 2 | 0 | 0 | .NA | .NA |
 | `bottomry` | -- | -- | -- | -- | 0 | 1 | -- | -- | -- |
 | `craft_pension_edinburgh` | 0 | .NR | -- | 1 | 2 | 0 | 1 | 3 | 4 |
@@ -57,6 +58,7 @@ Mechanism filter: `MC1 = None`. **32 forms × 9 characteristics.** This is NOT t
 
 | form | `PR1` peril priced ex ante | `PY0` pool output |
 |---|---|---|
+| `avariz_vakfi_kirkcesme` | 0 | individual-indemnity |
 | `averia_pool` | 0 | collective-good |
 | `bottomry` | 1 | -- |
 | `craft_pension_edinburgh` | 0 | individual-indemnity |
@@ -92,6 +94,7 @@ Mechanism filter: `MC1 = None`. **32 forms × 9 characteristics.** This is NOT t
 
 ## Forms
 
+- `avariz_vakfi_kirkcesme` — Avarız akçesi vakfı (neighbourhood fund) · Ottoman / Kastamonu · 1841 (this coding)
 - `averia_pool` — Avería (compulsory convoy levy) · Spanish / Carrera de Indias · 1521-1681
 - `bottomry` — Bottomry (sea loan secured on the ship) · Mediterranean / Latin West · 12c onward
 - `craft_pension_edinburgh` — Craft pensions and supply, incorporation of Mary's Chapel · Scottish / Edinburgh · 1670-1768
