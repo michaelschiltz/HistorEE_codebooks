@@ -6,6 +6,55 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-16
+
+### Added
+- `vocabularies/loss_mitigation_type.csv`: `boundary_basis` and `boundary_confidence` — on what
+  grounds each row is a distinct form, and how sure. Values: contemporary-terminology |
+  contemporary-legal-form | structural-difference | analyst-split | documented-instance. Filled for
+  28 of 54 rows from the table's own notes; 26 left `.NR` rather than back-filled.
+- `vocabularies/loss_mitigation_characteristic.csv`: `exemplar` column. `definition` now states what
+  a characteristic asks; `exemplar` states what particular forms answered and why it was added.
+- `scripts/check_vocabularies.py`: `check_boundary()` — enforces the basis/confidence pairing and
+  both value sets. Fatal, as with the other vocabulary checks.
+- `RB3.allowed_values` += `freight`, `general-estate`.
+- `source_lang` enum += `pl`, `pt` in `clearing_records`, `loss_mitigation_forms`,
+  `organizational_forms`.
+- `logbook/4-appendix-blind-recoding-2026-08-16.csv` — the 78 blind rows, as test output. **Not
+  codings; not for `data.csv`.**
+
+### Changed
+- `bottomry.name` → "Bottomry / Bodmerei (sea loan with constitutive pledge and non-recourse
+  liability)"; `respondentia.name` marks "secured on the goods" as English usage.
+- `RB3.definition` no longer asserts that it is the cell separating bottomry from respondentia; that
+  gloss moved to `exemplar` with the correction attached.
+- `key_source` for the three maritime rows extended with Zeno 1936, Hoover 1926, de Roover 1969,
+  Schuster 2005, Lohsse 2016, Steckley 2001.
+
+### Why
+The blind re-coding pre-registered in logbook 4 §2026-08-13 (iv) was run on 2026-08-16. The blinding
+failed — the value sets stated the codings under test — and the three decisions the leak did not
+touch (`MC1`, `PY0`, `PR1`) are the three that failed. The `definition`/`exemplar` split is the
+repair that makes a future test possible.
+
+### Considered and rejected
+- A single `boundary` column with values contemporary-terminology | analyst-imposed | disputed.
+  Rejected: `disputed` is a status, not a basis; one column would have asked two questions.
+- Reversing the 2026-08-09 `RB3` widening on the ground that `surety` and `personal` were
+  unoccupied. **Withdrawn**: personal suretyship appears in 22 of 91 loan documents in Zeno's
+  Palermo corpus. The original argument read an absence of acquisition as an absence in the world.
+- Splitting `RB3` into "is there a specific pledge" and "of what", and splitting `PR1` into "priced
+  ex ante" and "priced from a distribution". Both are well-formed objections and both are deferred:
+  three new characteristics out of one test is what "add forms, not features" exists to prevent.
+  Recorded in logbook 4 and in the vault instead.
+- Merging `bottomry` and `respondentia`. Rejected on Schuster: bottomry is a contemporary legal
+  form attested from 1253/55. `respondentia` is recorded as `analyst-split` rather than merged away.
+
+### Not done here
+- `PY0.applicability_on = MC1` is supplied as a separate patch. It makes `check_dependence.py`
+  enforce the dependency against existing rows and must be run locally before committing.
+- The datapackage `version` fields are unchanged; bump them with whatever release this lands in.
+
 ## [Unreleased]
 
 ### Added
