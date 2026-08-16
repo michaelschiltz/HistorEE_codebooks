@@ -51,8 +51,11 @@ repair that makes a future test possible.
   form attested from 1253/55. `respondentia` is recorded as `analyst-split` rather than merged away.
 
 ### Not done here
-- `PY0.applicability_on = MC1` is supplied as a separate patch. It makes `check_dependence.py`
-  enforce the dependency against existing rows and must be run locally before committing.
+- `PY0.applicability_on = MC1` was tried, tested against the coded data and **rejected**:
+  `avariz_vakfi_kirkcesme` has a fund and real payouts with `MC1=allocation`, so `MC1` is not
+  `PY0`'s gate. Reverted. `scripts/check_dependence.py` keeps only the corrected summary label
+  (`dependence problems`, which sums violations, suspects and articulation problems - the old label
+  said `applicability violations`).
 - The datapackage `version` fields are unchanged; bump them with whatever release this lands in.
 
 ## [Unreleased]

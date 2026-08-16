@@ -27,7 +27,6 @@ from pathlib import Path
 # Keyed (dependent, gate). Kept explicit rather than inferred: "which values
 # block" is a substantive claim about the characteristic, not a rule.
 BLOCKING = {
-    ("PY0", "MC1"): {"allocation", "spreading"},
     ("PY1", "PY0"): {"collective-good"},
     ("PY2", "PY0"): {"collective-good"},
     ("PY3", "PY0"): {"collective-good"},

@@ -51,7 +51,7 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 | 14 | `payee`                | string |          |                                                                            |     6/8 |
 | 15 | `place_romaji`         | string |          |                                                                            |     8/8 |
 | 16 | `source_ref`           | string |          |                                                                            |     8/8 |
-| 17 | `source_lang`          | string |          | `ja`, `nl`, `de`, `fr`, `en`                                               |     8/8 |
+| 17 | `source_lang`          | string |          | `ja`, `nl`, `de`, `fr`, `en`, `pl`, `pt`                                   |     8/8 |
 | 18 | `confidence`           | string |          | `high`, `medium`, `low`                                                    |     8/8 |
 | 19 | `coder`                | string |    ✓     |                                                                            |     8/8 |
 | 20 | `notes`                | string |          |                                                                            |     8/8 |
@@ -176,7 +176,7 @@ Archive/series call number and folio, keyed to logbook 5 (quality and nature of 
 
 ISO 639-1 language of the source text.
 
-- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`
+- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `pl`, `pt`
 
 
 ### `confidence` — Record confidence

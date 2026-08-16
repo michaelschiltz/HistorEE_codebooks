@@ -33,21 +33,21 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 ## Variables at a glance
 
-|  # | Field           | Type   | Required | Coded values                                                      | Present |
-|---:|-----------------|--------|:--------:|-------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                   | 282/282 |
-|  2 | `type_id`       | string |          |                                                                   | 282/282 |
-|  3 | `char_id`       | string |          |                                                                   | 282/282 |
-|  4 | `value`         | string |          |                                                                   | 243/282 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                           | 243/282 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                  |  42/282 |
-|  7 | `source_ref`    | string |          |                                                                   | 260/282 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it` | 211/282 |
-|  9 | `coder`         | string |    ✓     |                                                                   | 282/282 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                              | 260/282 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                   | 282/282 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`      | 282/282 |
-| 13 | `notes`         | string |          |                                                                   | 282/282 |
+|  # | Field           | Type   | Required | Coded values                                                                  | Present |
+|---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------|--------:|
+|  1 | `record_id`     | string |    ✓     |                                                                               | 282/282 |
+|  2 | `type_id`       | string |          |                                                                               | 282/282 |
+|  3 | `char_id`       | string |          |                                                                               | 282/282 |
+|  4 | `value`         | string |          |                                                                               | 243/282 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 243/282 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              |  42/282 |
+|  7 | `source_ref`    | string |          |                                                                               | 260/282 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 211/282 |
+|  9 | `coder`         | string |    ✓     |                                                                               | 282/282 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 260/282 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 282/282 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 282/282 |
+| 13 | `notes`         | string |          |                                                                               | 282/282 |
 
 ## Variable definitions
 
@@ -105,7 +105,7 @@ Short citation supporting the coding, or '[verify]' where the value is asserted 
 
 Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.
 
-- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`
+- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt`
 
 
 ### `coder` — Coder
