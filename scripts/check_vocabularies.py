@@ -263,6 +263,46 @@ def check_cooccurrence(codes: dict[str, set[str]], rows: dict[str, dict]) -> Non
                     err(f"{vocab}: {code} lists itself in cooccurs_with")
 
 
+def check_boundary(rows: dict[str, dict]) -> None:
+    """A declared boundary_basis must carry a boundary_confidence, and vice versa.
+
+    Same shape as the cooccurs_with / cooccurrence_basis pairing above and for
+    the same reason: a basis asserted without a confidence reads as settled when
+    it is not, and a confidence without a basis says how sure we are of nothing.
+    `bottomry` and `respondentia` are the motivating case — the boundary between
+    them rests on contemporary terminology at LOW confidence pending notarial
+    evidence, and that pair of facts has to travel together.
+    """
+    ALLOWED = {
+        "contemporary-terminology",
+        "contemporary-legal-form",
+        "structural-difference",
+        "analyst-split",
+        "documented-instance",
+    }
+    CONF = {"high", "medium", "low"}
+    for vocab, by_code in rows.items():
+        for code, r in by_code.items():
+            if "boundary_basis" not in r:
+                continue
+            basis = (r.get("boundary_basis") or "").strip()
+            conf = (r.get("boundary_confidence") or "").strip()
+            has_b = basis and basis not in MISSING_FALLBACK
+            has_c = conf and conf not in MISSING_FALLBACK
+            if has_b and not has_c:
+                err(f"{vocab}: {code} declares boundary_basis {basis!r} but no "
+                    "boundary_confidence — how sure must travel with on what grounds")
+            if has_c and not has_b:
+                err(f"{vocab}: {code} declares boundary_confidence {conf!r} but no "
+                    "boundary_basis — a confidence about nothing")
+            if has_b and basis not in ALLOWED:
+                err(f"{vocab}: {code} boundary_basis {basis!r} not in "
+                    f"{sorted(ALLOWED)}")
+            if has_c and conf not in CONF:
+                err(f"{vocab}: {code} boundary_confidence {conf!r} not in "
+                    f"{sorted(CONF)}")
+
+
 def check_enum_agreement(codes: dict[str, set[str]]) -> None:
     for (name, field), vocab in ENUM_VOCAB.items():
         dp = ROOT / "datasets" / name / "datapackage.json"
@@ -307,6 +347,7 @@ def main() -> int:
         check_dataset(name, type_v, char_v, codes, rows)
 
     check_cooccurrence(codes, rows)
+    check_boundary(rows)
     check_enum_agreement(codes)
 
     if errors:

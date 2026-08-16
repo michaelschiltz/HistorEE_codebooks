@@ -39,7 +39,7 @@
           { "name": "payee", "type": "string", "title": "Payee / beneficiary", "description": "Party credited, as named in the source (romanised). Missing coded per convention." },
           { "name": "place_romaji", "type": "string", "title": "Place", "description": "Place of settlement (romanised)." },
           { "name": "source_ref", "type": "string", "title": "Source reference", "description": "Archive/series call number and folio, keyed to logbook 5 (quality and nature of sources)." },
-          { "name": "source_lang", "type": "string", "title": "Source language", "description": "ISO 639-1 language of the source text.", "constraints": { "enum": ["ja", "nl", "de", "fr", "en"] } },
+          { "name": "source_lang", "type": "string", "title": "Source language", "description": "ISO 639-1 language of the source text.", "constraints": { "enum": ["ja", "nl", "de", "fr", "en", "pl", "pt"] } },
           { "name": "confidence", "type": "string", "title": "Record confidence", "description": "Overall confidence in the coded record. Uncertainty is made an explicit column, not laundered into prose.", "constraints": { "enum": ["high", "medium", "low"] } },
           { "name": "coder", "type": "string", "title": "Coder", "description": "Initials of the team member who entered the record. The backstop for attribution is git blame; contestable interpretive calls additionally carry an authority note in the logbook.", "constraints": { "required": true } },
           { "name": "notes", "type": "string", "title": "Notes", "description": "Free-text coder note: rationale, caveats, cross-references." },
