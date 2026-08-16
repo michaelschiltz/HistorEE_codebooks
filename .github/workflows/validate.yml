@@ -30,6 +30,21 @@ jobs:
         # shifting every value after it and silently dropping a form code.
         run: python scripts/check_vocabularies.py
 
+      - name: Check dependence columns
+        # applicability_on and dependence_group are conditional constraints: which
+        # values a cell may take depends on another cell in the same form. A Table
+        # Schema cannot express that, so frictionless never sees it and the step
+        # below cannot catch a .NA whose parent does not block. CLAUDE.md has always
+        # listed this among the checks before a PR; CI did not run it until
+        # 2026-08-16, when a PY0/MC1 dependency test surfaced a particular_average
+        # row whose value contradicted its own note.
+        run: |
+          for d in datasets/*/; do
+            [[ "$d" == datasets/_template/ ]] && continue
+            echo "Checking $d"
+            python scripts/check_dependence.py "$d"
+          done
+
       - name: Validate every datapackage against its data
         run: |
           for dp in datasets/*/datapackage.json; do

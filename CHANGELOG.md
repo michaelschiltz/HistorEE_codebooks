@@ -22,6 +22,11 @@ decisions that matter to a data *consumer*. Format follows
   `organizational_forms`.
 - `logbook/4-appendix-blind-recoding-2026-08-16.csv` — the 78 blind rows, as test output. **Not
   codings; not for `data.csv`.**
+- `.github/workflows/validate.yml`: a `Check dependence columns` step running
+  `scripts/check_dependence.py` over every dataset. `CLAUDE.md` has listed it among the checks
+  before a PR since the script existed, but CI never ran it — so the conditional constraints
+  (`applicability_on`, `dependence_group`) were unenforced on push. frictionless cannot see them,
+  and the vocabulary check covers `value` against `allowed_values` only.
 
 ### Changed
 - `bottomry.name` → "Bottomry / Bodmerei (sea loan with constitutive pledge and non-recourse
