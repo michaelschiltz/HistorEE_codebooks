@@ -27,6 +27,7 @@ from pathlib import Path
 # Keyed (dependent, gate). Kept explicit rather than inferred: "which values
 # block" is a substantive claim about the characteristic, not a rule.
 BLOCKING = {
+    ("PY0", "MC1"): {"allocation", "spreading"},
     ("PY1", "PY0"): {"collective-good"},
     ("PY2", "PY0"): {"collective-good"},
     ("PY3", "PY0"): {"collective-good"},
@@ -177,7 +178,7 @@ def main() -> int:
     problems += check_articulation(dataset)
     print("\n=== redundancy groups (reported) ===")
     report_groups(chars, grid)
-    print(f"\napplicability violations: {problems}")
+    print(f"\ndependence problems: {problems}  (applicability violations + suspects, plus articulation problems)")
     return 1 if problems else 0
 
 
