@@ -6,6 +6,52 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-17
+
+### Added
+- `bodemerij_amsterdam` — Bodemerij (Amsterdam notarial practice), Dutch / Amsterdam, 1601–1621.
+  `boundary_basis = documented-instance` at `high`. Coded blind from Winkelman 1983 (RGP Grote Serie
+  184/185/186): 46 of 48 notarial acts, 36 *contracten van bodemerij* and 10 *protesten*.
+- `datasets/loss_mitigation_forms/data.csv`: `LM-0512`–`LM-0524`, thirteen cells — `MC1`, `HZ1`,
+  `HZ2`, `LS3`, `VF1`, `VF2`, `DR1`, `DR2`, `RB1`, `RB2`, `RB3`, `RB4`, `PR1`. **The first
+  `articulated` `PR1` in the maritime cohort, and the first substantive `LS3` in it.**
+
+### Why
+Second run of the re-coding test, blinded properly this time on the `definition`/`exemplar` split
+made 2026-08-16. Against the predictions logbook 2 recorded for this form: `PR1=1` **articulated**
+is *bought*; `LS3=0` is *falsified* — the value is `1`, on express personal and general-estate
+charges, sureties renouncing *beneficium excussionis et ordinis*, and creditors executing against
+persons and goods in the protests; "a jurisdiction outside effective canon-law reach" is
+*complicated* — Verwer has the lender reinsuring to stay inside the maximum-interest law. Three
+findings of the 2026-08-16 Mediterranean pass were reproduced independently from a Dutch
+transactional corpus: the fault/deviation class that no cell holds, ship-versus-goods failing to
+separate the institution, and `RB4`'s window-dependence.
+
+### Considered and rejected
+- **Splitting the corpus.** Four axes of internal variation were tested as candidate second forms,
+  in particular the six acts whose peril clause imports the custom of insurance and shares partial
+  loss *penninck ponts gelijck*. Rejected: the other contracts are **silent** on partial loss, not
+  contrary, so the split would code `.NR` as a value. Those six also cluster on three counterparties
+  inside eighteen months.
+- **Naming it Hanseatic `bodmerei`**, as logbook 2 proposed. Rejected on the evidence actually read:
+  the corpus is two Amsterdam notarial offices over twenty years, and Frankot's pluralism argument
+  forbids inferring practice from shared compilations in *either* direction.
+- **A `CN1` row.** No allowed value holds a premium contingent on success — the opgeld falls due
+  after safe arrival and is not payable at all on loss. `ex-post-assessment` is glossed as the
+  general-average pattern and would have told a consumer the opposite of the truth.
+- **Rows for the pool-shaped characteristics** (`MB1`–`MB3`, `CN1`–`CN3`, `PY0`–`PY3`, `LS1`–`LS2`,
+  `GV1`), following `marine_insurance`'s precedent of coding the maritime subset only.
+
+### Not done here
+- No schema change, so no `version` bump. `codebook.md` regenerated for row counts only
+  (511 → 524); CI fails on codebook drift.
+- `views/loss_mitigation_forms--risk-pooling.md` is **stale on `main` independently of this change**
+  — `build_views.py` reproduces the same 51/81-line diff from a pristine checkout. Left untouched
+  rather than bundled in. `bodemerij_amsterdam` does not belong in that view regardless: it filters
+  `MC1 = pooling` and this form is `spreading`.
+- `bottomry.LS3` remains uncoded. It is the declared differentia since 2026-08-16 and
+  `bodemerij_amsterdam` now gives it its first variance; coding it is the obvious next step.
+
 ## [Unreleased] — 2026-08-16
 
 ### Added
