@@ -6,6 +6,48 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-17 (iv)
+
+### Changed
+- `LM-0525` (`bottomry.LS3`) and `LM-0523` (`bodemerij_amsterdam.RB4`): notes extended on Rossi 2018,
+  91, acquired 2026-08-18. No values change.
+
+### Why
+Rossi supplies the contemporary vocabulary for the settlement patterns behind both cells:
+**average** — compensation for the actual damage — against **abandonment**, in which the party
+transfers ownership of the thing-at-risk in return for the full sum, avoiding "the lengthy process
+of liquidation of damages". Abandonment is the shape of Schuster's *Abtretung des Pfandes*, the
+Bodmerei's default release, which corroborates `LM-0525`.
+
+**And it renames a fact already coded.** The six Amsterdam acts whose lender takes *pro rato van 't
+suver gesalveerde* (nos 3231, 3232, 3234, 3235, 3240, 3242) are **average**, not abandonment — the
+opposite of the Bodmerei default. Taken with `LS3=1`, that is one pattern in two independent
+clauses: **Amsterdam drafting converts an in-rem, all-or-nothing settlement into a personal,
+proportional one.** The "dispositive default contracted out of" reading recorded in (ii) is
+therefore supported by a second clause type, not by the recourse clauses alone.
+
+Rossi also explains why abandonment is nearly invisible in the statutes — only Burgos 1538 and 1572
+and the Antwerp *Compilatae* of 1608 provide for it expressly, while Florence, Genoa, Seville,
+Bilbao, the earlier Antwerp compilations and the by-laws of **Amsterdam 1598** and Rotterdam 1604 are
+silent, the evidence sitting in notarial declarations. That is a caution for any future reading of
+this corpus: it is notarial, but it is bodemerijen and protests rather than insurance policies, so
+the absence of abandonment declarations in it is not evidence either way.
+
+### Considered and rejected
+- **A characteristic for the settlement pattern** (average against abandonment). It is a well-formed
+  distinction and the answer is still no: it is a settlement pattern, the census adds forms rather
+  than features, and `RB4` plus the row notes hold what is observed.
+
+### Not done here
+- No `version` bump, no value changes, no codebook row-count change.
+- The volume is Pihlajamäki, Cordes, Dauchy & De ruysscher (eds.), *Understanding the Sources of
+  Early Modern and Modern Commercial Law* (Brill, Legal History Library 25), **not** the title given
+  in conversation on 2026-08-17, which was inferred from the DOI and wrong. Four further chapters in
+  it bear on this project and are unread: Wubs-Mrozewicz on Danzig 1460–1580, Van Hofstraeten on
+  notarised partnership agreements in the Low Countries, De ruysscher on the normativity of merchant
+  guidebooks, and Sirks on the sources of commercial law in the Dutch Republic — the last two
+  bearing on how much weight Verwer and Wagenaar can carry in the bodemerij coding.
+
 ## [Unreleased] — 2026-08-17 (iii)
 
 ### Added
