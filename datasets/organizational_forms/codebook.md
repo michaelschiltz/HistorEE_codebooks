@@ -1,6 +1,6 @@
 # Codebook — Cooperative organizational forms — feature coding
 
-> **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
+> **Generated file.** Do *not* edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
 - **Version**: 0.8.0  
