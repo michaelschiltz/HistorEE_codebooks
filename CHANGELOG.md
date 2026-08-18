@@ -6,6 +6,44 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-17 (ii)
+
+### Added
+- `LM-0525` — `bottomry.LS3 = 0` at `medium`, `articulated`. The differentia relocated from `RB3` to
+  `LS3` on 2026-08-16 now carries a coded value. Schuster 2005, 211–212: the *eigentliche
+  Besonderheit* of the Bodmerei is *eine auf das Pfand beschränkte, dingliche Haftung* — *reine
+  Sachhaftung*, the creditor cannot reach the owner's estate.
+
+### Changed
+- `LM-0512` (`bodemerij_amsterdam.MC1`): confidence `high` → `medium`, with the objection registered
+  in the note. `allocation` and `spreading` do not exclude one another and this form satisfies both;
+  coding it `high` earlier the same day was an error, and an independent instance of the
+  non-partition already queried on `MC1`'s `exemplar`.
+- `bodemerij_amsterdam.boundary_basis`: `documented-instance` → `structural-difference`, confidence
+  `high`. The two rows now separate on a substantive value of `LS3` — `0` against `1` — rather than
+  on the provenance of the coding, which is what `documented-instance` was recording while the
+  `bottomry` codings were withheld from the blind pass.
+
+### Why
+**The shield is a default rule, not a mandatory one, and that reconciles the normative and the
+transactional evidence instead of setting them against each other.** Schuster's n.17 gives the
+debtor the right to discharge himself by abandoning the pledge — *sich durch Abtretung des Pfandes
+von jeder weiteren Haftung zu befreien*, still in the ALR II 8 §2427 — but only *wenn nicht
+besondere vertragliche Vereinbarungen hinzutraten*. The Amsterdam notaries of 1601–21 add exactly
+such agreements as routine drafting: an express charge on person and whole estate in eight of 36
+acts, sureties renouncing *beneficium excussionis et ordinis* in one, and creditors executing
+against persons and goods in the protests. The Marseille statutes of 1253/55 already have personal
+liability arising only by special agreement. So `bodemerij_amsterdam` is not a counter-example to
+Schuster; it is the escape hatch Schuster names, exercised as a matter of course in one port.
+
+### Not done here
+- **`sea_loan.LS3` and `respondentia.LS3` remain uncoded, and this is the live gap.** The original
+  differentia claim is bottomry *against the sea loan*, and that pair is still untested: one member
+  of it now has a value and the other does not. The blind appendix proposes `P` for the sea loan —
+  shielded *intra praestitutos dies*, exposed once the ship arrives safely — but appendix rows are
+  test output, not codings, and must be re-derived before entry.
+- No `version` bump: no schema change.
+
 ## [Unreleased] — 2026-08-17
 
 ### Added
