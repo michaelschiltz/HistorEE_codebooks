@@ -12,3 +12,15 @@ __pycache__/
 # Local, per-user agent settings (permission grants etc.); a shared
 # .claude/settings.json may still be committed if the team wants one.
 .claude/settings.local.json
+
+# Proposal staging. An assistant coding session writes its rows, generators and
+# review notes into proposed/ or proposed-<dataset>/ before anything is applied,
+# so that the standalone CSVs can be read against the diff. They are working
+# artefacts of one session, not part of the deposit: the rows themselves live in
+# data.csv and the reasoning lives in the logbooks, both of which are tracked.
+# Ignored so that an untracked staging folder never reads as pending work.
+proposed*/
+
+# Transfer archives used to move a session's output onto this machine. Deleted
+# once unpacked; ignored so a leftover never gets committed.
+_transfer*.tar
