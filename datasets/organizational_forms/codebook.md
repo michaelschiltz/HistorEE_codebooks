@@ -1,12 +1,12 @@
 # Codebook — Cooperative organizational forms — feature coding
 
-> **Generated file.** Do *not* edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
+> **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
 - **Version**: 0.8.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 282  
+- **Rows**: 293  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,19 +35,19 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field           | Type   | Required | Coded values                                                                  | Present |
 |---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                               | 282/282 |
-|  2 | `type_id`       | string |          |                                                                               | 282/282 |
-|  3 | `char_id`       | string |          |                                                                               | 282/282 |
-|  4 | `value`         | string |          |                                                                               | 243/282 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 243/282 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              |  42/282 |
-|  7 | `source_ref`    | string |          |                                                                               | 260/282 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 211/282 |
-|  9 | `coder`         | string |    ✓     |                                                                               | 282/282 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 260/282 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 282/282 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 282/282 |
-| 13 | `notes`         | string |          |                                                                               | 282/282 |
+|  1 | `record_id`     | string |    ✓     |                                                                               | 293/293 |
+|  2 | `type_id`       | string |          |                                                                               | 293/293 |
+|  3 | `char_id`       | string |          |                                                                               | 293/293 |
+|  4 | `value`         | string |          |                                                                               | 253/293 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 253/293 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              |  43/293 |
+|  7 | `source_ref`    | string |          |                                                                               | 270/293 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 221/293 |
+|  9 | `coder`         | string |    ✓     |                                                                               | 293/293 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 270/293 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 293/293 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 293/293 |
+| 13 | `notes`         | string |          |                                                                               | 293/293 |
 
 ## Variable definitions
 
