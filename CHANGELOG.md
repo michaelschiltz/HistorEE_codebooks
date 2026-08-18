@@ -6,6 +6,44 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-17 (iii)
+
+### Added
+- `LM-0526` — `sea_loan.LS3 = 1` at `high`, `articulated`. Schuster 2005, 112 and 120: the ancient
+  sea-loan debtor *haftete stets unbeschränkt mit seinem gesamten Vermögen*, and *eine Beschränkung
+  auf die verpfändeten Gegenstände wie bei der Bodmerei gab es nicht*. The pledge is security only —
+  *konstitutiven Charakter hatte es nicht*. Operative mechanism: on a short sale the lender executed
+  against the whole estate for the difference, and an *Exekutivklausel* in the deed let him do so
+  without first obtaining judgment.
+
+### Changed
+- `LM-0525` (`bottomry.LS3`): note updated — the pair is no longer untestable.
+
+### Why
+**The differentia now separates, and separating it required rejecting the blind appendix's value.**
+The appendix proposed `P` for the sea loan on phase-dependence — shielded *intra praestitutos dies*
+and on total loss, exposed once the ship arrives safely. That reading was marked `analyst-imposed`
+by its own coder, and it double-counts: **the risk window is `RB4`'s question**, and `RB4` is `1`
+for `sea_loan`, `bottomry`, `respondentia` and `bodemerij_amsterdam` alike. Folding it into `LS3`
+also destroys the boundary it was relocated to carry — bottomry has the identical window, so on the
+phase reading bottomry would be `P` too and the pair could not separate. `LS3` records the **scope**
+of liability given that the obligation has crystallised, and the appendix's own note concedes the
+answer: *the general estate is reachable*.
+
+**The result is a discriminant-validity finding in Campbell & Fiske's sense.** `LS3` now reads
+`1 / 0 / 1` across `sea_loan`, `bottomry` and `bodemerij_amsterdam` where `RB4` reads `1 / 1 / 1`.
+The characteristic `RB3` was relieved of in favour of does the work; `RB4` still has one observed
+value across four maritime forms, and the retirement proposed on its `exemplar` 2026-08-16 is
+correspondingly stronger.
+
+### Not done here
+- `respondentia.LS3` left uncoded: it would restate `bottomry`, and logbook 2 forbids counting
+  respondentia as an independent form in any diversity-budget argument.
+- **Scope limit on `LM-0526`:** the Athenian evidence was read directly; the Roman side rests on
+  Schuster's general contrast with *dem antiken Seedarlehen* rather than on Roman sources consulted
+  for this cell. Pontoriero 2011 and Benincasa 2011, cited by the appendix, were not re-read.
+- No `version` bump: no schema change.
+
 ## [Unreleased] — 2026-08-17 (ii)
 
 ### Added
