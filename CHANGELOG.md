@@ -52,6 +52,13 @@ See logbook 2 (2026-08-19).
   EVIDENCED" is still not evidenced, and this row is not it.** The row now rests on aggregation
   and governance rather than mechanism, and a reviewer may reasonably merge the two rows. See
   logbook 4 (2026-08-19 (iii)).
+- **Kıvrım 2019 acquired mid-session; `MC1` raised to `high`, `HZ1` reduced to `medium`,
+  `GV1` raised to `medium`.** The second-province source shows that Kars 2020 reproduces its
+  sentences verbatim and cites it, so two cells justified on "two sources agreeing" were
+  resting on one claim and its copy. `MC1=allocation` is strengthened because Kıvrım's own
+  evidence is nine named individual donors relieving "the people of their own quarter";
+  `HZ1`'s justification was withdrawn; `GV1` rose on Ayntab court cases that are genuinely
+  his own. See logbook 4 (2026-08-19 (iv)).
 - **`cash_waqf` reopened and left parked.** Çizarça's expenditure classification is the parking
   reason quantified; Mandaville 1979 adds only the validity controversy already recorded.
 
