@@ -48,6 +48,10 @@ See logbook 2 (2026-08-19).
   coding that motivates it is retrospective selection. Recorded in logbook 4 (2026-08-19 (ii)).
 - **`huf` not removed**, only recommended. **`avariz_vakfi_kirkcesme` `VF1` and `PY0` not changed**,
   only flagged for review.
+- **`avariz_fund` rests on one of two relevant Zotero collections.** Coded against `CGNZ38XG`
+  as briefed; the topical collection `B9Z8XKHJ` (28 items) was not consulted. Three of its items
+  have since been read and moved `RB3` to `low` and `GV1` to `medium`; ~24 remain unread. Every
+  cell on that row is provisional. See logbook 5 (2026-08-19 (ii)).
 - **`views/` not regenerated.** It is stale independently of this batch — 33 forms committed where
   the pre-existing `data.csv` already gives 38.
 - No schema change, so `datapackage.json` `version` is unbumped and `codebook.md` unregenerated.
