@@ -6,6 +6,82 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-18 (ii)
+
+### Added
+- `vocabularies/loss_mitigation_characteristic.csv` and
+  `vocabularies/organizational_form_characteristic.csv`: a **`locator`** column, stating what each
+  characteristic's role values are predicated *of*. `RB1` and `RB2` both take `arrangement`.
+  Rationale in logbook 1 (2026-08-18 (ii)).
+- `vocabularies/organizational_form_type.csv`: **`societas_maris`**, a new code in this vocabulary —
+  it already existed in `loss_mitigation_type.csv`. The bilateral commenda; Venetian *collegantia*.
+- `datasets/organizational_forms/data.csv`: **22 rows.** `OF-0283`–`OF-0293` code `societas_maris` on
+  the eleven characteristics `commenda` carries. The other eleven add `AP3` and `LR1` to `isqa`,
+  `qirad`, `commenda`, `nakai_fictive_household`, `ortoq_equity` and `ortoq_loan`, closing the gap
+  logbook 1 (2026-08-18) opened.
+
+### Changed
+- `mudaraba` in `organizational_form_type.csv` is now marked **not coded, as a determination rather
+  than an omission** — the same disposition as `ortoq_alloc`. *Mudārabah* is the Ḥanafī name for the
+  institution this dataset codes as `qirad`; coding both would enter one institution twice under two
+  madhhab labels. Ramli 2018, 97 on al-Sarakhsī.
+- `.gitignore` += `proposed*/`, `_transfer*.tar`.
+
+### Why
+Splitting the two datasets is vindicated by a pair they disagree about. Unilateral and bilateral
+*commenda* collapse on the payout — Pryor, Luzzatto and van Doosselaere all call them "essentially
+the same agreement", each reaching that on the profit side where the economics are identical by
+construction — and separate on the loss, where the unilateral traveller bears nothing and the
+bilateral bears a third. `organizational_forms` merges them; `loss_mitigation_forms` separates them.
+See logbook 4 (2026-08-18 (ii)).
+
+### Not done here
+- **`scripts/check_dependence.py` is unchanged**, so the under-reporting logbook 1 (2026-08-18)
+  identifies is still live. Recorded, not fixed.
+
+## [Unreleased] — 2026-08-18
+
+### Added
+- **Four forms coded**, `LM-0527`–`LM-0563` — 37 cells over nine characteristics:
+  `commenda_alloc`, `qirad_alloc`, `isqa_alloc`, `societas_maris`. Blind coding from the brief at
+  `claude/allocation-anchors-acquisition-brief.md`; `ortoq_alloc` left uncoded per its own recorded
+  determination. Four replacement rows in `vocabularies/loss_mitigation_type.csv` carrying
+  `boundary_basis` and `boundary_confidence` for each.
+
+### Why, and the three results a consumer should know about
+- **`RB4` has variance for the first time** (`isqa_alloc = 0` against `1` everywhere else). **The
+  retirement proposed on `RB4`'s `exemplar` (2026-08-16) and restated in `LM-0526`'s note is
+  withdrawn.** One added form settled what argument could not — the *asiento* pattern again.
+- **`PR1 = 0` on all four.** Within `MC1 = allocation` the field now reads 0 / P / 1, so the
+  2026-08-07 tontine finding — pricing is orthogonal to mechanism, not a stage of it — reproduces
+  *inside* a single mechanism value, from an unrelated literature. Genoa is the strongest case:
+  4,860 ties, dozens of destinations, only a handful departing from the customary split.
+- **`MC1 = allocation` now covers eight forms** and spans the whole `RB1`/`RB2` contrast without
+  being able to express it; the two are independent across the coded set in both directions.
+
+### Considered and rejected
+- **Splitting the Ragusan *collegantia* from `societas_maris`**, as logbook 2 (2026-08-16) queued.
+  **Misfiled:** on Held's own conclusion the Ragusan contract is a local variant of the *unilateral*
+  commenda, so the split would be from `commenda_alloc`. Not made.
+- **Treating `commenda_alloc` and `qirad_alloc` as two cases.** They return identical values in every
+  coded cell; both type rows carry `contemporary-terminology` at `high` and a warning against
+  counting them twice in any diversity-budget argument.
+- **Coding `LS1`, `LS2` and `LS3` for these four.** Rule applied: a characteristic already asked of
+  the same form in `organizational_forms` is not asked again. What these rows contribute is the
+  `RB1`/`RB2` peril/market split, which `organizational_forms` has no cell for.
+
+### Not done here
+- **No `version` bump, and the reason is not oversight.** `datasets/*/datapackage.json` is untouched
+  by everything above: the additions are rows, vocabulary rows and a vocabulary *column*, and
+  `vocabularies/*.csv` are not declared frictionless resources. CONTRIBUTING §5 ties the bump to
+  data-package schema growth, and there has been none. `loss_mitigation_forms` stays at `0.6.0` and
+  `organizational_forms` at `0.8.0`; that gap between them is pre-existing and unrelated.
+- Both `codebook.md` files were regenerated (526 → 563 and 271 → 293 rows) so CI's drift check passes.
+- **This entry was written on 2026-08-19 by a sighted session**, not by the coding sessions
+  themselves. They could not write it: the `[Unreleased]` blocks for 08-16 and 08-17 were withheld
+  from them under the blinding protocol, so neither could see what version was already staged or
+  what had already been recorded. That is a cost of the protocol and is taken up in logbook 4.
+
 ## [Unreleased] — 2026-08-17 (iv)
 
 ### Changed
