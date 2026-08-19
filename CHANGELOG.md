@@ -41,6 +41,20 @@ for removal to `organizational_forms`. `caravan_partnership` is blocked on reada
 judgement: its four sources are an image-only scan, two HTML stubs and a two-page fragment.
 See logbook 2 (2026-08-19).
 
+### Corrected within the batch
+- **`avariz_fund MC1` corrected `pooling` → `allocation` the same day it was added**, after a
+  pass over collection `B9Z8XKHJ`. Çizarça 1995's Bursa registers show an avarız fund's capital
+  growing from retained surplus and transfers from *other waqfs* rather than from residents,
+  founders endowing for social standing, and beneficiaries who are "the residents of a certain
+  district" — donor and beneficiary disjoint, which is this census's test for `allocation`.
+  `GV1` further reduced to `low` on trustee self-dealing evidenced in two cities.
+  **Consequence: the pooling split-candidate `avariz_vakfi_kirkcesme` has carried as "NOT YET
+  EVIDENCED" is still not evidenced, and this row is not it.** The row now rests on aggregation
+  and governance rather than mechanism, and a reviewer may reasonably merge the two rows. See
+  logbook 4 (2026-08-19 (iii)).
+- **`cash_waqf` reopened and left parked.** Çizarça's expenditure classification is the parking
+  reason quantified; Mandaville 1979 adds only the validity controversy already recorded.
+
 ### Not done here
 - **No characteristic added or split**, though the batch produced three candidates: `PY0` failed on
   a second Ottoman form, `PY1` lacks the `mixed` that `VF2` has, and nothing in the census can hold
@@ -50,7 +64,8 @@ See logbook 2 (2026-08-19).
   only flagged for review.
 - **`avariz_fund` rests on one of two relevant Zotero collections.** Coded against `CGNZ38XG`
   as briefed; the topical collection `B9Z8XKHJ` (28 items) was not consulted. Three of its items
-  have since been read and moved `RB3` to `low` and `GV1` to `medium`; ~24 remain unread. Every
+  have since been read and moved `RB3` to `low` and `GV1` to `medium`; 8 readable items remain
+  unread and 9 are unavailable. Every
   cell on that row is provisional. See logbook 5 (2026-08-19 (ii)).
 - **`views/` not regenerated.** It is stale independently of this batch — 33 forms committed where
   the pre-existing `data.csv` already gives 38.
