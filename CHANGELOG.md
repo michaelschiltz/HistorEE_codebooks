@@ -6,6 +6,52 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-19
+
+### Added
+- `datasets/loss_mitigation_forms/data.csv`: **46 rows**, `LM-0564`–`LM-0609`, coding two forms
+  on 23 characteristics each. `avariz_fund` (`LM-0564`–`LM-0586`) and a new
+  `confraternity_fund_it` (`LM-0587`–`LM-0609`). 22 of the 46 cells are `.NR`; `RB1`, `RB2` and
+  `RB4` are absent from both rows, as from every membership-fund row in the census.
+- `vocabularies/loss_mitigation_type.csv`: **`confraternity_fund_it`**, "Confraternity and guild
+  mutual support — Italian", 11c–15c. The first child of the regional split that
+  `confraternity_fund`'s `key_source` has required since 2026-08-13; the parent becomes an
+  uncoded umbrella on the `guild_mutual_aid` model.
+- `boundary_basis` and `boundary_confidence` filled on all seven type rows touched.
+
+### Changed
+- **`avariz_fund` renamed and rescoped**, "Avarız-hane fund (Ottoman communal levy)" →
+  "Mahalle / köy avarız sandığı (quarter chest for the communal levy)". *The old title was an
+  error of fact.* An *avârız hâne* is the fiscal accounting unit by which a state war tax was
+  apportioned — three to ten real households counted as one — not a fund, and the tax's payers get
+  no pool. The institution that exists is the quarter chest into which successive endowments were
+  gathered. This is the split candidate `avariz_vakfi_kirkcesme`'s `key_source` has carried as
+  "NOT YET EVIDENCED"; Kars 2020 and Gürsoy 2019 supply it. It separates from Kırkçeşme on
+  substantive values, not via `.NA`: `MC1` pooling/allocation, `GV1` collective/`.NR`,
+  `MB3` voluntary/`.NA`.
+- `huiguan`, `gongsi`, `huf`, `caravan_partnership`: `key_source` rewritten to record **why each
+  is not coded**, so that an empty row no longer reads as work pending rather than a determination.
+
+### Why
+Consumers should know that four of the six forms named in this batch are absent by decision.
+`huiguan` and `gongsi` have no source in the collection treating them as loss mitigation at all —
+the one relief fact belongs to a *jiao*, and is a collective good for a town. `huf` rests on an
+1855 colonial revenue glossary whose "coparcenary" entries concern land tenure, and is recommended
+for removal to `organizational_forms`. `caravan_partnership` is blocked on readability, not
+judgement: its four sources are an image-only scan, two HTML stubs and a two-page fragment.
+See logbook 2 (2026-08-19).
+
+### Not done here
+- **No characteristic added or split**, though the batch produced three candidates: `PY0` failed on
+  a second Ottoman form, `PY1` lacks the `mixed` that `VF2` has, and nothing in the census can hold
+  the residual liability a pool exists to absorb. Proposing a repair in the same batch as the
+  coding that motivates it is retrospective selection. Recorded in logbook 4 (2026-08-19 (ii)).
+- **`huf` not removed**, only recommended. **`avariz_vakfi_kirkcesme` `VF1` and `PY0` not changed**,
+  only flagged for review.
+- **`views/` not regenerated.** It is stale independently of this batch — 33 forms committed where
+  the pre-existing `data.csv` already gives 38.
+- No schema change, so `datapackage.json` `version` is unbumped and `codebook.md` unregenerated.
+
 ## [Unreleased] — 2026-08-18 (ii)
 
 ### Added
