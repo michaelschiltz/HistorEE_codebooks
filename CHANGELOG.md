@@ -6,6 +6,110 @@ decisions that matter to a data *consumer*. Format follows
 [Keep a Changelog](https://keepachangelog.com/); versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased] — 2026-08-20
+
+### Added
+- `datasets/loss_mitigation_forms/data.csv`: **131 rows**, `LM-0610`–`LM-0740`, coding the seven
+  parked kō/tanomoshi forms — `ko_horyuji_50kan` (20 rows), `ko_furuichi_sengan` (21),
+  `ko_meio_1498` (20), `ko_gotensama_1843` (16), `ko_choko_1854` (12), `ko_kosaburo_1802` (21),
+  `ko_mitarai_hanei_1840` (21). **62 cells are `.NR` and 11 `.NA` — 56 per cent of the batch is
+  missing**, which is the intended shape and not a coverage failure. `RB1`, `RB2` and `RB4` are
+  absent from all seven, as from every membership-fund row in the census.
+- `vocabularies/loss_mitigation_type.csv`: `boundary_basis` and `boundary_confidence` confirmed on
+  all seven type rows touched (`documented-instance` / `high` throughout); `key_source` rewritten
+  on each to record the coding and its corrections.
+- Two values new to the Japanese block. **`ko_furuichi_sengan DR1=open-ended`**, the first kō in
+  the census that is not a completed cycle (三浦 1959, 790: かなり恒久的な性格をもち他に融資して
+  いた). **`ko_meio_1498 GV1=collective`**, the first positive governance value on any kō row —
+  before this, `GV1` was `.NR` on every kō but `ko_daikokuya_1848`. `PY2=auction` doubles from one
+  occurrence to two, gaining a pre-Meiji instance in `ko_mitarai_hanei_1840`.
+
+### Corrected
+- **`ko_meio_1498` carries no 徳政 clause, and the row's `key_source` said it did.** The clause
+  一、縦雖有天下一同徳政、此懸支懸銭不可有改動之儀事 is at 三浦 1959, **790**, and belongs to
+  `ko_horyuji_50kan` alone; the 明応七年 掟書 is quoted in full at 781 and says nothing about 徳政.
+  The article's only other 明応 occurrence, at 792, is a footnote on 鋳物師. The two rows had been
+  paired on a clause one of them does not have.
+- **`ko_horyuji_50kan`: 極楽頼母子 and 経蔵修理用途 both belonged elsewhere.** 極楽 is the
+  延慶三年 (1310) 法隆寺 惣社明神造替 kō (三浦 780–781, after 林屋辰三郎), a different association;
+  経蔵修理用途 is `ko_furuichi_sengan`'s. The 五十貫 kō's own declared purpose is the 寺用の法服楽器.
+  Its winner's levy is 置銭五貫文, decided from the page image against the PDF's own OCR layer,
+  which renders it 澱三五貫文.
+- **`ko_kosaburo_1802`: the せり belongs to a different association.** 松永 1999's remark that
+  せりが行われた on the interest portion runs from 284 to the head of 285 and concerns the
+  文化四年赤沢村（吉川町）茂右衛門宿頼母子, a 一両掛 / 二一人前 kō of 1807; the 小三郎 discussion
+  begins at the next sentence. It is doubly hedged (らしく … かも知れない) even there. **`PY2` is
+  `.NR`, not auction** — coding from the annotation would have made this the census's second
+  bidding kō on a passage about a third association.
+- **`ko_choko_1854 cooccurrence_basis` raised `same-community` → `same-persons`**, and
+  `ko_gotensama_1843` now lists `ko_choko_1854` as well. 小林 1986, 308: 同一人物が前後三つの
+  頼母子講に名をつらねて; at 300, the 大黒屋 銀集帳's contents and membership are 先行の「御殿様」
+  頼母子講と殆ど同一. No similarity or configurational claim may count the 長興寺村 trio as three
+  independent draws.
+
+### Why — the two collapse questions, and neither collapses
+`ko_gotensama_1843` / `ko_daikokuya_1848` / `ko_choko_1854` are **three associations**, on 小林's
+own evidence: he numbers them 第一次/第二次/第三次 and titles §5 三つの頼母子講; they **overlapped**
+(二重興行, 1848–52, so they cannot be phases of one thing); the 主宰者 changed; and the flat 家掛り
+on the landless runs 2匁8分 → 8分5厘 → 1匁2分 across them. `ko_kosaburo_1802` and
+`ko_hokinosawa_1820` are likewise two associations — different district, village, year and
+document — and 松永 contrasts the regions himself at 284 (頸城郡農村には引取り型はあまりなく、
+返金には利子を付けて返した). Nothing collapsed, so no row was padded.
+
+### Known limits a consumer should read before using these rows
+- **The batch was not blind.** The brief specified a blind working copy at `~/blind-ko-2026-08-20`,
+  which does not exist; the live checkout was used instead, so the coded sibling rows were visible
+  throughout. The discipline against sibling contamination was applied by hand, passage by passage,
+  not by construction.
+- **The census cannot tell these forms apart.** With all seven added, only **four pairs** in the
+  nineteen-form Japanese block separate on a substantive value, and **none of the four sibling
+  pairs separates on anything** — every difference is one source filling a cell the other leaves
+  empty. `ko_horyuji_50kan` separates from nothing in the census. All nineteen kō signatures are
+  nominally distinct, but distinct by *pattern of missingness*, which is a fact about surviving
+  archives rather than about institutions. See logbook 4 (2026-08-20).
+- **`ko_choko_1854` is the emptiest row in the census** — twelve cells, ten `.NR`. Its `PR1` is
+  `.NR` and deliberately not `0`: the two siblings take `0` on their own 銀集帳 evidence, and for
+  the third 小林 has no ledger at all, so an absence asserted there would be an absence in the
+  archive.
+
+### Flagged for review, not changed
+- **`ko_furuichi_sengan MC1=pooling` at `low`.** The same 三浦 sentence that gives `DR1=open-ended`
+  says the fund 他に融資していた — lent beyond its members — which strains `MC1`'s "no outsider".
+  A reviewer may reasonably move it to `.NR`, joining the seven other forms whose sort key cannot
+  be set.
+- **`ko_kosaburo_1802 LS2=1` at `medium`.** 松永: 集まった利息はまだ寄金を引取らない講員が分配する,
+  on a published per-head schedule. That is a claim on the fund's *income*, not a residual at
+  winding up, and `LS2` says "surplus". Read strictly it is `.NR`, and the row then loses its only
+  difference from `ko_hokinosawa_1820`.
+- **`ko_daikokuya_1848 MB3=compulsory` at `high` was not touched and is in tension with its own
+  source.** `LM-0216` rests on 小林 at 298 (強制的に集めた); 小林 at 308 argues the other way —
+  三度にわたる講に…それぞれの講が理不尽な強制であれば拒否できたはずであるが、それをせず — and
+  concludes 農民の積極性はみとめられる. The value may stand; the `high` probably should not.
+
+### What was considered and rejected
+No characteristic added, split or repaired, though the batch produced **eight** strains: `MB3`
+fails on three rows *in opposite directions* (a levy participants could decline and did not, against
+a membership formally elective and materially inescapable); `CN2` gains a second independent
+two-part tariff and a third, distinct problem — a per-share against per-head locator in
+`ko_mitarai_hanei_1840`; `RB3` and `LS3` on `ko_meio_1498` fail on locator rather than on values;
+`GV1` cannot name either a general meeting with a standing officer beside it or an association that
+amends its own terms on member demand; and **no characteristic in the census asks about a hazard to
+the fund itself**, which is what `ko_horyuji_50kan`'s 徳政 clause defends against. Each strain is
+recorded as `.NR` for no-fitting-value in the row where its evidence lives. Proposing a repair in
+the same batch as the coding that motivates it is retrospective selection and breaks the
+falsifiability commitment in `CHARACTER-CODING.md`. `views/` not regenerated; it is stale
+independently of this batch. `datapackage.json` untouched — this is data growth, not schema growth.
+
+### Checks
+`frictionless validate`: **VALID**. `check_vocabularies.py`: 2 files, 82 codes, all values within
+`allowed_values`, enums agree. `check_dependence.py`: 0 problems (applicability, articulation and
+redundancy-group). Hand sweeps of `value`-against-`allowed_values`, every enum field, `.NA`
+propagation through `confidence`/`articulation`/`source_ref`/`source_lang`/`source_read`,
+`articulated` never on `[verify]`, and `record_id` uniqueness against the existing 609: clean.
+
+Reasoning in logbook 2, logbook 4 and logbook 5 (2026-08-20); full proposal and adjudications in
+`proposed/NOTES-ko-2026-08-20.md`. Every row carries `coder=ai` and `review_status=unreviewed`.
+
 ## [Unreleased] — 2026-08-19
 
 ### Added
