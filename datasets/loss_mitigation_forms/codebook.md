@@ -61,14 +61,14 @@ Stable unique identifier for the coding. Never reused.
 
 ### `type_id` — Pooling form (coded)
 
-Coded pooling arrangement. Controlled vocabulary: vocabularies/cooperative_pooling_type.csv. Not enum-constrained here because the census is still growing (CONTRIBUTING §5).
+Coded pooling arrangement. Controlled vocabulary: vocabularies/loss_mitigation_type.csv. Not enum-constrained here because the census is still growing (CONTRIBUTING §5).
 
 - **type** string
 
 
 ### `char_id` — Characteristic (coded)
 
-Coded structural characteristic. Controlled vocabulary: vocabularies/cooperative_pooling_characteristic.csv, which also gives each characteristic's value type, allowed values, and WP1 component.
+Coded structural characteristic. Controlled vocabulary: vocabularies/loss_mitigation_characteristic.csv, which also gives each characteristic's value type, allowed values, and WP1 component.
 
 - **type** string
 
