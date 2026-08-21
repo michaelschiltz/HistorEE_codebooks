@@ -55,5 +55,4 @@ If a source archive imposes non-commercial or redistribution restrictions on tra
 
 The schema is deliberately minimal and **additive-extensible**. This means that fields will accrete from archival work; they will not be retrofitted. The provenance apparatus is fixed from the first commit, because history cannot be back-dated.
 
-> ⚠️ The dataset shipped in `datasets/clearing_records/` is **illustrative and synthetic** — a worked example demonstrating the schema, not archival data.
-> See its codebook header.
+> ⚠️ The dataset shipped in `datasets/clearing_records/` is **illustrative and synthetic** — a worked example demonstrating the schema, not archival data. See its codebook header.

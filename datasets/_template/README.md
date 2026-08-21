@@ -15,8 +15,7 @@ Then, in the new `datapackage.json`:
    - **Amount normalisation** (`example_amount_*`) — keep only if this dataset records monetary amounts (CONTRIBUTING §4).
    - **Source-language triplet** (`example_term_*`) — keep only if the source is not in English.
    - Both patterns are optional and independent; a dataset may need neither, one, or both. Add more fields of either kind as needed (e.g. several amount columns) — schema growth is additive (CONTRIBUTING §5).
-3. Rename the fields you keep to something meaningful (`example_amount_original`
-   → e.g. `amount_original`) and update `data.csv`'s header to match.
+3. Rename the fields you keep to something meaningful (`example_amount_original` → e.g. `amount_original`) and update `data.csv`'s header to match.
 4. Delete this README from the copy — it documents the template, not the dataset.
 5. Run `python scripts/build_codebook.py datasets/<dataset_name>` and `frictionless validate datasets/<dataset_name>/datapackage.json`.
 

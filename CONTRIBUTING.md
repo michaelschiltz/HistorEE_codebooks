@@ -24,15 +24,13 @@ Contributors and roles are declared in `CITATION.cff`. Every observation carries
 ## 3. The workflow
 
 1. Branch from `main` (`git switch -c coding/<dataset>-<yourname>`).
-2. **New dataset?** Scaffold it from the template rather than writing
-   `datapackage.json` from scratch:
+2. **New dataset?** Scaffold it from the template rather than writing `datapackage.json` from scratch:
 
    ```sh
    cp -r datasets/_template datasets/<dataset_name>
    ```
 
-   Fill in every `REPLACE_...` placeholder, and keep or delete each `TEMPLATE —` field depending on whether that pattern applies (full instructions in `datasets/_template/README.md`). The mandatory fields — `record_id`, `source_ref`, `source_lang`, `confidence`, `coder`,
-   `notes` — are not optional patterns; every dataset carries them. For reference, here is an excerpt of the template showing the two kinds of field (the real, validated version lives at `datasets/_template/datapackage.json` — treat this as illustration, not the source of truth):
+Fill in every `REPLACE_...` placeholder, and keep or delete each `TEMPLATE —` field depending on whether that pattern applies (full instructions in `datasets/_template/README.md`). The mandatory fields — `record_id`, `source_ref`, `source_lang`, `confidence`, `coder`, `notes` — are not optional patterns; every dataset carries them. For reference, here is an excerpt of the template showing the two kinds of field (the real, validated version lives at `datasets/_template/datapackage.json` — treat this as illustration, not the source of truth):
 
    ```jsonc
    {
@@ -110,8 +108,7 @@ Do not create a vocabulary file for a value that already has an enum and needs n
 
 ## 5. Extending the schema
 
-Schema growth is **additive**. Add a field; do not repurpose an existing one.
-Bump the data-package `version` (semantic versioning) and record the change in `CHANGELOG.md`. Additive change never breaks a downstream consumer.
+Schema growth is **additive**. Add a field; do not repurpose an existing one. Bump the data-package `version` (semantic versioning) and record the change in `CHANGELOG.md`. Additive change never breaks a downstream consumer.
 
 That is the rule for *how* to grow the schema. For **whether** a new characteristic is warranted at all, see `CHARACTER-CODING.md`. The short form: discriminating power is free — given enough characteristics any two forms separate — so "it lets us tell X from Y" is not a justification. A characteristic earns its place by repairing a conflation (one characteristic silently asking two questions), not by adding resolution. Characteristics are paid for in forms, and this dataset is overdrawn: **add forms, not features.**
 
