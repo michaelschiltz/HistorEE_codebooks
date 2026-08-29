@@ -2,6 +2,20 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms — 2026-08-29 (ii)
+
+**`maona_chios` coded, 32 rows.** 23 → 24 rows over 22 institutions; 453 → 485 cells. New type row; `maona_corsica.cooccurs_with` amended. Sources: Taviani 2022 (Table 1.1, the constitutive texts of the Maona Vecchia and Nuova) and Balletto 1990 (Donato di Chiavari's Chios register, 1393–94), which is independent of Taviani.
+
+- **`TS3=1` fills a value that had no instance** anywhere in this dataset — the first form coded as revocable. Decided, not defaulted; the losing reading is in the cell. Zero-instance values 12 → 11.
+- **`LP2` revised 0 → P on acquisition**, after Balletto showed the maona contracting, farming out revenues and taking a legacy in its own name.
+- **A result reported earlier the same day was falsified by this row** — the `CI4` gradient across `maona_corsica`/`casa_san_giorgio`/`voc`. Retained in weaker form as a plateau-and-threshold claim. Logbook 4, 2026-08-29 (ii).
+
+### Not done here
+- **No `version` bump.** Rows and vocabulary rows only; CONTRIBUTING §5 ties the bump to schema growth.
+- **The 1347 Old Maona not coded.** A separate constitution differing on `TS2`, `MG3` and `CI3`; a third maona row is a diversity-budget question, not a coding one.
+- **`CI3` and `CI4` remain single-sourced.** Balletto's register records no share transfers, so the two cells carrying the comparison between the maone still rest on Taviani's table alone.
+
+
 ## organizational_forms — 2026-08-29
 
 **Five forms coded, 160 rows, 18 → 23 rows over 21 institutions.**

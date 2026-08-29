@@ -6,7 +6,7 @@
 - **Version**: 0.8.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 453  
+- **Rows**: 485  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,19 +35,19 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field           | Type   | Required | Coded values                                                                  | Present |
 |---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                               | 453/453 |
-|  2 | `type_id`       | string |          |                                                                               | 453/453 |
-|  3 | `char_id`       | string |          |                                                                               | 453/453 |
-|  4 | `value`         | string |          |                                                                               | 375/453 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 375/453 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              |  75/453 |
-|  7 | `source_ref`    | string |          |                                                                               | 414/453 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 365/453 |
-|  9 | `coder`         | string |    ✓     |                                                                               | 453/453 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 430/453 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 453/453 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 453/453 |
-| 13 | `notes`         | string |          |                                                                               | 453/453 |
+|  1 | `record_id`     | string |    ✓     |                                                                               | 485/485 |
+|  2 | `type_id`       | string |          |                                                                               | 485/485 |
+|  3 | `char_id`       | string |          |                                                                               | 485/485 |
+|  4 | `value`         | string |          |                                                                               | 395/485 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 395/485 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              |  85/485 |
+|  7 | `source_ref`    | string |          |                                                                               | 443/485 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 394/485 |
+|  9 | `coder`         | string |    ✓     |                                                                               | 485/485 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 462/485 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 485/485 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 485/485 |
+| 13 | `notes`         | string |          |                                                                               | 485/485 |
 
 ## Variable definitions
 
