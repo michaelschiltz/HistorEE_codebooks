@@ -2,6 +2,23 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms 0.9.0 — 2026-08-29
+
+**Five forms coded, 160 rows, 18 → 23 rows over 21 institutions.**
+
+- `casa_san_giorgio` (1407–1805) from Taviani 2022, Felloni 2010, Miner 2020, Rohan 2025.
+- `maona_corsica` (1378–1407) from Petti Balbi 1981, legible only after OCR this session.
+- `voc` **replaced** by three dated rows — `voc_1602`, `voc_1612`, `voc_1623` — on the rule that a type spanning both values of a characteristic must be split. All three carry `cooccurrence_basis=same-institution`: the VOC contributes one case to any *n*.
+
+**Considered and rejected.**
+
+- **Revising the WP2 component set** after Taviani 2022, 15 argued that its constituent bundle is the *Historische Rechtsschule*'s anachronism when applied to San Giorgio. Rejected on `CHARACTER-CODING.md` rule 2: the set is declared before the coding it will be used on, and revising it after seeing the result it produced is retrospective selection. Declared a comparative concept instead — logbook 1.
+- **A characteristic for the volatility or liquidity of the underlying venture.** Dari-Mattiacci et al. explain the failure of the Toulouse model to generalise by the mills' immovable assets and stable annual income, and no characteristic records that. Rejected per "add forms, not features"; recorded as an instrument limitation.
+- **Repairing `MG3`**, which cannot record an open membership with a property- and sex-qualified franchise (San Giorgio), and **`MG2`**, which cannot record who constitutes a collegial body — San Giorgio's investors elected their protettori, the VOC's directors were appointed by the provincial estates, and both read `collective`. Flagged in the cells; a repair belongs in a later commit, not the batch that motivated it.
+- **`maona` as one row.** Corsica and Chios separate on `CI3`; `maona_chios` is separately codeable and was not coded.
+- **`LP3=1` and `LR1=limited` for San Giorgio**, both predicted by the acquisition brief and both refused by the sources. Left `.NR`.
+
+
 ## [Unreleased] — 2026-08-20
 
 ### Added
