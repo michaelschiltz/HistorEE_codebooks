@@ -36,6 +36,29 @@ ROOT = Path(__file__).resolve().parent.parent
 NO_ROW = "--"          # the form x characteristic pair was never entered
 MISSING_TOKENS = {".NR", ".IL", ".NA"}
 
+# Which vocabularies describe which dataset. Mirrors the registry in
+# scripts/check_dependence.py; a dataset absent here has no characteristic
+# vocabulary and cannot be viewed. Before 2026-08-29 this module read the
+# loss-mitigation vocabularies unconditionally, so every view of
+# organizational_forms was built against the wrong characteristic set: WP2
+# components returned "no characteristics", and --component owner-shielding
+# succeeded while crossing organizational form ids with LS3/RB3/RB4.
+VOCAB = {
+    "loss_mitigation_forms": ("loss_mitigation_characteristic.csv",
+                              "loss_mitigation_type.csv"),
+    "organizational_forms": ("organizational_form_characteristic.csv",
+                             "organizational_form_type.csv"),
+}
+
+# The mechanism filter is MC1, which exists only in loss_mitigation_forms.
+MECHANISM_KEY = {"loss_mitigation_forms": "MC1"}
+
+# The claim table's default pair is dataset-specific for the same reason: PR1 and
+# PY0 are loss-mitigation characteristics and raise KeyError against any other
+# vocabulary. A dataset with no declared default gets no claim table unless one
+# is asked for explicitly.
+DEFAULT_CLAIM = {"loss_mitigation_forms": "PR1,PY0"}
+
 LATEX_ACCENTS = {
     "á": r"\'a", "é": r"\'e", "í": r"\'i", "ó": r"\'o", "ú": r"\'u",
     "à": r"\`a", "è": r"\`e", "ù": r"\`u",
@@ -66,11 +89,15 @@ def tex(s):
 
 
 def load(dataset):
+    if dataset not in VOCAB:
+        sys.exit(f"no characteristic vocabulary registered for {dataset!r}; "
+                 f"known datasets: {', '.join(sorted(VOCAB))}")
+    char_file, type_file = VOCAB[dataset]
     base = ROOT / "datasets" / dataset
     chars = {r["code"]: r for r in csv.DictReader(
-        open(ROOT / "vocabularies" / "loss_mitigation_characteristic.csv", encoding="utf-8"))}
+        open(ROOT / "vocabularies" / char_file, encoding="utf-8"))}
     types = {r["code"]: r for r in csv.DictReader(
-        open(ROOT / "vocabularies" / "loss_mitigation_type.csv", encoding="utf-8"))}
+        open(ROOT / "vocabularies" / type_file, encoding="utf-8"))}
     rows = list(csv.DictReader(open(base / "data.csv", encoding="utf-8")))
     cells = {}
     for r in rows:
@@ -95,11 +122,15 @@ def state_map(char):
     return m, legend
 
 
-def select(chars, types, cells, component, mechanism):
+def select(chars, types, cells, component, mechanism, dataset=None):
     codes = sorted(c for c, r in chars.items() if r["component"] == component)
+    key = MECHANISM_KEY.get(dataset)
+    if mechanism is not None and key is None:
+        sys.exit(f"--mechanism is not available for dataset {dataset!r}: it has no "
+                 f"mechanism characteristic. Pass --mechanism all.")
     forms = sorted(f for f in cells
                    if mechanism is None
-                   or (cells[f].get("MC1") or {}).get("value") == mechanism)
+                   or (cells[f].get(key) or {}).get("value") == mechanism)
     return codes, forms
 
 
@@ -110,11 +141,14 @@ def cell_value(cells, form, code):
 
 # --------------------------------------------------------------- markdown ---
 
-def render_md(chars, types, cells, codes, forms, component, mechanism, claim):
+def render_md(chars, types, cells, codes, forms, component, mechanism, claim, dataset=None):
     maps = {c: state_map(chars[c]) for c in codes}
     L = []
     L.append(f"# Scoped view — component `{component}`\n")
-    L.append(f"Mechanism filter: `MC1 = {mechanism}`. "
+    key = MECHANISM_KEY.get(dataset)
+    filt = (f"Mechanism filter: `{key} = {mechanism}`. " if key
+            else "No mechanism filter (this dataset has no mechanism characteristic). ")
+    L.append(filt +
              f"**{len(forms)} forms × {len(codes)} characteristics.** "
              f"This is NOT the full characteristic set: comparative claims run on a "
              f"declared component set only (`CHARACTER-CODING.md`). At this *n* the "
@@ -176,9 +210,12 @@ def render_tex(chars, types, cells, codes, forms, component, mechanism, claim, d
     maps = {c: state_map(chars[c]) for c in codes}
     L = [PREAMBLE]
     L.append(r"\section*{Appendix: scoped morphological view}")
+    mech_key = MECHANISM_KEY.get(dataset)
+    mech_bit = (rf"\textbf{{Mechanism}} \texttt{{{mech_key} = {tex(mechanism)}}}"
+                if mech_key else r"\textbf{No mechanism filter}")
     L.append(rf"\textbf{{Dataset}} \texttt{{{tex(dataset)}}} \quad "
              rf"\textbf{{Component}} \texttt{{{tex(component)}}} \quad "
-             rf"\textbf{{Mechanism}} \texttt{{MC1 = {tex(mechanism)}}}")
+             + mech_bit)
     L.append(rf"\textbf{{{len(forms)} forms $\times$ {len(codes)} characteristics.}} "
              r"This view is restricted to one declared component set. Comparative claims "
              r"never run on the full characteristic set: with enough characteristics any two "
@@ -208,11 +245,13 @@ def render_tex(chars, types, cells, codes, forms, component, mechanism, claim, d
     # Table 2 — the claim, full values
     if claim:
         L.append(r"\begin{table}[htbp]\centering\small")
-        L.append(r"\caption{The comparative reading, printed with full values and no state "
-                 r"codes. \texttt{PR1} takes both values \emph{inside} \texttt{MC1=pooling} at a "
-                 r"fixed date, so ex-ante pricing is a separate axis rather than a stage of "
-                 r"mechanism; \texttt{PY0} separates the forms on whether a draw corresponds to "
-                 r"the recipient's own realised loss.}")
+        cap = (r"The comparative reading, printed with full values and no state codes.")
+        if claim == ["PR1", "PY0"]:
+            cap += (r" \texttt{PR1} takes both values \emph{inside} \texttt{MC1=pooling} at a "
+                    r"fixed date, so ex-ante pricing is a separate axis rather than a stage of "
+                    r"mechanism; \texttt{PY0} separates the forms on whether a draw corresponds "
+                    r"to the recipient's own realised loss.")
+        L.append(r"\caption{" + cap + "}")
         L.append(r"\begin{tabular}{l" + "l" * len(claim) + "}")
         L.append(r"\toprule")
         L.append("form & " + " & ".join(rf"\texttt{{{c}}} {tex(chars[c]['name'])}"
@@ -260,8 +299,9 @@ def main():
     ap.add_argument("--component", default="risk-pooling")
     ap.add_argument("--mechanism", default="pooling",
                     help="filter forms by MC1 value; 'all' to disable")
-    ap.add_argument("--claim", default="PR1,PY0",
-                    help="comma-separated characteristics for the claim table; '' to omit")
+    ap.add_argument("--claim", default=None,
+                    help="comma-separated characteristics for the claim table; "
+                         "'' to omit. Default is dataset-specific (see DEFAULT_CLAIM).")
     ap.add_argument("--format", choices=["md", "tex"], default="md")
     ap.add_argument("--out", default=None)
     ap.add_argument("--check", action="store_true",
@@ -269,15 +309,24 @@ def main():
     args = ap.parse_args()
 
     mechanism = None if args.mechanism == "all" else args.mechanism
-    claim = [c for c in args.claim.split(",") if c]
+    claim_spec = (DEFAULT_CLAIM.get(args.dataset, "")
+                  if args.claim is None else args.claim)
+    claim = [c for c in claim_spec.split(",") if c]
 
     chars, types, cells = load(args.dataset)
-    codes, forms = select(chars, types, cells, args.component, mechanism)
+    unknown = [c for c in claim if c not in chars]
+    if unknown:
+        sys.exit(f"--claim names characteristics absent from "
+                 f"{VOCAB[args.dataset][0]}: {', '.join(unknown)}")
+    codes, forms = select(chars, types, cells, args.component, mechanism, args.dataset)
     if not codes:
-        sys.exit(f"no characteristics with component '{args.component}'")
+        sys.exit(f"no characteristics with component '{args.component}' in "
+                 f"{VOCAB[args.dataset][0]} — check the component name against "
+                 f"that vocabulary, not the other dataset's")
 
     if args.format == "md":
-        text = render_md(chars, types, cells, codes, forms, args.component, mechanism, claim)
+        text = render_md(chars, types, cells, codes, forms, args.component, mechanism,
+                         claim, args.dataset)
         default = ROOT / "views" / f"{args.dataset}--{args.component}.md"
     else:
         text = render_tex(chars, types, cells, codes, forms, args.component, mechanism,
