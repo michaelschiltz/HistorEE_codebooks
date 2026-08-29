@@ -2,6 +2,19 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms — 2026-08-29 (iii)
+
+**`partenrederij` and `begijnhof` coded, 64 rows.** 24 → 26 rows over 24 institutions; 485 → 549 cells. Two new type rows. The first two forms coded in a blind working copy since the kō batch, and the coded siblings were genuinely not visible during coding. Sources: De ruysscher 2023 for the ship form; Moran 2018, Overlaet 2015 and Voigt 2012 for the beguinage.
+
+- **`LP3=1` fills a value that had no instance** anywhere in this dataset — the first form coded as having standing to sue as an entity. Court beguinages litigate as bodies against the guilds across a century and win. Zero-instance values 11 → 10.
+- **Three dependence mappings stop being functions, all on substantive values.** `LP2 → LP3` (begijnhof): holding property as an entity does not determine standing to sue as one. `CF2 → AP3` and `CF2 → LR1` (partenrederij): an agent insulated from his principal's capital is not thereby an agent whose own estate lies open. Both results are contingent on cells flagged for review — see logbook 4.
+- **The risk-pooling facet stops being a near-constant.** `LR4` stood at 14 `0` against 2 `1`; the batch adds one to each side, from unrelated sources on a single criterion — does the form mutualise a *member-specific* hazard, or divide one common exposure? `LR5` gains its second `diversifying`.
+- **`FP1=mutual-provision` is still empty, which is the batch's negative result.** Both forms were selected to fill it and neither did. The census still contains no form whose declared purpose is mutual provision, and the two candidates the brief identified are now spent.
+- **Coverage in this matrix is currently a property of the bibliography.** `partenrederij` is 7/8 on WP1 and 1/13 on WP2; `begijnhof` is the reverse. Neither profile reflects its institution — De ruysscher wrote on liability doctrine, Moran on administration. `entity-shielding` is 0/3 on both and remains the emptiest declared WP2 facet.
+- **Considered and rejected:** splitting `begijnhof` at 1585 (falsification condition recorded on the type row); a `mixed` value for `LR1`; a repair to `MG4`, which misfits on both forms; a separate type for English ship part-ownership, which is recommended but was not asked for. Logbook 4.
+- **No `version` bump.** `organizational_forms` stays at `0.8.0`. The additions are rows and vocabulary rows; CONTRIBUTING §5 ties the bump to data-package schema growth, of which there has been none — the same reasoning as 2026-08-29 (ii) and 2026-08-19. `codebook.md` is therefore unchanged and was not regenerated.
+- **All 64 rows are `coder=ai`, `reviewed_by=none`, `review_status=unreviewed`.** Four cells are flagged for adjudication before anything is built on them: `partenrederij LR4=0` and `CF1=P`, `begijnhof LR4=1` and `LP3=1`.
+
 ## organizational_forms — 2026-08-29 (ii)
 
 **`maona_chios` coded, 32 rows.** 23 → 24 rows over 22 institutions; 453 → 485 cells. New type row; `maona_corsica.cooccurs_with` amended. Sources: Taviani 2022 (Table 1.1, the constitutive texts of the Maona Vecchia and Nuova) and Balletto 1990 (Donato di Chiavari's Chios register, 1393–94), which is independent of Taviani.
