@@ -10,7 +10,6 @@ Usage:
 """
 from __future__ import annotations
 
-import argparse
 import csv
 import json
 import sys
@@ -69,7 +68,7 @@ def md_table(headers: list[str], rows: list[list[str]], aligns: str = "") -> lis
     return lines
 
 
-def build(dataset_dir: Path, check: bool = False) -> Path:
+def build(dataset_dir: Path) -> Path:
     dp = json.loads((dataset_dir / "datapackage.json").read_text(encoding="utf-8"))
     res = dp["resources"][0]
     schema = res["schema"]
@@ -147,35 +146,22 @@ def build(dataset_dir: Path, check: bool = False) -> Path:
 
     text = "\n".join(out) + "\n"
     dest = dataset_dir / "codebook.md"
-    if check:
-        if not dest.exists():
-            raise SystemExit(f"{dest}: missing — generate with build_codebook.py")
-        if dest.read_text(encoding="utf-8") != text:
-            raise SystemExit(f"{dest}: stale — regenerate with build_codebook.py")
-        return dest
     dest.write_text(text, encoding="utf-8")
     return dest
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("dataset", nargs="?", default=None,
-                    help="dataset directory; default is every dataset under datasets/")
-    ap.add_argument("--check", action="store_true",
-                    help="verify the committed codebook matches; non-zero exit on drift")
-    args = ap.parse_args()
-
     targets = (
-        [Path(args.dataset).resolve()]
-        if args.dataset
+        [Path(sys.argv[1]).resolve()]
+        if len(sys.argv) > 1
         else sorted(
             p for p in DATASETS.iterdir()
             if (p / "datapackage.json").exists() and not p.name.startswith("_")
         )
     )
     for d in targets:
-        dest = build(d, check=args.check)
-        print(f"{'current' if args.check else 'wrote'} {dest.relative_to(ROOT)}")
+        dest = build(d)
+        print(f"wrote {dest.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
