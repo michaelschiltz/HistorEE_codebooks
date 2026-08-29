@@ -1,6 +1,6 @@
 # Scoped view — component `risk-pooling`
 
-Mechanism filter: `MC1 = pooling`. **24 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+Mechanism filter: `MC1 = pooling`. **29 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -17,9 +17,14 @@ Mechanism filter: `MC1 = pooling`. **24 forms × 9 characteristics.** This is NO
 | `guild_box_dutch` | 0 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
 | `guild_relief_england` | .NR | .NR | -- | 0 | 2 | 0 | 1 | 3 | 4 |
 | `ko_daimanin_1828` | -- | -- | -- | -- | 2 | -- | -- | -- | .NR |
+| `ko_furuichi_sengan` | 0 | .NR | -- | 1 | 2 | 0 | 2 | 2 | .NR |
 | `ko_hokinosawa_1820` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
 | `ko_hokoin_1832` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
+| `ko_horyuji_50kan` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
+| `ko_kosaburo_1802` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
+| `ko_meio_1498` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
 | `ko_mitarai_gin_1805` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
+| `ko_mitarai_hanei_1840` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 2 |
 | `ko_mitarai_mujin_1773` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
 | `ko_mochiyori_yutsu_1876` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 2 |
 | `ko_shijunin_1829` | 0 | -- | -- | -- | 2 | -- | -- | -- | 0 |
@@ -60,9 +65,14 @@ Mechanism filter: `MC1 = pooling`. **24 forms × 9 characteristics.** This is NO
 | `guild_box_dutch` | 0 | individual-indemnity |
 | `guild_relief_england` | 0 | individual-indemnity |
 | `ko_daimanin_1828` | -- | -- |
+| `ko_furuichi_sengan` | 0 | individual-draw |
 | `ko_hokinosawa_1820` | 0 | individual-draw |
 | `ko_hokoin_1832` | 0 | individual-draw |
+| `ko_horyuji_50kan` | 0 | individual-draw |
+| `ko_kosaburo_1802` | 0 | individual-draw |
+| `ko_meio_1498` | 0 | individual-draw |
 | `ko_mitarai_gin_1805` | 0 | individual-draw |
+| `ko_mitarai_hanei_1840` | 0 | individual-draw |
 | `ko_mitarai_mujin_1773` | 0 | individual-draw |
 | `ko_mochiyori_yutsu_1876` | 0 | individual-draw |
 | `ko_shijunin_1829` | -- | -- |
@@ -87,9 +97,14 @@ Mechanism filter: `MC1 = pooling`. **24 forms × 9 characteristics.** This is NO
 - `guild_box_dutch` — Gildebus — guild sickness, burial, old-age and widows fund · Dutch Republic · 1550-1800
 - `guild_relief_england` — English religious gild relief · English · c.1350-1400
 - `ko_daimanin_1828` — 大満院講 (広域講) · Japanese / Kawachi · 1828-1833+
+- `ko_furuichi_sengan` — 千貫頼母子 (奈良, 親 土豪古市氏) · Japanese / Yamato · late 15c
 - `ko_hokinosawa_1820` — 久左衛門始頼母子 (朴木沢新田, 中里村) · Japanese / Echigo · 1820-1838
 - `ko_hokoin_1832` — 宝光院加入頼母子講 (the kō joined by Hōkō-in) · Japanese / Dewa-Yamagata · 1832-
+- `ko_horyuji_50kan` — 法隆寺五十貫頼母子 · Japanese / Yamato · Muromachi (undated)
+- `ko_kosaburo_1802` — 小三郎一分講 (頸城郡田中村) · Japanese / Echigo · 1802-
+- `ko_meio_1498` — 明応七年 頼母子講掟書 (旧高野領内) · Japanese / Kii · 1498
 - `ko_mitarai_gin_1805` — 「銀頼母子」(御手洗町) · Japanese / Aki · 1805-
+- `ko_mitarai_hanei_1840` — 「繁栄持寄講」(御手洗町) · Japanese / Aki · 1840-
 - `ko_mitarai_mujin_1773` — 「無尽」(御手洗町, 竹原屋平三郎 宅で鬮取り) · Japanese / Aki · 1773-1785
 - `ko_mochiyori_yutsu_1876` — 持寄融通社 (Mochiyori Yūtsū-sha) · Japanese / Kawachi-Settsu · 1876-1884
 - `ko_shijunin_1829` — 四拾人講 (広域講) · Japanese / Kawachi · 1829-1843

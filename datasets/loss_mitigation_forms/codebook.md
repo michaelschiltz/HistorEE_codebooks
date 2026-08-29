@@ -6,7 +6,7 @@
 - **Version**: 0.6.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 563  
+- **Rows**: 740  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,19 +35,19 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field           | Type   | Required | Coded values                                                                              | Present |
 |---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                                           | 563/563 |
-|  2 | `type_id`       | string |          |                                                                                           | 563/563 |
-|  3 | `char_id`       | string |          |                                                                                           | 563/563 |
-|  4 | `value`         | string |          |                                                                                           | 390/563 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                   | 390/563 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                          | 153/563 |
-|  7 | `source_ref`    | string |          |                                                                                           | 504/563 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh`, `pl`, `pt` | 474/563 |
-|  9 | `coder`         | string |    ✓     |                                                                                           | 563/563 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                      | 504/563 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                                           | 563/563 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                              | 563/563 |
-| 13 | `notes`         | string |          |                                                                                           | 563/563 |
+|  1 | `record_id`     | string |    ✓     |                                                                                           | 740/740 |
+|  2 | `type_id`       | string |          |                                                                                           | 740/740 |
+|  3 | `char_id`       | string |          |                                                                                           | 740/740 |
+|  4 | `value`         | string |          |                                                                                           | 470/740 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                   | 470/740 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                          | 160/740 |
+|  7 | `source_ref`    | string |          |                                                                                           | 668/740 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh`, `pl`, `pt` | 638/740 |
+|  9 | `coder`         | string |    ✓     |                                                                                           | 740/740 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                      | 668/740 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                                           | 740/740 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                              | 740/740 |
+| 13 | `notes`         | string |          |                                                                                           | 740/740 |
 
 ## Variable definitions
 
@@ -61,14 +61,14 @@ Stable unique identifier for the coding. Never reused.
 
 ### `type_id` — Pooling form (coded)
 
-Coded pooling arrangement. Controlled vocabulary: vocabularies/loss_mitigation_type.csv. Not enum-constrained here because the census is still growing (CONTRIBUTING §5).
+Coded pooling arrangement. Controlled vocabulary: vocabularies/cooperative_pooling_type.csv. Not enum-constrained here because the census is still growing (CONTRIBUTING §5).
 
 - **type** string
 
 
 ### `char_id` — Characteristic (coded)
 
-Coded structural characteristic. Controlled vocabulary: vocabularies/loss_mitigation_characteristic.csv, which also gives each characteristic's value type, allowed values, and WP1 component.
+Coded structural characteristic. Controlled vocabulary: vocabularies/cooperative_pooling_characteristic.csv, which also gives each characteristic's value type, allowed values, and WP1 component.
 
 - **type** string
 

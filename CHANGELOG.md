@@ -2,7 +2,7 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
-## organizational_forms 0.9.0 — 2026-08-29
+## organizational_forms — 2026-08-29
 
 **Five forms coded, 160 rows, 18 → 23 rows over 21 institutions.**
 
@@ -17,6 +17,10 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - **Repairing `MG3`**, which cannot record an open membership with a property- and sex-qualified franchise (San Giorgio), and **`MG2`**, which cannot record who constitutes a collegial body — San Giorgio's investors elected their protettori, the VOC's directors were appointed by the provincial estates, and both read `collective`. Flagged in the cells; a repair belongs in a later commit, not the batch that motivated it.
 - **`maona` as one row.** Corsica and Chios separate on `CI3`; `maona_chios` is separately codeable and was not coded.
 - **`LP3=1` and `LR1=limited` for San Giorgio**, both predicted by the acquisition brief and both refused by the sources. Left `.NR`.
+
+### Not done here
+- **No `version` bump.** `organizational_forms` stays at `0.8.0`. An earlier draft of this entry bumped it to 0.9.0; that was wrong and is reverted. The additions are rows and vocabulary rows, and CONTRIBUTING §5 ties the bump to data-package schema growth, of which there has been none — the reasoning recorded under 2026-08-19, "No `version` bump, and the reason is not oversight."
+- **`datasets/loss_mitigation_forms/codebook.md` regenerated separately** (563 → 740 rows), catching up the kō merge which added the rows without the regeneration step. No coding in that dataset was touched.
 
 
 ## [Unreleased] — 2026-08-20
