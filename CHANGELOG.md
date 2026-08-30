@@ -2,6 +2,18 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms, loss_mitigation_forms — 2026-08-30 (iii)
+
+**Citation corrections in fourteen cells. No coded value changes.** Twelve cells carried a wrong page; two carried a quotation under the wrong author's name. Both errors surfaced while measuring page offsets for the entity-questions batch of the same date.
+
+- **`Ramli 2018, 105` → `101`** (`OF-0069`, `OF-0070`, `LM-0541`, `LM-0545`). *TAFHIM* 11 runs printed 79–111 in a 33-page PDF, so printed = PDF + 78; the *amāna*/*wakīl*/*ḍāmin* passage is at printed 101 and printed 105 is the Conclusion. The quoted text was verbatim correct throughout.
+- **`Harris 2007, 9` → `10`** (`OF-0079`, `OF-0080`, `OF-0284`, `OF-0285`, `LM-0529`, `LM-0530`, `LM-0531`, `LM-0540`). Harris is an unpaginated conference draft, so citations can only be to PDF pages; the "sole liability toward third parties" and "equity, not of debt" sentences are on PDF 10, while the Hansmann–Kraakman–Squire passage cited as 11 was already right. **The eleven `9-13` and `9-11` ranges are correct and were deliberately left alone** — only point cites were wrong.
+- **Two quotations returned to their author** (`OF-0292 CF3`, `OF-0288 LR4`). "A single traveling party could pool together goods from numerous investing parties" is Harris PDF 12, not van Doosselaere 66. The `LR4` diversification note credited "van Doosselaere 2009, 66 and Pryor 1984, 437" and neither carries it: Pryor 437 is about women as commendators at Marseilles, the cases are at 436, and he frames them as collaboration rather than risk-spreading. **The word "Genoese" was withdrawn with them** — the evidence is Marseillese.
+- **A consumer-facing consequence worth stating.** The `LR4` note had presented two sources as independent corroboration of a claim neither made in that form. Corroboration asserted in a note is itself a claim and is now treated as one.
+- **Both withdrawn strings are retained inside the correction clauses**, quoted and repudiated, so a search for the error finds the fix.
+- **No `version` bump.** Notes and `source_ref` only; CONTRIBUTING §5 ties the bump to schema growth. `codebook.md` unchanged and `--check` clean.
+
+
 ## organizational_forms — 2026-08-30 (ii)
 
 **`AP4`'s locator fixed; four cells recoded, no rows added.** 579 cells unchanged in number. The characteristic was answering two different questions in the same column — eight forms treating "no founder" as inapplicable, three others answering a generalised question on a stretched locator, two of those three with notes saying so. It sits in the WP2 `entity-shielding` set, so the defect was reaching comparative claims.
