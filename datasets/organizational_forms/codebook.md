@@ -6,7 +6,7 @@
 - **Version**: 0.8.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 579  
+- **Rows**: 643  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,19 +35,19 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field           | Type   | Required | Coded values                                                                  | Present |
 |---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                               | 579/579 |
-|  2 | `type_id`       | string |          |                                                                               | 579/579 |
-|  3 | `char_id`       | string |          |                                                                               | 579/579 |
-|  4 | `value`         | string |          |                                                                               | 435/579 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 435/579 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              | 128/579 |
-|  7 | `source_ref`    | string |          |                                                                               | 528/579 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 479/579 |
-|  9 | `coder`         | string |    ✓     |                                                                               | 579/579 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 547/579 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 579/579 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 579/579 |
-| 13 | `notes`         | string |          |                                                                               | 579/579 |
+|  1 | `record_id`     | string |    ✓     |                                                                               | 643/643 |
+|  2 | `type_id`       | string |          |                                                                               | 643/643 |
+|  3 | `char_id`       | string |          |                                                                               | 643/643 |
+|  4 | `value`         | string |          |                                                                               | 466/643 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 466/643 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              | 159/643 |
+|  7 | `source_ref`    | string |          |                                                                               | 587/643 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 538/643 |
+|  9 | `coder`         | string |    ✓     |                                                                               | 643/643 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 606/643 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 643/643 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 643/643 |
+| 13 | `notes`         | string |          |                                                                               | 643/643 |
 
 ## Variable definitions
 
