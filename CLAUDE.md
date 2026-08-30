@@ -81,11 +81,14 @@ Mirrors the vault's rules; the same words appear in `notes` fields.
 ```sh
 python -m frictionless validate datasets/<dataset>/datapackage.json
 python scripts/check_dependence.py [datasets/<dataset>]
+python scripts/check_vocabularies.py
+python scripts/build_codebook.py --check
+python scripts/build_views.py --component <component> --check
 ```
 
 `frictionless` sees types, enums and keys. It cannot see the vocabulary's `allowed_values`, the dependence columns, or `.NA` propagation — `check_dependence.py` covers the second and third, and a `value`-against-`allowed_values` sweep should be run by hand when adding rows.
 
-Regenerate `codebook.md` via `scripts/build_codebook.py` after any schema change; never hand-edit it. Bump the datapackage `version` and record the decision in `CHANGELOG.md`, including what was *considered and rejected*.
+Regenerate `codebook.md` via `scripts/build_codebook.py` after any schema change; never hand-edit it. **It also goes stale on data change**, because it publishes row counts and per-field fill counts — it stood at 485 rows against an actual 579 on 2026-08-30. `--check` catches that without writing. The same is true of `views/`, which nothing in CI checks at all. Bump the datapackage `version` and record the decision in `CHANGELOG.md`, including what was *considered and rejected*.
 
 ## Safety
 

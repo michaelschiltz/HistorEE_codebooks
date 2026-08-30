@@ -113,3 +113,12 @@ Schema growth is **additive**. Add a field; do not repurpose an existing one. Bu
 That is the rule for *how* to grow the schema. For **whether** a new characteristic is warranted at all, see `CHARACTER-CODING.md`. The short form: discriminating power is free — given enough characteristics any two forms separate — so "it lets us tell X from Y" is not a justification. A characteristic earns its place by repairing a conflation (one characteristic silently asking two questions), not by adding resolution. Characteristics are paid for in forms, and this dataset is overdrawn: **add forms, not features.**
 
 Run `python scripts/check_vocabularies.py` and `python scripts/check_dependence.py` alongside `frictionless validate` before opening a PR. It checks the `applicability_on` / `dependence_group` / `dependence_scope` columns against the codings, which the Table Schema cannot see.
+
+Two generated artefacts also go stale silently, and both have a `--check` mode that verifies the committed file matches the generator without writing anything:
+
+```sh
+python scripts/build_codebook.py --check          # every dataset's codebook.md
+python scripts/build_views.py --component <c> --check   # a committed view
+```
+
+CI runs the codebook check on every push. **It does not check views**, which is why `views/loss_mitigation_forms--risk-pooling.tex` sat seventeen forms behind its own `.md` sibling from 9 to 30 August 2026 while every other check passed. Run the view check by hand after any batch that adds forms, or the view will describe a matrix that no longer exists.

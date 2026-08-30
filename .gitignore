@@ -24,3 +24,13 @@ proposed*/
 # Transfer archives used to move a session's output onto this machine. Deleted
 # once unpacked; ignored so a leftover never gets committed.
 _transfer*.tar
+
+# LaTeX build artefacts. build_views.py --format tex emits a .tex; compiling it
+# leaves these beside it. They are regenerated on every compile and carry no
+# information the .tex does not. A .synctex.gz was committed once, on 2026-08-19.
+*.synctex.gz
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
