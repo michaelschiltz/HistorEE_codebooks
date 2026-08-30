@@ -2,6 +2,18 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms — 2026-08-30 (ii)
+
+**`AP4`'s locator fixed; four cells recoded, no rows added.** 579 cells unchanged in number. The characteristic was answering two different questions in the same column — eight forms treating "no founder" as inapplicable, three others answering a generalised question on a stretched locator, two of those three with notes saying so. It sits in the WP2 `entity-shielding` set, so the defect was reaching comparative claims.
+
+- **Generalising the locator was rejected on discriminant validity.** So generalised, `AP4` takes no value `AP1` and `CI2` do not already predict for entity forms — the three `voc` phases would read `1` and teach nothing. Founder-locked it asks what nothing else asks: whether a corpus was constituted by *endowment* rather than arrived at by partitioning.
+- **`begijnhof AP4` `.NR` → `1`, and it is the batch's real finding.** Moran 2018, 78: the *konventen* were "founded by wealthy persons who typically donated a house and a portfolio of investments", the residents praying "for the donors' souls", each convent financially self-sufficient with its own accounts. A corpus alienated by donation against perpetual prayer — the *waqf*'s structure, in a Latin Christian form already in the census, which a generalised `AP4` would have hidden. No descent or convergence claim is made.
+- **`isqa` `0` → `.NA`, `asiento_averia` `1` → `.NA`, `nakai_fictive_household` `P` → `.NA`.** Each withdrawn value was already carried by another characteristic and two were being counted twice; the replacement notes say where each now lives.
+- **The column loses its variance, and consumers must know it.** `AP4` is now `1` twice and `.NA` fourteen times: two coded forms, one value, **no discriminating power**. It must not enter a similarity or difference claim on `entity-shielding` until a founder-endowed form takes a value other than `1`. The prohibition is written into the vocabulary definition.
+- **No `version` bump.** Values and one vocabulary definition; CONTRIBUTING §5 ties the bump to schema growth, of which there has been none. `codebook.md` unchanged.
+- **All four cells remain `coder=ai`, `reviewed_by=none`, `review_status=unreviewed`.** `begijnhof AP4=1` is `low` and carries a live scope caveat: the *konventen* are sub-institutions of the coded form, and reading the cell off them follows the row's own practice at `LP2` and `CI1` but has not been ratified.
+
+
 ## organizational_forms — 2026-08-30
 
 **The entity questions asked of `commenda`, `societas_maris` and `qirad`, 30 rows.** 26 rows over 24 institutions, unchanged — no new form. 549 → 579 cells. Three type rows amended. `LP1`–`LP3`, `AP1`, `AP2`, `AP4`, `CI1`–`CI4` were unasked on all three; they are now asked, and **twenty of the thirty answers are `.NR`**. Sources: Harris 2007 and van Doosselaere 2009, 64–68 for the two Latin forms; Ramli 2018 for the *qirāḍ*, with Udovitch 1970 still not held.
