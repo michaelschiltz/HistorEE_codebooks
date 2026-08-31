@@ -22,7 +22,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **28 forms Ã
 | `maona_chios` | .NR | .NR | .NA |
 | `maona_corsica` | .NR | .NR | .NA |
 | `nacion_cofradia` | -- | -- | -- |
-| `nakai_fictive_household` | 1 | .NR | .NA |
+| `nakai_fictive_household` | .NR | .NR | .NA |
 | `natie` | -- | -- | -- |
 | `ortoq_equity` | -- | -- | -- |
 | `ortoq_loan` | -- | -- | -- |
