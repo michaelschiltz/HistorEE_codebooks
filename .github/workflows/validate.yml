@@ -20,7 +20,17 @@ jobs:
           python-version: "3.12"
 
       - name: Install tooling
-        run: pip install frictionless pyyaml
+        run: pip install frictionless pyyaml markdown-it-py
+
+      - name: Check Markdown soft-wrap house style
+        # Every paragraph, list item and blockquote in the prose files is one
+        # physical line — the editor wraps for display, nothing is hard-wrapped
+        # at a column. Documented for the logbook on 2026-08-31 and enforced
+        # repo-wide the same day, after four logbook files were found still
+        # hard-wrapped and had to be reflowed by hand. The generated codebook.md
+        # and views/*.md and the verbatim LICENSE-DATA.md are exempt (see the
+        # EXCLUDE list in the script).
+        run: python scripts/check_softwrap.py
 
       - name: Validate controlled vocabularies
         # The vocabularies are not frictionless resources, so the step below

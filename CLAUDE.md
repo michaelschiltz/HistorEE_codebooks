@@ -76,9 +76,11 @@ Mirrors the vault's rules; the same words appear in `notes` fields.
 - **`hazard` and `risk` are not interchangeable, and the secondary literature treats them as if they were.** A **hazard** is a peril conceived as an event that may befall: no distribution over outcomes, not priceable, met by avoidance, sharing or propitiation. A **risk** is a peril conceived as a quantified distribution: priceable, and therefore transferable to a party with no stake in the venture. The movement from the first conception to the second is the semantic shift the project describes, and calling the earlier thing a "risk" makes that shift invisible by naming its endpoint as though it had always obtained. Harris (2023) writes of "maritime risks" and "risk mitigation" for institutions his own Knightian framework places under *uncertainty* — general average above all. **Do not inherit that usage.** Where a characteristic must be neutral as between the two conceptions, name it for the peril: `PR1` is "peril priced ex ante", not "risk priced ex ante".
 - **Units are instruments, not populations.** Institutions are transmitted as texts and drafting practices. Never describe a legal tradition as a population with a heritable disposition, and object when a source does.
 
-## Logbook prose style
+## Markdown prose style
 
-The `logbook/*.md` files are **soft-wrapped**: one physical line per paragraph, list item and blockquote, with blank lines between blocks. Do not hard-wrap prose at a column width — let the editor wrap. Hard-wrapped entries have had to be re-flowed by hand after the fact. Headings, tables, `---` rules and fenced code are exempt. This is a house-style rule, not a data rule, but it applies to every entry an assistant writes.
+Every Markdown file in the repo is **soft-wrapped**: one physical line per paragraph, list item and blockquote, with blank lines between blocks. Do not hard-wrap prose at a column width — let the editor wrap. Hard-wrapped entries have had to be re-flowed by hand after the fact. Headings, tables, `---` rules, and fenced or indented code are exempt. This is a house-style rule, not a data rule, but it applies to every file an assistant writes.
+
+`scripts/check_softwrap.py` enforces it and CI runs it. It excludes the files nobody hand-wraps: the verbatim `LICENSE-DATA.md`, and the generated `datasets/*/codebook.md` and `views/*.md` (whose wrapping lives in the build scripts). `python scripts/check_softwrap.py --fix` unwraps offending paragraphs in place, rendering-preserving — but where a missing blank line has turned a paragraph into a list item's lazy continuation, it folds that prose into the bullet rather than guessing the split; check its diff.
 
 ## Checks before any PR
 
@@ -86,6 +88,7 @@ The `logbook/*.md` files are **soft-wrapped**: one physical line per paragraph, 
 python -m frictionless validate datasets/<dataset>/datapackage.json
 python scripts/check_dependence.py [datasets/<dataset>]
 python scripts/check_vocabularies.py
+python scripts/check_softwrap.py
 python scripts/build_codebook.py --check
 python scripts/build_views.py --component <component> --check
 ```
