@@ -2,6 +2,22 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms — 2026-08-31 (iii)
+
+**`nakai_fictive_household AP1` `1` → `.NR`. One cell; no rows added or removed.** 643 cells unchanged in number. The cell was flagged by the sub-pool audit of the same date as possibly answering a different question from the one `AP1` asks, and deferred; it was settled against the source rather than deferred again.
+
+- **The cell recorded entity-versus-entity partition, not creditor priority.** Its evidence was that "Nakai Shinsaburō in Sendai, as a separate household from Nakai Genzaemon in Hino, did not bear responsibility for the latter's debts" — one entity against another. `AP1` asks whether the entity's creditors ranked ahead of the **members' personal** creditors in the entity's assets.
+- **The source states that it cannot answer that question.** D'Amico, manuscript 17: "How liability worked in the case of bankruptcy for fictive household entities remains a mystery" — the samurai authorities treated partnership accounts as non-adjudicable, so few legal sources survive, and "the Nakai invariably appear as creditors rather than debtors."
+- **The same sentence already grounds `.NR` at `LP3` on this row.** It cannot support `.NR` there and a confident `1` here. The inconsistency is the clearest reason for the recode.
+- **The only dissolution evidence bears the other way and is withdrawn by its author.** At Karasu in 1839 a partner "sold off his house and belongings to repay debts incurred on behalf of the store, entrusting his assets to creditors" — a member's personal estate meeting entity creditors. D'Amico 18: the case "does not offer direct insight into how the division of debt might have worked for the Nakai's stores."
+- **The jurisdictional-dispersal fact survives in the cell note and has no column.** It is a fact about a group of arrangements rather than about priority inside one, and it is not recorded in `confidence`.
+- **Consequence for the `entity-shielding` component, which consumers should have.** `AP1` reads `1` five times — `compagnia`, the three `voc` phases and `waqf_khayri`, all chartered or contractual forms with a documented priority rule. **`entity-shielding` falls to 25% filled, 21 substantive cells of 84, and is by some distance the thinnest component in the census** while carrying most of the WP2 argument.
+- **Not a sub-pool recode.** The audit of 2026-08-31 (ii) determined this form is not a sub-pool form — each Nakai store is a whole arrangement, not a partition of one — and that result is unchanged. This rests on the ordinary reading of `AP1`.
+- **Citation caution.** D'Amico 2026 is held as an accepted manuscript numbered 1–31 with no journal pagination; the page references are manuscript pages, as with Harris 2007 and Morche 2020.
+- **No `version` bump.** `organizational_forms` stays at `0.8.0`. One value and one note. **`codebook.md` regenerated**: row count unchanged at 643, `value` fill 465 → 464.
+- **Checks.** `frictionless validate` VALID; `check_dependence.py` 0 problems.
+
+
 ## organizational_forms — 2026-08-31 (ii)
  
 **The sub-pool recode audit is run; two cells recoded, no rows added or removed.** 643 cells unchanged in number. The audit was specified at logbook 1, 2026-08-31 when the `entity` locator was fixed to the whole arrangement, and left to whoever applied that entry: every cell on the eight `entity`-locator columns, for any form with sub-pools that keep separate accounts, had been answered against a term defined nowhere. 32 substantive cells across six forms were examined.
