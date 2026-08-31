@@ -4,6 +4,8 @@ The narrative decision log, carried over from the `even-keel` method and kept as
 
 Each file below is a running log. New entries go at the top, dated `YYYY-MM-DD`, initialled by the contributor.
 
+Prose is **soft-wrapped**: one physical line per paragraph, list item and blockquote, blank line between blocks. Do not hard-wrap at a column width — let the editor wrap. Headings, tables, `---` rules and fenced code are exempt.
+
 1. `1. database architecture.md`
 2. `2. data inclusion and exclusion.md`
 3. `3. software packages and algorithms employed.md`
