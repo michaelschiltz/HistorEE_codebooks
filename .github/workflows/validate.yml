@@ -60,3 +60,25 @@ jobs:
             echo "::error::codebook.md is out of date. Run scripts/build_codebook.py and commit."
             exit 1
           fi
+
+      - name: Check committed views are up to date
+        # views/ is generated from the same data as codebook.md and goes stale the
+        # same way, but nothing checked it until 2026-08-31: the risk-pooling .tex
+        # sat seventeen forms behind its own .md sibling from 9 to 30 August 2026
+        # while every other check passed. Dated snapshots (...-YYYY-MM-DD.ext) are
+        # deliberate frozen artefacts and are skipped.
+        run: |
+          for f in views/*; do
+            b=$(basename "$f"); ext="${b##*.}"; stem="${b%.*}"
+            case "$ext" in md|tex) ;; *) continue ;; esac
+            case "$stem" in *-20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]) continue ;; esac
+            ds="${stem%%--*}"; comp="${stem#*--}"
+            extra=""
+            [[ "$ds" == organizational_forms ]] && extra="--mechanism all"
+            echo "Rebuilding $ds / $comp / $ext"
+            python scripts/build_views.py --dataset "$ds" --component "$comp" --format "$ext" $extra
+          done
+          if ! git diff --exit-code -- 'views/*'; then
+            echo "::error::a committed view is out of date. Run scripts/build_views.py and commit."
+            exit 1
+          fi
