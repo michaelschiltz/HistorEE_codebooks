@@ -19,10 +19,17 @@ HistorEE_codebooks/
 ├── datasets/LICENSE-DATA.md   pointer reaffirming the CC-BY-4.0 default and override policy
 ├── vocabularies/              controlled vocabularies (one CSV per coded field)
 ├── logbook/                   narrative decision log (the even-keel convention)
+├── views/                     reader-facing scoped matrices — GENERATED, one per declared component
 ├── scripts/build_codebook.py  regenerates every codebook.md from its datapackage.json
-├── .github/workflows/validate.yml  CI: validates data against schema, checks codebooks aren't stale
+├── scripts/build_views.py     regenerates every matrix in views/
+├── scripts/check_vocabularies.py   allowed_values, cross-references, ragged rows, enum agreement
+├── scripts/check_dependence.py     applicability_on and dependence_group — constraints a Table Schema cannot express
+├── scripts/make_blind_bundle.py    builds a working copy with withheld material physically absent
+├── .github/workflows/validate.yml  CI: vocabularies, dependence columns, schema, codebooks, views
 ├── .github/CODEOWNERS         enforces review on schema/data/vocabulary changes to protected main
 ├── CONTRIBUTING.md            the coding manual — read before touching data
+├── CHARACTER-CODING.md        when a new characteristic is warranted, and when it is a mistake
+├── CLAUDE.md                  rules governing assistant sessions in this repository
 ├── EDITING-CSV.md             how to hand-edit data.csv in VS Code without breaking it
 ├── CITATION.cff               makes the repo citable ("Cite this repository")
 ├── CHANGELOG.md               human-readable record of dataset-level changes
@@ -47,7 +54,8 @@ HistorEE_codebooks/
 This repository uses a **dual licence**, because code and data are different things and conflating them causes exactly the mess visible in the Seshat databank (where the GitHub copy carried CC0 while the project page asserted CC-BY-NC-SA). Do not repeat that.
 
 - **Code** (`scripts/`, workflows) — MIT. See [`LICENSE`](LICENSE).
-- **Data and codebooks** (`datasets/`, `vocabularies/`, `logbook/`) — **Creative Commons Attribution 4.0 (CC-BY-4.0)**. See [`LICENSE-DATA.md`](LICENSE-DATA.md).
+- **Data, codebooks and generated views** (`datasets/`, `vocabularies/`, `logbook/`, `views/`) — **Creative Commons Attribution 4.0 (CC-BY-4.0)**. See [`LICENSE-DATA.md`](LICENSE-DATA.md). `views/` is generated from `datasets/` and carries the same licence as its source.
+- **Documentation at the repository root** (`README.md`, `CONTRIBUTING.md`, `CHARACTER-CODING.md`, `CLAUDE.md`, `EDITING-CSV.md`, `CHANGELOG.md`) — **CC-BY-4.0**, with the data. It is prose about method, not software, and the MIT clause above is deliberately confined to `scripts/` and the workflows.
 
 If a source archive imposes non-commercial or redistribution restrictions on transcribed material, that dataset's folder carries its own `LICENSE` overriding this default, and the restriction is noted in its codebook. Resolve licence questions **before** publishing a dataset, never after.
 

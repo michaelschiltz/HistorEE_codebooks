@@ -48,6 +48,16 @@ Checks (all fatal):
        set. Duplication is kept only where it lets an outside consumer running
        plain `frictionless validate` get the same enforcement we do; this check
        is what stops the two copies drifting.
+    9. A code appearing in more than one TYPE vocabulary describes the same
+       institution in both, so `name`, `tradition` and `period` must match.
+       `societas_maris` is the only such code and its two rows drifted: the
+       organizational row carried the researched window while
+       `loss_mitigation_type.csv` still read `10-13c`, flagged for
+       reconciliation on 2026-08-18 and not closed until 2026-08-31. Every
+       other cross-dataset institution uses an `_alloc` code whose stem lives
+       in the other file, so its rows cannot disagree; a shared code can, and
+       nothing was watching. Period is a property of the institution, not of
+       a coding pass.
 
 Standard library only, deterministic, no wall-clock dependency — matching
 build_codebook.py so CI needs no new runtime.
@@ -331,6 +341,42 @@ def check_enum_agreement(codes: dict[str, set[str]]) -> None:
                 f"datapackage enum: {sorted(only_vocab)}")
 
 
+def check_type_row_agreement(rows: dict[str, dict]) -> None:
+    """A code in two type vocabularies is one institution, so its descriptive
+    fields must agree.
+
+    Only the fields that describe the INSTITUTION are compared. `key_source`,
+    `cooccurs_with` and the boundary columns are deliberately excluded: those
+    describe a coding pass and legitimately differ between the two censuses,
+    which measure different aspects of the same form.
+    """
+    SHARED_FIELDS = ("name", "tradition", "period")
+    type_vocabs = [tv for tv, _ in REGISTERED.values()]
+
+    seen: dict[str, list[str]] = {}
+    for vocab in type_vocabs:
+        for code in rows.get(vocab, {}):
+            seen.setdefault(code, []).append(vocab)
+
+    for code, homes in sorted(seen.items()):
+        if len(homes) < 2:
+            continue
+        for field in SHARED_FIELDS:
+            values: dict[str, list[str]] = {}
+            for vocab in homes:
+                row = rows[vocab][code]
+                if field not in row:
+                    continue
+                values.setdefault((row.get(field) or "").strip(), []).append(vocab)
+            if len(values) > 1:
+                shown = "; ".join(
+                    f"{', '.join(v)}={k!r}" for k, v in sorted(values.items())
+                )
+                err(f"{code}: {field} differs across type vocabularies — {shown}. "
+                    "A code shared by two type vocabularies names one institution; "
+                    "its descriptive fields must match.")
+
+
 def main() -> int:
     files = sorted(VOCAB_DIR.glob("*.csv"))
     if not files:
@@ -349,6 +395,7 @@ def main() -> int:
     check_cooccurrence(codes, rows)
     check_boundary(rows)
     check_enum_agreement(codes)
+    check_type_row_agreement(rows)
 
     if errors:
         print(f"\n✗ {len(errors)} vocabulary error(s):")
@@ -360,7 +407,7 @@ def main() -> int:
     print(
         f"✓ vocabularies valid — {len(files)} files, {total} codes; "
         "no ragged rows, all references resolve, "
-        "all values within allowed_values, enums agree"
+        "all values within allowed_values, enums agree, shared type rows agree"
     )
     return 0
 

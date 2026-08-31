@@ -20,7 +20,17 @@ jobs:
           python-version: "3.12"
 
       - name: Install tooling
-        run: pip install frictionless pyyaml
+        run: pip install frictionless pyyaml markdown-it-py
+
+      - name: Check Markdown soft-wrap house style
+        # Every paragraph, list item and blockquote in the prose files is one
+        # physical line — the editor wraps for display, nothing is hard-wrapped
+        # at a column. Documented for the logbook on 2026-08-31 and enforced
+        # repo-wide the same day, after four logbook files were found still
+        # hard-wrapped and had to be reflowed by hand. The generated codebook.md
+        # and views/*.md and the verbatim LICENSE-DATA.md are exempt (see the
+        # EXCLUDE list in the script).
+        run: python scripts/check_softwrap.py
 
       - name: Validate controlled vocabularies
         # The vocabularies are not frictionless resources, so the step below
@@ -58,5 +68,27 @@ jobs:
           python scripts/build_codebook.py
           if ! git diff --exit-code -- 'datasets/*/codebook.md'; then
             echo "::error::codebook.md is out of date. Run scripts/build_codebook.py and commit."
+            exit 1
+          fi
+
+      - name: Check committed views are up to date
+        # views/ is generated from the same data as codebook.md and goes stale the
+        # same way, but nothing checked it until 2026-08-31: the risk-pooling .tex
+        # sat seventeen forms behind its own .md sibling from 9 to 30 August 2026
+        # while every other check passed. Dated snapshots (...-YYYY-MM-DD.ext) are
+        # deliberate frozen artefacts and are skipped.
+        run: |
+          for f in views/*; do
+            b=$(basename "$f"); ext="${b##*.}"; stem="${b%.*}"
+            case "$ext" in md|tex) ;; *) continue ;; esac
+            case "$stem" in *-20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]) continue ;; esac
+            ds="${stem%%--*}"; comp="${stem#*--}"
+            extra=""
+            [[ "$ds" == organizational_forms ]] && extra="--mechanism all"
+            echo "Rebuilding $ds / $comp / $ext"
+            python scripts/build_views.py --dataset "$ds" --component "$comp" --format "$ext" $extra
+          done
+          if ! git diff --exit-code -- 'views/*'; then
+            echo "::error::a committed view is out of date. Run scripts/build_views.py and commit."
             exit 1
           fi
