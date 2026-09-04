@@ -1,14 +1,16 @@
 # Scoped view — component `outcome-coupling`
 
-No mechanism filter (this dataset has no mechanism characteristic). **28 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+No mechanism filter (this dataset has no mechanism characteristic). **30 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
 | form | `LR2` | `LR6` |
 |---|---|---|
 | `asiento_averia` | 0 | 0 |
+| `avariz_vakfi` | 2 | .NA |
 | `bazacle_mill` | 0 | 0 |
 | `begijnhof` | .NR | .NR |
+| `bruderschaft_salzburg` | .NR | .NR |
 | `casa_san_giorgio` | 0 | .NR |
 | `commenda` | 0 | 1 |
 | `compagnia` | 0 | 0 |
@@ -45,8 +47,10 @@ No mechanism filter (this dataset has no mechanism characteristic). **28 forms �
 ## Forms
 
 - `asiento_averia` — Asiento de avería company · Spanish · 17c
+- `avariz_vakfi` — Avarız akçesi vakfı (mahalle/köy extraordinary-levy endowment) · Ottoman · 17c-19c; coded 1618-1867
 - `bazacle_mill` — Bazacle milling company (pariage) · Occitan / Toulouse · 12c-1946
 - `begijnhof` — Begijnhof / court beguinage (curtis beguinarum) · Low Countries (Southern Netherlands; also Lille, Valenciennes, Breda, Amsterdam) · 13c-19c; entity-level cells evidenced post-1585
+- `bruderschaft_salzburg` — Bruderschaft / Liebesbund (post-Tridentine Salzburg 'Fraternität') · Latin Christendom / German-speaking (Salzburg) · 1600-1950
 - `casa_san_giorgio` — Casa di San Giorgio (Genoa) · Genoese · 1407-1805
 - `commenda` — Commenda · Italian (Latin) · 10-13c
 - `compagnia` — Compagnia · Tuscan (Florentine) · 13-15c

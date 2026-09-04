@@ -3,10 +3,10 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
-- **Version**: 0.8.0  
+- **Version**: 0.9.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 643  
+- **Rows**: 707  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -33,21 +33,21 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 ## Variables at a glance
 
-|  # | Field           | Type   | Required | Coded values                                                                  | Present |
-|---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                               | 643/643 |
-|  2 | `type_id`       | string |          |                                                                               | 643/643 |
-|  3 | `char_id`       | string |          |                                                                               | 643/643 |
-|  4 | `value`         | string |          |                                                                               | 464/643 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                       | 464/643 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                              | 158/643 |
-|  7 | `source_ref`    | string |          |                                                                               | 587/643 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt` | 538/643 |
-|  9 | `coder`         | string |    ✓     |                                                                               | 643/643 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                          | 606/643 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                               | 643/643 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                  | 643/643 |
-| 13 | `notes`         | string |          |                                                                               | 643/643 |
+|  # | Field           | Type   | Required | Coded values                                                                        | Present |
+|---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------|--------:|
+|  1 | `record_id`     | string |    ✓     |                                                                                     | 707/707 |
+|  2 | `type_id`       | string |          |                                                                                     | 707/707 |
+|  3 | `char_id`       | string |          |                                                                                     | 707/707 |
+|  4 | `value`         | string |          |                                                                                     | 501/707 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                             | 501/707 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                    | 183/707 |
+|  7 | `source_ref`    | string |          |                                                                                     | 645/707 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt` | 596/707 |
+|  9 | `coder`         | string |    ✓     |                                                                                     | 707/707 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                | 664/707 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                                     | 707/707 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                        | 707/707 |
+| 13 | `notes`         | string |          |                                                                                     | 707/707 |
 
 ## Variable definitions
 
@@ -105,7 +105,7 @@ Short citation supporting the coding, or '[verify]' where the value is asserted 
 
 Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.
 
-- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `pl`, `pt`
+- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`
 
 
 ### `coder` — Coder
