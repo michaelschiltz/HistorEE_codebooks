@@ -4,38 +4,38 @@ No mechanism filter (this dataset has no mechanism characteristic). **30 forms �
 
 ## Matrix
 
-| form | `CI2` |
-|---|---|
-| `asiento_averia` | 1 |
-| `avariz_vakfi` | 1 |
-| `bazacle_mill` | P |
-| `begijnhof` | P |
-| `bruderschaft_salzburg` | 1 |
-| `casa_san_giorgio` | 1 |
-| `commenda` | .NR |
-| `compagnia` | .NR |
-| `fraterna` | 0 |
-| `hegu_shengu` | -- |
-| `hegu_yingu` | .NR |
-| `isqa` | 0 |
-| `joint_stock` | -- |
-| `kabu_edo_export` | -- |
-| `kabu_local` | -- |
-| `maona_chios` | .NR |
-| `maona_corsica` | .NR |
-| `nacion_cofradia` | -- |
-| `nakai_fictive_household` | P |
-| `natie` | -- |
-| `ortoq_equity` | -- |
-| `ortoq_loan` | -- |
-| `partenrederij` | .NR |
-| `qirad` | .NR |
-| `shenhui_gu` | -- |
-| `societas_maris` | .NR |
-| `voc_1602` | P |
-| `voc_1612` | 1 |
-| `voc_1623` | 1 |
-| `waqf_khayri` | 1 |
+| form                      | `CI2` |
+|---------------------------|-------|
+| `asiento_averia`          | 1     |
+| `avariz_vakfi`            | 1     |
+| `bazacle_mill`            | P     |
+| `begijnhof`               | P     |
+| `bruderschaft_salzburg`   | 1     |
+| `casa_san_giorgio`        | 1     |
+| `commenda`                | .NR   |
+| `compagnia`               | .NR   |
+| `fraterna`                | 0     |
+| `hegu_shengu`             | --    |
+| `hegu_yingu`              | .NR   |
+| `isqa`                    | 0     |
+| `joint_stock`             | --    |
+| `kabu_edo_export`         | --    |
+| `kabu_local`              | --    |
+| `maona_chios`             | .NR   |
+| `maona_corsica`           | .NR   |
+| `nacion_cofradia`         | --    |
+| `nakai_fictive_household` | P     |
+| `natie`                   | --    |
+| `ortoq_equity`            | --    |
+| `ortoq_loan`              | --    |
+| `partenrederij`           | .NR   |
+| `qirad`                   | .NR   |
+| `shenhui_gu`              | --    |
+| `societas_maris`          | .NR   |
+| `voc_1602`                | P     |
+| `voc_1612`                | 1     |
+| `voc_1623`                | 1     |
+| `waqf_khayri`             | 1     |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 

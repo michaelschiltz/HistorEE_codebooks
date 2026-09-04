@@ -4,37 +4,37 @@ Mechanism filter: `MC1 = pooling`. **29 forms × 9 characteristics.** This is NO
 
 ## Matrix
 
-| form | `CN1` | `HZ1` | `HZ2` | `MB3` | `MC1` | `PR1` | `PY0` | `PY1` | `PY2` |
-|---|---|---|---|---|---|---|---|---|---|
-| `averia_pool` | 0 | 1 | 1 | 1 | 2 | 0 | 0 | .NA | .NA |
-| `confraternity_fund_it` | 0 | 2 | 1 | 0 | 2 | 0 | 1 | 0 | .NR |
-| `craft_pension_edinburgh` | 0 | .NR | -- | 1 | 2 | 0 | 1 | 3 | 4 |
-| `craft_widows_fund_edinburgh` | 0 | .NR | -- | 0 | 2 | P | 1 | 1 | .NR |
-| `friendly_society_england` | 0 | .NR | P | 0 | 2 | 0 | 1 | 0 | 3 |
-| `friendly_society_female_england` | 0 | .NR | P | 0 | 2 | P | 1 | 0 | 3 |
-| `general_average` | 2 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
-| `guild_box_brabant` | 0 | .NR | -- | 1 | 2 | 0 | 1 | 0 | 3 |
-| `guild_box_dutch` | 0 | 2 | P | 1 | 2 | 0 | 1 | 0 | 3 |
-| `guild_relief_england` | .NR | .NR | -- | 0 | 2 | 0 | 1 | 3 | 4 |
-| `ko_daimanin_1828` | -- | -- | -- | -- | 2 | -- | -- | -- | .NR |
-| `ko_furuichi_sengan` | 0 | .NR | -- | 1 | 2 | 0 | 2 | 2 | .NR |
-| `ko_hokinosawa_1820` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
-| `ko_hokoin_1832` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
-| `ko_horyuji_50kan` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
-| `ko_kosaburo_1802` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
-| `ko_meio_1498` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
-| `ko_mitarai_gin_1805` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
-| `ko_mitarai_hanei_1840` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 2 |
-| `ko_mitarai_mujin_1773` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
-| `ko_mochiyori_yutsu_1876` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 2 |
-| `ko_shijunin_1829` | 0 | -- | -- | -- | 2 | -- | -- | -- | 0 |
-| `ko_usui_bango_1822` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | .NR |
-| `ko_yamakuni_1555` | 0 | .NR | -- | .NR | 2 | 0 | 2 | 2 | .NR |
-| `tontine` | -- | -- | -- | -- | 2 | .NR | -- | -- | -- |
-| `tontine_en_1693` | 1 | 0 | -- | 0 | 2 | 0 | 2 | 1 | .NR |
-| `tontine_fr_royal` | -- | 0 | -- | 0 | 2 | P | 2 | -- | -- |
-| `torinoke_mujin` | 0 | .NR | -- | 0 | 2 | 0 | 2 | 2 | 0 |
-| `widows_fund_scotland` | -- | 0 | -- | 1 | 2 | 1 | 1 | 1 | -- |
+| form                              | `CN1` | `HZ1` | `HZ2` | `MB3` | `MC1` | `PR1` | `PY0` | `PY1` | `PY2` |
+|-----------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| `averia_pool`                     | 0     | 1     | 1     | 1     | 2     | 0     | 0     | .NA   | .NA   |
+| `confraternity_fund_it`           | 0     | 2     | 1     | 0     | 2     | 0     | 1     | 0     | .NR   |
+| `craft_pension_edinburgh`         | 0     | .NR   | --    | 1     | 2     | 0     | 1     | 3     | 4     |
+| `craft_widows_fund_edinburgh`     | 0     | .NR   | --    | 0     | 2     | P     | 1     | 1     | .NR   |
+| `friendly_society_england`        | 0     | .NR   | P     | 0     | 2     | 0     | 1     | 0     | 3     |
+| `friendly_society_female_england` | 0     | .NR   | P     | 0     | 2     | P     | 1     | 0     | 3     |
+| `general_average`                 | 2     | 2     | P     | 1     | 2     | 0     | 1     | 0     | 3     |
+| `guild_box_brabant`               | 0     | .NR   | --    | 1     | 2     | 0     | 1     | 0     | 3     |
+| `guild_box_dutch`                 | 0     | 2     | P     | 1     | 2     | 0     | 1     | 0     | 3     |
+| `guild_relief_england`            | .NR   | .NR   | --    | 0     | 2     | 0     | 1     | 3     | 4     |
+| `ko_daimanin_1828`                | --    | --    | --    | --    | 2     | --    | --    | --    | .NR   |
+| `ko_furuichi_sengan`              | 0     | .NR   | --    | 1     | 2     | 0     | 2     | 2     | .NR   |
+| `ko_hokinosawa_1820`              | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 0     |
+| `ko_hokoin_1832`                  | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | .NR   |
+| `ko_horyuji_50kan`                | 0     | .NR   | --    | .NR   | 2     | 0     | 2     | 2     | .NR   |
+| `ko_kosaburo_1802`                | 0     | .NR   | --    | .NR   | 2     | 0     | 2     | 2     | .NR   |
+| `ko_meio_1498`                    | 0     | .NR   | --    | .NR   | 2     | 0     | 2     | 2     | .NR   |
+| `ko_mitarai_gin_1805`             | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | .NR   |
+| `ko_mitarai_hanei_1840`           | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 2     |
+| `ko_mitarai_mujin_1773`           | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 0     |
+| `ko_mochiyori_yutsu_1876`         | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 2     |
+| `ko_shijunin_1829`                | 0     | --    | --    | --    | 2     | --    | --    | --    | 0     |
+| `ko_usui_bango_1822`              | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | .NR   |
+| `ko_yamakuni_1555`                | 0     | .NR   | --    | .NR   | 2     | 0     | 2     | 2     | .NR   |
+| `tontine`                         | --    | --    | --    | --    | 2     | .NR   | --    | --    | --    |
+| `tontine_en_1693`                 | 1     | 0     | --    | 0     | 2     | 0     | 2     | 1     | .NR   |
+| `tontine_fr_royal`                | --    | 0     | --    | 0     | 2     | P     | 2     | --    | --    |
+| `torinoke_mujin`                  | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | 0     |
+| `widows_fund_scotland`            | --    | 0     | --    | 1     | 2     | 1     | 1     | 1     | --    |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 
