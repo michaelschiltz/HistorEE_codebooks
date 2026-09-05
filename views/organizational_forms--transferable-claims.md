@@ -4,38 +4,38 @@ No mechanism filter (this dataset has no mechanism characteristic). **30 forms �
 
 ## Matrix
 
-| form                      | `CI3` | `CI4` |
-|---------------------------|-------|-------|
-| `asiento_averia`          | P     | P     |
-| `avariz_vakfi`            | .NR   | .NR   |
-| `bazacle_mill`            | 1     | P     |
-| `begijnhof`               | P     | 0     |
-| `bruderschaft_salzburg`   | .NR   | .NR   |
-| `casa_san_giorgio`        | 1     | P     |
-| `commenda`                | .NR   | .NR   |
-| `compagnia`               | .NR   | .NR   |
-| `fraterna`                | .NR   | .NR   |
-| `hegu_shengu`             | 0     | 0     |
-| `hegu_yingu`              | 1     | 1     |
-| `isqa`                    | 0     | 0     |
-| `joint_stock`             | --    | --    |
-| `kabu_edo_export`         | 1     | P     |
-| `kabu_local`              | P     | P     |
-| `maona_chios`             | 1     | P     |
-| `maona_corsica`           | P     | 0     |
-| `nacion_cofradia`         | --    | --    |
-| `nakai_fictive_household` | 0     | 0     |
-| `natie`                   | 1     | --    |
-| `ortoq_equity`            | --    | --    |
-| `ortoq_loan`              | --    | --    |
-| `partenrederij`           | .NR   | .NR   |
-| `qirad`                   | .NR   | .NR   |
-| `shenhui_gu`              | 1     | P     |
-| `societas_maris`          | .NR   | .NR   |
-| `voc_1602`                | 1     | 1     |
-| `voc_1612`                | 1     | 1     |
-| `voc_1623`                | 1     | 1     |
-| `waqf_khayri`             | 0     | 0     |
+| form | `CI3` | `CI4` |
+|---|---|---|
+| `asiento_averia` | P | P |
+| `avariz_vakfi` | .NR | .NR |
+| `bazacle_mill` | 1 | P |
+| `begijnhof` | P | 0 |
+| `bruderschaft_salzburg` | .NR | .NR |
+| `casa_san_giorgio` | 1 | P |
+| `commenda` | .NR | .NR |
+| `compagnia` | .NR | .NR |
+| `fraterna` | .NR | .NR |
+| `hegu_shengu` | 0 | 0 |
+| `hegu_yingu` | 1 | 1 |
+| `isqa` | 0 | 0 |
+| `joint_stock` | -- | -- |
+| `kabu_edo_export` | 1 | P |
+| `kabu_local` | P | P |
+| `maona_chios` | 1 | P |
+| `maona_corsica` | P | 0 |
+| `nacion_cofradia` | -- | -- |
+| `nakai_fictive_household` | 0 | 0 |
+| `natie` | 1 | -- |
+| `ortoq_equity` | -- | -- |
+| `ortoq_loan` | -- | -- |
+| `partenrederij` | .NR | .NR |
+| `qirad` | .NR | .NR |
+| `shenhui_gu` | 1 | P |
+| `societas_maris` | .NR | .NR |
+| `voc_1602` | 1 | 1 |
+| `voc_1612` | 1 | 1 |
+| `voc_1623` | 1 | 1 |
+| `waqf_khayri` | 0 | 0 |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 
