@@ -32,6 +32,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# Markdown tables are padded to aligned columns. The padder already exists, in
+# scripts/build_codebook.py, and is imported rather than reimplemented here:
+# CONTRIBUTING §4 warns that an unregistered duplicate is precisely what drifts
+# unnoticed, and a second table renderer would be one. sys.path is nudged so the
+# import holds however the script is invoked.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_codebook import md_table  # noqa: E402
+
 # The four states a cell can be in, kept visually distinct in every format.
 NO_ROW = "--"          # the form x characteristic pair was never entered
 MISSING_TOKENS = {".NR", ".IL", ".NA"}
@@ -154,14 +162,14 @@ def render_md(chars, types, cells, codes, forms, component, mechanism, claim, da
              f"declared component set only (`CHARACTER-CODING.md`). At this *n* the "
              f"matrix is a coverage map, not evidence.\n")
     L.append("## Matrix\n")
-    L.append("| form | " + " | ".join(f"`{c}`" for c in codes) + " |")
-    L.append("|---" * (len(codes) + 1) + "|")
+    matrix_rows = []
     for f in forms:
         cs = []
         for c in codes:
             v = cell_value(cells, f, c)
             cs.append(v if v in MISSING_TOKENS or v == NO_ROW else maps[c][0].get(v, v))
-        L.append(f"| `{f}` | " + " | ".join(cs) + " |")
+        matrix_rows.append([f"`{f}`"] + cs)
+    L.extend(md_table(["form"] + [f"`{c}`" for c in codes], matrix_rows))
     L.append("")
     L.append(f"**Missingness.** `{NO_ROW}` no row entered · `.NR` not recorded in the "
              "source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. "
@@ -175,10 +183,10 @@ def render_md(chars, types, cells, codes, forms, component, mechanism, claim, da
     L.append("")
     if claim:
         L.append("## The claim\n")
-        L.append("| form | " + " | ".join(f"`{c}` {chars[c]['name']}" for c in claim) + " |")
-        L.append("|---" * (len(claim) + 1) + "|")
-        for f in forms:
-            L.append(f"| `{f}` | " + " | ".join(cell_value(cells, f, c) for c in claim) + " |")
+        claim_rows = [[f"`{f}`"] + [cell_value(cells, f, c) for c in claim]
+                      for f in forms]
+        L.extend(md_table(["form"] + [f"`{c}` {chars[c]['name']}" for c in claim],
+                          claim_rows))
         L.append("")
     L.append("## Forms\n")
     for f in forms:
