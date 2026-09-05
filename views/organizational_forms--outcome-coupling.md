@@ -1,41 +1,44 @@
 # Scoped view — component `outcome-coupling`
 
-No mechanism filter (this dataset has no mechanism characteristic). **30 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+No mechanism filter (this dataset has no mechanism characteristic). **33 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
-| form                      | `LR2` | `LR6` |
-|---------------------------|-------|-------|
-| `asiento_averia`          | 0     | 0     |
-| `avariz_vakfi`            | 2     | .NA   |
-| `bazacle_mill`            | 0     | 0     |
-| `begijnhof`               | .NR   | .NR   |
-| `bruderschaft_salzburg`   | .NR   | .NR   |
-| `casa_san_giorgio`        | 0     | .NR   |
-| `commenda`                | 0     | 1     |
-| `compagnia`               | 0     | 0     |
-| `fraterna`                | 0     | .NR   |
-| `hegu_shengu`             | --    | --    |
-| `hegu_yingu`              | --    | --    |
-| `isqa`                    | 0     | 0     |
-| `joint_stock`             | --    | --    |
-| `kabu_edo_export`         | --    | --    |
-| `kabu_local`              | --    | --    |
-| `maona_chios`             | 0     | .NR   |
-| `maona_corsica`           | 0     | 0     |
-| `nacion_cofradia`         | --    | --    |
-| `nakai_fictive_household` | 0     | 0     |
-| `natie`                   | --    | --    |
-| `ortoq_equity`            | 0     | 1     |
-| `ortoq_loan`              | 0     | 0     |
-| `partenrederij`           | 0     | 0     |
-| `qirad`                   | 0     | 1     |
-| `shenhui_gu`              | --    | --    |
-| `societas_maris`          | 0     | 0     |
-| `voc_1602`                | 0     | 0     |
-| `voc_1612`                | 0     | 0     |
-| `voc_1623`                | 0     | 0     |
-| `waqf_khayri`             | 2     | .NA   |
+| form                         | `LR2` | `LR6` |
+|------------------------------|-------|-------|
+| `asiento_averia`             | 0     | 0     |
+| `avariz_vakfi`               | 2     | .NA   |
+| `bazacle_mill`               | 0     | 0     |
+| `begijnhof`                  | .NR   | .NR   |
+| `bruderschaft_salzburg`      | .NR   | .NR   |
+| `casa_san_giorgio`           | 0     | .NR   |
+| `commenda`                   | 0     | 1     |
+| `compagnia`                  | 0     | 0     |
+| `compagnie_antwerpen_1582`   | 0     | 0     |
+| `compagnie_antwerpen_1608`   | 0     | 0     |
+| `deed_of_settlement_company` | 0     | 0     |
+| `fraterna`                   | 0     | .NR   |
+| `hegu_shengu`                | --    | --    |
+| `hegu_yingu`                 | --    | --    |
+| `isqa`                       | 0     | 0     |
+| `joint_stock`                | --    | --    |
+| `kabu_edo_export`            | --    | --    |
+| `kabu_local`                 | --    | --    |
+| `maona_chios`                | 0     | .NR   |
+| `maona_corsica`              | 0     | 0     |
+| `nacion_cofradia`            | --    | --    |
+| `nakai_fictive_household`    | 0     | 0     |
+| `natie`                      | --    | --    |
+| `ortoq_equity`               | 0     | 1     |
+| `ortoq_loan`                 | 0     | 0     |
+| `partenrederij`              | 0     | 0     |
+| `qirad`                      | 0     | 1     |
+| `shenhui_gu`                 | --    | --    |
+| `societas_maris`             | 0     | 0     |
+| `voc_1602`                   | 0     | 0     |
+| `voc_1612`                   | 0     | 0     |
+| `voc_1623`                   | 0     | 0     |
+| `waqf_khayri`                | 2     | .NA   |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 
@@ -54,6 +57,9 @@ No mechanism filter (this dataset has no mechanism characteristic). **30 forms �
 - `casa_san_giorgio` — Casa di San Giorgio (Genoa) · Genoese · 1407-1805
 - `commenda` — Commenda · Italian (Latin) · 10-13c
 - `compagnia` — Compagnia · Tuscan (Florentine) · 13-15c
+- `compagnie_antwerpen_1582` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Impressae phase · Low Countries (Antwerp, duchy of Brabant) · 1582-1608 as enacted law, on evidence reaching back to c.1540; the Impressae remained the operative compilation in Antwerp after 1608, so the phase boundary is TEXTUAL rather than practical
+- `compagnie_antwerpen_1608` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Compilatae phase · Low Countries (Antwerp, duchy of Brabant) · 1608-c.1700 as enacted text; NEVER DISPLACED THE 1582 IMPRESSAE IN PRACTICE, which is why FP4 is P and not 1
+- `deed_of_settlement_company` — Deed of settlement company (English unincorporated joint-stock company) · English (common law and equity) · c.1720-1844 (Bubble Act 1720 to the Joint Stock Companies Act 1844); ALL CODED CELLS REST ON 1790-1827 EVIDENCE
 - `fraterna` — Fraterna · Venetian · 12-15c
 - `hegu_shengu` — 身股 — body share (labour share, non-inheritable) · Chinese · 18c-20c
 - `hegu_yingu` — 合股 — silver share 銀股 (capital share in a Chinese partnership) · Chinese · 16c-1949

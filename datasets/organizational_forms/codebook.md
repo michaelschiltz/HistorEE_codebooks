@@ -6,7 +6,7 @@
 - **Version**: 0.9.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 707  
+- **Rows**: 803  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,19 +35,19 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field           | Type   | Required | Coded values                                                                        | Present |
 |---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                                     | 707/707 |
-|  2 | `type_id`       | string |          |                                                                                     | 707/707 |
-|  3 | `char_id`       | string |          |                                                                                     | 707/707 |
-|  4 | `value`         | string |          |                                                                                     | 501/707 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                             | 501/707 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                    | 183/707 |
-|  7 | `source_ref`    | string |          |                                                                                     | 645/707 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt` | 596/707 |
-|  9 | `coder`         | string |    ✓     |                                                                                     | 707/707 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                | 664/707 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                                     | 707/707 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                        | 707/707 |
-| 13 | `notes`         | string |          |                                                                                     | 707/707 |
+|  1 | `record_id`     | string |    ✓     |                                                                                     | 803/803 |
+|  2 | `type_id`       | string |          |                                                                                     | 803/803 |
+|  3 | `char_id`       | string |          |                                                                                     | 803/803 |
+|  4 | `value`         | string |          |                                                                                     | 566/803 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                             | 566/803 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                    | 248/803 |
+|  7 | `source_ref`    | string |          |                                                                                     | 710/803 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt` | 661/803 |
+|  9 | `coder`         | string |    ✓     |                                                                                     | 803/803 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                | 729/803 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                                     | 803/803 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                        | 803/803 |
+| 13 | `notes`         | string |          |                                                                                     | 803/803 |
 
 ## Variable definitions
 

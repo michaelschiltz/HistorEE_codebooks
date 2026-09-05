@@ -1,41 +1,44 @@
 # Scoped view — component `perpetual-succession`
 
-No mechanism filter (this dataset has no mechanism characteristic). **30 forms × 4 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+No mechanism filter (this dataset has no mechanism characteristic). **33 forms × 4 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
-| form                      | `TS1` | `TS2` | `TS3` | `TS4` |
-|---------------------------|-------|-------|-------|-------|
-| `asiento_averia`          | 0     | 1     | 0     | 0     |
-| `avariz_vakfi`            | 1     | 0     | P     | P     |
-| `bazacle_mill`            | 1     | 0     | 0     | P     |
-| `begijnhof`               | 1     | 0     | .NR   | 0     |
-| `bruderschaft_salzburg`   | 1     | 0     | .NR   | 0     |
-| `casa_san_giorgio`        | 1     | 0     | .NR   | P     |
-| `commenda`                | --    | 2     | --    | --    |
-| `compagnia`               | 1     | 1     | .NR   | .NR   |
-| `fraterna`                | .NR   | 0     | 1     | .NR   |
-| `hegu_shengu`             | .NR   | --    | --    | --    |
-| `hegu_yingu`              | 1     | 0     | --    | --    |
-| `isqa`                    | 0     | 0     | P     | .NA   |
-| `joint_stock`             | --    | --    | --    | --    |
-| `kabu_edo_export`         | --    | --    | --    | --    |
-| `kabu_local`              | 1     | 0     | --    | --    |
-| `maona_chios`             | 1     | 1     | 1     | .NR   |
-| `maona_corsica`           | 1     | .NR   | .NR   | .NR   |
-| `nacion_cofradia`         | --    | --    | --    | --    |
-| `nakai_fictive_household` | 1     | 0     | .NR   | .NR   |
-| `natie`                   | --    | --    | --    | --    |
-| `ortoq_equity`            | --    | .NR   | --    | --    |
-| `ortoq_loan`              | --    | .NR   | --    | --    |
-| `partenrederij`           | .NR   | 0     | .NR   | .NR   |
-| `qirad`                   | --    | 2     | --    | --    |
-| `shenhui_gu`              | 1     | 0     | --    | --    |
-| `societas_maris`          | --    | 2     | --    | --    |
-| `voc_1602`                | 1     | 1     | 0     | 0     |
-| `voc_1612`                | 1     | 0     | 0     | 0     |
-| `voc_1623`                | 1     | 0     | 0     | 0     |
-| `waqf_khayri`             | 1     | 0     | 0     | 0     |
+| form                         | `TS1` | `TS2` | `TS3` | `TS4` |
+|------------------------------|-------|-------|-------|-------|
+| `asiento_averia`             | 0     | 1     | 0     | 0     |
+| `avariz_vakfi`               | 1     | 0     | P     | P     |
+| `bazacle_mill`               | 1     | 0     | 0     | P     |
+| `begijnhof`                  | 1     | 0     | .NR   | 0     |
+| `bruderschaft_salzburg`      | 1     | 0     | .NR   | 0     |
+| `casa_san_giorgio`           | 1     | 0     | .NR   | P     |
+| `commenda`                   | --    | 2     | --    | --    |
+| `compagnia`                  | 1     | 1     | .NR   | .NR   |
+| `compagnie_antwerpen_1582`   | 0     | 1     | 1     | .NR   |
+| `compagnie_antwerpen_1608`   | 0     | 1     | 1     | .NR   |
+| `deed_of_settlement_company` | P     | .NR   | P     | .NR   |
+| `fraterna`                   | .NR   | 0     | 1     | .NR   |
+| `hegu_shengu`                | .NR   | --    | --    | --    |
+| `hegu_yingu`                 | 1     | 0     | --    | --    |
+| `isqa`                       | 0     | 0     | P     | .NA   |
+| `joint_stock`                | --    | --    | --    | --    |
+| `kabu_edo_export`            | --    | --    | --    | --    |
+| `kabu_local`                 | 1     | 0     | --    | --    |
+| `maona_chios`                | 1     | 1     | 1     | .NR   |
+| `maona_corsica`              | 1     | .NR   | .NR   | .NR   |
+| `nacion_cofradia`            | --    | --    | --    | --    |
+| `nakai_fictive_household`    | 1     | 0     | .NR   | .NR   |
+| `natie`                      | --    | --    | --    | --    |
+| `ortoq_equity`               | --    | .NR   | --    | --    |
+| `ortoq_loan`                 | --    | .NR   | --    | --    |
+| `partenrederij`              | .NR   | 0     | .NR   | .NR   |
+| `qirad`                      | --    | 2     | --    | --    |
+| `shenhui_gu`                 | 1     | 0     | --    | --    |
+| `societas_maris`             | --    | 2     | --    | --    |
+| `voc_1602`                   | 1     | 1     | 0     | 0     |
+| `voc_1612`                   | 1     | 0     | 0     | 0     |
+| `voc_1623`                   | 1     | 0     | 0     | 0     |
+| `waqf_khayri`                | 1     | 0     | 0     | 0     |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 
@@ -56,6 +59,9 @@ No mechanism filter (this dataset has no mechanism characteristic). **30 forms �
 - `casa_san_giorgio` — Casa di San Giorgio (Genoa) · Genoese · 1407-1805
 - `commenda` — Commenda · Italian (Latin) · 10-13c
 - `compagnia` — Compagnia · Tuscan (Florentine) · 13-15c
+- `compagnie_antwerpen_1582` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Impressae phase · Low Countries (Antwerp, duchy of Brabant) · 1582-1608 as enacted law, on evidence reaching back to c.1540; the Impressae remained the operative compilation in Antwerp after 1608, so the phase boundary is TEXTUAL rather than practical
+- `compagnie_antwerpen_1608` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Compilatae phase · Low Countries (Antwerp, duchy of Brabant) · 1608-c.1700 as enacted text; NEVER DISPLACED THE 1582 IMPRESSAE IN PRACTICE, which is why FP4 is P and not 1
+- `deed_of_settlement_company` — Deed of settlement company (English unincorporated joint-stock company) · English (common law and equity) · c.1720-1844 (Bubble Act 1720 to the Joint Stock Companies Act 1844); ALL CODED CELLS REST ON 1790-1827 EVIDENCE
 - `fraterna` — Fraterna · Venetian · 12-15c
 - `hegu_shengu` — 身股 — body share (labour share, non-inheritable) · Chinese · 18c-20c
 - `hegu_yingu` — 合股 — silver share 銀股 (capital share in a Chinese partnership) · Chinese · 16c-1949
