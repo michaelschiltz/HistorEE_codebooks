@@ -52,37 +52,37 @@ Mechanism filter: `MC1 = pooling`. **29 forms × 9 characteristics.** This is NO
 
 ## The claim
 
-| form | `PR1` peril priced ex ante | `PY0` pool output |
-|---|---|---|
-| `averia_pool` | 0 | collective-good |
-| `confraternity_fund_it` | 0 | individual-indemnity |
-| `craft_pension_edinburgh` | 0 | individual-indemnity |
-| `craft_widows_fund_edinburgh` | P | individual-indemnity |
-| `friendly_society_england` | 0 | individual-indemnity |
-| `friendly_society_female_england` | P | individual-indemnity |
-| `general_average` | 0 | individual-indemnity |
-| `guild_box_brabant` | 0 | individual-indemnity |
-| `guild_box_dutch` | 0 | individual-indemnity |
-| `guild_relief_england` | 0 | individual-indemnity |
-| `ko_daimanin_1828` | -- | -- |
-| `ko_furuichi_sengan` | 0 | individual-draw |
-| `ko_hokinosawa_1820` | 0 | individual-draw |
-| `ko_hokoin_1832` | 0 | individual-draw |
-| `ko_horyuji_50kan` | 0 | individual-draw |
-| `ko_kosaburo_1802` | 0 | individual-draw |
-| `ko_meio_1498` | 0 | individual-draw |
-| `ko_mitarai_gin_1805` | 0 | individual-draw |
-| `ko_mitarai_hanei_1840` | 0 | individual-draw |
-| `ko_mitarai_mujin_1773` | 0 | individual-draw |
-| `ko_mochiyori_yutsu_1876` | 0 | individual-draw |
-| `ko_shijunin_1829` | -- | -- |
-| `ko_usui_bango_1822` | 0 | individual-draw |
-| `ko_yamakuni_1555` | 0 | individual-draw |
-| `tontine` | .NR | -- |
-| `tontine_en_1693` | 0 | individual-draw |
-| `tontine_fr_royal` | P | individual-draw |
-| `torinoke_mujin` | 0 | individual-draw |
-| `widows_fund_scotland` | 1 | individual-indemnity |
+| form                              | `PR1` peril priced ex ante | `PY0` pool output    |
+|-----------------------------------|----------------------------|----------------------|
+| `averia_pool`                     | 0                          | collective-good      |
+| `confraternity_fund_it`           | 0                          | individual-indemnity |
+| `craft_pension_edinburgh`         | 0                          | individual-indemnity |
+| `craft_widows_fund_edinburgh`     | P                          | individual-indemnity |
+| `friendly_society_england`        | 0                          | individual-indemnity |
+| `friendly_society_female_england` | P                          | individual-indemnity |
+| `general_average`                 | 0                          | individual-indemnity |
+| `guild_box_brabant`               | 0                          | individual-indemnity |
+| `guild_box_dutch`                 | 0                          | individual-indemnity |
+| `guild_relief_england`            | 0                          | individual-indemnity |
+| `ko_daimanin_1828`                | --                         | --                   |
+| `ko_furuichi_sengan`              | 0                          | individual-draw      |
+| `ko_hokinosawa_1820`              | 0                          | individual-draw      |
+| `ko_hokoin_1832`                  | 0                          | individual-draw      |
+| `ko_horyuji_50kan`                | 0                          | individual-draw      |
+| `ko_kosaburo_1802`                | 0                          | individual-draw      |
+| `ko_meio_1498`                    | 0                          | individual-draw      |
+| `ko_mitarai_gin_1805`             | 0                          | individual-draw      |
+| `ko_mitarai_hanei_1840`           | 0                          | individual-draw      |
+| `ko_mitarai_mujin_1773`           | 0                          | individual-draw      |
+| `ko_mochiyori_yutsu_1876`         | 0                          | individual-draw      |
+| `ko_shijunin_1829`                | --                         | --                   |
+| `ko_usui_bango_1822`              | 0                          | individual-draw      |
+| `ko_yamakuni_1555`                | 0                          | individual-draw      |
+| `tontine`                         | .NR                        | --                   |
+| `tontine_en_1693`                 | 0                          | individual-draw      |
+| `tontine_fr_royal`                | P                          | individual-draw      |
+| `torinoke_mujin`                  | 0                          | individual-draw      |
+| `widows_fund_scotland`            | 1                          | individual-indemnity |
 
 ## Forms
 
