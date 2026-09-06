@@ -66,7 +66,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **33 forms �
 - `hegu_shengu` — 身股 — body share (labour share, non-inheritable) · Chinese · 18c-20c
 - `hegu_yingu` — 合股 — silver share 銀股 (capital share in a Chinese partnership) · Chinese · 16c-1949
 - `isqa` — ʿIsqa · Jewish (Babylonian rabbinic) · 4c onward
-- `joint_stock` — Joint-stock corporation · European · 17c onward
+- `joint_stock` — Joint-stock chartered corporation (umbrella) · European · 17c onward
 - `kabu_edo_export` — 株 — Edo export share (sake shipped to the Edo market) · Japanese · 17c-19c
 - `kabu_local` — 株 — local-market share (kabu nakama stock society) · Japanese · 1660-1841
 - `maona_chios` — Maona di Chio (New Maona) · Genoese · 1362-1566
