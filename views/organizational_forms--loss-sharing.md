@@ -1,43 +1,44 @@
 # Scoped view — component `loss-sharing`
 
-No mechanism filter (this dataset has no mechanism characteristic). **32 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+No mechanism filter (this dataset has no mechanism characteristic). **33 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
-| form                         | `CF2` | `LR3` |
-|------------------------------|-------|-------|
-| `asiento_averia`             | .NA   | 1     |
-| `avariz_vakfi`               | .NA   | 0     |
-| `bazacle_mill`               | .NA   | 1     |
-| `begijnhof`                  | .NA   | 0     |
-| `bruderschaft_salzburg`      | .NA   | 0     |
-| `casa_san_giorgio`           | .NA   | 1     |
-| `commenda`                   | 0     | 1     |
-| `compagnia`                  | .NA   | 1     |
-| `compagnie_antwerpen_1582`   | .NR   | 1     |
-| `compagnie_antwerpen_1608`   | .NR   | 1     |
-| `deed_of_settlement_company` | .NR   | 1     |
-| `fraterna`                   | .NA   | 1     |
-| `hegu_shengu`                | .NR   | 1     |
-| `hegu_yingu`                 | --    | 1     |
-| `isqa`                       | 1     | 1     |
-| `kabu_edo_export`            | --    | --    |
-| `kabu_local`                 | --    | --    |
-| `maona_chios`                | .NA   | 1     |
-| `maona_corsica`              | .NA   | 1     |
-| `nacion_cofradia`            | --    | --    |
-| `nakai_fictive_household`    | P     | 1     |
-| `natie`                      | --    | --    |
-| `ortoq_equity`               | 0     | 1     |
-| `ortoq_loan`                 | 1     | 0     |
-| `partenrederij`              | 0     | 1     |
-| `qirad`                      | 0     | 1     |
-| `shenhui_gu`                 | --    | 1     |
-| `societas_maris`             | 0     | 1     |
-| `voc_1602`                   | 0     | 1     |
-| `voc_1612`                   | 0     | 1     |
-| `voc_1623`                   | .NA   | 1     |
-| `waqf_khayri`                | .NA   | 0     |
+| form                            | `CF2` | `LR3` |
+|---------------------------------|-------|-------|
+| `asiento_averia`                | .NA   | 1     |
+| `avariz_vakfi`                  | .NA   | 0     |
+| `bazacle_mill`                  | .NA   | 1     |
+| `begijnhof`                     | .NA   | 0     |
+| `bruderschaft_salzburg`         | .NA   | 0     |
+| `casa_san_giorgio`              | .NA   | 1     |
+| `chartered_corporation_england` | .NA   | 1     |
+| `commenda`                      | 0     | 1     |
+| `compagnia`                     | .NA   | 1     |
+| `compagnie_antwerpen_1582`      | .NR   | 1     |
+| `compagnie_antwerpen_1608`      | .NR   | 1     |
+| `deed_of_settlement_company`    | .NR   | 1     |
+| `fraterna`                      | .NA   | 1     |
+| `hegu_shengu`                   | .NR   | 1     |
+| `hegu_yingu`                    | --    | 1     |
+| `isqa`                          | 1     | 1     |
+| `kabu_edo_export`               | --    | --    |
+| `kabu_local`                    | --    | --    |
+| `maona_chios`                   | .NA   | 1     |
+| `maona_corsica`                 | .NA   | 1     |
+| `nacion_cofradia`               | --    | --    |
+| `nakai_fictive_household`       | P     | 1     |
+| `natie`                         | --    | --    |
+| `ortoq_equity`                  | 0     | 1     |
+| `ortoq_loan`                    | 1     | 0     |
+| `partenrederij`                 | 0     | 1     |
+| `qirad`                         | 0     | 1     |
+| `shenhui_gu`                    | --    | 1     |
+| `societas_maris`                | 0     | 1     |
+| `voc_1602`                      | 0     | 1     |
+| `voc_1612`                      | 0     | 1     |
+| `voc_1623`                      | .NA   | 1     |
+| `waqf_khayri`                   | .NA   | 0     |
 
 **Missingness.** `--` no row entered · `.NR` not recorded in the source · `.IL` illegible · `.NA` inapplicable · `0` an observed absence. These are five different epistemic states and are never collapsed.
 
@@ -54,6 +55,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **32 forms �
 - `begijnhof` — Begijnhof / court beguinage (curtis beguinarum) · Low Countries (Southern Netherlands; also Lille, Valenciennes, Breda, Amsterdam) · 13c-19c; entity-level cells evidenced post-1585
 - `bruderschaft_salzburg` — Bruderschaft / Liebesbund (post-Tridentine Salzburg 'Fraternität') · Latin Christendom / German-speaking (Salzburg) · 1600-1950
 - `casa_san_giorgio` — Casa di San Giorgio (Genoa) · Genoese · 1407-1805
+- `chartered_corporation_england` — English chartered joint-stock business corporation · English (common law; incorporation by Crown prerogative or Act of Parliament) · 1720-1844 (Bubble Act to the Joint Stock Companies Act 1844); ALL CODED CELLS REST ON c.1660-1837 EVIDENCE, DENSEST 1766-1825, AND NONE ON 1720-1740
 - `commenda` — Commenda · Italian (Latin) · 10-13c
 - `compagnia` — Compagnia · Tuscan (Florentine) · 13-15c
 - `compagnie_antwerpen_1582` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Impressae phase · Low Countries (Antwerp, duchy of Brabant) · 1582-1608 as enacted law, on evidence reaching back to c.1540; the Impressae remained the operative compilation in Antwerp after 1608, so the phase boundary is TEXTUAL rather than practical
