@@ -70,6 +70,63 @@ def drop_csv_column(path: Path, column: str):
     note(f"  stripped column '{column}' from {path.name}")
 
 
+def drop_csv_rows(path: Path, column: str, values) -> int:
+    """Remove whole rows whose `column` is in `values`, preserving the rest verbatim."""
+    import csv, io
+    rows = list(csv.DictReader(path.open(encoding="utf-8")))
+    if not rows or column not in rows[0]:
+        return 0
+    keep = [r for r in rows if r.get(column) not in values]
+    if len(keep) == len(rows):
+        return 0
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=list(rows[0]), lineterminator="\n")
+    w.writeheader(); w.writerows(keep)
+    path.write_text(buf.getvalue(), encoding="utf-8", newline="")
+    return len(rows) - len(keep)
+
+
+def rebuild_views(cb: Path, datasets):
+    """Regenerate the views of scrubbed datasets, or remove them.
+
+    A component view tabulates every coded form on that component, so shipping the
+    committed views beside a scrubbed data.csv states the withheld values outright --
+    the same leak the codebook removal prevents, and the one this script missed until
+    2026-09-07. Regeneration is preferred to deletion because code-a-form step 1.3 has
+    the coder read these views; deletion is the fallback when the generator will not
+    run. Only the scrubbed datasets' views are touched.
+    """
+    views, builder = cb / "views", cb / "scripts" / "build_views.py"
+    if not views.exists() or not datasets:
+        return
+    for ds in sorted(datasets):
+        targets = sorted(views.glob(f"{ds}--*"))
+        if not targets:
+            continue
+        comps = sorted({p.stem.split("--", 1)[1] for p in targets
+                        if "--" in p.stem and p.suffix == ".md"})
+        rebuilt = []
+        for c in comps:
+            cmd = ["python3", str(builder), "--dataset", ds, "--component", c]
+            if ds == "organizational_forms":
+                cmd += ["--mechanism", "all"]
+            try:
+                subprocess.run(cmd, cwd=str(cb), capture_output=True,
+                               check=True, timeout=120)
+                rebuilt.append(c)
+            except Exception:
+                pass
+        for f in targets:
+            comp = f.stem.split("--", 1)[1] if "--" in f.stem else ""
+            if f.suffix == ".md" and comp in rebuilt:
+                continue
+            f.unlink()
+            note(f"  removed views/{f.name} (it tabulates the withheld rows)")
+        if rebuilt:
+            note(f"  regenerated {len(rebuilt)} view(s) for {ds} "
+                 f"from the scrubbed data.csv")
+
+
 def drop_sections(path: Path, dates, level="## "):
     """Delete every level-2 section whose heading mentions a withheld date.
 
@@ -151,6 +208,40 @@ def drop_notes_by_session(vault: Path, sessions):
             note("  removed graph/ (exporter unavailable; it embeds every title)")
 
 
+def residual_mentions(root: Path, types):
+    """Report every surviving mention of a withheld type, for hand review.
+
+    Removing a form's own rows is automatable; removing every OTHER row's discussion
+    of it is not, because the content that discusses it -- characteristic definitions,
+    neighbouring forms' cell notes, other type rows' scope and co-occurrence prose --
+    is exactly what the coder needs and must survive. A re-coding bundle therefore
+    always leaks something, and the only safe posture is to make the leak visible.
+    Added 2026-09-07 after a test bundle left the answer to the cell under test
+    standing in a neighbouring row's note.
+
+    Scans the WHOLE bundle -- both halves -- and runs LAST, after every removal, so
+    that it reports what actually ships rather than what was about to be deleted.
+    The vault half needs it as much as the codebooks half: vault notes are removed
+    by session slug, so a note written by an unlisted session can still name the
+    form and state one of its values.
+    """
+    hits = []
+    for f in sorted(root.rglob("*")):
+        if not f.is_file() or f.suffix.lower() not in {".md", ".csv", ".json", ".txt"}:
+            continue
+        try:
+            txt = f.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        for t in sorted(types):
+            for i, line in enumerate(txt.splitlines(), 1):
+                if t in line:
+                    j = line.index(t)
+                    hits.append((str(f.relative_to(root)), t, i,
+                                 " ".join(line[max(0, j - 90):j + 160].split())))
+    return hits
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", required=True)
@@ -188,6 +279,7 @@ def main():
             extra.unlink(); note(f"  removed {extra.name}")
     types = {t for t in a.withhold_types.split(",") if t}
     next_ids = {}
+    residual = []
     if types:
         import csv as _csv, io as _io
         for d in sorted((cb / "datasets").glob("*/data.csv")):
@@ -209,6 +301,13 @@ def main():
                  f"{', '.join(sorted(types))} from {d.parent.name}/data.csv")
         for cbk in sorted((cb / "datasets").glob("*/codebook.md")):
             cbk.unlink(); note(f"  removed {cbk.parent.name}/codebook.md (row counts would betray the removal)")
+        for v in sorted((cb / "vocabularies").glob("*_type.csv")):
+            n = drop_csv_rows(v, "code", types)
+            if n:
+                note(f"  removed {n} vocabulary row(s) for "
+                     f"{', '.join(sorted(types))} from vocabularies/{v.name} "
+                     f"(key_source states the reasoning under test)")
+        rebuild_views(cb, set(next_ids))
 
     if not a.keep_changelog:
         (cb / "CHANGELOG.md").unlink(missing_ok=True)
@@ -217,6 +316,9 @@ def main():
     if vt_src.exists():
         copy_repo(vt_src, vt)
         drop_notes_by_session(vt, sessions)
+
+    if types:
+        residual = residual_mentions(out, types)
 
     manifest = out.parent / (out.name + ".manifest.md")
     manifest.write_text(
@@ -229,13 +331,28 @@ def main():
                    for k, v in next_ids.items()) if next_ids else "")
         + "\n"
         "## Removed\n\n" + "".join(f"- {l}\n" for l in LOG) + "\n"
-        "## Limits\n\n"
+        + ("## RESIDUAL MENTIONS -- HAND REVIEW REQUIRED BEFORE THE BUNDLE SHIPS\n\n"
+           "A withheld type is still named in the files below. This is expected and cannot\n"
+           "be automated away: characteristic definitions, neighbouring forms' cell notes and\n"
+           "other type rows' scope prose all legitimately discuss it, and all must survive.\n"
+           "READ EACH ONE AND DECIDE. A mention that merely names the form is usually fine;\n"
+           "a mention that states one of its VALUES, or the reasoning behind one, is a leak\n"
+           "and must be redacted by hand or the neighbouring type withheld as well.\n\n"
+           + "".join(f"- `{f}`:{ln} (`{t}`) -- {snip}\n"
+                     for f, t, ln, snip in residual) + "\n"
+           if residual else "")
+        + "## Limits\n\n"
         "Removal stops leakage; it does not create independence. Same coder and same\n"
         "model means this remains test-retest, not inter-rater — logbook 4 2026-08-13 (iv).\n"
         "The operator must name every relevant --withhold-sessions slug; the script cannot\n"
         "guess which sessions formed expectations. Content that legitimately belongs -- other\n"
         "forms' row notes, key_source fields -- is NOT scrubbed, and should not be: the blind\n"
-        "covers the forms under test, not the whole matrix.\n",
+        "covers the forms under test, not the whole matrix. FOR A RE-CODING\n"
+        "(--withhold-types) the forms under test are the exception and are scrubbed\n"
+        "everywhere they are stated: their data.csv rows, their vocabulary type rows\n"
+        "(whose key_source states the very reasoning under test), every codebook.md, and\n"
+        "the component views that tabulate them. Before 2026-09-07 the type rows and the\n"
+        "views were left in place, which made a re-coding bundle state its own answer.\n",
         encoding="utf-8", newline="")
     print(f"\nbundle: {out}\nmanifest: {manifest}")
 
