@@ -17,7 +17,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **33 forms Ã
 | `compagnia`                     | 1     | 0     | .NA   |
 | `compagnie_antwerpen_1582`      | 1     | P     | .NA   |
 | `compagnie_antwerpen_1608`      | 1     | 0     | .NA   |
-| `deed_of_settlement_company`    | 1     | P     | .NA   |
+| `deed_of_settlement_company`    | 1     | .NR   | .NA   |
 | `fraterna`                      | .NR   | 0     | .NA   |
 | `hegu_shengu`                   | --    | --    | --    |
 | `hegu_yingu`                    | --    | --    | --    |
