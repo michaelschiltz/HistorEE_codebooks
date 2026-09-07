@@ -151,6 +151,31 @@ def drop_sections(path: Path, dates, level="## "):
         note(f"  removed from {path.name}: {r}")
 
 
+def drop_standing_rows(path: Path, sessions) -> int:
+    """Remove a quarantined session's row from a standing table.
+
+    logbook 4's spent-blind table is NOT a dated `## ` section, so --withhold-dates
+    never reaches it, and each row states in detail what its session read and which
+    cells and characteristics it therefore prejudices. That is a description of the
+    batch under test written by the operator who designed it. The operator's own row
+    for the current batch is the worst case: it names the cells, the sources and the
+    doctrine, and it is written the same day the bundle is built.
+
+    Added 2026-09-07, after a built bundle was found carrying the row for its own
+    batch. Rows are matched on the leading `| `slug` |` cell, so the table's prose
+    paragraphs and every other row survive.
+    """
+    if not path.exists():
+        return 0
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    keep = [l for l in lines
+            if not any(l.startswith(f"| `{sl}` |") for sl in sessions)]
+    if len(keep) == len(lines):
+        return 0
+    path.write_text("".join(keep), encoding="utf-8", newline="")
+    return len(lines) - len(keep)
+
+
 def drop_notes_by_session(vault: Path, sessions):
     """Remove quarantined notes AND every surviving reference to them.
 
@@ -162,7 +187,7 @@ def drop_notes_by_session(vault: Path, sessions):
     """
     notes_dir = vault / "notes"
     if not notes_dir.exists():
-        return
+        return []
     removed = []
     for p in sorted(notes_dir.glob("*.md")):
         head = p.read_text(encoding="utf-8")[:600]
@@ -173,17 +198,26 @@ def drop_notes_by_session(vault: Path, sessions):
     for t in removed:
         note(f"  removed note: {t}")
     if not removed:
-        return
+        return removed
     scrubbed = 0
     for f in sorted(vault.rglob("*.md")):
         txt = orig = f.read_text(encoding="utf-8")
         for t in removed:
             e = re.escape(t)
+            # A wikilink may be WRAPPED across a line break -- this vault hard-wraps
+            # some notes -- so match the title with \s+ between its words rather than
+            # a literal space, and allow an alias. A line-oriented pattern missed a
+            # wrapped link of the form "[[Some withheld title spanning a\nline break]]"
+            # and left the title standing in a note the coder reads: found by hand
+            # 2026-09-07, and in this vault a title IS a claim. This comment carries no
+            # real title, because this script SHIPS INSIDE THE BUNDLE.
+            w = r"\s+".join(re.escape(x) for x in t.split())
+            link = rf"\[\[{w}(?:\s*\|[^\]]*)?\]\]"
             # MOC list entries and Foam link-reference definitions: drop the line
-            txt = re.sub(rf"(?m)^[-*] +\[\[{e}\]\].*\n", "", txt)
+            txt = re.sub(rf"(?m)^[-*] +{link}.*\n", "", txt)
             txt = re.sub(rf"(?m)^\[{e}\]: .*\n", "", txt)
             # inline references: keep the sentence, lose the claim
-            txt = re.sub(rf"\[\[{e}\]\]", "[withheld]", txt)
+            txt = re.sub(link, "[withheld]", txt)
         if txt != orig:
             f.write_text(txt, encoding="utf-8", newline="")
             scrubbed += 1
@@ -193,6 +227,8 @@ def drop_notes_by_session(vault: Path, sessions):
     # Regenerate from the scrubbed note set; delete it if the exporter will not run.
     exporter = vault / "scripts" / "export_graph.py"
     if (vault / "graph").exists():
+        before = {f: f.stat().st_mtime_ns for f in sorted((vault / "graph").rglob("*"))
+                  if f.is_file()}
         ok = False
         if exporter.exists():
             try:
@@ -202,14 +238,29 @@ def drop_notes_by_session(vault: Path, sessions):
             except Exception:
                 ok = False
         if ok:
-            note("  regenerated graph/ from the scrubbed note set")
+            # The exporter does not rewrite every artefact in graph/. graph.svg is a
+            # committed Graphviz rendering it leaves alone, and it embeds every title
+            # of the note set it was rendered from -- so a bundle that removed notes
+            # shipped their titles in the SVG. Found by hand on 2026-09-07, after the
+            # regeneration had been trusted since it was written. Anything the
+            # exporter did not rewrite is stale by definition and cannot be trusted;
+            # delete it rather than reason about which artefacts carry titles.
+            stale = [f for f, m in before.items()
+                     if f.exists() and f.stat().st_mtime_ns == m]
+            for f in stale:
+                f.unlink()
+            note("  regenerated graph/ from the scrubbed note set"
+                 + (f"; removed {len(stale)} stale artefact(s) the exporter does not "
+                    f"rewrite ({', '.join(f.name for f in stale)}) -- they embed the "
+                    f"titles of the removed notes" if stale else ""))
         else:
             shutil.rmtree(vault / "graph")
             note("  removed graph/ (exporter unavailable; it embeds every title)")
+    return removed
 
 
-def residual_mentions(root: Path, types):
-    """Report every surviving mention of a withheld type, for hand review.
+def residual_mentions(root: Path, terms):
+    """Report every surviving mention of a withheld TYPE CODE OR NOTE TITLE, for hand review.
 
     Removing a form's own rows is automatable; removing every OTHER row's discussion
     of it is not, because the content that discusses it -- characteristic definitions,
@@ -224,6 +275,12 @@ def residual_mentions(root: Path, types):
     The vault half needs it as much as the codebooks half: vault notes are removed
     by session slug, so a note written by an unlisted session can still name the
     form and state one of its values.
+
+    It sweeps withheld NOTE TITLES too, not only type codes. In this vault a title is
+    a claim, and a removed note's title survives wherever prose quotes it rather than
+    links it -- logbook 4's standing spent-blind table quotes note titles as evidence
+    of what a session spent, and no dereferencer reaches a quotation. Added 2026-09-07
+    after a bundle shipped a withheld title in exactly that table.
     """
     hits = []
     for f in sorted(root.rglob("*")):
@@ -233,7 +290,7 @@ def residual_mentions(root: Path, types):
             txt = f.read_text(encoding="utf-8")
         except Exception:
             continue
-        for t in sorted(types):
+        for t in sorted(terms):
             for i, line in enumerate(txt.splitlines(), 1):
                 if t in line:
                     j = line.index(t)
@@ -274,12 +331,18 @@ def main():
             drop_csv_column(v, "exemplar")
     for lb in sorted((cb / "logbook").glob("*.md")):
         drop_sections(lb, dates)
+        n = drop_standing_rows(lb, sessions)
+        if n:
+            note(f"  removed {n} standing-table row(s) for withheld session(s) "
+                 f"from {lb.name} (a row states what its session spent, and which "
+                 f"cells it prejudices)")
     for extra in (cb / "logbook").glob("*.csv"):
         if any(d in extra.name for d in dates):
             extra.unlink(); note(f"  removed {extra.name}")
     types = {t for t in a.withhold_types.split(",") if t}
     next_ids = {}
     residual = []
+    removed_titles = []
     if types:
         import csv as _csv, io as _io
         for d in sorted((cb / "datasets").glob("*/data.csv")):
@@ -315,10 +378,10 @@ def main():
 
     if vt_src.exists():
         copy_repo(vt_src, vt)
-        drop_notes_by_session(vt, sessions)
+        removed_titles = drop_notes_by_session(vt, sessions) or []
 
-    if types:
-        residual = residual_mentions(out, types)
+    if types or removed_titles:
+        residual = residual_mentions(out, set(types) | set(removed_titles))
 
     manifest = out.parent / (out.name + ".manifest.md")
     manifest.write_text(
@@ -332,12 +395,16 @@ def main():
         + "\n"
         "## Removed\n\n" + "".join(f"- {l}\n" for l in LOG) + "\n"
         + ("## RESIDUAL MENTIONS -- HAND REVIEW REQUIRED BEFORE THE BUNDLE SHIPS\n\n"
-           "A withheld type is still named in the files below. This is expected and cannot\n"
-           "be automated away: characteristic definitions, neighbouring forms' cell notes and\n"
-           "other type rows' scope prose all legitimately discuss it, and all must survive.\n"
+           "A withheld type code, or the TITLE of a withheld vault note, is still named in\n"
+           "the files below. This is expected and cannot be automated away: characteristic\n"
+           "definitions, neighbouring forms' cell notes and other type rows' scope prose all\n"
+           "legitimately discuss a withheld form and must survive, and prose that QUOTES a\n"
+           "note title -- logbook 4's standing table does, as evidence of what a session\n"
+           "spent -- is beyond the reach of any dereferencer.\n"
            "READ EACH ONE AND DECIDE. A mention that merely names the form is usually fine;\n"
-           "a mention that states one of its VALUES, or the reasoning behind one, is a leak\n"
-           "and must be redacted by hand or the neighbouring type withheld as well.\n\n"
+           "a mention that states one of its VALUES, or the reasoning behind one, is a leak,\n"
+           "and so is a quoted note title, because in this vault a title IS a claim. Redact\n"
+           "by hand, or withhold the neighbouring type or session as well.\n\n"
            + "".join(f"- `{f}`:{ln} (`{t}`) -- {snip}\n"
                      for f, t, ln, snip in residual) + "\n"
            if residual else "")
