@@ -4,7 +4,7 @@ The narrative decision log, carried over from the `even-keel` method and kept as
 
 Each file below is a running log. New entries go at the top, dated `YYYY-MM-DD`, initialled by the contributor.
 
-Prose is **soft-wrapped**: one physical line per paragraph, list item and blockquote, blank line between blocks. Do not hard-wrap at a column width — let the editor wrap. Headings, tables, `---` rules and fenced code are exempt.
+Prose is **soft-wrapped**: one physical line per paragraph, list item and blockquote, blank line between blocks. Do not hard-wrap at a column width — let the editor wrap. Headings, tables, `---` rules and fenced code are exempt. **Tables have their own rule instead: padded to equal column widths**, checked by `scripts/check_tables.py` (`--fix` aligns in place). Twenty-six hand-written tables had drifted ragged before the check existed; documentation without a check did not hold for soft-wrap either.
 
 1. `1. database architecture.md`
 2. `2. data inclusion and exclusion.md`

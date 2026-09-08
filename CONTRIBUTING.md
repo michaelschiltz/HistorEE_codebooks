@@ -95,12 +95,12 @@ CR-0003,15,ryo,915,ryo_to_monme@61_market_est,low,Same transaction at an estimat
 
 That fixes where each kind of controlled value belongs:
 
-| Kind | Authority | Enforced by |
-|---|---|---|
-| Conditional — `allowed_values` per characteristic | vocabulary | `check_vocabularies.py` |
-| Open, growing census — `type_id`, `char_id` | vocabulary (deliberately **not** enum-constrained, so adding a form touches one file) | `check_vocabularies.py`, referentially |
-| Small closed schematic set with no vocabulary file — `confidence`, `articulation`, `source_lang`, `missingness` | `datapackage.json` enum | `frictionless validate` |
-| Small closed set carried in **both** — `instrument_type`, `amount_unit` | duplicated on purpose | agreement check in `check_vocabularies.py` |
+| Kind                                                                                                            | Authority                                                                             | Enforced by                                |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------|
+| Conditional — `allowed_values` per characteristic                                                               | vocabulary                                                                            | `check_vocabularies.py`                    |
+| Open, growing census — `type_id`, `char_id`                                                                     | vocabulary (deliberately **not** enum-constrained, so adding a form touches one file) | `check_vocabularies.py`, referentially     |
+| Small closed schematic set with no vocabulary file — `confidence`, `articulation`, `source_lang`, `missingness` | `datapackage.json` enum                                                               | `frictionless validate`                    |
+| Small closed set carried in **both** — `instrument_type`, `amount_unit`                                         | duplicated on purpose                                                                 | agreement check in `check_vocabularies.py` |
 
 The last row is the only deliberate duplication. It is kept so that an outside consumer running plain `frictionless validate` on the published deposit gets the same enforcement we do; the agreement check is what stops the two copies drifting. **Register any new such pair in `ENUM_VOCAB` in `check_vocabularies.py`** — an unregistered duplicate is precisely what drifts unnoticed.
 

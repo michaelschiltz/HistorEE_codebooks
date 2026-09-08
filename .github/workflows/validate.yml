@@ -32,6 +32,17 @@ jobs:
         # EXCLUDE list in the script).
         run: python scripts/check_softwrap.py
 
+      - name: Check Markdown table alignment
+        # Tables are exempt from the soft-wrap rule and until 2026-09-08 had no
+        # rule of their own, so 26 of the 37 hand-written ones had drifted ragged
+        # while every generated table stayed aligned -- md_table has padded since
+        # the beginning. The check runs over the generated files too, deliberately:
+        # it asserts that md_table's idea of alignment and this script's agree.
+        # It never rewrites a generated file; a ragged table there is a generator
+        # bug. Only whitespace between the pipes is touched, and every rewrite is
+        # verified by re-parsing and comparing cell content before it is written.
+        run: python scripts/check_tables.py
+
       - name: Validate controlled vocabularies
         # The vocabularies are not frictionless resources, so the step below
         # never sees them — yet they carry allowed_values, the component
