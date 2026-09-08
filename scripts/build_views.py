@@ -224,13 +224,27 @@ def render_tex(chars, types, cells, codes, forms, component, mechanism, claim, d
     L.append(rf"\textbf{{Dataset}} \texttt{{{tex(dataset)}}} \quad "
              rf"\textbf{{Component}} \texttt{{{tex(component)}}} \quad "
              + mech_bit)
+    # The closing clause used to name Table 2 unconditionally, but Table 2 is only
+    # emitted when a claim set was given (see DEFAULT_CLAIM, and the `if claim`
+    # below). DEFAULT_CLAIM has an entry for loss_mitigation_forms alone, so every
+    # organizational_forms appendix promised a table it did not contain. The count
+    # word was hard-coded to "two" for the same reason. Fixed 2026-09-08; the claim
+    # set is what licenses a comparative reading, so a dataset without one must say
+    # that it has none rather than gesture at a table. See logbook 3, 2026-09-08.
+    if claim:
+        n_word = {2: "two ", 3: "three ", 4: "four "}.get(len(claim), "")
+        tail = (r"the comparative reading is confined to Table~2, whose "
+                + n_word + r"characteristics were fixed before the coding.")
+    else:
+        tail = (r"no comparative table is printed, because this dataset has no claim set "
+                r"declared in advance: characteristics picked out after the coding would "
+                r"report a selection made by the analyst rather than a reading of the forms.")
     L.append(rf"\textbf{{{len(forms)} forms $\times$ {len(codes)} characteristics.}} "
              r"This view is restricted to one declared component set. Comparative claims "
              r"never run on the full characteristic set: with enough characteristics any two "
              r"forms separate, so a matrix printed over all of them reports how many "
              r"characteristics were used rather than anything about the forms. At this $n$ the "
-             r"matrix below is a coverage map and not evidence; the comparative reading is "
-             r"confined to Table~2, whose two characteristics were fixed before the coding.")
+             r"matrix below is a coverage map and not evidence; " + tail)
 
     # Table 1 — matrix
     L.append(r"\begin{table}[htbp]\centering\small")
