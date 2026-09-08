@@ -1,0 +1,90 @@
+Blind coding batch for `organizational_forms`. Load the `run-a-coding-batch`
+skill first, then `code-a-form`; follow `code-a-form` for the coding itself.
+
+THIS IS A BLIND PASS AND THE BUNDLE IS THE WHOLE WORLD. Work only inside
+`~/GitHub/_blind-chartered-corporation-2026-09-06`, which contains the
+codebooks repo, a scrubbed vault, and the one source under `sources/`. Do NOT
+open `~/GitHub/HistorEE_codebooks`, do NOT open `~/GitHub/myfoamrepo`, do NOT
+open the Zotero store, and do not go looking for any of them — not for a value,
+not for a row count, not to "check", not to find a second source. Three session
+slugs have been removed from the bundle's vault and its MOC entries and
+wikilinks scrubbed. An absence is a hole the scrubber made, never evidence, and
+must not be reconstructed or inferred from. If something you need is genuinely
+missing, SAY SO AND STOP rather than working around it.
+
+Code ONE form: `chartered_corporation_england` — the English business
+corporation incorporated by Royal Charter, letters patent or Act of Parliament,
+with joint-stock capital. All 32 characteristics.
+
+The source is in the bundle and is the only one you get: Harris, R.,
+*Industrializing English Law: Entrepreneurship and Business Organization,
+1720-1844*, Cambridge University Press. CITE AS `Harris 2000` — not 2004, not
+2010, not 2011; the file is CUP's 2004 electronic edition of the 2000 first
+edition and its pagination is the 2000 one. Offset `printed = PDF - 18`.
+DERIVE IT YOURSELF before citing anything and say what you checked; do not take
+it from this prompt. Clean text layer, no OCR needed.
+
+READ THE WHOLE BOOK BEFORE YOU CODE ANY CELL. It is a monograph and its
+chapters do not partition the way the census's components do. Nothing in this
+prompt tells you what the book concludes about any characteristic, and that is
+deliberate — an earlier draft did, and it was withdrawn for that reason.
+
+Scope, decided by the maintainer and not yours to reopen. NOT
+`deed_of_settlement_company`, which is the UNINCORPORATED counterpart and codes
+`LP1=0`; the two differ on the first characteristic either touches. Where a
+source says "joint stock company" of an English concern between 1720 and 1844
+it may mean either, so ESTABLISH THAT THE PASSAGE BEARS ON A CHARTERED ENTITY
+before any cell takes a value from it, and record that judgement in the cell
+note. NOT the VOC or any Dutch company — the book discusses them and that
+material is out of scope and must be coded from nowhere. NOT the pre-1600
+regulated, guild, municipal or ecclesiastical corporation.
+
+ONE SCOPE QUESTION IS OPEN AND IS YOURS TO PROPOSE WITH EVIDENCE: whether this
+row starts at 1600 or at 1720. Do not inherit the answer from the book's title.
+State separately what period you CLAIM and what period your coded cells
+actually REST ON; a gap between those two is this census's standing weakness of
+this kind and it must be visible in the type row rather than discovered later.
+
+Declarations that bind you, to be made BEFORE the rows and written into the
+type row. (i) HARRIS 2000 AND HARRIS 2020 ARE ONE AUTHOR TWICE and overlap
+substantially; if you ever cite both, no cell may count them as two witnesses.
+(ii) Harris 2000 is INDEPENDENT of Hansmann, Kraakman and Squire — zero
+mentions, measured across the full text — and that is why this batch exists,
+because four rows in this census rest inside the HKS grid and this one will
+not. Say so in the row header. (iii) THIS IS EFFECTIVELY A SINGLE-WITNESS ROW.
+Say so plainly. Nothing else bearing on this form is held.
+
+Co-occurrence: declare `deed_of_settlement_company` at `same-polity`. Do NOT
+declare against `joint_stock`, which is an uncoded umbrella this row replaces.
+Do NOT declare against any `voc` row. Write the reverse declaration into
+`deed_of_settlement_company`'s `key_source` prose, since its
+`cooccurrence_basis` already points elsewhere and holds only one basis.
+
+CODE EACH COLUMN ONLY FROM PASSAGES THAT ADDRESS THAT COLUMN'S OWN QUESTION.
+Do not infer a value from an adjacent column, and do not let a rich treatment
+of one question fill a neighbouring one. Where the book is silent the cell is
+`.NR`, never `0`. Where the vocabulary has no value that fits, code `.NR` and
+flag it rather than forcing the nearest wrong one. Before coding any column,
+satisfy yourself that the book actually asks that column's question — and if a
+component turns out to be thin, that is a finding and belongs in your report.
+
+Fix every cell BEFORE you compute anything about the matrix. Whether a value is
+new, whether it agrees with a neighbour, whether it fills an empty value — none
+of that is evidence unless the cell was written first. Say in your deliverable
+that this ordering held.
+
+Deliverables into the bundle's `proposed-of/`: a proposed rows CSV with
+PLACEHOLDER record ids, a proposed type-rows CSV, `NOTES-...md`, a logbook
+draft, and a commit message hard-wrapped at 72. Check for filename collisions
+and suffix rather than overwrite. Do NOT run `git`. Do NOT edit `data.csv`.
+Do NOT propose a new characteristic or widen any value set.
+
+Then answer, plainly and unprompted: what was coded and on what evidence; what
+could not be coded and why; WHICH OF YOUR OWN EXPECTATIONS WERE FALSIFIED —
+state them as expectations you formed before reading, not reconstructed after;
+any characteristic that did not fit the evidence; any dependence or
+well-formedness problem noticed and NOT repaired; and what to acquire next and
+which cell it would move.
+
+Judge yourself by your `.NR` count, not by cells filled. A proposal that codes
+every cell is a failed proposal.

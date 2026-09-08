@@ -1,0 +1,149 @@
+Blind coding batch for `organizational_forms`. Load the `run-a-coding-batch`
+skill first, then `code-a-form`; follow `code-a-form` for the coding itself.
+
+THIS IS A BLIND PASS AND THE BUNDLE IS THE WHOLE WORLD. Work only inside
+`~/GitHub/_blind-deed-of-settlement-recode-2026-09-07`, which contains the
+codebooks repo, a scrubbed vault, and two sources under `sources/`. Do NOT
+open `~/GitHub/HistorEE_codebooks`, do NOT open `~/GitHub/myfoamrepo`, do NOT
+open the Zotero store, do NOT use web search or web fetch, do NOT read any
+other blind bundle, and do not go looking for any of them — not for a value,
+not for a row count, not to "check", not to find a third source. A tool in
+your list that would reach material outside the bundle is a tool you do not
+use on this batch.
+
+MATERIAL HAS BEEN REMOVED FROM BOTH HALVES OF THE BUNDLE. Two form codes, a
+run of dated logbook entries, rows from a standing table in logbook 4, notes
+from the vault, the generated codebooks, a generated graph artefact and the
+CHANGELOG are gone; the vault's MOC entries and wikilinks have been scrubbed;
+and two passages have been redacted by hand, one of them inside a cell note
+belonging to another form. Read absence as absence. A gap is a hole the
+scrubber made. It is never evidence: do not reconstruct it, do not infer from
+it, do not count it, and do not treat the size or the position of a gap as
+telling you anything. Above all do not read a redacted or truncated note as a
+statement about the form under test. If something you genuinely need is
+missing, SAY SO AND STOP rather than working around it.
+
+CELL NOTES AND LOGBOOK ENTRIES REFER TO FILES UNDER `proposed-of/` THAT ARE
+NOT IN THE BUNDLE. That directory holds each batch's working papers and is
+not shipped; the references are the census's normal citation habit, not a
+pointer to something you are missing. Do not go looking for those files, and
+do not treat a dangling reference as a hole to fill.
+
+THIS IS A RE-CODING, AND IT IS DE NOVO. Five cells of one form are to be
+coded from the sources as if the form had never been coded: `AP1`, `AP2`,
+`AP4`, `AP3`, `LR1` of `deed_of_settlement_company`. The five existing values
+have been withheld from the bundle on purpose, so that you reach your own and
+the two sets can be compared afterwards. Do not hunt for them. If you come
+across a statement anywhere in the bundle that gives one of them, STOP, say
+where you found it, and do not use it. THE OTHER 27 CELLS OF THIS FORM ARE
+NOT YOURS. Do not code them, do not review them, do not propose changes to
+them.
+
+THE FORM, since its type row is withheld and you cannot read the definition
+there. `deed_of_settlement_company` is the English UNINCORPORATED joint-stock
+company constituted by deed of settlement, c.1720-1844: a partnership whose
+elaborately drafted articles excluded the default partnership rules and
+settled legal title to the circulating trade assets on a fixed body of
+trustees, with control divided between directors, a general court of
+proprietors and those trustees. Its constitutive instrument is the deed of
+settlement, a private deed — no Royal Charter, no letters patent, no Act.
+OUT OF SCOPE and not to be coded from: the testamentary trading trust; the
+ordinary Regency partnership of owner-managers; jointly run shipping and
+mining businesses; and chartered or statutory corporations. Both sources
+treat out-of-scope material at length. ESTABLISH THAT A PASSAGE BEARS ON THIS
+FORM BEFORE ANY CELL TAKES A VALUE FROM IT, and record that judgement in the
+cell note.
+
+THE TWO SOURCES, both under `sources/`.
+
+1. Televantos, A., *Capitalism Before Corporations: The Morality of Business
+   Associations and the Roots of Commercial Equity and Law*, Oxford
+   University Press 2020. Cite as `Televantos 2020`. Offset
+   `printed = PDF - 25`. DERIVE IT YOURSELF at several points before citing
+   anything and say what you checked; do not take it from this prompt.
+   CHAPTERS 3 TO 6 HAVE NEVER BEEN READ BY THIS PROJECT and are squarely on
+   this batch's question — the use of trusts in business structures, the
+   authority of trustees and executors, and trusts and the risk of
+   bankruptcy. Read them. Reading them is the largest gain available on this
+   batch and it costs nothing.
+
+2. Getzler, J. & Macnair, M., 'The Firm as an Entity before the Companies
+   Acts', in Brand, Costello & Osborough (eds), *Adventures of the Law:
+   Proceedings of the Sixteenth British Legal History Conference, Dublin,
+   2003*, Four Courts Press, Dublin, 2005, 267-288. Cite as
+   `Getzler & Macnair 2005`. A CITATION LIMIT BINDS YOU: the file in the
+   bundle is the Oxford working paper version, not the Four Courts printing,
+   and it carries no folio marks, so no offset can be derived and NO CELL MAY
+   CITE A PRINTED PAGE FROM IT. Cite by section heading and case name
+   instead, and say in the note that you did so and why.
+
+ONE INDEPENDENCE CHECK IS UNPERFORMED AND IT IS YOUR FIRST ACT, BEFORE ANY
+CELL. Televantos 2020 post-dates Getzler & Macnair 2005 by fifteen years and
+may cite it. If he does, agreement between them is one claim and its echo,
+not two witnesses. Count `Getzler` and `Macnair` across Televantos's full
+text, read the context of every hit, and report the result in your
+deliverable whatever it turns out to be. Until it is measured, no cell may
+treat these two as independent witnesses.
+
+WHAT IS ALREADY KNOWN ABOUT THEIR DEPENDENCE, and it binds you. Getzler &
+Macnair cite Harris 2000 four times and rely on him for the Bubble Act, for
+Eldon, and for the assimilation of deed-of-settlement companies to
+partnership; Harris 2000 is a coded source elsewhere in this census, so they
+are not independent of it there. They cite Hansmann & Kraakman 2000, so they
+sit INSIDE the framework whose vocabulary `AP1` is worded in — agreement
+between them and that framework is not corroboration of it. They cite DuBois
+and Hunt only as orthodoxy to argue against. Write these into the type row's
+prose before you write any cell.
+
+ONE LEAK IS DISCLOSED TO YOU RATHER THAN PAPERED OVER.
+`vocabularies/organizational_form_characteristic.csv` had to survive — you
+need `allowed_values`, `applicability_on` and the definitions — and its
+`entity`-locator text, repeated across several definitions, describes this
+form's trust arrangement and explains where the arrangement's boundary was
+drawn for locator purposes. THAT IS THIS PROJECT'S OWN SCOPING PROSE, NOT A
+SOURCE AND NOT A WITNESS. It tells you where to look; it does not tell you
+what any cell is, and no cell may cite it, agree with it, or count it as
+corroboration of anything a source says. Say in your deliverable that you
+saw it and how you kept it out of the coding.
+
+CODE EACH COLUMN ONLY FROM PASSAGES THAT ADDRESS THAT COLUMN'S OWN QUESTION.
+These five cells straddle two different questions that the period's own
+sources run together, and the standing failure mode is to fill one from a
+rich treatment of the other. Do not do it. Do not infer a value from an
+adjacent column. Where a source is silent the cell is `.NR`, never `0`; a
+source that does not ask the question yields `.NR`. Where the vocabulary has
+no value that fits, code `.NR`, flag it, and say what the missing value would
+have had to mean — do not force the nearest wrong one. Before coding any
+column, satisfy yourself that a source actually asks that column's question,
+and if one turns out to be thin, that is a finding and belongs in your
+report.
+
+CO-OCCURRENCE: nothing to declare. This form's co-occurrence declarations
+already exist, they are withheld with the type row, and a re-coding creates
+no new relation. Do not propose any.
+
+Fix every cell BEFORE you compute anything about the matrix. Whether a value
+is new, whether it agrees with a neighbour, whether it fills an empty
+value — none of that is evidence unless the cell was written first, and a
+value chosen because it would tidy the matrix is a corrupted value. Say in
+your deliverable that this ordering held.
+
+Deliverables into the bundle's `proposed-of/`: a proposed rows CSV with
+PLACEHOLDER record ids — you cannot know the real ones and must not guess,
+and the maintainer will reconcile your five rows against the existing five —
+a proposed type-rows CSV carrying the declarations, `NOTES-...md`, a logbook
+draft, and a commit message hard-wrapped at 72. Check for filename collisions
+and suffix rather than overwrite. Do NOT run `git`. Do NOT edit `data.csv`.
+Do NOT run any generator without `--check`. Do NOT propose a new
+characteristic or widen any value set.
+
+Then answer, plainly and unprompted: what was coded and on what evidence;
+what could not be coded and why; WHICH OF YOUR OWN EXPECTATIONS WERE
+FALSIFIED — state them as expectations you formed before reading, not
+reconstructed after; any characteristic that did not fit the evidence; any
+dependence or well-formedness problem you noticed and did NOT repair; and
+what to acquire next and which of these five cells it would move.
+
+Judge yourself by your `.NR` count, not by cells filled. Five cells coded
+confidently is not a good outcome and was not the point of building the
+bundle.

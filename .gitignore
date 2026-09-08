@@ -21,6 +21,14 @@ __pycache__/
 # Ignored so that an untracked staging folder never reads as pending work.
 proposed*/
 
+# records/ is NOT ignored, and the contrast is the point. The paragraph above
+# was written when the reasoning really did live in the tracked logbooks. By
+# 2026-09-08 the tracked record cited this ignored folder 47 times across 23
+# files -- five of them from data.csv cell notes -- with nine of those citations
+# already broken by an earlier tidy. What the deposit reasons FROM now lives in
+# records/, tracked and preserved verbatim; proposed*/ keeps only work in flight
+# and drafts superseded by the thing they became. See records/README.md.
+
 # Transfer archives used to move a session's output onto this machine. Deleted
 # once unpacked; ignored so a leftover never gets committed.
 _transfer*.tar

@@ -31,6 +31,11 @@ REPO = Path(__file__).resolve().parent.parent
 # files whose wrapping lives in the generator.
 EXCLUDE = [
     "LICENSE-DATA.md",
+    # records/ is the tracked batch record: priors, prompts, coding notes and
+    # proposed rows, preserved VERBATIM so that what the deposit claims about
+    # how it was made can be checked. Reformatting evidence is exactly the wrong
+    # instinct, so it is excluded here for the same reason LICENSE-DATA.md is.
+    "records/*",
     "datasets/*/codebook.md",
     "views/*.md",
 ]

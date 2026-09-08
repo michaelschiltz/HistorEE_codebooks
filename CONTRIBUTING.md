@@ -56,6 +56,18 @@ Fill in every `REPLACE_...` placeholder, and keep or delete each `TEMPLATE —` 
 6. A reviewer approves. Only then does it merge to `main`.
 7. `main` is protected: no direct pushes, no unreviewed data.
 
+### Where a batch's paperwork goes
+
+Two directories, and the line between them is what the deposit is allowed to cite.
+
+**`records/` is tracked and preserved verbatim.** It holds the artefacts of a completed batch that the tracked record reasons from: selection briefs, coding notes, the priors written before a source was opened, the prompts handed to a blind coding chat, the rows as proposed, and anything preserving content deleted from the census. **Nothing in it is ever reformatted, re-wrapped or re-aligned** — `check_softwrap.py` and `check_tables.py` both exclude it, on the same ground that excludes the verbatim `LICENSE-DATA.md`. Reformatting evidence is the wrong instinct.
+
+**`proposed*/` stays ignored** and holds work in flight and drafts superseded by the thing they became: open `PATCH-` proposals, `COMMIT-MSG-` files whose text Git already holds, `LOGBOOK-DRAFT-` files whose content is in the logbooks.
+
+**The citation rule.** A logbook entry, a `key_source` or a cell note may cite `records/` as **evidence**; it may cite `proposed-of/` only as a **pointer to open work**, and that pointer must be resolved when the work is. **Never cite a file that is not in the repository.** On 2026-09-08 the tracked record was found citing the ignored folder 47 times, nine of them at files an earlier tidy had already removed — one from a coded cell in `data.csv`. See `records/README.md`.
+
+**A priors file is worth writing only if it is committed before the coding it will be scored against.** An mtime proves nothing; a commit that precedes another commit does.
+
 ## 4. Coding conventions (the parts referees test)
 
 **Missingness is disaggregated.** Never leave a cell blank. Any field may carry one of three inline tokens, which the schema's `missingValues` treats as missing rather than as a value:

@@ -1,0 +1,103 @@
+SUPERSEDED 2026-09-06 (iv) BY PROMPT-chartered-corporation-coding-v2-2026-09-06.txt.
+DO NOT SEND THIS VERSION. It leaks. Its penultimate paragraph hands the coder
+(i) the `creditor` 13-hits/seven-public measurement together with an instruction
+not to fill AP1/AP2, which IS prediction 1 of the brief's SS8 and was marked
+'NOT to be given to Chat B'; and (ii) the source's own conclusion at printed
+128-129 on the very two cells, LR1 and AP3, that the pass exists to test.
+Caught by the coding chat before any cell was written. Kept as the record.
+----------------------------------------------------------------------------
+
+Blind coding batch for `organizational_forms`. Load the `run-a-coding-batch`
+skill first, then `code-a-form`; follow `code-a-form` for the coding itself.
+
+THIS IS A BLIND PASS AND THE BUNDLE IS THE WHOLE WORLD. Work only inside
+`~/GitHub/_blind-chartered-corporation-2026-09-06`. Do NOT open
+`~/GitHub/HistorEE_codebooks`, do NOT open `~/GitHub/myfoamrepo`, and do not
+go looking for either — not for a value, not for a row count, not to "check".
+The bundle's vault has had three session slugs removed and its MOC entries and
+wikilinks scrubbed. Read banners as banners: an absence in that vault is a hole
+the scrubber made, never evidence, and must not be reconstructed or inferred
+from. If something you need is genuinely missing, say so and stop rather than
+working around it.
+
+Code ONE form: `chartered_corporation_england` — the English business
+corporation incorporated by Royal Charter, letters patent or Act of Parliament,
+with joint-stock capital. All 32 characteristics.
+
+Source, and it is the only one you need: Harris, R., *Industrializing English
+Law: Entrepreneurship and Business Organization, 1720-1844*, Cambridge
+University Press. CITE AS `Harris 2000` — not 2004, not 2010, not 2011, and the
+reasons are in the bundle's logbook 5. Offset `printed = PDF - 18`, derived at
+301 folio points plus eight structural checks; VERIFY IT YOURSELF at a few
+points before citing, and say that you did. Clean text layer, no OCR needed,
+349 PDF pages.
+
+Scope, decided by the maintainer and not yours to reopen. NOT
+`deed_of_settlement_company`, which is the UNINCORPORATED counterpart and codes
+`LP1=0`; the two differ on the first characteristic either touches. Where a
+source says "joint stock company" of an English concern between 1720 and 1844
+it may mean either, so ESTABLISH THAT THE PASSAGE BEARS ON A CHARTERED ENTITY
+before any cell takes a value from it, and record that judgement in the cell
+note. NOT the VOC or any Dutch company — Harris discusses them at length and
+that material is out of scope and must be coded from nowhere. NOT the pre-1600
+regulated, guild, municipal or ecclesiastical corporation.
+
+ONE SCOPE QUESTION IS OPEN AND IS YOURS TO PROPOSE WITH EVIDENCE: whether this
+row starts at 1600 with the EIC or at 1720 with the Bubble Act. Harris's title
+says 1720 and his chapter 2 reaches back to the 1550s. Do not inherit the
+title. And state what period your CODED CELLS actually rest on, separately from
+the period you claim — `deed_of_settlement_company` claims 1720-1844 while
+every one of its cells rests on 1790-1827 evidence, and that is the census's
+standing weakness of this kind.
+
+Declarations that bind you, all to be made BEFORE the rows and written into the
+type row. (i) HARRIS 2000 AND HARRIS 2020 ARE ONE AUTHOR TWICE: Harris 2020
+§2.3 restates this book's printed 128, same three indications in the same
+order. No cell may count them as two witnesses. (ii) Harris 2000 is INDEPENDENT
+of Hansmann, Kraakman and Squire — 0 hits on all three, measured — and that is
+the point of this batch, because four rows in this census sit inside the HKS
+grid and this one will not. Say so in the row header. (iii) THIS IS
+EFFECTIVELY A SINGLE-WITNESS ROW; say so plainly in the type row. If you use
+`Dari-Mattiacci et al. 2013` at all, use it only on the EIC and only with two
+things in the cell note: it is already the source of other rows in this census,
+and Harris rejects its reading by name.
+
+Co-occurrence: declare `deed_of_settlement_company` at `same-polity`. Do NOT
+declare against `joint_stock`, which is an uncoded umbrella this row replaces.
+Do NOT declare against any `voc` row: Harris treating the EIC and VOC together
+is a SCOPE RULE, not a co-occurrence. Write the reverse declaration into
+`deed_of_settlement_company`'s `key_source` prose, since its
+`cooccurrence_basis` already points elsewhere and holds only one basis.
+
+Two warnings about the source, both measured. `creditor` occurs 13 times in 331
+pages AND SEVEN OF THOSE ARE THE PUBLIC CREDITORS OF THE STATE — the national
+debt and the South Sea conversion. The rest bear on members' liability TO
+creditors, which is `AP3`/`LR1`, not on creditor priority IN entity assets,
+which is `AP1`/`AP2`. DO NOT FILL `AP1` OR `AP2` BY INFERENCE FROM THE
+LIABILITY MATERIAL ONE COLUMN OVER. And printed 128-129 is the book's own
+statement that there was "no coherent, well-defined conception of limited
+liability" in this period, setting out the paid-up / unpaid-balance /
+above-nominal gradation as a question contemporaries themselves confused —
+read it before you touch `LR1` or `AP3`, and if the vocabulary has no value
+that fits, code `.NR` and flag it rather than forcing the nearest wrong one.
+
+Fix every cell BEFORE you compute anything about the matrix. Whether a value is
+new, whether it agrees with a neighbour, whether it fills an empty value — none
+of that is evidence unless the cell was written first. Say in your deliverable
+that this ordering held.
+
+Deliverables into the bundle's `proposed-of/`: a proposed rows CSV with
+PLACEHOLDER record ids, a proposed type-rows CSV, `NOTES-...md`, a logbook
+draft, and a commit message hard-wrapped at 72. Check for filename collisions
+and suffix rather than overwrite. Do NOT run `git`. Do NOT edit `data.csv`.
+Do NOT propose a new characteristic or widen any value set.
+
+Then answer, plainly and unprompted: what was coded and on what evidence; what
+could not be coded and why; WHICH OF YOUR OWN EXPECTATIONS WERE FALSIFIED, and
+state them as expectations you held before reading rather than reconstructing
+them afterwards; any characteristic that did not fit the evidence; any
+dependence or well-formedness problem noticed and NOT repaired; and what to
+acquire next and which cell it would move.
+
+Judge yourself by your `.NR` count, not by cells filled. A proposal that codes
+every cell is a failed proposal.
