@@ -27,7 +27,7 @@ Usage:
 Then hand the coder ONLY the bundle path. Their output comes back as CSVs or patches
 against the base commits recorded in the manifest.
 """
-import argparse, re, shutil, subprocess
+import argparse, fnmatch, re, shutil, subprocess
 from pathlib import Path
 
 LOG = []
@@ -47,10 +47,96 @@ def head_of(repo: Path) -> str:
         return "UNKNOWN"
 
 
+# A floor, not the mechanism: these are never copied even when tracked.
+def _floored(rel: Path) -> bool:
+    """True if a repo-relative path falls inside the standing exclusion floor.
+
+    Deliberately NOT `shutil.ignore_patterns`, which matches a bare name at
+    every level of the tree. Under that rule `proposed*` also drops
+    `records/proposed-rows-*.csv` -- seven tracked files that are the committed
+    evidence of what each batch proposed, and exactly the material a bundle may
+    legitimately carry. `proposed*` means **a folder at the repo root**, and the
+    floor now says so.
+    """
+    parts = rel.parts
+    if not parts:
+        return False
+    if parts[0] == ".git" or fnmatch.fnmatch(parts[0], "proposed*"):
+        return True
+    if "__pycache__" in parts:
+        return True
+    return rel.name.endswith(".tar")
+
+
+def tracked_files(repo: Path):
+    """Paths git tracks in `repo`, relative to it."""
+    out = subprocess.run(["git", "--no-optional-locks", "-C", str(repo),
+                          "ls-files", "-z"], capture_output=True, text=True,
+                         check=True).stdout
+    return [p for p in out.split("\0") if p]
+
+
 def copy_repo(src: Path, dst: Path):
-    shutil.copytree(src, dst, ignore=shutil.ignore_patterns(".git", "__pycache__",
-                                                            "proposed*", "*.tar"))
-    note(f"copied {src.name} at {head_of(src)[:8]}")
+    """Copy a repo into the bundle, tracked files only, and report the rest.
+
+    This used to be a copytree minus an enumerated list of names, and an
+    enumerated list protects only what somebody remembered to name. It did not
+    name `graph/graph.svg` -- a stale Graphviz render, untracked and gitignored
+    since 2026-08-02, left behind in the vault's working tree -- so every bundle
+    built since shipped a thousand note titles the repository had not held for
+    five weeks. Being ignored by git bought nothing, because **a copy of the
+    working tree is not a copy of the repository**.
+
+    So the rule is inverted. Copy what the repository tracks, which is the set
+    somebody has actually reviewed and committed, and decide nothing else here.
+    Untracked is not the same as junk -- a note written this morning is
+    untracked too -- so nothing is dropped silently: whatever did not make it in
+    is listed in the build log for the operator to read before handing over.
+    """
+    def _ignore(dirpath, names):
+        base = Path(dirpath)
+        return {n for n in names if _floored((base / n).relative_to(src))}
+
+    try:
+        tracked = tracked_files(src)
+    except Exception as exc:
+        shutil.copytree(src, dst, ignore=_ignore)
+        note(f"copied {src.name} at {head_of(src)[:8]} "
+             f"-- *** UNFILTERED FALLBACK: `git ls-files` failed ({exc}). "
+             f"Every untracked file in the working tree is in this bundle. ***")
+        return
+
+    kept = 0
+    for rel in map(Path, tracked):
+        s, d = src / rel, dst / rel
+        if not s.is_file() or _floored(rel):
+            continue
+        d.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(s, d)
+        kept += 1
+    note(f"copied {src.name} at {head_of(src)[:8]} -- {kept} tracked file(s)")
+
+    floored, review = 0, []
+    for s in sorted(src.rglob("*")):
+        if not s.is_file():
+            continue
+        rel = s.relative_to(src)
+        if (dst / rel).exists():
+            continue
+        if _floored(rel):
+            floored += 1
+        else:
+            review.append(rel.as_posix())
+    if floored:
+        note(f"  {floored} file(s) excluded by the standing floor "
+             f"(.git, __pycache__, proposed*, *.tar)")
+    if review:
+        note(f"  {len(review)} UNTRACKED file(s) in {src.name} were NOT copied "
+             f"-- read this list before handing over the bundle:")
+        for rel in review:
+            note(f"    - {rel}")
+        note("  ^ anything here the coder legitimately needs belongs in the repo, "
+             "committed, not copied into the bundle by hand.")
 
 
 def drop_csv_column(path: Path, column: str):
