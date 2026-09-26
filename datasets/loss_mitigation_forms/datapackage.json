@@ -2,7 +2,7 @@
   "name": "loss_mitigation_forms",
   "title": "Loss-mitigation forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological coding of arrangements that mitigate loss WITHOUT an entity, sorted by Harris's (2023) three-way distinction: allocation (risk assigned to a named party by contract - sea loan, bottomry, respondentia, commenda), spreading (transferred to third parties for a premium - marine insurance), and pooling (mutualised among stakeholders - general average, averia, ko/mujin, confraternity funds). Harris's own open question - under which conditions risk was spread as opposed to pooled or allocated - is what MC1 is for. Stored long/tidy. Carries the same WP1 component vocabulary as organizational_forms, so the packages join at component level. RULE: a characteristic lives in exactly one dataset; forms suffixed _alloc are cross-references to organizational_forms entries, coded here only on loss-allocation characteristics and never on the entity characteristics coded there. Rows with coder 'ai' are provisional.",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -127,7 +127,7 @@
             "name": "coder",
             "type": "string",
             "title": "Coder",
-            "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification.",
+            "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification. The model and effort setting of an 'ai' coding are carried in `coder_model` and `coder_effort`.",
             "constraints": {
               "required": true
             }
@@ -174,6 +174,283 @@
             "type": "string",
             "title": "Notes",
             "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references."
+          },
+          {
+            "name": "coder_model",
+            "type": "string",
+            "title": "Coder model",
+            "description": "Identifier of the AI model that produced the value currently in this row, where `coder` is 'ai' (e.g. `claude-opus-5`); `.NA` where the coder is a person; `.NR` where not recorded. Back-filled on 2026-09-26 for every row then in the census, on the maintainer's statement that all cells to that date were coded by Claude Opus 5 at effort 'high' (logbook 1, 2026-09-26). When an adjudicated re-coding replaces a value, this field changes with it; the superseded coding survives in `recodings.csv`.",
+            "constraints": {
+              "pattern": "^[a-z0-9][a-z0-9.-]*$"
+            }
+          },
+          {
+            "name": "coder_effort",
+            "type": "string",
+            "title": "Coder effort",
+            "description": "Named effort (reasoning-budget) setting under which `coder_model` produced this row's value; `.NA` where the coder is a person; `.NR` where not recorded. Named levels are not comparable across models: 'high' on one model is not the same budget as 'high' on another, so compare codings by the pair (`coder_model`, `coder_effort`), never by this field alone.",
+            "constraints": {
+              "enum": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "loss_mitigation_forms_recodings",
+      "path": "recodings.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": {
+        "primaryKey": "recoding_id",
+        "missingValues": [
+          "",
+          ".NR",
+          ".IL",
+          ".NA"
+        ],
+        "fields": [
+          {
+            "name": "recoding_id",
+            "type": "string",
+            "title": "Recoding ID",
+            "description": "Identifier of one re-coding of one cell in one pass. `LM-R` plus four digits, taken as max(existing)+1.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^LM-R[0-9]{4}$"
+            }
+          },
+          {
+            "name": "record_id",
+            "type": "string",
+            "title": "Record ID",
+            "description": "The `data.csv` row this re-coding tests. Several re-codings may point at one row, one per pass.",
+            "constraints": {
+              "required": true,
+              "pattern": "^LM-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "type_id",
+            "type": "string",
+            "title": "Pooling form (coded)",
+            "description": "Form code, copied from the tested row so that this file can be read on its own."
+          },
+          {
+            "name": "char_id",
+            "type": "string",
+            "title": "Characteristic (coded)",
+            "description": "Characteristic code, copied from the tested row so that this file can be read on its own."
+          },
+          {
+            "name": "pass",
+            "type": "string",
+            "title": "Pass",
+            "description": "Slug of the re-coding pass, as named in its `records/` notes and its logbook 4 entry.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "recoded_on",
+            "type": "date",
+            "title": "Recoded on",
+            "description": "Date the re-coded value was fixed (ISO 8601).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "condition",
+            "type": "string",
+            "title": "Condition",
+            "description": "`blind` if the re-coder did not see the existing value or the operator's expectations before fixing this one; `open` otherwise.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "blind",
+                "open"
+              ]
+            }
+          },
+          {
+            "name": "coder",
+            "type": "string",
+            "title": "Coder",
+            "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification. The model and effort setting of an 'ai' coding are carried in `coder_model` and `coder_effort`.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "coder_model",
+            "type": "string",
+            "title": "Coder model",
+            "description": "Model that produced the re-coded value, where `coder` is 'ai'; `.NA` for a person.",
+            "constraints": {
+              "pattern": "^[a-z0-9][a-z0-9.-]*$"
+            }
+          },
+          {
+            "name": "coder_effort",
+            "type": "string",
+            "title": "Coder effort",
+            "description": "Named effort setting of the re-coding; not comparable across models (see `data.csv`).",
+            "constraints": {
+              "enum": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "title": "Coded state",
+            "description": "The re-coded value."
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "title": "Record confidence",
+            "description": "Confidence in the coding. Orthogonal to value.",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "articulation",
+            "type": "string",
+            "title": "Articulation",
+            "description": "Whether the coded function was articulated by the tradition's own advocates in their own idiom ('articulated'), or is visible only under the analyst's description ('analyst-imposed'). '.NR' where not yet assessed; propagates '.NA' with the value. 'articulated' must never rest on a placeholder citation.",
+            "constraints": {
+              "enum": [
+                "articulated",
+                "analyst-imposed"
+              ]
+            }
+          },
+          {
+            "name": "source_ref",
+            "type": "string",
+            "title": "Source reference",
+            "description": "Short citation supporting the coding, or '[verify]' where the value is asserted pending a pinned reference."
+          },
+          {
+            "name": "source_lang",
+            "type": "string",
+            "title": "Source language",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3.",
+            "constraints": {
+              "enum": [
+                "ja",
+                "nl",
+                "de",
+                "fr",
+                "en",
+                "es",
+                "he",
+                "arc",
+                "ar",
+                "la",
+                "it",
+                "tr",
+                "zh",
+                "pl",
+                "pt"
+              ]
+            }
+          },
+          {
+            "name": "source_read",
+            "type": "string",
+            "title": "Source read",
+            "description": "Whether the coder had read source_ref when the cell was entered, or has since. 'full' = read throughout; 'partial' = read the cited passages and their context; 'none' = coded from secondary description without opening the source; 'unknown' = not recorded at coding time. '.NA' where the row has no source. PROCESS METADATA, NOT A CLAIM ABOUT THE SOURCE.",
+            "constraints": {
+              "enum": [
+                "full",
+                "partial",
+                "none",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "value_at_recoding",
+            "type": "string",
+            "title": "Value at recoding",
+            "description": "The `data.csv` value of the tested row when this re-coding was fixed. Kept because `data.csv` may later change; agreement is scored against this, not against the current value."
+          },
+          {
+            "name": "agreement",
+            "type": "string",
+            "title": "Agreement",
+            "description": "Whether `value` equals `value_at_recoding`.",
+            "constraints": {
+              "enum": [
+                "agree",
+                "disagree"
+              ]
+            }
+          },
+          {
+            "name": "adjudication",
+            "type": "string",
+            "title": "Adjudication",
+            "description": "`pending` until a person rules; `kept` if the existing value stands; `replaced` if this value was written into `data.csv` (and `coder_model`/`coder_effort` there changed with it); `disputed` if left open.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "pending",
+                "kept",
+                "replaced",
+                "disputed"
+              ]
+            }
+          },
+          {
+            "name": "adjudicated_by",
+            "type": "string",
+            "title": "Adjudicated by",
+            "description": "Initials of the person who ruled, or 'none'.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "title": "Notes",
+            "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references."
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "record_id",
+            "reference": {
+              "resource": "loss_mitigation_forms",
+              "fields": "record_id"
+            }
           }
         ]
       }

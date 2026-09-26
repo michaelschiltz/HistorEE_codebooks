@@ -67,6 +67,8 @@ A dependence asserted on logical grounds is a **hypothesis**. `agent-loss-exposu
 
 `coder=ai` marks provisional assistant codings pending human verification, and the datapackage description, the `coder` field description and the "PARTLY ASSISTANT-CODED" title all depend on it. **Do not bulk-convert `ai` to initials.** If adoption needs recording, propose an additive `verified_by` column, which preserves who entered a row against who checked it.
 
+**Every `ai` row also carries `coder_model` and `coder_effort`** (since 2026-09-26; logbook 1). Fill both on every new or re-coded row with the coding chat's model identifier and effort setting, e.g. `claude-opus-5-5` / `high`. A blank is a declared missing value, so no check will catch a forgotten one. Re-codings do not overwrite history: each goes to `recodings.csv` with `value_at_recoding` and `adjudication=pending`, and `data.csv` changes only when MS adjudicates `replaced`.
+
 ## Reserved terminology
 
 Mirrors the vault's rules; the same words appear in `notes` fields.

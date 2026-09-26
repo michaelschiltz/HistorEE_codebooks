@@ -2,6 +2,17 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms, loss_mitigation_forms — 2026-09-26
+
+**Which model coded a cell is now recorded in the data. Both censuses gain `coder_model` and `coder_effort`, back-filled `claude-opus-5` / `high` on all 1,573 rows, and a second, empty resource `recodings.csv` for re-codings. No coded value moves; no row is added or removed. `organizational_forms` `0.9.0` → `0.10.0`; `loss_mitigation_forms` `0.6.0` → `0.7.0`.**
+
+- **The back-fill rests on the maintainer's statement**, given 2026-09-26: every cell to date was coded by Claude Opus 5 at effort "high". Nothing in the repository recorded the model before; `coder` has only ever said `ai`.
+- **`coder=ai` is unchanged.** The model is carried beside it, not in it, because the dataset descriptions, the title and the view footer depend on the literal value.
+- **The two columns are appended after `notes`**, so no existing column moves for a positional reader. Human-coded rows take `.NA`; unrecorded ones `.NR`. **`coder_effort` names are not comparable across models**: "high" on one model is not the same reasoning budget as "high" on another, so compare codings by the pair.
+- **`recodings.csv` holds one row per re-coded cell per pass**, with the value in force when it was scored (`value_at_recoding`), `agreement`, and an `adjudication` that is `pending` until a person rules. `record_id` is a foreign key to `data.csv`. `data.csv` always describes its current value: when an adjudicated re-code replaces one, that row's `coder_model`/`coder_effort` change with it, and the superseded coding stays in `recodings.csv` and in Git. **The file is empty**; the first intended pass is a blind re-code of a sample by Claude Opus 5.5 at "high".
+- **Before `recodings.csv` gets its first row, `make_blind_bundle.py` must learn to scrub it**, or a re-coding bundle would carry earlier re-codings of the forms it withholds (logbook 3, 2026-09-26). `codebook.md` documents only the first resource, so `recodings.csv` is described in `datapackage.json` alone.
+- **Version**: a minor bump in both censuses, because a field was added (CONTRIBUTING §5). Checks green before and after: soft-wrap, tables, vocabularies, dependence (0 on both), `frictionless` (two resources VALID per census; the foreign key and enums were shown to reject a bad row on a throwaway copy), codebooks regenerated twice and `cmp`-identical, all eleven views current.
+
 ## organizational_forms — 2026-09-08
 
 **Two stale statements corrected in place and one of yesterday's own findings retracted. No coded value moves, no row is added or removed, no generated file changes. 833 rows, 33 coded forms, 44 type codes, all unchanged. Schema stays `0.9.0`.** A housekeeping pass closing two of the six defects the 2026-09-07 (ii) batch flagged and could not repair, each licensed by the maintainer naming it. The other four stay open and are listed at the end.

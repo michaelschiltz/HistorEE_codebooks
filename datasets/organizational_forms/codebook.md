@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
-- **Version**: 0.9.0  
+- **Version**: 0.10.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
 - **Rows**: 833  
@@ -48,6 +48,8 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 | 11 | `reviewed_by`   | string |    ✓     |                                                                                     | 833/833 |
 | 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                        | 833/833 |
 | 13 | `notes`         | string |          |                                                                                     | 833/833 |
+| 14 | `coder_model`   | string |          |                                                                                     | 833/833 |
+| 15 | `coder_effort`  | string |          | `low`, `medium`, `high`, `xhigh`, `max`                                             | 833/833 |
 
 ## Variable definitions
 
@@ -110,7 +112,7 @@ Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 
 
 ### `coder` — Coder
 
-Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification.
+Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification. The model and effort setting of an 'ai' coding are carried in `coder_model` and `coder_effort`.
 
 - **type** string · **required**
 
@@ -141,4 +143,18 @@ Initials of the team member who has checked this cell, or 'none'. Distinct from 
 Free-text coder note: rationale, the school that dissents, caveats, cross-references.
 
 - **type** string
+
+
+### `coder_model` — Coder model
+
+Identifier of the AI model that produced the value currently in this row, where `coder` is 'ai' (e.g. `claude-opus-5`); `.NA` where the coder is a person; `.NR` where not recorded. Back-filled on 2026-09-26 for every row then in the census, on the maintainer's statement that all cells to that date were coded by Claude Opus 5 at effort 'high' (logbook 1, 2026-09-26). When an adjudicated re-coding replaces a value, this field changes with it; the superseded coding survives in `recodings.csv`.
+
+- **type** string · **pattern** `^[a-z0-9][a-z0-9.-]*$`
+
+
+### `coder_effort` — Coder effort
+
+Named effort (reasoning-budget) setting under which `coder_model` produced this row's value; `.NA` where the coder is a person; `.NR` where not recorded. Named levels are not comparable across models: 'high' on one model is not the same budget as 'high' on another, so compare codings by the pair (`coder_model`, `coder_effort`), never by this field alone.
+
+- **type** string · **values** `low`, `medium`, `high`, `xhigh`, `max`
 
