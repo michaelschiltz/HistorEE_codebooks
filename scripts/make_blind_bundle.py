@@ -427,6 +427,7 @@ def main():
             extra.unlink(); note(f"  removed {extra.name}")
     types = {t for t in a.withhold_types.split(",") if t}
     next_ids = {}
+    next_rec_ids = {}
     residual = []
     removed_titles = []
     if types:
@@ -448,6 +449,33 @@ def main():
             d.write_text(buf.getvalue(), encoding="utf-8", newline="")
             note(f"  removed {len(rows) - len(keep)} row(s) for "
                  f"{', '.join(sorted(types))} from {d.parent.name}/data.csv")
+        # recodings.csv (added 2026-09-26, logbook 1): one row per re-coded cell per
+        # pass. Without this scrub a re-coding bundle would carry every earlier
+        # re-coding of the very forms it withholds -- their values, their notes and
+        # the adjudication. Same filter as data.csv, keyed on type_id. The next free
+        # recoding_id is taken from the UNSCRUBBED file and goes to the manifest,
+        # since the coder can no longer compute it.
+        for d in sorted((cb / "datasets").glob("*/recodings.csv")):
+            rrows = list(_csv.DictReader(d.open(encoding="utf-8")))
+            with d.open(encoding="utf-8") as fh:
+                rhdr = next(_csv.reader(fh), [])
+            data_rows = list(_csv.DictReader((d.parent / "data.csv").open(encoding="utf-8")))
+            if rrows:
+                rpre, rnum = rrows[0]["recoding_id"].rsplit("-R", 1)
+                rnxt = max(int(r["recoding_id"].rsplit("-R", 1)[1]) for r in rrows) + 1
+                next_rec_ids[d.parent.name] = f"{rpre}-R{rnxt:0{len(rnum)}d}"
+            elif data_rows:
+                next_rec_ids[d.parent.name] = (
+                    data_rows[0]["record_id"].rsplit("-", 1)[0] + "-R0001")
+            keep = [r for r in rrows if r.get("type_id") not in types]
+            if len(keep) == len(rrows):
+                continue
+            buf = _io.StringIO()
+            w = _csv.DictWriter(buf, fieldnames=rhdr, lineterminator="\n")
+            w.writeheader(); w.writerows(keep)
+            d.write_text(buf.getvalue(), encoding="utf-8", newline="")
+            note(f"  removed {len(rrows) - len(keep)} re-coding row(s) for "
+                 f"{', '.join(sorted(types))} from {d.parent.name}/recodings.csv")
         for cbk in sorted((cb / "datasets").glob("*/codebook.md")):
             cbk.unlink(); note(f"  removed {cbk.parent.name}/codebook.md (row counts would betray the removal)")
         for v in sorted((cb / "vocabularies").glob("*_type.csv")):
@@ -478,6 +506,8 @@ def main():
         + f"- withheld types: {', '.join(sorted(types)) or 'none'}\n"
         + ("".join(f"- NEXT FREE record_id for {k}: `{v}` -- SUPPLY THIS TO THE CODER\n"
                    for k, v in next_ids.items()) if next_ids else "")
+        + ("".join(f"- NEXT FREE recoding_id for {k}: `{v}` -- SUPPLY THIS TO THE CODER\n"
+                   for k, v in next_rec_ids.items()) if next_rec_ids else "")
         + "\n"
         "## Removed\n\n" + "".join(f"- {l}\n" for l in LOG) + "\n"
         + ("## RESIDUAL MENTIONS -- HAND REVIEW REQUIRED BEFORE THE BUNDLE SHIPS\n\n"
