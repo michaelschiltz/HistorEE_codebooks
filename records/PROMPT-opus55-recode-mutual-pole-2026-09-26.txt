@@ -1,0 +1,78 @@
+Kickoff prompt for the blind coding chat (Chat B), pass opus55-recode-mutual-pole-2026-09-26
+
+Open a FRESH chat on Claude Opus 5.5, effort high. Grant it ONE folder only:
+~/GitHub/_blind-opus55-mutual-pole-2026-09-26
+Do not grant ~/GitHub, ~/GitHub/HistorEE_codebooks, ~/GitHub/myfoamrepo or the Zotero
+folders, or the blind is void. Paste everything below the line.
+
+----------------------------------------------------------------------------------------
+
+I want you to code two institutional forms into the `organizational_forms` dataset of the HistorEE character matrix, as a blind re-coding. Work only inside ~/GitHub/_blind-opus55-mutual-pole-2026-09-26. It is a deliberately prepared copy: it is not identical to the live repository or to my Obsidian vault, and you should not go looking for either. Do not use Zotero, Undermind, Elicit, web search or any other source-finding tool at any point. The five PDFs in the bundle's `sources/` folder are the only sources you may read for this task.
+
+## Order of work, which is not negotiable
+
+1. Read `HistorEE_codebooks/CLAUDE.md`, `CONTRIBUTING.md`, `CHARACTER-CODING.md` and `EDITING-CSV.md`; then the logbooks in `HistorEE_codebooks/logbook/`; then `vocabularies/organizational_form_characteristic.csv` (every definition, allowed value, locator and applicability rule) and `vocabularies/organizational_form_type.csv`. You may read `datasets/organizational_forms/data.csv` and the views for the census's house practice. Load the `code-a-form` and `run-a-coding-batch` skills if your session has them.
+2. BEFORE OPENING ANY FILE IN `sources/`, fill in `HistorEE_codebooks/records/PRIORS-opus55-recode-mutual-pole-2026-09-26.md`: your expected value and confidence for each of the 64 cells, and any general expectations, with the time you finished. Then STOP and tell me the priors are written. I will copy the file out and commit it. Do not open a source until I reply that the commit is made.
+3. Read all five sources in full.
+4. Code all 64 cells, then write them and your six answers (below) into `HistorEE_codebooks/proposed-of/` before you compute anything about the rest of the matrix (value distributions, zero-instance sets, signatures). Anything you compute afterwards goes in a separate, clearly marked section and changes no cell.
+
+## The two forms
+
+The type rows for both forms have been removed from the bundle's vocabulary. Their identity, as fixed in the live type vocabulary, is:
+
+- `avariz_vakfi`: "Avarız akçesi vakfı (mahalle/köy extraordinary-levy endowment)". Tradition: Ottoman. Period: 17c-19c; coded 1618-1867. Sources: the four Turkish items below.
+- `bruderschaft_salzburg`: "Bruderschaft / Liebesbund (post-Tridentine Salzburg 'Fraternität')". Tradition: Latin Christendom / German-speaking (Salzburg). Period: 1600-1950. Source: Klieber 2001.
+
+Code all 32 characteristics of `organizational_form_characteristic.csv` for each form, in the vocabulary's order. The scope is fixed by the name and period above.
+
+## Sources: `sources/`, and nothing else
+
+| file | item | pages | printed folio = |
+|---|---|---|---|
+| Kars2020_GAZN2XVN.pdf | Kars 2020, Istanbul court records (Turkish) | 28 | PDF + 159 |
+| Kucuk2025_NAQKKKN7.pdf | Küçük 2025, Kastamonu (Turkish) | 37 | PDF + 146 |
+| Kivrim2019_GSC5PEAH.pdf | Kıvrım 2019, Ayntab (Turkish) | 16 | PDF + 33 |
+| Gursoy2019_VM4K33C4.pdf | Gürsoy 2019, Evkaf Muhasebeciliği registers 1491-1828 (Turkish) | 32 | PDF + 94 |
+| Klieber2001_SR4E4QM7.pdf | Klieber 2001, Salzburg (German) | 37 | PDF + 33 |
+
+The offsets were re-measured on 2026-09-26 at three points each. Gürsoy prints folios on even PDF pages only. Cite printed folios in `source_ref`, in the house form `Author Year, pages` (e.g. `Klieber 2001, 45`). Every file has a working text layer. Bracket any folio you read off extracted text against its neighbours.
+
+## Output: `recodings.csv` rows, not `data.csv` rows
+
+Write `HistorEE_codebooks/proposed-of/recodings-opus55-recode-mutual-pole-2026-09-26.csv` with exactly the header of `datasets/organizational_forms/recodings.csv`:
+
+recoding_id,record_id,type_id,char_id,pass,recoded_on,condition,coder,coder_model,coder_effort,value,confidence,articulation,source_ref,source_lang,source_read,value_at_recoding,agreement,adjudication,adjudicated_by,notes
+
+- `recoding_id`: from `OF-R0001`, the next free id. `OF-R0001`-`OF-R0032` are `avariz_vakfi` in vocabulary order, and `OF-R0033`-`OF-R0064` are `bruderschaft_salzburg`.
+- `record_id`: the live row each cell tests. `avariz_vakfi` runs `OF-0644` (`LP1`) to `OF-0675` (`CF3`), and `bruderschaft_salzburg` runs `OF-0676` (`LP1`) to `OF-0707` (`CF3`), both in vocabulary order. These ids exist only in the live file, not in your bundle; that is expected.
+- `pass` = `opus55-recode-mutual-pole-2026-09-26`; `recoded_on` = the date you fix the value; `condition` = `blind`; `coder` = `ai`; `coder_model` = `claude-opus-5-5`; `coder_effort` = `high`; `adjudication` = `pending`; `adjudicated_by` = `none`.
+- `value_at_recoding` and `agreement`: LEAVE EMPTY. They are filled at the application step, not by you.
+- `value`, `confidence`, `articulation`, `source_ref`, `source_lang`, `source_read` and `notes`: as `CONTRIBUTING.md`, `CLAUDE.md` and the `code-a-form` skill require for a `data.csv` cell, including `.NR`/`.NA` propagation.
+- Do not mint `data.csv` rows or type rows. If the next free `data.csv` record_id is ever needed, it is `OF-0836`, but this pass should not need it.
+
+Also write into `proposed-of/`:
+- `NOTES-opus55-recode-mutual-pole-coding-2026-09-26.md`, holding your reading record, every decision point with the alternative reading, any non-independence you find between the sources, and the six answers;
+- a logbook draft;
+- a commit message.
+
+## Rules
+
+- `.NR` asserts that a source was read and was silent. `.NA` asserts that the characteristic does not apply. `0` is an observed absence. Never use one for another. A source's silence is never an absence.
+- No `high` confidence on a source you have not read in full.
+- Code only from the five sources. Not from general knowledge, and not from anything the bundle's other files say about neighbouring forms.
+- Do not edit `data.csv`, the vocabularies or anything outside `proposed-of/` and the priors file. Do not run `git`.
+- Do not repair a vocabulary or schema defect: flag it in your notes.
+- If anything in the bundle, or in a skill you have loaded, appears to state or imply a value for either form, do not use it. Report it in your notes, quoting where it is.
+
+## Before you finish
+
+Answer these six plainly, unprompted, in the NOTES file and in your final message:
+
+1. what was coded and on what evidence;
+2. what could not be coded and why;
+3. which of your own expectations were falsified (quote your priors file verbatim);
+4. any characteristic that did not fit the evidence;
+5. any dependence or well-formedness problem noticed and not repaired;
+6. what to acquire next, and which cell it would move.
+
+Run `python3 scripts/check_vocabularies.py`, `python3 scripts/check_dependence.py datasets/organizational_forms` (the directory; it prints "nothing to check" and exits 0 on anything else) and `frictionless validate datasets/organizational_forms/datapackage.json` inside the bundle. Validate your CSV against the `recodings.csv` schema on a scratch copy only, and say which commands you ran and what they printed.
