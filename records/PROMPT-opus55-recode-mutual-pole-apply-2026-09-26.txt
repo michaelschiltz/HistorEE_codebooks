@@ -1,0 +1,152 @@
+Kickoff prompt for the application chat (Chat C), pass opus55-recode-mutual-pole-2026-09-26
+
+Open a FRESH chat. Grant exactly two folders:
+  ~/GitHub/HistorEE_codebooks                                   (live tree)
+  ~/GitHub/_blind-opus55-mutual-pole-2026-09-26                 (bundle; read-only use)
+Do not grant myfoamrepo or the Zotero folders; they are not needed.
+
+--- prompt begins ---
+
+You are applying a finished blind re-coding to the live HistorEE_codebooks
+tree. You are NOT a coder and NOT an adjudicator. Load the
+run-a-coding-batch skill and follow its application pipeline, as narrowed
+here. CLAUDE.md, CONTRIBUTING.md and CHARACTER-CODING.md in the repo take
+precedence over the skill.
+
+What was done. Pass opus55-recode-mutual-pole-2026-09-26 (condition blind,
+coder ai, coder_model claude-opus-5-5, coder_effort high) re-coded all 32
+characteristics of avariz_vakfi (OF-0644-0675) and bruderschaft_salzburg
+(OF-0676-0707) as recodings OF-R0001-R0064. Priors were committed first
+(records/PRIORS-opus55-recode-mutual-pole-2026-09-26.md). The coding record
+is in the bundle at
+~/GitHub/_blind-opus55-mutual-pole-2026-09-26/HistorEE_codebooks/proposed-of/.
+
+I lift the data.csv prohibition for READING only. You may read the live
+data.csv in full. You may not edit it.
+
+Scope, decided in advance (do not ask again):
+  - Write: datasets/organizational_forms/recodings.csv (append only),
+    records/ (copies), logbook/4 and logbook/5 (new entries at top),
+    CHANGELOG.md (new block at top), proposed-of/ in the live tree
+    (worksheet and commit message).
+  - Do not write: data.csv, any vocabulary, datapackage.json, any view,
+    codebook.md, any script. No version bump: rows only.
+  - Do not run git. I commit.
+
+Steps, in order:
+
+1. Verify the coding record is the frozen one. sha256 the files in the
+   bundle's proposed-of/ and stop if any differs:
+     9dd4b1dcb2925237de77b26e1195f0a35df52d87e33fe413dbe197cadc556584  recodings-opus55-recode-mutual-pole-2026-09-26.csv
+     ad922b486a7d69b8df45197229fb563320ac3ba23abfef46a20d5e5df95cb2cb  NOTES-opus55-recode-mutual-pole-coding-2026-09-26.md
+     aa2669c96dd3a085f65e580a2fc1f5bea563b11379638cd91e22997bf5b97b65  NOTES-opus55-recode-mutual-pole-postfreeze-2026-09-26.md
+     8dfed17f8a8a10eaf584516c2ac71bbefe49a2a1341529f9a97c717e90de31ae  LOGBOOK-DRAFT-opus55-recode-mutual-pole-2026-09-26.md
+     4dc40a65bd889e3d36bb9960f5aa45671717a862e03a9816bcf0061a36435e0e  COMMIT-MSG-opus55-recode-mutual-pole-2026-09-26.txt
+
+2. Verify the destination. cmp the live tree against the bundle for every
+   file under HistorEE_codebooks/ except proposed-of/. Expected to differ,
+   because the bundle's copies were scrubbed:
+     - datasets/organizational_forms/data.csv
+     - logbook/*
+     - vocabularies/organizational_form_type.csv (two rows withheld)
+     - vocabularies/organizational_form_characteristic.csv and
+       vocabularies/loss_mitigation_type.csv ("[withheld 2026-09-26 ...]"
+       markers)
+   For those, confirm the difference is only the scrub. Any other
+   difference: stop and report. Then run the full check suite on the live
+   tree and confirm it is green before you touch anything.
+
+3. Verify the join. In live data.csv, each of OF-0644-0707 must exist and
+   carry exactly the (type_id, char_id) the proposed CSV gives it. Any
+   mismatch: stop.
+
+4. Fill the two empty fields, and nothing else. value_at_recoding is the
+   live data.csv value for that record_id, verbatim. For agreement, read
+   the enum and any documented definition (datapackage.json,
+   CONTRIBUTING, CHARACTER-CODING, logbooks). If the rule mapping a pair
+   of values to an agreement code is not documented, STOP and ask me. Do
+   not invent it. adjudication stays pending, adjudicated_by stays none.
+   Every other field is copied byte for byte.
+
+5. Append the 64 rows to live recodings.csv. Round-trip the file first and
+   cmp it. Write with lineterminator='\n'. Assert that the file's prior
+   content is an exact prefix of the new file.
+
+6. Copy the record into records/, cmp each copy, check for name
+   collisions first, and never overwrite:
+     NOTES-opus55-recode-mutual-pole-coding-2026-09-26.md
+     NOTES-opus55-recode-mutual-pole-postfreeze-2026-09-26.md
+     PROPOSED-RECODINGS-opus55-recode-mutual-pole-2026-09-26.csv
+       (the frozen file, unfilled)
+     PROMPT-opus55-recode-mutual-pole-apply-2026-09-26.txt
+       (this prompt, copied from the bundle's proposed-of/)
+   I will supply the coding kickoff prompt separately as
+   PROMPT-opus55-recode-mutual-pole-2026-09-26.txt. Ask for it if I have
+   not.
+
+7. Agreement report. This is computed before any adjudication and
+   reported as it stands:
+   a. Counts by form, by component and overall, with four classes kept
+      apart: exact match; substantive disagreement (two different coded
+      values); missingness disagreement (a value against .NR/.NA, or .NR
+      against .NA); confidence-only difference on a matching value.
+   b. For every disagreement: both values, confidences and articulation,
+      and both source_refs. Say whether the live cell rests on the same
+      sources as the re-code, different ones, or a mixture.
+   c. Dependence. For each disagreeing child cell (AP3/LR1 on CF1; LR5 on
+      LR4; LR6 on LR2; MG3 on MG1; CF2 on CF1; AP4 on founder), say
+      whether its parent also disagrees.
+   d. The coding notes predicted three disagreements: avariz_vakfi LR4,
+      avariz_vakfi LR5, and FP1=mutual-provision on one of the two forms.
+      Say which materialised.
+   e. State plainly: both coders are Claude models (claude-opus-5 live,
+      claude-opus-5-5 re-code). Agreement between them is weak evidence of
+      reliability; disagreement is the more informative result.
+
+8. Adjudication worksheet. Write it to the live proposed-of/ as
+   ADJUDICATION-opus55-recode-mutual-pole-2026-09-26.md, with one entry
+   per disagreement. Order: FP1, LR4, LR5 first; then parents before their
+   children; then the rest. Each entry gives both readings with their
+   cited pages, the recoding note's stated alternative, and an empty
+   decision line offering: re-code right / live stands / definitional
+   (vocabulary question) / split. Pre-list the definitional questions the
+   coding notes raise: LR4 and spiritual hazard; CF1 on waqf-type forms;
+   AP4 with plural, cumulative founders; MG4 religious vs customary. Also
+   pre-list the split proposal: bruderschaft MG2 by subtype or at c.1785.
+   Do NOT fill any decision, recommend one, or re-read sources to form a
+   view.
+
+9. Logbooks and CHANGELOG. logbook/4: the application and the agreement
+   numbers from 7a, adapted from the bundle's LOGBOOK-DRAFT, including the
+   falsified-priors paragraph. logbook/5: the source entry from the draft
+   (offsets; Kars running head 2021; Klieber text layer reads cleanly,
+   contra logbook 2 2026-08-13; Klieber 1999 cited from Klieber 2001 n.1,
+   series and volume unverified). CHANGELOG: rows added to recodings.csv,
+   no data change, no version bump. Soft-wrap. Run check_tables.py --fix
+   on anything with a table.
+
+10. Commit message. Write COMMIT-MSG-opus55-recode-mutual-pole-applied-2026-09-26.txt
+    to the live proposed-of/: subject 72 characters or fewer, body
+    hard-wrapped at 72, naming what actually landed.
+
+11. Checks. Run each and report the exact command and what it printed:
+      python3 scripts/check_vocabularies.py
+      python3 scripts/check_softwrap.py
+      python3 scripts/check_tables.py
+      python3 scripts/check_dependence.py datasets/organizational_forms
+      python3 scripts/build_codebook.py --check
+      python3 scripts/build_views.py --dataset organizational_forms --component <each> --mechanism all --check
+      python3 -m frictionless validate datasets/organizational_forms/datapackage.json
+    frictionless is not installed on the device; install it. The
+    recodings foreign key must now resolve. If it does not, stop.
+
+Hard rules: no data.csv edit; no adjudication; no cell reconsidered; no
+edit to the frozen coding files; no git; no vault; no Zotero or other
+source-finding tool. Never cite proposed-of/ as evidence, only records/.
+If anything here conflicts with the repo's doctrine files, stop and ask.
+
+Final message: the agreement table from 7a, the three predicted
+disagreements resolved yes or no, the files written, and the checks with
+their output.
+
+--- prompt ends ---

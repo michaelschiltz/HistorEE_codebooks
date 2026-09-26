@@ -2,6 +2,24 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms — 2026-09-26 (ii)
+
+**The first re-coding pass lands in `recodings.csv`: 64 rows, OF-R0001–R0064, a blind re-code of `avariz_vakfi` and `bruderschaft_salzburg` by Claude Opus 5.5 at "high". 53 agree with the live cells and 11 disagree; all 64 are `adjudication=pending`. No coded value in `data.csv` moves; no row is added to or removed from it. Schema stays `0.10.0`.**
+
+- **What was added.** One row per cell, `pass=opus55-recode-mutual-pole-2026-09-26`, `condition=blind`, `coder=ai`, `coder_model=claude-opus-5-5`, `coder_effort=high`. `value_at_recoding` is the live value at application. `agreement` is value equality, as `datapackage.json` defines it. The recoding `record_id` foreign key now resolves, against OF-0644–0707.
+- **The result as it stands, before any adjudication.** Of 64 cells: 44 match exactly, 9 differ in confidence only, 5 disagree substantively, and 6 disagree on missingness. By form: `avariz_vakfi` 21/4/4/3 and `bruderschaft_salzburg` 23/5/1/3. The component tables are in logbook 4, 2026-09-26 (ii). Every confidence-only difference has the re-code one step lower.
+- **Both coders are Claude models** (`claude-opus-5` live, `claude-opus-5-5` re-code). The agreement is weak evidence of reliability; the disagreements are the informative part.
+- **The priors were not committed before the coding.** The commit that was meant to hold them holds the unfilled template. The filled priors are preserved at `records/PRIORS-opus55-recode-mutual-pole-filled-2026-09-26.md`, and the falsifications scored against them rest on the coder's account.
+- **Records** copied unchanged into `records/`: the coding notes, the post-freeze notes, the proposed recodings as frozen, the filled priors, and the application prompt. The adjudication worksheet is open work in `proposed-of/`.
+- **Considered and rejected:** a version bump. Rows alone are not schema growth (CONTRIBUTING §5), and `recodings.csv` was declared in `0.10.0`. Regenerating the codebook was also rejected: `codebook.md` documents only the first resource, and `build_codebook.py --check` still prints `current`.
+- **Checks**, after the write:
+  - `check_vocabularies.py` valid.
+  - `check_softwrap.py` and `check_tables.py` OK.
+  - `check_dependence.py datasets/organizational_forms`: 0 problems. It reads `data.csv`, not the recodings.
+  - `build_codebook.py --check`: all three `current`.
+  - `build_views.py --dataset organizational_forms --component <c> --mechanism all --check`: all nine `current`.
+  - `frictionless validate datasets/organizational_forms/datapackage.json`: both resources VALID.
+
 ## organizational_forms, loss_mitigation_forms — 2026-09-26
 
 **Which model coded a cell is now recorded in the data. Both censuses gain `coder_model` and `coder_effort`, back-filled `claude-opus-5` / `high` on all 1,573 rows, and a second, empty resource `recodings.csv` for re-codings. No coded value moves; no row is added or removed. `organizational_forms` `0.9.0` → `0.10.0`; `loss_mitigation_forms` `0.6.0` → `0.7.0`.**
