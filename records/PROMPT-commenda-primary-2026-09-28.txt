@@ -34,10 +34,11 @@ They are in `sources/`. You read **no secondary literature** in this task.
    - Classify from the Latin drafting term: *in accomendatione/accomendacio/comanda*, *in societate/societas/companhia*, *mutuum*, sea loan (*foenus nauticum* and its equivalents), *cambium*, sale, dowry, other.
    - Use the editors' Italian headings only to find the acts.
    - Write `proposed-of/type-census-commenda-primary-2026-09-28.csv` (corpus, act_no, pdf_page_extract, printed_page, date, act_type_latin, editor_heading).
+   - For Amalric, `pdf_page_extract` is empty and `printed_page` is Blancard's volume and page (`t. I, p. 298`); `date` is the date the notula states, or the last explicit date an *Eodem die* refers back to.
    - Report the counts per corpus × type.
 4. **Sample.** The strata are corpus × type, for the commenda type and the societas type only; sea loans and other types are counted in the census but not sampled.
    - Genoese strata: take every act if a stratum has 60 or fewer; otherwise take a systematic random sample of 60 over act order, with `random.seed(20260928)` choosing the start. Record the draw.
-   - Amalric is a third corpus, under the same rule and the same seed. Its frame is the notulae whose Latin Blancard printed; say so wherever you report a Marseille frequency.
+   - Amalric is a third corpus, under the same rule and the same seed, over the act numbers of the notulae whose Latin Blancard printed. That is its frame; say so wherever you report a Marseille frequency.
 5. **Instance coding.** For every sampled act, fill `proposed-of/instances-commenda-primary-2026-09-28.csv` (header in `instances-header.csv`) and `proposed-of/instance-chars-commenda-primary-2026-09-28.csv` (header in `instance-chars-header.csv`).
    - Quote the Latin verbatim for every clause you parse.
    - Record every party's name, so that repeated investors can be counted.
@@ -89,6 +90,7 @@ recoding_id,record_id,type_id,char_id,pass,recoded_on,condition,coder,coder_mode
 
 - **Missingness.** `.NR` asserts that the sources were read and were silent. `.NA` asserts that the characteristic does not apply. `0` is an observed absence. Never use one for another. A source's silence is never an absence.
 - **Evidence.** Code only from the files in `sources/`: not from general knowledge, not from the bundle's other files, not from memory of works that are not here. General knowledge belongs in the priors, and nowhere else.
+- **Abridged formulae.** Blancard shortens standard formulae to `renuncians etc.`, `obligans etc.`, `Factum fuit etc.` A formula hidden behind his `etc.` is not observed absent: it is never `0`.
 - **Leaks.** If anything in the bundle, or in a skill you have loaded, states or implies a value for a form under test, do not use it. Report it in your notes, quoting where it is.
 - **Scope of writing.** Edit nothing outside `proposed-of/` and your priors file. Do not repair a vocabulary or schema defect: flag it.
 - **Tools.** Do not run `git`. Do not use Zotero, Undermind, Elicit, web search or any other source-finding tool. Do not open the claude.ai Project or any memory file.
