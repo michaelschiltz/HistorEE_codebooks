@@ -1,0 +1,221 @@
+Kickoff prompt for the application chat, commenda pilot (passes commenda-secondary-2026-09-28 and commenda-primary-2026-09-28)
+
+Open a FRESH chat on Claude Opus 5.5, effort high. It may be attached to the claude.ai Project. Grant exactly three folders:
+  ~/GitHub/HistorEE_codebooks                          (live tree)
+  ~/GitHub/_blind-commenda-secondary-2026-09-28        (arm S bundle; read only)
+  ~/GitHub/_blind-commenda-primary-2026-09-28          (arm P bundle; read only)
+Do not grant myfoamrepo or any Zotero folder. Paste everything below the line.
+
+----------------------------------------------------------------------------------------
+
+You are applying a finished pilot to the live HistorEE_codebooks tree. **You are not a coder and not an adjudicator.** Load the `run-a-coding-batch` skill and follow its application pipeline, as narrowed here. `CLAUDE.md`, `CONTRIBUTING.md` and `CHARACTER-CODING.md` in the repo take precedence over the skill.
+
+## What was done
+
+The commenda pilot re-coded 61 cells: `commenda` and `societas_maris` in `organizational_forms` (42 cells), and `commenda_alloc` and `societas_maris` in `loss_mitigation_forms` (19 cells). All arms used coder `ai`, `claude-opus-5-5`, effort `high`, each in a fresh chat.
+
+- **Arm S**, pass `commenda-secondary-2026-09-28`, `condition` `blind`: coded from the secondary works the live cells cite. Ids OF-R0065–R0106 and LM-R0001–R0019.
+- **Arm P stage 4**, pass `commenda-primary-2026-09-28`, `condition` `blind`: coded from Latin notarial acts (Giovanni Scriba I, Guglielmo Cassinese I, Amalric 1248 in Blancard's edition), with a type census, a sample and an instance layer. Ids OF-R0107–R0148 and LM-R0020–R0038.
+- **Arm P stage 5**, same pass, `condition` `open`: the same chat after a reveal of the live and arm-S values, with a directed disconfirmation search. Ids OF-R0149–R0190 and LM-R0039–R0057.
+
+**Read first:**
+
+- the design: `Claude outputs/PILOT-DESIGN-commenda-primary-secondary-2026-09-27.md`. Its §§9–10 are operator material and are now open to you.
+- the operator brief: `records/NOTES-commenda-pilot-operator-2026-09-28.md`, including "Freeze verification" and the scoring notes.
+
+**Data access.** I lift the `data.csv` prohibition for READING only. You may read both live `data.csv` files in full. You may not edit them.
+
+## Scope, decided in advance (do not ask again)
+
+**Write:**
+
+- `datasets/organizational_forms/recodings.csv` and `datasets/loss_mitigation_forms/recodings.csv` (append only);
+- `records/` (copies);
+- `logbook/4` and `logbook/5` (new entries at the top, plus standing-table rows in logbook 4);
+- `CHANGELOG.md` (a new block at the top);
+- the live `proposed-of/` (the worksheet and the commit message).
+
+**Do not write:** `data.csv`, any vocabulary, any `datapackage.json`, any view, `codebook.md`, any script. No version bump: rows only.
+
+**Do not run git.** I commit.
+
+## Steps, in order
+
+1. **Verify every frozen file.** Compute the sha256 of each file and stop if any differs.
+
+   Arm S, in `~/GitHub/_blind-commenda-secondary-2026-09-28/proposed-of/`:
+
+       209a5f42886a37a1f50787d80abcd79bccd3753b652181c4042e1f825ae8bbe1  COMMIT-MSG-commenda-secondary-2026-09-28.txt
+       059bd8ecce02826cc34f6ce8f569160dae5aa3e8d72a3dd4b88ecb3aa824a5d9  LOGBOOK-DRAFT-commenda-secondary-2026-09-28.md
+       516d75d5474b7fe6d8b0303a2af3d06c5a31e03d2e1c51cbc60b53fe8d59011f  NOTES-commenda-secondary-coding-2026-09-28.md
+       eabb8d73705b6a4aaf9445e5f674c46de854356958d5647097f5cbdf5f3186c6  recodings-commenda-secondary-2026-09-28-loss_mitigation_forms.csv
+       a5b901c10eb1d7f1adb3ee5044cbfdd17092a44e15775c85831bc51a1c4d0300  recodings-commenda-secondary-2026-09-28-organizational_forms.csv
+
+   Arm P, in `~/GitHub/_blind-commenda-primary-2026-09-28/proposed-of/`:
+
+       672de6ee6bd2ddaf0bde63c16ace44fea3e5dcfc556891878827ce25cefe2057  COMMIT-MSG-commenda-primary-2026-09-28.txt
+       8678bd3c10e58fc81e06181718e268c3ce6b1ec8cf44d2075d3a518b8c79d09e  LOGBOOK-DRAFT-commenda-primary-2026-09-28.md
+       b9a00f6f7d0c9d920079c8c6073e0b4afd998703b09c946ded409c9a80c63aab  NOTES-commenda-primary-coding-2026-09-28.md
+       979a1fcbb704a46f9cadfcc3204afe02ae009f7b0a8f0719871d4468c9edd111  instance-chars-commenda-primary-2026-09-28.csv
+       15d784e843b783197b2b58dbbb93e6c9c38df5760e4d250e9f9f3de12fc8fa60  instances-commenda-primary-2026-09-28.csv
+       267b45636f5a0b55f36a56e3c28ce6203b8957c6c192928239ba830fd34cf1f5  recodings-commenda-primary-2026-09-28-loss_mitigation_forms.csv
+       5bd206e7c9b0b6f86ff3c58a89f87a9f6d407cd62831a10734d4d3736a0f2ba6  recodings-commenda-primary-2026-09-28-organizational_forms.csv
+       44906544bc30d2b7e0008cf351a7177a1fc06eeb76e6f21d069a09ef2f19b58c  type-census-commenda-primary-2026-09-28.csv
+       e295b0f5a3cc87f788e5be9f5e2ee0db6b61aadc9eeb3946cb5f1c2c4dbbd7df  recodings-commenda-primary-open-2026-09-28-organizational_forms.csv
+       ec95358d2a8e92ec7f576da527f0636360f770ca7b43d6287b110712dcd29124  recodings-commenda-primary-open-2026-09-28-loss_mitigation_forms.csv
+       40406b9d1f9768e9a2857483f9ddf82bc213f3ea7dae055d88e771557cc7e6ea  NOTES-commenda-primary-reveal-2026-09-28.md
+
+   Priors and reveal, in `records/` and in each bundle:
+
+       a2917ca57d266846a3204ec2210494dfd3768eb4db823d691c4e0fcc614c4b34  PRIORS-commenda-secondary-2026-09-28.md
+       5fcf23fc2cd2d961fefdc867fd1c76085212416847249c3993853972b01d182c  PRIORS-commenda-primary-2026-09-28.md
+       3014d5c54ee2c6a09dd72c87b0ba7fc019f82120cbc8d1a790194635aca367cb  REVEAL-commenda-2026-09-28.csv   (records/ and the P bundle's reveal/)
+
+   Then check each bundle against its manifest in `records/` (`MANIFEST-commenda-{primary,secondary}-2026-09-28.sha256`). The only expected difference is the filled priors file. Any added file outside `proposed-of/` and `reveal/` means stop.
+
+2. **Check the live tree before you touch it.** Run the full check suite (step 11) and confirm it is green.
+
+3. **Verify the join.** In each live `data.csv`, every `record_id` in the six row files must exist and carry exactly the (`type_id`, `char_id`) that the row gives it. The ids must equal the pre-assigned ids in `cells-in-scope.csv` (blind ids for arm S and stage 4; stage-5 ids for stage 5). No id may already exist in either `recodings.csv`. Any mismatch: stop.
+
+4. **Fill the two empty fields, and nothing else.**
+   - `value_at_recoding` is the live `data.csv` value for that `record_id`, verbatim.
+   - `agreement` is `agree` if `value` equals `value_at_recoding` exactly, else `disagree`. This is the schema's documented definition.
+   - `adjudication` stays `pending` and `adjudicated_by` stays `none`.
+   - Every other field is copied byte for byte. That includes arm P's `source_class` on its `.NA` rows (`primary-transactional`), which differs from arm S's and the backfill's convention of `.NA`. Do not repair it: record it in logbook 4 as a well-formedness note for a later correction.
+
+5. **Append 183 rows to the two live `recodings.csv` files.**
+   - `organizational_forms` takes 126 rows: OF-R0065–R0190. `loss_mitigation_forms` takes 57 rows: LM-R0001–R0057.
+   - Append in id order.
+   - Round-trip each file first and `cmp` it.
+   - Write with `lineterminator='\n'`.
+   - Assert that each file's prior content is an exact prefix of the new file.
+
+6. **Copy the record into `records/`.** Check for name collisions first, never overwrite, and `cmp` each copy.
+   - Arm S:
+     - `NOTES-commenda-secondary-coding-2026-09-28.md`
+     - `PROPOSED-RECODINGS-commenda-secondary-2026-09-28-organizational_forms.csv`
+     - `PROPOSED-RECODINGS-commenda-secondary-2026-09-28-loss_mitigation_forms.csv`
+   - Arm P:
+     - `NOTES-commenda-primary-coding-2026-09-28.md`
+     - `NOTES-commenda-primary-reveal-2026-09-28.md`
+     - `PROPOSED-RECODINGS-commenda-primary-2026-09-28-{organizational_forms,loss_mitigation_forms}.csv`
+     - `PROPOSED-RECODINGS-commenda-primary-open-2026-09-28-{organizational_forms,loss_mitigation_forms}.csv`
+     - `INSTANCES-commenda-primary-2026-09-28.csv`
+     - `INSTANCE-CHARS-commenda-primary-2026-09-28.csv`
+     - `TYPE-CENSUS-commenda-primary-2026-09-28.csv`
+
+     The instance layer lives in `records/` for the pilot (design §6). The `PROPOSED-RECODINGS` files are the frozen files, unfilled.
+   - Already in `records/`, so do not copy: the prompts, both priors, both manifests, the reveal, the operator brief, and this prompt (`PROMPT-commenda-pilot-apply-2026-09-28.txt`).
+
+7. **Agreement and pilot report.** Compute everything before any adjudication, and report it as it stands.
+
+   a. **Pairwise agreement.** Give counts by row, by component and overall, for:
+      - S vs live: the rater effect, Opus 5 → 5.5, on a second family;
+      - P4 vs S: the evidence effect, same rater;
+      - P4 vs live;
+      - P5 vs live.
+
+      Keep four classes apart:
+      - exact match;
+      - substantive disagreement (two different coded values);
+      - missingness disagreement (a value against `.NR`/`.NA`, or `.NR` against `.NA`);
+      - confidence-only difference on a matching value.
+
+   b. **The design's four kinds (§1), for P4 against live and against S, cell by cell:**
+      - compression error;
+      - compression loss (a variant at 10% or more in any one corpus that the secondary coding does not record; take the variants from P's notes);
+      - outrunning (P `.NR` where live or S has a value);
+      - primary gain (P coded where live or S is `.NR`).
+
+      Give each cell its kind, or "none".
+
+   c. **Anchoring (design §8).**
+      - The share of stage-4 values revised at stage 5, and the direction of each revision: toward the live value, away from it, or to neither.
+      - Chat P flagged three revisions that converge on the live value (`societas_maris CF2`, `RB3` on both loss rows) as prompted by the reveal. Report them apart.
+
+   d. **Observability (design §10).** Score the operator's predictions of which characteristics the acts can address against P4's `.NR` pattern, characteristic by characteristic.
+
+   e. **Dependence.** For each disagreeing child cell, say whether its parent also disagrees. Use `scripts/check_dependence.py` and the dependence declarations in the vocabularies.
+
+   f. **Non-independence, stated plainly:**
+      - Primary and secondary share one evidence base: van Doosselaere's dataset is built from these cartularies. Agreement between P and S corroborates nothing; disagreement measures what the compression did.
+      - Arm S reports that Pryor 1977 (not held) is the shared source behind three of its six works.
+      - All coders are Claude models (`claude-opus-5` live; `claude-opus-5-5` in every arm).
+      - Notarial clauses measure a notary's formulary, so the effective n is the number of notaries.
+
+   g. **Scoring notes from the operator brief.** Carry these three forward without deciding them:
+      - `RB3` on both loss rows: the live value is confirmed by primary evidence it did not cite.
+      - `societas_maris LR4 = P` at stage 5, and the four `P` cells at stage 4: check each against the rule that a frequency never becomes `P`.
+      - The `.NA` rows' `source_class`.
+
+8. **Adjudication worksheet.** Write `proposed-of/ADJUDICATION-commenda-pilot-2026-09-28.md`, with one entry per cell where any arm (S, P4, P5) differs from live.
+   - **Order:**
+     1. the 16 cells P disputes at stage 5;
+     2. the 5 revisions;
+     3. cells where only S differs;
+     4. within each group, parents before children.
+   - **Each entry gives:**
+     - every reading, with its value, confidence and `source_ref`;
+     - P's modal share, n and distinct investors, from its notes;
+     - the stated alternative reading;
+     - an empty decision line offering: primary right / live stands / S right / definitional (vocabulary question) / split / acquire first.
+   - **Pre-list these definitional questions:**
+     - whether a formulary absence (a clause the same notary writes into other contract types but not this one) is an observed `0`/`none` or `.NR`;
+     - whether a clause present in a minority of acts can be `P`;
+     - `commenda CI1`: `common` against `none` (Udovitch 198 against Harris's "commenda capital");
+     - `commenda_alloc VF1`/`VF2` (verification when no loss is ever claimed in the acts).
+   - **Pre-list chat S's acquisition list** as "acquire first" candidates:
+     - Pryor 1977 (`G7U4P8T3`);
+     - González de Lara 2008 (`4PI4SW9R`);
+     - Tiepolo's statutes (primary-normative);
+     - Lopez & Raymond (translations).
+   - Do NOT fill any decision, recommend one, or re-read sources to form a view.
+
+9. **Logbooks and CHANGELOG.**
+   - **logbook/4:**
+     - the application, with the agreement numbers from 7a, the anchoring figures from 7c and the observability score from 7d, adapted from both LOGBOOK-DRAFTs;
+     - the falsified-priors paragraphs from both arms, quoted;
+     - the well-formedness note;
+     - standing-table rows, one per spent chat. Use `commenda-secondary-coding` (2026-09-28, coding) and `commenda-primary-coding` (2026-09-28, coding then open reveal). Also add a row for this chat (`commenda-pilot-application`, 2026-09-28, application): it reads every value, so it can never code these rows.
+     - Keep the table's column padding: run `check_tables.py --fix`.
+   - **logbook/5:** only what the drafts add on sources beyond the existing entry of 2026-09-28 on Blancard (OCR, page maps, formula abridgement, selection). Do not repeat it.
+   - **CHANGELOG:** 183 rows added across the two `recodings.csv` files; the loss census's recodings resource receives its first rows; no data change; no version bump.
+   - Soft-wrap everything. Run `check_tables.py --fix` on anything with a table.
+
+10. **Commit message.** Write `proposed-of/COMMIT-MSG-commenda-pilot-applied-2026-09-28.txt`: subject of 72 characters or fewer, body hard-wrapped at 72, naming what actually landed.
+
+11. **Checks.** Run each and report the exact command and what it printed:
+
+        python3 scripts/check_vocabularies.py
+        python3 scripts/check_softwrap.py
+        python3 scripts/check_tables.py
+        python3 scripts/check_dependence.py datasets/organizational_forms
+        python3 scripts/check_dependence.py datasets/loss_mitigation_forms
+        python3 scripts/build_codebook.py --check
+        python3 scripts/build_views.py --dataset organizational_forms --component <each> --mechanism all --check
+        python3 -m frictionless validate datasets/organizational_forms/datapackage.json
+        python3 -m frictionless validate datasets/loss_mitigation_forms/datapackage.json
+
+    Install `frictionless` with `pip install --user frictionless` if it is missing. **Both recodings foreign keys must now resolve.** If either does not, stop.
+
+## Hard rules
+
+- No `data.csv` edit.
+- No adjudication, and no cell reconsidered.
+- No edit to any frozen coding file or bundle file.
+- No git.
+- No vault.
+- No Zotero, Undermind, Elicit, web search or other source-finding tool.
+- Never cite `proposed-of/` as evidence, only `records/`.
+- If anything here conflicts with the repo's doctrine files, stop and ask.
+
+## Final message
+
+Include:
+
+- the tables from 7a;
+- the kind-by-cell summary from 7b;
+- the anchoring figures from 7c;
+- the observability score from 7d;
+- the files written;
+- the checks with their output.
