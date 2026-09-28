@@ -114,7 +114,7 @@ The printed set over-represents non-routine commandes. **Score Marseille frequen
 
 **Formula abridgement, checked on one act.** Against Pryor's full text of no. 91 (Pryor notula 17), Blancard's `renuncians etc.` hides the *exceptio non numerate* and the *induciae* renunciations, and the *Solutum* marginal is dropped. Cells resting on renunciations or marginalia are therefore `.NR` at best from Marseille.
 
-**Retired from the bundle:** `amalric1248_pryor_notulae_latin.txt`. It was moved, not deleted, to `~/GitHub/_retired-from-bundles-2026-09-28/`. Delete that folder by hand when convenient. **The manifest was regenerated.** Three lines differ from the 05:01 build: README, the priors template (one line, the corpus description), and the swapped source. The bundle verifies clean against the new manifest.
+**Retired from the bundle:** `amalric1248_pryor_notulae_latin.txt`. It was first moved to `~/GitHub/_retired-from-bundles-2026-09-28/`; at MS's request the operator deleted that folder, with its one file, the same day. The extract is reproducible from Pryor 1981 (`CQ4IPQ5Q`). **The manifest was regenerated.** Three lines differ from the 05:01 build: README, the priors template (one line, the corpus description), and the swapped source. The bundle verifies clean against the new manifest.
 
 **Channel check, re-done** against design §§9–10: the new README lines and prompt lines state properties of the source (editorial choice, abridgement, OCR), not values or observability predictions. No direction of bias is stated to the coder.
 
