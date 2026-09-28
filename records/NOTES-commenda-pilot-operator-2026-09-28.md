@@ -215,3 +215,39 @@ The cells chat S says need primary support (`CI2`, `AP2`, `LP3`, `VF1`, and `CF1
 
 **Reveal placed.** The draft was rebuilt from `data.csv` and arm S's frozen rows, and it is byte-identical (`3014d5c5…`). It is copied to the bundle as `reveal/REVEAL-commenda-2026-09-28.csv`, and to `records/REVEAL-commenda-2026-09-28.csv` so that it is committed before stage 5 starts.
 
+**Arm P stages 5–6, verified 2026-09-28.**
+
+- **Files match the hashes chat P printed:**
+  - organizational open CSV `e295b0f5…`;
+  - loss open CSV `ec95358d…`;
+  - reveal NOTES `40406b9d…`.
+- **Nothing earlier was touched:**
+  - the eight stage-4 files still match their frozen hashes;
+  - the priors are unchanged (`5fcf23fc…`), and so is the reveal file (`3014d5c5…`);
+  - the rest of the bundle matches the manifest, with the priors as the only expected difference, and no file was added.
+- **The stage-5 rows:**
+  - 42 + 19 rows, each carrying its pre-assigned stage-5 id;
+  - `condition` `open`, `adjudication` `pending`;
+  - `value_at_recoding` and `agreement` empty.
+
+**Outcome, as counted by the operator:**
+
+- Stage 4 agreed with the live value in 40 of 61 cells, and with arm S in 40 of 61. Stage 5 agrees with the live value in 43.
+- Chat P's dispositions are 40 keep, 16 dispute and 5 revise.
+
+The five revisions:
+
+| cell                   | stage 4        | stage 5        | live  |
+|------------------------|----------------|----------------|-------|
+| `societas_maris` `LR4` | 1              | P              | 0     |
+| `societas_maris` `CF2` | 1              | 0              | 0     |
+| `commenda_alloc` `RB3` | surety         | none           | none  |
+| `commenda_alloc` `VF2` | .NR            | claimant-fault | mixed |
+| `societas_maris` `RB3` | general-estate | none           | none  |
+
+**For scoring:**
+
+1. **`RB3` on both loss rows.** Chat P's reason for moving to `none` is a formulary contrast inside the same cartularies. The notaries write a pledge, surety or obligation of goods into 64–91% of their sales, sea loans and mutua. They write one into 0 of Scriba's 10 commendas, 7 of Cassinese's 142, 1 of Scriba's 174 societates and 11 of Cassinese's 138, and none of those clauses secures the advance. That is an observed absence against the notary's own practice, not silence. The live `none` rested on secondary silence (Harris 2007; van Doosselaere 2009). Arm S read the same silence as `.NR`. **So the live value is confirmed by primary evidence it did not cite.** Score it as "right value, unsupported basis", not as agreement.
+2. **Anchoring.** Chat P flags that three revisions converge on the live value (`CF2` and both `RB3`), and that they are open codings prompted by the reveal. The design's anchoring measure should count them apart.
+3. **`societas_maris` `LR4` → `P`.** Chat P re-read 15 sampled societates carrying *que debet reverti ad societatem*. Check `P` against the rule that a frequency never becomes `P`.
+
