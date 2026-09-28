@@ -174,3 +174,44 @@ The printed set over-represents non-routine commandes. **Score Marseille frequen
 
 The cells chat S says need primary support (`CI2`, `AP2`, `LP3`, `VF1`, and `CF1`/`CF3`/`RB1` for `societas_maris`) are the ones to read first against arm P.
 
+## Reveal file, drafted before arm P froze
+
+**Draft location:** `proposed-of/REVEAL-commenda-2026-09-28.DRAFT.csv`. Its sha256 is `3014d5c5…`. It is kept outside the arm P bundle until P's freeze is verified.
+
+**Contents:** 61 rows, one per cell. For each cell it gives the live `value`, `confidence`, `articulation`, `source_ref`, `source_read` and `notes` from `data.csv`, and the same fields from arm S's frozen rows. It also carries each cell's stage-5 id.
+
+**Placement:** before placing the draft in `reveal/`, rebuild it and check that the hash is unchanged. That confirms `data.csv` has not moved in between.
+
+**Operator reading, not for the coder:**
+
+- Arm S agrees with the live value on 52 of 61 cells.
+- Of the nine disagreements, seven are arm S `.NR` against a coded live value. These are `societas_maris` `AP1`, `AP3`, `LR1` and `LP1`; `commenda` `LP1`; and `RB3` on both loss rows.
+- Most of the seven rest on reasoning carried over from the basic commenda to the bilateral contract, or on a source the bundle does not hold (Pryor 1977).
+- `RB3` is coded `none` with high confidence on both loss rows, where no held work states any security. That is a candidate case of silence read as absence.
+- The two value-against-value disagreements are `commenda` `CI1` (live `common`, arm S `none`, citing Udovitch 198) and `commenda_alloc` `VF1` (live `documentary`, arm S `official-adjudication`).
+
+**Arm P stage 4, verified 2026-09-28.**
+
+- **`proposed-of/`:** all eight files match the sha256 values chat P printed:
+  - COMMIT-MSG `672de6ee…`;
+  - LOGBOOK-DRAFT `8678bd3c…`;
+  - NOTES `b9a00f6f…`;
+  - instance-chars `979a1fcb…`;
+  - instances `15d784e8…`;
+  - loss CSV `267b4563…`;
+  - organizational CSV `5bd206e7…`;
+  - type census `44906544…`.
+- **Priors:** the bundle copy and the `records/` copy both hash to `5fcf23fc…`.
+- **Rest of the bundle:** it matches its manifest. The only difference is the priors template, and no file was added outside `proposed-of/`. `reveal/` was empty.
+- **Rows:**
+  - 42 organizational and 19 loss rows;
+  - headers equal the templates;
+  - ids equal the blind ids in `cells-in-scope.csv`;
+  - fixed fields are as prompted;
+  - `value_at_recoding` and `agreement` are empty.
+- **Two points for the application, not repaired, since stage 4 is frozen:**
+  - The four `.NA` rows carry `source_class` `primary-transactional`. The house convention, which arm S and the backfill follow, is `.NA` on `.NA` rows.
+  - Four cells are `P`. Check each against the prompt's rule that a frequency never becomes `P`.
+
+**Reveal placed.** The draft was rebuilt from `data.csv` and arm S's frozen rows, and it is byte-identical (`3014d5c5…`). It is copied to the bundle as `reveal/REVEAL-commenda-2026-09-28.csv`, and to `records/REVEAL-commenda-2026-09-28.csv` so that it is committed before stage 5 starts.
+
