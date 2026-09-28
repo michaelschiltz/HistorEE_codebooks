@@ -22,12 +22,12 @@ The write-up must say this beside every figure.
 
 ## 2. Rows in scope
 
-| census | form | rows | live coding (from `source_ref`) |
-|---|---|---|---|
-| organizational_forms | `commenda` | 21 of 32 characteristics | Harris 2007, van Doosselaere 2009, Pryor 1977 |
-| organizational_forms | `societas_maris` | 21 of 32 characteristics | van Doosselaere 2009, Harris 2007 |
-| loss_mitigation_forms | `commenda_alloc` | 10 | Held 2025, MHR I–IV (Ragusa, 1278–), Harris 2007 |
-| loss_mitigation_forms | `societas_maris` | 9 | van Doosselaere 2009, Held 2025 |
+| census                | form             | rows                     | live coding (from `source_ref`)                  |
+|-----------------------|------------------|--------------------------|--------------------------------------------------|
+| organizational_forms  | `commenda`       | 21 of 32 characteristics | Harris 2007, van Doosselaere 2009, Pryor 1977    |
+| organizational_forms  | `societas_maris` | 21 of 32 characteristics | van Doosselaere 2009, Harris 2007                |
+| loss_mitigation_forms | `commenda_alloc` | 10                       | Held 2025, MHR I–IV (Ragusa, 1278–), Harris 2007 |
+| loss_mitigation_forms | `societas_maris` | 9                        | van Doosselaere 2009, Held 2025                  |
 
 All four were coded by `claude-opus-5` at `high`. `source_read` is `partial` or `unknown` throughout.
 
@@ -43,13 +43,19 @@ The comparison is reported per cell, restricted to the frame. It is not a verdic
 
 ## 3. Corpora and their state
 
-| corpus | Zotero | held | text layer | status |
-|---|---|---|---|---|
-| *Cartolare di Giovanni Scriba*, ed. Chiaudano & Moresco 1935 | QTEG4PM7 → DHLLKXEI | vol. I only (BEIC scan, 509 pp; acts I–DCCCII+, 1154–61) | usable but letter-spaced OCR ("G ave sor or i s") | **core** |
-| same item, second file | QTEG4PM7 → 9PW8MDU5 | 139 pp, contents unidentified | none: image-only | MS to identify |
-| *Guglielmo Cassinese*, ed. Hall, Krueger & Reynolds 1938 | G4TIJ2FM | vol. I only (464 pp; acts 1–c.1092, 1190–Sept 1191) | good on transcriptions; plates are noise | **core** |
-| Pryor 1981, Giraud Amalric 1248 | CQ4IPQ5Q | 334 pp | **none**: needs OCR | optional third notary |
-| Blancard 1884 | HF8ME3N7 | **vol. II only** (pp. 301–) | poor (tabular garble) | not used; overlaps Pryor on Amalric, so one witness |
+| corpus                                                       | Zotero              | held                                                     | text layer                                                                                                                           | status                                                                                                                                                                                                                                                           |
+|--------------------------------------------------------------|---------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *Cartolare di Giovanni Scriba*, ed. Chiaudano & Moresco 1935 | QTEG4PM7 → DHLLKXEI | vol. I only (BEIC scan, 509 pp; acts I–DCCCII+, 1154–61) | usable but letter-spaced OCR ("G ave sor or i s")                                                                                    | **core**                                                                                                                                                                                                                                                         |
+| same item, second file                                       | QTEG4PM7 → 9PW8MDU5 | 139 pp, double-page spreads                              | none: image-only                                                                                                                     | **not Scriba's acts**: an OCR probe shows an introduction on the Genoese notarial archive and an inventory of registers ("Atti del notaio Jacobus de S. Savina"), probably Moresco & Bognetti's description of the twelfth-century cartularies; verify. Misfiled |
+| *Guglielmo Cassinese*, ed. Hall, Krueger & Reynolds 1938     | G4TIJ2FM            | vol. I only (464 pp; acts 1–c.1092, 1190–Sept 1191)      | good on transcriptions; plates are noise                                                                                             | **core**                                                                                                                                                                                                                                                         |
+| Pryor 1981, Giraud Amalric 1248                              | CQ4IPQ5Q            | 334 pp                                                   | **good** (Internet Archive layer; *corrected 2026-09-27*: Zotero's reader reports none, `pdftotext` reads Latin and English cleanly) | third notary, **editorially selected** (see below)                                                                                                                                                                                                               |
+| Blancard 1884                                                | HF8ME3N7            | **vol. II only** (pp. 301–)                              | poor (tabular garble)                                                                                                                | not used; overlaps Pryor on Amalric, so one witness                                                                                                                                                                                                              |
+
+**Pryor 1981 is an editorial selection with commentary, and both facts bind the design** (added 2026-09-27, after the text-layer correction):
+
+- **It is not a sample.** The book gives about 100 notulae from Amalric's cartulary, chosen as exemplars of each contract type. The commenda-family chapters hold only a handful: VII *Comanda*, VIII *Companhia/societas*, IX *Comanda et companhia*, XXXI *Societas/companhia/comanda*. That is good for clause wording and useless for frequencies or minority states.
+- **The unselected sample would be the full cartulary.** Blancard 1884 vol. II opens with acts nos. 1026–1027 of a numbered series, including a Ceuta comanda. That looks like the tail of the full 1248 cartulary, which would put the bulk in the vol. I we do not hold. Unverified.
+- **The editor's commentary is secondary and shares an author with a live-row source.** Each chapter interleaves Pryor's essay (e.g. ch. VII's "basic features of the contract") with the notulae. The live `commenda` row cites Pryor 1977. **Arm P must receive an extract of the Latin notulae only**, cut out of the PDF by the operator, never the book.
 
 The Genoese regesti (the editors' Italian headings) are a third layer: editorial classification. **Use them for sampling only, never as evidence.** Code from the Latin.
 
@@ -57,7 +63,7 @@ The Genoese regesti (the editors' Italian headings) are a third layer: editorial
 
 - Scriba vol. II;
 - Cassinese vol. II;
-- OCR of Pryor 1981;
+- ~~OCR of Pryor 1981~~ (not needed: the text layer is good);
 - Blancard vol. I (the Manduel commendas);
 - Morozzo & Lombardo (hardcopy).
 
@@ -65,11 +71,11 @@ The Genoese regesti (the editors' Italian headings) are a third layer: editorial
 
 The rater is held fixed: Claude Opus 5.5 at `high`, the same model in every arm, each arm in a fresh chat outside the claude.ai Project.
 
-| arm | reads | blind to | purpose |
-|---|---|---|---|
-| **S** (secondary) | exactly the sources the live rows cite, no others | live values | a within-rater baseline; S against live also replicates the Opus 5 → 5.5 rater effect on a second family |
-| **P** (primary) | the Genoese acts only, in Latin | live values, all secondary literature, arm S | the evidence effect: P against S, same rater |
-| **P→R** (reveal) | the P chat continues after freezing its stage-1 coding | nothing | reconciliation, and a direct measure of anchoring |
+| arm               | reads                                                  | blind to                                     | purpose                                                                                                  |
+|-------------------|--------------------------------------------------------|----------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **S** (secondary) | exactly the sources the live rows cite, no others      | live values                                  | a within-rater baseline; S against live also replicates the Opus 5 → 5.5 rater effect on a second family |
+| **P** (primary)   | the Genoese acts only, in Latin                        | live values, all secondary literature, arm S | the evidence effect: P against S, same rater                                                             |
+| **P→R** (reveal)  | the P chat continues after freezing its stage-1 coding | nothing                                      | reconciliation, and a direct measure of anchoring                                                        |
 
 S and P must be separate chats. A chat that has read van Doosselaere cannot then read the acts "primary-only".
 
@@ -168,10 +174,10 @@ These are the operator's predictions of which characteristics notarial acts can 
 
 ## 11. Decisions for MS
 
-1. **Scope.** Genoese core only (recommended), or wait for the Pryor OCR and add Marseille as a third notary.
-2. **Run arm S** (recommended). Without it, P against live confounds evidence with rater.
+1. **Scope.** *Decided 2026-09-27: include Marseille.* Pryor needs no OCR, but its notulae are an editorial selection, so Marseille contributes clause wording, not frequencies, unless Blancard vol. I is acquired.
+2. **Run arm S.** *Decided 2026-09-27: yes.*
 3. **Sample size** of 60 per stratum, and the 10% variant threshold.
 4. **The instance table in `records/` for the pilot** (recommended), versus a schema resource now.
-5. **`source_class` in `recodings.csv`:** now, or after the pilot.
+5. **`source_class` in `recodings.csv`.** *Decided 2026-09-27: add it.* Specified in `proposed-of/PATCH-source-class-2026-09-27.md`, awaiting approval.
 6. **The eleven absent organizational characteristics:** leave them (recommended), or license a separate gap-fill arm that mints rows.
 7. **Identify QTEG4PM7's second file** (9PW8MDU5), and decide whether to acquire Scriba vol. II and Cassinese vol. II before or after the pilot.

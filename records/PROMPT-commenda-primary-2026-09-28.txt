@@ -1,0 +1,110 @@
+Kickoff prompt for arm P (primary acts only), pass commenda-primary-2026-09-28
+
+Open a FRESH chat on Claude Opus 5.5, effort high, NOT attached to the claude.ai Project
+"Ergodicity economics and history". Grant it ONE folder only:
+  ~/GitHub/_blind-commenda-primary-2026-09-28
+Do not grant ~/GitHub, HistorEE_codebooks, myfoamrepo, the arm-S bundle or any Zotero folder.
+Paste everything below the line.
+
+----------------------------------------------------------------------------------------
+
+I want you to re-code four rows of the HistorEE character matrix **from primary documents only**: 61 cells in all. The rows are `commenda` and `societas_maris` in `organizational_forms`, and `commenda_alloc` and `societas_maris` in `loss_mitigation_forms`.
+
+**Work only inside `~/GitHub/_blind-commenda-primary-2026-09-28`.** It is a deliberately minimal, prepared bundle. Start with its `README.md`. The sources are three corpora of notarial acts in Latin:
+
+- Giovanni Scriba vol. I, Genoa 1154–61;
+- Guglielmo Cassinese vol. I, Genoa 1190–91;
+- Giraud Amalric's notulae, Marseille 1248, as selected by Pryor.
+
+They are in `sources/`. You read **no secondary literature** in this task.
+
+**What this pass is for.** A second pass codes the same cells from the secondary literature, in a separate chat. The live cells were coded from that literature too. Your coding is set against both, to see what the literature's compression of these acts kept, lost or invented. Nothing is expected of you except a faithful reading of the acts.
+
+## Order of work, which is not negotiable
+
+1. **Read before any source.** Read `README.md`, everything in `doctrine/`, both vocabularies in `vocab/` (every definition, allowed value, locator and `applicability_on`), `scope/types-in-scope.csv` and `cells-in-scope.csv`. Load the `code-a-form` and `run-a-coding-batch` skills if your session has them.
+2. **Priors, before you open any file in `sources/`.** Fill `PRIORS-commenda-primary-2026-09-28.md`, including:
+   - the exposure section;
+   - the textbook account, clause by clause;
+   - an expectation for all 61 cells.
+
+   Then print its sha256 (`shasum -a 256 PRIORS-*.md`), tell me, and **STOP**. I will commit the file and confirm that the committed copy has the same hash. Do not open a source until I reply.
+3. **Type census.** Classify every act in both Genoese volumes, and every Amalric notula, by contract type.
+   - Classify from the Latin drafting term: *in accomendatione/accomendacio/comanda*, *in societate/societas/companhia*, *mutuum*, sea loan (*foenus nauticum* and its equivalents), *cambium*, sale, dowry, other.
+   - Use the editors' Italian headings only to find the acts.
+   - Write `proposed-of/type-census-commenda-primary-2026-09-28.csv` (corpus, act_no, pdf_page_extract, printed_page, date, act_type_latin, editor_heading).
+   - Report the counts per corpus × type.
+4. **Sample.** The strata are corpus × type, for the commenda type and the societas type only; sea loans and other types are counted in the census but not sampled.
+   - Genoese strata: take every act if a stratum has 60 or fewer; otherwise take a systematic random sample of 60 over act order, with `random.seed(20260928)` choosing the start. Record the draw.
+   - Amalric: take every commenda-family notula. It is an editorial selection, not a sample, and must be reported apart from the Genoese strata.
+5. **Instance coding.** For every sampled act, fill `proposed-of/instances-commenda-primary-2026-09-28.csv` (header in `instances-header.csv`) and `proposed-of/instance-chars-commenda-primary-2026-09-28.csv` (header in `instance-chars-header.csv`).
+   - Quote the Latin verbatim for every clause you parse.
+   - Record every party's name, so that repeated investors can be counted.
+   - Record in the instance-chars table every characteristic in scope that the act speaks to, and only those.
+6. **Form-level summary, then FREEZE.** Per cell:
+   - report the modal state, its share, n, and the number of distinct investors, per corpus and pooled;
+   - **a frequency never becomes `P`**: `P` is a structural half-state, and heterogeneity is reported as a distribution in the note;
+   - a state in at least 10% of acts in either Genoese corpus is a **variant**: name it in the note;
+   - a characteristic that no act speaks to is `.NR`.
+
+   Then write the 61 stage-4 rows:
+   - `condition` = `blind`, using the `recoding_id_blind` ids, `source_class` = `primary-transactional`;
+   - into `proposed-of/recodings-commenda-primary-2026-09-28-<census>.csv`;
+   - with `source_ref` in the form `Giovanni Scriba I, nos. CCCXII, CDXXXV (pp. 172, 231); Guglielmo Cassinese I, no. 490 (p. 220); Amalric 1248 (Pryor), notula 20 (fol. 16r)`;
+   - `source_lang` = `la`;
+   - `source_read` = `partial`, with the sample stated in the note.
+
+   Also write:
+   - `proposed-of/NOTES-commenda-primary-coding-2026-09-28.md` (the reading record, the type census, the draw, every decision point with its alternative reading, and the six answers below);
+   - a logbook draft;
+   - a commit message.
+
+   Then print the sha256 of every file in `proposed-of/`, tell me, and **STOP**. Compute nothing more.
+7. **Reveal: only when I give you `reveal/REVEAL-commenda-2026-09-28.csv`.** It will hold, per cell, the live value with its note and the secondary arm's value with its note.
+   - For each of the 61 cells, record whether you **keep**, **revise** or **dispute** your stage-4 value, and why.
+   - Write a stage-5 row for **every** cell, even an unchanged one, into `proposed-of/recodings-commenda-primary-open-2026-09-28-<census>.csv`: `condition` = `open`, using the `recoding_id_open_stage5` ids.
+   - Never edit a stage-4 file.
+8. **Directed disconfirmation.** For each cell where your stage-4 value differs from the live value, search the three corpora for acts that would overturn **your own** stage-4 value, and report what you found, act by act.
+   - If the search changes your view, the change goes into the stage-5 row, and the note says the search caused it.
+   - Record this stage in `proposed-of/NOTES-commenda-primary-reveal-2026-09-28.md`.
+
+## Output format: `recodings.csv` rows, one file per census
+
+Write into `proposed-of/` two CSVs, each with exactly the header in `templates/recodings-header-<census>.csv`:
+
+recoding_id,record_id,type_id,char_id,pass,recoded_on,condition,coder,coder_model,coder_effort,value,confidence,articulation,source_ref,source_lang,source_read,value_at_recoding,agreement,adjudication,adjudicated_by,notes,source_class
+
+- **Ids:** `recoding_id` and `record_id` exactly as pre-assigned in `cells-in-scope.csv`. The `record_id`s exist only in the live file, not in your bundle; that is expected.
+- **Fixed fields:**
+  - `pass` = the slug named above;
+  - `recoded_on` = the date you fix the value;
+  - `coder` = `ai`, `coder_model` = `claude-opus-5-5`, `coder_effort` = `high`;
+  - `adjudication` = `pending`, `adjudicated_by` = `none`.
+- **Leave empty:** `value_at_recoding` and `agreement`. They are filled at application.
+- **Coded fields:** `value`, `confidence`, `articulation`, `source_ref`, `source_lang`, `source_read` and `notes`, as `doctrine/CONTRIBUTING.md`, `doctrine/CLAUDE.md` and the `code-a-form` skill require for a census cell, including `.NR`/`.NA` propagation.
+- **`source_class`:** judged by the cited passage (see its description in `schema/`).
+
+## Rules
+
+- **Missingness.** `.NR` asserts that the sources were read and were silent. `.NA` asserts that the characteristic does not apply. `0` is an observed absence. Never use one for another. A source's silence is never an absence.
+- **Evidence.** Code only from the files in `sources/`: not from general knowledge, not from the bundle's other files, not from memory of works that are not here. General knowledge belongs in the priors, and nowhere else.
+- **Leaks.** If anything in the bundle, or in a skill you have loaded, states or implies a value for a form under test, do not use it. Report it in your notes, quoting where it is.
+- **Scope of writing.** Edit nothing outside `proposed-of/` and your priors file. Do not repair a vocabulary or schema defect: flag it.
+- **Tools.** Do not run `git`. Do not use Zotero, Undermind, Elicit, web search or any other source-finding tool. Do not open the claude.ai Project or any memory file.
+- **Unweighted similarity.** Do not compute nearest neighbours or any unweighted similarity across characteristics. `doctrine/CLAUDE.md` forbids it for comparative claims.
+
+## The six answers
+
+Answer these plainly, unprompted, in your NOTES file and in your final message:
+
+1. what was coded and on what evidence;
+2. what could not be coded and why;
+3. which of your own expectations were falsified (quote your priors file verbatim);
+4. any characteristic that did not fit the evidence;
+5. any dependence or well-formedness problem noticed and not repaired;
+6. what to acquire next, and which cell it would move.
+
+## Checks
+
+- Validate your CSVs against the `recodings` resource in `schema/`, on a scratch copy outside `proposed-of/`. The foreign key to `data.csv` cannot resolve in this bundle, so remove it on the scratch copy. Install `frictionless` with `pip install --user frictionless` if it is missing.
+- Say which commands you ran and what they printed.

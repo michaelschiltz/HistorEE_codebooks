@@ -1,0 +1,70 @@
+Kickoff prompt for arm S (secondary sources only), pass commenda-secondary-2026-09-28
+
+Open a FRESH chat on Claude Opus 5.5, effort high, NOT attached to the claude.ai Project
+"Ergodicity economics and history". Grant it ONE folder only:
+  ~/GitHub/_blind-commenda-secondary-2026-09-28
+Do not grant ~/GitHub, HistorEE_codebooks, myfoamrepo, the arm-P bundle or any Zotero folder.
+Paste everything below the line.
+
+----------------------------------------------------------------------------------------
+
+I want you to re-code four rows of the HistorEE character matrix **from secondary literature only**: 61 cells in all. The rows are `commenda` and `societas_maris` in `organizational_forms`, and `commenda_alloc` and `societas_maris` in `loss_mitigation_forms`.
+
+**Work only inside `~/GitHub/_blind-commenda-secondary-2026-09-28`.** It is a deliberately minimal, prepared bundle. Start with its `README.md`. The sources are the six works in `sources/`. They are the works the live cells cite, as far as they are held. Three further cited works are not held; the README names them.
+
+**What this pass is for.** You are blind to the live values. Your coding is set against them, and against a separate pass that codes the same cells from notarial acts. Nothing is expected of you except a faithful reading of these six works.
+
+## Order of work, which is not negotiable
+
+1. **Read before any source.** Read `README.md`, everything in `doctrine/`, both vocabularies in `vocab/` (every definition, allowed value, locator and `applicability_on`), `scope/types-in-scope.csv` and `cells-in-scope.csv`. Load the `code-a-form` and `run-a-coding-batch` skills if your session has them.
+2. **Priors, before you open any file in `sources/`.** Fill `PRIORS-commenda-secondary-2026-09-28.md`, including the exposure section and an expectation for all 61 cells. Then print its sha256 (`shasum -a 256 PRIORS-*.md`), tell me, and **STOP**. I will commit the file and confirm that the committed copy has the same hash. Do not open a source until I reply.
+3. **Read all six works in full.**
+   - Cite printed pages. The exception is Harris 2007: that draft has no printed page numbers, so cite its PDF pages and say so.
+   - Note any non-independence between the works: shared data, shared upstream, or one citing another on a point.
+4. **Code, then FREEZE.**
+   - Code the 61 cells, using the `recoding_id_blind` ids, `condition` = `blind`, `source_class` = `secondary` (or `mixed`, if a passage you cite is an edited transcription of a document).
+   - Write the rows into `proposed-of/recodings-commenda-secondary-2026-09-28-<census>.csv`.
+   - Write `proposed-of/NOTES-commenda-secondary-coding-2026-09-28.md` (the reading record, every decision point with its alternative reading, the non-independence found, and the six answers below), a logbook draft and a commit message.
+   - Do all of this **before** you compute anything else.
+   - Then print the sha256 of every file in `proposed-of/`, tell me, and **STOP**.
+
+## Output format: `recodings.csv` rows, one file per census
+
+Write into `proposed-of/` two CSVs, each with exactly the header in `templates/recodings-header-<census>.csv`:
+
+recoding_id,record_id,type_id,char_id,pass,recoded_on,condition,coder,coder_model,coder_effort,value,confidence,articulation,source_ref,source_lang,source_read,value_at_recoding,agreement,adjudication,adjudicated_by,notes,source_class
+
+- **Ids:** `recoding_id` and `record_id` exactly as pre-assigned in `cells-in-scope.csv`. The `record_id`s exist only in the live file, not in your bundle; that is expected.
+- **Fixed fields:**
+  - `pass` = the slug named above;
+  - `recoded_on` = the date you fix the value;
+  - `coder` = `ai`, `coder_model` = `claude-opus-5-5`, `coder_effort` = `high`;
+  - `adjudication` = `pending`, `adjudicated_by` = `none`.
+- **Leave empty:** `value_at_recoding` and `agreement`. They are filled at application.
+- **Coded fields:** `value`, `confidence`, `articulation`, `source_ref`, `source_lang`, `source_read` and `notes`, as `doctrine/CONTRIBUTING.md`, `doctrine/CLAUDE.md` and the `code-a-form` skill require for a census cell, including `.NR`/`.NA` propagation.
+- **`source_class`:** judged by the cited passage (see its description in `schema/`).
+
+## Rules
+
+- **Missingness.** `.NR` asserts that the sources were read and were silent. `.NA` asserts that the characteristic does not apply. `0` is an observed absence. Never use one for another. A source's silence is never an absence.
+- **Evidence.** Code only from the files in `sources/`: not from general knowledge, not from the bundle's other files, not from memory of works that are not here. General knowledge belongs in the priors, and nowhere else.
+- **Leaks.** If anything in the bundle, or in a skill you have loaded, states or implies a value for a form under test, do not use it. Report it in your notes, quoting where it is.
+- **Scope of writing.** Edit nothing outside `proposed-of/` and your priors file. Do not repair a vocabulary or schema defect: flag it.
+- **Tools.** Do not run `git`. Do not use Zotero, Undermind, Elicit, web search or any other source-finding tool. Do not open the claude.ai Project or any memory file.
+- **Unweighted similarity.** Do not compute nearest neighbours or any unweighted similarity across characteristics. `doctrine/CLAUDE.md` forbids it for comparative claims.
+
+## The six answers
+
+Answer these plainly, unprompted, in your NOTES file and in your final message:
+
+1. what was coded and on what evidence;
+2. what could not be coded and why;
+3. which of your own expectations were falsified (quote your priors file verbatim);
+4. any characteristic that did not fit the evidence;
+5. any dependence or well-formedness problem noticed and not repaired;
+6. what to acquire next, and which cell it would move.
+
+## Checks
+
+- Validate your CSVs against the `recodings` resource in `schema/`, on a scratch copy outside `proposed-of/`. The foreign key to `data.csv` cannot resolve in this bundle, so remove it on the scratch copy. Install `frictionless` with `pip install --user frictionless` if it is missing.
+- Say which commands you ran and what they printed.

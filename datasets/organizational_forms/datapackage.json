@@ -2,7 +2,7 @@
   "name": "organizational_forms",
   "title": "Cooperative organizational forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological (Zwicky) coding of cooperative and risk-pooling organizational forms (waqf, ie, compagnia, joint-stock corporation, nación, natie, kabu-nakama, and forms to be added) against a granular set of structural characteristics. Stored long/tidy: one row per form × characteristic. Supports the comparative typology in Clearing and Settling the Realm / HistorEE. Codes for forms and characteristics live in vocabularies/organizational_form_type.csv and vocabularies/organizational_form_characteristic.csv. Rows with coder 'ai' are provisional seed codings pending human verification; source_ref '[verify]' marks a coded value whose citation is not yet pinned.",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -440,6 +440,21 @@
             "type": "string",
             "title": "Notes",
             "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references."
+          },
+          {
+            "name": "source_class",
+            "type": "string",
+            "title": "Source class",
+            "description": "Class of the source(s) in `source_ref`, judged by the cited passage, not by the container. `secondary`: a modern author's account of the institution, including documents they quote inside their own argument. `primary-transactional`: an edited or transcribed contract, notarial act, ledger, letter or court entry, including a transcription printed in an appendix to a secondary work. `primary-normative`: a code, statute, custom, sea law, fatwa or juristic treatise stating a rule. `primary-institutional`: a charter, minute, resolution, placard or register of an institution's own proceedings. `mixed`: `source_ref` cites passages of more than one class; `notes` should say which carries the value. `.NA` where the row has no source. Added 2026-09-27 (logbook 1).",
+            "constraints": {
+              "enum": [
+                "secondary",
+                "primary-transactional",
+                "primary-normative",
+                "primary-institutional",
+                "mixed"
+              ]
+            }
           }
         ],
         "foreignKeys": [

@@ -2,6 +2,28 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## organizational_forms, loss_mitigation_forms — 2026-09-27
+
+**`recodings.csv` gains `source_class` in both censuses. Schema growth, additive: `organizational_forms` 0.10.0 → 0.11.0; `loss_mitigation_forms` 0.7.0 → 0.8.0. No value in `data.csv` or `recodings.csv` moves.**
+
+- **The field.** One field is appended after `notes`: `secondary` | `primary-transactional` | `primary-normative` | `primary-institutional` | `mixed`, with `.NA` where a row has no source. It is judged by the cited passage, not the publication, so a transcription in a secondary work's appendix counts as primary. The rationale is in logbook 1, 2026-09-27.
+- **Backfill of the 64 `opus55-recode-mutual-pole-2026-09-26` rows:** 54 `secondary`, 5 `mixed`, 5 `.NA`. They were computed from the file by the stated rule, and the first 21 fields of every row were asserted unchanged. `loss_mitigation_forms/recodings.csv` is header-only and stays so.
+- **Considered and rejected:**
+  - the field on `data.csv`: classifying 1,573 sources is a pass of its own;
+  - a multi-valued field: an enum cannot be enforced on a delimited list;
+  - the pass slug as the only carrier: it cannot be queried, it cannot be validated, and it cannot express a mixed citation;
+  - placing the field before `value_at_recoding`: that would move existing columns.
+- **Also:** `CLAUDE.md`'s attribution paragraph now says every re-coding fills `source_class`. The `run-a-coding-batch` and `code-a-form` skills need the same line; MS updates skills.
+- **Version:** a minor bump in both censuses, because a field was added (CONTRIBUTING §5).
+- **Regenerated:** both `codebook.md` files, twice and `cmp`-identical. The version bump reaches them; `recodings.csv` itself is still not documented in any codebook.
+- **Checks, green before and after:**
+  - `check_vocabularies` valid;
+  - `check_softwrap` and `check_tables` OK;
+  - `check_dependence` 0 on both directories;
+  - `build_codebook --check` current;
+  - all ten views current;
+  - `frictionless`: two resources VALID per census.
+
 ## organizational_forms — 2026-09-26 (ii)
 
 **The first re-coding pass lands in `recodings.csv`: 64 rows, OF-R0001–R0064, a blind re-code of `avariz_vakfi` and `bruderschaft_salzburg` by Claude Opus 5.5 at "high". 53 agree with the live cells and 11 disagree; all 64 are `adjudication=pending`. No coded value in `data.csv` moves; no row is added to or removed from it. Schema stays `0.10.0`.**

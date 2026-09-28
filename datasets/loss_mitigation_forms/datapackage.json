@@ -2,7 +2,7 @@
   "name": "loss_mitigation_forms",
   "title": "Loss-mitigation forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological coding of arrangements that mitigate loss WITHOUT an entity, sorted by Harris's (2023) three-way distinction: allocation (risk assigned to a named party by contract - sea loan, bottomry, respondentia, commenda), spreading (transferred to third parties for a premium - marine insurance), and pooling (mutualised among stakeholders - general average, averia, ko/mujin, confraternity funds). Harris's own open question - under which conditions risk was spread as opposed to pooled or allocated - is what MC1 is for. Stored long/tidy. Carries the same WP1 component vocabulary as organizational_forms, so the packages join at component level. RULE: a characteristic lives in exactly one dataset; forms suffixed _alloc are cross-references to organizational_forms entries, coded here only on loss-allocation characteristics and never on the entity characteristics coded there. Rows with coder 'ai' are provisional.",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -442,6 +442,21 @@
             "type": "string",
             "title": "Notes",
             "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references."
+          },
+          {
+            "name": "source_class",
+            "type": "string",
+            "title": "Source class",
+            "description": "Class of the source(s) in `source_ref`, judged by the cited passage, not by the container. `secondary`: a modern author's account of the institution, including documents they quote inside their own argument. `primary-transactional`: an edited or transcribed contract, notarial act, ledger, letter or court entry, including a transcription printed in an appendix to a secondary work. `primary-normative`: a code, statute, custom, sea law, fatwa or juristic treatise stating a rule. `primary-institutional`: a charter, minute, resolution, placard or register of an institution's own proceedings. `mixed`: `source_ref` cites passages of more than one class; `notes` should say which carries the value. `.NA` where the row has no source. Added 2026-09-27 (logbook 1).",
+            "constraints": {
+              "enum": [
+                "secondary",
+                "primary-transactional",
+                "primary-normative",
+                "primary-institutional",
+                "mixed"
+              ]
+            }
           }
         ],
         "foreignKeys": [
