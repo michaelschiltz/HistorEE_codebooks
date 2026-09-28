@@ -14,7 +14,7 @@ I want you to re-code four rows of the HistorEE character matrix **from primary 
 
 - Giovanni Scriba vol. I, Genoa 1154–61;
 - Guglielmo Cassinese vol. I, Genoa 1190–91;
-- Giraud Amalric's notulae, Marseille 1248, as selected by Pryor.
+- Giraud Amalric's cartulary, Marseille 1248, as edited by Blancard: the Latin where he printed it.
 
 They are in `sources/`. You read **no secondary literature** in this task.
 
@@ -29,14 +29,15 @@ They are in `sources/`. You read **no secondary literature** in this task.
    - an expectation for all 61 cells.
 
    Then print its sha256 (`shasum -a 256 PRIORS-*.md`), tell me, and **STOP**. I will commit the file and confirm that the committed copy has the same hash. Do not open a source until I reply.
-3. **Type census.** Classify every act in both Genoese volumes, and every Amalric notula, by contract type.
+3. **Type census.** Classify every act in both Genoese volumes, and Amalric's notulae, by contract type.
+   - For Amalric, classify every notula whose Latin is printed, and report the stubs (Latin not printed, moved to the appendix, missing from the scan) as counts apart.
    - Classify from the Latin drafting term: *in accomendatione/accomendacio/comanda*, *in societate/societas/companhia*, *mutuum*, sea loan (*foenus nauticum* and its equivalents), *cambium*, sale, dowry, other.
    - Use the editors' Italian headings only to find the acts.
    - Write `proposed-of/type-census-commenda-primary-2026-09-28.csv` (corpus, act_no, pdf_page_extract, printed_page, date, act_type_latin, editor_heading).
    - Report the counts per corpus × type.
 4. **Sample.** The strata are corpus × type, for the commenda type and the societas type only; sea loans and other types are counted in the census but not sampled.
    - Genoese strata: take every act if a stratum has 60 or fewer; otherwise take a systematic random sample of 60 over act order, with `random.seed(20260928)` choosing the start. Record the draw.
-   - Amalric: take every commenda-family notula. It is an editorial selection, not a sample, and must be reported apart from the Genoese strata.
+   - Amalric is a third corpus, under the same rule and the same seed. Its frame is the notulae whose Latin Blancard printed; say so wherever you report a Marseille frequency.
 5. **Instance coding.** For every sampled act, fill `proposed-of/instances-commenda-primary-2026-09-28.csv` (header in `instances-header.csv`) and `proposed-of/instance-chars-commenda-primary-2026-09-28.csv` (header in `instance-chars-header.csv`).
    - Quote the Latin verbatim for every clause you parse.
    - Record every party's name, so that repeated investors can be counted.
@@ -44,13 +45,13 @@ They are in `sources/`. You read **no secondary literature** in this task.
 6. **Form-level summary, then FREEZE.** Per cell:
    - report the modal state, its share, n, and the number of distinct investors, per corpus and pooled;
    - **a frequency never becomes `P`**: `P` is a structural half-state, and heterogeneity is reported as a distribution in the note;
-   - a state in at least 10% of acts in either Genoese corpus is a **variant**: name it in the note;
+   - a state in at least 10% of acts in any one corpus is a **variant**: name it in the note;
    - a characteristic that no act speaks to is `.NR`.
 
    Then write the 61 stage-4 rows:
    - `condition` = `blind`, using the `recoding_id_blind` ids, `source_class` = `primary-transactional`;
    - into `proposed-of/recodings-commenda-primary-2026-09-28-<census>.csv`;
-   - with `source_ref` in the form `Giovanni Scriba I, nos. CCCXII, CDXXXV (pp. 172, 231); Guglielmo Cassinese I, no. 490 (p. 220); Amalric 1248 (Pryor), notula 20 (fol. 16r)`;
+   - with `source_ref` in the form `Giovanni Scriba I, nos. CCCXII, CDXXXV (pp. 172, 231); Guglielmo Cassinese I, no. 490 (p. 220); Amalric 1248 (Blancard), no. 91 (t. I, p. 298)`;
    - `source_lang` = `la`;
    - `source_read` = `partial`, with the sample stated in the note.
 

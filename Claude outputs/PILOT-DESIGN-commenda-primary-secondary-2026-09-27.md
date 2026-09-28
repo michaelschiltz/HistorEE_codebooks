@@ -33,7 +33,7 @@ All four were coded by `claude-opus-5` at `high`. `source_read` is `partial` or 
 
 **Scope mismatch, declared in advance:**
 
-- The `commenda` row is "Italian (Latin), 10–13c". The primary frame is **Genoa 1154–61 and 1191**, with Marseille 1248 optional.
+- The `commenda` row is "Italian (Latin), 10–13c". The primary frame is **Genoa 1154–61 and 1191, and Marseille 1248** (Amalric's cartulary in Blancard's edition; *source changed 2026-09-28*, see §3).
 - The Venetian half of `societas_maris` cannot be tested: Morozzo della Rocca & Lombardo 1940 and 1953 are not held.
 - `commenda_alloc` is coded largely from Ragusan material, so the Genoese acts test it at one remove.
 
@@ -43,19 +43,28 @@ The comparison is reported per cell, restricted to the frame. It is not a verdic
 
 ## 3. Corpora and their state
 
-| corpus                                                       | Zotero              | held                                                     | text layer                                                                                                                           | status                                                                                                                                                                                                                                                           |
-|--------------------------------------------------------------|---------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Cartolare di Giovanni Scriba*, ed. Chiaudano & Moresco 1935 | QTEG4PM7 → DHLLKXEI | vol. I only (BEIC scan, 509 pp; acts I–DCCCII+, 1154–61) | usable but letter-spaced OCR ("G ave sor or i s")                                                                                    | **core**                                                                                                                                                                                                                                                         |
-| same item, second file                                       | QTEG4PM7 → 9PW8MDU5 | 139 pp, double-page spreads                              | none: image-only                                                                                                                     | **not Scriba's acts**: an OCR probe shows an introduction on the Genoese notarial archive and an inventory of registers ("Atti del notaio Jacobus de S. Savina"), probably Moresco & Bognetti's description of the twelfth-century cartularies; verify. Misfiled |
-| *Guglielmo Cassinese*, ed. Hall, Krueger & Reynolds 1938     | G4TIJ2FM            | vol. I only (464 pp; acts 1–c.1092, 1190–Sept 1191)      | good on transcriptions; plates are noise                                                                                             | **core**                                                                                                                                                                                                                                                         |
-| Pryor 1981, Giraud Amalric 1248                              | CQ4IPQ5Q            | 334 pp                                                   | **good** (Internet Archive layer; *corrected 2026-09-27*: Zotero's reader reports none, `pdftotext` reads Latin and English cleanly) | third notary, **editorially selected** (see below)                                                                                                                                                                                                               |
-| Blancard 1884                                                | HF8ME3N7            | **vol. II only** (pp. 301–)                              | poor (tabular garble)                                                                                                                | not used; overlaps Pryor on Amalric, so one witness                                                                                                                                                                                                              |
+| corpus                                                                | Zotero                                       | held                                                                                  | text layer                                                                                                                           | status                                                                                                                                                                                                                                                           |
+|-----------------------------------------------------------------------|----------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *Cartolare di Giovanni Scriba*, ed. Chiaudano & Moresco 1935          | QTEG4PM7 → DHLLKXEI                          | vol. I only (BEIC scan, 509 pp; acts I–DCCCII+, 1154–61)                              | usable but letter-spaced OCR ("G ave sor or i s")                                                                                    | **core**                                                                                                                                                                                                                                                         |
+| same item, second file                                                | QTEG4PM7 → 9PW8MDU5                          | 139 pp, double-page spreads                                                           | none: image-only                                                                                                                     | **not Scriba's acts**: an OCR probe shows an introduction on the Genoese notarial archive and an inventory of registers ("Atti del notaio Jacobus de S. Savina"), probably Moresco & Bognetti's description of the twelfth-century cartularies; verify. Misfiled |
+| *Guglielmo Cassinese*, ed. Hall, Krueger & Reynolds 1938              | G4TIJ2FM                                     | vol. I only (464 pp; acts 1–c.1092, 1190–Sept 1191)                                   | good on transcriptions; plates are noise                                                                                             | **core**                                                                                                                                                                                                                                                         |
+| Pryor 1981, Giraud Amalric 1248                                       | CQ4IPQ5Q                                     | 334 pp                                                                                | **good** (Internet Archive layer; *corrected 2026-09-27*: Zotero's reader reports none, `pdftotext` reads Latin and English cleanly) | *superseded 2026-09-28*: replaced in arm P by Blancard (see below)                                                                                                                                                                                               |
+| Blancard 1884–85, Amalric 1248 (t. I nos. 1–371, t. II nos. 372–1031) | HF8ME3N7 → KAZIK3NZ (t. I), 2ZPXVTKN (t. II) | **both volumes, complete** (*updated 2026-09-28*); the t. I scan lacks printed p. 378 | good (Internet Archive t. I; Google Books t. II)                                                                                     | **core (Marseille)**: Latin printed for 561 of 1031 acts, by the editor's choice                                                                                                                                                                                 |
 
 **Pryor 1981 is an editorial selection with commentary, and both facts bind the design** (added 2026-09-27, after the text-layer correction):
 
 - **It is not a sample.** The book gives about 100 notulae from Amalric's cartulary, chosen as exemplars of each contract type. The commenda-family chapters hold only a handful: VII *Comanda*, VIII *Companhia/societas*, IX *Comanda et companhia*, XXXI *Societas/companhia/comanda*. That is good for clause wording and useless for frequencies or minority states.
-- **The unselected sample would be the full cartulary.** Blancard 1884 vol. II opens with acts nos. 1026–1027 of a numbered series, including a Ceuta comanda. That looks like the tail of the full 1248 cartulary, which would put the bulk in the vol. I we do not hold. Unverified.
+- **The unselected sample would be the full cartulary.** *Resolved 2026-09-28:* Blancard's two volumes hold it entire (next paragraph).
 - **The editor's commentary is secondary and shares an author with a live-row source.** Each chapter interleaves Pryor's essay (e.g. ch. VII's "basic features of the contract") with the notulae. The live `commenda` row cites Pryor 1977. **Arm P must receive an extract of the Latin notulae only**, cut out of the PDF by the operator, never the book.
+
+**Update 2026-09-28 (ii): Blancard replaces Pryor as arm P's Marseille corpus.** Pryor's 104 notulae include only four drafted *in comanda*. Blancard numbers all 1031 acts and prints the Latin of 561. Arm P receives that Latin only, with Blancard's French summaries withheld; the other acts appear as stubs.
+
+**Two properties bind the reading:**
+
+1. **Blancard abridges the renunciation and closing formulae** (`renuncians etc.`). A formula's absence is never evidence.
+2. **His choice of what to print in Latin favours non-routine acts.** The measurement is in the operator brief and logbook 5, 2026-09-28, and is withheld from the coder.
+
+Marseille is therefore the stronger corpus for detecting minority states and the weaker one for proportions.
 
 The Genoese regesti (the editors' Italian headings) are a third layer: editorial classification. **Use them for sampling only, never as evidence.** Code from the Latin.
 
@@ -64,7 +73,7 @@ The Genoese regesti (the editors' Italian headings) are a third layer: editorial
 - Scriba vol. II;
 - Cassinese vol. II;
 - ~~OCR of Pryor 1981~~ (not needed: the text layer is good);
-- Blancard vol. I (the Manduel commendas);
+- ~~Blancard vol. I~~ (held 2026-09-28, with a complete t. II); printed p. 378 of t. I from Gallica (`bpt6k8729825`) would restore nos. 276–280;
 - Morozzo & Lombardo (hardcopy).
 
 ## 4. Design: three arms, one rater
@@ -90,7 +99,7 @@ S and P must be separate chats. A chat that has read van Doosselaere cannot then
 
 ## 5. Sampling
 
-- **Strata:** notary (Scriba, Cassinese) × type (accomendatio, societas). Add sea-loan instruments (foenus nauticum, "salvo eunte pignore") as a third type for the loss-census rows.
+- **Strata:** notary (Scriba, Cassinese, Amalric) × type (accomendatio/comanda, societas/companhia). Amalric's frame is the notulae whose Latin Blancard printed (*added 2026-09-28*). Add sea-loan instruments (foenus nauticum, "salvo eunte pignore") as a third type for the loss-census rows.
 - **Size: all acts if a stratum has 60 or fewer; otherwise a systematic random sample of 60** (random start, fixed interval, over act numbers). **Why 60:** with n = 59, a clause variant present in at least 5% of a stratum's acts appears at least once with probability ≥ 0.95, since 1 − 0.95⁵⁹ ≥ 0.95. The pilot's main target is compression loss, so what matters is detecting minority states, not estimating proportions. A proportion to ±0.10 at 95% would need about 96, which is not warranted at this stage.
 - **Clustering.** The same investors recur (e.g. Ogerio Galleta in Cassinese), as do the same days and the same travellers. Record party names so that cluster-robust summaries, or an effective n, can be computed. Report distributions with party-clustered intervals, or at minimum with the number of distinct investors.
 
@@ -174,7 +183,7 @@ These are the operator's predictions of which characteristics notarial acts can 
 
 ## 11. Decisions for MS
 
-1. **Scope.** *Decided 2026-09-27: include Marseille.* Pryor needs no OCR, but its notulae are an editorial selection, so Marseille contributes clause wording, not frequencies, unless Blancard vol. I is acquired.
+1. **Scope.** *Decided 2026-09-27: include Marseille.* *Updated 2026-09-28:* Blancard's two volumes acquired; Marseille is coded from the whole cartulary's printed Latin, not from Pryor's selection, and is sampled like the Genoese corpora.
 2. **Run arm S.** *Decided 2026-09-27: yes.*
 3. **Sample size** of 60 per stratum, and the 10% variant threshold.
 4. **The instance table in `records/` for the pilot** (recommended), versus a schema resource now.

@@ -8,11 +8,11 @@
 
 ## Passes and ids
 
-| arm | pass slug | bundle | ids, organizational_forms | ids, loss_mitigation_forms | `condition` |
-|---|---|---|---|---|---|
-| S | `commenda-secondary-2026-09-28` | `~/GitHub/_blind-commenda-secondary-2026-09-28` | OF-R0065–R0106 | LM-R0001–R0019 | `blind` |
-| P, stage 4 | `commenda-primary-2026-09-28` | `~/GitHub/_blind-commenda-primary-2026-09-28` | OF-R0107–R0148 | LM-R0020–R0038 | `blind` |
-| P, stage 5 | `commenda-primary-2026-09-28` | same | OF-R0149–R0190 | LM-R0039–R0057 | `open` |
+| arm        | pass slug                       | bundle                                          | ids, organizational_forms | ids, loss_mitigation_forms | `condition` |
+|------------|---------------------------------|-------------------------------------------------|---------------------------|----------------------------|-------------|
+| S          | `commenda-secondary-2026-09-28` | `~/GitHub/_blind-commenda-secondary-2026-09-28` | OF-R0065–R0106            | LM-R0001–R0019             | `blind`     |
+| P, stage 4 | `commenda-primary-2026-09-28`   | `~/GitHub/_blind-commenda-primary-2026-09-28`   | OF-R0107–R0148            | LM-R0020–R0038             | `blind`     |
+| P, stage 5 | `commenda-primary-2026-09-28`   | same                                            | OF-R0149–R0190            | LM-R0039–R0057             | `open`      |
 
 **Scope:** 61 cells, each arm and stage. `commenda` has 21 cells, `organizational_forms` `societas_maris` 21, `commenda_alloc` 10, and `loss_mitigation_forms` `societas_maris` 9. The per-cell assignment is in each bundle's `cells-in-scope.csv`. Rows carry `source_class` (logbook 1, 2026-09-27).
 
@@ -34,10 +34,7 @@ They carry **no `data.csv`, logbooks, CHANGELOG, codebooks, views, `records/`, v
 - **Scriba I:** acts only, PDF pp. 66–501 plus the errata on p. 504.
 - **Cassinese I:** acts only, PDF pp. 22–459.
 - Both editors' introductions are removed. Scriba's discusses the *accomendaciones* and the *socius stans*.
-- **Amalric 1248:** all 104 notulae of Pryor 1981, Latin only, extracted by script:
-  - chapter commentary, English headnote summaries, introduction, glossary and index removed;
-  - each notula keeps its archival reference and marginalia;
-  - the extraction was verified to be complete (1–104, none empty) and screened for English leakage (none above 1% of a notula's words).
+- **Amalric 1248:** *(changed 2026-09-28 (ii); see below)* the whole cartulary as edited by Blancard, Latin only, in `sources/amalric1248_blancard_notulae_latin.txt`. It replaces the 104 notulae of Pryor 1981.
 
 **Arm S sources:** the works the live rows cite, as held:
 
@@ -77,9 +74,49 @@ Every replacement was asserted to match exactly once. The loss vocabulary's `exe
 
 ## Findings made while building, which correct the design
 
-- **Blancard 1884 vol. II is Amalric's cartulary** ("Les notules commerciales d'Amalric", per Pryor's abbreviations), not vol. I as the design guessed. The PDF held (HF8ME3N7) begins at printed p. 301 with nos. 1026–, so **only the tail of the unselected cartulary is held**. The bulk (Pryor's references run to no. 991 and below) is in the part not held. Blancard gives many acts only as French analyses. Acquisition: the first half of Blancard II.
+- ~~**Blancard 1884 vol. II is Amalric's cartulary** … only the tail of the unselected cartulary is held.~~ **Superseded 2026-09-28 (ii):** the cartulary runs across both volumes (t. I nos. 1–371, t. II nos. 372–1031), and both are now held in full. See logbook 5, 2026-09-28.
 - **Pryor 1981 needs no OCR:** Zotero's reader misreported its text layer.
 - **QTEG4PM7's second file is not Scriba's acts.** It is probably Moresco & Bognetti's description of the registers, and is misfiled.
+
+## Change of 2026-09-28 (ii): arm P's Marseille corpus is Blancard, not Pryor
+
+**Why.** MS acquired Blancard t. I (`KAZIK3NZ`) and a complete t. II (`2ZPXVTKN`), so the unselected cartulary became available. Pryor 1981 is an exemplar selection with only **four** notulae drafted *in comanda* among its 104 (Blancard nos. 91, 177, 426, 986). As a Marseille frame it was a source-side compression of the same kind the pilot measures. Chat P had not been opened and no priors had been committed, so the swap cost a rebuild of one bundle and nothing else.
+
+**What was built.** `sources/amalric1248_blancard_notulae_latin.txt` (550,316 bytes) holds one block per act, nos. 1–1031:
+
+- 561 blocks hold the Latin, whitespace-normalised, with `[p. N]` page breaks, the folio where the OCR reads it, and Blancard's 15 textual notes on the notary's corrections, marked as his.
+- 413 are stubs, "Latin not printed".
+- 51 are stubs, "moved to the appendix".
+- 6 are stubs, "not in the scan": nos. 276–280, lost with printed p. 378; and no. 879.
+- Removed: every French summary, the date headings, the introduction, the tables, the index and the bibliographic cross-references.
+- **Leak screen:** no line of any Latin block carries two or more French function words. Among the lines with one French word and no Latin marker, two are apparatus fragments ("(le reste manque.)" and the tail of a textual note). The rest are Latin with *qui*.
+
+**How it was segmented.** Act starts were found in the `pdftotext -layout` text by number-plus-heading, heading-alone and number-alone patterns. Numbers were assigned by a longest increasing chain over the numerals the OCR read, and by interpolation between anchors. Four places were fixed by hand:
+
+- t. I PDF p. 467: "328" read for 326;
+- t. II PDF p. 42: "423" read for 422;
+- no. 11's garbled heading;
+- one sub-declaration (no. 761) and one heading (no. 858) merged back into their acts.
+
+The Latin begins at the first dating or *Eodem die* incipit with Latin-dominant context. **Numbering validated against Pryor 1981**, which cites a Blancard number for each of its notulae. Of Pryor's 103 citable notulae, 54 fall on Blancard blocks with Latin, and all 54 share the most vocabulary with the block of the same number rather than a neighbour (same-number overlap 0.47–0.91). The other 49 fall on stubs: Pryor printed the Latin of acts that Blancard only summarised. Scripts and intermediates are in the device work directory (`blx11.py`, `blsplit.py`, `blwrite.py`). They are not kept in the repository.
+
+**What the coder is told:** the README and the file header say that Blancard printed about half the Latin by his own choice, and that he abridges the formulae. The prompt's step 3 now classifies Amalric's printed notulae and counts the stubs apart. Step 4 samples Amalric as a third corpus under the Genoese rule and seed. The variant threshold now applies per corpus. The `source_ref` example cites Blancard.
+
+**What the coder is NOT told (operator-only, for scoring).** Blancard's choice is directional. Measured on his own summaries of the commandes:
+
+| feature in the summary            | printed in Latin | summary only |
+|-----------------------------------|------------------|--------------|
+| "pacotille d'usage" (routine mix) | 15 / 206         | 90 / 222     |
+| a profit share named              | 8 / 206          | 4 / 222      |
+| destination Acre                  | 67 / 206         | 78 / 222     |
+
+The printed set over-represents non-routine commandes. **Score Marseille frequencies as upper-biased for minority states**. Treat Marseille as the stronger corpus for detection, and the weaker one for proportions. The withheld French summaries of the 222 unprinted commandes stay available to the application chat as a check on this bias. They are secondary evidence and never enter a cell.
+
+**Formula abridgement, checked on one act.** Against Pryor's full text of no. 91 (Pryor notula 17), Blancard's `renuncians etc.` hides the *exceptio non numerate* and the *induciae* renunciations, and the *Solutum* marginal is dropped. Cells resting on renunciations or marginalia are therefore `.NR` at best from Marseille.
+
+**Retired from the bundle:** `amalric1248_pryor_notulae_latin.txt`. It was moved, not deleted, to `~/GitHub/_retired-from-bundles-2026-09-28/`. Delete that folder by hand when convenient. **The manifest was regenerated.** Three lines differ from the 05:01 build: README, the priors template (one line, the corpus description), and the swapped source. The bundle verifies clean against the new manifest.
+
+**Channel check, re-done** against design §§9–10: the new README lines and prompt lines state properties of the source (editorial choice, abridgement, OCR), not values or observability predictions. No direction of bias is stated to the coder.
 
 ## What MS does next, in order
 
