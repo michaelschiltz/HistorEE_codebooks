@@ -144,3 +144,33 @@ The printed set over-represents non-routine commandes. **Score Marseille frequen
 ## Bundle manifests
 
 `records/MANIFEST-commenda-primary-2026-09-28.sha256` and `records/MANIFEST-commenda-secondary-2026-09-28.sha256` hold the sha256 of every file in each bundle as built. At application, `shasum -a 256 -c` against the bundle, excluding `proposed-of/`, `reveal/` and the filled priors, shows whether a coder changed anything outside its remit.
+
+## Freeze verification
+
+**Arm S, verified 2026-09-28.**
+
+- **`proposed-of/`**: all five files match the sha256 values chat S printed:
+  - COMMIT-MSG `209a5f42…`;
+  - LOGBOOK-DRAFT `059bd8ec…`;
+  - NOTES `516d75d5…`;
+  - loss CSV `eabb8d73…`;
+  - organizational CSV `a5b901c1…`.
+- **Priors**: the bundle copy and `records/` copy both hash to `a2917ca5…`, as printed.
+- **The rest of the bundle** matches its manifest. The priors template is the only difference, as expected, and no file was added outside `proposed-of/`.
+- **Rows**:
+  - 42 organizational rows and 19 loss rows;
+  - headers equal to the templates;
+  - `recoding_id` and `record_id` equal to `cells-in-scope.csv`;
+  - fixed fields as prompted;
+  - `value_at_recoding` and `agreement` empty;
+  - `source_class`: secondary 55, `.NA` 6.
+
+**Chat S's acquisitions list (answer 6), for the application and a later pass, not this pilot:**
+
+- Pryor 1977 (`G7U4P8T3`, no PDF), which chat S names as the shared upstream of three of the six works. Arm S is therefore fewer independent witnesses than works on the cells those three share.
+- González de Lara 2008 (`4PI4SW9R`, no PDF).
+- Tiepolo's statutes of 1242, book III: primary-normative, so not arm-S material.
+- Lopez & Raymond (`DTYK94N3`, web link only): documents in translation, so `mixed` at best.
+
+The cells chat S says need primary support (`CI2`, `AP2`, `LP3`, `VF1`, and `CF1`/`CF3`/`RB1` for `societas_maris`) are the ones to read first against arm P.
+
