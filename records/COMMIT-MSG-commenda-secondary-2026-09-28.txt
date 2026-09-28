@@ -1,0 +1,25 @@
+records: blind secondary re-coding of commenda and societas maris
+
+Pass commenda-secondary-2026-09-28 (arm S): 61 cells of commenda
+and societas_maris (organizational_forms) and commenda_alloc and
+societas_maris (loss_mitigation_forms), coded blind by
+claude-opus-5-5 at effort high from six held secondary works
+only. Priors (sha256 a2917ca5...4c34) were committed and confirmed
+before any source was opened; every cell was fixed before any
+computation.
+
+Rows OF-R0065..OF-R0106 and LM-R0001..LM-R0019, adjudication
+pending, value_at_recoding and agreement left empty. 35
+substantive, 20 .NR, 6 .NA. Legal personality, capital lock-in and
+transferable claims learned nothing on either row. Owner shielding
+was coded for the commenda only, on two non-independent sources.
+MC1 is not blind on either loss row.
+
+Flagged and not repaired: LR1 bundles extent with form; LR3's name
+and definition diverge; the RB1 labour-at-risk ambiguity; the
+"bilateral commenda" gloss against CF3; "Harris 2020" names three
+works; the README's page-number premise for Harris 2007; and stale
+vocabulary paths in the schema descriptions.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01HgzhoFqxnXJPdeJFXvxhaq

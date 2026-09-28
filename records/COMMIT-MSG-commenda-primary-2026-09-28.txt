@@ -1,0 +1,30 @@
+Blind primary-source re-coding of commenda and societas maris (stage 4)
+
+Re-codes the 61 cells of commenda and societas_maris (organizational
+census) and commenda_alloc and societas_maris (loss census) blind, from
+Giovanni Scriba I, Guglielmo Cassinese I and Amalric 1248 (Blancard,
+printed notulae only), with no secondary literature.
+
+Why: to test the live values against what the notarial acts themselves
+say, with priors committed first and the live values withheld.
+
+- Type census of 2,459 printed acts by Latin drafting term.
+- Systematic sample (seed 20260928): 272 instances from 268 acts,
+  every party and clause recorded with verbatim Latin; minority-state
+  quotes in the Genoese acts checked against page images.
+- Cell = modal state among the acts that speak, pooled; variants of
+  10% or more in any corpus named; .NR where no act speaks.
+- 36 observed cells, 21 .NR, 4 .NA; fifteen priors falsified.
+- Both recodings files validate (frictionless 5.19.1, foreign key
+  removed on scratch copies).
+
+Main open decision: land-based societates sit in the societas_maris
+frame because the frame was fixed by drafting term; they carry
+societas_maris CF2=1 (low). Sea-going acts alone give CF2=0.
+
+Files: proposed-of/type-census-, instances-, instance-chars-,
+recodings-…-organizational_forms, recodings-…-loss_mitigation_forms,
+NOTES-commenda-primary-coding-2026-09-28.md.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_019QPcXrGP1tFhgSqk1MFbmX

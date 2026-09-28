@@ -187,6 +187,6 @@ These are the operator's predictions of which characteristics notarial acts can 
 2. **Run arm S.** *Decided 2026-09-27: yes.*
 3. **Sample size** of 60 per stratum, and the 10% variant threshold.
 4. **The instance table in `records/` for the pilot** (recommended), versus a schema resource now.
-5. **`source_class` in `recodings.csv`.** *Decided 2026-09-27: add it.* Specified in `proposed-of/PATCH-source-class-2026-09-27.md`, awaiting approval.
+5. **`source_class` in `recodings.csv`.** *Decided 2026-09-27: add it.* Specified in `records/PATCH-source-class-2026-09-27.md`, awaiting approval. *(moved from `proposed-of/` on 2026-09-28; approved and applied 2026-09-27, CHANGELOG.)*
 6. **The eleven absent organizational characteristics:** leave them (recommended), or license a separate gap-fill arm that mints rows.
 7. **Identify QTEG4PM7's second file** (9PW8MDU5), and decide whether to acquire Scriba vol. II and Cassinese vol. II before or after the pilot.

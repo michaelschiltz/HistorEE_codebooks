@@ -1,0 +1,472 @@
+{
+  "name": "organizational_forms",
+  "title": "Cooperative organizational forms — feature coding",
+  "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological (Zwicky) coding of cooperative and risk-pooling organizational forms (waqf, ie, compagnia, joint-stock corporation, nación, natie, kabu-nakama, and forms to be added) against a granular set of structural characteristics. Stored long/tidy: one row per form × characteristic. Supports the comparative typology in Clearing and Settling the Realm / HistorEE. Codes for forms and characteristics live in vocabularies/organizational_form_type.csv and vocabularies/organizational_form_characteristic.csv. Rows with coder 'ai' are provisional seed codings pending human verification; source_ref '[verify]' marks a coded value whose citation is not yet pinned.",
+  "version": "0.11.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Michael Schiltz",
+      "role": "maintainer",
+      "organization": "London Mathematical Laboratory (incoming)"
+    }
+  ],
+  "created": "2026-07-29T00:00:00Z",
+  "resources": [
+    {
+      "name": "organizational_forms",
+      "path": "data.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": {
+        "primaryKey": "record_id",
+        "missingValues": [
+          "",
+          ".NR",
+          ".IL",
+          ".NA"
+        ],
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string",
+            "title": "Record ID",
+            "description": "Stable unique identifier for the coding. Never reused.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^OF-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "type_id",
+            "type": "string",
+            "title": "Organizational form (coded)",
+            "description": "Coded organizational form. Controlled vocabulary: vocabularies/organizational_form_type.csv. Not enum-constrained here because the form census is still growing (CONTRIBUTING §5); enforcement can be added once it stabilises."
+          },
+          {
+            "name": "char_id",
+            "type": "string",
+            "title": "Characteristic (coded)",
+            "description": "Coded structural characteristic. Controlled vocabulary: vocabularies/organizational_form_characteristic.csv, which also gives each characteristic's value type and allowed values."
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "title": "Coded state",
+            "description": "The characteristic's state for this form. Ternary characteristics: 1 present, P partial, 0 absent. Nominal/ordinal characteristics: one of that characteristic's allowed categories (see vocabulary). Absence (0) is a datum, kept distinct from .NA (characteristic does not apply to this form) and .NR (not yet coded). Because admissible values are per-characteristic, this field is not enum-constrained."
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "title": "Record confidence",
+            "description": "Confidence in the coding. Orthogonal to value: a contested coding is low even where value is 1 (present). Uncertainty is an explicit column, not prose.",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "articulation",
+            "type": "string",
+            "title": "Articulation",
+            "description": "Whether the coded function was articulated by the tradition's own advocates in their own idiom ('articulated'), or is visible only under the analyst's description ('analyst-imposed'). '.NR' where not yet assessed; propagates '.NA' with the value. Implements the methodology's constraint that functional coding be bounded by the sources' vocabulary, so that the two kinds of claim are never aggregated.",
+            "constraints": {
+              "enum": [
+                "articulated",
+                "analyst-imposed"
+              ]
+            }
+          },
+          {
+            "name": "source_ref",
+            "type": "string",
+            "title": "Source reference",
+            "description": "Short citation supporting the coding, or '[verify]' where the value is asserted pending a pinned reference."
+          },
+          {
+            "name": "source_lang",
+            "type": "string",
+            "title": "Source language",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.",
+            "constraints": {
+              "enum": [
+                "ja",
+                "nl",
+                "de",
+                "fr",
+                "en",
+                "es",
+                "he",
+                "arc",
+                "ar",
+                "la",
+                "it",
+                "tr",
+                "pl",
+                "pt"
+              ]
+            }
+          },
+          {
+            "name": "coder",
+            "type": "string",
+            "title": "Coder",
+            "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification. The model and effort setting of an 'ai' coding are carried in `coder_model` and `coder_effort`.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_read",
+            "type": "string",
+            "title": "Source read",
+            "description": "Whether the coder had read source_ref when the cell was entered, or has since. 'full' = read throughout; 'partial' = read the cited passages and their context; 'none' = coded from secondary description without opening the source; 'unknown' = not recorded at coding time. '.NA' where the row has no source. PROCESS METADATA, NOT A CLAIM ABOUT THE SOURCE.",
+            "constraints": {
+              "enum": [
+                "full",
+                "partial",
+                "none",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "reviewed_by",
+            "type": "string",
+            "title": "Reviewed by",
+            "description": "Initials of the team member who has checked this cell, or 'none'. Distinct from 'coder'. Multiple reviewers separated by ';'.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "review_status",
+            "type": "string",
+            "title": "Review status",
+            "description": "'unreviewed' (default); 'source-checked' = a reviewer read source_ref and confirms the cell against it; 'coding-checked' = a reviewer accepts the reasoning but did not or could not verify against the source, which is the honest state where source_lang lies outside the reviewer's languages; 'disputed' = a reviewer disagrees and resolution is pending.",
+            "constraints": {
+              "enum": [
+                "unreviewed",
+                "source-checked",
+                "coding-checked",
+                "disputed"
+              ]
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "title": "Notes",
+            "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references."
+          },
+          {
+            "name": "coder_model",
+            "type": "string",
+            "title": "Coder model",
+            "description": "Identifier of the AI model that produced the value currently in this row, where `coder` is 'ai' (e.g. `claude-opus-5`); `.NA` where the coder is a person; `.NR` where not recorded. Back-filled on 2026-09-26 for every row then in the census, on the maintainer's statement that all cells to that date were coded by Claude Opus 5 at effort 'high' (logbook 1, 2026-09-26). When an adjudicated re-coding replaces a value, this field changes with it; the superseded coding survives in `recodings.csv`.",
+            "constraints": {
+              "pattern": "^[a-z0-9][a-z0-9.-]*$"
+            }
+          },
+          {
+            "name": "coder_effort",
+            "type": "string",
+            "title": "Coder effort",
+            "description": "Named effort (reasoning-budget) setting under which `coder_model` produced this row's value; `.NA` where the coder is a person; `.NR` where not recorded. Named levels are not comparable across models: 'high' on one model is not the same budget as 'high' on another, so compare codings by the pair (`coder_model`, `coder_effort`), never by this field alone.",
+            "constraints": {
+              "enum": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "organizational_forms_recodings",
+      "path": "recodings.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      },
+      "schema": {
+        "primaryKey": "recoding_id",
+        "missingValues": [
+          "",
+          ".NR",
+          ".IL",
+          ".NA"
+        ],
+        "fields": [
+          {
+            "name": "recoding_id",
+            "type": "string",
+            "title": "Recoding ID",
+            "description": "Identifier of one re-coding of one cell in one pass. `OF-R` plus four digits, taken as max(existing)+1.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^OF-R[0-9]{4}$"
+            }
+          },
+          {
+            "name": "record_id",
+            "type": "string",
+            "title": "Record ID",
+            "description": "The `data.csv` row this re-coding tests. Several re-codings may point at one row, one per pass.",
+            "constraints": {
+              "required": true,
+              "pattern": "^OF-[0-9]{4}$"
+            }
+          },
+          {
+            "name": "type_id",
+            "type": "string",
+            "title": "Organizational form (coded)",
+            "description": "Form code, copied from the tested row so that this file can be read on its own."
+          },
+          {
+            "name": "char_id",
+            "type": "string",
+            "title": "Characteristic (coded)",
+            "description": "Characteristic code, copied from the tested row so that this file can be read on its own."
+          },
+          {
+            "name": "pass",
+            "type": "string",
+            "title": "Pass",
+            "description": "Slug of the re-coding pass, as named in its `records/` notes and its logbook 4 entry.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "recoded_on",
+            "type": "date",
+            "title": "Recoded on",
+            "description": "Date the re-coded value was fixed (ISO 8601).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "condition",
+            "type": "string",
+            "title": "Condition",
+            "description": "`blind` if the re-coder did not see the existing value or the operator's expectations before fixing this one; `open` otherwise.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "blind",
+                "open"
+              ]
+            }
+          },
+          {
+            "name": "coder",
+            "type": "string",
+            "title": "Coder",
+            "description": "Initials of the team member who entered the record. 'ai' marks a provisional assistant-generated seed coding pending human verification. The model and effort setting of an 'ai' coding are carried in `coder_model` and `coder_effort`.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "coder_model",
+            "type": "string",
+            "title": "Coder model",
+            "description": "Model that produced the re-coded value, where `coder` is 'ai'; `.NA` for a person.",
+            "constraints": {
+              "pattern": "^[a-z0-9][a-z0-9.-]*$"
+            }
+          },
+          {
+            "name": "coder_effort",
+            "type": "string",
+            "title": "Coder effort",
+            "description": "Named effort setting of the re-coding; not comparable across models (see `data.csv`).",
+            "constraints": {
+              "enum": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "title": "Coded state",
+            "description": "The re-coded value."
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "title": "Record confidence",
+            "description": "Confidence in the coding. Orthogonal to value: a contested coding is low even where value is 1 (present). Uncertainty is an explicit column, not prose.",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "articulation",
+            "type": "string",
+            "title": "Articulation",
+            "description": "Whether the coded function was articulated by the tradition's own advocates in their own idiom ('articulated'), or is visible only under the analyst's description ('analyst-imposed'). '.NR' where not yet assessed; propagates '.NA' with the value. Implements the methodology's constraint that functional coding be bounded by the sources' vocabulary, so that the two kinds of claim are never aggregated.",
+            "constraints": {
+              "enum": [
+                "articulated",
+                "analyst-imposed"
+              ]
+            }
+          },
+          {
+            "name": "source_ref",
+            "type": "string",
+            "title": "Source reference",
+            "description": "Short citation supporting the coding, or '[verify]' where the value is asserted pending a pinned reference."
+          },
+          {
+            "name": "source_lang",
+            "type": "string",
+            "title": "Source language",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.",
+            "constraints": {
+              "enum": [
+                "ja",
+                "nl",
+                "de",
+                "fr",
+                "en",
+                "es",
+                "he",
+                "arc",
+                "ar",
+                "la",
+                "it",
+                "tr",
+                "pl",
+                "pt"
+              ]
+            }
+          },
+          {
+            "name": "source_read",
+            "type": "string",
+            "title": "Source read",
+            "description": "Whether the coder had read source_ref when the cell was entered, or has since. 'full' = read throughout; 'partial' = read the cited passages and their context; 'none' = coded from secondary description without opening the source; 'unknown' = not recorded at coding time. '.NA' where the row has no source. PROCESS METADATA, NOT A CLAIM ABOUT THE SOURCE.",
+            "constraints": {
+              "enum": [
+                "full",
+                "partial",
+                "none",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "value_at_recoding",
+            "type": "string",
+            "title": "Value at recoding",
+            "description": "The `data.csv` value of the tested row when this re-coding was fixed. Kept because `data.csv` may later change; agreement is scored against this, not against the current value."
+          },
+          {
+            "name": "agreement",
+            "type": "string",
+            "title": "Agreement",
+            "description": "Whether `value` equals `value_at_recoding`.",
+            "constraints": {
+              "enum": [
+                "agree",
+                "disagree"
+              ]
+            }
+          },
+          {
+            "name": "adjudication",
+            "type": "string",
+            "title": "Adjudication",
+            "description": "`pending` until a person rules; `kept` if the existing value stands; `replaced` if this value was written into `data.csv` (and `coder_model`/`coder_effort` there changed with it); `disputed` if left open.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "pending",
+                "kept",
+                "replaced",
+                "disputed"
+              ]
+            }
+          },
+          {
+            "name": "adjudicated_by",
+            "type": "string",
+            "title": "Adjudicated by",
+            "description": "Initials of the person who ruled, or 'none'.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "title": "Notes",
+            "description": "Free-text coder note: rationale, the school that dissents, caveats, cross-references."
+          },
+          {
+            "name": "source_class",
+            "type": "string",
+            "title": "Source class",
+            "description": "Class of the source(s) in `source_ref`, judged by the cited passage, not by the container. `secondary`: a modern author's account of the institution, including documents they quote inside their own argument. `primary-transactional`: an edited or transcribed contract, notarial act, ledger, letter or court entry, including a transcription printed in an appendix to a secondary work. `primary-normative`: a code, statute, custom, sea law, fatwa or juristic treatise stating a rule. `primary-institutional`: a charter, minute, resolution, placard or register of an institution's own proceedings. `mixed`: `source_ref` cites passages of more than one class; `notes` should say which carries the value. `.NA` where the row has no source. Added 2026-09-27 (logbook 1).",
+            "constraints": {
+              "enum": [
+                "secondary",
+                "primary-transactional",
+                "primary-normative",
+                "primary-institutional",
+                "mixed"
+              ]
+            }
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "record_id",
+            "reference": {
+              "resource": "organizational_forms",
+              "fields": "record_id"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
