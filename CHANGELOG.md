@@ -2,6 +2,12 @@
 
 All notable, dataset-level changes are recorded here. This is the human-readable companion to the Git history: Git records every line change, this records the decisions that matter to a data *consumer*. Format follows [Keep a Changelog](https://keepachangelog.com/); versions follow [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Fixed
+
+- Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
+
 ## organizational_forms, loss_mitigation_forms — 2026-09-28
 
 **The commenda pilot lands in `recodings.csv`: 183 rows across the two censuses, OF-R0065–R0190 (126) and LM-R0001–R0057 (57). The loss census's recodings resource receives its first rows, and its `record_id` foreign key now resolves. No value in `data.csv` moves and no row is added to or removed from it. No version bump: `organizational_forms` stays `0.11.0`, `loss_mitigation_forms` `0.8.0`.**

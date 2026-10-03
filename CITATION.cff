@@ -19,7 +19,7 @@ version: 0.2.0
 date-released: 2026-07-23
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.1462909"
+    value: "10.5281/zenodo.21341360"
     description: "Zenodo concept DOI — represents all versions, resolves to the latest"
   - type: doi
     value: "10.6084/m9.figshare.32947250"
