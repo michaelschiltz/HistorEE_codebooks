@@ -8,6 +8,40 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms, loss_mitigation_forms — 2026-10-07
+
+**The Crown of Aragon comanda enters both censuses as two forms split by the loss rule: `comanda` (the investor bears the capital loss) and `comanda_ad_societatem` (loss shared in the profit proportion), with their loss-allocation rows `comanda_alloc` and `comanda_ad_societatem_alloc`. 84 rows appended to `data.csv`: OF-0836–OF-0899 (64) and LM-0741–LM-0760 (20). Four type codes added. No version bump: `organizational_forms` stays `0.11.0`, `loss_mitigation_forms` `0.8.0`.**
+
+- **Open batch, not blind**, by MS's ruling: the material was newly acquired. Coded by `claude-opus-5-5` at `high`. These are the first `data.csv` cells by a model other than `claude-opus-5`. All rows are `unreviewed`.
+- **Sources:** the *Llibre del Consolat de Mar* (Capmany, ed. Font Rius 1965); Martínez Gijón 1966 and 1974; García Sanz 1959; Hancock 2025; Fynn-Paul 2017; Polonio 2014; Cuadrada & López Pérez. Madurell & García Sanz 1973 and *Societats mercantils* 1986 are not yet consultable and are listed in the type rows for a later re-coding.
+- **What it adds to the matrix:**
+  - `RB3 = general-estate` gets its first instance in the loss census, contradicting `commenda_alloc RB3 = none`; this bears on pilot worksheet entries 19 and 21.
+  - `comanda_ad_societatem` takes `CF2 = P` and `RB4 = 0`, placing it between the commenda and the *ʿisqa* on those cells. This is reported, not interpreted.
+  - The six entity-side and pooling components are empty on both organizational rows.
+- **MS ruled the commenda pilot's four definitional questions** before coding: the two-limb rule for formulary absence, no minority `P`, `commenda CI1 = common` stands, and the acts' silence on `VF1`/`VF2` is `.NR`. They are recorded at `records/RULINGS-commenda-pilot-definitional-2026-10-07.md`. The 24 worksheet cells remain unadjudicated.
+- **Changed at application:**
+  - `coder_effort` `.NR` → `high`;
+  - ten citations repointed from `proposed-of/` to `records/`;
+  - five `.NR` cells given the `source_ref` and `source_lang` of their row's sibling `.NR` cell in place of empty fields.
+
+  No value moved. Details at logbook 4, 2026-10-07.
+- **Records** copied unchanged into `records/`: the rulings, the coding notes, both row fragments, both type-row fragments and the proposal commit message.
+- **Open for MS:** the nine adjudications in the coding notes, with `RB3` and `source_lang` `ca` first; verification against page images of figures read from OCR; Zotero housekeeping (two misfiled attachments, one duplicate).
+- **Considered and rejected:**
+  - a version bump, because rows and type codes are not schema growth (CONTRIBUTING §5);
+  - adding `ca` to `source_lang` in this batch, which is a theory-free enum widening but still MS's call and a minor bump;
+  - a value for the sworn self-account in `VF1`, which is not proposed in the batch that motivates it.
+- **Checks**, after the write:
+  - `python3 scripts/check_vocabularies.py`: "✓ vocabularies valid — 6 files, 170 codes; no ragged rows, all references resolve, all values within allowed_values, enums agree, shared type rows agree".
+  - `python3 scripts/check_softwrap.py`: "25 file(s) OK — no hard-wrapped prose".
+  - `python3 scripts/check_tables.py`: "32 file(s) OK — all Markdown tables aligned", after `--fix` aligned the one new standing-table row and nothing else.
+  - `python3 scripts/check_dependence.py datasets/organizational_forms` and `… datasets/loss_mitigation_forms`: "dependence problems: 0" each.
+  - `python3 scripts/build_codebook.py --check`: `current` for all three codebooks, regenerated twice and compared with `cmp`.
+  - `python3 scripts/build_views.py --dataset organizational_forms --component <c> --mechanism all --check`, for each of the nine components: `current` nine times, regenerated twice and compared with `cmp`; each now prints 35 forms.
+  - `python3 scripts/build_views.py --dataset loss_mitigation_forms --component risk-pooling --check`: `current`. Its filter is `MC1 = pooling`, so the two `allocation` rows do not appear.
+  - `python3 -m frictionless validate` on both `datapackage.json` files (5.19.1): all four resources VALID.
+  - A whole-file sweep of both `data.csv` files: 0 failures.
+
 ## organizational_forms, loss_mitigation_forms — 2026-09-28
 
 **The commenda pilot lands in `recodings.csv`: 183 rows across the two censuses, OF-R0065–R0190 (126) and LM-R0001–R0057 (57). The loss census's recodings resource receives its first rows, and its `record_id` foreign key now resolves. No value in `data.csv` moves and no row is added to or removed from it. No version bump: `organizational_forms` stays `0.11.0`, `loss_mitigation_forms` `0.8.0`.**

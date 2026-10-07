@@ -1,0 +1,15 @@
+Propose two Crown of Aragon comanda rows in both censuses
+
+Open (not blind) coding of the Catalan comanda, split on the loss
+rule by MS's decision: comanda (unilateral; investor bears the
+capital loss) and comanda_ad_societatem (loss shared in the profit
+proportion), with loss-allocation rows comanda_alloc and
+comanda_ad_societatem_alloc on the commenda_alloc cell set.
+
+Proposal only: four fragment files and NOTES in proposed-of/.
+Nothing written to data.csv or the vocabularies. Rulings on the
+commenda pilot's four definitional questions recorded in
+proposed-of/RULINGS-commenda-pilot-definitional-2026-10-07.md.
+
+Checks on a scratch copy: check_vocabularies valid, dependence 0,
+frictionless VALID on both packages, value sweep 0 failures.

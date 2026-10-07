@@ -1,6 +1,6 @@
 # Scoped view — component `perpetual-succession`
 
-No mechanism filter (this dataset has no mechanism characteristic). **33 forms × 4 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+No mechanism filter (this dataset has no mechanism characteristic). **35 forms × 4 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -13,6 +13,8 @@ No mechanism filter (this dataset has no mechanism characteristic). **33 forms �
 | `bruderschaft_salzburg`         | 1     | 0     | .NR   | 0     |
 | `casa_san_giorgio`              | 1     | 0     | .NR   | P     |
 | `chartered_corporation_england` | 1     | 0     | 0     | P     |
+| `comanda`                       | .NR   | 2     | .NR   | .NR   |
+| `comanda_ad_societatem`         | .NR   | 1     | .NR   | .NR   |
 | `commenda`                      | --    | 2     | --    | --    |
 | `compagnia`                     | 1     | 1     | .NR   | .NR   |
 | `compagnie_antwerpen_1582`      | 0     | 1     | 1     | .NR   |
@@ -58,6 +60,8 @@ No mechanism filter (this dataset has no mechanism characteristic). **33 forms �
 - `bruderschaft_salzburg` — Bruderschaft / Liebesbund (post-Tridentine Salzburg 'Fraternität') · Latin Christendom / German-speaking (Salzburg) · 1600-1950
 - `casa_san_giorgio` — Casa di San Giorgio (Genoa) · Genoese · 1407-1805
 - `chartered_corporation_england` — English chartered joint-stock business corporation · English (common law; incorporation by Crown prerogative or Act of Parliament) · 1720-1844 (Bubble Act to the Joint Stock Companies Act 1844); ALL CODED CELLS REST ON c.1660-1837 EVIDENCE, DENSEST 1766-1825, AND NONE ON 1720-1740
+- `comanda` — Comanda (Catalan unilateral comanda; comanda ad usum maris) · Catalan (Crown of Aragon: Barcelona, Vic, Mallorca, Valencia) · 1230s-15c (Vic acts from 1230-1231; Barcelona and Mallorca 1240-1450; Consolat de Mar comanda chapters as compiled 14c-15c)
+- `comanda_ad_societatem` — Comanda ad societatem (loss-sharing comanda; comanda sive societas) · Catalan (Crown of Aragon: Vic, Barcelona, Manresa) · 13c-14c (acts of 1230, 1231, 1239, 1261, 1273, 1323)
 - `commenda` — Commenda · Italian (Latin) · 10-13c
 - `compagnia` — Compagnia · Tuscan (Florentine) · 13-15c
 - `compagnie_antwerpen_1582` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Impressae phase · Low Countries (Antwerp, duchy of Brabant) · 1582-1608 as enacted law, on evidence reaching back to c.1540; the Impressae remained the operative compilation in Antwerp after 1608, so the phase boundary is TEXTUAL rather than practical
