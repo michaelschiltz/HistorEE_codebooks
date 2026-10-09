@@ -31,6 +31,7 @@ HistorEE_codebooks/
 ├── CHARACTER-CODING.md        when a new characteristic is warranted, and when it is a mistake
 ├── CLAUDE.md                  rules governing assistant sessions in this repository
 ├── EDITING-CSV.md             how to hand-edit data.csv in VS Code without breaking it
+├── ONBOARDING.md              manual for researchers joining the project: both repos, coding sessions, skills
 ├── CITATION.cff               makes the repo citable ("Cite this repository")
 ├── CHANGELOG.md               human-readable record of dataset-level changes
 └── LICENSE / LICENSE-DATA.md  dual licence: code vs. data (see below)
@@ -55,7 +56,7 @@ This repository uses a **dual licence**, because code and data are different thi
 
 - **Code** (`scripts/`, workflows) — MIT. See [`LICENSE`](LICENSE).
 - **Data, codebooks and generated views** (`datasets/`, `vocabularies/`, `logbook/`, `views/`) — **Creative Commons Attribution 4.0 (CC-BY-4.0)**. See [`LICENSE-DATA.md`](LICENSE-DATA.md). `views/` is generated from `datasets/` and carries the same licence as its source.
-- **Documentation at the repository root** (`README.md`, `CONTRIBUTING.md`, `CHARACTER-CODING.md`, `CLAUDE.md`, `EDITING-CSV.md`, `CHANGELOG.md`) — **CC-BY-4.0**, with the data. It is prose about method, not software, and the MIT clause above is deliberately confined to `scripts/` and the workflows.
+- **Documentation at the repository root** (`README.md`, `CONTRIBUTING.md`, `CHARACTER-CODING.md`, `CLAUDE.md`, `EDITING-CSV.md`, `ONBOARDING.md`, `CHANGELOG.md`) — **CC-BY-4.0**, with the data. It is prose about method, not software, and the MIT clause above is deliberately confined to `scripts/` and the workflows.
 
 If a source archive imposes non-commercial or redistribution restrictions on transcribed material, that dataset's folder carries its own `LICENSE` overriding this default, and the restriction is noted in its codebook. Resolve licence questions **before** publishing a dataset, never after.
 
