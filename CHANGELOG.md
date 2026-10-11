@@ -8,6 +8,15 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-11 (ii)
+
+**The two pending ortoq `CI1` re-codings are ruled. `ortoq_equity CI1` `several-accounts` → `.NR` (`OF-R0194`, corrected before adjudication from `none`, then replaced); `ortoq_loan CI1` `several-accounts` → `none` (`OF-R0195`, replaced). No version bump: re-coding cells is not schema growth.**
+
+- **Why `.NR` and not `none`.** Enkhbold 534–537 attests or suggests single-investor, several-investor and investor-plus-ortoq arrangements and counts none; the coding does not exceed the source's hedge.
+- **A procedural point, recorded in logbook 4.** `OF-R0194` was this session's own unadjudicated draft and was corrected in place, marked, because `adjudication` has no state for a re-coding corrected before adoption. A `superseded` state was considered and not proposed.
+- **Also checked:** the three `es` → `ca` cells flagged for spot-check (`OF-0856`, `0865`, `0866`) follow the Catalan column; no change (logbook 5).
+- **Checks:** vocabularies ✓; dependence 0; frictionless VALID ×2; codebook regenerated twice, `cmp`-identical; nine views `current`.
+
 ## organizational_forms, loss_mitigation_forms — 2026-10-11
 
 **MS rules the nine comanda adjudications, and the rulings land as schema, vocabulary and data. `organizational_forms` 0.11.0 → 0.12.0 (`CI5` added; `source_lang` gains `ca` and `zh`); `loss_mitigation_forms` 0.8.0 → 0.9.0 (`source_lang` gains `ca`). Six cells change value or basis by adjudicated re-coding, two cells are added, two re-codings are proposed and left pending, and six pilot re-codings are adjudicated.** Rulings: `records/RULINGS-comanda-adjudications-2026-10-11.md`.
@@ -15,7 +24,7 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - **`RB3`** (ruling 1). `comanda_alloc` and `comanda_ad_societatem_alloc` keep `general-estate`. Pilot entries 19 and 21 are ruled: `LM-R0043` and `LM-R0053` are **replaced** (`commenda_alloc` and `societas_maris` `RB3` stay `none`, now medium and analyst-imposed on the Genoese formulary evidence instead of high on an inference from "equity, not debt"); `LM-R0005`, `R0015`, `R0024`, `R0034` are **kept**. The definition gains one sentence; the proposed split of `RB3` is rejected, and the 2026-10-09 claim that motivated it is withdrawn.
 - **`VF1` gains `claimant-oath`** (ruling 2), defined by mode only; `comanda_alloc VF1 = claimant-oath` via `LM-R0058`, replaced. The value's first instance.
 - **`MG2`** (ruling 3): definition clarified on existing usage; `comanda MG2 = single-principal` via `OF-R0191`, replaced; `comanda_ad_societatem MG2` stays `.NR` on a changed ground.
-- **`CI1` split; `CI5` added** (ruling 4). `CI1` now asks only how several parties' contributions are held; `CI5`, segregation from the holder's capital (`segregated | commingled`), takes the other question it was answering. `comanda CI1` → `.NR` via `OF-R0192`, replaced; `OF-0900` `comanda CI5 = segregated`, `OF-0901` `comanda_ad_societatem CI5 = .NR`. A read-through of the other `CI1` cells proposes `ortoq_equity` and `ortoq_loan` `CI1` → `none` (`OF-R0194`, `OF-R0195`), **pending**.
+- **`CI1` split; `CI5` added** (ruling 4). `CI1` now asks only how several parties' contributions are held; `CI5`, segregation from the holder's capital (`segregated | commingled`), takes the other question it was answering. `comanda CI1` → `.NR` via `OF-R0192`, replaced; `OF-0900` `comanda CI5 = segregated`, `OF-0901` `comanda_ad_societatem CI5 = .NR`. A read-through of the other `CI1` cells proposes `ortoq_equity` and `ortoq_loan` `CI1` → `none` (`OF-R0194`, `OF-R0195`), **pending**. *(Ruled 2026-10-11 (ii): `ortoq_equity` → `.NR`, `ortoq_loan` → `none`; see the block above.)*
 - **`source_lang`** (ruling 5): `ca` in both censuses, `zh` mirrored into the entity census; 25 comanda cells `es` → `ca`. `check_vocabularies.py` gains check 10: the census datapackages must agree on `source_lang`.
 - **Rulings 6 and 8** add sentences to the comanda type rows: differences from the commenda on `LP1`, `AP1`, `AP3`, `LR1`, `LR4` are differences of evidence; the five `high` cells on `comanda_ad_societatem` are entailed by scope; Hancock's ceiling and her capital-proportional shared-risk act.
 - **`CF2`** (ruling 7): definition clarified (`1` whole, `P` a defined fraction, `0` none); **`isqa CF2` `1` → `P`** via `OF-R0193`, replaced — the coding-standard artefact that made the comanda *ad societatem* look as though it moved "toward the *ʿisqa*". `comanda_ad_societatem CF2 = P` and `_alloc RB4 = 0` stand, read from the page images of Vic 1273.

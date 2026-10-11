@@ -38,9 +38,9 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 |  1 | `record_id`     | string |    ✓     |                                                                                                 | 899/899 |
 |  2 | `type_id`       | string |          |                                                                                                 | 899/899 |
 |  3 | `char_id`       | string |          |                                                                                                 | 899/899 |
-|  4 | `value`         | string |          |                                                                                                 | 608/899 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 608/899 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 292/899 |
+|  4 | `value`         | string |          |                                                                                                 | 607/899 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 607/899 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 293/899 |
 |  7 | `source_ref`    | string |          |                                                                                                 | 799/899 |
 |  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 750/899 |
 |  9 | `coder`         | string |    ✓     |                                                                                                 | 899/899 |
