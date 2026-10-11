@@ -10,6 +10,15 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms — 2026-10-11 (v)
+
+**New cell `LM-0762`: `qirad_alloc VF2 = mixed`, medium, articulated. al-Sarakhsī, *al-Mabsūṭ* 22, 108: the *muḍārib* swears that he neither consumed the capital nor lost it through neglect, the trustee's word with his oath prevailing in his discharge from liability. No version bump.**
+
+- The commenda family now agrees on `VF2` (`mixed` in all four branches) and separates on `VF1` only: a difference of mode, not of object.
+- `LM-0545`: the edition is Dār al-Maʿrifa (Beirut), not the Cairo printing; the limit "oath not shown for a loss claim" is discharged by p. 108.
+- A first recommendation (`loss-occurrence`), ruled and then withdrawn before application, is recorded in logbook 4.
+- Checks: Vocabularies ✓; dependence 0 ×2; frictionless VALID; loss codebook regenerated twice, `cmp`-identical (762 rows); risk-pooling view (`.md`, `.tex`) and nine entity views `current`; whole-file sweep 0 failures.
+
 ## organizational_forms, loss_mitigation_forms — 2026-10-11 (iv)
 
 **`comanda AP1` `.NR` → `P` (`OF-R0196`, replaced): *Recognoverunt proceres* cap. 69 (Barcelona, 1284), via Martínez Gijón 1966, 421–422, voids the claims of the commendatary's creditors and wife against the goods he brings back until the investors are paid. No version bump.**
