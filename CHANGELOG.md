@@ -8,6 +8,15 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms, loss_mitigation_forms — 2026-10-11 (iv)
+
+**`comanda AP1` `.NR` → `P` (`OF-R0196`, replaced): *Recognoverunt proceres* cap. 69 (Barcelona, 1284), via Martínez Gijón 1966, 421–422, voids the claims of the commendatary's creditors and wife against the goods he brings back until the investors are paid. No version bump.**
+
+- Ruling 6's statement that the comanda–commenda difference on `AP1` was one of evidence is corrected in place: §C of an article already cited addressed outside creditors and had not been read.
+- Notes: the Catalan pledge is "personales y reales a la vez" (`LM-0745`, `LM-0755`; the `[to confirm]` of ruling 1 discharged); the oath "sin más obligación", with the ship's scribe as an alternative (`LM-0749`).
+- Martínez Gijón 1966 OCR'd in full into ZoteroFiles (logbook 5).
+- Checks: vocabularies ✓; dependence 0; frictionless VALID ×2; codebook and `entity-shielding` view regenerated twice, `cmp`-identical; views `current`.
+
 ## loss_mitigation_forms — 2026-10-11 (iii)
 
 **`claimant-oath` gains its second and third instances. `qirad_alloc VF1` `.NR` → `claimant-oath`, medium (`LM-R0059`, replaced; al-Sarakhsī, *al-Mabsūṭ* 22, 27, 51, in Arabic); `isqa_alloc VF1` `.NR` → `claimant-oath`, low (`LM-R0060`, replaced; the paid bailee's oath, Mishnah *Bava Metzia* 7:8); new cell `LM-0761` `isqa_alloc VF2 = mixed`, low; `isqa_alloc RB1` note narrowed to half. No version bump.**
