@@ -58,6 +58,13 @@ Checks (all fatal):
        in the other file, so its rows cannot disagree; a shared code can, and
        nothing was watching. Period is a property of the institution, not of
        a coding pass.
+   10. A field listed in SHARED_ENUM_FIELDS carries the identical enum in
+       every resource of every REGISTERED census. `source_lang` is duplicated
+       across both datapackages (data and recodings) with no vocabulary file,
+       and drifted twice: `tr` was added to the loss census in August and not
+       mirrored until 2026-09-04, and `zh` stood in the loss census and not in
+       the entity census until 2026-10-11. Logbook 6 asked for this check on
+       2026-09-04; it landed with the `ca` widening of 2026-10-11.
 
 Standard library only, deterministic, no wall-clock dependency — matching
 build_codebook.py so CI needs no new runtime.
@@ -341,6 +348,34 @@ def check_enum_agreement(codes: dict[str, set[str]]) -> None:
                 f"datapackage enum: {sorted(only_vocab)}")
 
 
+SHARED_ENUM_FIELDS = ("source_lang",)
+
+
+def check_shared_enums() -> None:
+    """A field duplicated across the census datapackages must not drift."""
+    for field in SHARED_ENUM_FIELDS:
+        seen: dict[frozenset, list[str]] = {}
+        for name in REGISTERED:
+            dp = ROOT / "datasets" / name / "datapackage.json"
+            if not dp.exists():
+                continue
+            pkg = json.loads(dp.read_text(encoding="utf-8"))
+            for res in pkg.get("resources", []):
+                for f in res.get("schema", {}).get("fields", []):
+                    if f["name"] == field:
+                        enum = f.get("constraints", {}).get("enum")
+                        key = frozenset(enum) if enum is not None else frozenset()
+                        seen.setdefault(key, []).append(res.get("name", name))
+        if len(seen) > 1:
+            base = set().union(*seen)
+            shown = "; ".join(
+                f"{', '.join(sorted(v))} lacks {sorted(base - set(k))}"
+                for k, v in sorted(seen.items(), key=lambda kv: sorted(kv[1]))
+                if base - set(k)
+            )
+            err(f"{field}: enum differs across census datapackages — {shown}")
+
+
 def check_type_row_agreement(rows: dict[str, dict]) -> None:
     """A code in two type vocabularies is one institution, so its descriptive
     fields must agree.
@@ -395,6 +430,7 @@ def main() -> int:
     check_cooccurrence(codes, rows)
     check_boundary(rows)
     check_enum_agreement(codes)
+    check_shared_enums()
     check_type_row_agreement(rows)
 
     if errors:

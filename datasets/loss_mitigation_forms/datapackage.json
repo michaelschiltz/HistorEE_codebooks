@@ -2,7 +2,7 @@
   "name": "loss_mitigation_forms",
   "title": "Loss-mitigation forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological coding of arrangements that mitigate loss WITHOUT an entity, sorted by Harris's (2023) three-way distinction: allocation (risk assigned to a named party by contract - sea loan, bottomry, respondentia, commenda), spreading (transferred to third parties for a premium - marine insurance), and pooling (mutualised among stakeholders - general average, averia, ko/mujin, confraternity funds). Harris's own open question - under which conditions risk was spread as opposed to pooled or allocated - is what MC1 is for. Stored long/tidy. Carries the same WP1 component vocabulary as organizational_forms, so the packages join at component level. RULE: a characteristic lives in exactly one dataset; forms suffixed _alloc are cross-references to organizational_forms entries, coded here only on loss-allocation characteristics and never on the entity characteristics coded there. Rows with coder 'ai' are provisional.",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -102,7 +102,7 @@
             "name": "source_lang",
             "type": "string",
             "title": "Source language",
-            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3.",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'ca' (Catalan) added 2026-10-11 for the Llibre del Consolat de Mar read in Catalan; the field records the language of the passage the coding rests on, so a cell resting on a Castilian study of a Catalan text stays 'es'. Scripts are not languages and are not recorded here.",
             "constraints": {
               "enum": [
                 "ja",
@@ -119,7 +119,8 @@
                 "tr",
                 "zh",
                 "pl",
-                "pt"
+                "pt",
+                "ca"
               ]
             }
           },
@@ -360,7 +361,7 @@
             "name": "source_lang",
             "type": "string",
             "title": "Source language",
-            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3.",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'ca' (Catalan) added 2026-10-11 for the Llibre del Consolat de Mar read in Catalan; the field records the language of the passage the coding rests on, so a cell resting on a Castilian study of a Catalan text stays 'es'. Scripts are not languages and are not recorded here.",
             "constraints": {
               "enum": [
                 "ja",
@@ -377,7 +378,8 @@
                 "tr",
                 "zh",
                 "pl",
-                "pt"
+                "pt",
+                "ca"
               ]
             }
           },

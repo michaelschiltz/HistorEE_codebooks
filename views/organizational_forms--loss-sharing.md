@@ -23,7 +23,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 | `fraterna`                      | .NA   | 1     |
 | `hegu_shengu`                   | .NR   | 1     |
 | `hegu_yingu`                    | --    | 1     |
-| `isqa`                          | 1     | 1     |
+| `isqa`                          | P     | 1     |
 | `kabu_edo_export`               | --    | --    |
 | `kabu_local`                    | --    | --    |
 | `maona_chios`                   | .NA   | 1     |

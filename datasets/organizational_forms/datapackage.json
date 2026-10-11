@@ -2,7 +2,7 @@
   "name": "organizational_forms",
   "title": "Cooperative organizational forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological (Zwicky) coding of cooperative and risk-pooling organizational forms (waqf, ie, compagnia, joint-stock corporation, nación, natie, kabu-nakama, and forms to be added) against a granular set of structural characteristics. Stored long/tidy: one row per form × characteristic. Supports the comparative typology in Clearing and Settling the Realm / HistorEE. Codes for forms and characteristics live in vocabularies/organizational_form_type.csv and vocabularies/organizational_form_characteristic.csv. Rows with coder 'ai' are provisional seed codings pending human verification; source_ref '[verify]' marks a coded value whose citation is not yet pinned.",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -102,7 +102,7 @@
             "name": "source_lang",
             "type": "string",
             "title": "Source language",
-            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code. 'ca' (Catalan) added 2026-10-11 for the Llibre del Consolat de Mar read in Catalan; the field records the language of the passage the coding rests on, so a cell resting on a Castilian study of a Catalan text stays 'es'. Scripts are not languages and are not recorded here.",
             "constraints": {
               "enum": [
                 "ja",
@@ -118,7 +118,9 @@
                 "it",
                 "tr",
                 "pl",
-                "pt"
+                "pt",
+                "zh",
+                "ca"
               ]
             }
           },
@@ -359,7 +361,7 @@
             "name": "source_lang",
             "type": "string",
             "title": "Source language",
-            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.",
+            "description": "Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code. 'ca' (Catalan) added 2026-10-11 for the Llibre del Consolat de Mar read in Catalan; the field records the language of the passage the coding rests on, so a cell resting on a Castilian study of a Catalan text stays 'es'. Scripts are not languages and are not recorded here.",
             "constraints": {
               "enum": [
                 "ja",
@@ -375,7 +377,9 @@
                 "it",
                 "tr",
                 "pl",
-                "pt"
+                "pt",
+                "zh",
+                "ca"
               ]
             }
           },

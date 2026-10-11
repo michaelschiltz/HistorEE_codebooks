@@ -8,6 +8,23 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms, loss_mitigation_forms — 2026-10-11
+
+**MS rules the nine comanda adjudications, and the rulings land as schema, vocabulary and data. `organizational_forms` 0.11.0 → 0.12.0 (`CI5` added; `source_lang` gains `ca` and `zh`); `loss_mitigation_forms` 0.8.0 → 0.9.0 (`source_lang` gains `ca`). Six cells change value or basis by adjudicated re-coding, two cells are added, two re-codings are proposed and left pending, and six pilot re-codings are adjudicated.** Rulings: `records/RULINGS-comanda-adjudications-2026-10-11.md`.
+
+- **`RB3`** (ruling 1). `comanda_alloc` and `comanda_ad_societatem_alloc` keep `general-estate`. Pilot entries 19 and 21 are ruled: `LM-R0043` and `LM-R0053` are **replaced** (`commenda_alloc` and `societas_maris` `RB3` stay `none`, now medium and analyst-imposed on the Genoese formulary evidence instead of high on an inference from "equity, not debt"); `LM-R0005`, `R0015`, `R0024`, `R0034` are **kept**. The definition gains one sentence; the proposed split of `RB3` is rejected, and the 2026-10-09 claim that motivated it is withdrawn.
+- **`VF1` gains `claimant-oath`** (ruling 2), defined by mode only; `comanda_alloc VF1 = claimant-oath` via `LM-R0058`, replaced. The value's first instance.
+- **`MG2`** (ruling 3): definition clarified on existing usage; `comanda MG2 = single-principal` via `OF-R0191`, replaced; `comanda_ad_societatem MG2` stays `.NR` on a changed ground.
+- **`CI1` split; `CI5` added** (ruling 4). `CI1` now asks only how several parties' contributions are held; `CI5`, segregation from the holder's capital (`segregated | commingled`), takes the other question it was answering. `comanda CI1` → `.NR` via `OF-R0192`, replaced; `OF-0900` `comanda CI5 = segregated`, `OF-0901` `comanda_ad_societatem CI5 = .NR`. A read-through of the other `CI1` cells proposes `ortoq_equity` and `ortoq_loan` `CI1` → `none` (`OF-R0194`, `OF-R0195`), **pending**.
+- **`source_lang`** (ruling 5): `ca` in both censuses, `zh` mirrored into the entity census; 25 comanda cells `es` → `ca`. `check_vocabularies.py` gains check 10: the census datapackages must agree on `source_lang`.
+- **Rulings 6 and 8** add sentences to the comanda type rows: differences from the commenda on `LP1`, `AP1`, `AP3`, `LR1`, `LR4` are differences of evidence; the five `high` cells on `comanda_ad_societatem` are entailed by scope; Hancock's ceiling and her capital-proportional shared-risk act.
+- **`CF2`** (ruling 7): definition clarified (`1` whole, `P` a defined fraction, `0` none); **`isqa CF2` `1` → `P`** via `OF-R0193`, replaced — the coding-standard artefact that made the comanda *ad societatem* look as though it moved "toward the *ʿisqa*". `comanda_ad_societatem CF2 = P` and `_alloc RB4 = 0` stand, read from the page images of Vic 1273.
+- **Ruling 9**: the deposit exclusion is restated on the claim; the trading deposit of 1215 and 1248 is parked (logbook 2); Fynn-Paul's series is a series of a word.
+- **What the matrix learned.** One new value-instance (`VF1 = claimant-oath`); one new characteristic, description only (`CI5`); one form moved in a WP1 component (`isqa` in `loss-sharing`, `1` → `P`, which the loss-sharing view now shows); no component gained a signature. The commenda family now separates on how a loss is proved (`VF1`) and on what secures performance (`RB3`), and not on who bears the loss.
+- **Considered and rejected:** splitting `RB3`; a burden-of-proof characteristic beside `VF1`; a new `MG2` value for an agent under mandate; renaming `single-principal`; a version bump for the `VF1` value alone; coding the trading deposit from a secondary report.
+- **Docs:** `CLAUDE.md`, `CHARACTER-CODING.md` and `ONBOARDING.md` now say 33 characteristics and twelve `none` in both sets.
+- **Checks**, on the applied tree: `check_vocabularies.py` "✓ vocabularies valid — 6 files, 171 codes"; check 10 negative-controlled on a scratch copy (logbook 3). `check_dependence.py` on both census directories: "dependence problems: 0" each. `check_softwrap.py` and `check_tables.py` OK. `build_codebook.py` regenerated both census codebooks (version and fill counts) and `build_views.py --dataset organizational_forms --component loss-sharing --mechanism all` the one stale view, each twice and `cmp`-identical; all nine entity views and the loss `risk-pooling` view (`.md` and `.tex`) `current`. `frictionless validate` (5.20.0) on both datapackages: all four resources VALID. A whole-file sweep of both `data.csv` and both `recodings.csv` files: 0 failures.
+
 ## organizational_forms, loss_mitigation_forms — 2026-10-07
 
 **The Crown of Aragon comanda enters both censuses as two forms split by the loss rule: `comanda` (the investor bears the capital loss) and `comanda_ad_societatem` (loss shared in the profit proportion), with their loss-allocation rows `comanda_alloc` and `comanda_ad_societatem_alloc`. 84 rows appended to `data.csv`: OF-0836–OF-0899 (64) and LM-0741–LM-0760 (20). Four type codes added. No version bump: `organizational_forms` stays `0.11.0`, `loss_mitigation_forms` `0.8.0`.**
@@ -26,7 +43,7 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
   No value moved. Details at logbook 4, 2026-10-07.
 - **Records** copied unchanged into `records/`: the rulings, the coding notes, both row fragments, both type-row fragments and the proposal commit message.
-- **Open for MS:** the nine adjudications in the coding notes, with `RB3` and `source_lang` `ca` first; verification against page images of figures read from OCR; Zotero housekeeping (two misfiled attachments, one duplicate).
+- **Open for MS:** the nine adjudications in the coding notes *(ruled 2026-10-11; see the block above)*, with `RB3` and `source_lang` `ca` first; verification against page images of figures read from OCR; Zotero housekeeping (two misfiled attachments, one duplicate).
 - **Considered and rejected:**
   - a version bump, because rows and type codes are not schema growth (CONTRIBUTING §5);
   - adding `ca` to `source_lang` in this batch, which is a theory-free enum widening but still MS's call and a minor bump;

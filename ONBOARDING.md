@@ -67,7 +67,7 @@ HistorEE_codebooks/
 
 ### 3.3 The two censuses
 
-**`organizational_forms`** (v0.11.0; 897 rows; 35 coded forms; 32 characteristics) codes institutional forms on the properties that make up the business corporation when bundled — legal personality, entity and owner shielding, capital lock-in, transferable claims, perpetual succession — and on the loss-management properties that sit beside them. **`loss_mitigation_forms`** (v0.8.0; 760 rows; 49 coded forms; 26 characteristics) codes the instruments by which perils were pooled, shared, shifted or priced. Each row records one characteristic of one form:
+**`organizational_forms`** (v0.12.0; 899 rows; 35 coded forms; 33 characteristics) codes institutional forms on the properties that make up the business corporation when bundled — legal personality, entity and owner shielding, capital lock-in, transferable claims, perpetual succession — and on the loss-management properties that sit beside them. **`loss_mitigation_forms`** (v0.9.0; 760 rows; 49 coded forms; 26 characteristics) codes the instruments by which perils were pooled, shared, shifted or priced. Each row records one characteristic of one form:
 
 ```
 record_id, type_id, char_id, value, confidence, articulation, source_ref, source_lang,
@@ -82,9 +82,9 @@ With enough characteristics any two forms separate; that is Watanabe's ugly duck
 
 - **WP2 — continuity of capital** (the entity's trajectory): entity shielding, capital lock-in, transferable claims, legal personality, perpetual succession. Thirteen characteristics.
 - **WP1 — management of loss** (the individual's trajectory): owner shielding, outcome coupling, loss sharing, risk pooling. Eight characteristics.
-- **Eleven characteristics are `none` in both**: description only, never part of a comparative claim.
+- **Twelve characteristics are `none` in both**: description only, never part of a comparative claim.
 
-Three rules follow and are not optional. No comparative claim runs on all 32 characteristics. The set a claim runs on is fixed before the coding it is tested on. And `none` is not a holding pen: promoting a characteristic into a set is a theoretical claim needing the same justification as adding one. Each component has its own generated view in `views/`; read the second line of any view, which states its filter, before trusting it.
+Three rules follow and are not optional. No comparative claim runs on all 33 characteristics. The set a claim runs on is fixed before the coding it is tested on. And `none` is not a holding pen: promoting a characteristic into a set is a theoretical claim needing the same justification as adding one. Each component has its own generated view in `views/`; read the second line of any view, which states its filter, before trusting it.
 
 ### 3.5 Coding conventions a newcomer gets wrong first
 

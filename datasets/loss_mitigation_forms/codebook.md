@@ -3,7 +3,7 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `loss_mitigation_forms`  
-- **Version**: 0.8.0  
+- **Version**: 0.9.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
 - **Rows**: 760  
@@ -33,23 +33,23 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 ## Variables at a glance
 
-|  # | Field           | Type   | Required | Coded values                                                                              | Present |
-|---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                                           | 760/760 |
-|  2 | `type_id`       | string |          |                                                                                           | 760/760 |
-|  3 | `char_id`       | string |          |                                                                                           | 760/760 |
-|  4 | `value`         | string |          |                                                                                           | 485/760 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                   | 485/760 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                          | 175/760 |
-|  7 | `source_ref`    | string |          |                                                                                           | 686/760 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh`, `pl`, `pt` | 656/760 |
-|  9 | `coder`         | string |    ✓     |                                                                                           | 760/760 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                      | 686/760 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                                           | 760/760 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                              | 760/760 |
-| 13 | `notes`         | string |          |                                                                                           | 760/760 |
-| 14 | `coder_model`   | string |          |                                                                                           | 760/760 |
-| 15 | `coder_effort`  | string |          | `low`, `medium`, `high`, `xhigh`, `max`                                                   | 760/760 |
+|  # | Field           | Type   | Required | Coded values                                                                                    | Present |
+|---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------------------|--------:|
+|  1 | `record_id`     | string |    ✓     |                                                                                                 | 760/760 |
+|  2 | `type_id`       | string |          |                                                                                                 | 760/760 |
+|  3 | `char_id`       | string |          |                                                                                                 | 760/760 |
+|  4 | `value`         | string |          |                                                                                                 | 486/760 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 486/760 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 178/760 |
+|  7 | `source_ref`    | string |          |                                                                                                 | 686/760 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh`, `pl`, `pt`, `ca` | 656/760 |
+|  9 | `coder`         | string |    ✓     |                                                                                                 | 760/760 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                            | 686/760 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                                                 | 760/760 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                                    | 760/760 |
+| 13 | `notes`         | string |          |                                                                                                 | 760/760 |
+| 14 | `coder_model`   | string |          |                                                                                                 | 760/760 |
+| 15 | `coder_effort`  | string |          | `low`, `medium`, `high`, `xhigh`, `max`                                                         | 760/760 |
 
 ## Variable definitions
 
@@ -105,9 +105,9 @@ Short citation supporting the coding, or '[verify]' where the value is asserted 
 
 ### `source_lang` — Source language
 
-Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3.
+Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'ca' (Catalan) added 2026-10-11 for the Llibre del Consolat de Mar read in Catalan; the field records the language of the passage the coding rests on, so a cell resting on a Castilian study of a Catalan text stays 'es'. Scripts are not languages and are not recorded here.
 
-- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh`, `pl`, `pt`
+- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh`, `pl`, `pt`, `ca`
 
 
 ### `coder` — Coder

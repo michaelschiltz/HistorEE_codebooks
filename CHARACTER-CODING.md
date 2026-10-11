@@ -61,11 +61,11 @@ Two sets, one per work package, because the project's mechanism operates on two 
 - **WP2 / Objective 2 — continuity of capital.** The application's five: entity shielding, capital lock-in, transferable claims, legal personality, perpetual succession. Thirteen characteristics. These remove the absorbing barrier from the **entity's** trajectory.
 - **WP1 / Objective 1 — management of loss.** Four: owner shielding, outcome coupling, loss sharing, risk pooling. Eight characteristics. These remove it from the **individual's**.
 
-Eleven characteristics carry `none` in both. They are description. They may be coded as richly as the sources allow and must never enter a comparative claim.
+Twelve characteristics carry `none` in both (`CI5`, split from `CI1` on 2026-10-11, is the twelfth). They are description. They may be coded as richly as the sources allow and must never enter a comparative claim.
 
 **Rules that follow, and they are not optional:**
 
-1. **No comparative claim runs on the full 32.** State which component set it runs on. A claim spanning both sets must say so and say why.
+1. **No comparative claim runs on the full 33.** State which component set it runs on. A claim spanning both sets must say so and say why.
 2. **The set is declared before the coding it will be used on**, not assembled afterwards from whatever separated well. This is the falsifiability commitment; retrospective selection destroys it.
 3. **`none` is not a holding pen.** A characteristic is `none` because the theory makes no prediction about it, and moving one into a component set is a theoretical claim requiring the same justification as adding a characteristic.
 

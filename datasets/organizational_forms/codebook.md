@@ -3,10 +3,10 @@
 > **Generated file.** Do not edit by hand. Produced by `scripts/build_codebook.py` from `datapackage.json`. Edit the schema and regenerate.
 
 - **Dataset**: `organizational_forms`  
-- **Version**: 0.11.0  
+- **Version**: 0.12.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 897  
+- **Rows**: 899  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -33,23 +33,23 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 ## Variables at a glance
 
-|  # | Field           | Type   | Required | Coded values                                                                        | Present |
-|---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                                     | 897/897 |
-|  2 | `type_id`       | string |          |                                                                                     | 897/897 |
-|  3 | `char_id`       | string |          |                                                                                     | 897/897 |
-|  4 | `value`         | string |          |                                                                                     | 607/897 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                             | 607/897 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                    | 291/897 |
-|  7 | `source_ref`    | string |          |                                                                                     | 797/897 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt` | 748/897 |
-|  9 | `coder`         | string |    ✓     |                                                                                     | 897/897 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                | 816/897 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                                     | 897/897 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                        | 897/897 |
-| 13 | `notes`         | string |          |                                                                                     | 897/897 |
-| 14 | `coder_model`   | string |          |                                                                                     | 897/897 |
-| 15 | `coder_effort`  | string |          | `low`, `medium`, `high`, `xhigh`, `max`                                             | 897/897 |
+|  # | Field           | Type   | Required | Coded values                                                                                    | Present |
+|---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------------------|--------:|
+|  1 | `record_id`     | string |    ✓     |                                                                                                 | 899/899 |
+|  2 | `type_id`       | string |          |                                                                                                 | 899/899 |
+|  3 | `char_id`       | string |          |                                                                                                 | 899/899 |
+|  4 | `value`         | string |          |                                                                                                 | 608/899 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 608/899 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 292/899 |
+|  7 | `source_ref`    | string |          |                                                                                                 | 799/899 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 750/899 |
+|  9 | `coder`         | string |    ✓     |                                                                                                 | 899/899 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                            | 818/899 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                                                 | 899/899 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                                    | 899/899 |
+| 13 | `notes`         | string |          |                                                                                                 | 899/899 |
+| 14 | `coder_model`   | string |          |                                                                                                 | 899/899 |
+| 15 | `coder_effort`  | string |          | `low`, `medium`, `high`, `xhigh`, `max`                                                         | 899/899 |
 
 ## Variable definitions
 
@@ -105,9 +105,9 @@ Short citation supporting the coding, or '[verify]' where the value is asserted 
 
 ### `source_lang` — Source language
 
-Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code.
+Language of source_ref. ISO 639-1 where a two-letter code exists, otherwise ISO 639-3. 'arc' is used broadly for Aramaic; the Babylonian Talmud is strictly Jewish Babylonian Aramaic (ISO 639-3 'tmr'), and a row citing it carries 'arc' with the distinction noted rather than a separate code. 'ca' (Catalan) added 2026-10-11 for the Llibre del Consolat de Mar read in Catalan; the field records the language of the passage the coding rests on, so a cell resting on a Castilian study of a Catalan text stays 'es'. Scripts are not languages and are not recorded here.
 
-- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`
+- **type** string · **values** `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca`
 
 
 ### `coder` — Coder
