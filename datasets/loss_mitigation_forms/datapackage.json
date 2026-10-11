@@ -52,14 +52,14 @@
           {
             "name": "type_id",
             "type": "string",
-            "title": "Pooling form (coded)",
-            "description": "Coded pooling arrangement. Controlled vocabulary: vocabularies/cooperative_pooling_type.csv. Not enum-constrained here because the census is still growing (CONTRIBUTING §5)."
+            "title": "Loss-mitigation form (coded)",
+            "description": "Coded loss-mitigation arrangement. Controlled vocabulary: vocabularies/loss_mitigation_type.csv. Not enum-constrained here because the census is still growing (CONTRIBUTING §5)."
           },
           {
             "name": "char_id",
             "type": "string",
             "title": "Characteristic (coded)",
-            "description": "Coded structural characteristic. Controlled vocabulary: vocabularies/cooperative_pooling_characteristic.csv, which also gives each characteristic's value type, allowed values, and WP1 component."
+            "description": "Coded structural characteristic. Controlled vocabulary: vocabularies/loss_mitigation_characteristic.csv, which also gives each characteristic's value type, allowed values, and WP1 component."
           },
           {
             "name": "value",
@@ -247,7 +247,7 @@
           {
             "name": "type_id",
             "type": "string",
-            "title": "Pooling form (coded)",
+            "title": "Loss-mitigation form (coded)",
             "description": "Form code, copied from the tested row so that this file can be read on its own."
           },
           {

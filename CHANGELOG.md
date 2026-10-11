@@ -6,6 +6,8 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 ### Fixed
 
+- `loss_mitigation_forms/datapackage.json`: the `type_id` and `char_id` descriptions named `vocabularies/cooperative_pooling_*.csv`, files of the package superseded on its first day; they now name `loss_mitigation_type.csv` and `loss_mitigation_characteristic.csv`. The `type_id` title "Pooling form (coded)" (data and recodings schemas) becomes "Loss-mitigation form (coded)", since the census covers allocation and spreading as well as pooling. Descriptions only: no constraint changes, no version bump. Flagged 2026-09-28 (logbook 4); codebook regenerated twice, `cmp`-identical; frictionless VALID.
+- Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
 ## organizational_forms, loss_mitigation_forms — 2026-10-11 (iv)
