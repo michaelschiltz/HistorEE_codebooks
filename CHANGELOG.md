@@ -8,6 +8,14 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms — 2026-10-11 (iii)
+
+**`claimant-oath` gains its second and third instances. `qirad_alloc VF1` `.NR` → `claimant-oath`, medium (`LM-R0059`, replaced; al-Sarakhsī, *al-Mabsūṭ* 22, 27, 51, in Arabic); `isqa_alloc VF1` `.NR` → `claimant-oath`, low (`LM-R0060`, replaced; the paid bailee's oath, Mishnah *Bava Metzia* 7:8); new cell `LM-0761` `isqa_alloc VF2 = mixed`, low; `isqa_alloc RB1` note narrowed to half. No version bump.**
+
+- The commenda family now splits on proof of loss — oath, documentary, official adjudication — while the allocation of the peril is shared. The three oath instances share a legal substrate: parallelism, not convergence.
+- The *Mabsūṭ* edition behind the Wikisource transcription is to be verified (logbook 5).
+- Checks: vocabularies ✓; dependence 0; frictionless VALID ×2; loss codebook regenerated twice, `cmp`-identical; risk-pooling view current.
+
 ## organizational_forms — 2026-10-11 (ii)
 
 **The two pending ortoq `CI1` re-codings are ruled. `ortoq_equity CI1` `several-accounts` → `.NR` (`OF-R0194`, corrected before adjudication from `none`, then replaced); `ortoq_loan CI1` `several-accounts` → `none` (`OF-R0195`, replaced). No version bump: re-coding cells is not schema growth.**
