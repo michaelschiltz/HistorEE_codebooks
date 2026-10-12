@@ -10,6 +10,12 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (xv)
+
+**Follow-on: `commenda LP2`, `commenda LP3` and `societas_maris LP3` `.NR` → `0`, `medium`, `analyst-imposed`, on the Genoese Breve c. VI and Pera c. CCXI (`OF-R0212`–`R0214` replaced; nine pilot rows overruled). Both rows now read `LP1`–`LP3` = `0 / 0 / 0`. No version bump.**
+
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; organizational codebook regenerated twice, `cmp`-identical (905 rows, 214 recodings); `legal-personality` view regenerated twice, `cmp`-identical, the other ten `current`; whole-file sweep 0 failures.
+
 ## organizational_forms — 2026-10-12 (xiv)
 
 **Ruling 15 reopened: `CI2` `.NR` → `1`, `medium`, `articulated`, for `commenda` (`OF-0557`) and `societas_maris` (`OF-0567`), on Pisa's *Constitutum usus* (Bonaini II, 886): recall barred until the current venture is complete. `OF-R0210`, `R0211` replaced; six pilot rows kept → overruled. No version bump.**

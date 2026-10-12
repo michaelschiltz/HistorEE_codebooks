@@ -15,7 +15,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 | `chartered_corporation_england` | 1     | 1     | 1     |
 | `comanda`                       | .NR   | .NR   | .NR   |
 | `comanda_ad_societatem`         | .NR   | .NR   | .NR   |
-| `commenda`                      | 0     | .NR   | .NR   |
+| `commenda`                      | 0     | 0     | 0     |
 | `compagnia`                     | P     | .NR   | .NR   |
 | `compagnie_antwerpen_1582`      | 0     | 0     | 0     |
 | `compagnie_antwerpen_1608`      | 0     | 0     | 0     |
@@ -36,7 +36,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 | `partenrederij`                 | .NR   | .NR   | .NR   |
 | `qirad`                         | .NR   | 0     | .NR   |
 | `shenhui_gu`                    | --    | --    | --    |
-| `societas_maris`                | 0     | 0     | .NR   |
+| `societas_maris`                | 0     | 0     | 0     |
 | `voc_1602`                      | 1     | 1     | .NR   |
 | `voc_1612`                      | 1     | 1     | .NR   |
 | `voc_1623`                      | 1     | 1     | .NR   |
