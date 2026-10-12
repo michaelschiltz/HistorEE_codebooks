@@ -10,6 +10,13 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (xii)
+
+**Pilot entries 1, 2, 22, 23: `AP3 = 0` and `LR1 = unlimited-several` stand for `commenda` and `societas_maris`, re-based on the Genoese Breve c. VI and Pera c. CCXI (`OF-R0206`–`R0209` replaced); `commenda` `high` → `medium`; all four `analyst-imposed`. No value moves; no version bump.**
+
+- Nine cells across the two rows (`AP1` ×2, `LP1` ×2, `LP2`, `AP3` ×2, `LR1` ×2) now rest on one chapter: one datum.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; organizational codebook regenerated twice, `cmp`-identical (905 rows, 209 recodings); eleven views `current`; whole-file sweep 0 failures.
+
 ## organizational_forms — 2026-10-12 (xi)
 
 **Pilot entries 8, 11, 12: `LP1 = 0` stands for `commenda` and `societas_maris`, re-based on the Genoese Breve c. VI and Pera c. CCXI (`OF-R0203`, `OF-R0204` replaced; `societas_maris` `low` → `medium`); `societas_maris LP2` `.NR` → `0`, `medium`, `analyst-imposed` (`OF-R0205` replaced; three pilot rows overruled). No version bump.**
