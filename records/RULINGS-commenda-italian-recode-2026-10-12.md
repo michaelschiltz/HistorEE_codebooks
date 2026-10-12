@@ -36,6 +36,10 @@ Three new cells, all `single-principal`, medium, articulated (`OF-0905`, `OF-090
 
 `LR3` is clarified on existing usage, value names kept: the test is a share in the outcome against a fixed claim; "proportionally to stake" is a gloss in which labour counts as a stake, so a negotiated ratio that does not follow capital is `1`; `P` is reserved for an arrangement partly fixed and partly shared. Ground: all 16 forms with a labour partner (`CF1` = `1` or `P`) carried `LR3 = 1`; reading the ratio's departure from capital as `P` would duplicate `CF1`. Live `commenda LR3 = 1` and `societas_maris LR3 = 1` stand; `OF-R0069`, `R0111`, `R0153`, `R0080`, `R0122`, `R0164` kept. No version bump: a definition, not a declared constraint.
 
+## 9. D2 — a promise to render the capital is not an assumption of peril (`CF2`)
+
+An evidence rule is added to `CF2`'s definition: a promise to render, restore or bring back the capital, with or without a term or penalty, is a duty of performance and not by itself evidence for `CF2`; `1` or `P` requires that the act or the law place the loss of the principal's capital on the working party in terms, or keep the obligation alive on total loss. Read first-hand: Amalric 429 (Blancard II, 35–36; page images), where "et tuum resegum et meum" and "totum capitale … reducere" stand in one act; Scriba CCCLV (1158, 185; "capitale tuum super me salvum erit"), an explicit assumption; Scriba DCLXXIV (1160, 364), a father's guarantee, recorded as not the working party's exposure. Worksheet entry 18 is ruled after D4.
+
 ## Flagged, not ruled
 
 `comanda_alloc VF1` rests on *Consolat* cap. 279, an accounting rule; Venice shows the account oath and the proof of a peril loss as separate rules. Until caps. 209–210 and 220 are read for a peril-specific rule, the family's separation on `VF1` may not be like for like.
