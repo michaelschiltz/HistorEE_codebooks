@@ -46,7 +46,7 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - `VF2`'s two objects are now loss-occurrence and conduct-compliance (Dandolo cc. 30–32). Fault appears only in Genoese acts.
 - Pilot rows: `LM-R0009` replaced; `LM-R0028` and `LM-R0047` overruled; `LM-R0010`, `LM-R0029` and `LM-R0048` kept.
 - Flagged, not changed: `comanda_alloc VF1` may record the *Consolat*'s account rule rather than its peril rule, so the family's separation on `VF1` is not yet like for like (logbook 4).
-- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; codebooks regenerated twice, `cmp`-identical; ten views `current`; whole-file sweep 0 failures. `check_softwrap.py` fails only on three pre-existing `.md` commit-message duplicates in `proposed-of/`.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; codebooks regenerated twice, `cmp`-identical; ten views `current`; whole-file sweep 0 failures. `check_softwrap.py` fails only on three pre-existing `.md` commit-message duplicates in `proposed-of/`. *[Resolved later the same day: the three `.md` files were byte-identical duplicates of the `.txt` commit messages beside them and were deleted with MS's permission; `check_softwrap.py` now exits 0, 26 files OK.]*
 
 ## loss_mitigation_forms — 2026-10-11 (v)
 
