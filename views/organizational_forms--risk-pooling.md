@@ -6,7 +6,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 
 | form                            | `LR4` | `LR5` |
 |---------------------------------|-------|-------|
-| `asiento_averia`                | 1     | 1     |
+| `asiento_averia`                | 0     | .NA   |
 | `avariz_vakfi`                  | 0     | .NA   |
 | `bazacle_mill`                  | 0     | .NA   |
 | `begijnhof`                     | 1     | 0     |

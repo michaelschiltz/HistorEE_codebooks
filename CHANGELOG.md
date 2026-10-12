@@ -10,6 +10,12 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (xx)
+
+**`asiento_averia LR4` `1` → `0` (`medium`, `analyst-imposed`) and `LR5` `synchronising` → `.NA`, under the `LR4` clarification (ruling 10): the *partícipes* divide one enterprise's outcome by *puestos* (Hierro Anibarro 2005, 194, 198, 201). The levy's covariate hazard remains coded on `averia_pool HZ1` in `loss_mitigation_forms`. `OF-R0217`, `R0218` replaced. No version bump.**
+
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; organizational codebook regenerated twice, `cmp`-identical (905 rows, 218 recodings); `risk-pooling` view regenerated twice, `cmp`-identical, the other ten `current`; whole-file sweep 0 failures.
+
 ## organizational_forms — 2026-10-12 (xix)
 
 **Pisa's land rubric (*Constitutum usus* XXIII, Bonaini II, 897–899) applies the sea rules to land partnerships *per similitudinem*: the structural scope of `commenda` and `societas_maris` (ruling 13) stands; the land defaults are recorded as variants in the notes of `LR3`, `TS2` and `CI2` on both rows. No value moves; no version bump.**
