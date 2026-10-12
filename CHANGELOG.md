@@ -10,6 +10,12 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (xix)
+
+**Pisa's land rubric (*Constitutum usus* XXIII, Bonaini II, 897–899) applies the sea rules to land partnerships *per similitudinem*: the structural scope of `commenda` and `societas_maris` (ruling 13) stands; the land defaults are recorded as variants in the notes of `LR3`, `TS2` and `CI2` on both rows. No value moves; no version bump.**
+
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; both codebooks and eleven views `current`; whole-file sweep 0 failures.
+
 ## loss_mitigation_forms — 2026-10-12 (xviii)
 
 **`commenda_alloc VF1` reopened and recoded `official-adjudication` → `claimant-oath`, `medium`, `articulated`, on Pisa's *Constitutum usus* (Bonaini II, 895–896) and the Venetian statutes (`LM-R0066` replaced; `LM-R0009`, `R0061` overruled). The commenda family now agrees on `VF1`. `VF2 = mixed` gains a fault object. No version bump.**
