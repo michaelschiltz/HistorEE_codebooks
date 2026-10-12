@@ -10,6 +10,13 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (v)
+
+**`LR3` definition clarified on existing usage: a share of the outcome against a fixed claim, labour counting as a stake; `P` only for partly fixed, partly shared. No value moves; no version bump.**
+
+- Pilot entries 3 and 6: live `commenda LR3 = 1` and `societas_maris LR3 = 1` stand; six pilot rows kept.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; codebooks and ten views `current`; whole-file sweep 0 failures.
+
 ## organizational_forms — 2026-10-12 (iv)
 
 **Three new `MG2` cells, all `single-principal`, medium, articulated: `commenda` (`OF-0905`; Scriba LXVIII, *exinde quo voluero*), `societas_maris` (`OF-0906`), `qirad` (`OF-0907`; al-Sarakhsī, *al-Mabsūṭ* 22, 41 and 48). 902 → 905 rows. No version bump.**

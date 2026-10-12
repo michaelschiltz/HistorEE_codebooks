@@ -32,6 +32,10 @@ Acquired and read from page images: the Breve of the consuls of the *placita* of
 
 Three new cells, all `single-principal`, medium, articulated (`OF-0905`, `OF-0906`, `OF-0907`): the traveller, the travelling partner and the *muḍārib* hold residual control as managing agents within a mandate, under the definition clarified on 2026-10-11 (ruling 3). Read from page images or first-hand: *Il cartolare di Giovanni Scriba* I, nos. LXVIII–LXIX (p. 37; *exinde quo voluero*; and the ship's majority on route, *si maior pars hominum de navi … concordati fuerunt ire Alexandria, ibo*); González de Lara 2011, 111 (Venice); al-Sarakhsī, *al-Mabsūṭ* 22, 41 and 48. The ship's company's decisions on route are recorded in notes, not as `collective`, because the company is not a party to the arrangement. Objection put and answered: `MG2` now separates none of the principal–agent forms; ruling 3 accepted that.
 
+## 8. D1 — the `LR3` definition (worksheet entries 3 and 6)
+
+`LR3` is clarified on existing usage, value names kept: the test is a share in the outcome against a fixed claim; "proportionally to stake" is a gloss in which labour counts as a stake, so a negotiated ratio that does not follow capital is `1`; `P` is reserved for an arrangement partly fixed and partly shared. Ground: all 16 forms with a labour partner (`CF1` = `1` or `P`) carried `LR3 = 1`; reading the ratio's departure from capital as `P` would duplicate `CF1`. Live `commenda LR3 = 1` and `societas_maris LR3 = 1` stand; `OF-R0069`, `R0111`, `R0153`, `R0080`, `R0122`, `R0164` kept. No version bump: a definition, not a declared constraint.
+
 ## Flagged, not ruled
 
 `comanda_alloc VF1` rests on *Consolat* cap. 279, an accounting rule; Venice shows the account oath and the proof of a peril loss as separate rules. Until caps. 209–210 and 220 are read for a peril-specific rule, the family's separation on `VF1` may not be like for like.
