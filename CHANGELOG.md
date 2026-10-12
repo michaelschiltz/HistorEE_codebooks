@@ -10,6 +10,13 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms and organizational_forms — 2026-10-12 (xvii)
+
+**Pryor 1977 read: no value moves. `commenda_alloc MB3 = voluntary` and `RB4 = 1` re-pointed from Held to the acts and to Venetian and Pisan law (`LM-R0064`, `R0065` replaced), both `articulated`. `commenda LR3` and `CF2` gain Pryor 1977 as a held source. The reasoning "title runs to the taker's goods" in the `LP` cells of rulings 16, 17 and 21 is withdrawn and marked; the values stand. No version bump.**
+
+- No `commenda_alloc` cell now rests on Held alone.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; loss codebook regenerated twice, `cmp`-identical (762 rows, 65 recodings), organizational codebook `current`; eleven views `current`; whole-file sweep 0 failures.
+
 ## organizational_forms — 2026-10-12 (xvi)
 
 **Follow-ons: `commenda CF2 = 0` re-pointed from Udovitch to nine Latin acts and Pisan law, `high` → `medium` (Scriba CCCLV a variant); `commenda LR3 = 1` re-pointed from Pryor 1977 (not held) to the acts, Pisa and van Doosselaere. Both `articulated` (`OF-R0215`, `R0216` replaced). No value moves; no version bump.**
