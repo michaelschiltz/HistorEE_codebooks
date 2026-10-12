@@ -40,9 +40,9 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 |  3 | `char_id`       | string |          |                                                                                                 | 905/905 |
 |  4 | `value`         | string |          |                                                                                                 | 613/905 |
 |  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 613/905 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 299/905 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 301/905 |
 |  7 | `source_ref`    | string |          |                                                                                                 | 805/905 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 756/905 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 757/905 |
 |  9 | `coder`         | string |    ✓     |                                                                                                 | 905/905 |
 | 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                            | 824/905 |
 | 11 | `reviewed_by`   | string |    ✓     |                                                                                                 | 905/905 |

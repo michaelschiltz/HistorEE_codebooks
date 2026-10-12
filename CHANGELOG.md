@@ -10,6 +10,13 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (viii)
+
+**Pilot entries 4, 5, 7 and 17: live `LR4 = 0` and `LR5 = .NA` stand for `commenda` and `societas_maris`, both `LR4` cells re-based on the acts under the clarified definition (`OF-R0200`, `OF-R0201` replaced; twelve pilot rows kept). `commenda LR4` no longer cites `[verify]`; `societas_maris LR4` articulation `.NR` → `analyst-imposed`. No value moves; no version bump.**
+
+- The travellers' profit pool of Amalric 697 is parked as a candidate form (logbook 2), not coded under `societas_maris`.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; organizational codebook regenerated twice, `cmp`-identical (905 rows, 201 recodings); eleven views `current`; whole-file sweep 0 failures; vault ✓ (579 notes).
+
 ## organizational_forms — 2026-10-12 (vii)
 
 **`LR4` definition clarified on existing usage: it counts the pooling of members' separate, member-specific outcomes or hazards, not the division of one common venture's outcome by shares; a pooling agreement across separate ventures counts on the arrangement it creates. No value moves; no version bump.**
