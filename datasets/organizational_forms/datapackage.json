@@ -2,7 +2,7 @@
   "name": "organizational_forms",
   "title": "Cooperative organizational forms — feature coding",
   "description": "PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological (Zwicky) coding of cooperative and risk-pooling organizational forms (waqf, ie, compagnia, joint-stock corporation, nación, natie, kabu-nakama, and forms to be added) against a granular set of structural characteristics. Stored long/tidy: one row per form × characteristic. Supports the comparative typology in Clearing and Settling the Realm / HistorEE. Codes for forms and characteristics live in vocabularies/organizational_form_type.csv and vocabularies/organizational_form_characteristic.csv. Rows with coder 'ai' are provisional seed codings pending human verification; source_ref '[verify]' marks a coded value whose citation is not yet pinned.",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -419,14 +419,15 @@
             "name": "adjudication",
             "type": "string",
             "title": "Adjudication",
-            "description": "`pending` until a person rules; `kept` if the existing value stands; `replaced` if this value was written into `data.csv` (and `coder_model`/`coder_effort` there changed with it); `disputed` if left open.",
+            "description": "`pending` until a person rules; `kept` if the existing value stands; `replaced` if this value was written into `data.csv` (and `coder_model`/`coder_effort` there changed with it); `disputed` if left open; `overruled` if neither this value nor the existing one stands, because a third value was written into `data.csv` (added 2026-10-12, logbook 1).",
             "constraints": {
               "required": true,
               "enum": [
                 "pending",
                 "kept",
                 "replaced",
-                "disputed"
+                "disputed",
+                "overruled"
               ]
             }
           },

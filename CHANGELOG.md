@@ -10,11 +10,22 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms, organizational_forms — 2026-10-12
+
+**`commenda_alloc VF1` `documentary` → `official-adjudication`, medium, articulated (`LM-R0061`, replaced); `commenda_alloc VF2` stays `mixed`, its basis moved to the Venetian statutes (`LM-R0062`). Commenda pilot worksheet entries 16 and 20 ruled. `recodings.csv` gains the adjudication state `overruled`: `loss_mitigation_forms` 0.9.0 → 0.10.0, `organizational_forms` 0.12.0 → 0.13.0.**
+
+- Scope ruled: `commenda_alloc` codes the Italian maritime cities (Venice, Genoa, Pisa). Dubrovnik and Marseille may corroborate or record a variant, never be a cell's sole basis. `MB3` and `RB4` still cite Held alone and are listed for re-pointing.
+- Venice, from Besta & Predelli 1901 read on the page images: the account is sworn on demand, but shipwreck, capture, fire and robbery are proved by lawful witnesses, confirmed by the debtor's oath, rebuttable, and weighed by the judges (Dandolo c. 32 with the gloss to St. Nov. III, 2; Tiepolo 1229 c. 16; 1233 c. 2). *Clarefactum* and *si manifestum fuerit* are a standard of proof, not a mode.
+- `VF2`'s two objects are now loss-occurrence and conduct-compliance (Dandolo cc. 30–32). Fault appears only in Genoese acts.
+- Pilot rows: `LM-R0009` replaced; `LM-R0028` and `LM-R0047` overruled; `LM-R0010`, `LM-R0029` and `LM-R0048` kept.
+- Flagged, not changed: `comanda_alloc VF1` may record the *Consolat*'s account rule rather than its peril rule, so the family's separation on `VF1` is not yet like for like (logbook 4).
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; codebooks regenerated twice, `cmp`-identical; ten views `current`; whole-file sweep 0 failures. `check_softwrap.py` fails only on three pre-existing `.md` commit-message duplicates in `proposed-of/`.
+
 ## loss_mitigation_forms — 2026-10-11 (v)
 
 **New cell `LM-0762`: `qirad_alloc VF2 = mixed`, medium, articulated. al-Sarakhsī, *al-Mabsūṭ* 22, 108: the *muḍārib* swears that he neither consumed the capital nor lost it through neglect, the trustee's word with his oath prevailing in his discharge from liability. No version bump.**
 
-- The commenda family now agrees on `VF2` (`mixed` in all four branches) and separates on `VF1` only: a difference of mode, not of object.
+- The commenda family now agrees on `VF2` (`mixed` in all four branches) and separates on `VF1` only: a difference of mode, not of object. *[Corrected 2026-10-12: `commenda_alloc VF2` stays `mixed` but its objects are now occurrence and compliance, from the Venetian statutes; see the 2026-10-12 block.]*
 - `LM-0545`: the edition is Dār al-Maʿrifa (Beirut), not the Cairo printing; the limit "oath not shown for a loss claim" is discharged by p. 108.
 - A first recommendation (`loss-occurrence`), ruled and then withdrawn before application, is recorded in logbook 4.
 - Checks: Vocabularies ✓; dependence 0 ×2; frictionless VALID; loss codebook regenerated twice, `cmp`-identical (762 rows); risk-pooling view (`.md`, `.tex`) and nine entity views `current`; whole-file sweep 0 failures.
