@@ -10,6 +10,12 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms — 2026-10-12 (xiii)
+
+**Pilot entry 15: `commenda_alloc RB2 = capital-provider` stands, re-based on Pisa's *Constitutum usus* (Bonaini II, 884–885); `high` → `medium`; Held to comparison (`LM-R0063` replaced; three pilot rows kept). No value moves; no version bump. All 24 pilot worksheet entries are now ruled.**
+
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; both codebooks and eleven views `current`; whole-file sweep 0 failures (762 rows, 63 recodings; 905 rows, 209 recodings).
+
 ## organizational_forms — 2026-10-12 (xii)
 
 **Pilot entries 1, 2, 22, 23: `AP3 = 0` and `LR1 = unlimited-several` stand for `commenda` and `societas_maris`, re-based on the Genoese Breve c. VI and Pera c. CCXI (`OF-R0206`–`R0209` replaced); `commenda` `high` → `medium`; all four `analyst-imposed`. No value moves; no version bump.**
