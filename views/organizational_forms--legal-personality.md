@@ -36,7 +36,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 | `partenrederij`                 | .NR   | .NR   | .NR   |
 | `qirad`                         | .NR   | 0     | .NR   |
 | `shenhui_gu`                    | --    | --    | --    |
-| `societas_maris`                | 0     | .NR   | .NR   |
+| `societas_maris`                | 0     | 0     | .NR   |
 | `voc_1602`                      | 1     | 1     | .NR   |
 | `voc_1612`                      | 1     | 1     | .NR   |
 | `voc_1623`                      | 1     | 1     | .NR   |
