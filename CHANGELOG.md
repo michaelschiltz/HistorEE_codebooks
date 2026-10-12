@@ -10,6 +10,13 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (x)
+
+**Pilot entries 18, 14, 10: `societas_maris CF2` keeps `0`, re-based on seven sea-going acts (`OF-R0202` replaced; `high`, now `articulated`); `CI2` stays `.NR` for `commenda` and `societas_maris`, the at-will acts recorded in notes as the open-term variant. No value moves; no version bump.**
+
+- Nine pilot rows kept. Flagged, not changed: `commenda CF2` rests on Udovitch; Scriba CCCLV is its first explicit Latin variant.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; organizational codebook regenerated twice, `cmp`-identical (905 rows, 202 recodings); eleven views `current`; whole-file sweep 0 failures.
+
 ## organizational_forms — 2026-10-12 (ix)
 
 **Scope of `commenda` and `societas_maris` ruled (D4): acts are assigned by structure — who contributes capital — not by drafting term and not by terrain; sea and land alike, as for the comanda. Written on both type rows; codes and names kept. No value moves; no version bump.**
