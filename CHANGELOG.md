@@ -10,6 +10,16 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (ii)
+
+**`commenda AP1` and `societas_maris AP1` keep `P`, now medium and articulated on the Genoese Breve of the consuls of the *placita*, c. VI (1207–1217) and Pera c. CCXI: the investor is preferred to all the traveller's other creditors in the movables traced to his money. The previous basis, Harris 2007, 11 via Hansmann, Kraakman & Squire 2006, is contradicted on the traveller's half. No version bump.**
+
+- New recodings `OF-R0197`, `OF-R0198` (replaced); six pilot rows kept.
+- `comanda AP1` (`OF-0839`): note corrected in place — Genoa had the rule by 1207–1217, not only in its 1490/1588 printing.
+- Pisa's 1248 revision of the *Constitutum usus* (stronger: the *hentica*'s creditors are not subordinated) and Venice's silence recorded as comparison.
+- Type rows `commenda` and `societas_maris` corrected in place and appended.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables OK; codebooks and ten views `current`; whole-file sweep 0 failures.
+
 ## loss_mitigation_forms, organizational_forms — 2026-10-12
 
 **`commenda_alloc VF1` `documentary` → `official-adjudication`, medium, articulated (`LM-R0061`, replaced); `commenda_alloc VF2` stays `mixed`, its basis moved to the Venetian statutes (`LM-R0062`). Commenda pilot worksheet entries 16 and 20 ruled. `recodings.csv` gains the adjudication state `overruled`: `loss_mitigation_forms` 0.9.0 → 0.10.0, `organizational_forms` 0.12.0 → 0.13.0.**

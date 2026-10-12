@@ -20,6 +20,10 @@ Added to `adjudication` in both recodings schemas: neither this value nor the ex
 
 Live `mixed` stands, basis moved from Held to the Venetian statutes: loss-occurrence (Dandolo c. 32 and the gloss; Tiepolo 1233 c. 2) and conduct-compliance (cc. 30–31). Medium, articulated, `la` (`LM-0536`; new recoding `LM-R0062`, replaced). Fault is attested only in Genoese acts (Cassinese 201) and recorded in notes. `LM-R0010`, `LM-R0029`, `LM-R0048` kept.
 
+## 5. Worksheet entries 9 and 13 — `commenda` and `societas_maris` `AP1`
+
+Acquired and read from page images: the Breve of the consuls of the *placita* of Genoa (the Datta fragment), *Atti della Società ligure di storia patria* I (1862), 81–84, dated 1207–1217 by Desimoni (99); *Statuti della colonia genovese di Pera*, ed. Promis (1871), c. CCXI, 739–740; Bonaini, *Statuti inediti della città di Pisa* II (1870), 839 and 885. Live `P` stands on both rows, basis replaced (`OF-0553`, `OF-0563`; new recodings `OF-R0197`, `OF-R0198`, replaced; the six pilot rows kept): in Genoa the *accomendator* or *socius* is preferred to all other creditors and the wife in the movables traced to the money, and shares equally with creditors in later-acquired immovables; an unpaid seller ranks first. `medium`, `articulated`, `la`. Harris 2007, 11 (via Hansmann, Kraakman & Squire 2006) is contradicted on the traveller's half. Pisa's 1248 revision of the *Constitutum usus* and Venice's silence are recorded as comparison. Licensed by MS in the same ruling: `comanda AP1` (`OF-0839`) note corrected in place where it repeated Martínez Gijón's claim that Genoa reached the rule only in its 1490/1588 printing.
+
 ## Flagged, not ruled
 
 `comanda_alloc VF1` rests on *Consolat* cap. 279, an accounting rule; Venice shows the account oath and the proof of a peril loss as separate rules. Until caps. 209–210 and 220 are read for a peril-specific rule, the family's separation on `VF1` may not be like for like.
