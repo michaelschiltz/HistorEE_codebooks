@@ -28,6 +28,10 @@ Acquired and read from page images: the Breve of the consuls of the *placita* of
 
 `commenda CI1` `common` → `none`, medium, analyst-imposed (`OF-0556`; `OF-R0199` replaced; `OF-R0093` replaced; `OF-R0135`, `OF-R0177` overruled): the modal commenda carries one investor's capital (van Doosselaere 2009, 70 n. 11; arm P's two-party counts). New cells: `commenda CI5 = commingled`, low, articulated (`OF-0902`; Genoese acts, segregation an express clause; Pisa, *Constitutum usus*, Bonaini II, 885); `qirad CI5 = segregated`, medium, articulated (`OF-0903`; al-Sarakhsī, *al-Mabsūṭ* 22, 48); `societas_maris CI5 = .NR` (`OF-0904`; 2 against 2). `societas_maris CI1 = common` and `qirad CI1 = .NR` re-read and stand. The hypothesis of ruling 6 of 2026-10-11 (commingling linked to `LR4`) is tested and reported in logbook 4, not encoded. Flag: for principal–agent forms `CI1 = none` nearly follows from `CF3 = bilateral`.
 
+## 7. `MG2` for `commenda`, `societas_maris` and `qirad`
+
+Three new cells, all `single-principal`, medium, articulated (`OF-0905`, `OF-0906`, `OF-0907`): the traveller, the travelling partner and the *muḍārib* hold residual control as managing agents within a mandate, under the definition clarified on 2026-10-11 (ruling 3). Read from page images or first-hand: *Il cartolare di Giovanni Scriba* I, nos. LXVIII–LXIX (p. 37; *exinde quo voluero*; and the ship's majority on route, *si maior pars hominum de navi … concordati fuerunt ire Alexandria, ibo*); González de Lara 2011, 111 (Venice); al-Sarakhsī, *al-Mabsūṭ* 22, 41 and 48. The ship's company's decisions on route are recorded in notes, not as `collective`, because the company is not a party to the arrangement. Objection put and answered: `MG2` now separates none of the principal–agent forms; ruling 3 accepted that.
+
 ## Flagged, not ruled
 
 `comanda_alloc VF1` rests on *Consolat* cap. 279, an accounting rule; Venice shows the account oath and the proof of a peril loss as separate rules. Until caps. 209–210 and 220 are read for a peril-specific rule, the family's separation on `VF1` may not be like for like.

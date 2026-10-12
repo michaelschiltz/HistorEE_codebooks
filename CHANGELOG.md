@@ -10,6 +10,14 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-12 (iv)
+
+**Three new `MG2` cells, all `single-principal`, medium, articulated: `commenda` (`OF-0905`; Scriba LXVIII, *exinde quo voluero*), `societas_maris` (`OF-0906`), `qirad` (`OF-0907`; al-Sarakhsī, *al-Mabsūṭ* 22, 41 and 48). 902 → 905 rows. No version bump.**
+
+- The principal–agent family now reads `single-principal` throughout; no separation on `MG2`, as ruling 3 of 2026-10-11 accepted.
+- In notes: the ship's majority decides the route in Genoa (Scriba LXIX, 1156) and Venice (González de Lara 2011, 111) — a decision outside the arrangement.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables OK; organizational codebook regenerated twice, `cmp`-identical (905 rows); ten views `current`; whole-file sweep 0 failures.
+
 ## organizational_forms — 2026-10-12 (iii)
 
 **`commenda CI1` `common` → `none` (`OF-R0199`); three new `CI5` cells: `commenda` `commingled` (low), `qirad` `segregated` (medium), `societas_maris` `.NR`. 899 → 902 rows. No version bump.**
