@@ -13,9 +13,9 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 | `bruderschaft_salzburg`         | .NR   | .NR   | .NA   |
 | `casa_san_giorgio`              | .NR   | 1     | .NA   |
 | `chartered_corporation_england` | .NR   | .NR   | .NA   |
-| `comanda`                       | P     | .NR   | .NA   |
+| `comanda`                       | .NR   | .NR   | .NA   |
 | `comanda_ad_societatem`         | .NR   | .NR   | .NA   |
-| `commenda`                      | P     | .NR   | .NA   |
+| `commenda`                      | 0     | .NR   | .NA   |
 | `compagnia`                     | 1     | 0     | .NA   |
 | `compagnie_antwerpen_1582`      | 1     | P     | .NA   |
 | `compagnie_antwerpen_1608`      | 1     | 0     | .NA   |
@@ -23,7 +23,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 | `fraterna`                      | .NR   | 0     | .NA   |
 | `hegu_shengu`                   | --    | --    | --    |
 | `hegu_yingu`                    | --    | --    | --    |
-| `isqa`                          | 0     | 0     | .NA   |
+| `isqa`                          | .NR   | 0     | .NA   |
 | `kabu_edo_export`               | --    | --    | --    |
 | `kabu_local`                    | --    | --    | --    |
 | `maona_chios`                   | .NR   | .NR   | .NA   |
@@ -36,7 +36,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms Ã
 | `partenrederij`                 | .NR   | .NR   | .NA   |
 | `qirad`                         | .NR   | .NR   | .NA   |
 | `shenhui_gu`                    | --    | --    | --    |
-| `societas_maris`                | P     | .NR   | .NA   |
+| `societas_maris`                | 0     | .NR   | .NA   |
 | `voc_1602`                      | 1     | 1     | .NA   |
 | `voc_1612`                      | 1     | 1     | .NA   |
 | `voc_1623`                      | 1     | 1     | .NA   |
