@@ -1,6 +1,6 @@
 # Scoped view — component `risk-pooling`
 
-Mechanism filter: `MC1 = pooling`. **29 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+Mechanism filter: `MC1 = pooling`. **30 forms × 9 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -30,6 +30,7 @@ Mechanism filter: `MC1 = pooling`. **29 forms × 9 characteristics.** This is NO
 | `ko_shijunin_1829`                | 0     | --    | --    | --    | 2     | --    | --    | --    | 0     |
 | `ko_usui_bango_1822`              | 0     | .NR   | --    | 0     | 2     | 0     | 2     | 2     | .NR   |
 | `ko_yamakuni_1555`                | 0     | .NR   | --    | .NR   | 2     | 0     | 2     | 2     | .NR   |
+| `she_death_aid`                   | 2     | .NR   | .NR   | 0     | 2     | 0     | 1     | 1     | 3     |
 | `tontine`                         | --    | --    | --    | --    | 2     | .NR   | --    | --    | --    |
 | `tontine_en_1693`                 | 1     | 0     | --    | 0     | 2     | 0     | 2     | 1     | .NR   |
 | `tontine_fr_royal`                | --    | 0     | --    | 0     | 2     | P     | 2     | --    | --    |
@@ -78,6 +79,7 @@ Mechanism filter: `MC1 = pooling`. **29 forms × 9 characteristics.** This is NO
 | `ko_shijunin_1829`                | --                         | --                   |
 | `ko_usui_bango_1822`              | 0                          | individual-draw      |
 | `ko_yamakuni_1555`                | 0                          | individual-draw      |
+| `she_death_aid`                   | 0                          | individual-indemnity |
 | `tontine`                         | .NR                        | --                   |
 | `tontine_en_1693`                 | 0                          | individual-draw      |
 | `tontine_fr_royal`                | P                          | individual-draw      |
@@ -110,6 +112,7 @@ Mechanism filter: `MC1 = pooling`. **29 forms × 9 characteristics.** This is NO
 - `ko_shijunin_1829` — 四拾人講 (広域講) · Japanese / Kawachi · 1829-1843
 - `ko_usui_bango_1822` — 碓井村伴吾講 (広域講) · Japanese / Kawachi · 1822-
 - `ko_yamakuni_1555` — 二石頼母子 (丹波国山国庄, 親 井ノ本左近) · Japanese / Tanba · 1555-1563
+- `she_death_aid` — She association death mutual aid (社邑喪葬互助), Dunhuang · Chinese / Dunhuang · Tibetan period (before 848) to c. 1000
 - `tontine` — Tontine · European · 17c onward
 - `tontine_en_1693` — Tontine — English (Million Act 5 & 6 Will. & Mar. c. 5) · English · 1693-1789
 - `tontine_fr_royal` — Tontine — French royal series (fourteen age classes) · French · 1689-1759

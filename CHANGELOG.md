@@ -10,6 +10,15 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms — 2026-10-14
+
+**New form `she_death_aid`, the Dunhuang *she* association's death mutual aid (社邑喪葬互助), Tibetan period (before 848) to c. 1000: type row and 23 cells (`LM-0763`–`LM-0785`), coded open on Ning and Hao 1997 read on the page images. No version bump (rows and a type code only; no schema change). Rulings 1–12 of `records/RULINGS-she-associations-2026-10-13.md`; priors committed before reading.**
+
+- The census's second `CN1 = ex-post-assessment`, after `general_average`: 20 of 20 in-scope death circulars levy a fixed per-member schedule at each death. `PY0` `individual-indemnity`, `PY1` `life-event`, `PY2` `indemnity`, `PY3` `1` (a fixed schedule, and three bylaws cap draws at three per household per cycle). `CN2` `equal`, `CN3` `1`, `GV1` `collective`, `DR1` `open-ended`, `VF1` `official-adjudication`, `VF2` `loss-occurrence`, `LS3` `0`, `PR1` `0`; `MB1` `.NR` as no fitting value.
+- The 義聚 loan stock is not a row (credit, not pooling; no document shows it pay a funeral); the `organizational_forms` row is deferred; co-occurrence with `huiguan` and the guild rows assessed and negative, carried as `.NR` (logbook 6).
+- Consumers: the cells count documents, not associations, and rest on one witness (the edition); non-independent document groups are listed in the type row.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; loss codebook and `risk-pooling` view (md, tex) regenerated twice, `cmp`-identical (785 rows; 30 pooling forms), the other two codebooks and nine views `current`; whole-file sweep 0 failures (905 rows, 224 recodings; 785 rows, 66 recodings).
+
 ## organizational_forms — 2026-10-13 (iii)
 
 **`qirad CI5` (`OF-0903`) `segregated` → `commingled`, `medium`, `articulated`, on Saḥnūn, *al-Mudawwana* 3, 641 and 645: the row is Mālikī, and Mālikī law lets the agent mix his own money with the *qirāḍ* unstipulated and without liability. The 2026-10-12 coding had carried the Ḥanafī rule (al-Sarakhsī, *al-Mabsūṭ* 22, 48) into the Mālikī row; the Ḥanafī rule is kept in the cell's note as the contrast. `OF-R0224` replaced. Type row `qirad` key source appended. No version bump. Ruling 3 of `records/RULINGS-latin-hanafi-mixing-tests-2026-10-13.md`.**
