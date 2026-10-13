@@ -10,6 +10,13 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-13
+
+**Source references: *Atti della Società ligure di storia patria* I is cited by its title-page date, 1858, not 1862, in 13 cells (`OF-0079`, `0080`, `0284`, `0285`, `0550`–`0553`, `0560`–`0563`, `0902`), each with an inline correction bracket. No value moves; no recodings row; no version bump. Ruling 1 of `records/RULINGS-commenda-followups-2026-10-13.md`.**
+
+- Promis, *Statuti della colonia genovese di Pera*, stays 1871: the title page prints MDCCCLXXI. The contrary flag of 2026-10-12 (viii) was a misreading, recorded in logbook 5.
+- Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; both codebooks regenerated twice, `cmp`-identical and unchanged; eleven views `current`; whole-file sweep 0 failures (905 rows, 219 recodings; 762 rows, 66 recodings; the sweep script rebuilt this session, the 2026-10-12 copy having lived in an ephemeral session home); vault ✓ (580 notes).
+
 ## organizational_forms and loss_mitigation_forms — 2026-10-12 (xxi)
 
 **The *Consolat*'s commenda chapters read: `comanda_alloc VF1 = claimant-oath` and `comanda CI2 = .NR` stand (notes); `comanda CI5` `segregated` → `commingled`, `low`, on cap. 215 (`OF-R0219` replaced). No version bump.**
