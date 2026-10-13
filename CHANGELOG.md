@@ -10,6 +10,15 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-13 (iii)
+
+**`qirad CI5` (`OF-0903`) `segregated` → `commingled`, `medium`, `articulated`, on Saḥnūn, *al-Mudawwana* 3, 641 and 645: the row is Mālikī, and Mālikī law lets the agent mix his own money with the *qirāḍ* unstipulated and without liability. The 2026-10-12 coding had carried the Ḥanafī rule (al-Sarakhsī, *al-Mabsūṭ* 22, 48) into the Mālikī row; the Ḥanafī rule is kept in the cell's note as the contrast. `OF-R0224` replaced. Type row `qirad` key source appended. No version bump. Ruling 3 of `records/RULINGS-latin-hanafi-mixing-tests-2026-10-13.md`.**
+
+- Consequence for consumers: the commenda family no longer separates on `CI5`; every family row that speaks commingles by default. `CI5` is description only (component `none`), so no component set or view changes.
+- Rulings 1 and 2 of the same pass changed no data: they test the vault hypothesis that explained the split (Ḥanafī deposit law qualifies it; Mālikī *qirāḍ* law counts against it).
+- Considered and not done: coding the `mudaraba` type row from al-Sarakhsī, which would reopen its "one institution" decision; left open for MS.
+- Checks: Vocabularies ✓; dependence 0 ×2; frictionless VALID ×4 (data and recodings of both censuses); tables and soft-wrap OK; three codebooks and eleven views `current`; whole-file sweep 0 failures (905 rows, 224 recodings; 762 rows, 66 recodings; `~/work/sweep.py` rebuilt again, the 2026-10-13 copy having lived in an ephemeral session home, and checked against a planted mismatch, which it caught); vault ✓ (580 notes).
+
 ## organizational_forms — 2026-10-13 (ii)
 
 **`AP1` clarified: entity creditors are third parties who dealt with the arrangement, not members. `commenda` and `societas_maris` `AP1` `P` → `0` (one Genoese chapter, one datum); `comanda` `P` → `.NR`; `isqa` `0` → `.NR` (`OF-R0220`–`R0223`, replaced). No version bump. Ruling 7 of `records/RULINGS-commenda-followups-2026-10-13.md`.**
