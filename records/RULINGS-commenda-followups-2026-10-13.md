@@ -12,6 +12,10 @@ Promis, *Statuti della colonia genovese di Pera*, stays "(1871)": the title page
 
 The vault note "Barcelona law kept the commendatary's creditors off the comanda goods" is corrected to *Atti* I, 1858.
 
+## 2. The vault note on comanda capital is retitled for cap. 215
+
+In `myfoamrepo`, "Comanda capital was kept apart unless the contract said otherwise" is renamed "Comanda capital was mixed with the agent's own unless the contract said otherwise". Ruling 29 of 2026-10-12 coded `comanda CI5 = commingled` on *Consolat* cap. 215 (mixing with the agent's own money, permitted unless the investor restricted it); the old title stated cap. 219 (no mixing into a company's common stock without consent) as the default. File, `title:` and H1 renamed; a RENAMED bracket carries the old title in the note; the wikilinks in six files (five notes and `MOC - Risk-sharing vs risk-pricing`) rewritten; `graph/` regenerated with `scripts/export_graph.py`. Precedent: the rename of the commenda-family note on 2026-10-12. The mention in `records/RULINGS-commenda-italian-recode-2026-10-12.md` stays verbatim.
+
 ## Flagged, not ruled
 
 The `commenda` type row in `vocabularies/organizational_form_type.csv` cites "ASLSP I, 1862". Type rows are append-only, so it stands; a reader resolving it goes to `SUJ2QXRU`, which carries 1858.
