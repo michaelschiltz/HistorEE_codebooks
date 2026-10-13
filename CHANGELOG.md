@@ -15,7 +15,7 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 **`AP1` clarified: entity creditors are third parties who dealt with the arrangement, not members. `commenda` and `societas_maris` `AP1` `P` → `0` (one Genoese chapter, one datum); `comanda` `P` → `.NR`; `isqa` `0` → `.NR` (`OF-R0220`–`R0223`, replaced). No version bump. Ruling 7 of `records/RULINGS-commenda-followups-2026-10-13.md`.**
 
 - The investor's priority over the agent's creditors, which the three commenda-family `P` cells coded, is kept in their notes as partition evidence in a member's favour.
-- Rulings 3–6 of the same pass changed no data: Zotero file names and records, the 1956 Genoese cartulary inventory, the Scriba edition's issue, and a dependence not registered (`CF3`/`CI1`, logbook 4).
+- Rulings 3–6, 8 and 9 of the same pass changed no data: Zotero file names and records, the 1956 Genoese cartulary inventory, the Scriba edition's issue, a dependence not registered (`CF3`/`CI1`, logbook 4), the 2026-10-09 retrieval report's slug added to logbook 4's standing table, and the travellers' pool of Amalric 697 kept parked after a recurrence search (logbook 2).
 - Checks: vocabularies ✓; dependence 0 ×2; frictionless VALID ×4; tables and soft-wrap OK; organizational codebook regenerated twice, `cmp`-identical (905 rows, 223 recodings), loss codebook `current`; `entity-shielding` view regenerated twice, `cmp`-identical, the other ten `current`; whole-file sweep 0 failures (905 rows, 223 recodings; 762 rows, 66 recodings); vault ✓ (580 notes).
 
 ## organizational_forms — 2026-10-13
