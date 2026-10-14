@@ -56,10 +56,10 @@ jobs:
         # script, inline in notes, repeated in every cell it supports
         # (CONTRIBUTING §4, "Original script"). Hygiene (NFC, no Arabic
         # presentation forms, no Private Use Area) and drift between two copies
-        # of one passage are fatal. Coverage — an articulated cell with no
-        # character of its source's script — is reported until the retrofit of
-        # 2026-10-14 lands, then this step takes --strict.
-        run: python scripts/check_quotations.py
+        # of one passage are fatal, and so — since the retrofit of 2026-10-14
+        # closed the last of 50 gaps — is coverage: an articulated cell with no
+        # character of its source's script.
+        run: python scripts/check_quotations.py --strict
 
       - name: Check dependence columns
         # applicability_on and dependence_group are conditional constraints: which

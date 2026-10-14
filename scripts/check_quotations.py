@@ -32,7 +32,8 @@ Checks:
   DRIFT, across both data.csv files (fatal)
     4. Two cells quoting the same passage must quote it identically. A pair of
        original-script runs that share most of their letters, and agree on at
-       least six letters on each side of a difference, is reported: that is one passage, copied twice,
+       least six letters on each side of a difference of at most three letters,
+       is reported: that is one passage, copied twice,
        corrected or mistyped in one copy only. The check never says which copy
        is right — that is a matter of re-reading the page.
 
@@ -87,6 +88,9 @@ PUA = [(0xE000, 0xF8FF), (0xF0000, 0xFFFFD), (0x100000, 0x10FFFD)]
 
 EXEMPT_MARK = "original not printed in"
 FLANK = 6        # equal LETTERS (not marks) required on each side of a difference
+MAX_DIFF = 3     # a divergence of more letters than this is a different excerpt, not drift:
+                 # formulaic text (פלגא באגר פלגא בהפסד / פלגא באגר תרי תילתי בהפסד) shares
+                 # long stretches between genuinely different clauses
 SAME_PASSAGE = 0.7  # share of the shorter run's letters the two runs must have in common
 MIN_RUN = 6      # script characters a run needs before it is compared
 SEED = 6         # n-gram used to find candidate pairs
@@ -200,6 +204,7 @@ def drift(items, errors):
             tag, i1, i2, j1, j2 = ops[k]
             before, after = ops[k - 1], ops[k + 1]
             if (tag != "equal" and before[0] == "equal" and after[0] == "equal"
+                    and max(letters(a[i1:i2]), letters(b[j1:j2])) <= MAX_DIFF
                     and letters(a[before[1]:before[2]]) >= FLANK
                     and letters(a[after[1]:after[2]]) >= FLANK):
                 key = (ra, rb, a[i1:i2], b[j1:j2])
