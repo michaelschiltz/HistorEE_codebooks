@@ -181,3 +181,32 @@ The material each item withholds is named here; its content is not described.
 ## 11. This session's standing-table row (filed in logbook 4)
 
 See logbook 4, slug `monte-delle-doti-scheme`.
+
+## 12. Addendum, the same evening: what MS found, checked at rungs 1–2
+
+*Added 2026-10-14 (ii), after MS located PDFs and attached them to the items in the Zotero collection "HistorEE — monte delle doti (to acquire)" (`6DBVYNAY`), which this session created. **§3's finding that nothing on the fund is held is superseded by this section for the items below.** §3 is left as written, because it records what was true when it was measured.*
+
+**Instruments.** Two requests to grant the Google Drive `ZoteroFiles` folder went unanswered, so nothing was rendered and no PDF was opened directly. Counts and offsets come from Zotero's own `.zotero-ft-cache` for each attachment. Its form feeds give the PDF page breaks, and only the first and last two lines of each page were read for printed numbers (rung 2). Front matter and contents pages were read for structure (rung 2). One wrong file was read whole (see below).
+
+| item | Zotero key (attachment) | PDF pp. | indexed | offset (printed = pdf + n), verified on | `monte delle dot` | `dowry fund` | `Monte` | `Monte comune` | Kirshner / Molho |
+|---|---|---|---|---|---|---|---|---|---|
+| Kirshner & Molho 1978, *JMH* 50 | `PW8VUI5Q` (`H5XBGYIA`) | 36 | 36/36 | +402, 35 pages | 27 | 51 | 103 | 7 | 26 / 21 |
+| Molho 1994, *Marriage Alliance* (Harvard Historical Studies 114) | `96G86SL5` (`66VISFHA`) | 480 | **100/480** | +20, 46 pages (rectos and versos); ch. 2 "The Monte delle Doti" = printed 27–79 = pdf 47–99, matching the contents page | 35* | 93* | 362* | 23* | 6 / 22* |
+| Molho & Pescarmona 1986, *Quaderni storici* 21 (61): 147–170 | `6BETH8EF` (`TRH7355T`) | 25 | 25/25 | +145 (pdf 1 is the JSTOR cover), 22 pages | 38 | 0 | 74 | 1 | 4 / 3 |
+| Carboni 2022, *History of the Family* 27 | `HZALV8AF` (`59RTLGQN`) | 23 | 23/23 | +219, 22 pages | 4 | 14 | 38 | 0 | 13 / 13 |
+| Morrison, Kirshner & Molho 1985, *AJPH* 75 | `ISNKY2C7` (`JUE85GUQ`) | 8 | 8/8 | +527, all 8 | 4 | 49 | 6 | 0 | 7 / 5 |
+
+\* Molho 1994 counts cover only the first 100 PDF pages (printed to 80), which is Zotero's default indexing limit. Chapter 2 lies wholly inside that range; chapters 3–7 do not.
+
+**Corrections and defects found by measuring:**
+
+- **Molho "Investimenti" is co-authored with Paola Pescarmona** and is *Quaderni storici* 21, no. 61 (April 1986): 147–170, JSTOR 43777951, as the JSTOR cover gives it. Undermind's "2006, pp. 1000–1021" was wrong. The Zotero item is corrected and no longer tagged `metadata-unverified`. **N1 extends to this item:** it opens by placing itself inside Kirshner and Molho's joint research.
+- **Kirshner & Molho 1978, first page.** PDF p. 1 has no text layer except the JSTOR download stamp. PDF p. 2 carries the running head "404 Kirshner and Molho" and opens mid-paragraph. So PDF p. 1 is either printed 403, held only as an image, or a cover. CrossRef gives 404–438. **Check by eye before citing the first page**; this is noted in the item's Extra field.
+- **Kirshner 2015: wrong file.** The PDF Zotero fetched automatically for `WCWDZ3HE` (attachment `GC42PRYC`) is not the book. It is a three-page review: Jaitner-Hahner, *QFIAB* 96 (2016): 608–609, doi:10.1515/qfiab-2016-0027. It was read whole to find that out. It gives the book's ISBN (978-1-4426-1421-5) and chapter list: ch. 4 "The Morning After. Collecting Monte Dowries in Renaissance Florence", 94–113; ch. 5 "The Seven Percent Fund", 114–130. It also says the Introduction (3–19) revises the earlier versions of the reprinted essays. **N1 is confirmed: the book reprints revised essays.** The book is still wanted. The wrong attachment is flagged in the item and not removed, because removing it is MS's call.
+- **Molho 1994 is the census's monograph-length treatment** (ch. 2, about 53 printed pages). Its title page and CIP confirm Harvard University Press, 1994, so Undermind's 1995 date and doi:10.2307/2169909 are not this book's.
+
+**Still not held:** Kirshner 1978, *Pursuing Honor*; Kirshner 2015 (the book itself); Morrison et al. 1977; Carboni 1999; Chabot & Fornasari 1997.
+
+**What this does to §§4–6, without deciding anything that is part 2's.** (i) The form's own terms now run to dozens of hits in each of three works, so **the batch is no longer blocked on holdings**. Whether to wait for Kirshner 1978 is a question about the split test and legislation, not about whether a row can be carried. (ii) **N2 is measured at rung 1:** Carboni cites Kirshner 13 times and Molho 13 times. It stays presumed dependent for Florence; the citing contexts were not read. (iii) The entity terms the §5 criterion names (`Monte comune`, `official*`, `credit*`, `transfer*`) occur in Kirshner & Molho 1978 and in Molho 1994 ch. 1–2 (§12 table; `official*` 12 and 46*). So the organizational-row question can be put to these sources at rung 2 in part 2. (iv) Year counts for the split test were taken at rung 1 and are recorded here as counts only. Most frequent four-digit years: in Kirshner & Molho 1978, 1433 (21), 1425 (19), 1442 (16), 1430 (12); in Molho 1994 (first 100 pp.), 1458 (26), 1452 (24), 1478 (23), 1433 (22). Part 2 must not read a boundary off a count.
+
+**Recommended to MS:** raise Zotero's maximum number of pages to index (Settings → Search) and reindex `66VISFHA`, so that Molho 1994 is fully countable.
