@@ -1,6 +1,6 @@
 # Scoped view — component `risk-pooling`
 
-No mechanism filter (this dataset has no mechanism characteristic). **35 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+No mechanism filter (this dataset has no mechanism characteristic). **36 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -28,6 +28,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms �
 | `kabu_local`                    | --    | --    |
 | `maona_chios`                   | 0     | .NA   |
 | `maona_corsica`                 | 0     | .NA   |
+| `mudaraba`                      | 0     | .NA   |
 | `nacion_cofradia`               | --    | --    |
 | `nakai_fictive_household`       | 1     | 0     |
 | `natie`                         | --    | --    |
@@ -73,13 +74,14 @@ No mechanism filter (this dataset has no mechanism characteristic). **35 forms �
 - `kabu_local` — 株 — local-market share (kabu nakama stock society) · Japanese · 1660-1841
 - `maona_chios` — Maona di Chio (New Maona) · Genoese · 1362-1566
 - `maona_corsica` — Maona di Corsica · Genoese · 1378-1407
+- `mudaraba` — Mudaraba · Islamic (Hanafi) · 8c-11c (al-Shaybani to al-Sarakhsi)
 - `nacion_cofradia` — Nación (cofradía) · Spanish (Habsburg) · 16-18c
 - `nakai_fictive_household` — Fictive household entity (Nakai Genzaemon) · Japanese / Tokugawa · 1749-1868
 - `natie` — Antwerp natie · Low Countries · 15c onward
 - `ortoq_equity` — Ortoq — equity regime (capital entrusted) · Mongol / Inner Asian · 13c (not periodised)
 - `ortoq_loan` — Ortoq — loan regime (capital advanced at interest) · Mongol / Yuan and Il-khanid · 13c-14c, prevalent from late 13c
 - `partenrederij` — Partenrederij / Partenreederei (fractional ship co-ownership) · Low Countries (Holland); the term reder migrated into German · 15c onward; coded on Hollandic law c.1619-1625
-- `qirad` — Qirad · Islamic (Maliki) · 7c onward
+- `qirad` — Qirad · Islamic (Maliki) · 8c-9c (Malik, Sahnun)
 - `shenhui_gu` — 神會股 — share in a corporate deity association · Chinese / Shanyin, Shanxi · mid-19c
 - `societas_maris` — Societas maris (the bilateral commenda; Venetian collegantia) · Venetian / Genoese · c.1073-early 13c (Venice); 1154-13c (Genoa)
 - `voc_1602` — VOC (first charter form) · Dutch · 1602-1611

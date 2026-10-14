@@ -10,6 +10,35 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-10-14 (ii)
+
+**New form `mudaraba` (Ḥanafī, "8c-11c (al-Shaybani to al-Sarakhsi)"): 33 cells, `OF-0908`–`OF-0940`, from al-Sarakhsī, *al-Mabsūṭ* 22. New type code `mudaraba_alloc`: the commenda family's ten loss cells, `LM-0786`–`LM-0795`. `qirad` and `qirad_alloc` re-coded from the *Muwaṭṭaʾ* and the *Mudawwana* as the Mālikī rows: 29 cells recoded or re-pointed in place (`OF-R0225`–`OF-R0244`, `LM-R0067`–`LM-R0075`) and 10 `qirad` cells added (`OF-0941`–`OF-0950`). The 2026-08-18 determination leaving `mudaraba` uncoded is reversed. No version bump (rows, recodings and one type code; no schema change). Pass `mudaraba-qirad-2026-10-14`, open; rulings in `records/RULINGS-mudaraba-qirad-2026-10-14.md`; priors committed before reading.**
+
+- **Consumers: `mudaraba` and `qirad` count as one Islamic datum in any comparative claim**, as Genoa, Pisa and Catalonia count as one Latin datum. Their agreement on the contract core is shared origin, not corroboration.
+- **The rows separate on `TS3` (1 against P) and `CI2` (0 against 1), both WP2.** This was the condition named on 2026-08-18. The ground is the investor's power to force liquidation, which the Ḥanafī investor has and the Mālikī lacks. They also separate on `TS1` (0 against P) and on `CI5` (segregated against commingled; the reason the row was opened, carrying no weight). `perpetual-succession` gains two new signatures.
+- **The loss rows are identical in all ten cells.** The capital provider's exposure beyond his capital separates the schools (Ḥanafī yes, Mālikī no) in no column; it is recorded in the `AP3` notes.
+- **Changed values on `qirad`:**
+  - `TS2` `single-venture` → `open`;
+  - `AP1`, `AP3`, `LP1`, `LP3` `.NR` → `0`;
+  - `LR1` `.NR` → `unlimited-several`;
+  - `CI1` `.NR` → `none`;
+  - `CI2` `.NR` → `1`;
+  - `LP2` `0` kept, confidence `low` → `medium`.
+
+  Every other `qirad` and `qirad_alloc` cell keeps its value on a Mālikī source. `qirad_alloc RB2` becomes `articulated`.
+- **Type rows:**
+  - `mudaraba` tradition "Islamic (Hanafi)";
+  - `qirad_alloc` renamed "Qirāḍ (loss-allocation aspect)", tradition "Islamic (Maliki)";
+  - periods narrowed to the texts' span on all four rows;
+  - `key_source` fields appended, never rewritten.
+- **Checks:**
+  - vocabularies ✓;
+  - dependence 0 ×2 per dataset;
+  - frictionless VALID ×4;
+  - both codebooks and the nine organizational views regenerated twice, `cmp`-identical; the loss views and the third codebook `current`;
+  - tables and soft-wrap OK;
+  - whole-file sweep 0 failures (948 rows, 244 recodings; 795 rows, 75 recodings).
+
 ## loss_mitigation_forms — 2026-10-14
 
 **New form `she_death_aid`, the Dunhuang *she* association's death mutual aid (社邑喪葬互助), Tibetan period (before 848) to c. 1000: type row and 23 cells (`LM-0763`–`LM-0785`), coded open on Ning and Hao 1997 read on the page images. No version bump (rows and a type code only; no schema change). Rulings 1–12 of `records/RULINGS-she-associations-2026-10-13.md`; priors committed before reading.**
