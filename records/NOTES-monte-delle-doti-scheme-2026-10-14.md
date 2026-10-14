@@ -210,3 +210,67 @@ See logbook 4, slug `monte-delle-doti-scheme`.
 **What this does to §§4–6, without deciding anything that is part 2's.** (i) The form's own terms now run to dozens of hits in each of three works, so **the batch is no longer blocked on holdings**. Whether to wait for Kirshner 1978 is a question about the split test and legislation, not about whether a row can be carried. (ii) **N2 is measured at rung 1:** Carboni cites Kirshner 13 times and Molho 13 times. It stays presumed dependent for Florence; the citing contexts were not read. (iii) The entity terms the §5 criterion names (`Monte comune`, `official*`, `credit*`, `transfer*`) occur in Kirshner & Molho 1978 and in Molho 1994 ch. 1–2 (§12 table; `official*` 12 and 46*). So the organizational-row question can be put to these sources at rung 2 in part 2. (iv) Year counts for the split test were taken at rung 1 and are recorded here as counts only. Most frequent four-digit years: in Kirshner & Molho 1978, 1433 (21), 1425 (19), 1442 (16), 1430 (12); in Molho 1994 (first 100 pp.), 1458 (26), 1452 (24), 1478 (23), 1433 (22). Part 2 must not read a boundary off a count.
 
 **Recommended to MS:** raise Zotero's maximum number of pages to index (Settings → Search) and reindex `66VISFHA`, so that Molho 1994 is fully countable.
+
+## 13. Second check, 2026-10-15 (after midnight JST): more files found, and mismatches
+
+*MS attached more files. They were checked by the same instruments as §12: offsets were matched numerically against printed page numbers at page edges, and front matter and contents pages were read. One lapse: printing page edges for "The Morning After" and Morrison 1977 also showed the first line of body text on several pages. That is a few sentences, and it is disclosed here.*
+
+| file (attachment) | on item | what it actually is | PDF pp. | offset | `monte delle dot` / `dowry fund` / `Monte` |
+|---|---|---|---|---|---|
+| `QZBGY28L` | `ZL89FSGR` (Amazon metadata, **not in the collection**) | **Kirshner 2015, the book**: Toronto Studies in Medieval Law; © UTP 2015; ISBN 978-1-4426-1421-5 (pbk.). Ch. 4 "The Morning After", 94; ch. 5 "The Seven Percent Fund", 114, **"with Jacob Klerman"** | 471 (**100 indexed**) | printed = pdf − 8 (156 page edges) | 6 / 15 / 61 (first 100 pp. only) |
+| `UGAWLMKP` | `4RC5LLT9` (CrossRef book record) | **Not the book.** It is byte-for-byte the same text as `IUIRQJ3L`: "The Morning After", the 2009 version | 34 | — | — |
+| `IUIRQJ3L` | `HXZ3FL7E` (academia.edu webpage item, no author, title prefixed "(74)") | Kirshner, "The Morning After: Collecting Monte Dowries in Renaissance Florence". Per its academia.edu page, it appeared in *From Florence to the Mediterranean and Beyond: Essays in Honour of Anthony Molho*, ed. Curto, Dursteler, Kirshner and Trivellato (Florence: Olschki, 2009), 1:29–62. Container **unverified**. Printed pages run 29–61, with a Latin appendix | 33/34 | printed = pdf + 28 (33 edges) | 4 / 22 / 87 |
+| `25XSAYIN` | `3HSGMJW3` (title truncated "…RECORDS OF THE"; no date, journal or DOI) | Morrison, Kirshner & Molho 1977, *AJE* 106 (6): 487–492. **The item with full CrossRef metadata, `4V7KSUYZ`, is in the Trash** | 6 | printed = pdf + 486 | 8 / 5 / 22 |
+| `GC42PRYC` | `WCWDZ3HE` | still the QFIAB review (§12) | 3 | — | — |
+
+**For the declarations.** (i) **N1 is confirmed a second time.** The 2015 ch. 4 is a revised version of the 2009 essay, and the 2009 essay appeared in a Festschrift for Molho that Kirshner co-edited, so the two are one text in two versions. (ii) Ch. 5 has a second author, Jacob Klerman. The bookSection item `NHR3QRA3` was corrected 2026-10-15 to add him; this session had earlier entered Kirshner as sole author. A second author with a quantitative contribution does not make the chapter an independent witness on the fund: the data are the Monte's registers again.
+
+**Still not held:** Kirshner 1978, *Pursuing Honor*; Carboni 1999; Chabot & Fornasari 1997.
+
+**Fixes applied in Zotero on MS's instruction (2026-10-15).** Nothing was deleted, merged, or restored from the Trash.
+
+- The book PDF `QZBGY28L` was moved from `ZL89FSGR` onto the CrossRef record `4RC5LLT9`, which is now marked as the master in its Extra field.
+- `3HSGMJW3` was given the full CrossRef metadata of the trashed `4V7KSUYZ`.
+- `HXZ3FL7E` was converted from a webpage item to a bookSection, with author, editors and container. The container is flagged `metadata-unverified`.
+
+**Left for MS:**
+
+- Delete `UGAWLMKP`, the duplicate copy of "The Morning After" sitting on the book record.
+- Merge or trash the duplicate book items `ZL89FSGR` and `WCWDZ3HE`; the latter carries the review.
+- Empty or keep `4V7KSUYZ` in the Trash.
+
+## 14. Final check from the files themselves, 2026-10-15 (Google Drive `ZoteroFiles` granted)
+
+*Instruments: `pdfinfo`, and `pdftotext` over each whole file. This replaces Zotero's caches, which stop at 100 pages. Counts were taken over the whole text and over chapter page ranges located from the contents pages (rungs 1–2). For Kirshner & Molho 1978, PDF p. 1 and p. 2 were rendered and only their top 13% and bottom 8% strips were OCR'd. No body was read, except the first body line of p. 2 that falls inside its top strip.*
+
+**Whole-file counts** (`monte delle dot` / `dowry fund` / `Monte` / `Monte comune` / `official*`):
+
+| work | PDF pp. | counts | Kirshner / Molho cited |
+|---|---|---|---|
+| Kirshner & Molho 1978 | 36 | 27 / 51 / 103 / 7 / 12 | 26 / 21 |
+| Molho 1994 | 480 | 140 / 312 / 1066 / 41 / 116 | 20 / 47 |
+| — ch. 2 "The Monte delle Doti" (pdf 47–99) | | 52 / 92 / 381 / 23 / 56 | |
+| — ch. 3 "Investors and Beneficiaries" (pdf 100–147) | | 46 / 77 / 203 / 0 / 16 | |
+| — ch. 4 "Honorable Marriages: Registrations in the Monte" (pdf 148–200) | | 6 / 71 / 159 / 2 / 6 | |
+| Kirshner 2015 | 471 | 16 / 61 / 225 / 18 / 91 | 126 / 35 |
+| — ch. 4 "The Morning After" (pdf 102–121) | | 1 / 16 / 63 / 0 / 25 | |
+| — ch. 5 "The Seven Percent Fund" (pdf 122–138) | | **1 / 7 / 16 / 2 / 4** | |
+| "The Morning After" 2009 | 34 | 4 / 22 / 87 / 1 / 30 | 28 / 10 |
+| Molho & Pescarmona 1986 (Italian; also `fondo dotale` 51) | 25 | 38 / 0 / 77 / 2 / 2 | 4 / 15 |
+| Carboni 2022 | 23 | 4 / 14 / 38 / 0 / 3 | 13 / 13 |
+| Morrison et al. 1977 | 6 | 6 / 5 / 22 / 0 / 4 | 3 / 5 |
+| Morrison et al. 1985 | 8 | 4 / 45 / 6 / 0 / 5 | 7 / 5 |
+| Guinn 2010 (Kyushu University repository; new item `YHUNAS6P`) | 8 | 5 / 3 / 5 / 0 / 2 | 0 / 2 |
+
+**Findings:**
+
+- **Kirshner & Molho 1978 runs 403–438, not 404–438.** PDF p. 1 is the opening page: its top strip carries the title. **It has no text layer** (only the JSTOR stamp is text), so it must be OCR'd before coding. The Zotero item's pages are corrected.
+- **Kirshner 2015 ch. 5 may be about another fund.** "The Seven Percent Fund" carries one `monte delle dot` hit in 17 pages. Whether it treats the dowry fund or another account of the public debt is a **scope question for part 2**, to settle at rung 2 on its section titles. It must not enter the bundle by default.
+- **Both books are Internet Archive scans** (`pdfinfo` Creator or Producer). Their text layers are OCR; Molho 1994's front matter showed OCR errors in §12. Under code-a-form, **any figure that enters a cell is read from the page image**, never from the text layer.
+- **Guinn 2010** is an 8-page repository piece with five own-term hits. It cannot carry cells and is not proposed for the bundle.
+- **Loose duplicates in `ZoteroFiles`:**
+  - "2026 - INVESTIMENTI NEL MONTE DELLE DOTI…pdf" is byte-identical to the Molho & Pescarmona attachment.
+  - "Kirshner - 2015 - … 1.pdf" is the QFIAB review.
+  - "Kirshner - 2015 - … 2.pdf" is the second copy of "The Morning After".
+  - None of the three is attached to a collection item any longer. They are for MS to remove.
+- **Still not held:** Kirshner 1978, *Pursuing Honor*; Carboni 1999; Chabot & Fornasari 1997.
