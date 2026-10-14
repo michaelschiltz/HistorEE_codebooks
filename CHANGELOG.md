@@ -10,6 +10,15 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-10-14 (iii)
+
+**Original-script quotations: every `articulated` cell whose source is in Arabic, Aramaic, Chinese or Japanese now quotes its clause in that script, inline in `notes`. 53 cells touched (42 Arabic, 6 Aramaic, 5 Japanese); notes and `source_ref` only. New `scripts/check_quotations.py`, run by CI with `--strict`. No version bump (no schema change).**
+
+- **Consumers:** quotations are repeated in every cell they support; there is no quotations table. Arabic and Hebrew-script text sits inside «guillemets» before the existing transliteration and will display right-to-left; the bytes are in logical order. Texts are copied as the edition or e-text gives them, NFC.
+- **Corrections:** OF-0054's labour-compensation rule re-cited from BM 104b to 68a–69a; LM-0664 くだん → くたん and LM-0114 にて → ニテ against the printed pages; LM-0253 re-based from 加藤's prose to the 仕法書 and 連名帳. Two Arabic transliterations (OF-0907, LM-0788) depart from the text and are left standing beside the Arabic, flagged in logbook 5.
+- **Convention:** CONTRIBUTING §4, "Original script". Logbook 3 and 5, 2026-10-14 (iii). Checks: vocabularies, soft-wrap, tables, dependence (both), codebooks `--check`, frictionless VALID on all four resources, `check_quotations.py --strict` 0 errors, 0 gaps.
+
+
 ## organizational_forms and loss_mitigation_forms — 2026-10-14 (ii)
 
 **New form `mudaraba` (Ḥanafī, "8c-11c (al-Shaybani to al-Sarakhsi)"): 33 cells, `OF-0908`–`OF-0940`, from al-Sarakhsī, *al-Mabsūṭ* 22. New type code `mudaraba_alloc`: the commenda family's ten loss cells, `LM-0786`–`LM-0795`. `qirad` and `qirad_alloc` re-coded from the *Muwaṭṭaʾ* and the *Mudawwana* as the Mālikī rows: 29 cells recoded or re-pointed in place (`OF-R0225`–`OF-R0244`, `LM-R0067`–`LM-R0075`) and 10 `qirad` cells added (`OF-0941`–`OF-0950`). The 2026-08-18 determination leaving `mudaraba` uncoded is reversed. No version bump (rows, recodings and one type code; no schema change). Pass `mudaraba-qirad-2026-10-14`, open; rulings in `records/RULINGS-mudaraba-qirad-2026-10-14.md`; priors committed before reading.**

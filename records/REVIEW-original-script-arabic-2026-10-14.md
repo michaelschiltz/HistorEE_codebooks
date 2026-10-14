@@ -1,0 +1,232 @@
+# Original-script retrofit, Arabic cells — review list (2026-10-14)
+
+Each line: the cell, the locus the clause was found at, the transliteration as it stands in the note, and the Arabic proposed for insertion immediately before it, in guillemets. Every Arabic span was located by consonant-skeleton alignment within the cited paragraph or page and then read in context; every span falls on the page or paragraph the cell cites. Text is copied as the e-text gives it: vocalised for the Muwatta' (Wikisource) and the Mudawwana (Shamela), unvocalised and with the e-text's orthography (لان, امين) for the Mabsut (Wikisource). Nothing else in any note is changed.
+
+## Flagged for a ruling
+
+- **OF-0907 qirad MG2** (Mudawwana 3, p. 648): The note transliterates 'la khayra fihi'; the Mudawwana reads لَا خَيْرَ فِي هَذَا, 'la khayra fi hadha'. The transliteration should follow the text.
+- **LM-0788 mudaraba_alloc RB1** (Mabsut 22, p. 99): The note's 'law daya'a fi yadihi fa-la daman' compresses the passage without an ellipsis: p. 99 reads 'wa-law kana al-mudarib al-thani lam ya'mal bi'l-mal hatta da'a fi yadihi fa-la daman 'ala wahid min al-mudaribayn'. The ruling is about capital passed to a SECOND mudarib and lost before he worked it; whether it carries RB1 for the ordinary case is for the maintainer.
+- **LM-0791 mudaraba_alloc RB4** (Mabsut 22, p. 99): Same p. 99 passage as LM-0788: the 'fa-la daman' is said of capital passed to a second mudarib and lost before he worked it.
+
+## All insertions
+
+- OF-0068 qirad TS2 — Muwatta' no. 2027
+  - «لاَ يَجُوزُ لِلَّذِي يَأْخُذُ الْمَالَ قِرَاضاً أَنْ يَشْتَرِطَ أَنْ يَعْمَلَ فِيهِ سِنِينَ لاَ يُنْزَعُ مِنْهُ … لأَنَّ الْقِرَاضَ لاَ يَكُونُ إِلَى أَجَلٍ»
+  - 'la yajuzu li'lladhi ya'khudhu al-mal qiradan an yashtarita an ya'mala fihi sinin la yunza'u minhu ... li-anna al-qirad la yakunu ila ajal'
+- OF-0069 qirad AP3 — Mudawwana 3, p. 641
+  - «فَلَا شَيْءَ عَلَيْكَ»
+  - 'fa-la shay' 'alayka'
+- OF-0071 qirad LR2 — Muwatta' no. 2026
+  - «فَإِنْ دَخَلَ الْقِرَاضَ شَيْءٌ مِنْ ذَلِكَ صَارَ إِجَارَةً»
+  - 'fa-in dakhala al-qirad shay' min dhalika sara ijara'
+- OF-0072 qirad LR3 — Muwatta' no. 2025
+  - «قَلِيلاً أَوْ كَثِيراً … حَلاَلٌ، وَهُوَ قِرَاضُ الْمُسْلِمِينَ»
+  - 'qalilan aw kathiran ... halal, wa-huwa qirad al-muslimin'
+- OF-0072 qirad LR3 — Muwatta' no. 2025
+  - «لاَ يَصْلُحُ»
+  - 'la yaslahu'
+- OF-0072 qirad LR3 — Mudawwana 3, p. 632
+  - «قَدْ أَحْسَنَ»
+  - 'qad ahsana'
+- OF-0073 qirad LR4 — Mudawwana 3, p. 650
+  - «خَطَرٌ بَيِّنٌ»
+  - 'khatar bayyin'
+- OF-0073 qirad LR4 — Mudawwana 3, p. 650
+  - «إنْ نَقَصَ فِي الْمَالِ الْآخَرِ وَرَبِحَ فِي الْمَالِ الْأَوَّلِ جَبَرَهُ بِرِبْحِ الْمَالِ الْأَوَّلِ»
+  - 'in naqasa fi al-mal al-akhar wa-rabiha fi al-mal al-awwal jabarahu bi-ribh al-mal al-awwal'
+- OF-0075 qirad CF1 — Mudawwana 3, p. 647
+  - «لَا يَصْلُحُ أَنْ يَقُولَ: أُقَارِضُكَ بِأَلْفٍ، عَلَى أَنْ تُخْرِجَ مِنْ عِنْدِكَ أَلْفَ دِرْهَمٍ»
+  - 'la yaslahu an yaqula: uqariduka bi-alf 'ala an tukhrija min 'indika alf dirham'
+- OF-0076 qirad CF2 — Muwatta' no. 2026
+  - «فَإِنْ لَمْ يَكُنْ لِلْمَالِ رِبْحٌ، أَوْ دَخَلَتْهُ وَضِيعَةٌ، لَمْ يَلْحَقِ الْعَامِلَ مِنْ ذَلِكَ شَيْءٌ … وَذَلِكَ عَلَى رَبِّ الْمَالِ فِي مَالِهِ»
+  - 'fa-in lam yakun li'l-mal ribh aw dakhalathu wadi'a lam yalhaq al-'amil min dhalika shay' ... wa-dhalika 'ala rabb al-mal fi malihi'
+- OF-0076 qirad CF2 — Muwatta' no. 2029
+  - «شَرْطَ الضَّمَانِ فِي الْقِرَاضِ بَاطِلٌ»
+  - 'shart al-daman fi al-qirad batil'
+- OF-0076 qirad CF2 — Muwatta' no. 2029
+  - «وَإِنْ تَلِفَ الْمَالُ لَمْ أَرَ عَلَى الَّذِي أَخَذَهُ ضَمَاناً»
+  - 'in talifa al-mal lam ara 'ala alladhi akhadhahu damanan'
+- OF-0076 qirad CF2 — Mudawwana 3, p. 647
+  - «يُرَدُّ إلَى قِرَاضِ مِثْلِهِ وَلَا ضَمَانَ عَلَيْهِ»
+  - 'yuraddu ila qirad mithlihi wa-la daman 'alayhi'
+- OF-0089 qirad LR6 — Muwatta' no. 2022
+  - «وَيُجْبَرُ رَأْسُ الْمَالِ مِنْ رِبْحِهِ»
+  - 'yujbaru ra's al-mal min ribhihi'
+- OF-0577 qirad CI2 — Mudawwana 3, p. 662
+  - «لَيْسَ ذَلِكَ لَهُ؛ لِأَنَّهُ قَدْ خَرَجَ بِهِ»
+  - 'laysa dhalika lahu li-annahu qad kharaja bihi'
+- OF-0903 qirad CI5 — Mabsut 22, p. 48
+  - «وإذا قال رب المال للمضارب اعمل فيه برأيك فخلطه بماله ثم اشترى به جاز على المضاربة … ولو لم يقل له اعمل فيه برأيك كان هو بالخلط مخالفا ضامنا للمال والربح له والوضيعة عليه لبطلان حكم المضاربة بفوات شرطها»
+  - 'wa-idha qala rabb al-mal li'l-mudarib i'mal fihi bi-ra'yika fa-khalatahu bi-malihi thumma ishtara bihi jaza 'ala al-mudaraba ... wa-law lam yaqul lahu i'mal fihi bi-ra'yika kana huwa bi'l-khalt mukhalifan daminan li'l-mal wa'l-ribh lahu wa'l-wadi'a 'alayhi li-butlan hukm al-mudaraba bi-fawat shartiha'
+- OF-0903 qirad CI5 — Mudawwana 3, p. 641
+  - «الصَّوَابُ مِنْ ذَلِكَ، أَنْ يَخْلِطَهُمَا جَمِيعًا ثُمَّ يَشْتَرِيَ بِهِمَا جَمِيعًا»
+  - 'al-sawab min dhalika an yakhlitahuma jami'an thumma yashtari bihima jami'an'
+- OF-0903 qirad CI5 — Mudawwana 3, p. 641
+  - «لَا تَضْمَنُ لَهُ»
+  - 'la tadmanu lahu'
+- OF-0903 qirad CI5 — Mudawwana 3, p. 645
+  - «وَلَا ضَمَانَ عَلَيْهِ»
+  - 'wa-la daman 'alayhi'
+- OF-0903 qirad CI5 — Mudawwana 3, p. 648
+  - «قَدْ جَرَّ إلَى نَفْسِهِ مَنْفَعَةَ مَالٍ غَيْرِ مَالِهِ»
+  - 'qad jarra ila nafsihi manfa'at mal ghayr malihi'
+- OF-0907 qirad MG2 — Mudawwana 3, p. 648 — FLAGGED
+  - «لَا خَيْرَ فِي هَذَا»
+  - 'la khayra fihi'
+- OF-0907 qirad MG2 — Mudawwana 3, p. 648
+  - «بَاطِلٌ، إلَّا أَنْ يُجِيزَهُ الْعَامِلُ»
+  - 'batil illa an yujizahu al-'amil'
+- OF-0907 qirad MG2 — Mabsut 22, p. 48
+  - «وإذا قال رب المال للمضارب اعمل فيه برأيك»
+  - 'idha qala rabb al-mal li'l-mudarib i'mal fihi bi-ra'yika'
+- OF-0907 qirad MG2 — Mabsut 22, p. 41
+  - «ولو قال خذه مضاربة تعمل به في الكوفة … فعمل به في غير الكوفة فهو ضامن»
+  - 'wa-law qala khudhhu mudarabatan ta'malu bihi fi'l-Kufa ... fa-'amila bihi fi ghayr al-Kufa fa-huwa damin'
+- OF-0907 qirad MG2 — Mabsut 22, p. 41
+  - «واعمل به في الكوفة»
+  - 'wa'mal bihi fi'l-Kufa'
+- OF-0913 mudaraba AP3 — Mabsut 22, p. 19
+  - «فهو وكيل في ذلك يرجع بما يلحقه من العهدة على رب المال كالوكيل»
+  - 'huwa wakil fi dhalika yarji'u bi-ma yalhaquhu min al-'uhda 'ala rabb al-mal ka'l-wakil'
+- OF-0915 mudaraba TS1 — Mabsut 22, p. 69
+  - «عزل حكمي»
+  - ''azl hukmi'
+- OF-0915 mudaraba TS1 — Mabsut 22, p. 87
+  - «وبطلت المضاربة بموته»
+  - 'batalat al-mudaraba bi-mawtihi'
+- OF-0916 mudaraba TS2 — Mabsut 22, p. 19
+  - «لا يشترط التوقيت في هذا العقد»
+  - 'la yushtaratu al-tawqit fi hadha al-'aqd'
+- OF-0916 mudaraba TS2 — Mabsut 22, p. 40
+  - «ويقاس التوقيت من حيث المكان بالتوقيت من حيث الزمان»
+  - 'yuqasu al-tawqit min haythu al-makan bi'l-tawqit min haythu al-zaman'
+- OF-0917 mudaraba TS3 — Mabsut 22, p. 19
+  - «ولكل واحد منهما أن ينفرد بفسخه»
+  - 'li-kull wahid minhuma an yanfarida bi-faskhihi'
+- OF-0917 mudaraba TS3 — Mabsut 22, p. 91
+  - «فلا تكون لازمة فان للمضارب أن يمتنع من العمل ويفسخ العقد متى شاء»
+  - 'fa-la takunu lazima fa-inna li'l-mudarib an yamtani'a min al-'amal wa-yafsakha al-'aqd mata sha'a'
+- OF-0917 mudaraba TS3 — Mabsut 22, p. 53
+  - «فنهيه باطل»
+  - 'fa-nahyuhu batil'
+- OF-0917 mudaraba TS3 — Mabsut 22, p. 72
+  - «يحول بين رب المال وبين ماله»
+  - 'haylula bayna rabb al-mal wa-bayna malihi'
+- OF-0923 mudaraba CI5 — Mabsut 22, p. 48
+  - «ولو لم يقل له اعمل فيه برأيك كان هو بالخلط مخالفا ضامنا»
+  - 'wa-law lam yaqul lahu i'mal fihi bi-ra'yika kana huwa bi'l-khalt mukhalifan daminan'
+- OF-0925 mudaraba LR2 — Mabsut 22, p. 22
+  - «مضاربة فاسدة لان هذا الشرط يوجب قطع الشركة بينهما في الربح»
+  - 'mudaraba fasida li-anna hadha al-shart yujibu qat' al-sharika baynahuma fi al-ribh'
+- OF-0925 mudaraba LR2 — Mabsut 22, p. 23
+  - «ولا أجر للمضارب في عمله … ان لم يحصل الربح»
+  - 'la ajr li'l-mudarib fi 'amalihi ... in lam yahsul al-ribh'
+- OF-0926 mudaraba LR3 — Mabsut 22, p. 22,23
+  - «جزء شائع معلوم»
+  - 'juz' sha'i' ma'lum'
+- OF-0929 mudaraba LR6 — Mabsut 22, p. 20
+  - «الربح لا يظهر ما لم يسلم جميع رأس المال لرب المال»
+  - 'al-ribh la yazharu ma lam yaslam jami' ra's al-mal li-rabb al-mal'
+- OF-0931 mudaraba MG2 — Mabsut 22, p. 83,84
+  - «لان من شرط صحتها التخلية بين المضارب وبين رب المال»
+  - 'li-anna min shart sihhatiha al-takhliya bayna al-mudarib wa-bayna rabb al-mal'
+- OF-0931 mudaraba MG2 — Mabsut 22, p. 48
+  - «اعمل فيه برأيك»
+  - 'i'mal fihi bi-ra'yika'
+- OF-0934 mudaraba FP1 — Mabsut 22, p. 19
+  - «انما يحصل بهما يعنى المال والتصرف»
+  - 'innama yahsulu bihima ya'ni al-mal wa'l-tasarruf'
+- OF-0938 mudaraba CF1 — Mabsut 22, p. 18
+  - «يستحق الربح بسعيه وعمله»
+  - 'yastahiqqu al-ribh bi-sa'yihi wa-'amalihi'
+- OF-0938 mudaraba CF1 — Mabsut 22, p. 19
+  - «فصاحب المال قد لا يهتدى إلى التصرف المربح والمهتدى إلى التصرف قد لا يكون له مال»
+  - 'sahib al-mal qad la yahtadi ila al-tasarruf al-murbih wa'l-muhtadi ila al-tasarruf qad la yakunu lahu mal'
+- OF-0939 mudaraba CF2 — Mabsut 22, p. 28
+  - «لو شرط أن تكون الوضيعة عليهما فان هذا الشرط فاسد والوضيعة على المال ولا يفسد العقد»
+  - 'law sharata an takuna al-wadi'a 'alayhima fa-inna hadha al-shart fasid wa'l-wadi'a 'ala al-mal wa-la yafsudu al-'aqd'
+- OF-0939 mudaraba CF2 — Mabsut 22, p. 20
+  - «رأس المال أمانة في يد المضارب»
+  - 'ra's al-mal amana fi yad al-mudarib'
+- OF-0939 mudaraba CF2 — Mabsut 22, p. 19
+  - «امين فيه كالمودع»
+  - 'amin fihi ka'l-muda''
+- OF-0942 qirad TS3 — Mudawwana 3, p. 662
+  - «وَإِنْ كَانَ الْمُقَارَضُ قَدْ اشْتَرَى بِالْمَالِ أَوْ تَجَهَّزَ بِالْمَالِ يَخْرُجُ بِهِ إلَى سَفَرٍ، فَلَيْسَ لِرَبِّ الْمَالِ أَنْ يَرُدَّهُ»
+  - 'in kana al-muqarid qad ishtara bi'l-mal aw tajahhaza bi'l-mal yakhruju bihi ila safar fa-laysa li-rabb al-mal an yaruddahu'
+- OF-0942 qirad TS3 — Muwatta' no. 2052
+  - «لاَ يُنْظَرُ إِلَى قَوْلِ وَاحِدٍ مِنْهُمَا»
+  - 'la yunzaru ila qawl wahid minhuma'
+- OF-0947 qirad FP1 — Muwatta' no. 2030
+  - «إِلاَّ أَنْ يَشْتَرِيَ ذَلِكَ، ثُمَّ يَبِيعَهُ كَمَا يُبَاعُ غَيْرُهُ مِنَ السِّلَعِ»
+  - 'illa an yashtariya dhalika thumma yabi'ahu kama yuba'u ghayruhu min al-sila''
+- LM-0539 qirad_alloc RB1 — Muwatta' no. 2029
+  - «وَإِنْ تَلِفَ الْمَالُ لَمْ أَرَ عَلَى الَّذِي أَخَذَهُ ضَمَاناً»
+  - 'in talifa al-mal lam ara 'ala alladhi akhadhahu damanan'
+- LM-0540 qirad_alloc RB2 — Muwatta' no. 2026
+  - «أَوْ دَخَلَتْهُ وَضِيعَةٌ … وَذَلِكَ عَلَى رَبِّ الْمَالِ فِي مَالِهِ»
+  - 'aw dakhalathu wadi'a ... wa-dhalika 'ala rabb al-mal fi malihi'
+- LM-0541 qirad_alloc RB3 — Muwatta' no. 2029
+  - «شَرْطَ الضَّمَانِ فِي الْقِرَاضِ بَاطِلٌ»
+  - 'shart al-daman fi al-qirad batil'
+- LM-0542 qirad_alloc RB4 — Muwatta' no. 2029
+  - «وَإِنْ تَلِفَ الْمَالُ لَمْ أَرَ عَلَى الَّذِي أَخَذَهُ ضَمَاناً»
+  - 'in talifa al-mal lam ara 'ala alladhi akhadhahu damanan'
+- LM-0545 qirad_alloc VF1 — Mudawwana 3, p. 661
+  - «لِأَنَّهُ مُدَّعًى عَلَيْهِ وَهُوَ أَمِينٌ»
+  - 'li-annahu mudda'a 'alayhi wa-huwa amin'
+- LM-0545 qirad_alloc VF1 — Muwatta' no. 2053
+  - «بِأَمْرٍ يُعْرَفُ بِهِ قَوْلُهُ»
+  - 'amr yu'rafu bihi qawluhu'
+- LM-0545 qirad_alloc VF1 — Mabsut 22, p. 27
+  - «ورأس المال أمانة في يد المضارب كالوديعة … ويقبل قول المضارب فيه لكونه أمينا … فان اختلفا في مقدار رأس المال … فالقول قول المضارب مع يمينه لانه هو القابض»
+  - 'wa-ra's al-mal amana fi yad al-mudarib ka'l-wadi'a ... wa-yuqbal qawl al-mudarib fihi li-kawnihi aminan ... fa-in ikhtalafa fi miqdar ra's al-mal ... fa'l-qawl qawl al-mudarib ma'a yaminihi li-annahu huwa al-qabid'
+- LM-0545 qirad_alloc VF1 — Mabsut 22, p. 51
+  - «لانه أمين فيما في يده من المال فيكون مقبول القول فيه كالوكيل بالبيع إذا قال بعت وقبضت الثمن وهلك في يدى يقبل قوله»
+  - 'li-annahu amin fima fi yadihi min al-mal fa-yakun maqbul al-qawl fihi ka'l-wakil bi'l-bay' idha qala bi'tu wa-qabadtu al-thaman wa-halaka fi yadi yuqbal qawluhu'
+- LM-0545 qirad_alloc VF1 — Mabsut 22, p. 108
+  - «ويستحلف المضارب بالله ما استهلكها ولا ضيعها لان المضارب أمين في رأس المال والقول قول الامين مع اليمين في براءته عن الضمان»
+  - 'wa-yustahlaf al-mudarib bi'llah ma istahlakaha wa-la dayya'aha li-anna al-mudarib amin fi ra's al-mal wa'l-qawl qawl al-amin ma'a al-yamin fi bara'atihi 'an al-daman'
+- LM-0762 qirad_alloc VF2 — Mudawwana 3, p. 661
+  - «قَدْ تَعَدَّيْتُ، وَإِنَّمَا كُنْتُ أَمَرْتُك بِالْبَزِّ وَحْدَهُ … الْقَوْلُ قَوْلَ الْعَامِلِ»
+  - 'qad ta'addayta wa-innama kuntu amartuka bi'l-bazz wahdahu ... al-qawl qawl al-'amil'
+- LM-0762 qirad_alloc VF2 — Mabsut 22, p. 108
+  - «ويستحلف المضارب بالله ما استهلكها ولا ضيعها لان المضارب أمين في رأس المال والقول قول الامين مع اليمين في براءته عن الضمان»
+  - 'wa-yustahlaf al-mudarib bi'llah ma istahlakaha wa-la dayya'aha li-anna al-mudarib amin fi ra's al-mal wa'l-qawl qawl al-amin ma'a al-yamin fi bara'atihi 'an al-daman'
+- LM-0788 mudaraba_alloc RB1 — Mabsut 22, p. 99 — FLAGGED
+  - «ولو كان المضارب الثاني لم يعمل بالمال حتى ضاع في يده فلا ضمان»
+  - 'law daya'a fi yadihi fa-la daman'
+- LM-0788 mudaraba_alloc RB1 — Mabsut 22, p. 18
+  - «أن لا يسلك به بحرا وان لا ينزل واديا ولا يشترى به ذات كبد رطب»
+  - 'an la yasluka bihi bahran wa-an la yanzila wadiyan wa-la yashtari bihi dhat kabid ratb'
+- LM-0789 mudaraba_alloc RB2 — Mabsut 22, p. 28
+  - «والوضيعة على المال»
+  - 'al-wadi'a 'ala al-mal'
+- LM-0791 mudaraba_alloc RB4 — Mabsut 22, p. 99 — FLAGGED
+  - «فلا ضمان»
+  - 'fa-la daman'
+- LM-0791 mudaraba_alloc RB4 — Mabsut 22, p. 20
+  - «ليس على من قاسم الربح ضمان»
+  - 'laysa 'ala man qasama al-ribh daman'
+- LM-0794 mudaraba_alloc VF1 — Mabsut 22, p. 27
+  - «ويقبل قول المضارب فيه لكونه أمينا … فالقول قول المضارب مع يمينه لانه هو القابض»
+  - 'yuqbal qawl al-mudarib fihi li-kawnihi aminan ... fa'l-qawl qawl al-mudarib ma'a yaminihi li-annahu huwa al-qabid'
+- LM-0795 mudaraba_alloc VF2 — Mabsut 22, p. 108
+  - «ويستحلف المضارب بالله ما استهلكها ولا ضيعها»
+  - 'yustahlafu al-mudarib bi'llah ma istahlakaha wa-la dayya'aha'
+
+## Aramaic (notes-patch-aramaic.csv)
+
+OF-0038 isqa LP2 takes «פלגא מלוה» and «פלגא פקדון» before its two transliterated terms. Text from BT Bava Metzia 104b, the unvocalised Wikisource (Vilna) version served by Sefaria, read 2026-10-14: אמרי נהרדעי האי עיסקא פלגא מלוה ופלגא פקדון עבוד רבנן מילתא דניחא ליה ללוה וניחא ליה למלוה.
+
+OF-0054 isqa LR3 cites 104b for 'sekharo ke-po'el batel'. That rule is not on 104b: it is the Mishnah at BM 5:4 (BT 68a, אלא אם כן נותן לו שכרו כפועל) with the baraita's gloss כפועל בטל (68a–b). The transliteration also runs the two together. Citation to be corrected before an original is inserted.
+
+## Left as coverage gaps: a clause has to be chosen, which is a coding act
+
+- Arabic, articulated, no quotation in the note at all: OF-0070 qirad LR1 (Mudawwana 3, 641; Muw 2055), OF-0920 mudaraba CI2 (Mabsut 22, 53, 72), OF-0924 mudaraba LR1 (19, 76), OF-0941 qirad TS1 (Mudawwana 3, 663-664), LM-0543 qirad_alloc PR1 (Muw 2026), LM-0792 mudaraba_alloc PR1 (Mabsut 22, 22). Each cites pages that are on disk; the clause could be lifted from them in minutes once chosen, or the cell can say why it rests on the passage as a whole.
+- Aramaic: OF-0048 CI1, OF-0053 LR2, OF-0065 CF1, OF-0088 LR6 (all paraphrase of 104b; the Nehardean clause above is the obvious candidate for CI1), and OF-0054 LR3 (citation first).
+- Japanese: LM-0113 ko_mochiyori_yutsu_1876 PY1 (池田 2022) and LM-0254 ko_mitarai_mujin_1773 PY1 (加藤 1998, 144). Articulated, no clause quoted; the PDFs are needed.
+
+## Drift found in the existing data
+
+LM-0664 and LM-0667 (ko_meio_1498) quote one clause of the 明応7 document from 三浦 1959, 781-782 differently: くだんうるへからす in LM-0664, くたんうるへからす in LM-0667. The surrounding くつろきなく is unvoiced in both, which suggests the voiced だ is the slip, but only the page decides. check_quotations.py fails on this pair until it is resolved.
