@@ -15,7 +15,7 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 **Original-script quotations: every `articulated` cell whose source is in Arabic, Aramaic, Chinese or Japanese now quotes its clause in that script, inline in `notes`. 53 cells touched (42 Arabic, 6 Aramaic, 5 Japanese); notes and `source_ref` only. New `scripts/check_quotations.py`, run by CI with `--strict`. No version bump (no schema change).**
 
 - **Consumers:** quotations are repeated in every cell they support; there is no quotations table. Arabic and Hebrew-script text sits inside «guillemets» before the existing transliteration and will display right-to-left; the bytes are in logical order. Texts are copied as the edition or e-text gives them, NFC.
-- **Corrections:** OF-0054's labour-compensation rule re-cited from BM 104b to 68a–69a; LM-0664 くだん → くたん and LM-0114 にて → ニテ against the printed pages; LM-0253 re-based from 加藤's prose to the 仕法書 and 連名帳. Two Arabic transliterations (OF-0907, LM-0788) depart from the text and are left standing beside the Arabic, flagged in logbook 5.
+- **Corrections:** OF-0054's labour-compensation rule re-cited from BM 104b to 68a–69a; LM-0664 くだん → くたん and LM-0114 にて → ニテ against the printed pages; LM-0253 re-based from 加藤's prose to the 仕法書 and 連名帳. Two Arabic transliterations (OF-0907, LM-0788) that departed from the text rewritten to follow it; LM-0788 now states that its p. 99 clause concerns capital handed to a second muḍārib.
 - **Convention:** CONTRIBUTING §4, "Original script". Logbook 3 and 5, 2026-10-14 (iii). Checks: vocabularies, soft-wrap, tables, dependence (both), codebooks `--check`, frictionless VALID on all four resources, `check_quotations.py --strict` 0 errors, 0 gaps.
 
 
