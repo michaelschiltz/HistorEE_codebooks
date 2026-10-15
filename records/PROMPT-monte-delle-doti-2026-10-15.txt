@@ -1,0 +1,113 @@
+Kickoff prompt for the coding chat, pass monte-delle-doti-2026-10-15
+
+Open a FRESH chat on Claude Opus 5.5, effort high, NOT attached to the claude.ai Project
+"Ergodicity economics and history". Grant it ONE folder only:
+  ~/GitHub/_blind-monte-delle-doti-2026-10-15
+Do not grant ~/GitHub, HistorEE_codebooks, myfoamrepo, ~/Zotero or the ZoteroFiles folder.
+Paste everything below the line.
+
+----------------------------------------------------------------------------------------
+
+I want you to code **one new form** into the HistorEE character matrix: the Florentine
+*monte delle doti*, as one row of `loss_mitigation_forms`, tradition `Tuscan (Florentine)`,
+period `1425-1530`.
+
+**Work only inside `~/GitHub/_blind-monte-delle-doti-2026-10-15`.** It is a prepared, deliberately
+minimal bundle. Start with its `README.md`, which lists what is there and gives every source's page
+map. The sources are in `sources/`: Kirshner & Molho 1978, Molho 1994 chs. 2–3 with front matter and
+two apparatus sections, Kirshner 2015 ch. 4 with its appendix and notes, and two short articles by
+Morrison, Kirshner and Molho.
+
+## Order of work, which is not negotiable
+
+1. **Read before any source.** Read `README.md`; all four doctrine files; both vocabularies (every
+   `definition`, `allowed_values`, `applicability_on` and `locator`); the view in `views/`; and as
+   much of `data.csv` as you need to learn how this census argues and cites a cell. Load the
+   `code-a-form` and `run-a-coding-batch` skills if your session has them, and follow `code-a-form`
+   for the coding itself.
+2. **Priors, before you open any file in `sources/`.** Copy `PRIORS-monte-delle-doti-2026-10-15.md`
+   to `PRIORS-monte-delle-doti-filled-<date>.md` and fill every section of the copy: the exposure
+   declaration, the textbook account clause by clause, an expectation for all 26 characteristics,
+   and the row-level expectations. Then print its sha256 (`shasum -a 256 PRIORS-*-filled-*.md`), tell
+   me, and **STOP**. I will commit it and confirm the hash. Do not open a source until I reply.
+3. **Code.** One row: a proposed cell for each characteristic the sources bear on, and a reasoned
+   `.NR` or `.NA` for the rest. Fix every cell before you compute anything about the matrix
+   (whether a value is new, fills an empty value, or agrees with a neighbour), and say in your notes
+   that this ordering held.
+4. **The split test, cell by cell.** The fund ran for over a century under changing legislation.
+   For every cell, check whether its value holds across the whole of 1425–1530. Where the sources
+   record a dated change that would give a cell a different value before and after, do **not** code
+   `P` and do not split silently. Code the cell, give both phases' values in its note with the date,
+   and put a split proposal in your adjudications. A change that moves no cell is a variant: name it
+   in the notes of the cells it bears on.
+5. **Deliverables, into `proposed-of/`:**
+   - `rows-monte-delle-doti-2026-10-15.csv`: the cells, with exactly `data.csv`'s header, placeholder
+     ids `LM-XXXX-01`, `LM-XXXX-02`, …, LF line endings;
+   - `type-row-monte-delle-doti-2026-10-15.csv`: the proposed `loss_mitigation_type.csv` row, with
+     exactly that file's header. Propose a `code` and `name`. Use tradition and period as above.
+     Leave `cooccurs_with` and `cooccurrence_basis` as `.NR`, because co-occurrence is declared at
+     application, not by you;
+   - `NOTES-monte-delle-doti-coding-2026-10-15.md`: the reading record (what you read, how far, the
+     page images you checked), every decision point with its alternative reading stated fairly, the
+     cells declined and why, per-component coverage, and the six answers below;
+   - a logbook draft and a commit message (hard-wrapped at 72).
+
+   Then validate (below), print the sha256 of every file in `proposed-of/`, tell me, and **STOP**.
+
+## Rules
+
+- **Missingness.** `.NR` asserts that the sources were read and were silent. `.NA` asserts that the
+  characteristic does not apply. `0` is an observed absence. Never use one for another, and propagate
+  `.NA` through all five fields. A source's silence is never an absence.
+- **Evidence.** Code only from the files in `sources/`: not from general knowledge, not from the
+  bundle's other files, not from memory of works that are not here. General knowledge belongs in the
+  priors, and nowhere else. If a cell needs a page you do not have, ask for it: say which work, which
+  pages and which cell.
+- **One witness, and a cap.** Every shipped source is by Kirshner, by Molho, or by co-authors working
+  with them from the fund's own registers. Treat them as **one witness**. Agreement among them is not
+  corroboration, and your notes must say so where a cell cites more than one. **No cell takes
+  `high`; the cap is `medium`**, even for an `articulated` cell.
+- **Original script.** Latin and Italian stay in Latin script, as printed. A cell's note quotes the
+  clause it rests on, in the source's language, with the printed page. `articulated` means the
+  tradition said it: an enactment, a register or a deed quoted verbatim. An author's paraphrase is
+  `analyst-imposed`.
+- **Figures.** Any number that enters a cell or a note is read from the page image, not from the text
+  layer (see README).
+- **Scope.** In: the Florentine dowry fund, 1425–1530. Out: the commune's public debt (the Monte
+  comune); charitable dowry endowments; any other city's dowry fund. Code no cell from evidence that
+  concerns only those.
+- **Reserved terms.** `hazard` is not `risk`; `convergence` is not `parallelism`; `genetic` is for
+  biology only (see `code-a-form`).
+- **Leaks.** If anything in the bundle, or in a skill you have loaded, states or implies a value for
+  this form, do not use it. Report it in your notes, quoting where it is.
+- **Scope of writing.** Write nothing outside `proposed-of/` and your filled priors. Do not repair a
+  vocabulary or schema defect: flag it. Do not propose a new characteristic or value.
+- **Tools.** Do not run `git`. Do not use Zotero, Undermind, Elicit, web search or any other
+  source-finding tool. Do not open the claude.ai Project or any memory file.
+- **Unweighted similarity.** Do not compute nearest neighbours or any unweighted similarity across
+  characteristics.
+- **Fixed fields.** `coder` = `ai`; `coder_model` = `claude-opus-5-5`; `coder_effort` = `high`;
+  `reviewed_by` and `review_status` as the neighbouring rows of `data.csv` carry them for unreviewed
+  ai rows; `source_read` as the vocabulary defines it, with what you read stated in the note.
+
+## The six answers
+
+Answer these plainly, unprompted, in your NOTES file and in your final message:
+
+1. what was coded and on what evidence;
+2. what could not be coded and why;
+3. which of your own expectations were falsified (quote your committed priors file verbatim);
+4. any characteristic that did not fit the evidence;
+5. any dependence or well-formedness problem noticed and not repaired;
+6. what to acquire next, and which cell it would move.
+
+## Checks
+
+- On a scratch copy **outside the bundle**, append your rows to `data.csv` with temporary real ids
+  and your type row to the type vocabulary. Then run `python3 scripts/check_vocabularies.py`,
+  `python3 scripts/check_dependence.py datasets/loss_mitigation_forms` (the directory, not the file),
+  `python3 scripts/check_quotations.py`, and `python3 -m frictionless validate
+  datasets/loss_mitigation_forms/datapackage.json` (install it with `pip install --user frictionless`
+  if it is missing).
+- Sweep `value` against `allowed_values` by hand; `frictionless` cannot see the vocabulary.
+- Say which commands you ran and what they printed. A check that printed nothing has not passed.
