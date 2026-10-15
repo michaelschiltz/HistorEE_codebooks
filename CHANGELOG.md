@@ -10,6 +10,17 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - Commit subjects of 2026-10-11, recorded here because the history is not rewritten: in this repository the claimant-oath batch (`LM-R0059`, `LM-R0060`, `LM-0761`) went in under "Commenda family note: three oath instances coded" and the MG66 §C batch (`OF-R0196`) under "Barcelona creditor rule note; general hypothec confirmed", both the vault's subjects. The content of each commit is as the CHANGELOG blocks (iii) and (iv) describe.
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms and organizational_forms — 2026-10-15
+
+**New form `monte_doti_florence` (Tuscan (Florentine), 1425-1530), the Florentine communal dowry fund: 26 cells, `LM-0796`–`LM-0821`, coded blind from the Kirshner–Molho literature, which is treated as one witness (no cell `high`). Co-occurrence with `compagnia@organizational_forms` declared at `same-polity`, both directions. No version bump: rows and vocabulary codes only, and no constraint changed.**
+
+- **Consumers.** `MC1 = spreading` (medium, by MS ruling), so the row is not in the risk-pooling view, which filters on `MC1 = pooling`. 20 substantive cells, 3 `.NR` (`PY2`, `LS3`, `RB3`) and 3 `.NA` (`CN3`, `DR2`, `RB4`); owner-shielding is uncoded. No new value-instance anywhere.
+- **Period.** One dated change moves one cell (`RB2`, 18 August 1446 or 21 May 1472); MS ruled no split. The 1433 refund of capital on a girl's death is a variant in every cell it touches.
+- **`organizational_forms`.** `compagnia`'s type row gains the reverse co-occurrence and one appended `key_source` sentence. No data change.
+- **Flagged, not repaired.** The `PY0` and `PY2` value sets; the `RB1`/`RB2`/`RB4` locators, which lack a counterparty-obligor; `CN2`, which has no value for a contribution the member chooses; `RB3`, whose only security attaches to a non-pool obligation.
+- **Record.** `records/NOTES-monte-delle-doti-coding-2026-10-15.md`, the operator brief, the priors and the prompt; logbooks 2, 4 and 5, 2026-10-15.
+- **Checks.** Vocabularies, soft-wrap, tables, dependence (both datasets), quotations, codebooks `--check` (regenerated twice, `cmp`-identical), every view `--check` (no view changed), frictionless VALID on both packages.
+
 ## organizational_forms and loss_mitigation_forms — 2026-10-14 (iii)
 
 **Original-script quotations: every `articulated` cell whose source is in Arabic, Aramaic, Chinese or Japanese now quotes its clause in that script, inline in `notes`. 53 cells touched (42 Arabic, 6 Aramaic, 5 Japanese); notes and `source_ref` only. New `scripts/check_quotations.py`, run by CI with `--strict`. No version bump (no schema change).**
