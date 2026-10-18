@@ -19,6 +19,8 @@ HistorEE_codebooks/
 ├── datasets/LICENSE-DATA.md   pointer reaffirming the CC-BY-4.0 default and override policy
 ├── vocabularies/              controlled vocabularies (one CSV per coded field)
 ├── logbook/                   narrative decision log (the even-keel convention)
+├── records/                   batch record: briefs, priors, blind-coding prompts, rows as proposed — tracked, preserved verbatim
+├── Claude outputs/            pilot designs from assistant sessions, cited from the logbooks
 ├── views/                     reader-facing scoped matrices — GENERATED, one per declared component
 ├── scripts/build_codebook.py  regenerates every codebook.md from its datapackage.json
 ├── scripts/build_views.py     regenerates every matrix in views/
