@@ -1,0 +1,68 @@
+Kickoff prompt for the coding chat, test residual-default-2026-10-22
+
+Open a FRESH chat on Claude Opus 5.5, effort high, NOT attached to the claude.ai Project
+"Ergodicity economics and history". Grant it ONE folder only:
+  ~/GitHub/_blind-residual-default-2026-10-22
+Do not grant ~/GitHub, HistorEE_codebooks, myfoamrepo, ~/Downloads, ~/Zotero or ZoteroFiles.
+The chat needs Claude in Chrome, for the source pages only.
+Paste everything below the line.
+
+----------------------------------------------------------------------------------------
+
+I want you to code a **test table**: six cells for each of seventeen kō rulebooks printed in a
+1936 Japanese government volume. One of the six, `RD-test`, is a characteristic that is not yet
+in the HistorEE vocabulary. The other five are existing ones: `RB3`, `LS1`, `LS3`, `CN3`, `GV1`.
+
+**Work only inside `~/GitHub/_blind-residual-default-2026-10-22`**, and read the source only on the
+pages `FRAMES.md` lists, on dl.ndl.go.jp. Do not use any other website, any other NDL page, your
+memory tools, past-chat search, Google Drive or any connector. Start with the bundle's `README.md`.
+
+## Order of work, which is not negotiable
+
+1. **Read before any source.** Read `README.md`, the four doctrine files, `RD-TEST-DEFINITION.md`,
+   `FRAMES.md`, the definitions of `RB3`, `LS1`, `LS3`, `CN3` and `GV1` in the vocabulary, and the
+   notes of the existing `ko_*` rows on those five characteristics in `data.csv`. Load the
+   `code-a-form` skill if your session has it, and follow it where it applies to single cells.
+   Ignore its Zotero, acquisition and type-row steps: the source is fixed and no form is added.
+2. **Priors, before you open any page.** Copy `PRIORS-residual-default-2026-10-22.md` to
+   `PRIORS-residual-default-filled-<date>.md`, fill every section, print its sha256
+   (`shasum -a 256 PRIORS-*-filled-*.md`), tell me, and **STOP**. I will commit it and confirm the
+   hash. Do not open a page until I reply.
+3. **Read and code.** Read frames 2–6 first (title, contents, 凡例). Then, for each of the
+   seventeen kō, read its 解説, its rules and any forms printed with it, and code the six cells.
+   Read only that kō's columns on a shared page. Fix every cell of a kō before moving to the next.
+   Do not compare kō with one another, or with the existing `ko_*` rows, until all 102 cells are
+   fixed, and say in your notes that this ordering held.
+4. **Deliverables, into `proposed-of/`:**
+   - `TEST-residual-default-2026-10-22.csv`: the 102 cells (see `README.md`);
+   - `NOTES-residual-default-coding-2026-10-22.md`: the reading record (what you read, frame by
+     frame; anything outside the list you saw by accident), every decision point with the
+     alternative reading stated fairly, every `.NR` argued, and the six answers below.
+   Then run `python3 scripts/check_test_table.py proposed-of/TEST-residual-default-2026-10-22.csv`,
+   print the sha256 of every file in `proposed-of/`, tell me, and **STOP**.
+
+## Rules
+
+- **Missingness.** `.NR` asserts that the rules were read and were silent. `.NA` asserts that the
+  characteristic does not apply. `0` is an observed absence. Never use one for another, and
+  propagate `.NA` and `.NR` as `check_test_table.py` requires. A rule's silence is never an absence.
+- **Evidence.** Code only from the rules and forms on the listed pages. The ministry's 解説 may
+  supply facts the rules do not state (place, dates, whether the kō was running), and the note
+  must say when it does. Never code from a heading or a ministry class. General knowledge belongs
+  in the priors and nowhere else.
+- **`RD-test`.** Follow `RD-TEST-DEFINITION.md` exactly, rules 1–6 above all. If a rule you read
+  does not fit the definition, code what the definition gives, say so in the note, and raise it
+  in answer 4. Do not widen the value set.
+- **One editor.** All seventeen were chosen, transcribed and anonymised by one ministry. Say so
+  where it matters, and do not treat agreement between kō as corroboration.
+- **Original script.** Quote clauses as printed, in their original script, with printed page and
+  article number.
+
+## The six answers, in your notes, plainly
+
+1. what was coded and on what evidence;
+2. what could not be coded and why;
+3. which of your own priors were falsified, quoting the filled priors verbatim;
+4. any characteristic, `RD-test` included, that did not fit the evidence;
+5. any dependence or well-formedness problem noticed and not repaired;
+6. what to read next, and which cell it would move.
