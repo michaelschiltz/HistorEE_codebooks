@@ -80,6 +80,7 @@ def nfc(s: str) -> str:
 def fold(s: str) -> str:
     """Casefold and strip diacritics, for candidate matching only (never for the checks themselves)."""
     s = unicodedata.normalize("NFKD", s.casefold())
+    s = s.replace("’", "'").replace("‘", "'").replace("ʼ", "'")  # D’Amico is stored with a typographic apostrophe
     return "".join(ch for ch in s if not unicodedata.combining(ch)).replace("ı", "i")
 
 

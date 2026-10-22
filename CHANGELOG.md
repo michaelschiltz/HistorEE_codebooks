@@ -11,6 +11,15 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-22
+
+**Citation correction: the 17 `bazacle_mill` cells that cited `Le Bris, Goetzmann & Pouget 2023` (between `OF-0124` and `OF-0153`) now cite `Le Bris, Goetzmann & Pouget 2026`, the published article (*Business History* 68 (2026), 347–372). No value, confidence, articulation or note changed. No version bump: `source_ref` text only, no constraint changed.**
+
+- **Why.** The new citation check (`scripts/check_citations.py`; proposal open in `proposed-of/`) found no 2023 version in the Zotero library; the cells were coded from "the supplied paper" (`CLAUDE.md`). The one record held, the 2026 article, carried a misfiled PDF (Motironi 2020, a Lausanne thesis); MS attached the right one. Every claim the cells make is in the published text, including `OF-0138`'s quotation, "a preliminary for depersonalization" (p. 362), and the Bazacle and Castel facts (p. 353). MS ruled the relabel.
+- **Not changed.** The `bazacle_mill` type row in `vocabularies/organizational_form_type.csv` still cites the 2023 label in its `key_source`: outside the licence, left for MS. The cells carry no page locator, which pp. 353 and 362–363 would supply. `source_read` stays `unknown`.
+- **Record.** Logbook 5, 2026-10-22 (ii).
+- **Checks.** Vocabularies, soft-wrap, tables, dependence (`organizational_forms`), quotations `--strict`; codebooks `--check` (all three `current`); every committed view `--check`, `current`; frictionless VALID on all three packages; the data file round-tripped byte-identical before the rewrite, so the diff is the 17 rows.
+
 ## loss_mitigation_forms — 2026-10-22
 
 **`RD-test` (logbook 6, 2026-10-22 (ii)) was coded blind on the seventeen reserved kō of the 1936 rulebook volume as a test table, not as rows, and scored fail under rules fixed before the coding; it is not adopted. Two of the three rulings that followed clarify `CN3` and `LS3` and move four cells of `data.csv` (`LM-R0076`–`LM-R0079`, adjudicated `replaced` by MS). No version bump: recodings and appended definition sentences only, no constraint changed.**
