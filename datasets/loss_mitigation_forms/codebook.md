@@ -38,8 +38,8 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 |  1 | `record_id`     | string |    ✓     |                                                                                                 | 821/821 |
 |  2 | `type_id`       | string |          |                                                                                                 | 821/821 |
 |  3 | `char_id`       | string |          |                                                                                                 | 821/821 |
-|  4 | `value`         | string |          |                                                                                                 | 535/821 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 535/821 |
+|  4 | `value`         | string |          |                                                                                                 | 533/821 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 533/821 |
 |  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 232/821 |
 |  7 | `source_ref`    | string |          |                                                                                                 | 741/821 |
 |  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `zh`, `pl`, `pt`, `ca` | 711/821 |

@@ -11,6 +11,16 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## loss_mitigation_forms — 2026-10-22
+
+**`RD-test` (logbook 6, 2026-10-22 (ii)) was coded blind on the seventeen reserved kō of the 1936 rulebook volume as a test table, not as rows, and scored fail under rules fixed before the coding; it is not adopted. Two of the three rulings that followed clarify `CN3` and `LS3` and move four cells of `data.csv` (`LM-R0076`–`LM-R0079`, adjudicated `replaced` by MS). No version bump: recodings and appended definition sentences only, no constraint changed.**
+
+- **Consumers.** `LM-0251` `ko_mitarai_mujin_1773 CN3` `.NR` → `1`; `LM-0258`, `LM-0276`, `LM-0733` (`ko_mitarai_mujin_1773`, `ko_mitarai_gin_1805`, `ko_mitarai_hanei_1840`) `LS3` `1` → `.NR`. `LS3 = 1` falls from 7 cells to 4. For a fund that lends to its members, `LS3` is now `1` only where a member answers for others' obligations or a borrower is expressly liable beyond his pledge; a pledge or surety for his own repayment is `.NR`. `CN3` is `1` wherever the rules require a bond, pledge or sureties.
+- **The test.** 102 cells in `records/TEST-residual-default-2026-10-22.csv`, and a copy with the rulings applied. Fail on rule 6's second limb: four eligible kō in three villages, no pair agreeing on all five predictors, three weak passes. The `LS1` `residual-on-fund` defect made the `fund` kō unscorable. Scored by the coding chat, not by a separate one (logbook 4).
+- **Flagged, not repaired.** `RB3 = mixed` carries four different mixtures; `RD-test`'s `deferred` is a governance value; `LS1`'s `residual-on-fund` duplicates a bearer; forfeiture-only `CN3` is `1` in one row and `P` in another.
+- **Record.** `records/`: the filled priors, the coding notes, both test tables, the rulings; logbooks 1, 4 and 6, 2026-10-22, and a row `residual-default-coding` in the standing spent-blind table.
+- **Checks.** Vocabularies, soft-wrap, tables, dependence, quotations `--strict`; codebooks `--check` (`loss_mitigation_forms` regenerated twice, `cmp`-identical: `value` and `confidence` fill 535 → 533 of 821); the risk-pooling view, md and tex, `current` (mechanism `pooling`); frictionless VALID on both resources.
+
 ## loss_mitigation_forms and organizational_forms — 2026-10-15
 
 **New form `monte_doti_florence` (Tuscan (Florentine), 1425-1530), the Florentine communal dowry fund: 26 cells, `LM-0796`–`LM-0821`, coded blind from the Kirshner–Molho literature, which is treated as one witness (no cell `high`). Co-occurrence with `compagnia@organizational_forms` declared at `same-polity`, both directions. No version bump: rows and vocabulary codes only, and no constraint changed.**
