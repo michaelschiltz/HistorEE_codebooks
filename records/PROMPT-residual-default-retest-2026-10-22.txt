@@ -1,0 +1,62 @@
+I want you to code a **test table**: six cells for each of nineteen rulebooks of rotating funds
+(頼母子講, 無盡講, 模合 and similar) printed in two Japanese government publications, of 1915 and
+c. 1942. One of the six, `RD-test`, is a characteristic that is not yet in the HistorEE vocabulary.
+The other five are existing ones: `RB3`, `LS1`, `LS3`, `CN3`, `GV1`.
+
+**Work only inside `~/GitHub/_blind-residual-default-retest-2026-10-22`**, and read the sources only
+on the pages `FRAMES.md` lists, on dl.ndl.go.jp, in Chrome. One source opens only in my Chrome, where
+I am logged in to NDL; use the viewer for it, as `FRAMES.md` says. Do not use any other website, any
+other NDL page, your memory tools, past-chat search, Google Drive or any connector. Start with the
+bundle's `README.md`.
+
+## Order of work, which is not negotiable
+
+1. **Read before any source.** Read `README.md`, the four doctrine files, `RD-TEST-DEFINITION.md`,
+   `FRAMES.md`, the definitions of `RB3`, `LS1`, `LS3`, `CN3` and `GV1` in the vocabulary (including
+   their CLARIFIED sentences), and the notes of the existing `ko_*` rows on those five characteristics
+   in `data.csv`. Load the `code-a-form` skill if your session has it, and follow it where it applies
+   to single cells. Ignore its Zotero, acquisition and type-row steps: the sources are fixed and no
+   form is added.
+2. **Priors, before you open any page.** Copy `PRIORS-residual-default-retest-2026-10-22.md` to
+   `PRIORS-residual-default-retest-filled-<date>.md`, fill every section, print its sha256
+   (`shasum -a 256 PRIORS-*-filled-*.md`), tell me, and **STOP**. I will commit it and confirm the
+   hash. Do not open a page until I reply.
+3. **Read and code.** Read the title frame and table of contents of each item first. Then, for each of
+   the nineteen rulebooks, read its rules and any forms printed with it, and code the six cells. Read
+   only that rulebook's columns on a shared page. Fix every cell of a rulebook before moving to the
+   next. Do not compare rulebooks with one another, or with the existing `ko_*` rows, until all 114
+   cells are fixed, and say in your notes that this ordering held.
+4. **Deliverables, into `proposed-of/`:**
+   - `TEST-residual-default-retest-2026-10-22.csv`: the 114 cells (see `README.md`);
+   - `NOTES-residual-default-retest-coding-2026-10-22.md`: the reading record (what you read, frame by
+     frame; anything outside the list you saw by accident), every decision point with the alternative
+     reading stated fairly, every `.NR` and `.NA` argued, and the six answers below.
+   Then run `python3 scripts/check_test_table.py proposed-of/TEST-residual-default-retest-2026-10-22.csv`,
+   print the sha256 of every file in `proposed-of/`, tell me, and **STOP**.
+
+## Rules
+
+- **Missingness.** `.NR` asserts that the rules were read and were silent. `.NA` asserts that the
+  characteristic does not apply. `0` is an observed absence. Never use one for another, and propagate
+  `.NA` and `.NR` as `check_test_table.py` requires. A rule's silence is never an absence.
+- **Evidence.** Code only from the rules and forms on the listed pages. Never code from a heading, a
+  title or the publication's purpose. General knowledge belongs in the priors and nowhere else.
+- **Scope.** Apply the scope section of `RD-TEST-DEFINITION.md`: a listed rulebook that sets up no
+  payout is still coded, with `.NA` where the ground is absent, argued in the note. Do not read the
+  十錢講 and 信用會 rules `FRAMES.md` excludes.
+- **`RD-test`.** Follow `RD-TEST-DEFINITION.md` exactly, rules 1–7 above all. If a rule you read does
+  not fit the definition, code what the definition gives, say so in the note, and raise it in
+  answer 4. Do not widen the value set.
+- **Selectors.** Each source's rulebooks were chosen by one ministry for its own purposes. Say so
+  where it matters, and do not treat agreement between rulebooks as corroboration.
+- **Original script.** Quote clauses as printed, in their original script, with source letter,
+  printed page and article number. Do not repeat personal names.
+
+## The six answers, in your notes, plainly
+
+1. what was coded and on what evidence;
+2. what could not be coded and why;
+3. which of your own priors were falsified, quoting the filled priors verbatim;
+4. any characteristic, `RD-test` included, that did not fit the evidence;
+5. any dependence or well-formedness problem noticed and not repaired;
+6. what to read next, and which cell it would move.
