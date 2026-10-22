@@ -91,6 +91,7 @@ python -m frictionless validate datasets/<dataset>/datapackage.json
 python scripts/check_dependence.py [datasets/<dataset>]
 python scripts/check_vocabularies.py
 python scripts/check_softwrap.py
+python scripts/check_citations.py            # --zotero locally, against the library
 python scripts/build_codebook.py --check
 python scripts/build_views.py --component <component> --check
 ```

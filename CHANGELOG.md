@@ -4,6 +4,10 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 ## [Unreleased]
 
+### Added
+
+- `references/works.csv`: every work a `source_ref` names, resolved to the Zotero item read (114 works; 11 not yet in Zotero, 1 ambiguous). `source_ref` is unchanged and remains the Chicago short form. Enforced by `scripts/check_citations.py`, which CI runs offline; `--zotero` checks the registry against the library. Logbook 3, 2026-10-22; `references/README.md`.
+
 ### Fixed
 
 - `loss_mitigation_forms/datapackage.json`: the `type_id` and `char_id` descriptions named `vocabularies/cooperative_pooling_*.csv`, files of the package superseded on its first day; they now name `loss_mitigation_type.csv` and `loss_mitigation_characteristic.csv`. The `type_id` title "Pooling form (coded)" (data and recodings schemas) becomes "Loss-mitigation form (coded)", since the census covers allocation and spreading as well as pooling. Descriptions only: no constraint changes, no version bump. Flagged 2026-09-28 (logbook 4); codebook regenerated twice, `cmp`-identical; frictionless VALID.

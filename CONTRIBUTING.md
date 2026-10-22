@@ -90,6 +90,8 @@ CR-0006,0,monme,explicit_zero,Kōnoike-ya,Source records a nil settlement (offse
 
 **Uncertainty is explicit.** The `confidence` field is coded `high` / `medium`/ `low`, defined in the codebook. Do not launder uncertainty into prose.
 
+**Every cited work resolves.** A work named in a `source_ref` has a row in `references/works.csv` pointing at the Zotero item actually read; a work cited for the first time gets its row in the same commit. `scripts/check_citations.py` enforces registration in CI and checks the rows against the library with `--zotero`. See `references/README.md`.
+
 **Units are normalised transparently.** Any monetary amount carries both its original figure/unit *and* a normalised value, with the `normalization_method` naming the conversion applied. For Tokugawa material this means the *sanka* (三貨) gold/silver/copper problem is made auditable per row, not buried in a footnote:
 
 ```csv
