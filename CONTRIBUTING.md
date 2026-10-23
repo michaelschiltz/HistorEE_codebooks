@@ -68,6 +68,8 @@ Two directories, and the line between them is what the deposit is allowed to cit
 
 **A priors file is worth writing only if it is committed before the coding it will be scored against.** An mtime proves nothing; a commit that precedes another commit does.
 
+**And commit order is evidence only to someone who can check it.** Since 2026-10-23 every push of this repository is anchored in the public ledger [`michaelschiltz/research-ledger`](https://github.com/michaelschiltz/research-ledger): a `pre-push` hook records each pushed commit id with an OpenTimestamps proof, and nothing of the content. So a priors commit is **pushed** before the coding chat opens a source, and the batch's coding notes name its ledger entry (`entries/<year>/<file>.txt`). **Never force-push.** An anchored commit missing from the published history reads as a rewrite, which is exactly what the ledger exists to expose; amend or rebase only what has not been pushed.
+
 ## 4. Coding conventions (the parts referees test)
 
 **Missingness is disaggregated.** Never leave a cell blank. Any field may carry one of three inline tokens, which the schema's `missingValues` treats as missing rather than as a value:
