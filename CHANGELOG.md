@@ -6,7 +6,7 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 
 ### Added
 
-- Provenance: from 2026-10-23 every push of this repository is anchored in the public ledger `michaelschiltz/research-ledger` (commit id and an OpenTimestamps proof; no content), so that the order of priors, codings and adjudications can be checked by a third party when the repository is opened. CONTRIBUTING §3; logbook 3, 2026-10-23.
+- Provenance: from 2026-10-23 every push of this repository is anchored in the public ledger `michaelschiltz/research-ledger` (commit id and an OpenTimestamps proof; no content), so that the order of priors, codings and adjudications rests on an independent timestamp rather than on commit dates set by the committer's machine. CONTRIBUTING §3; logbook 3, 2026-10-23.
 - `references/works.csv`: every work a `source_ref` names, resolved to the Zotero item read (114 works; 11 not yet in Zotero, 1 ambiguous). `source_ref` is unchanged and remains the Chicago short form. Enforced by `scripts/check_citations.py`, which CI runs offline; `--zotero` checks the registry against the library. Logbook 3, 2026-10-22; `references/README.md`.
 
 ### Fixed
