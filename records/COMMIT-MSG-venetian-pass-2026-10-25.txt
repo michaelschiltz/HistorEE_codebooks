@@ -1,0 +1,33 @@
+records: venetian-pass-2026-10-25 blind coding record, 14 cells
+
+Blind re-coding of five societas_maris cells (organizational_forms)
+and three commenda_alloc and six societas_maris cells
+(loss_mitigation_forms) from the Latin of the 865 acts of Morozzo
+della Rocca & Lombardo (1940), coded by claude-opus-5-5 at effort high
+in a separate chat inside the bundle. The priors (sha256 2733d8a0...)
+were committed and pushed before any source was opened.
+
+Adds the coding chat's record: a type census of all 865 acts; samples
+of 60 profit-share acknowledgments and 60 releases of such contracts
+(random.seed 20261025), plus one agency act; instance and
+instance-characteristic tables with verbatim quotations; 14 proposed
+recodings rows (adjudication pending); coding notes; a logbook draft.
+
+Values: CF1 P, CF3 bilateral, CI1 common, LR6 symmetric, TS2
+single-venture; commenda_alloc MC1 allocation (not blind), PR1 0, RB1
+capital-provider; societas_maris MB3 voluntary (low), MC1 allocation,
+PR1 0, RB1 shared, RB2 .NR, RB4 1.
+
+Why it matters: the acts date the bilateral shape to the 12th century
+and show the unilateral three-quarter form replacing it c.1200, so the
+two rows' values change over their own claimed periods. A phase split
+is recommended, not applied. Flagged, not repaired: LR6 depends on
+LR2, which the bundle did not carry; CF1 and the form assignment rest
+on one clause; RB1, RB4, MC1 and LR6 for societas_maris rest on
+another.
+
+Checks: frictionless validate on scratch copies of both recodings
+resources (foreign key removed): VALID; values swept against
+allowed_values; 1,436 quotations checked against the source.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

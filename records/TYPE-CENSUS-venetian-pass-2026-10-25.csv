@@ -1,0 +1,866 @@
+act_no,vol,page_printed,year_as_stated,place_as_stated,act_type_latin,terms,notes
+1,I,1,.NR,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+2,I,2,.NR,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,rogadia,object: rogadia/commendacio
+3,I,3,.NR,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+4,I,4,.NR,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); rogadia (general clause); commendacio (general clause); prestitum (general clause),general quittance (de omnibus); contract terms in a general clause only
+5,I,5,.NR,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; nabulum,object: caucio/loan
+6,I,5,.NR,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: sentence/judgment
+7,I,6,.NR,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+8,I,7,millesimo trigesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,nabulum,kind: anchor hire (ad nabulum)
+9,I,8,millesimo quinquagesimo septimo,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,rogadia (general clause); commendacio (general clause); prestitum (general clause),general quittance (de omnibus); contract terms in a general clause only
+10,I,9,millesimo sexagesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum,"kind: loan (prestitum, fixed return, safe on land)"
+11,I,10,millesimo septuagesimo secundo,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium,—
+12,I,11,millesimo septuagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula,"discharges a contract placing capital with a trader (markers: IACT,MEMtr); STRATUM R"
+13,I,12,millesimo sepluagesimo tercio,Rhivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; profit share,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+14,I,13,Redeptoris nostri millesimo septuagesimo septimo,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+15,I,15,millesimo octuagesimo tercio,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium,—
+16,I,16,millesimo octuagesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+17,I,20,millesimo octuagesimo octavo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula,object: promissio
+18,I,21,millesimo octuagesimo Oclavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT,MEMtr); STRATUM R"
+19,I,22,Redeptoris nostri millesimo octuagesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,FORM,IACT); STRATUM R"
+20,I,23,millesimo nonagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; nabulum,object: anchor-hire
+21,I,24,millesimo nonagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; nabulum,object: caucio/loan
+22,I,25,millesimo nonagesimo quinto,Torcello,breve recordacionis — Breve recordacionis facimus,vadimonium,—
+23,I,26,millesimo nonagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+24,I,27,millesimo nonagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; nabulum,object: caucio/loan
+25,I,28,millesimo nonagcsimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+26,I,29,millesimo nonagesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,nabulum,kind: anchor hire (ad nabulum)
+27,I,29,millesimo centesimo,Rivoalo,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium,object: vadimonium
+28,I,30,millesimo centesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+29,I,31,millesimo centesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+30,I,32,millesimo centesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+31,I,33,millesimo centesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: IACT); STRATUM R
+32,I,34,millesimo centesimo nono,Rivoalti,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); commendacio (general clause); prestitum (general clause),general quittance (de omnibus); contract terms in a general clause only
+33,I,35,millesimo centesimo undecimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia,object: sentence/judgment
+34,I,36,millesimo centesimo undecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium,object: vadimonium
+35,I,37,millesimo centesimo duodecimo,Armiro,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia,object: compagnia
+36,I,38,millesimo centesimo terciodecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+37,I,39,millesimo centesimo quintodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; de quinque sex,object: caucio/loan
+38,I,40,millesimo centesimo sexto decimo,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium,—
+39,I,40,millesimo exeunte,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,caucio; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+40,I,42,millesimo centesimo octavo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; investicio,"discharges a contract placing capital with a trader (markers: COLL,IACT,MEMtr); STRATUM R"
+41,I,43,millesimo centesimo octavo decimo,Bari,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,nabulum,kind: anchor hire (ad nabulum)
+42,I,44,millesimo centesimo nonodecimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT,MEMtr); STRATUM R"
+43,I,46,"euisdem Redemptoris nostri millesimo ceniesimo nonodecimo, Plenam et",.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); commendacio (general clause); prestitum (general clause),general quittance (de omnibus); contract terms in a general clause only
+44,I,47,millesimo centesimo nonodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); commendacio (general clause); prestitum (general clause),general quittance (de omnibus); contract terms in a general clause only
+45,I,47,millesimo centesimo esimo,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; investicio,"discharges a contract placing capital with a trader (markers: COLL,IACT,MEMtr); STRATUM R"
+46,I,48,millesimo cenlesimo vicesimo,Constantinopoli,breve recordacionis — Breve recordacionis facimus,vadimonium,—
+47,I,49,hedemploris nostri millesimo centesimo vigzesinio quinto Plenam et,Rivoalio [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio,object: rogadia/commendacio
+48,I,50,millesimo centesimo vigesimo quinto,Rivoalli,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+49,I,51,millesimo centesimo vigesimo quinto,.NR,other,—,cognitum facimus: declaration by heirs
+50,I,52,millesimo centesimo vicesimo septimo,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+51,I,53,millesimo centesimo vicesimo oclavo,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+52,I,53,"Redentoris nostri, millesimo centesimo gesimo oclavo",Achom,testificatio — Testificor / Testificamur,—,—
+53,I,55,millesimo centesimo vi. gesimo nono,Achon,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+54,I,56,millesimo centesimo vigesimo nono,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; investicio,object: compagnia
+55,I,57,millesimo centesimo vicesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium; de quinque sex,object: general/estate
+56,I,59,millesimo centesimo tricesimo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula; investicio,discharges a contract placing capital with a trader (markers: IACT); STRATUM R
+57,I,60,— usdem Redemptoris nostri millesimo cenlesimo Irimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula,discharges a contract placing capital with a trader (markers: MEMtr); STRATUM R
+58,I,61,millesimo centesimo iricesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+59,I,62,millesimo centesimo tricesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,FORM,IACT); STRATUM R"
+60,I,62,millesimo centesimo tricesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,vadimonium; de quinque sex,kind: declaration of debt/obligation
+61,I,64,millesimo cenlesimo tricesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+62,I,65,millesimo centesimo lricesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; investicio,object: colleganza
+63,I,66,millesimo centesimo tricesimo tercio,Rivoalti,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+64,I,68,millesimo centesimo tricesimo quarto,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; caucio; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+65,I,69,Moresini Domini millesimo centesimo tricesimo quinto,Corintho,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium,object: other
+66,I,70,millesimo centesimo tricesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium,object: vadimonium
+67,I,71,millesimo centesimo tricesimo quinto,Corintho,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium,object: vadimonium
+68,I,71,millesimo centesimo tricesimo sexto,Corintho,testificatio — Testificor / Testificamur,—,—
+69,I,72,millesimo centesimo tricesimo sexto,Corintho,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium,object: vadimonium
+70,I,73,DNE millesimo centesimo Iricesimo oclavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; commendacio,object: general/estate
+71,I,74,millesimo centesimo tricesimo oclavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+72,I,75,millesimo centesimo tricesimo nono,Corintho,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); commendacio (general clause),general quittance (de omnibus); contract terms in a general clause only
+73,I,76,millesimo centesimo lricesimo nono,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+74,I,77,millesimo centesimo tricesimo nono,Damiates,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia,object: compagnia
+75,I,78,"tricesimo nono, nostri millesimo centesimo:",Acri,testificatio — Testificor / Testificamur,—,—
+76,I,79,millesimo centesimo quadragesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; investicio,object: sentence/judgment
+77,I,80,millesimo centesimo quadragesimo primo,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+78,I,81,millesimo centesimo quadragesimo secundo,Constantinopoli,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+79,I,82,millesimo centesimo quadragesimo secundo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; nabulum,object: compagnia
+80,I,83,millesimo centesimo quadragesimo secundo,Rivoalio [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+81,I,84,millesimo centesimo quadragesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+82,I,85,millesimo centesimo quadragesimo secundo,Conslantinopoli,testificatio — Testificor / Testificamur,—,—
+83,I,86,millesimo centesimo quadragesimo quarto,Rivoalto,testificatio — Testificor / Testificamur,—,—
+84,I,86,millesimo centesimo ———M— quadragesimo quarlo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: promissio
+85,I,87,"millesimo centesimo quadragesimo quinto, orlava, Constantinopoli",Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+86,I,88,millesimo centesimo quadragesimo quinto,Muriano,promissio — Promittens promitto,commendacio,—
+87,I,89,millesimo centesimo quadragesimo quinto,Constantinopoli,promissio — Promittens promitto,vadimonium,—
+88,I,90,miiiesimo centesimo quadragesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,vadimonium,object: general/estate
+89,I,91,millesimo centesimo quadragesimo septimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+90,I,92,millesimo ceniesimo quadragesimo seplimo,Accharon,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+91,I,92,.NR,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+92,I,93,millesimo centesimo qudragesimo octavo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+93,I,94,millesimo centesimo quadragesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+94,I,95,millesimo centesimo quadragesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio,object: general/estate
+95,I,96,.NR,Murianis,sentencia / iudicium — judges or doge sitting,compagnia,—
+96,I,98,millesimo centesimo quinquagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia,object: general/estate
+97,I,98,millesimo centesimo quinquagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+98,I,99,millesimo centesimo quinquagesimo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+99,I,100,millesimo [centesimo quinquagesimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; memorialis cartula,object: colleganza
+100,I,101,millesimo centesimo quinquagesimo,Rivoalto,testamentum — testamentary disposition,—,—
+101,I,103,millesimo centesimo quinquagesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+102,I,104,mil,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+103,I,105,millesimo centesimo quinquagesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+104,I,106,millesimo centesimo quinquagesimo tercio,Rivoalto,testificatio — Testificor / Testificamur,—,—
+105,I,106,millesimo centesimo quinquagesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+106,I,107,millesimo centesimo quinquagesimo tercio,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+107,I,108,millesimo centesimo quinquagesimo tercio,Armiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+108,I,109,millesimo centesimo quinquagesimo quarto,Armiro,testificatio — Testificor / Testificamur,collegantia; commendacio,—
+109,I,110,millesimo centesimo quinquagesimo quarto,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+110,I,110,millesimo centesimo quinquagesimo quarto,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio; caucio,object: caucio/loan
+111,I,111,"ii, millesimo centesimo quinquagesimo quinlo, me",.NR,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,caucio; de quinque sex,kind: declaration of debt/obligation
+112,I,112,millesimo centesimo quinquagesimo quinio,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; memorialis cartula,discharges a contract placing capital with a trader (markers: IACT); STRATUM R
+113,I,113,millesimo centesimo quinquagesimo quinto,Rivoallo,commissio — Committens committo,caucio,—
+114,I,114,millesimo centesimo quinquagesimo lembris,Rivoallo,breve recordacionis — Breve recordacionis facimus,vadimonium; de quinque sex,—
+115,I,115,"millesimo centesimo, quinquagesimo quinto",Rivoalto,commissio — Committens committo,collegantia; commendacio,—
+116,I,116,millesimo centesimo quinquagesimo quinlo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; nabulum,object: caucio/loan
+117,I,117,millesimo centesimo quinquagesimo quinlo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; investicio,"discharges a contract placing capital with a trader (markers: COLL,IACT,MEMtr); STRATUM R"
+118,I,118,millesimo cenlesimo quinquagesimo quinto,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; investicio,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+119,I,119,millesimo centesimo quinquagesimo quinlo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; de quinque sex,object: caucio/loan
+120,I,120,millesimo centesimo quinquagesimo quinlo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+121,I,121,"millesimo ditione quarta, centesimo quinquagesimo sexto",Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; de quinque sex,object: caucio/loan
+122,I,122,millesimo centesimo quinquagesimo sexto,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+123,I,123,millesimo centesimo quinquagesimo sexto mei dicione quaria,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+124,I,124,millesimo centesimo quinquagesimo sexto,Conslantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula,object: colleganza
+125,I,124,incarnalionis eiusdem Redemploris noslri millesimo cenlesimo quinquagesimo seplimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,compagnia; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+126,I,126,millesimo centesimo quinquagesimo seplimo,Tyro,testificatio — Testificor / Testificamur,commendacio,—
+127,I,127,millesimo centesimo quinquagesimo septimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; de quinque sex,object: caucio/loan
+128,I,128,millesimo centesimo quinquagesimo seplimo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex; ad negociandum,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+129,I,129,millesimo centesimo quinquagesimo seplimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+130,I,129,millesimo centesimo quinquagesimo sep!imo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+131,I,130,millesimo centesimo quinquagesimo oclavo,Smyrne,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); commendacio (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+132,I,131,millesimo centesimo quinquagesimo octavo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; rogadia; caucio; vadimonium,object: caucio/loan
+133,I,132,millesimo centesimo quinquagesimo nono,Armiro,other,—,cognitum facio: manumission of a slave
+134,I,133,millesimo centesimo quinquagesimo oclavo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+135,I,134,millesimo centesimo quinquagesimo nono,Lakedemonie,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; portando mandando,object: compagnia
+136,I,135,millesimo centesimo quinquagesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula; investicio,"discharges a contract placing capital with a trader (markers: IACT,MEMtr); STRATUM R"
+137,I,136,millesimo centesimo quinquagesimo nono,Stives,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+138,I,137,millesimo centesimo quinquagesimo nono,Rivoalto,testificatio — Testificor / Testificamur,—,—
+139,I,137,millesimo cenlesimo quinquagesimo nono,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+140,I,139,millesimo centesimo quinquagesimo nono,Constantinopoli,commissio — Committens committo,—,—
+141,I,140,"simo sexagesimo, et Salvatoris Ihesu. Chrisii. Redemptoris nostri millesimo cenlemense marcii",Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,MEMtr); STRATUM R"
+142,I,141,"millesimo centesimo sexagesimo, inense aprilis",Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; ad negociandum,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+143,I,142,millesimo centesimo sexagesimo,Rivoalto,other,de quinque sex,ducal act (publica promissio)
+144,I,143,R. Domini millesimo centesimo sexagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; de quinque sex,object: general/estate
+145,I,145,miilesimo centesimo sexagesimo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+146,I,146,millesimo centesimo sexagesimo,Torcello,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+147,I,146,.NR,.NR,commissio — Committens committo,caucio,opening lost or displaced in the OCR
+148,I,147,millesimo centesimo sexagesimo primo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+149,I,148,millesimo centesimo sexagesimo primo,Constantinopoli,testificatio — Testificor / Testificamur,rogadia,—
+150,I,149,millesimo centesimo sexagesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula,object: other
+151,I,149,millesimo nii,Armiro,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+152,I,150,millesimo centesimo sexagesimo primo,Armiro,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+153,I,151,mille: simo cenlesimo sexagesimo primo,Rivoalto,breve recordacionis — Breve recordacionis facimus,vadimonium; nabulum,—
+154,I,152,millesimo nostri Ihesu Christi,chon,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+155,I,153,millesimo centesimo sexagesimo primo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,MEMtr); STRATUM R"
+156,I,154,millesimo centesimo sexagesimo secundo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+157,I,155,millesimo centesimo sexagesimo secundo,Achon,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+158,I,155,incarR. nscionis sue millesimo centesimo sexagesimo secundo,Achon,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,kind: declaration of debt/obligation
+159,I,156,millesimo centesimo sexagesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,rogadia,object: rogadia/commendacio
+160,I,157,mille. simo centesimo sexagesimo quarto,Clugia,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+161,I,158,millesimo centesimo sexagesimo quarto,Rivoalto,commissio — Committens committo,—,—
+162,I,159,millesimo centesimo sexagesimo quarto,Murianis,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+163,I,160,millesimo centesimo sexagesimo quarto,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: sentence/judgment
+164,I,161,millcsimo centesimo sexagesimo quarlo,Dampniates,testificatio — Testificor / Testificamur,—,—
+165,I,162,millesimo centesimo sexagesimo quinto,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+166,I,163,millesimo centesimo sexagesimo quin to,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; manifestacionis cartula; salvum in terra,object: caucio/loan
+167,I,164,millesimo centesimo sexagesimo quinto,Creta,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+168,I,165,millesimo centesimo sexagesimo quinto,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+169,I,166,millemo centesimo sexagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: general/estate
+170,I,168,millesimo centesimo sexagesimo sexto,Rivoulto [read by fallback],manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; caucio; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+171,I,169,millesimo cenlesimo sexagesimo sexto,Achon,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+172,I,170,millesimo centesimo sexagesimo sexto,Xrmiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+173,I,170,millesimo centesimo sexagesimo sexto,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+174,I,171,millesimo centesimo sexagesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+175,I,173,Pomini millesimo cenlesimo sexagesimo sexto,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: general/estate
+176,I,175,millesimo centesimo sexagesimo sexlo,Clugia,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+177,I,176,millesimo centesimo sexagesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+178,I,178,millesimo centesimo sexagesimo sexlo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+179,I,179,millesimo centesimo sexagesimo sexto,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+180,I,180,millesimo cenlesimo sexagesimo seplimo,Rivoalto,commissio — Committens committo,—,—
+181,I,181,millesimo centesimo sexagesimo septimo,Rivoalto,testamentum — testamentary disposition,vadimonium,—
+182,I,182,millesimo centesimo sexagesimo septimo,Acre,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+183,I,183,millesimo ceniesimo sexagesimo seplimo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex; ad negociandum,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+184,I,184,millesimo centesimo sexagesimo septimo,Constantinopo,commissio — Committens committo,—,—
+185,I,185,millesimo centesimo sexagesimo seplimo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,manifestacionis cartula,kind: declaration of debt/obligation
+186,I,185,millesimo centesimo sexagesimo seplimo,Constantinopoli,commissio — Committens committo,—,—
+187,I,186,millesimo centesimo sexagesimo seplimo,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio; manifestacionis cartula; de quinque sex,object: other
+188,I,187,millesimo centesimo sexagesimo seplimo,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio; de quinque sex; ad negociandum,object: other
+189,I,188,"millesimo cenlesimo sexagesimo seplimo, bris",Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio; manifestacionis cartula; de quinque sex,object: other
+190,I,190,millesimo centesimo sexagesimo septimo,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio; de quinque sex,object: other
+191,I,191,"millesimo, centesimo sexagesimo sepiimo",Alexandria,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+192,I,192,millesimo centesimo sexagesimo seplimo,Constantinopoli,commissio — Committens committo,—,—
+193,I,192,millesimo centesimo sexagesimo seplimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+194,I,193,millesimo centesimo sexagesimo septimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+195,I,194,millesimo centesimo sexagesimo seplimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+196,I,195,millesimo cenlesimo sexagesimo seplimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+197,I,196,millesimo centesimo sexagesimo seplimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+198,I,197,millesimocentesimo sexagesimo septimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+199,I,197,millesimo cenlesimo sexagesimo seplimo,Constantinopoli,promissio — Promittens promitto,caucio,—
+200,I,198,.NR,Constantinopoli,promissio — Promittens promitto,caucio,—
+201,I,199,millesimo centesimo sexagesimo oclavo,Conslantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+202,I,200,millesimo centesimo sexagesimo oclavo,Corintho,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+203,I,201,millesimo centesimo sexagesimo oclavo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+204,I,202,millesimo centesimo sexagesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; investicio,object: caucio/loan
+205,I,203,millesimo centesimo sexagesimo octavo,Kedemonia,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+206,I,204,millesimo centesimo sexagesimo octavo,Kedemonia,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+207,I,205,millesimo centesimo sexagesimo octavo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+208,I,205,millesimo centesimo sexagesimo oclavo,hivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+209,I,206,millesimo centesimo sexagesimo oclavo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; caucio; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT); STRATUM R"
+210,I,208,millesimo centesimo sexagesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; manifestacionis cartula; vadimonium,object: other
+211,I,209,millesisimo centesimo sexagesimo oclavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+212,I,210,millesimo centesimo sexagesimo ociavo,Constantinopoli,commissio — Committens committo,caucio,—
+213,I,211,millesimo centesimo sexagesimo nono,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+214,I,212,mille: mo centesimo sexagesimo nono,Armiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+215,I,213,millesimo centesimo sexagesimo nono,Armiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+216,I,213,millesimo centesimo sexagesimo nono,Almiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+217,I,215,millesimo centesimo sexagesimo nono,Almiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+218,I,215,millesimo centesimo sexagesimo nono,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+219,I,216,millesimo centesimo sexagesimo nono,Almiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+220,I,217,millesimo centesimo sexagesimo nono,Clugia,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+221,I,218,millesimo cenlesimo septuagesimo,Armiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,kind: remittance at the giver's peril (sine prode)
+222,I,219,millesimo centesimo septuagesimo,Armiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,kind: remittance at the giver's peril (sine prode)
+223,I,220,mille. simo centesimo sepluagesimo,Armiro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+224,I,221,millesimo centesimo septuagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+225,I,221,mille. simo centesimo septuagesimo,hivoalto,testificatio — Testificor / Testificamur,—,—
+226,I,222,millesimo centesimo sepluagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: sentence/judgment
+227,I,223,millesimo centesimo septuagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+228,I,224,millesimo centesimo septuagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+229,I,224,millesimo centesimo septuagesimo,Rivoalto,other,—,affirmatio: service/hire contract (affirmo me tecum)
+230,I,225,millestmo centesimo sephiagesimo,Naprolis,commissio — Committens committo,—,—
+231,I,226,millesimo centesimo septuagesimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+232,I,227,millesimo centesimo septuagesimo,Coryntho,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+233,I,228,"millesimo centesimo septuagesimo, '",Stivis,testificatio — Testificor / Testificamur,—,—
+234,I,228,millesi- &0€vo: hec sunt cartule de Vivianus et Iohannes. Faletro. XÍ-XIII mo centesimo septuagesimo,Stives,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+235,I,230,millesimo centesimo septuagesimo,Stivis,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 2/3-1/3
+236,I,231,millesimo centesimo septuagesimo,Constantinopoli,commissio — Committens committo,collegantia; manifestacionis cartula,—
+237,I,232,millesimo centesimo septuagesimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+238,I,232,"millesimo centesimo septuagesimo, Armiro. Plenam et 233mense ianuarii",Armiro,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: MEMtr); STRATUM R
+239,I,233,millesimo centesimo septuagesimo,.NR,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; investicio; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+240,I,234,millesimo centesimo septuagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+241,I,235,millesimo centesimo septuagesimo primo,Constantinpoli,commissio — Committens committo,—,—
+242,I,236,millesimo centesimo sepluagesimo primo,Committens [read by fallback],commissio — Committens committo,—,—
+243,I,237,millesimo centesimo septuagesimo primo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+244,I,238,millesimo centesimo septuagesimo primo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+245,I,238,"millesimo ianuarii, securilalem",hivoalio,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: promissio
+246,I,240,Redentoris nostri millesimo centesimo sepluagesimo secundo,hivoalto,testamentum — testamentary disposition,manifestacionis cartula,—
+247,I,242,millesimo centesimo sepluagesimo lercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+248,I,243,millesimo centesimo septuagesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+249,I,244,millesimo centesimo septuagesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: promissio
+250,I,245,millesimo centesimo sepluagesimo lercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio; prestitum; vadimonium,object: compagnia
+251,I,246,"millesimo centesimo septuagesimo lercio, bris",Rivoalto,breve recordacionis — Breve recordacionis facimus,investicio,—
+252,I,247,millesimo centesimo sepluagesimo quarto,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+253,I,248,millesimo centesimo septuagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+254,I,249,» Domini millesimo centesimo sepluagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+255,I,250,millesimo centesimo septuagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; prestitum; caucio; capitanea salva; profit share,"discharges a contract placing capital with a trader (markers: MANUAL,PS); STRATUM R"
+256,I,252,millesimo centesimo septuagesimo,Rivoalto,commissio — Committens committo,caucio,—
+257,I,252,millesimo centesimo. sepluogesimo quario,Mexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+258,I,254,[millesimo centesimo septuagesimo] quarto,Alexandrie,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+259,I,254,millesimo centesimo sepluagesimo quarto,Mexandrie,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+260,I,255,millesimo centesimo septuagesimo quarto,Alexandrie,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; rogadia; prestitum; vadimonium,object: general/estate
+261,I,256,millesimo centesimo sepluagesimo quarto,Allexandrie,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+262,I,257,millesimo centesimo septuagesimo quarto,Alexandrie,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; manifestacionis cartula,object: caucio/loan
+263,I,258,millesimo centesimo septuagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; commendacio; prestitum; vadimonium,object: general/estate
+264,I,259,millesimo centesimo septuagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; commendacio; prestitum,object: general/estate
+265,I,260,millesimo centesimo septuagesimo quarlo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+266,I,260,millesimo centesimo septuagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; prestitum; vadimonium,object: caucio/loan
+267,I,261,millesimo centesimo sepluagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+268,I,262,millesimo centesimo sepluagesimo quinto,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+269,I,263,millesimo centesimo septuagesimo quinlo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+270,I,265,millesimo centesimo septuagesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,compagnia; investicio; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 2/3-1/3
+271,I,264,millesimo centesimo septuagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; prestitum; vadimonium,object: general/estate
+272,I,266,millesimo centesimo sepluagesimo sexto,Rivoallo,commissio — Committens committo,caucio,—
+273,I,268,millesimo centesimo,Stivis,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; de quinque sex,object: general/estate
+274,I,269,millesimo centesimo septuagesimo sexlo,Stivis,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; de quinque sex,object: general/estate
+275,I,270,millesimo centesimo septuagesimo sexto,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: general/estate
+276,I,271,millesimo centesimo sepluazesimo sexto,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; rogadia; commendacio; vadimonium,object: rogadia/commendacio
+277,I,272,millesimo centesimo sepluagesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+278,I,273,millesimo centesimo septuagesimo sexto,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; prestitum; manifestacionis cartula; vadimonium,object: caucio/loan
+279,I,274,millesimo centesimo septuagesimo sexlo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; investicio,object: other
+280,I,275,millesimo centesimo septuagesimo sexto,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+281,I,276,millesimo centesimo sepluagesimo seplimo,Rivoalto,other,manifestacionis cartula; investicio; de quinque sex,donatio (magnus donacionis titulus)
+282,I,278,millesimo centesimo septuagesimo septimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra; de quinque sex,object: caucio/loan
+283,I,278,millesimo centesimo septuagesimo,Rivoalto,promissio — Promittens promitto,prestitum; caucio; salvum in terra; de quinque sex,—
+284,I,279,millesimo centesimo sepluagesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+285,I,281,millesimo centesimo septuagesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+286,I,281,millesimo cenlesimo sepluagesimo seplimo,hivoalto,commissio — Committens committo,—,—
+287,I,282,millesimo centesimo septuagesimo seplimo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+288,I,283,"""Jd Domini millesimo centesimo septuagesimo seplimo",hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; caucio; vadimonium; salvum in terra,object: caucio/loan
+289,I,284,millesimo centesimo septuagesimo oclavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+290,I,285,millesimo centesimo sepluagesimo oclavo,hivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+291,I,286,millesimo centesimo sepluagesimo oclavo,ladere,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+292,I,287,"millesimo centesimo septuagesimo oclavo, mer:e madii",Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+293,I,288,millesimo centesimo sepluagesimo seplimo,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); manifestacionis cartula; vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+294,I,289,millesimo cenlesimo septuagesimo oclavo,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+295,I,291,millesimo centesimo septuagesimo octavo,Rivoaltlo,commissio — Committens committo,—,—
+296,I,291,millesimo,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+297,I,292,millesimo cenlesimo septuagesimo oclavo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+298,I,293,millesimo centesimo sepluage nostri Ihesu Christi,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: promissio
+299,I,294,millesimo centesimo sepluagzesimo nono,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+300,I,295,millesimo centesimo septuagesimo nono,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: other
+301,I,296,millesimo centesimo sepluagesimo octavo,Hivoalto [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+302,I,297,millesimo centesimo septuagesimo Ihesu Christi,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+303,I,298,millesimo centesimo septuagesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+304,I,300,millesimo centesimo septuagesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+305,I,300,millesimo aprilis,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+306,I,302,millesimo centesimo septuagesimo nono,hivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+307,I,303,millesimo centesimo septuagesimo nono,Rivoallo,testificatio — Testificor / Testificamur,prestitum; manifestacionis cartula; de quinque sex,—
+308,I,304,millesiaugusti,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,compagnia; salvum in terra,"kind: loan (prestitum, fixed return, safe on land)"
+309,I,305,millesi,Achon,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+310,I,306,Domin mo centesimo sepluagesimo nono,Xchon,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+311,I,307,millesimo centesimo septuagesimo nono,Rivoallo,testificatio — Testificor / Testificamur,—,—
+312,I,308,millesimo centesimo septuagesimo nono,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+313,I,309,millesimo centesimo septuagesimo nono,Rivoalto,testificatio — Testificor / Testificamur,—,—
+314,I,309,millesimo cenlesimo septuagesimo nono,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; prestitum; caucio; vadimonium; salvum in terra,object: caucio/loan
+315,I,311,millesimo centesimo octuagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: other
+316,I,313,millesimo centesimo octuagesimo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+317,I,313,"mille: mo centesimo, ocluagesimo",Padua,promissio — Promittens promitto,—,—
+318,I,314,millesimo centesimo octuagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+319,I,315,millesimo centesimo sepluagesimo,Rivoalto,promissio — Promittens promitto,manifestacionis cartula; salvum in terra,—
+320,I,316,.NR,Rivoalto,testificatio — Testificor / Testificamur,—,—
+321,I,317,millesimo centesimo octuagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex; ad negociandum,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+322,I,318,millesimo centesimo octuagesimo,hivoalto,commissio — Committens committo,—,—
+323,I,319,.NR,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; ad negociandum,object: other
+324,I,320,millesimo iriter cum mei comitis el Rogeri priorem Boemie et Alberium recepi le centesimo Rivoalto,Venecia,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,—,kind: other acknowledgment
+325,I,321,millesimo centesimo octuagesimo,Tranes,commissio — Committens committo,caucio,—
+326,I,322,millesimo cenlesimo octuagesimo primo,Rivoalto,other,commendacio,—
+327,I,323,millesimo centesimo hoctuagesimo primo,Clugia,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,kind: declaration of debt/obligation
+328,I,324,millesimo centesimo octuagesimo primo,Rivoalto,promissio — Promittens promitto,—,—
+329,I,325,"millesimo centesimo octuagesimo primo, bris",Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+330,I,326,millesimo centesimo octuagesimo primo,Rivoalto,testificatio — Testificor / Testificamur,compagnia,—
+331,I,326,millesimo centesimo octuagesimo secundo,Alexandria,testificatio — Testificor / Testificamur,—,—
+332,I,328,millesimo centesimo octuagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; commendacio; caucio; vadimonium; salvum in terra,object: caucio/loan
+333,I,329,millesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio; salvum in terra,object: caucio/loan
+334,I,330,millesimo centesimo ocluagesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; compagnia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+335,I,331,millesimo centesimo octuagesimo secundo,Alexandria,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+336,I,332,millesimo centesimo octuagesimo secundo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+337,I,333,millesimo centesimo octuagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; capitanea salva; profit share,"discharges a contract placing capital with a trader (markers: IACT,PS); STRATUM R"
+338,I,334,millesimo centesimo oclagesimo lercio,Rivoalto,testificatio — Testificor / Testificamur,—,—
+339,I,335,millesimo centesimo octuagesimo lercio,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio; vadimonium,object: caucio/loan
+340,I,336,ce incarnalionis millesimo centesimo octuagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,kind: deposit (sine ullo prode)
+341,I,337,millesimo centesimo octuagesimo tercio,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; rogadia; commendacio; manifestacionis cartula; vadimonium; salvum in terra,object: other
+342,I,338,millesimo centesimo octuagesimo tercio,Rivoalto,commissio — Committens committo,—,—
+343,I,339,millesimo centesimo octuagesimo tercio,Rivaalto [read by fallback],manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+344,I,340,millesimo centesimo ocluagesimo tercio,Constantinopoli,promissio — Promittens promitto,—,—
+345,I,341,millesimo centesimo octuagesimo tercio,Rivoalto,testificatio — Testificor / Testificamur,salvum in terra,—
+346,I,342,.mcrxxxmr.,.NR,other,—,mainland instrument: oath to pay a debt
+347,I,343,millesimo centesimo octuagesimo quarto,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+348,I,343,millesimo centesimo octuagesimo quarto,Constantinopoli,testificatio — Testificor / Testificamur,salvum in terra,—
+349,I,344,millesimo centesimo octuagesimo quarto,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+350,I,345,millesimo centesimo octuagesimo quarto,Achon,testificatio — Testificor / Testificamur,—,—
+351,I,346,millesimo centesimo octuagesimo quarto,Rivoalto,testificatio — Testificor / Testificamur,—,—
+352,I,347,millesimo centesimo octuagesimo quarto,Constantinopoli,testificatio — Testificor / Testificamur,—,—
+353,I,347,"millesimo centesimo octuagesimo quarlo, terciodecimo",Stives,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,investicio; capitanea salva; profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+354,I,349,millesimo centesimo octuagesimo bruarii,Rivoalto,testificatio — Testificor / Testificamur,—,—
+355,I,350,millesimo centesimo octuagesimo quinio,Clugia,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; manifestacionis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+356,I,351,millesimo centesimo octuagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+357,I,352,millesimo centesimo octuagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); rogadia (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+358,I,353,millesimo cenlesimo octuagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+359,I,353,"bris, millesimo centesimo octuagesimo quinto",Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+360,I,354,centesimo octuagesimo | quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+361,I,355,millesimo centesimo octagesimo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+362,I,356,millefebruarii,Constantinopoli,testamentum — testamentary disposition,—,—
+363,I,358,millemo centesimo octuagesimo sexto,Constantinopoli,testificatio — Testificor / Testificamur,—,—
+364,I,358,millesimo *enlcsimo ocluagesimo septimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+365,I,359,millesimo cenlesimo oclagesimo septimo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+366,I,360,millesimo centesimo octuagesimo oclavo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; vadimonium,object: compagnia
+367,I,361,millesimo centesimo octuagesimo oclavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+368,I,362,millesimo cenlesimo ocluagesimo oclavo,Constantinopoli,testificatio — Testificor / Testificamur,—,—
+369,I,363,millesimo centesimo octuagesimo oclavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+370,I,364,millesimo centesimo oclagesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; ad negociandum,object: other
+371,I,365,millesimo centesimo octuagesimo oclavo,Conslantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio,object: general/estate
+372,I,365,millesimo centesimo octuagesimo octavo,Constantinopoli,testificatio — Testificor / Testificamur,—,—
+373,I,367,millesimo centesimo octuagesimo nono,Murianis,commissio — Committens committo,—,—
+374,I,367,quielanza di Piero Airadi a Romano Mairano per perere. Domini millesimo centesimo octuagesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+375,I,368,millesimo centesimo octuagesimo nono,Conslantinopli,testificatio — Testificor / Testificamur,—,—
+376,I,369,millesimo centesimo ocluagesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,de quinque sex,object: other
+377,I,370,mi lesimo centesimo nonagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+378,I,371,millesimo centesimo nonagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+379,I,372,ce incarnalionis millesimo centesimo nonagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+380,I,373,millesimo centesimo nonagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+381,I,374,millesimo centesimo nonagesimo,Tiri,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+382,I,375,millesimo centesimo nonagesimo,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+383,I,376,millesimo centesimo nonagesimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+384,I,377,millesimo centesimo nonagesimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+385,I,378,millesimo centesimo no Conslantinopoli,Conslantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+386,I,379,millesimo centesimo nonagesimo,Conslantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+387,I,380,millssimo centesimo nonagesimo,Conslanlinopoli [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: other
+388,I,381,millesimo centesimo nonagesimo,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+389,I,382,millesimo centesimo nonagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+390,I,383,millesimo centesimo nona simo,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+391,I,384,millesimo centesimo nonagesimo,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+392,I,385,millesimo cenlesimo nonagesimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: other
+393,I,386,* nostri millesimo centesimo nonagesimo,Hivoalto [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+394,I,387,ce incarnationis millesimo centesimo nonagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+395,I,387,millesimo centesimo 1191 nonagesimo,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+396,I,388,millesimo centesimo nonagesimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio,object: general/estate
+397,I,389,millesimo centesimo nonagesimo,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT); STRATUM R"
+398,I,390,millesimo centesimo nonagesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; prestitum,object: caucio/loan
+399,I,391,Domin: millesimo centesimo nonagesimo primo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+400,I,392,millesimo centesimo nonagesimo primo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT); STRATUM R"
+401,I,393,millesimo centesimo nonagesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: IACT); STRATUM R
+402,I,394,millesimo centesimo nonagesimo primo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: sentence/judgment
+403,I,395,millesimo centesimo nonagesimo primo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+404,I,396,millesimo centesimo nonagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT); STRATUM R"
+405,I,397,millesimo centesimo nonagesimo secundo,Hivoallo [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT); STRATUM R"
+406,I,398,millesimo cenlesimo nonagesimo secundo,Rivoalto,commissio — Committens committo,—,—
+407,I,398,milleX!-XIil simo centesimo nonagesimo secundo,Rivoalto,testificatio — Testificor / Testificamur,—,—
+408,I,399,ce incarnaülionis millesimo centesimo nonagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: sentence/judgment
+409,I,400,millesimo centesimo nonagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; investicio; ad negociandum,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+410,I,401,millesimo centesimo nonagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+411,I,402,millesimo centesimo nonagesimo secundo,Tiro,promissio — Promittens promitto,—,—
+412,I,403,millesimo centesimo nonagesimo secundo,Tyro,promissio — Promittens promitto,salvum in terra,—
+413,I,404,millesimo centesimo nonagesimo secundo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio; memorialis cartula; ad negociandum,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+414,I,405,millesimo centesimo nonagesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; rogadia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+415,I,406,millesimo centesimo septuagesimo nono,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+416,I,407,millesimo centesimo nonagesimo secundo,Torcello,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+417,I,408,Domin millesimo centesimo nonagesimo lercio,Plathenea,testificatio — Testificor / Testificamur,—,—
+418,I,409,millesimo centesimo nonagesimo lercio,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+419,I,410,millesimo centesimo nonagesimo tercio,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio; prestitum; vadimonium,object: general/estate
+420,I,411,millesimo centesimo nonagesimo lerceio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; capitanea salva; profit share,discharges a contract placing capital with a trader (markers: PS); STRATUM R
+421,I,413,millesimo cenlesimo nonagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,object: general/estate
+422,I,414,millesimo centesimo nonagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio; vadimonium,object: other
+423,I,414,millesimo centesimo nonagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+424,I,415,millesimo centesimo nonagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula; investicio,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+425,I,417,millesimo centesimo nonagesimo quarlo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: promissio
+426,I,418,millesimo centesimo nonagesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+427,I,419,millesimo centesimo nonagesimo quinto,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+428,I,420,"millesimo centesimo nonagesimo quinto, mese novembris",Rivoaito [read by fallback],testificatio — Testificor / Testificamur,—,—
+429,I,420,millesimo centesimo nonagesimo quinto,Rivoalto,testificatio — Testificor / Testificamur,de quinque sex,—
+430,I,422,millesimo centesimo nonagesimo septimo,Laureto,commissio — Committens committo,—,—
+431,I,422,nalivilalis millesimo . monagesimo .vm. Liagaro et Ius ne .xv,.NR,commissio — Committens committo,—,—
+432,I,423,millesimo centesimo nonagesimo seplimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+433,I,424,millesimo centesimo nonagesimo septimo,Rivoalto,testificatio — Testificor / Testificamur,prestitum; caucio,—
+434,I,425,millesimo centesimo nonagesimo septimo,Rivoalto,testificatio — Testificor / Testificamur,prestitum; caucio,—
+435,I,427,millesimo centesimo nonagesimo septimo,Rivoalto,testificatio — Testificor / Testificamur,prestitum; caucio,—
+436,I,429,Millesimo centesimo nonagesimo septimo,.NR,vendicio — vendo / vendidi,de quinque sex,—
+437,I,430,millesimo centesimo nonagesimo seplimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; memorialis cartula; ad negociandum,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+438,I,430,millesimo cenlesimo nonagesimo oclavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+439,I,431,millesimo centesimo nonagesimo octavo,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+440,I,432,millesimo centesimo nonagesimo Anno octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+441,I,433,millesimo centesimo nonagesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+442,I,434,millesimo centesimo nonagesimo nono,Rivoalto,vendicio — vendo / vendidi,—,—
+443,I,435,millesimo centesimo nonagesimo nono,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+444,I,436,millesimo centesimo nonagesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+445,I,437,millesimo centesimo nonagesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+446,I,437,millesimo centesimo nonagesimo nono,Rivoallo,testificatio — Testificor / Testificamur,collegantia; rogadia,—
+447,I,438,millesimo ducentesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+448,I,439,millesimo ducentesimo,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+449,I,440,millesimo ducentesimo,Rivoalio [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+450,I,440,millesimo ducentesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+451,I,441,millesimo ducentesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+452,I,442,millesimo ducentesimo,Constantinopoli,testificatio — Testificor / Testificamur,—,—
+453,I,443,millesimo ducentesimo,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+454,I,444,millesimo ducentesimo,Suro,testificatio — Testificor / Testificamur,compagnia; societas,—
+455,I,445,millesimo ducenlesimo primo,.NR,testificatio — Testificor / Testificamur,societas,—
+456,I,446,millesimo ducentesimo primo,Constaniinopoli [read by fallback],securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+457,I,447,millesimo ducentesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+458,I,447,millesimo ducentesimo primo,Rivoalo,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+459,I,448,millesimo ducenlesimo primo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; prestitum; memorialis cartula; manifestacionis cartula; de quinque sex,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+460,I,450,millesimo ducentesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+461,I,451,millesimo ducentesimo secundo,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+462,I,452,.NR,.NR,other,—,record before the doge: debtor obligation
+463,I,453,millesimo ducentesimo tercio,Accon,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+464,I,454,mille mo ducentesimo quarlo,Rivoallo,testificatio — Testificor / Testificamur,caucio,—
+465,I,455,millesimo ducentesimo quarto,Constantinopoli,commissio — Committens committo,—,—
+466,I,456,millesimo ducentesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: sentence/judgment
+467,II,3,millesimo ducentesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+468,II,4,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,compagnia; profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+469,II,5,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+470,II,6,millesimo ducentesimo quinto,Rivoalto,commissio — Committens committo,—,—
+471,II,7,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+472,II,7,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; salvum in terra; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+473,II,8,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,manifestacionis cartula; maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+474,II,10,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+475,II,11,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,societas; profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+476,II,12,millesimo ducentesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+477,II,13,millesimo ducentesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; salvum in terra; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+478,II,14,millesimo ducentesimo sexio,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,investicio; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+479,II,15,millesimo ducentesimo sexto,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,investicio; profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+480,II,16,millesimo ducentesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+481,II,19,millesimo ducentesimo sexto,Constantinopoli,promissio — Promittens promitto,—,—
+482,II,20,millesimo ducentesimo sexto,Rivoalto,commissio — Committens committo,—,—
+483,II,20,millesimo ducentesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+484,II,21,millesimo ducentesimo sepiimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+485,II,22,millesimo ducentesimo septimo,Rivoalto,promissio — Promittens promitto,mutuum,—
+486,II,24,millesimo ducentesimo septimo,Rivoalto,commissio — Committens committo,prestitum,—
+487,II,25,millesimo ducentesimo septimo,Constantinopoli,commissio — Committens committo,commendacio; caucio,—
+488,II,26,e C espe (ii e ase Domini millesimo ducentesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+489,II,29,millesimo ducentesimo seplimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+490,II,30,"cima, millesimo ducentesimo septimo",Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+491,II,31,millesimo ducentesimo septimo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,collegantia; capitanea salva; profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+492,II,32,millesimo ducentesimo sep!imo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+493,II,34,millesimo ducentesimo septimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio; caucio,object: other
+494,II,35,millesimo ducentesimo octavo,Rivoallo,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; manifestacionis cartula; ad negociandum,object: other
+495,II,36,millesimo ducentesimo ducentesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+496,II,37,millesimo ducentesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+497,II,38,millesimo ducentesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+498,II,39,millesimo ducentesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+499,II,39,millesimo ducentesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; de quinque sex,object: caucio/loan
+500,II,40,millesimo ducentesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+501,II,41,millesimo ducentesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+502,II,42,millesimo ducentesimo octavo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+503,II,43,millesimo ducentesimo octavo,Committens [read by fallback],commissio — Committens committo,—,—
+504,II,44,millesimo ducentesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: general/estate
+505,II,44,millesimo ducentesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+506,II,45,millesimo ducentesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+507,II,46,millesimo ducentesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+508,II,47,millesimo ducentesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+509,II,48,millesimo ducentesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+510,II,49,millesimo duodecima,Rivoalto,commissio — Committens committo,manifestacionis cartula; salvum in terra,—
+511,II,50,millesimo ducentesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+512,II,51,millesimo ducentesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+513,II,52,millesimo ducentesimo nono,Accon,other,—,declaration about a house built in Tyre
+514,II,53,millesimo ducentesimo nono,Accon,testificatio — Testificor / Testificamur,manifestacionis cartula; salvum in terra,—
+515,II,55,millesimo ducentesimo nono,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+516,II,55,A. Domini millesimo ducentesimo nono,Candida,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+517,II,57,millesimo ducentesimo nono,Constantinopoli,testificatio — Testificor / Testificamur,maris et gentis,—
+518,II,57,millesimo ducentesimo decimo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; salvum in terra; de quinque sex; ad negociandum,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+519,II,59,millesimo ducentesimo decimo,Constantinopoli,commissio — Committens committo,collegantia,—
+520,II,60,millesi mo ducentesimo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,societas; caucio; ad negociandum,object: caucio/loan
+521,II,61,millesimo ducentesimo decimo,Acre,testificatio — Testificor / Testificamur,manifestacionis cartula; salvum in terra,—
+522,II,63,millesimo ducentesimo decimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+523,II,64,millesimo ducentesimo decimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+524,II,65,millesimo ducentesimo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+525,II,65,millesimo ducentesimo decimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+526,II,66,millesimo ducentesimo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+527,II,67,millesimo ducentesimo decimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+528,II,68,millesimo ducentesimo decimo,Rivoalto,testificatio — Testificor / Testificamur,investicio,—
+529,II,69,millesimo ducentesimo undecimo,Tyro,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+530,II,70,millesimo ducentesimo undecimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio; prestitum; caucio; vadimonium; ad negociandum,object: caucio/loan
+531,II,71,millesimo ducentesimo undecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+532,II,72,millesimo ducentesimo undecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+533,II,73,milleimo ducentesimo undecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,compagnia; investicio; profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+534,II,74,millesimo ducentesimo undecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+535,II,75,millesimo duecentesimo undecimo,Rivoalto,testamentum — testamentary disposition,—,—
+536,II,77,millesimo ducentesimo undecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: general/estate
+537,II,78,millesimo ducentesimo undecimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+538,II,79,millesimo ducentesimo duodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; memorialis cartula,"discharges a contract placing capital with a trader (markers: COLL,IACT); STRATUM R"
+539,II,81,.NR,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,discharges a contract placing capital with a trader (markers: FORM); STRATUM R; opening lost or displaced in the OCR
+540,II,82,millesimo ducenlesimo duodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; compagnia; rogadia; commendacio; prestitum; caucio; vadimonium,object: general/estate
+541,II,84,millesimo ducentesimo duodecimo,Constantinopoli,commissio — Committens committo,caucio; ad negociandum,—
+542,II,84,millesimo ducentesimo duodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+543,II,85,millesimo ducentesimo duodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; manifestacionis cartula,object: other
+544,II,87,.NR,Brundisii,sentencia / iudicium — judges or doge sitting,prestitum,—
+545,II,89,millesimo ducentesimo terciodecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+546,II,90,millesimo ducentesimo tercio decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio; salvum in terra,object: caucio/loan
+547,II,91,millesimo ducentesimo tertiodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+548,II,92,millesimo ducentesimo tercio decimo,Rivoalto,commissio — Committens committo,—,—
+549,II,92,millesimo ducenlesimo tercio decimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+550,II,93,millesimo ducentesimo terciodecimo,Rivoalto,commissio — Committens committo,—,—
+551,II,94,millesimo ducentesimo terciodecimo,Corone,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+552,II,95,millesimo .ccxmm. et temporibus Innocentii pape et Ottonis imperatoris,Arimino,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,—,"kind: loan (mutuum, mainland form)"
+553,II,96,millesimo ducentesimo quartodecimo,hivoalto,testificatio — Testificor / Testificamur,—,—
+554,II,96,millesimo ducentesimo quartodecimo,hivoalto,testificatio — Testificor / Testificamur,compagnia; manifestacionis cartula; ad negociandum,—
+555,II,98,millesimo ducentesimo quartodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+556,II,99,millesimo ducentesimo quarto decimo,Rivoalto,sentencia / iudicium — judges or doge sitting,compagnia; manifestacionis cartula; investicio; ad negociandum,—
+557,II,100,millesimo ducentesimo quarto decimo,Rivoalto,testificatio — Testificor / Testificamur,compagnia; manifestacionis cartula; investicio; ad negociandum,—
+558,II,101,millesimo ducentesimo quarto decimo,Candida,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+559,II,102,millesimo ducentesimo quinto decimo,Nigroponti,testamentum — testamentary disposition,collegantia,—
+560,II,104,millesimo ducentesimo quinto decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+561,II,105,millesimo ducentesimo quintodecimo,.NR,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,mutuum,"kind: loan (mutuum, mainland form)"
+562,II,105,millesimo ducentesimo quintodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+563,II,106,millesimo ducentesimo quintodecimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause); caucio; manifestacionis cartula; vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+564,II,107,millesimo ducentesimo sexto decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+565,II,108,millesimo ducentesimo sextodecimo,Candida,commissio — Committens committo,—,—
+566,II,109,millesimo ducenlesimo septimodecimo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+567,II,110,millesimo ducentesimo seplimo decimo,Candida,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; manifestacionis cartula; ad negociandum,object: sentence/judgment
+568,II,111,millesimo ducentesimo septimo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; profit share,discharges a contract placing capital with a trader (markers: PS); STRATUM R
+569,II,112,millesimo ducentesimo seplimodecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+570,II,113,millesimo ducentesimo septimodecimo,Rivoalto,commissio — Committens committo,—,—
+571,II,114,millesimo ducentesimo septimodecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+572,II,115,millesimo ducentesimo septimodecimo,Constantinopoli,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio; investicio,object: caucio/loan
+573,II,116,millesimo ducenlesimo octavodecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+574,II,117,millesimo ducentesimo octavo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+575,II,117,millesimo ducentesimo octavo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio,object: caucio/loan
+576,II,118,millesimo ducentesimo oclavo decimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,—,kind: grant/donation (manifestum facio ... do)
+577,II,119,millesimo ducentesimo octavodecimo,Rivoallo,commissio — Committens committo,—,—
+578,II,120,millesimo ducentesimo octavodecimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+579,II,120,nalivitatis eiusdem millesimo ducenlesimo decimo octavo,.NR,other,—,mainland: cession of a credit
+580,II,121,millesimo ducentesimo decimo octavo,.NR,other,—,mainland: cession of a right
+581,II,122,millesimo ducentesimo octavo decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; manifestacionis cartula; investicio; ad negociandum,"discharges a contract placing capital with a trader (markers: FORM,IACT,MANUAL); STRATUM R"
+582,II,124,millesimo ducentesimo octavodecimo,Nigroponte,testificatio — Testificor / Testificamur,—,—
+583,II,125,millesimo ducentesimo nono decimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+584,II,125,millesimo ducentesimo nono decimo,Rivoalto,sentencia / iudicium — judges or doge sitting,—,—
+585,II,126,millesimo ducentesimo nono decimo,Rivoalto,commissio — Committens committo,—,—
+586,II,127,millesimo ducentesimo nono decimo,Rivoalto,testificatio — Testificor / Testificamur,manifestacionis cartula,—
+587,II,128,millesimo ducentesimo vigesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+588,II,129,millesimo ducentesimo vigesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+589,II,129,millesimo ducentesimo vigesimo,Pernumia,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,mutuum,"kind: loan (mutuum, mainland form)"
+590,II,130,millesimo ducentesimo vigesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia,object: compagnia
+591,II,131,millesimo ducentesimo vigesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+592,II,132,millesimo ducentesimo vigesimo,Crete,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+593,II,133,millesimo ducentesimo vigesimo,Rivoalto,testificatio — Testificor / Testificamur,ad negociandum,—
+594,II,133,millesimo ducentesimo vigesimo primo,Candida,commissio — Committens committo,manifestacionis cartula,—
+595,II,134,millesimo ducentesimo vigesimo primo,Rivoalto,testamentum — testamentary disposition,commendacio,—
+596,II,136,millesimo ducenlesimo vigesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+597,II,137,millesimo ducentesimo vigesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+598,II,138,millesimo ducentesimo [vigesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+599,II,140,millesimo ducentesimo vigesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: other
+600,II,141,millesimo ducentesimo vicesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+601,II,141,millesimo ducentesimo vigesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+602,II,142,millesimo ducentesimo vigesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+603,II,143,millesimo ducentesimo vigesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+604,II,144,millesimo ducentesimo vigesimo lercio,hivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+605,II,145,millesimo ducentesimo vigesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+606,II,146,millesimo ducentesimo vigesimo tercio,Candida,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+607,II,147,millesimo ducentesimo vigesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+608,II,148,millesimo ducentesimo vigesimo tercio,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,—,kind: grant/donation (manifestum facio ... do)
+609,II,148,millesimo ducentesimo vicesimo tercio,Accon,commissio — Committens committo,investicio,—
+610,II,149,lì A. Domini millesimo ducentesimo vigesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,memorialis cartula,object: colleganza
+611,II,150,"incarnalionis eiusdem millesimo ducentesimo vicesimo quarto, duodecimo",.NR,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis,"kind: agency (to invest for the giver, no profit share); STRATUM B"
+612,II,151,millesimo ducentesimo vigesimo lercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; manifestacionis cartula,object: caucio/loan
+613,II,153,millesimo ducentesimo vigesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+614,II,154,millesimo ducentesimo vigesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+615,II,155,miliesimo ducentesimo vicesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+616,II,156,millesimo ducentesimo vigesimo quarto,Candida,commissio — Committens committo,investicio,—
+617,II,156,millesimo ducentesimo vigesimo quarlo,Candida,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; salvum in terra,object: general/estate
+618,II,157,millesimo ducentesimo vigesimo quarto,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+619,II,158,millesimo ducentesimo vigesimo quarlo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+620,II,159,millesimo ducentesimo vigesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+621,II,160,.NR,.NR,breve recordacionis — Breve recordacionis facimus,commendacio,—
+622,II,160,millesimo ducentesimo vigesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+623,II,161,millesimo ducentesimo vigesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause); vadimonium (general clause),general quittance (de omnibus); contract terms in a general clause only
+624,II,162,millesimo ducentesimo vigesimo quinto,Rivoalto,testificatio — Testificor / Testificamur,—,—
+625,II,163,millesimo ducentesimo vigesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: other
+626,II,165,millesimo ducentesimo vigesimo sexto,Rivoalto,testificatio — Testificor / Testificamur,investicio; ad negociandum,—
+627,II,166,millesimo ducentesimo vigesimo sexlo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+628,II,167,millesimo ducentesimo vigesimo sexto,Candida,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; salvum in terra,object: caucio/loan
+629,II,168,millesimo ducentesimo vigesimo sexto,Rivoalto,testificatio — Testificor / Testificamur,—,—
+630,II,169,millesimo ducentesimo vigesimo sexto,Rivoalto,testificatio — Testificor / Testificamur,caucio; ad negociandum,—
+631,II,170,millesimo ducentesimo vigesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: sentence/judgment
+632,II,170,millesimo ducenlesimo vigesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+633,II,171,millesimo ducentesimo vigesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+634,II,172,millesimo ducentesimo vigesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+635,II,173,millesimo ducentesimo vigesimo septimo,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+636,II,174,millesimo ducentesimo vicesimo seplimo,Accon,testamentum — testamentary disposition,collegantia; societas,—
+637,II,178,millesimo ducentesimo vigesimo septimo,Veneciis,sentencia / iudicium — judges or doge sitting,—,—
+638,II,179,millesimo ducentesimo vigesimo septimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: general/estate
+639,II,179,m.cc.xxvm,.NR,other,—,mainland instrument: joint obligation/surety
+640,II,180,millesimo ducentesimo vicesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: general/estate
+641,II,181,millesimo ducentesimo vigesimo octavo,Rivoalto,commissio — Committens committo,—,—
+642,II,181,millesimo ducentesimo vigesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio; investicio,object: caucio/loan
+643,II,182,millesimo ducentesimo vigesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+644,II,183,millesimo ducentesimo vigesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+645,II,184,millesimo .ccxxvm,Veneciis,other,—,"communal act, Iustinopolis"
+646,II,185,millesimo ducentesimo vigesimo nono,Crete,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+647,II,185,millesimo ducentesimo vigesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+648,II,186,millesimo ducentesimo trigesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+649,II,187,millesimo ducentesimo] trigesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum,object: caucio/loan
+650,II,188,millesimo ducentesimo trigesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+651,II,189,millesimo ducentesimo tricesimo,Rivoalto,testificatio — Testificor / Testificamur,manifestacionis cartula; investicio,—
+652,II,190,m.cc.xxx1,Tarvisii,sentencia / iudicium — judges or doge sitting,—,—
+653,II,191,millesimo ducentesimo tricesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+654,II,192,"millesimo ducentesimo, trigesimo primo",Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+655,II,192,millesimo ducentesimo tricesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+656,II,193,millesimo ducentesimo tricesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+657,II,194,millesimo ducentesimo tricesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+658,II,195,millesimo ducentesimo tricesimo primo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,mutuum; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+659,II,196,millesimo .ccxxxn,Senogallie,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,mutuum,"kind: loan (mutuum, mainland form)"
+660,II,197,.m.,Venecia,promissio — Promittens promitto,—,—
+661,II,198,millesimo ducentesimo trigesimo secundo,Rivoalto,testamentum — testamentary disposition,collegantia,—
+662,II,200,millesimo ducentesimo trigesimo secundo,Constantinopoli,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+663,II,201,millesimo ducentesimo tricesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,manifestacionis cartula; profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+664,II,202,millesimo ducentesimo tricesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+665,II,203,millesimo ducentesimo tricesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+666,II,204,millesimo ducentesimo tricesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+667,II,204,millesimo ducentesimo] trigesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+668,II,205,millesimo ducentesimo tricesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+669,II,206,millesimo ducentesimo nono,.NR,breve recordacionis — Breve recordacionis facimus,commendacio; caucio; manifestacionis cartula,—
+670,II,207,millesimo ducentesimo tricesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,—,"kind: loan (prestitum, fixed return, safe on land)"
+671,II,208,millesimo ducentesimo trigesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+672,II,209,millesimo ducentesimo tricesimo tercio,Clugia,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+673,II,210,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+674,II,210,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+675,II,211,millesimo ducentesimo tri nostri Ihesu Christi,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+676,II,212,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+677,II,213,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+678,II,214,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+679,II,214,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+680,II,215,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+681,II,216,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+682,II,217,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+683,II,218,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+684,II,219,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+685,II,220,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+686,II,220,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+687,II,221,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+688,II,222,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,societas; profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+689,II,223,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+690,II,224,millesimo ducentesimo tricesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+691,II,225,millesimo ducentesimo trigesimo quarto,Constantinopoli,promissio — Promittens promitto,—,—
+692,II,226,millesimo ducentesimo] +,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+693,II,227,millesimo ducentesimo trigesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+694,II,227,millesimo ducentesimo tricesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+695,II,228,millesimo ducentesimo tricesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+696,II,229,millesimo ducentesimo tricesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+697,II,230,millesimo ducentesimo tricesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,manifestacionis cartula,kind: guardianship (tutela)
+698,II,231,.NR,.NR,other,—,mainland: cattle received (livestock lease)
+699,II,232,"millesimo ducentesimo, tricesimo quinto",Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+700,II,232,millesimo ducentesimo tricesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+701,II,233,millesimo ducentesimo tricesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+702,II,234,.NR,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: other; opening lost or displaced in the OCR
+703,II,235,millesimo ducentesimo tricesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,caucio; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+704,II,235,millesimo ducentesimo tricesimo sexto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,rogadia; manifestacionis cartula; portando mandando,"discharges a contract placing capital with a trader (markers: FORM,MANUAL); STRATUM R"
+705,II,236,millesimo ducentesimo tricesimo sexlo,Rivoalto,commissio — Committens committo,investicio,—
+706,II,237,millesimo ducentesimo tricesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+707,II,238,millesimo ducentesimo trigesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+708,II,239,millesimo ducentesimo tricesimo seplimo,Rivoalto,commissio — Committens committo,—,—
+709,II,239,millesimo ducentesimo tricesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+710,II,240,millesimo ducentesimo tricesimo octavo,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+711,II,242,millesimo ducentesimo tricesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+712,II,243,millesimo ducentesimo tricesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+713,II,243,millesimo ducentesimo tricesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+714,II,244,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+715,II,245,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+716,II,245,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+717,II,246,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+718,II,247,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+719,II,248,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+720,II,249,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+721,II,250,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+722,II,250,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+723,II,251,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+724,II,252,millesimo ducentesimo tricesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+725,II,253,millesimo ducentesimo tricesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+726,II,254,millesimo ducentesimo tricesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+727,II,255,millesimo ducentesimo tricesimo nono,Rivoalto,testificatio — Testificor / Testificamur,manifestacionis cartula; ad negociandum,—
+728,II,256,millesimo ducentesimo tricesimo nono,Rivoalto,testificatio — Testificor / Testificamur,ad negociandum; portando mandando,—
+729,II,256,millesimo ducentesimo tricesimo nono,Rivoalto,testificatio — Testificor / Testificamur,collegantia; ad negociandum; portando mandando,—
+730,II,257,millesimo ducentesimo tricesimo nono,Rivoalto,testificatio — Testificor / Testificamur,ad negociandum,—
+731,II,258,millesimo ducentesimo quadragesimo,Rivoalto,testamentum — testamentary disposition,collegantia,—
+732,II,260,millesimo ducentesimo quadragesimo,hivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,commendacio; investicio,object: other
+733,II,261,millesimo ducentesimo quadragesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+734,II,262,millesimo ducentesimo quadragesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+735,II,262,millesimo ducentesimo quadragesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+736,II,263,millesimo ducentesimo quadragesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,mutuum; caucio; manifestacionis cartula,object: caucio/loan
+737,II,264,millesimo ducentesimo quadragesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+738,II,265,millesimo ducentesimo quadragesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+739,II,266,millesimo ducentesimo quadragesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+740,II,268,millesimo ducentesimo quadragesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+741,II,269,millesimo ducentesimo quadragesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+742,II,269,millesimo ducentesimo quadragesimo primo,Rivoalto,commissio — Committens committo,caucio,—
+743,II,270,Dcmini millesimo ducentesimo quadragesimo primo,Rivoalto,other,collegantia,ducal/council act on a deceased debtor's creditors
+744,II,273,millesimo ducentesimo quadragesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+745,II,274,millesimo ducentesimo quadragesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+746,II,274,millesimo ducentesimo quadrages.mo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+747,II,275,millesimo ducentesimo quadragesimo secundo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+748,II,276,millesimo ducentesimo quadragesimo secundò,Tarvisii,sentencia / iudicium — judges or doge sitting,—,—
+749,II,277,millesimo ducentesimo quadragesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+750,II,278,millesimo ducentesimo quadragesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+751,II,279,millesimo ducentesimo quadragesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+752,II,280,millesimo ducentesimo quadragesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+753,II,281,millesimo ducentesimo quadragesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+754,II,282,millesimo ducentesimo quadragesimo secundo,Venecia,sentencia / iudicium — judges or doge sitting,—,—
+755,II,282,.NR,Tarvisii,other,—,ducal letter to the podestà of Treviso
+756,II,283,millesimo ducentesimo quadragesimo secundo,Nigroponte,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+757,II,284,millesimo ducentesimo quadragesimo secundo,Nigroponte,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+758,II,285,"millesimo ducentesimo .xL. tercio, temporibus Frederici imperatoris",Ariminio,vendicio — vendo / vendidi,societas; mutuum,—
+759,II,286,millesimo ducentesimo quadragesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+760,II,286,millesimo ducentesimo quadragesimo tercio,Tarvisio,commissio — Committens committo,mutuum,—
+761,II,288,millesimo ducentesimo quadragesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+762,II,288,millesimo ducentesimo quadragesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+763,II,289,"millesimo ducentesimo quadragesimo tercio, mensc augusli",Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+764,II,290,millesimo ducentesimo quadragesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+765,II,291,millesimo ducentesimo quadragesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: general/estate
+766,II,292,millesimo ducentesimo quadragesimo quarto,Beluno,commissio — Committens committo,tutela,—
+767,II,293,millesimo ducentesimo quadragesimo | quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+768,II,294,millesimo ducentesimo quadragesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex; tutela,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+769,II,295,millesimo ducentesimo quadragesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+770,II,296,Christi millesimo ducentesimo quadragesimo quario,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+771,II,296,Christi millesimo ducentesimo quadragesimo quarto,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+772,II,297,millesimo ducentesimo indicione Martinus Milliano habitator in tercia,Rivoalle,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+773,II,298,millesimo ducentesimo quadragesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; ad negociandum,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+774,II,299,millesimo ducentesimo quadragesimo quarto,insula Andre,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; caucio; salvum in terra,object: caucio/loan
+775,II,301,millesimo ducentesimo quadragesimo quarto,Vobis [read by fallback],commissio — Committens committo,commendacio; manifestacionis cartula,—
+776,II,301,millesimo ducentesimo quadragesimo quinto,Tunissi,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,maris et gentis; de quinque sex,"kind: sea loan / sea exchange (fixed sum, at the lender's peril at sea)"
+777,II,302,millesimo ducentesimo quadragesimo quinto,Tunissi,securitas — Plenam et irrevocabilem securitatem facio/mitto,caucio,object: caucio/loan
+778,II,304,"millesimo ducentesimo quadragesimo sexto, TT raense ianuarii",.NR,commissio — Committens committo,societas,—
+779,II,305,Thesu Christi millesimo ducentesimo quadragesimo sexto,Rivoalto,commissio — Committens committo,—,—
+780,II,306,millesimo ducentesimo quadragesimo sexto,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+781,II,307,millesimo ducentesimo quadragesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+782,II,308,millesimo ducentesimo quadragesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+783,II,309,millesimo ducentesimo quadragesimo sexto,Nigroponte,testificatio — Testificor / Testificamur,collegantia; caucio,—
+784,II,310,millesimo ducentesimo quadragesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,manifestacionis cartula; tutela,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+785,II,311,millesimo ducentesimo quadragesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+786,II,312,millesimo ducentesimo quadragesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+787,II,313,no stri Ihesu Christi millesimo ducentesimo quadragesimo septimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia,discharges a contract placing capital with a trader (markers: MANUAL); STRATUM R
+788,II,313,neducentesimo | quadragesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+789,II,314,millesimo ducentesimo quadragesimo .vm,Marola,other,mutuum,mainland pledge (iure pignoris)
+790,II,315,millesimo .cexLvm,.NR,other,—,mainland obligation
+791,II,315,millesimo ducentesimo quadragesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+792,II,316,millesimo ducentesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+793,II,317,millesimo ducentesimo quadragesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+794,II,318,miilesimo ducentesimo quadzagesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+795,II,318,Christi millesimo ducentesimo | quadragesimo octavo,Candida,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,mutuum; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+796,II,319,millesimo ducentesimo quadragesimo nono,Candida,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+797,II,320,incarnalione Domini nostri Ihesu Christi millesimo ducentesimo quadragesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+798,II,321,millesimo ducentesimo quadragesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+799,II,322,millesimo ducentesimo quinquagesimo,.NR,sentencia / iudicium — judges or doge sitting,—,—
+800,II,323,millesimo ducentesimo quinquagesimo,Rivoalto,testamentum — testamentary disposition,ad negociandum,—
+801,II,325,noducentesimo quinquagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+802,II,326,millesimo ducentesimo quinquagesimo,Rivoaito [read by fallback],manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+803,II,327,Christi millesimo ducentesimo quinquagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+804,II,328,millesimo ducentesimo tricesimo quarto,Rivoalto,other,societas,fragment: list of deeds (opening lost); opening lost or displaced in the OCR
+805,II,330,millesimo ducentesimo quinquagesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; investicio; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+806,II,332,millesimo duceniesimo quinquagesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+807,II,333,ducentesimo noquinquagesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+808,II,334,millesimo ducentesimo quinquagesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+809,II,335,millesimo ducentesimo quinquagesimo secundo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+810,II,336,millesimo ducentesimo quinquagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+811,II,337,Christi ducentesimo quinquagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+812,II,338,millesimo ducentesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+813,II,339,millesimo ducentesimo quinquagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+814,II,340,millesimo ducentesimo quinquagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+815,II,341,millesimo ducentesimo quinquagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+816,II,341,millesimo ducentesimo quinquagesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia; manifestacionis cartula,discharges a contract placing capital with a trader (markers: COLL); STRATUM R
+817,II,342,millesimo ducentesimo quinquagesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+818,II,343,millesimo ducentesimo quinquagesimo tercio,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+819,II,344,nomillesimo ducentesimo quinquagesimo tertio,.NR,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; ad negociandum; portando mandando,discharges a contract placing capital with a trader (markers: FORM); STRATUM R
+820,II,345,millesimo ducentesimo quinquagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+821,II,346,millesimo ducentesimo quinquagesimo tercio,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: ?
+822,II,347,millesimo ducentesimo quinquagesimo tercio,Rivoalto,testificatio — Testificor / Testificamur,manifestacionis cartula; profit share; maris et gentis; de quinque sex; ad negociandum,—
+823,II,350,millesimo ducentesimo quinquagesimo quarto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula,object: other
+824,II,351,millesimo ducentesimo quinquagesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+825,II,352,millesimo ducentesimo quinquagesimo quarto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+826,II,353,a nativitate eius millesimo ducentesimo quinquagesimo quinto,.NR,commissio — Committens committo,—,—
+827,II,354,millesimo ducentesimo quinquagesimo quinto,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+828,II,355,millesimo ducentesimo quinquagesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+829,II,356,millesimo ducentesimo quinquagesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+830,II,357,millesimo ducentesimo quinquagesimo quinto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,de quinque sex,kind: declaration of debt/obligation
+831,II,357,millesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+832,II,358,millesimo ducentesimo quinquagessimo sexto,.NR,other,—,mainland obligation
+833,II,359,Christi millesimo ducentesimo quinquagesimo sexto,Thebis,commissio — Committens committo,manifestacionis cartula,—
+834,II,360,Christi millesimo ducentesimo quinquagesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+835,II,361,noducentesimo quinquagesimo sexto,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+836,II,362,millesimo ducentesimo quinquagesimo septimo,Rivoalto,testificatio — Testificor / Testificamur,manifestacionis cartula,—
+837,II,363,millesimo ducentesimo quinquagesimo septimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia,object: general/estate
+838,II,363,millesimo ducentesimo quinquagesimo seplimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+839,II,364,millesimo ducentesimo quinquagesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+840,II,365,millesimo ducentesimo quinquagesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+841,II,366,nosiri Ihesu Christi millesimo ducentesimo quinquagesimo septimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+842,II,366,amen. Anno ab incarnacione Domini nostri Ihesu Christi millesimo ducentesimo quinquagesimo seplimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+843,II,367,Christi millesimo ducentesimo quinquagesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+844,II,368,Christi millesimo ducentesimo quinquagesimo,Rivoalto,testificatio — Testificor / Testificamur,manifestacionis cartula; investicio; ad negociandum,—
+845,II,370,millesimo ducentesimo quinquagesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+846,II,371,Christi millesimo ducentesimo quinquagesimo oclavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: discretionary
+847,II,372,Christi millesimo ducentesimo quinquagesimo octavo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,collegantia (general clause); compagnia (general clause); rogadia (general clause); prestitum (general clause),general quittance (de omnibus); contract terms in a general clause only
+848,II,372,millesimo ducentesimo quinquagesimo octavo,Rivoalto,commissio — Committens committo,—,—
+849,II,373,[Domini nostri Ihesu Christi] millesimo ducentesimo quinquagesimo octavo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+850,II,374,millesimo ducentesimo quinquagesimo nono,.NR,commissio — Committens committo,—,—
+851,II,375,millesimo,Rivoalto,testificatio — Testificor / Testificamur,manifestacionis cartula; profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,—
+852,II,377,millesimo ducentesimo quinquagesimo nono,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,—,object: other
+853,II,379,millesimo ducentesimo quinquagesimo nono,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,prestitum; salvum in terra; de quinque sex,"kind: loan (prestitum, fixed return, safe on land)"
+854,II,380,millesimo ducentesimo sesagessimo,Rivoalto,commissio — Committens committo,—,—
+855,II,381,no- ‘stri Ihesu Christi millesimo ducentesimo sexagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; caucio; manifestacionis cartula,"discharges a contract placing capital with a trader (markers: FORM,IACT); STRATUM R"
+856,II,382,millesimo ducentesimo sexagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+857,II,383,millesimo ducentesimo sexagesimo,Candida,securitas — Plenam et irrevocabilem securitatem facio/mitto,prestitum; manifestacionis cartula; salvum in terra,object: caucio/loan
+858,II,384,millesimo ducentesimo sexagesimo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+859,II,385,millesimo ducentesimo sexagesimo,Rivoallo,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,profit share; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 3/4
+860,II,386,millesimo ducentesimo sexagesimo,Rivoalto,testamentum — testamentary disposition,—,—
+861,II,387,Christi millesimo ducentesimo sexagesimo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,compagnia; rogadia,object: compagnia
+862,II,388,millesimo ducentesimo sexagesimo primo,Rivoalto,manifestatio — Manifestus sum / Manifestum facio ... quia recepi; Accepi,compagnia; profit share; maris et gentis; de quinque sex; portando mandando,kind: capital to trade for a share of profit; STRATUM A; profit split read by script: 1/2
+863,II,389,"] Domini nostri Ihesu Christi millesimo ducentesimo sexagesimo primo, [",Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,ad negociandum,object: other
+864,II,391,millesimo ducentesimo sexagesimo primo,Rivoalto,securitas — Plenam et irrevocabilem securitatem facio/mitto,manifestacionis cartula; profit share; maris et gentis; de quinque sex; ad negociandum; portando mandando,"discharges a contract placing capital with a trader (markers: FORM,PS); STRATUM R"
+865,II,394,millesimo ducentesimo sexagesimo primo,Rivoalti,sentencia / iudicium — judges or doge sitting,—,—
