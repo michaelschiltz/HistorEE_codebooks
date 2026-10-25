@@ -1,0 +1,146 @@
+# Contributing — the coding manual
+
+This is *not boilerplate*. It is the coding protocol for the project. In a multi-member team the codebook is only  as trustworthy as the discipline behind it, so every contributor reads this before touching data.
+
+## 1. Golden rules
+
+1. **The CSV is canonical.** Never edit data in Excel and paste back — you will silently mangle encodings, dates, and leading zeros. Edit `data.csv` as text, or through a script. See `EDITING-CSV.md` for concrete VS Code workflows (plain text, Rainbow CSV, Edit CSV).
+2. **Never hand-edit `codebook.md`.** It is generated. Edit `datapackage.json` and run `python scripts/build_codebook.py`.
+3. **Each dataset is its own package.** Distinct corpora (different period, region, or source type — e.g. medieval Japanese registers vs. early modern Armenian ledgers) get their own folder under `datasets/`, each with its own `datapackage.json`, `data.csv`, and generated `codebook.md`. Do not merge unrelated corpora into one schema just because they share this repo; `build_codebook.py` regenerates every dataset folder it finds, so adding a new one is just adding a new folder. Start from `datasets/_template/` (§3) rather than copying an existing dataset — a real corpus carries fields specific to it that a new one should not inherit by accident.
+4. **No blank cells.** Absence is coded, never empty. See §4.
+5. **One decision, one commit.** Commit messages record *why*, not just *what*.
+6. **Sign your commits** (`git commit -S`). Attribution must be cryptographic, not merely a name string.
+
+## 2. Roles and attribution
+
+Contributors and roles are declared in `CITATION.cff`. Every observation carries a `coder` field naming the person who entered it. Interpretive decisions that are contestable additionally carry an `authority` note in the codebook. `git blame` is the backstop: it shows who changed which line, when, in which commit.
+
+| Role       | Responsibility                                                  |
+|------------|-----------------------------------------------------------------|
+| Maintainer | Owns the schema; approves merges to `main`; cuts releases.      |
+| Coder      | Enters and normalises data; documents decisions in the logbook. |
+| Reviewer   | Second pair of eyes on every PR touching data or schema.        |
+
+## 3. The workflow
+
+1. Branch from `main` (`git switch -c coding/<dataset>-<yourname>`).
+2. **New dataset?** Scaffold it from the template rather than writing `datapackage.json` from scratch:
+
+   ```sh
+   cp -r datasets/_template datasets/<dataset_name>
+   ```
+
+Fill in every `REPLACE_...` placeholder, and keep or delete each `TEMPLATE —` field depending on whether that pattern applies (full instructions in `datasets/_template/README.md`). The mandatory fields — `record_id`, `source_ref`, `source_lang`, `confidence`, `coder`, `notes` — are not optional patterns; every dataset carries them. For reference, here is an excerpt of the template showing the two kinds of field (the real, validated version lives at `datasets/_template/datapackage.json` — treat this as illustration, not the source of truth):
+
+   ```jsonc
+   {
+     "schema": {
+       "fields": [
+         // mandatory — every dataset keeps this as-is
+         { "name": "coder", "type": "string", "title": "Coder",
+           "constraints": { "required": true } },
+
+         // optional pattern — keep only if this dataset has monetary
+         // amounts; rename example_amount_original -> amount_original, etc.
+         { "name": "example_amount_original", "type": "number",
+           "title": "TEMPLATE — Amount (as written)",
+           "description": "OPTIONAL PATTERN, delete if not applicable — ..." }
+       ]
+     }
+   }
+   ```
+
+3. Make changes. Regenerate the codebook if you touched the schema: `python scripts/build_codebook.py datasets/<dataset_name>`.
+4. Run validation locally: `frictionless validate datasets/<dataset>/datapackage.json`.
+5. Open a pull request using the template. CI re-runs validation.
+6. A reviewer approves. Only then does it merge to `main`.
+7. `main` is protected: no direct pushes, no unreviewed data.
+
+### Where a batch's paperwork goes
+
+Two directories, and the line between them is what the deposit is allowed to cite.
+
+**`records/` is tracked and preserved verbatim.** It holds the artefacts of a completed batch that the tracked record reasons from: selection briefs, coding notes, the priors written before a source was opened, the prompts handed to a blind coding chat, the rows as proposed, and anything preserving content deleted from the census. **Nothing in it is ever reformatted, re-wrapped or re-aligned** — `check_softwrap.py` and `check_tables.py` both exclude it, on the same ground that excludes the verbatim `LICENSE-DATA.md`. Reformatting evidence is the wrong instinct.
+
+**`proposed*/` stays ignored** and holds work in flight and drafts superseded by the thing they became: open `PATCH-` proposals, `COMMIT-MSG-` files whose text Git already holds, `LOGBOOK-DRAFT-` files whose content is in the logbooks.
+
+**The citation rule.** A logbook entry, a `key_source` or a cell note may cite `records/` as **evidence**; it may cite `proposed-of/` only as a **pointer to open work**, and that pointer must be resolved when the work is. **Never cite a file that is not in the repository.** On 2026-09-08 the tracked record was found citing the ignored folder 47 times, nine of them at files an earlier tidy had already removed — one from a coded cell in `data.csv`. See `records/README.md`.
+
+**A priors file is worth writing only if it is committed before the coding it will be scored against.** An mtime proves nothing; a commit that precedes another commit does.
+
+**And commit order is evidence only to someone who can check it.** Since 2026-10-23 every push of this repository is anchored in the public ledger [`michaelschiltz/research-ledger`](https://github.com/michaelschiltz/research-ledger): a `pre-push` hook records each pushed commit id with an OpenTimestamps proof, and nothing of the content. So a priors commit is **pushed** before the coding chat opens a source, and the batch's coding notes name its ledger entry (`entries/<year>/<file>.txt`). **Never force-push.** An anchored commit missing from the published history reads as a rewrite, which is exactly what the ledger exists to expose; amend or rebase only what has not been pushed.
+
+## 4. Coding conventions (the parts referees test)
+
+**Missingness is disaggregated.** Never leave a cell blank. Any field may carry one of three inline tokens, which the schema's `missingValues` treats as missing rather than as a value:
+
+| Token | Meaning                            |
+|-------|------------------------------------|
+| `.NR` | not recorded in the source         |
+| `.IL` | present but illegible / damaged    |
+| `.NA` | not applicable to this record type |
+
+Conflating these is the single most common way a historical dataset gets discredited. They are three different epistemic states, and a blank cell tells you none of them.
+
+A fourth state — the source recording an actual zero — is **not** a fourth token. `0` is a datum, and writing a special string for it would make it indistinguishable from the other three. Where a field could plausibly be either a real zero or an unrecorded absence (typically amounts), pair the literal `0` with a companion `missingness` field (the `example_missingness` pattern in the template) coded `observed` / `not_recorded` / `illegible` / `not_applicable` / `explicit_zero`. `clearing_records` shows both mechanisms in the same two rows — inline tokens on `amount_original` and `payee`, and the field pair on a real zero:
+
+```csv
+record_id,amount_original,amount_unit,missingness,payee,notes
+CR-0004,.IL,monme,illegible,.NR,Amount illegible (water damage); counterparty not recorded in source.
+CR-0006,0,monme,explicit_zero,Kōnoike-ya,Source records a nil settlement (offsetting entry) — a real zero, not missing.
+```
+
+**Uncertainty is explicit.** The `confidence` field is coded `high` / `medium`/ `low`, defined in the codebook. Do not launder uncertainty into prose.
+
+**Every cited work resolves.** A work named in a `source_ref` has a row in `references/works.csv` pointing at the Zotero item actually read; a work cited for the first time gets its row in the same commit. `scripts/check_citations.py` enforces registration in CI and checks the rows against the library with `--zotero`. See `references/README.md`.
+
+**Units are normalised transparently.** Any monetary amount carries both its original figure/unit *and* a normalised value, with the `normalization_method` naming the conversion applied. For Tokugawa material this means the *sanka* (三貨) gold/silver/copper problem is made auditable per row, not buried in a footnote:
+
+```csv
+record_id,amount_original,amount_unit,amount_monme_silver,normalization_method,confidence,notes
+CR-0001,120,monme,120,identity_silver,high,Silver-denominated; no conversion needed.
+CR-0002,15,ryo,900,ryo_to_monme@60_official1700,medium,Gold ryō remittance at the official 60-monme rate.
+CR-0003,15,ryo,915,ryo_to_monme@61_market_est,low,Same transaction at an estimated market rate — retained to show sensitivity.
+```
+
+`normalization_method` names the exact rate and its vintage, so a reader can trace the number back to a decision rather than a black box. Where a rate is contested, keep both conversions as separate rows (as above) instead of silently picking a winner — the discarded alternative stays auditable, just flagged with lower `confidence`.
+
+**Source language is preserved.** Original term, romanisation, and gloss are kept as separate fields. Where a term's referent shifts across periods, record the shift in the logbook rather than smoothing it over.
+
+**Original script.** A cell whose source is written in a non-Latin script quotes the clause it rests on in that script, inline in `notes`: the original first, then a transliteration where it helps the reader (for classical Chinese and *kanbun*, a 書き下し reading usually helps more than a romanisation), then the translation. Copy the original as the edition prints it — 舊字體 as 舊字體, unvoiced kana as unvoiced, vocalised Arabic as vocalised — and do not normalise it towards modern usage; say in the note if the text came from an e-text rather than the printed page. Text is Unicode NFC, never NFKC. A character with no Unicode code point is described (IDS, or a GlyphWiki reference), never put in the Private Use Area. Arabic copied out of a PDF often arrives in presentation forms (U+FB50–FDFF, U+FE70–FEFF), which look right and do not match a search: re-key or convert them. Aramaic is quoted in the script of the edition used — square script for the Talmud.
+
+The quotation is repeated in every cell it supports. Storage is free, and a cell must be checkable on its own by a reader who has filtered the deposit to one `(type_id, char_id)`; there is no separate quotations table. The price of duplication is drift — one copy corrected after a re-reading, the others not — and `scripts/check_quotations.py` reports any two copies of one passage that differ. It does not say which copy is right: resolve it from the page.
+
+An `articulated` cell with no character of its source's script is reported by the same script. Where the source printed only a transliteration (common for Ottoman documents quoted in modern Turkish scholarship, and for Arabic in Islamicist secondary literature), there is no original to quote and none may be reconstructed: write "original not printed in <source>" in the note, and the cell is exempt. A transliteration is not reversible, so never back-convert one into the script.
+
+**Controlled vocabularies are enforced, and they hold what the schema cannot.** A Table Schema states what is true of a *column*. The vocabulary states what is true of a *cell given another cell*: which values `value` may take depends on that row's `char_id`, and whether the cell exists at all depends on `applicability_on`. Frictionless has no way to express a conditional constraint, so `vocabularies/*.csv` is not a convenience duplicate of `datapackage.json` — it carries constraints the Table Schema is structurally incapable of carrying.
+
+That fixes where each kind of controlled value belongs:
+
+| Kind                                                                                                            | Authority                                                                             | Enforced by                                |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------|
+| Conditional — `allowed_values` per characteristic                                                               | vocabulary                                                                            | `check_vocabularies.py`                    |
+| Open, growing census — `type_id`, `char_id`                                                                     | vocabulary (deliberately **not** enum-constrained, so adding a form touches one file) | `check_vocabularies.py`, referentially     |
+| Small closed schematic set with no vocabulary file — `confidence`, `articulation`, `source_lang`, `missingness` | `datapackage.json` enum                                                               | `frictionless validate`                    |
+| Small closed set carried in **both** — `instrument_type`, `amount_unit`                                         | duplicated on purpose                                                                 | agreement check in `check_vocabularies.py` |
+
+The last row is the only deliberate duplication. It is kept so that an outside consumer running plain `frictionless validate` on the published deposit gets the same enforcement we do; the agreement check is what stops the two copies drifting. **Register any new such pair in `ENUM_VOCAB` in `check_vocabularies.py`** — an unregistered duplicate is precisely what drifts unnoticed.
+
+Do not create a vocabulary file for a value that already has an enum and needs no definition, and do not add an enum for a value that has a vocabulary. Never both, except by the rule above.
+
+## 5. Extending the schema
+
+Schema growth is **additive**. Add a field; do not repurpose an existing one. Bump the data-package `version` (semantic versioning) and record the change in `CHANGELOG.md`. Additive change never breaks a downstream consumer.
+
+That is the rule for *how* to grow the schema. For **whether** a new characteristic is warranted at all, see `CHARACTER-CODING.md`. The short form: discriminating power is free — given enough characteristics any two forms separate — so "it lets us tell X from Y" is not a justification. A characteristic earns its place by repairing a conflation (one characteristic silently asking two questions), not by adding resolution. Characteristics are paid for in forms, and this dataset is overdrawn: **add forms, not features.**
+
+Run `python scripts/check_vocabularies.py` and `python scripts/check_dependence.py` alongside `frictionless validate` before opening a PR. It checks the `applicability_on` / `dependence_group` / `dependence_scope` columns against the codings, which the Table Schema cannot see.
+
+Two generated artefacts also go stale silently, and both have a `--check` mode that verifies the committed file matches the generator without writing anything:
+
+```sh
+python scripts/build_codebook.py --check          # every dataset's codebook.md
+python scripts/build_views.py --component <c> --check   # a committed view
+```
+
+CI runs the codebook check on every push. **It does not check views**, which is why `views/loss_mitigation_forms--risk-pooling.tex` sat seventeen forms behind its own `.md` sibling from 9 to 30 August 2026 while every other check passed. Run the view check by hand after any batch that adds forms, or the view will describe a matrix that no longer exists.

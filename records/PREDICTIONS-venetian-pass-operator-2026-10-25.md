@@ -29,7 +29,7 @@
 2. **`commenda_alloc` will rest on the thirteenth-century contracts.** Prediction: most of the coder's `commenda_alloc` citations are dated after 1200.
 3. **The coder will cite releases for loss terms.** Prediction: at least one loss cell is supported in part by a release that does not recite the clause (ruling 2 would discount it at adjudication).
 4. **The coder will underestimate the share of releases** in its §2 answer and overestimate the share of contracts. Measured: releases 41%, investment contracts 19% (NOTES §6.2).
-5. **The coder will not notice the date-and-fondo confound**, because the bundle removes the archival lines. It may notice the change in terms over time; prediction: it does, and dates it to around 1200.
+5. **The coder will not notice the date-and-fondo confound**, because the bundle removes the archival lines. It may notice the change in terms over time; prediction: it does, and dates it to around 1200. [CORRECTED 2026-10-25, when the bundle was built: the bundle's `scope/types-in-scope.csv` gives `societas_maris` the period "c.1073-early 13c (Venice)", the census's own field, which cannot be withheld. A coder who dates the change to around 1200 may be reading that field, not the acts; this half of the prediction is therefore not a test, and only the first half (the confound unnoticed) is scored.]
 6. **`.NR` will be returned at most for `RB2`** among the 14 cells.
 
 ## Scoring

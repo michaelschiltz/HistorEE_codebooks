@@ -1,0 +1,93 @@
+Kickoff prompt for the Venetian pass, venetian-pass-2026-10-25
+
+Open a FRESH Claude Code session, model claude-opus-5-5, effort high, in the bundle folder:
+  cd ~/GitHub/_blind-venetian-pass-2026-10-25 && claude
+Add no other directory. Do not run it inside ~/GitHub/HistorEE_codebooks, myfoamrepo or any
+Zotero folder, and not in a claude.ai chat attached to the Project "Ergodicity economics and
+history" or with memory enabled. Paste everything below the line.
+
+----------------------------------------------------------------------------------------
+
+I want you to re-code 14 cells of the HistorEE character matrix **from one edition of Venetian notarial acts, in Latin, and nothing else**. The cells are five of `societas_maris` in `organizational_forms`, and three of `commenda_alloc` and six of `societas_maris` in `loss_mitigation_forms`. They are listed in `cells-in-scope.csv`.
+
+**Work only inside `~/GitHub/_blind-venetian-pass-2026-10-25`.** It is a deliberately minimal, prepared bundle. Start with its `README.md`. The source is the Latin of the 865 acts printed by Morozzo della Rocca & Lombardo (1940), in `sources/`, with the editors' apparatus removed. You read **no secondary literature** in this task.
+
+**What this pass is for.** These cells have been coded before, from other material. Your coding is set against those codings afterwards, to see what the Venetian acts confirm, contradict or cannot speak to. Nothing is expected of you except a faithful reading of the acts.
+
+## Order of work, which is not negotiable
+
+1. **Read before any source.** Read `README.md`, everything in `doctrine/`, both vocabularies in `vocab/` (every definition, allowed value, locator and `applicability_on`), `scope/types-in-scope.csv` and `cells-in-scope.csv`. Load the `code-a-form` and `run-a-coding-batch` skills if your session has them, and read them for anything that names or implies a value for a cell in scope.
+2. **Priors, before you open any file in `sources/`.** Copy `PRIORS-TEMPLATE.md` to `PRIORS-venetian-pass-filled-<date>.md` and fill every section. Then print its sha256 (`shasum -a 256 PRIORS-venetian-pass-filled-*.md`), tell me, and **STOP**. I will commit the file and confirm that the committed copy has the same hash. Do not open the source until I reply.
+3. **Type census.** Classify every one of the 865 acts by the kind of act its Latin makes it.
+   - Classify from the dispositive formula and the drafting terms: for example *Plenam et irrevocabilem securitatem* (release), *Manifestus sum / Manifestum facio* and *Accepi / recepi* (acknowledgment of what was received, and on what terms), *Testificor* (attestation), *Committens committo* (mandate), *Promittens promitto* (promise), a sentence, a testament, a sale. Within acknowledgments, record the terms the act itself uses: *collegantia/colligancia*, *commendacio*, *rogadia*, *prestitum*, *mutuum*, a sea loan, a sale on credit, and so on.
+   - Write `proposed-of/type-census-venetian-pass-2026-10-25.csv` (act_no, vol, page_printed, year_as_stated, place_as_stated, act_type_latin, terms, notes). Record the year and place as the act states them; do not convert the year.
+   - Report the counts per type.
+4. **Sample.** The strata are the kinds of act that place capital with a party who trades with it, as your census defines them, plus the releases of such contracts as a separate stratum. Loans, sea loans and other types are counted in the census but not sampled.
+   - In each stratum, take every act if it has 60 or fewer; otherwise take a systematic random sample of 60 over act order, with `random.seed(20261025)` choosing the start. Record the draw.
+   - Read any further act you need for a cell, and say which and why; it does not enter a frequency.
+5. **Instance coding.** For every sampled act, fill `proposed-of/instances-venetian-pass-2026-10-25.csv` (header in `instances-header.csv`) and `proposed-of/instance-chars-venetian-pass-2026-10-25.csv` (header in `instance-chars-header.csv`).
+   - Quote the Latin verbatim for every clause you parse, with act number and page.
+   - Record every party's name, so that repeated parties can be counted.
+   - In `form_assigned`, record which form in scope the act is evidence for (`societas_maris`, `commenda_alloc`, both or neither) and on which clause you decided.
+   - Record in the instance-chars table every characteristic in scope that the act speaks to, and only those.
+6. **Form-level summary, then FREEZE.** Per cell:
+   - report the modal state, its share, n, and the number of distinct parties;
+   - **a frequency never becomes `P`**: `P` is a structural half-state, and heterogeneity is reported as a distribution in the note;
+   - a state in at least 10% of the acts is a **variant**: name it in the note;
+   - a characteristic that no act speaks to is `.NR`.
+
+   Then write the 14 rows:
+   - `condition` = `blind`, using the `recoding_id_blind` ids, `source_class` = `primary-transactional`;
+   - into `proposed-of/recodings-venetian-pass-2026-10-25-<census>.csv`;
+   - with `source_ref` in the form `Morozzo della Rocca & Lombardo 1940, nos. <n> (<vol>, <page>), <n> (<vol>, <page>)`;
+   - `source_lang` = `la`;
+   - `source_read` = `partial`, with the sample stated in the note.
+
+   Also write:
+   - `proposed-of/NOTES-venetian-pass-coding-2026-10-25.md` (the reading record, the type census, the draw, every decision point with its alternative reading, and the six answers below);
+   - a logbook draft;
+   - a commit message.
+
+   Then print the sha256 of every file in `proposed-of/`, tell me, and **STOP**. Compute nothing more. Any further stage will be given to you separately.
+
+## Output format: `recodings.csv` rows, one file per census
+
+Write into `proposed-of/` two CSVs, each with exactly the header in `templates/recodings-header-<census>.csv`:
+
+recoding_id,record_id,type_id,char_id,pass,recoded_on,condition,coder,coder_model,coder_effort,value,confidence,articulation,source_ref,source_lang,source_read,value_at_recoding,agreement,adjudication,adjudicated_by,notes,source_class
+
+- **Ids:** `recoding_id` and `record_id` exactly as pre-assigned in `cells-in-scope.csv`. The `record_id`s exist only in the live file, not in your bundle; that is expected.
+- **Fixed fields:**
+  - `pass` = `venetian-pass-2026-10-25`;
+  - `recoded_on` = the date you fix the value;
+  - `coder` = `ai`, `coder_model` and `coder_effort` = your model identifier as configured and your effort setting;
+  - `adjudication` = `pending`, `adjudicated_by` = `none`.
+- **Leave empty:** `value_at_recoding` and `agreement`. They are filled at application.
+- **Coded fields:** `value`, `confidence`, `articulation`, `source_ref`, `source_lang`, `source_read` and `notes`, as `doctrine/CONTRIBUTING.md`, `doctrine/CLAUDE.md` and the `code-a-form` skill require for a census cell, including `.NR`/`.NA` propagation.
+- **`source_class`:** judged by the cited passage (see its description in `schema/`).
+
+## Rules
+
+- **Missingness.** `.NR` asserts that the sources were read and were silent. `.NA` asserts that the characteristic does not apply. `0` is an observed absence. Never use one for another. A source's silence is never an absence.
+- **Evidence.** Code only from the file in `sources/`: not from general knowledge, not from the bundle's other files, not from memory of works that are not here. General knowledge belongs in the priors, and nowhere else.
+- **OCR.** The text is OCR. Where a reading that carries a cell depends on a doubtful letter or word, say so in the note and in `ocr_flag`.
+- **Leaks.** If anything in the bundle, or in a skill you have loaded, states or implies a value for a form under test, do not use it. Report it in your notes, quoting where it is.
+- **Scope of writing.** Edit nothing outside `proposed-of/` and your priors file. Do not repair a vocabulary or schema defect: flag it.
+- **Tools.** Do not run `git`. Do not use Zotero, Undermind, Elicit, web search or any other source-finding tool. Do not open the claude.ai Project or any memory file.
+- **Unweighted similarity.** Do not compute nearest neighbours or any unweighted similarity across characteristics. `doctrine/CLAUDE.md` forbids it for comparative claims.
+
+## The six answers
+
+Answer these plainly, unprompted, in your NOTES file and in your final message:
+
+1. what was coded and on what evidence;
+2. what could not be coded and why;
+3. which of your own expectations were falsified (quote your priors file verbatim);
+4. any characteristic that did not fit the evidence;
+5. any dependence or well-formedness problem noticed and not repaired;
+6. what to acquire next, and which cell it would move.
+
+## Checks
+
+- Validate your CSVs against the `recodings` resource in `schema/`, on a scratch copy outside `proposed-of/`. The foreign key to `data.csv` cannot resolve in this bundle, so remove it on the scratch copy. Install `frictionless` with `pip install --user frictionless` if it is missing.
+- Say which commands you ran and what they printed.

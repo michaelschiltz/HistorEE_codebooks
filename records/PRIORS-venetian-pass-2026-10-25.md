@@ -16,6 +16,7 @@ This chat must not be inside the claude.ai Project of this research programme, a
 3. **Earlier passes.** Do you know anything about earlier codings of these two forms in this census, or about the passes of September 2026 on Genoese and Marseille acts? (You should not. If you do, say from where.)
 4. **Leaks the operator knows of.** Disclose how each bears on you:
    - the type name `societas_maris` is "Societas maris (the bilateral commenda; Venetian collegantia)". It equates the Venetian *collegantia* with the bilateral form, and its word "bilateral" collides with `CF3`'s value `bilateral`, which counts principals, not contributors of capital;
+   - the period given for `societas_maris` is "c.1073-early 13c (Venice)", the census's dating of the form in Venice, which bears on any expectation about change over time [ADDED 2026-10-25, when the bundle was built and the field was found to be in it];
    - the type name `commenda_alloc` is "Commenda (loss-allocation aspect)", which states `MC1 = allocation` for that row. Treat `commenda_alloc MC1` as not blind;
    - the census's descriptions of `MC1` and of the loss census may name the commenda among allocation forms. Check what you were given and say whether they do.
 5. **Leaks you find.** List any further statement, in the bundle or in a loaded skill, that names or implies a value for a cell in scope. Give its location. Do not use it.

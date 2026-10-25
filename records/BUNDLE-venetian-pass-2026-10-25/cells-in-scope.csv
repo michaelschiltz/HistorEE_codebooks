@@ -1,0 +1,15 @@
+census,record_id,type_id,char_id,recoding_id_blind
+organizational_forms,OF-0290,societas_maris,CF1,OF-R0253
+organizational_forms,OF-0292,societas_maris,CF3,OF-R0254
+organizational_forms,OF-0566,societas_maris,CI1,OF-R0255
+organizational_forms,OF-0293,societas_maris,LR6,OF-R0256
+organizational_forms,OF-0283,societas_maris,TS2,OF-R0257
+loss_mitigation_forms,LM-0527,commenda_alloc,MC1,LM-R0080
+loss_mitigation_forms,LM-0533,commenda_alloc,PR1,LM-R0081
+loss_mitigation_forms,LM-0529,commenda_alloc,RB1,LM-R0082
+loss_mitigation_forms,LM-0556,societas_maris,MB3,LM-R0083
+loss_mitigation_forms,LM-0555,societas_maris,MC1,LM-R0084
+loss_mitigation_forms,LM-0561,societas_maris,PR1,LM-R0085
+loss_mitigation_forms,LM-0557,societas_maris,RB1,LM-R0086
+loss_mitigation_forms,LM-0558,societas_maris,RB2,LM-R0087
+loss_mitigation_forms,LM-0560,societas_maris,RB4,LM-R0088
