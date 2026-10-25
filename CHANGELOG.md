@@ -16,6 +16,17 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-10-25
+
+**Queue clearance, rulings 1–5 (`records/RULINGS-queue-clearance-2026-10-25.md`). 105 pending recodings adjudicated; three `commenda` cells re-based, one with lower confidence; no value changed. No version bump: adjudication states, cell bases and confidence only, and no constraint changed.**
+
+- **Consumers.** `OF-0081` `commenda LR2 = coupled` and `OF-0087` `commenda CF3 = bilateral`: `[verify]` → the Genoese and Marseille acts, `medium` → `high`, `articulated`. `OF-0090` `commenda LR6 = upside-only`: "Harris 2020" (no page) → van Doosselaere 2009, 65, 68 and the Amalric peril clauses, **`high` → `medium`**, `analyst-imposed`, because it cannot be more certain than `commenda CF2 = 0` at `medium`. New recodings `OF-R0245`–`OF-R0247`, `replaced`.
+- **Adjudicated without a data change.** 98 recodings whose value and confidence equal the live cell's (`LM` 12, `OF` 86) and 7 arm rows on the three re-based cells: `pending` → `kept`. Agreement between the commenda primary arm and the live cells is one evidence base, not two (van Doosselaere's dataset is built from the same cartularies); the secondary arm and the mutual-pole re-code show reproducibility, not correctness.
+- **Scope.** A gratuitous commenda (no share of profit to the working party) is outside `commenda`, under the structural criterion of 2026-10-12; recorded in the type row. `commenda CF2` cites two gratuitous acts and is carried for re-pointing.
+- **Still pending: 52.** 14 `commenda_alloc` and `societas_maris` cells (32 rows) are carried into the Venetian pass; 9 mutual-pole confidence differences and 11 mutual-pole disagreements are to be read at the pages.
+- **Record.** The rulings file; logbook 5, 2026-10-25, for the acquisition that opens the Venetian pass.
+- **Checks.** Frictionless VALID on both packages; dependence 0; vocabularies; quotations `--strict`; citations 0 errors (warnings 148 → 146); soft-wrap and tables; `organizational_forms` codebook regenerated twice, `cmp`-identical (`articulation` fill 357 → 360, `source_lang` 799 → 801 of 948); all ten committed views `current`. The CSV files round-tripped byte-identical before the rewrite.
+
 ## organizational_forms — 2026-10-22
 
 **Citation correction: the 17 `bazacle_mill` cells that cited `Le Bris, Goetzmann & Pouget 2023` (between `OF-0124` and `OF-0153`) now cite `Le Bris, Goetzmann & Pouget 2026`, the published article (*Business History* 68 (2026), 347–372). No value, confidence, articulation or note changed. No version bump: `source_ref` text only, no constraint changed.**
