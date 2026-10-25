@@ -1,0 +1,37 @@
+# Operator's predictions — venetian-pass-2026-10-25 (withheld from the coder)
+
+**Withheld section of the Venetian pass. Excluded from the bundle and from the coding prompt; to be committed together with the PRIORS template, before the coding chat opens any source, so that it can be scored afterwards in `logbook/4`.** Written 2026-10-25 by `ai` (`claude-opus-5-5`, effort `high`) as operator.
+
+**Not blind, and saying so.** The operator measured the whole edition (`records/NOTES-morozzo-lombardo-selection-2026-10-25.md`), read 37 acts as page images, and on 2026-10-25 listed the pending recodings with their values (the September arms' values for these 14 cells). The live `data.csv` values for these cells were not opened in this session. The predictions below are about **what the blind coder will return**, from the edition as measured, not claims about the institution.
+
+## Predictions by cell
+
+| census | type_id          | char_id | predicted         | confidence | basis in the edition                                                                                                                       | likeliest deviation                                                                    |
+| ------ | ---------------- | ------- | ----------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| orga   | `societas_maris` | `CF1`   | P                 | medium     | the bilateral contracts state both stakes and one traveller (acts 389, 491: *posui ibidem*)                                               | none expected                                                                          |
+| orga   | `societas_maris` | `CF3`   | bilateral         | high       | one investor, one traveller in every bilateral contract seen                                                                               | none expected                                                                          |
+| orga   | `societas_maris` | `CI1`   | common            | medium     | both stakes put "in eadem collegancia", one stock                                                                                          | several-accounts, if the coder reads the two stated amounts as two accounts            |
+| orga   | `societas_maris` | `LR6`   | symmetric         | medium     | the traveller shares gain and loses his own stake (389: *si quid absit a mari vel a gente … nichil inde pars parti inquirere debeat*)      | none expected                                                                          |
+| orga   | `societas_maris` | `TS2`   | single-venture    | medium     | one voyage and return (*in taxegio de Suria … redire in Constantinopoli*, act 491)                                                        | fixed-term, from releases reciting a term in years (act 59: *usque duos annos*)        |
+| loss   | `commenda_alloc` | `MC1`   | allocation        | high       | not blind (type name)                                                                                                                      | none                                                                                   |
+| loss   | `commenda_alloc` | `PR1`   | 0                 | high       | no premium; the profit share is not a price for the peril                                                                                  | none expected                                                                          |
+| loss   | `commenda_alloc` | `RB1`   | capital-provider  | high       | 158 of the 164 contracts carry the peril clause; the unilateral ones put the peril on the investor (*in tuo periculo maris et gentis*)     | none expected                                                                          |
+| loss   | `societas_maris` | `MB3`   | voluntary         | high       | private contract                                                                                                                           | none                                                                                   |
+| loss   | `societas_maris` | `MC1`   | allocation        | medium     | loss lies where each party's stake lies; no outsider, no premium                                                                           | pooling, if the coder reads the two stakes bearing loss together as mutualisation      |
+| loss   | `societas_maris` | `PR1`   | 0                 | high       | no premium                                                                                                                                 | none expected                                                                          |
+| loss   | `societas_maris` | `RB1`   | shared            | high       | loss to the peril falls on both stakes                                                                                                     | none expected                                                                          |
+| loss   | `societas_maris` | `RB2`   | shared            | low        | only implicit (*sicut misimus ita participemus*, act 389); no act separates market loss from loss to the peril                             | `.NR`, which would be the correct reading under ruling 2's logic of silence            |
+| loss   | `societas_maris` | `RB4`   | 1                 | medium     | *nichil inde pars parti inquirere debeat* on loss *a mari vel a gente*                                                                     | P, if the coder separates loss of the traveller's own stake from his duty to account   |
+
+## Predictions about the coding, not the cells
+
+1. **The evidence base will be narrow for `societas_maris`.** The edition holds about 10 contracts with the bilateral marker (7 of 1150–1199, 3 of 1200–1229) and 11 investment-related releases with it. Prediction: the coder's `societas_maris` cells rest on 21 acts or fewer, and on the 1150–1199 contracts above all.
+2. **`commenda_alloc` will rest on the thirteenth-century contracts.** Prediction: most of the coder's `commenda_alloc` citations are dated after 1200.
+3. **The coder will cite releases for loss terms.** Prediction: at least one loss cell is supported in part by a release that does not recite the clause (ruling 2 would discount it at adjudication).
+4. **The coder will underestimate the share of releases** in its §2 answer and overestimate the share of contracts. Measured: releases 41%, investment contracts 19% (NOTES §6.2).
+5. **The coder will not notice the date-and-fondo confound**, because the bundle removes the archival lines. It may notice the change in terms over time; prediction: it does, and dates it to around 1200.
+6. **`.NR` will be returned at most for `RB2`** among the 14 cells.
+
+## Scoring
+
+After the coding is frozen and before adjudication: each prediction scored confirmed or falsified, with the direction of any miss, in a table in `logbook/4`, as the `run-a-coding-batch` rules require.
