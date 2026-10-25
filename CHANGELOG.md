@@ -18,6 +18,20 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-10-25 (iii)
+
+**The Venetian pass adjudicated: the blind coding of 14 cells from the 865 acts of Morozzo della Rocca & Lombardo 1940 agrees with the live values on 13; the fourteenth (`societas_maris RB2`) keeps its value with lower confidence. No value changes; 13 cells gain primary evidence (12 from the Venetian acts, one from a Genoese act) and one a note. No version bump: bases, articulation and one confidence only, no constraint changed. The recodings queue is empty in both packages.**
+
+- **Blind rows.** `OF-R0253`–`R0257`, `LM-R0080`–`R0088` (pass `venetian-pass-2026-10-25`, condition `blind`, coded outside the Project in a Claude Code session on the stripped Latin): 13 `kept`, `LM-R0087` (`societas_maris RB2` = `.NR`) `overruled`, since the acts' silence does not override a statement elsewhere.
+- **Cells re-based, value unchanged** (new `open` rows `OF-R0258`–`R0262`, `LM-R0089`–`R0097`, `replaced`): `societas_maris` `CF1`, `CF3`, `CI1`, `TS2` and `RB4` → `articulated` on the Latin, `source_lang` → `la`; `LR6`, `MC1`, `PR1`, `RB1` and `commenda_alloc` `MC1`, `PR1`, `RB1` gain the Venetian acts on their existing articulation; `MB3` gains a note only (the acts are silent on choice). `commenda_alloc RB1` now cites the Venetian peril clause itself, which it had cited at one remove; the clause is in 160 of 170 profit-share contracts.
+- **Confidence.** `societas_maris RB2` `shared` high → medium, re-based on Scriba DCXCII (p. 374), its one articulated primary witness; the Venetian acts are silent on loss from the market.
+- **Discounted.** The coder's `RB4 = 0` variant (act 380, a release that does not recite the clause), under rule 2 of `records/RULINGS-venetian-pass-2026-10-25.md`.
+- **Considered and rejected.** The coder's proposal to split `societas_maris` and `commenda_alloc` by phase at c.1200: assignment by terms already separates the bilateral (pre-1200) and unilateral (post-1200) acts into the two forms, and no cell differs within either form across the strata. The change is recorded as description in the four type rows' `key_source`.
+- **September rows.** The 32 pending rows of `commenda-primary-2026-09-28` and `commenda-secondary-2026-09-28` on these cells: all `kept` (each equal to the live value). Pending: 0 in both packages.
+- **Registry.** `references/works.csv`: `Morozzo della Rocca & Lombardo 1940` (Zotero `GXRRAIUK`).
+- **Record.** `records/RULINGS-venetian-pass-adjudication-2026-10-25.md`; the frozen coding in `records/` (`NOTES-venetian-pass-coding-`, `TYPE-CENSUS-`, `INSTANCES-`, `INSTANCE-CHARS-`, `PROPOSED-RECODINGS-venetian-pass-2026-10-25`); predictions scored in logbook 4, 2026-10-25; logbook 5, 2026-10-25 (v).
+- **Checks.** Frictionless VALID on both packages; dependence 0; vocabularies; citations 0 errors; quotations `--strict`; soft-wrap and tables; `organizational_forms` codebook regenerated twice, `cmp`-identical (`articulation` fill 362 → 365 of 948); all nine `organizational_forms` views and the loss census's `risk-pooling` view `current`.
+
 ## organizational_forms — 2026-10-25 (ii)
 
 **Queue clearance, rulings 6–25: the blind re-code of the mutual pole (2026-09-26) adjudicated in full, 20 rows. Eight `data.csv` values change, six confidences move, no schema change. No version bump: values within existing constraints.**
