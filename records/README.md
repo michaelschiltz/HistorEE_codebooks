@@ -28,3 +28,14 @@ The contradiction had only two consistent resolutions: stop citing the folder, o
 ## A standing weakness, stated here rather than buried
 
 **An untracked priors file proved nothing.** A filesystem mtime is mutable and carries no commitment; a priors file written after the fact is indistinguishable from one written before. Committing these files gives them a place in the hash chain, which is far stronger — **but only if a priors file is committed *before* the coding commit that it is later scored against.** Tracking the folder does not by itself establish the ordering for anything already here; it makes the ordering establishable from now on. The batch procedure is where that has to be enforced, and this directory is not a substitute for it.
+
+## Source text taken from modern editions
+
+**Decided by MS on 2026-10-25** (logbook 5, 2026-10-25 (ii)), first for Morozzo della Rocca & Lombardo, *Documenti del commercio veneziano* (1940), held as the BEIC digital reproduction under CC BY-NC-ND 3.0. A blind bundle's source text may be committed here even where the edition is modern or the copy carries a restrictive licence, **on two conditions**:
+
+1. **Strictly stripped.** The committed file holds only the text of the primary documents as the edition prints it. The editors' own writing is removed: regests and headings, archival and description lines, notes, introductions and indexes. Bracketed restorations inside the document text stay, as part of the critical text. Page images and the edition's PDF are never committed.
+2. **Marked as outside the deposit's CC BY 4.0 grant.** A header in the file states: what it is (the documents' text as printed in the named edition, editorial matter removed); the copy it was taken from, credited, with that copy's licence; and that it is offered as public-domain text, the documents being medieval and any protection of the edition as a critical edition having expired, with no rights claimed by this project. `LICENSE-DATA.md` stays verbatim; the exception lives in the file.
+
+**Check before applying.** Whether the edition's protection has expired depends on its date and its jurisdiction. Italian law protects a critical edition of a public-domain text for 20 years from publication (art. 85-quater of law 633/1941), which the 1940 Venetian volumes passed in 1960; a recent edition, or one under another law, may not have. Where the protection may still run, the source text stays out and is replaced by page references and a SHA-256 hash of the file the coder was given. This is a research judgement, not legal advice.
+
+**The residual cost, accepted:** pushes are anchored in the public ledger and history is never rewritten, so a file committed here cannot be withdrawn from the history, only deleted going forward.
