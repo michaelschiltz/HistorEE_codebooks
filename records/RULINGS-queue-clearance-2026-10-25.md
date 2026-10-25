@@ -68,10 +68,69 @@ Ruling 13 of 2026-10-12 assigns acts to `commenda` by structure: the working par
 
 **Consequence, carried:** `commenda CF2 = 0` (OF-0086) cites four Scriba acts, and two of them are gratuitous — LXXXIX (*Hoc debeo portare ad tuum resicum … capitale et proficuum tuum*) and CCLXXXVII (*quicquid enim sunt vel erunt tibi esse debent*). The cell is to be re-pointed to the acts that remain (Scriba CV, CXVIII; Amalric 29, 125, 364). The value is not expected to move.
 
+## The mutual-pole sitting — rulings 6–25
+
+The 20 remaining rows of pass `opus55-recode-mutual-pole-2026-09-26`: the 11 value disagreements (Tranche 3) and the 9 confidence differences (Tranche 2(c)), ruled item by item in the order of `proposed-of/ADJUDICATION-opus55-recode-mutual-pole-2026-09-26.md`, each on a stated recommendation accepted as proposed.
+
+**Read for these rulings**, through the Zotero connector on MS's machine, text layers (clean in all five works): Kars 2020 (`GAZN2XVN`, file `CQ4L4NHZ`; printed = PDF + 159), pp. 160–169, 174–177, 179–185; Kıvrım 2019 (`GSC5PEAH`, file `7WXXB6CH`; printed = PDF + 33), pp. 34, 36–39; Küçük 2025 (`NAQKKKN7`, file `JNZHR9BT`; printed = PDF + 146), pp. 147–148, 150–154, 161; Gürsoy 2019 (`VM4K33C4`, file `R4QC5ZL3`; printed = PDF + 94), pp. 104–106, 110, 112–113; Klieber 2001 (`SR4E4QM7`, file `VEUB2IG2`; printed = PDF + 33), pp. 35, 42–45, 47–59, 61–67.
+
+**A finding that runs through items 1, 2 and 7.** The live cells' premise that donor and beneficiary are disjoint (OF-0662, OF-0669) is contradicted on the page they cite: Kıvrım 37 names the donors by their own quarter (*Zincirlikuyu Mahallesi'nden Hacı Arab 50 kuruş …*, giving to *mahallelerinin avârız vakıflarına*), and two of them, Yakub and Seyyid Halil of Kanalıcı, gave *kendi evlerinden avârız alınmamak şartı ile*. Kars's abstract says the funds were made by notables of the same settlement. The premise is withdrawn from every cell that rested on it.
+
+**A pattern through items 4–6.** The live `avariz_vakfi` entity and term cells took stronger values than `waqf_khayri` on the same Ḥanafī-Ottoman law, on the ground that their sources are working registers rather than doctrine; read closely, the registers show what the `waqf_khayri` values describe.
+
+| item | ruling | cell                                  | live                    | re-code                 | ruled                                       | rows                                  |
+|------|--------|---------------------------------------|-------------------------|-------------------------|---------------------------------------------|---------------------------------------|
+| 1    | 6      | `avariz_vakfi FP1` (OF-0669)          | pious-charitable medium | mixed medium            | **mixed** medium analyst-imposed            | OF-R0026 replaced                     |
+| 2    | 7      | `avariz_vakfi LR4` (OF-0662)          | 0 medium                | P low                   | **0 low**, basis rewritten                  | OF-R0248 replaced; OF-R0019 kept      |
+| 3    | 8      | `avariz_vakfi LR5` (OF-0663)          | .NA                     | synchronising low       | **.NA** (follows item 2)                    | OF-R0020 kept                         |
+| 4    | 9      | `avariz_vakfi LP2` (OF-0645)          | 1 medium                | P low                   | **P medium** articulated                    | OF-R0249 replaced; OF-R0002 replaced  |
+| 5    | 10     | `avariz_vakfi LP3` (OF-0646)          | 1 medium                | P medium                | **P medium** articulated                    | OF-R0003 replaced                     |
+| 6    | 11     | `avariz_vakfi TS3` (OF-0653)          | P medium                | .NR                     | **0 low** (a third value)                   | OF-R0250 replaced; OF-R0010 overruled |
+| 7    | 12     | `avariz_vakfi FP3` (OF-0671)          | P low                   | .NR                     | **.NR**                                     | OF-R0028 replaced                     |
+| 8    | 13     | `avariz_vakfi CI2` (OF-0656)          | 1 high                  | 1 medium                | **1 medium** articulated                    | OF-R0251 replaced; OF-R0013 kept      |
+| 9    | 14     | `avariz_vakfi LR2` (OF-0660)          | veiled medium           | veiled low              | **veiled medium** (live stands)             | OF-R0017 kept; note addition          |
+| 10   | 15     | `avariz_vakfi MG1` (OF-0665)          | beneficiary high        | beneficiary medium      | **beneficiary medium** articulated          | OF-R0252 replaced; OF-R0022 kept      |
+| 11   | 16     | `avariz_vakfi CF1` (OF-0673)          | 0 medium                | 0 low                   | **0 medium** (live stands)                  | OF-R0030 kept; note correction        |
+| 12   | 17     | `bruderschaft_salzburg TS4` (OF-0686) | 0 medium                | P low                   | **0 medium** (live stands)                  | OF-R0043 kept                         |
+| 13   | 18     | `bruderschaft_salzburg CI2` (OF-0688) | 1 medium                | .NR                     | **.NR**                                     | OF-R0045 replaced                     |
+| 14   | 19     | `bruderschaft_salzburg MG2` (OF-0698) | .NR                     | collective low          | **collective low**                          | OF-R0055 replaced                     |
+| 15   | 20     | `bruderschaft_salzburg FP3` (OF-0703) | P medium                | .NR                     | **.NR**                                     | OF-R0060 replaced                     |
+| 16   | 21     | `bruderschaft_salzburg LP2` (OF-0677) | 1 high                  | 1 medium                | **1 medium** articulated                    | OF-R0034 replaced                     |
+| 17   | 22     | `bruderschaft_salzburg LR4` (OF-0694) | 1 high                  | 1 medium                | **1 high** (live stands)                    | OF-R0051 kept; note addition          |
+| 18   | 23     | `bruderschaft_salzburg LR5` (OF-0695) | diversifying medium     | diversifying low        | **diversifying low**                        | OF-R0052 replaced                     |
+| 19   | 24     | `bruderschaft_salzburg MG3` (OF-0699) | 0 high                  | 0 medium                | **0 high** (live stands)                    | OF-R0056 kept; note addition          |
+| 20   | 25     | `bruderschaft_salzburg FP1` (OF-0701) | mutual-provision high   | mutual-provision medium | **mutual-provision medium** analyst-imposed | OF-R0058 replaced                     |
+
+**Grounds, in brief, numbered by ruling** (the full reasoning is in each `data.csv` cell's note, which keeps the previous note after it):
+
+- **6, FP1.** The deeds and accounts declare both the quarter's common obligations (Küçük 148, 153) and pious heads (imam, school, *suleha-yı fukara*, recitation: Kars 175–177; Küçük 154). Read with ruling 7: joint provision for a common levy is mutual provision; pooling member-specific hazards is another thing.
+- **7, LR4.** The main draw is a common levy (Kars 167); the member-specific draws are grants to the poor (Kars 175–176; Küçük 154, 161) — allocation to a class from an endowment, not mutualisation, the `waqf_khayri` line. Kars 184 is a repayable loan to the tenant of a fund-owned house. Low: disaster relief appears only in general statements (Kars 168; Küçük 152). The re-code's `P` at `low`, beside a note offering `0`, is the pattern `CLAUDE.md` names.
+- **8, LR5.** `.NA` while `LR4 = 0`.
+- **9, LP2.** Held in the fund's name (*vakfına ait*, *vakıf adına*: Kars 180–183) and owned by no one (*temlik ve temellükten ebediyen alıkoymak*, Kars 164). Medium because both halves are in the tradition's own words.
+- **10, LP3.** Standing through the office (*tevliyetim hasebiyle*, Kıvrım 38). *Mütevelli de diğer alacaklılar gibi bir alacaklıdır* concerns priority, not standing. **Flag, not ruled:** `begijnhof LP3 = 1` (`high`) carries the same caveat.
+- **11, TS3.** `P` mixes modes of founding (variation across deeds; ruling 7 of 2026-10-11) and pre-binding revocation (Gürsoy 113); `.NR` ignores the positive normative statement of perpetuity (Kars 164). `0`, low, as `waqf_khayri`.
+- **12, FP3.** The conditional gifts are a bargain inside the apportionment, not a status conferred against outsiders. The live `P` was a frequency.
+- **13, CI2.** The deeds bar spending principal (Küçük 151; Kars 167, 179; Gürsoy 110), which is preservation against the administrator; contributors' withdrawal is barred by irrevocability, now `TS3 = 0` low. High rested on a neighbouring question.
+- **14, LR2.** Defaults fall on the fund (Kıvrım 38; Kars 182–183), which answers the question the re-code called unasked.
+- **15, MG1.** Membership is a real alternative (residents elect the trustee, Kıvrım 38; donors are residents; one class is "the residents"), but no admission or roll is described.
+- **16, CF1.** The census treats office as not `CF1`'s labour (`maona_chios`, `maona_corsica`, `casa_san_giorgio`), which answers the worksheet's definitional question 2 in practice. The live note's "borrowers are outsiders" is withdrawn (Küçük 153).
+- **17, TS4.** Statutes needed approbation (Klieber 50, 66); the re-code's examples are spending within the statutes (49, 58), not amendment.
+- **18, CI2.** Klieber 48 is silent on refunds; 56–57 concerns debtors. Silence stays `.NR`.
+- **19, MG2.** `.NR` "for no fitting value" is not what `.NR` means. Coded on the modal instance (Klieber 52–53, 66); the *betreute* subtype and the post-1785 position recorded as variation. No split; the worksheet's split proposal is closed. Type row updated.
+- **20, FP3.** No instance of membership obtaining status or access (Klieber 47, 61). The definition at Klieber 35 is Remling's, not Klieber's; corrected.
+- **21, LP2.** Owned and disposed of as fraternities (42, 55–59); silent on ownership for the *betreute* subtype (52).
+- **22, LR4.** Does not depend on whether a spiritual hazard counts (worksheet definitional question 1): the pooled outlay is material (mass stipends, bearers, bier, pall, shroud: 43–45). That question stays open for a spiritual-only case.
+- **23, LR5.** Klieber never discusses correlated mortality; the value rests on general knowledge.
+- **24, MG3.** True by the row's scoping (free access defines the type, 47–48), so certain and without comparative weight.
+- **25, FP1.** The declared idiom is pious (*Nächstenliebe*, 59; CIC 1917, 35); the mutual reading is Klieber's (43, 50, 62–63). Consistent with ruling 6: there two declared heads, here one, in pious language.
+
+**Worksheet questions after the sitting.** Definitional question 1 (`LR4` and a spiritual hazard): open, not needed by any cell. Question 2 (`CF1` on waqf-type forms): answered in practice by census usage; `waqf_khayri CF1 = .NA` carried. Questions 3 (`AP4`, plural founders) and 4 (`MG4`, religious or customary): open, as recorded under ruling 1. Split proposal (`MG2`): closed by ruling 19.
+
 ## Carried
 
 - **Tranche 2(a)** — 14 cells, 32 rows, into the Venetian pass (above).
-- **Tranche 2(c) and Tranche 3** — 9 cells (9 rows) and 11 rows, one sitting, from the pages.
 - **`commenda CF2` re-pointing** (ruling 5).
 - **`CF3`'s definition says "number of principals", but the cells apply it to the number of parties.** One investor and one working party is `bilateral` on `qirad` and `mudaraba` ("two parties in the base case"), on `comanda` (an investor bound to one commendatary) and now on `commenda`; the `isqa` and `societas_maris` notes say "two principals". On the definition's words a single-investor commenda has one principal. A wording question for the vocabulary, not ruled here.
-- **Tranche 3, order and definitions.** Item by item from the cited pages, with Tranche 2(c), in the order of the mutual-pole worksheet. Three were coded before a definition changed and are read under the current one: `MG2` (OF-R0055; clarified 2026-10-11, ruling 3), `LR4` (OF-R0019; clarified 2026-10-12, D3) and `LR5` (OF-R0020; exists only if `LR4` is not `0`).
+- **`waqf_khayri CF1 = .NA`** against the census's `0` for office-holding forms (ruling 16).
+- **`begijnhof LP3 = 1`** (`high`) against the standing-through-the-office reading of ruling 10.
+- **Mutual-pole definitional questions 1, 3 and 4** (above).

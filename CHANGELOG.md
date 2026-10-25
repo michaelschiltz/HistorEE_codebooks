@@ -16,6 +16,18 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-10-25 (ii)
+
+**Queue clearance, rulings 6–25: the blind re-code of the mutual pole (2026-09-26) adjudicated in full, 20 rows. Eight `data.csv` values change, six confidences move, no schema change. No version bump: values within existing constraints.**
+
+- **Values.** `avariz_vakfi`: `FP1` pious-charitable → mixed (OF-0669); `LP2` 1 → P (OF-0645); `LP3` 1 → P (OF-0646); `TS3` P → 0 (OF-0653); `FP3` P → .NR (OF-0671). `bruderschaft_salzburg`: `CI2` 1 → .NR (OF-0688); `MG2` .NR → collective (OF-0698); `FP3` P → .NR (OF-0703). The `avariz_vakfi` entity and term cells now carry the `waqf_khayri` profile (`LP1` .NR, `LP2` P, `LP3` P, `TS3` 0).
+- **Confidence only.** `avariz_vakfi` `LR4` 0 medium → low, basis rewritten (OF-0662); `CI2` and `MG1` high → medium (OF-0656, OF-0665). `bruderschaft_salzburg` `LP2` high → medium, `LR5` medium → low, `FP1` high → medium (OF-0677, OF-0695, OF-0701).
+- **Withdrawn premise.** "Donor and beneficiary are disjoint" (`avariz_vakfi`) is contradicted at Kıvrım 37, where the donors are residents of their own quarter and two conditioned their own houses' exemption.
+- **Recodings.** New rows `OF-R0248`–`OF-R0252`, `replaced`. Of the re-code's 20 rows: 10 `replaced`, 9 `kept`, 1 `overruled` (OF-R0010, `TS3`). Pending in both packages: 32, all commenda-arm rows carried into the Venetian pass.
+- **Carried.** `waqf_khayri CF1 = .NA` against the census's `0` for office-holding forms; `begijnhof LP3 = 1` against the standing-through-the-office reading; the worksheet's definitional questions 1 (`LR4` and a spiritual hazard), 3 (`AP4`) and 4 (`MG4`). The `MG2` split proposal is closed.
+- **Record.** `records/RULINGS-queue-clearance-2026-10-25.md`, rulings 6–25, with the pages read; type rows `avariz_vakfi` and `bruderschaft_salzburg` updated.
+- **Checks.** Frictionless VALID on both packages; dependence 0; vocabularies; quotations `--strict`; citations 0 errors; soft-wrap and tables; `organizational_forms` codebook regenerated twice, `cmp`-identical (`value`/`confidence` fill 651 → 649, `articulation` 360 → 362 of 948); views `capital-lock-in`, `legal-personality` and `perpetual-succession` regenerated, all ten `current`.
+
 ## organizational_forms and loss_mitigation_forms — 2026-10-25
 
 **Queue clearance, rulings 1–5 (`records/RULINGS-queue-clearance-2026-10-25.md`). 105 pending recodings adjudicated; three `commenda` cells re-based, one with lower confidence; no value changed. No version bump: adjudication states, cell bases and confidence only, and no constraint changed.**

@@ -7,7 +7,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **36 forms Ã
 | form                            | `TS1` | `TS2` | `TS3` | `TS4` |
 |---------------------------------|-------|-------|-------|-------|
 | `asiento_averia`                | 0     | 1     | 0     | 0     |
-| `avariz_vakfi`                  | 1     | 0     | P     | P     |
+| `avariz_vakfi`                  | 1     | 0     | 0     | P     |
 | `bazacle_mill`                  | 1     | 0     | 0     | P     |
 | `begijnhof`                     | 1     | 0     | .NR   | 0     |
 | `bruderschaft_salzburg`         | 1     | 0     | .NR   | 0     |

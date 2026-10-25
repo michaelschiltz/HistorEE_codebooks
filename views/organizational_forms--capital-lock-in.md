@@ -10,7 +10,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **36 forms Ã
 | `avariz_vakfi`                  | 1     |
 | `bazacle_mill`                  | P     |
 | `begijnhof`                     | P     |
-| `bruderschaft_salzburg`         | 1     |
+| `bruderschaft_salzburg`         | .NR   |
 | `casa_san_giorgio`              | 1     |
 | `chartered_corporation_england` | 1     |
 | `comanda`                       | .NR   |
