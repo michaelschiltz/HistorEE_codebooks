@@ -38,13 +38,13 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 |  1 | `record_id`     | string |    ✓     |                                                                                                 | 948/948 |
 |  2 | `type_id`       | string |          |                                                                                                 | 948/948 |
 |  3 | `char_id`       | string |          |                                                                                                 | 948/948 |
-|  4 | `value`         | string |          |                                                                                                 | 649/948 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 649/948 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 365/948 |
-|  7 | `source_ref`    | string |          |                                                                                                 | 843/948 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 801/948 |
+|  4 | `value`         | string |          |                                                                                                 | 653/948 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 653/948 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 369/948 |
+|  7 | `source_ref`    | string |          |                                                                                                 | 842/948 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 800/948 |
 |  9 | `coder`         | string |    ✓     |                                                                                                 | 948/948 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                            | 862/948 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                            | 861/948 |
 | 11 | `reviewed_by`   | string |    ✓     |                                                                                                 | 948/948 |
 | 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                                    | 948/948 |
 | 13 | `notes`         | string |          |                                                                                                 | 948/948 |

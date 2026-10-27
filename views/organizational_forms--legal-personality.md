@@ -13,7 +13,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **36 forms Ã
 | `bruderschaft_salzburg`         | .NR   | 1     | .NR   |
 | `casa_san_giorgio`              | 1     | 1     | P     |
 | `chartered_corporation_england` | 1     | 1     | 1     |
-| `comanda`                       | .NR   | .NR   | .NR   |
+| `comanda`                       | .NR   | 0     | .NR   |
 | `comanda_ad_societatem`         | .NR   | .NR   | .NR   |
 | `commenda`                      | 0     | 0     | 0     |
 | `compagnia`                     | P     | .NR   | .NR   |
