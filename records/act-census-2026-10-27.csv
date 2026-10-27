@@ -1,0 +1,256 @@
+doc_no,page_printed,acts_in_entry,language,act_type,form_assigned,in_sample,notes
+1,151,1,la,"comanda of a slave for labour (caulking), profit share",neither,non-contract,1236. Slave entrusted for one year's work; agent 1/4 of earnings. Not a placement of capital with a trading party. No loss terms.
+2,151,1,la,"comanda (recognition, sea voyage)",comanda,no,"1238, Sicily. 'ad fortunam Dei et tuum redegum'. Agent 1/4."
+3,152,1,la,comendacio repayable salvos in terra,comanda,mod3,"1239, Tunis. Agent bears the capital: 'reddere ... salvos in terra'. Loss not shared, so comanda by §3.1; minority agent-bears type."
+4,153,1,la,"comanda (recognition, sea voyage)",comanda,no,"1252, Tunis. 'ad tuum redegum et fortunam'. 1/4."
+5,154,1,la,"comanda (recognition, sea voyage)",comanda,no,"1252, Ultramar. 'ad tuum redegum et fortunam'. 1/4."
+6,154,1,la,"comanda (recognition, share of a purchase)",comanda,mod3,"1254, Tunis wax. 'ad tui redegum et fortunam'. 1/4."
+7,155,1,la,"comanda (recognition, open trade)",comanda,no,1254 (OCR 'quingentesimo quarto'). Commingled with agent's goods. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4.
+8,156,1,la,"comanda (recognition, sea voyage)",comanda,no,"1257, Mallorca. 'ad voluntatem Dei et ad tuum redegum'. 1/4."
+9,156,1,la,comanda as deposit/loan repayable on demand,neither,mod3,"1258. 'teneo de te in comanda', repay 'qua hora velitis' with interesse. No trading clause, no loss terms."
+10,157,1,la,"comanda (recognition, two agents)",comanda,no,"1260, Sicily. Agents bound in solidum; goods co-owned by three. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4."
+11,158,1,la,"comanda (recognition, share of comune)",comanda,no,"1260, Romania. Share of a comune in 84 parts. 'ad tui redegum et fortunam'. 1/4."
+12,159,1,la,royal bailiff's licence to sail,neither,mod3,1260. Licence for 50 s. Not a comanda.
+13,159,1,la,"comanda with agent's contribution, fixed term",neither,no,1260. Agent adds 26.5 l. 'in dicta societate'; term to Michaelmas; 30 s. logerium tabule. Loss terms not stated.
+14,160,1,la,"comanda (recognition, two investors, commingled)",comanda,directed,1260/61. 'ad vestrum redegum et fortunam'. Two investors' shares stated. Commingled.
+15,161,1,la,"comanda (recognition, open trade)",comanda,mod3,1260/61. Open-ended trade; separate instruments for two earlier comandas. 'ad voluntatem Dei et vestri redegum et fortunam'. 1/4.
+16,162,1,la,"receipt of goods from a comune, with indemnity and surety",neither,non-contract,1260s. Settlement of two parts placed in a comune carried to Romania.
+17,163,1,la,comanda seu deposito (debt acknowledgment),neither,non-contract,1260s. Proceeds of a ship share and profit held 'in comanda seu deposito'. Check full text.
+18,164,1,la,"comanda (recognition, sea voyage)",comanda,mod3,"1265, Barbary. 'de societate tue tabule'. 'ad tuum redegum et fortunam'. 1/4."
+19,164,2,la,"comanda (recognition, sea voyage)",comanda,no,"1260s, Ultramar. OCR garbled. 'ad tuum redegum et fortunam'. Second act in entry: check."
+20,165,1,la,"comanda (fixed term, open trade)",comanda,no,1260s. OCR garbled. 'ad tuum redegum et fortunam'. 3/4 to investor.
+21,166,1,la,quittance (partial payment of a comanda by heirs),neither,mod3,"1266. Finem et pactum de non petendo for 17 l., residue of comanda and profit reserved."
+22,167,1,la,"comanda (fixed term, open trade)",comanda,no,1260s. Repay at St John's; 'ad voluntatem Dei et ad tuum redegum'. 1/4.
+23,167,1,la,"comanda (recognition, sea voyage, commingled)",comanda,no,"1260s, Sicily. 'ad tuum redegum et fortunam'. 1/4."
+24,168,1,la,"comanda (recognition, sea voyage)",comanda,mod3,"1268, Barbary. 'ad tuum redegum et fortunam'. 1/4."
+25,169,1,la,"comanda (recognition, sea voyage)",comanda,no,"1268, Barbary. 'de societate tue tabule'. 'ad tuum redegum et fortunam'. 1/4."
+26,170,1,la,"comanda (recognition, sea voyage)",comanda,no,"1260s, Tunis. 'ad tuum redegum et fortunam'. 1/4."
+27,170,1,la,"comanda seu deposito, one-year term, commingled",comanda,mod3,1269. Trade for one year; restore 'absque omni tuo dampno'; transmissions 'ad tuum redegum et fortunam'. 1/4.
+28,171,1,la,"comanda (two agents, half-part of comune)",comanda,no,"1260s, Barbary. In solidum. 'ad tuum redegum et fortunam'. 1/4."
+29,172,1,la,comanda (two agents),comanda,no,"1260s, Sicily/Tunis. 'de societate tue tabule'. 'ad tuum redegum et fortunam'."
+30,173,1,la,"comanda (recognition, sea voyage, commingled)",comanda,mod3,"1270, Mallorca. 'ad voluntatem Dei et fortunam atque redegum vestri'. 1/4."
+31,174,1,la,comanda (two agents),comanda,no,"1270s, Barbary. 'ad tuum redegum et fortunam'."
+32,175,1,la,comanda (two agents),comanda,no,"1270s, Barbary. 'ad tuum redegum et fortunam'."
+33,176,1,la,"comanda (two agents, two investors, share of comune)",comanda,mod3,"1271, Barbary. In solidum. 'ad vestrum redegum et fortunam'. 1/4."
+34,177,1,la,"comanda (recognition, sea voyage)",comanda,no,"1270s, Bugia. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4."
+35,177,1,la,comanda (two agents),comanda,no,"1270s, Denia/Barbary. 'ad tuum redegum et fortunam'."
+36,178,1,la,"comanda (two agents, quarter of a part of comune)",comanda,mod3,"1271/72, Denia/Barbary. 'ad tuum redegum et fortunam'. 1/4."
+37,179,1,la,"comanda (recognition, commingled)",comanda,no,"1270s, Sicily. 'ad voluntatem Dei et vestri resegum et fortunam'. 1/4."
+38,180,1,la,comanda (three agents),comanda,no,"1272, Denia/Tunis. 'ad voluntatem Dei et ad tuum redegum et fortunam'."
+39,181,1,la,"comanda (two agents, share of grain comune)",comanda,mod3,1275. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4.
+40,182,1,la,comanda (two agents),comanda,no,1276. 'ad voluntatem Dei et tui redegum et fortunam'.
+41,183,1,la,"comanda (two agents, sea voyage)",comanda,no,"1277, Alexandria. 'ad voluntatem Dei et vestri redegum et fortunam'. 1/4."
+42,184,1,la,"comanda (two agents, share of comune)",comanda,mod3,"1278, Barbary. Investor a widow. 'ad voluntatem Dei et ad tuum redegum'. 1/4."
+43,185,1,la,"comanda (copy, sea voyage)",comanda,no,"1270s, Mallorca. Translatum. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4."
+44,186,1,la,comanda (two agents),comanda,no,"1280, Romania. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4."
+45,187,1,la,"comanda (two agents, commingled)",comanda,mod3,"1280, Romania. 'ad voluntatem [Dei et ad vestrum redeg]um' (editorial restoration). 1/4."
+46,187,1,la,comanda (overland),comanda,no,"1280s, overland. 'ad voluntatem Dei et ad tui redegum et fortunam'. 1/4."
+47,188,1,la,"comanda (two agents, two investors)",comanda,no,"1280s, Romania. 'ad voluntatem Dei et ad vestri redegum et fortunam'. 1/4."
+48,189,1,la,"comanda (two agents, with others' comandas)",comanda,mod3,"1281, Romania. Goods carried with other investors' money. 'ad tuum redegum et fortunam'. 1/4."
+49,190,1,la,"comanda (two agents, comune)",comanda,no,"1280s, Alcudia. OCR garbled. 'ad voluntatem Dei et ad tuum redegum'."
+50,191,1,la,comanda (sea voyage),comanda,no,"1280s, Valencia. OCR garbled. 'ad vestrum redegum et fortunam'."
+51,192,1,la,"acknowledgment of unreturned comanda plus new sum, repayable on demand",neither,mod3,1286. Converts a comanda into a sum repayable at will 'absque omni vestro dampno'. No loss allocation.
+52,193,1,la,comanda (sea voyage),comanda,no,"1288, Sicily. 'ad voluntatem Dei et vestri redegum et fortunam'. 1/4."
+53,193,1,la,comanda (commingled),comanda,no,"1288, Valencia. 'ad voluntatem Dei et ad vestrum redegum et fortunam'. 1/4."
+54,194,1,la,comanda (partly commingled),comanda,mod3,"1289, Valencia. 'ad voluntatem Dei et vestri redegum et fortunam'. 1/4."
+55,195,1,la,"comanda (copy, sea voyage)",comanda,no,"1280s/90s, Sicily. 'ad voluntatem Dei et ad vestri redegum et fortunam'. 1/4."
+56,196,1,la,comanda (sea then overland),comanda,no,"1290s, Collioure/Perpignan. Albaran of instructions. 'ad voluntatem Dei et ad vestrum redegum'. 1/4."
+57,197,1,la,comanda (sea voyage),comanda,mod3,"1292, Alexandria. 'ad vestrum redegum et fortunam'. 1/4."
+58,197,1,la,"deposito et comanda (oil, sea voyage)",comanda,no,1293. 'ad voluntatem Dei et vestri redegum et fortunam ad usum maris'. 1/4.
+59,198,1,la,"comanda (notule, abbreviated)",neither,no,"1293, Genoa. Risk clause cut: 'eat, maneat etc.'. Loss terms not stated."
+60,199,1,la,"comanda (notule, abbreviated; cancelled)",neither,mod3,"1293, Cyprus/Armenia. Two agents in solidum. Risk clause cut: 'eat, [maneat et redeat etc.]' (bracket editorial). 'ad .IIII. denarium de lucro'. Cancelled by consent of parties."
+61,199,1,la,"comanda placed in a draper's shop societas, two years",neither,no,1298. Commingled with the shop's money; 3/4 of profit pro rata to investor; expenses pro rata. Loss terms not stated.
+62,200,1,la,"comanda (notule, damaged)",neither,no,"1299, Candia/Cyprus. Jewish agent. '[+8] fortunam': whose risk lost in lacuna."
+63,201,1,la,"comanda (notule, commingled)",comanda,mod3,"1299, Candia/Cyprus. 'Ad quartum denarium de lucro et vestri fortunam'. Investor a widow."
+64,201,1,la,comanda (notule),comanda,no,"1299, Candia/Cyprus. Jewish agent. 'Ad quartum denarium de lucro et vestri fortunam'."
+65,202,1,la,"comanda (notule, two agents)",comanda,no,"1299, Cyprus. Albaran divided per alphabetum. 'et vestri fortunam'."
+66,202,1,la,"comanda (notule, two agents, commingled)",comanda,mod3,"1290s, Cyprus. 'Ad quartum denarium de lucro et vestri fortunam'."
+67,203,1,la,comanda (notule),comanda,no,"1299, Candia/Cyprus. Jewish parties. 'Ad quartum denarium de lucro et vestri fortunam'."
+68,203,1,la,"comanda (notule, two agents)",comanda,no,"1299. Father and son agents, investor the son/brother. 'et vestri fortunam'."
+69,204,1,la,"comanda (notule, commingled)",comanda,mod3,"1299, Romania. 'ad quartum denarium de lucro et vestri fortunam'."
+70,204,1,la,agreement between two travelling agents on dividing their quarter from comandas carried,neither,non-contract,"1299. Jewish agents' societas for a voyage to Candia/Cyprus; divides the agents' fourth penny 5.5/2.5 of 8. Believed on plain word 'absque placito, sacramento et testibus'."
+71,206,1,la,comanda (galley voyage),comanda,no,"c.1300, Tortosa/Provence/Genoa. 'ad voluntatem Dei et ad vestri redegum et fortunam'. 1/4."
+72,206,1,la,comanda (commingled),comanda,mod3,"1301, Valencia. Investor a woman. 'ad voluntatem Dei et vestri redegum et fortunam'. 1/4."
+73,207,1,la,comanda (two agents),comanda,no,"1304, Seville. 'ad vestri resegum et fortunam'. 1/4."
+74,208,1,la,"comanda (copy, share of comune, two agents)",comanda,no,1305. Translatum. 'simul cum dicto comuni ... ad vestri resegum et fortunam per solidum et libram'. 1/4.
+75,210,1,la,comanda (notule),neither,mod3,"1314, Marseille. 'Ad quartum lucri et usum maris': loss by custom only."
+76,211,1,la,comanda converted into agents' societas (notule),neither,no,1316. Jewish brothers in solidum. 'Ad quartum lucri et usum maris': loss by custom only.
+77,211,1,la,"comanda (notule, commingled)",neither,no,"1316, Cagliari/Sicily. 'ad quartum lucri et usum maris': loss by custom only."
+78,212,1,la,"comanda (notule, commingled)",neither,mod3,"1316, Cagliari/Sicily. Investor the agent's mother. 'ad quartum lucri et usum maris': loss by custom only."
+79,212,1,la,"comanda (notule, commingled)",neither,no,"1316, Cagliari/Sicily. 'ad quartum lucri et usum maris'; 'facere de dicta comanda tanquam de rebus meis'. Loss by custom only."
+80,213,1,la,comanda (notule),neither,no,"1328, Narbonne. Albaran. 'ad quartum lucri et usum maris': loss by custom only."
+81,213,4,la,"comanda (notule, two agents, four similar instruments)",neither,mod3,"1328, Sardinia. Entry prints one act and three 'Simile instrumentum fiat' (not marked as further acts in the file). 'Ad quartum lucri et usum maris': loss by custom only."
+82,214,1,la,comanda (notule),neither,no,"1328, Sardinia. 'ad quartum lucri etc.'. Loss terms not stated."
+83,215,1,la,"comanda (notule, text faded)",neither,no,"1328, Venice. Text breaks off '[el texto restante desvaído]'. Loss terms illegible."
+84,215,1,la,"comanda (notule, commingled)",neither,mod3,"1331, Sardinia. 'Ad quartum lucri et usum maris': loss by custom only."
+85,216,1,la,comanda (notule),neither,no,"1331, Tortosa. 'Ad quartum lucri et usum maris': loss by custom only."
+86,216,1,la,comanda (galleys),comanda,no,"1330s, Cagliari/Sicily. 'ad vestri resegum et fortunam'. 1/4."
+87,217,1,la,comanda placed in a merchants' societas,comanda,mod3,1334. 800 l. in a societas of three merchants; 'in dicta societate ... ad vestri redegum et fortunam ... per libram et solidum'. 1/4. Agents in solidum.
+88,219,1,la,quittance (pro rata payment on an investment in a societas),neither,non-contract,"1337. Payment 'pro rata' on 15,000 s. placed in a societas and acknowledged as a comanda."
+89,220,1,la,comanda (Cyprus),neither,no,1337. Profit 3/4-1/4; no risk clause ('etc.'). Loss terms not stated.
+90,220,1,la,comanda et deposito placed in a societas,comanda,mod3,1337. 500 l.; 'ad voluntatem Dei et vestri redegum et fortunam sicut alia bona et res dicte societatis'. 1/4.
+91,221,1,la,"comanda (open trade, return at will)",comanda,directed,1337. 'ad voluntatem Domini Dei et ad vestri redegum et fortunam'. 1/4.
+92,222,1,la,general release of comandas and deposits,neither,non-contract,1339. Release reserving the releasor's share of debts 'donata per perduts' in the societas holding his comanda.
+93,223,1,la,"comanda as a ship loan, fixed repayment on arrival, cog pledged",comanda,mod3,"1340, Mallorca. 330 l. spent outfitting a cog; repay 20 days after return; cog, gear and freight pledged; 'ad vestrum redegum et fortunam, ad usum maris et gencium'. No profit share."
+94,224,1,la,quittance (partial restitution of a comanda held in a societas),neither,non-contract,"1344. 949 l. restituted of 1,800 l."
+95,225,1,la,"comanda (overland, notule)",neither,no,"1349, Perpignan. Risk clause in lacuna 'Hec tamen [+ 8]'. Loss terms illegible."
+96,226,1,la,receipt of proceeds of a comanda to Cagliari,neither,mod3,"1349. Investor acknowledges part-return of a comanda (goods sent back, proceeds by bank transfer)."
+97,227,5,la,five apochae: pro rata payments to investors from a comune left after one agent's death and the other's flight,neither,non-contract,"1349, Sicily. Residue 'remansit emerciatum in Sicilia in debito et frumento'. Five similar apochae in one entry (not marked as further acts in the file)."
+98,228,1,la,acknowledgment of reimbursement of an agent's freight and expenses on a comanda,neither,non-contract,"1349, Beirut. Settlement with a widow as tutor; per albaran."
+99,229,27,la,"notular entry: 27 similar comanda instruments, most cancelled by consent",neither,mod3,"1349, Cyprus/Rhodes/Candia. 'Ad .IIII. denarium lucri'; 'Hec tamen comanda etc.': risk clause cut. Loss terms not stated."
+100,234,1,la,comanda (notule),neither,no,1349. 'ad IIII. denarium lucri etc.'; 'Hec tamen comanda etc.': loss terms not stated.
+101,235,4,la,notular entry: comanda and three similar instruments,neither,no,"1349, Beirut. No risk clause in the text. Loss terms not stated."
+102,236,4,la,notular entry: comanda and three similar instruments,neither,mod3,"1349, Beirut/Cyprus. 'Hec tamen comanda' then marginal note: risk clause cut. Loss terms not stated."
+103,237,1,la,comanda (notule),neither,no,"1349, Beirut/Syria/Cyprus. 'Hec tamen comanda etc.': loss terms not stated."
+104,238,1,la,"comanda payable at destination, investor's risk until arrival",comanda,no,"1349, Famagusta. 'ad risicum, periculum et fortunam vestri et dicti ser Georgii, quousque dicta cocha fuerit ad portum Famaguste'. Capital and profit payable there within 15 days."
+105,238,1,la,"comanda payable at destination, investor's risk until unloading",comanda,mod3,"1349, Beirut/Damascus. Ship's patrons as agents. 'ad Dei vestrum risicum, periculum et fortunam, usquequo dicta cocha fuerit ad dictum portum de Barut et ibi descarricate fuerint res'."
+106,239,1,la,acknowledgment of a sum due on a comanda carried without instrument,neither,non-contract,"1340s, Cyprus. Promise to pay to heirs."
+107,240,1,la,"comanda placed in agent's comune, return at will",comanda,directed,"1351. Pro rata share of profit of the comune; 'ad vestri risicum, periculum et fortunam'."
+108,241,1,la,"comanda placed in agent's comune, two years, no restitution before final account",comanda,mod3,"1351. 'ad vestri redegum, periculum et fortunam, prout Dominus Deus salvaverit peccuniam ... comunis mei per libram et solidum'. 1/4."
+109,242,1,la,"comanda seu puro deposito, half profit, return at will",comanda,no,1359. 'vadant ad redegum et fortunam vestri'. Investor takes capital 'cum medietate lucri'. Investors two women.
+110,243,1,la,comanda placed in agent's comune,comanda,no,"1350s. 'ad vestri risicum, periculum et fortunam, prout Dominus Deus salvaverit dictum comune meum, ad libram et solidum'. 1/4."
+111,244,1,la,quittance of capital and profit of a comanda to Sardinia,neither,mod3,1359. Voyage June-September 1358; instrument to be cancelled.
+112,245,1,la,comanda (Lisbon),comanda,no,1361. Jewish investor. 'ad risicum dicti Salamonis'.
+113,245,1,la,"comanda (overland, return at will)",comanda,no,"1361. 'ad voluntatem Dei et ad] vestri risicum, periculum et fortunam' (partly editorial). Profit clause inconsistent (quarter / half)."
+114,246,1,la,"comanda (two agents, one a minor who swears)",comanda,mod3,"1361, Alexandria. 'ad voluntatem Domini Dei ad [sic] vestrum ... redegum ... fortunam' (line order garbled). 1/4."
+115,247,1,la,"comanda (open trade, return at will)",comanda,no,1362. Agent one third. 'ad voluntatem Dei et ad vestri redegum et fortunam'.
+116,248,1,la,comanda (notule),neither,no,"1363, Cyprus. Investor a priest. 'Et ad risicum etc.': bearer abbreviated."
+117,248,1,la,comanda (notule),neither,mod3,"1363, Cyprus. 'Et ad risicum etc.': bearer abbreviated."
+118,249,1,la,comanda (notule),neither,no,1367. 'Hec tamen comanda eat ad risicum etc.': bearer abbreviated.
+119,249,1,la,"comanda (notule, in comune)",comanda,no,"1368, Sicily. 'ad vestri redegum, periculum et fortunam, prout ... dictum comune salvaverit, per libram et solidum'."
+120,250,1,la,comanda (notule),comanda,mod3,"1368, Sicily. 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'."
+121,251,1,la,"comanda (two agents, in comune)",comanda,no,"1368. Investor a woman. 'ad vestri redegum, periculum et fortunam ... per libram et solidum'."
+122,251,1,la,"comanda (two agents, with surety clause)",comanda,directed,"1368. Renunciation of the principal-first rule (fideiussor). 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'."
+123,253,1,la,comanda to a ship's patron to trade (notule),neither,mod3,"1368. 'hec comanda vadat ad risicum etc., ut est solitum fieri': bearer abbreviated."
+124,253,3,la,notular entry: comanda and two similar instruments,comanda,no,"1370. Act 1 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'; acts 2-3 'Et ad risicum ut supra'."
+125,254,1,la,comanda (notule),neither,no,1371. 'Et ad risicum etc.': bearer abbreviated. 'possim transmittere ac arriscare'.
+126,255,1,la,"comanda (notule, share of seven cloths)",comanda,mod3,"1370s, Sicily. 'Et hec comanda vestra sit ad vestrum risicum etc.': bearer stated."
+127,256,1,la,"comanda (notule, in comune)",comanda,no,"1372. Investor a widow. 'ad vestri redegum, periculum et fortunam ... per libram et solidum'."
+128,256,1,la,comanda (notule),neither,no,"1373, Sicily. 'Hec igitur comanda ad risicum etc.': bearer abbreviated."
+129,257,2,la,notular entry: two comandas to two mariners,comanda,mod3,"1373, Sicily. Act 1 'Et ad risicum etc.' (bearer abbreviated); act 2 'Ed ad vestri risicum etc.' (bearer stated). Entry assigned on act 2. Two acts marked [1] [2], not marked as further acts in the file."
+130,258,1,la,"comanda to a ship's patron (notule, cancelled)",comanda,no,"1374, Sicily. 'ad vestri redegum et fortunam etc.'."
+131,258,1,la,"comanda (notule, coastal)",comanda,no,"1374, Blanes. Agent a tailor. 'ad vestri riscum etc.'."
+132,259,1,la,comanda (notule),comanda,mod3,"1374, Sicily. 'possim baratare'; 'sit ubique ad vestri risicum etc.'."
+133,259,1,la,comanda (notule),comanda,no,"1374, Alexandria. 'ad vestri risicum et fortunam ... ad usum gentium atque maris'."
+134,260,1,la,comanda among Genoese (in comune),comanda,no,1374. 'ad risicum vestri dicti Marchi ... per libram et solidum'. 'possim arriscare semel et pluries'.
+135,260,2,la,notular entry: comanda and one similar,comanda,mod3,"1374, Rhodes/Cyprus/Beirut. Act 1 'ad vestri risicum ... ad usum gentium atque maris'; act 2 'Et ad risicum etc.'. Not marked as further acts in the file."
+136,262,4,la,notular entry: four comandas,neither,no,"1374, Alexandria. Every act 'Et ad risicum etc.': bearer abbreviated."
+137,263,1,la,comanda (in comune),comanda,no,"1374, Sicily. 'ad vestri risicum, prout ... dictum comune nostrum salvaverit, per libram et solidum'."
+138,264,1,la,comanda (notule),neither,mod3,"1374, Alexandria/Beirut. 'Et sit ad risicum etc.': bearer abbreviated."
+139,264,4,la,notular entry: four comandas,comanda,no,"1374, Seville. Act 1 'ad vestri risicum etc.'; acts 2-4 'Et ad risicum etc.'."
+140,266,3,la,notular entry: three comandas,comanda,no,"1375, Cyprus/Beirut. Act 1 'ad vestri risicum, periculum et fortunam etc.'; others 'ad risicum etc.' (one 'ut supra')."
+141,268,2,la,notular entry: two comandas (four agents),comanda,mod3,"1376, Rhodes/Cyprus/Beirut. Act 1 'ad vestri risicum, periculum et fortunam ... ad usum gentium atque maris'; act 2 'Et ad risicum etc., ut supra'."
+142,269,1,la,"comanda placed in a merchants' societas, two years",comanda,directed,"1370s. 'ad usum maris et gencium et ad vestri et vestrorum resicum, periculum et fortunam'. Investor a widow."
+143,270,1,ca,"chapters for the comanda and administration of a spice shop, agent contributing",neither,no,"1379. Catalan. Owner 736 l. 12 s., agent 123 l. 14 s.; two years; capitals first, then profit 3/4-1/4. Loss terms not stated."
+144,272,1,la,"comanda (two agents, one a minor who swears)",comanda,mod3,"1381, Beirut. 'ad vestri risicum, periculum et fortunam ... ad usum gentium atque maris'."
+145,273,1,la,comanda (notule; agent a minor),comanda,no,"1381, Sicily/Romania. Albaran. 'ad vestri risicum etc.'."
+146,273,2,la,notular entry: two comandas,comanda,no,"1382. Act 1 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'; act 2 'Et ad risicum etc.'."
+147,274,1,la,comanda to a mariner who owns a third of the goods (notule),neither,mod3,"1382, Genoa. 'Risicum etc.': bearer abbreviated. Agent holds a third of the goods."
+148,275,1,la,comanda to a ship's patron (notule),comanda,no,"1382, Genoa. 'ad vestri risicum etc.'."
+149,275,1,la,comanda seu puro deposito placed in agent's societas,neither,no,1383. 'restituam ... prout eam Deus salvare voluerit'; no risk clause. Loss terms not stated.
+150,276,1,la,comanda in coin (Portugal),comanda,mod3,1383. Memorial of instructions. 'ad vestri redegum et fortunam ... per libram et solidum'.
+151,277,1,la,comanda (two agents),comanda,no,"1393, Rhodes/Alexandria. 'ad vestri risicum, periculum et fortunam'."
+152,278,1,la,"comanda (overland, large)",comanda,no,"1393, Aragon/Castile. 13,200 s. 'ad vestri risicum, periculum et fortunam'."
+153,279,1,la,"comanda (two agents, coral)",neither,mod3,"1394, Cyprus/Beirut. Text ends 'Et pro hiis complendis.': no risk clause printed. Loss terms not stated."
+154,280,1,la,comanda in comune with split profit rule; wife obliges herself,comanda,directed,"1394. Agent keeps all profit on 30 l., investor all profit on 80 l.; 'ad vestri risicum ... per solidum et libram'. Wife renounces Velleianum and obliges herself."
+155,282,1,la,comanda (two agents),comanda,no,"1394, Rhodes/Alexandria. 'per modum salvatarie'; 'ad usum maris et gentium et ad vestri risicum, periculum et fortunam'."
+156,283,1,la,"comanda (in comune, notule)",comanda,mod3,"1394, Rhodes/Beirut. 'eat, maneat et sit ubique ad vestri risicum etc.'."
+157,284,1,la,"sub-comanda: transfer of several Perpignan investors' comandas to a second agent, who takes half the agent's quarter",comanda,no,"1395, Beirut. 'ad risicum, periculum et fortunam dictorum creditorum'. Investors called creditores."
+158,287,1,la,"comanda to three agents in comune, half profit",comanda,no,1395. Investor a widow. 'ad vestri risicum ... per solidum et libram'. One agent a minor who swears.
+159,289,1,la,"register note of a release (finis, absolucio, diffinicio) of a comanda ad quartum denarium",neither,mod3,1396. One-line note referring to the notule.
+160,289,1,la,comanda to a barque patron to trade (Aragon and France),neither,no,1397. Text ends after the profit clause: no risk clause printed. Loss terms not stated.
+161,290,1,la,comanda acknowledged a year after receipt (Rhodes),comanda,no,"1397. Agent of Avignon trading through factors. 'ad vestri risicum, periculum et fortunam'."
+162,291,1,la,"comanda (knives, return in a slave)",comanda,mod3,"1397, Sicily. 'ad vestri risicum, periculum et fortunam'. 1/4."
+163,292,1,la,comanda for arming a lembus (privateering),comanda,no,1398. 'ad vestri risicum periculum et fortunam'. 1/4.
+164,293,1,la,comanda (notule),neither,no,"1399, Sicily. 'Risicum etc.': bearer abbreviated."
+165,294,1,la,"comanda (notule, albaran)",neither,mod3,"1399, Alexandria. 'Hec igitur etc. risicum.': bearer abbreviated."
+166,295,1,la,"comanda (overland, return on demand)",comanda,no,"1400, Aragon. Investor a woman. 'ad vestri risicum, periculum et fortunam'."
+167,295,1,la,"comanda (two agents, notule)",neither,no,"1400, Beirut/Sicily/Cyprus/Syria/Egypt. 'Risicum etc.': bearer abbreviated."
+168,297,1,la,"comanda (notule, crossbows)",neither,mod3,"1402, Sicily. 'Predictam autem comandam etc.': no risk clause. Loss terms not stated."
+169,297,1,la,formulary model: 'Instrumentum comande ad quartum denarium' (Valencia),neither,no,"1400s, Valencia. Model parties 'Jacobus T.' and 'Iohanne T.'. 'ipsa comanda est et vadit ad redigum, periculum et fortunam Dei, maris et gencium': peril stated, bearer not named. Neither by §3.1."
+170,298,1,la,comanda (notule),neither,no,1404. 'Predicta autem comanda eat etc.': bearer abbreviated.
+171,299,1,la,comanda to a ship's patron and a young merchant (notule),neither,mod3,1404. 'Et hec comanda ete.': risk clause cut. Co-patron consents.
+172,300,1,la,comanda (notule),neither,no,"1405, Sicily/Rhodes/Cyprus/Beirut. 'Et eadem comanda vestra etc.': risk clause cut. Father consents."
+173,301,1,la,"comanda to a ship's owner (notule, cancelled)",neither,no,"1406. 'Et eadem comanda vestra etc. eat, maneat etc.': risk clause cut."
+174,301,2,la,notular entry: two 'simile' comandas referring to a prior instrument,neither,mod3,"1407, Alexandria. 'Cum posse primi instrumenti'; no risk clause. Loss terms not stated."
+175,302,1,la,'simile' comanda in an exchange payable at Alexandria,neither,no,"1408. 'Et hec comanda vestra eat etc.' from sailing to arrival, 'prout Dominus Deus salvaverit tres caxias de corall ... per solidum et libram': bearer abbreviated."
+176,303,1,la,'simile' comanda in an exchange,neither,no,1408. 'Et hec comanda etc.': risk clause cut.
+177,304,1,la,'simile' comanda (partly in comune),neither,mod3,1408. 'Et hec comanda etc.': risk clause cut.
+178,304,1,la,"comanda (notule, albaran)",neither,no,"1409, Alexandria. No risk clause; 'Fiat in proxime subscripti'. Loss terms not stated."
+179,305,1,la,"comanda (two agents, one a minor)",comanda,no,"1409. 'ad voluntatem Dei et ad vestri risicum, periculum et fortunam ... ad usum gencium atque maris'."
+180,307,1,la,"comanda (galleys, in comune, notule)",neither,mod3,"1409, Beirut/Damascus. 'Et hec comanda etc.': risk clause cut. 'fidare quibuscumque personis'."
+181,308,1,la,'simile' comanda,neither,no,1409. 'Cum posse proxime dicti instrumenti': no risk clause.
+182,308,1,la,'simile' comanda,neither,no,1409. 'Et hec comanda etc.': risk clause cut.
+183,309,1,la,'simile' comanda (in comune),neither,mod3,"1409, Alexandria. 'Et hec comanda etc.': risk clause cut. Goods sent to be entered in the ship's scribe's book."
+184,310,1,la,"comanda (notule, albaran)",comanda,no,"1410, Sicily. 'ad vestri risicum, periculum et fortunam ... ad usum gentium atque maris'."
+185,311,1,la,comanda (notule),comanda,no,"1411, Sicily/Alexandria/Beirut. 'ad vestri risicum, periculum et fortunam ... ad usum maris et gentium'."
+186,311,1,ca,notarial protest of an investor against his agent for not bringing the agreed return (pepper),neither,mod3,1412. Catalan cedula read before the Llotja. Protest for loss in value and all damages 'per culpa vostra'. Comanda of 1409 in an exchange at Damascus.
+187,312,1,la,'simile' comanda (notule),neither,no,1413. No risk clause; 'Hec igitur etc.'. Loss terms not stated.
+188,313,1,la,comanda (notule),neither,no,"1414, Rhodes/Alexandria. 'Risicum etc.': bearer abbreviated."
+189,314,1,la,"comanda in an exchange at Alexandria, agent one eighth",neither,mod3,"1414. 'tendunt ad risicum et periculum, prout Dominus Deus salvaverit duas caxias coralli' until arrival and 24 hours after: bearer not named. 'Ad medium quartum lucri'. 'Et eadem comanda vestra ete.'."
+190,315,1,la,comanda (notule),comanda,no,"1414, Sicily/Alexandria. 'Que implicamenta eat ad vestri risicum, etc.'."
+191,316,1,la,"comanda in exchanges, agent bears the sea, investor the credit of the takers",comanda,directed,"1414. 'salve et secure in terra absque aliquo risico seu periculo vestris ... nisi subscripto'; 'ad vestri ... risicum ... quo scilicet ad malum seu insufficientem receptorem'. Investor the agent's sister, a widow. Agent's wife consents."
+192,317,1,la,comanda (notule),neither,mod3,"1414, France. 'Risicum etc.': bearer abbreviated."
+193,317,1,la,collective act of many investors authorising agents on the route of their comandas,neither,non-contract,"1415. Some twenty investors, several minors and a procurator, permit the return to be sent via Alxiu or Rhodes."
+194,319,1,la,comanda to a Genoese (notule),neither,no,"1415, Alexandria. 'Risicum etc.': bearer abbreviated."
+195,320,1,la,"comanda (notule, two investors)",neither,mod3,"1415, Alexandria. 'Risicum etc.': bearer abbreviated."
+196,321,1,la,'simile' comanda (notule),neither,no,"1415, Syracuse/Catania. No risk clause. Loss terms not stated."
+197,321,1,la,comanda (notule),neither,no,"1415, Sicily/Rhodes/Alexandria. 'Risicum etc.': bearer abbreviated."
+198,322,1,la,"comanda (in comune, notule)",comanda,mod3,"1415, Rhodes/Cyprus/Beirut/Damascus. 'ad vestri etc.': bearer stated, remainder abbreviated. Investor may choose his part from the comune."
+199,323,1,la,"acknowledgment of a comanda received from a deceased investor, owed to his heirs",comanda,directed,1415. 'Risicum dictorum heredum ete.': bearer stated.
+200,324,1,la,'simile' comanda (notule),comanda,no,1417. 'hec comanda vestra eat ad vestri risicum etc.'. Exchanges 'ad vestri risicum vel sine risico'.
+201,325,1,ca,chapters of a comanda with loss of the capital shared by halves,comanda_ad_societatem,mod3,"1419. Catalan. 1,000 l.; sea and men losses 'se perdran per maytat', half to the comanda and half to the agent 'de son propri cabal'; profit by halves; capital locked for two years; agent's wife renounces her dowry rights."
+202,327,1,la,"comanda (notule, cancelled)",comanda,no,"1421, Sicily/Naples. 'Risicum est vestrum etc.'."
+203,328,1,la,comanda to a ship's patron (notule),neither,no,"1421. Investor his mother-in-law. 'Et ipsa comanda eat, maneat et sit etc.': risk clause cut."
+204,329,2,la,comanda in a comune including the agent's own 200 l. and the investor's wife's 100 l.,neither,mod3,"1421, Sicily. 'Risicum etc.': bearer abbreviated. Second instrument for the wife. Agent a minor who swears."
+205,330,1,la,comanda (notule),neither,no,1421. 'Predicta vero comanda eat et maneat et sit ubique etc.': bearer not stated. Agent a minor.
+206,331,1,la,"comanda, return in exchanges payable in Barcelona 'salvis in terra'",neither,no,"1422, Naples. 'Predicta autem comanda maneat et sit ubique ad risicum etc.': bearer abbreviated."
+207,331,1,la,comanda to buy a slave (cancelled),neither,mod3,"1422. 'ad risicum, periculum et fortunam vestri dicti Petri': 'vestri' addresses the investor (Antonius Ledó), 'dicti Petri' names the agent. Bearer contradictory as printed; check page image."
+208,332,1,la,comanda (two agents),comanda,no,"1423. 'ad vestri risicum, periculum et fortunam'."
+209,333,1,la,comanda (notule),neither,no,"1423, Sicily/Naples. 'Risicum etc.': bearer abbreviated. Exchanges 'salvis in terra'."
+210,334,1,la,"comanda, return in exchanges payable in Barcelona 'salvo in terra'",comanda,mod3,"1423, Naples. 'ad vestri risicum ete.'. Agent a minor who swears; father present."
+211,335,1,la,comanda,comanda,no,1425. Investor a woman. 'ad vestri risicum periculum et fortunam etc.'.
+212,336,1,la,comanda (galley),comanda,no,"1425, Rhodes. 'ad vestri risicum, periculum et fortunam'."
+213,337,1,la,comanda (galley); later ceded by the investor,neither,mod3,"1425, Rhodes. 'ad risicum.': bearer omitted. Marginal notes: recognition and cession of the comanda to a third party (1427)."
+214,338,1,la,comanda (Flanders galley),comanda,no,1426. 'ad vestri risicum periculum et fortunam'.
+215,338,1,la,"comanda (notule; agent a minor, father consents)",neither,no,"1426, Sicily. No risk clause. Loss terms not stated."
+216,339,1,la,comanda (notule),comanda,mod3,"1426, Genoa. 'Hec igitur, etc. ad risicum vestrum ete.'."
+217,340,2,la,notular entry: two comandas,neither,directed,"1427, Naples. 'Risicum ubique etc.': bearer abbreviated."
+218,341,1,la,"comanda (two agents, father investor)",comanda,no,1428. 'ubique ad vestri risicum etc.'.
+219,342,1,la,"comanda (notule, cancelled)",neither,mod3,"1429, Sicily. Text ends after the sale clause: no risk clause printed. Loss terms not stated."
+220,343,1,ca,chapters of a companyia in the furriers' trade: investor's 400 l. held 'en pura comanda' at his pleasure,comanda,directed,1428/29. Catalan. Agent pays from his own goods for credit he gives ('queu haja a pagar de sos béns propris'); 1/3 profit; investor may dissolve at will. Only credit losses allocated (to the agent); not shared.
+221,344,1,la,procuration to collect a comanda and its account,neither,non-contract,"1434. Father appoints his son, co-agent, to take the account and the comanda from the other agent."
+222,345,1,la,"comanda (silverwork, Levant)",comanda,mod3,"1430s. 'ad vestri risicum, periculum et fortunam'. 1/4."
+223,346,1,la,"comanda (galley, Levant)",comanda,no,"1437. 'ad vestri risicum, periculum et fortuna m etc.'."
+224,347,1,la,"comanda (galley, Sicily)",comanda,no,"1437. 'ad vestri risicum, periculum et fortunam etc.'."
+225,348,1,la,comanda (exchange and cloth),neither,mod3,"1437, Levant/Sicily. Text ends 'Et ipsa etiam comanda vestra': risk clause cut. Loss terms not stated."
+226,349,1,la,apocha: agents' receipt of pepper returned to the investor's heir's tutors,neither,non-contract,1438.
+227,350,1,la,acknowledgment of an exchange debt (unfinished),neither,non-contract,1449. 'debeo ... racione puri cambii'. Text unfinished.
+228,350,1,la,comanda (Sardinia/Naples),comanda,mod3,1449. 'ad vestri risicum etc.'. 1/4.
+229,351,1,la,"comanda in an exchange, agent one eighth",comanda,no,"1449, Rhodes/Levant. 'ad vestri risicum etc.'. 'medium quartum lucri'."
+230,352,1,la,comanda (Tunis galley),comanda,no,"1451. 'ad vestri risicum, periculum et fortunam, durante dicto viagio ... ad solidum pro libra'."
+231,353,1,la,comanda (Tunis galley),comanda,mod3,"1451. 'ad vestri risicum, periculum et fortunam ... ad solidum pro libra'. 1/4."
+232,353,2,la,notular entry: two comandas,comanda,no,"1451, Sardinia. 'ad vestri risicum'."
+233,354,1,la,comanda without profit to the agent,neither,no,"1451, Naples/Sicily. 'nichil ex lucro inde michi retento ex pacto'; 'Risicum etc.': bearer abbreviated."
+234,355,1,la,quittance by heirs of capital and profit of a comanda to Tunis and Alexandria,neither,mod3,1455. Comanda of 1448 in a comune; agent's half-quarter retained; litigation costs 'in ipso comuni'.
+235,357,1,ca,chapters making a comanda into a companyia and comú in four equal parts,neither,no,1450s. Catalan. One agent is one of the four contributors; agents may insure goods and exchanges ('fase asegurar'). Loss terms not stated.
+236,359,1,la,comanda (Rhodes/Alexandria),comanda,no,1459. 'ad usum maris et gencium et ad vestri vestrorumque risicum ete.'.
+237,360,1,la,"comanda from three investors, each a third",neither,mod3,"1459, Levant. 1,703 l. 'dicta comanda eat, maneat et sit ubique etc.': risk clause cut. Loss terms not stated."
+238,360,1,la,comanda from three investors,comanda,no,"1462. 'ad vestri risicum, periculum et fortunam'."
+239,362,1,la,comanda (Rhodes/Alexandria),neither,no,1463. 'Risicum etc.': bearer abbreviated.
+240,363,1,la,comanda of fish to follow the royal army (overland),neither,mod3,"1464. Agent 1/3, food allowance 12 d. a day up to 12 days. 'Risicum etc.': bearer abbreviated."
+241,364,1,la,"comanda among Genoese, agent one sixth",neither,no,1464. 'Ad sextum lucri'; 'Risicum': bearer abbreviated.
+242,365,1,la,comanda to a ship's patron (Provence),neither,no,1464. 'Risicum ete.': bearer abbreviated.
+243,366,1,la,comanda (cloth and an exchange),comanda,mod3,"1465, Rhodes/Alexandria. Exchange part 'debet ire ad vestri risicum, periculum et fortunam, prout Dominus Deus salvaverit quandam balam pannorum'; the rest 'Risicum etc.'. Assigned on the stated part."
+244,367,1,la,comanda (Rhodes/Alexandria),neither,no,1465. 'Risicum etc.': bearer abbreviated.
+245,367,1,la,comanda (Rhodes/Alexandria),neither,no,1465. 'Risicum etc.': bearer abbreviated. Mentions the agent's wife's dowry.
+246,368,1,la,comanda of coral with power to insure and exchanges to repay,comanda,mod3,"1467, Levant. 2,700 l. 'assequrandi'; 'ad vestri risicum etc.'. Investor the agent's father."
+247,369,1,la,"comanda with risk of both parties by pact, half profit",comanda_ad_societatem,directed,"1473, Aragon. 'ad risicum amborum vestri et mei per pactum'. Agent half profit."
+248,370,1,ca,chapter: comandas carried beside a companyia's capital,comanda,no,1474. Catalan. One comanda 'a risch e bona ventura del dit Manuel Oliver'.
+249,371,1,la,comanda (Levant via Palermo/Rhodes),comanda,mod3,"1489. 'ad usum maris et gencium et ad vestri risicum, periculum et fortunam ... per solidum et libram'. 1/4."
+250,372,1,la,comanda in a comune; insurance premium deducted from profit,comanda,directed,1489. 'deducto precio securitatis'; 'ad vestri risicum ... per solidum et libram'.
+251,373,1,la,"pura comanda puroque deposito to a mariner, with the investor's Catalan instructions, half profit",comanda,no,"1488, Castile/Portugal. 'ad vestri risicum, periculum et fortunam ... per solidum et libram'. Catalan letter embedded."
+252,375,1,ca,chapters: pura comanda of mercery for retail in the investor's shop,neither,mod3,1498. Catalan. Half profit; three years; daily account on oath; investor may reclaim on bad account. Loss terms not stated.
+253,376,1,la,recognition and cession of rights in a comanda to the true owner,neither,non-contract,1501. Nominal investor cedes all rights in the comanda to his father-in-law; intimated to and accepted by the agent.
+254,377,1,la,pura comanda puroque deposito in a comune of oil,comanda,no,"1501, Alexandria. 'ad vestri risicum, periculum et fortunam ... per solidum et libram'. 1/4."
+255,378,1,ca,chapters: carriage of saffron to Geneva at the carrier's whole risk,neither,mod3,"15th c. Catalan. Goods held 'en sa comanda' for carriage; carrier takes 'tot risch, perill e fortuna' and pays for loss; loss to be shown 'ab scriptura auténtica'. No trading, no profit share."
