@@ -77,6 +77,25 @@ The 48 acts whose risk clause is abbreviated ('Et ad risicum etc.') are notarial
 
 The translation logs class many lines of the text layer as truncated, scrambled or promoted to headings. Those observations were made through the Zotero connector's rendering of the layer, not through `pdftotext -layout`, which is what the coding pass used. The truncation may be an artefact of the rendering. The misread numerals (3 for 8, 2 for 9, 3 for 9) and characters are in the layer itself; they are the errors that threaten the coded years, amounts and document numbers.
 
+## For MS's decision
+
+Two questions this collation raises and cannot settle. Each is stated with the evidence and a recommendation. Neither changes a coded value under any option. **Both recommendations adopted by MS, 2026-11-01.**
+
+### D1. The 48 abbreviated acts ('Et ad risicum etc.')
+
+- **The question.** Item 4 of the acquisitions list in `records/NOTES-comanda-primary-coding-2026-10-27.md` asked whether the 48 abbreviated notules are register drafts whose extended instruments survive, and said the answer "would move the census assignment, not the coded values". The census assigns them to neither row, under the evidence rule of 2026-10-12 that an act is assigned only where it places the loss in terms.
+- **What the study answers.** They are register drafts: the AHPB documents are the notes in the notaries' *manuales*, with the style clauses cut to *et cetera*. The extended instrument was handed to the investor, so it does not survive in the register; the ACB parchments are such instruments and show the expanded clauses (pp. 133-134). The full deeds carry the investor-bears risk formula as a style clause (pp. 127-128); that the notes abbreviate that same clause is the study's implication, not its statement.
+- **The options.** (a) Leave the 48 with neither row and record the convention as a sensitivity reading. (b) Assign them to `comanda` by convention, which takes the census from 145 to 193 comanda acts (202 with the nine custom-only acts), as the coding notes' sensitivity line already computed.
+- **Recommendation: (a).** Assigning by convention would put into the census a reading of what the notary would have written, which the evidence rule of 2026-10-12 exists to keep out, and it buys no change of value. Record the convention in the `CF2` note when that cell is next re-based, and in the Latin part of the translation test record each abbreviated act's archival line (ACB parchment or AHPB manual), which the bundle stripped and which settles the study's account act by act.
+- **Ruled by MS, 2026-11-01: (a).** The 48 stay with neither row; the convention is recorded in the `CF2` note (OF-0866) as a reading under which they would join `comanda`, value unchanged. The archival lines are to be recorded in the Latin part of the translation test.
+
+### D2. Docs 240 and 252
+
+- **The question.** The study cites both for its risk rules (pp. 129-130); the census codes neither as placing the loss.
+- **Doc 240** (1464, fish to follow the royal army; p. 363). The census has the bearer abbreviated ('Risicum etc.'); the study counts the act among those with all risk on the investor despite the agent's third. That is the notarial convention of D1, not a reading of the note, so doc 240 goes with D1. **Recommendation:** decide it with D1; under (a) it stays with neither row.
+- **Doc 252** (1 February 1498, Catalan *capítols* for a mercery shop; p. 375). The census has the loss terms not stated; the study cites the act, with docs 201 and 247, for risk divided in the proportion of profit, «muy señaladamente cuando era a medias» (p. 130, n. 229). Docs 201 and 247 are the census's two `comanda_ad_societatem` acts. If the chapters divide loss by halves, doc 252 is a third. **Recommendation:** read the page image of p. 375 in the Latin part of the translation test before deciding. If the chapters divide loss, record it as a `comanda_ad_societatem` act in a new census file (the 2026-10-27 census stays verbatim) and add it to the `comanda_ad_societatem` cells' sources; if they do not, record the study's citation as unsupported. The study's citation alone should not move the act.
+- **Ruled by MS, 2026-11-01: as recommended.** Doc 240 stays with neither row under D1 (a). Doc 252 stays as coded until its page image is read; D2 remains open on that one act.
+
 ## Page images to read first
 
 Docs 17, 178, 251, 255 (dates); 3 (date, lender, risk clause); 93, 191 (classification); 240, 252 (risk clauses); 214, 238 (remuneration; not in the sample).
