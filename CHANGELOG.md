@@ -18,6 +18,16 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-11-01
+
+**The editors' study in Madurell Marimón & García Sanz 1973 (pp. 9-148), read from the page images, collated against the comanda coding of 2026-10-27. No value, confidence or articulation changes; dated notes appended to eight cells on MS's licence. No version bump.**
+
+- **Notes.** `comanda` `CI3` (OF-0849), `LR2` (OF-0852), `LR3` (OF-0853), `CF2` (OF-0866); `comanda_alloc` `MC1` (LM-0741), `RB2` (LM-0744), `RB4` (LM-0746), `PR1` (LM-0747). Each note says what the study reports, at which page, and that the editor is not an independent witness on the content of his own documents. No `recodings.csv` row, since nothing a recoding records changed.
+- **What the census has not read.** A fixed fee of 2-3 per cent of capital outward and 2 per cent on return, from 1426 (docs 214, 238), against `LR2` = coupled if the clauses read as reported; doc 255, a carrier's assumption of the whole risk in comanda form (the study's *comanda-seguro*), for `MC1` and `PR1`.
+- **Dates.** Four coded years disagree with the study: doc 17 in `records/instances-2026-10-27.csv` (1252 against 20 Jan 1263), and docs 55, 178 and 251 in the act census. Doc 255 is dated by the editors to the second half of the 14th century; the census has `15th c.`. No sample instance changes 25-year bin. `records/` is preserved verbatim, so the instance file and the act census are not edited; the collation records the conflicts.
+- **Record.** `records/COLLATION-madurell-study-2026-11-01.md`, with the page images to read first; logbook 5, 2026-11-01.
+- **Checks.** Run before and after the edit: Frictionless VALID on both packages; dependence 0 on both; vocabularies; citations 0 errors (146 standing warnings, unchanged); quotations `--strict` 0; soft-wrap and tables; codebooks current; all nine `organizational_forms` views (`--mechanism all`) and the loss census's `risk-pooling` view current. Both `data.csv` files round-tripped byte-identical before the rewrite; the diff is four rows in each.
+
 ## organizational_forms and loss_mitigation_forms — 2026-10-27
 
 **The comanda primary pass adjudicated: the blind coding of 43 cells from the 255 Barcelona acts of Madurell Marimón & García Sanz 1973 agrees with the live values on 34. Of the nine disagreements, four blind values are adopted, one cell takes a third value and four live values stand. Five values change and fifteen cells are re-based on primary transactions. No version bump: values within existing constraints.**
