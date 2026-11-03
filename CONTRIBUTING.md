@@ -70,6 +70,37 @@ Two directories, and the line between them is what the deposit is allowed to cit
 
 **And commit order is evidence only to someone who can check it.** Since 2026-10-23 every push of this repository is anchored in the public ledger [`michaelschiltz/research-ledger`](https://github.com/michaelschiltz/research-ledger): a `pre-push` hook records each pushed commit id with an OpenTimestamps proof, and nothing of the content. So a priors commit is **pushed** before the coding chat opens a source, and the batch's coding notes name its ledger entry (`entries/<year>/<file>.txt`). **Never force-push.** An anchored commit missing from the published history reads as a rewrite, which is exactly what the ledger exists to expose; amend or rebase only what has not been pushed.
 
+### Reading a printed primary edition
+
+These rules were learned on the comanda pass. It was coded on 2026-10-27 from the PDF text layer of Madurell Marimón & García Sanz 1973, and corrected on 2026-11-03 from a full reading of the page images (`records/CORRECTIONS-madurell-translation-2026-11-03.md`).
+
+**The text layer is evidence that a clause is present, never that it is absent.** A clause the layer shows is there. A clause the layer does not show may have been dropped at a line break, split off with a table, scrambled into garbage, or cut by the scribe's own abbreviation. So every coded absence that rests on a primary edition is checked against the page image: every `.NR`, every "not stated", every assignment to a neither row for want of a clause.
+
+**Comparing `pdftotext` with Zotero's rendering checks layout, not OCR.** Both read the same embedded layer. Numeral and character errors are in the layer itself, so only the page image, or a second independent OCR, can catch them.
+
+**Measure the layer before coding.** The operator checks about ten pages against the images and records the errors by class in the selection brief:
+
+- numerals;
+- characters;
+- structure (table splits, scrambled prose);
+- truncation;
+- headings.
+
+Where numerals fail, every numeral field gets an image check. In Madurell 1973, 56 of 115 instance amounts were wrong or truncated, mostly because a leading number word was lost at a line break ("sep-/tuaginta" → "tuaginta"; doc 204 read 1 lb for 851 lb).
+
+**Code from the layer, then check against the image only these:**
+
+- every quotation that carries a cell value;
+- every coded absence;
+- every numeral, date and name field the record keeps verbatim;
+- every page the layer shows as structurally garbled.
+
+Flag candidates by script first: amounts that begin with a unit word or carry too few number words, line-end hyphens, years outside the edition's range, and known OCR forms (*ete*, *hee*, *huie*, *hine*, *hoe*). Where a second OCR engine is available, compare its output with the layer and send the lines where the two disagree to the image.
+
+**Settle the assignment conventions before the coding, by reading at least one notary's series in full.** The conventions are how to read an abbreviated clause, an entry incorporating an earlier instrument, a salvage clause, and an errand. Record them as rulings before any row exists. In the comanda pass the convention chosen during coding sent abbreviated acts to the neither row. The full series showed that every written-out clause named the investor, and the corrected convention decided 60 of the 202 comanda acts. The OCR errors decided none.
+
+**Never take parties or roles from an editor's regest or heading.** Headings are editorial: Madurell's reverse the roles in docs 226 and 252, and the coding followed one of them.
+
 ## 4. Coding conventions (the parts referees test)
 
 **Missingness is disaggregated.** Never leave a cell blank. Any field may carry one of three inline tokens, which the schema's `missingValues` treats as missing rather than as a value:
