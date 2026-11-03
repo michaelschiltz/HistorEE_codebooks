@@ -1,0 +1,1104 @@
+seq,file,key,field,old,new,rule,source
+1,census,59,form_assigned,neither,comanda,D-BELL,L05/L06
+2,census,59,notes,"1293, Genoa. Risk clause cut: 'eat, maneat etc.'. Loss terms not stated.","1293, Genoa. Risk clause cut: 'eat, maneat etc.'. Loss terms not stated. [2026-11-03] D-BELL: abbreviated risk clause; Bernat de Vilarrubia has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L05/L06
+3,census,60,form_assigned,neither,comanda,D-BELL,L05/L06
+4,census,60,notes,"1293, Cyprus/Armenia. Two agents in solidum. Risk clause cut: 'eat, [maneat et redeat etc.]' (bracket editorial). 'ad .IIII. denarium de lucro'. Cancelled by consent of parties.","1293, Cyprus/Armenia. Two agents in solidum. Risk clause cut: 'eat, [maneat et redeat etc.]' (bracket editorial). 'ad .IIII. denarium de lucro'. Cancelled by consent of parties. [2026-11-03] D-BELL: abbreviated risk clause; Bernat de Vilarrubia has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L05/L06
+5,census,89,form_assigned,neither,comanda,D-SALV,L08
+6,census,89,notes,1337. Profit 3/4-1/4; no risk clause ('etc.'). Loss terms not stated.,1337. Profit 3/4-1/4; no risk clause ('etc.'). Loss terms not stated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor.,D-SALV,L08
+7,census,99,form_assigned,neither,comanda,D-ABBR,L09
+8,census,99,notes,"1349, Cyprus/Rhodes/Candia. 'Ad .IIII. denarium lucri'; 'Hec tamen comanda etc.': risk clause cut. Loss terms not stated.","1349, Cyprus/Rhodes/Candia. 'Ad .IIII. denarium lucri'; 'Hec tamen comanda etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.",D-ABBR,L09
+9,census,100,form_assigned,neither,comanda,D-ABBR,L09
+10,census,100,notes,1349. 'ad IIII. denarium lucri etc.'; 'Hec tamen comanda etc.': loss terms not stated.,"1349. 'ad IIII. denarium lucri etc.'; 'Hec tamen comanda etc.': loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.",D-ABBR,L09
+11,census,102,form_assigned,neither,comanda,D-ABBR,L09
+12,census,102,notes,"1349, Beirut/Cyprus. 'Hec tamen comanda' then marginal note: risk clause cut. Loss terms not stated.","1349, Beirut/Cyprus. 'Hec tamen comanda' then marginal note: risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.",D-ABBR,L09
+13,census,103,form_assigned,neither,comanda,D-ABBR,L09
+14,census,103,notes,"1349, Beirut/Syria/Cyprus. 'Hec tamen comanda etc.': loss terms not stated.","1349, Beirut/Syria/Cyprus. 'Hec tamen comanda etc.': loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.",D-ABBR,L09
+15,census,116,form_assigned,neither,comanda,D-ABBR,L10
+16,census,116,notes,"1363, Cyprus. Investor a priest. 'Et ad risicum etc.': bearer abbreviated.","1363, Cyprus. Investor a priest. 'Et ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L10
+17,census,117,form_assigned,neither,comanda,D-ABBR,L10
+18,census,117,notes,"1363, Cyprus. 'Et ad risicum etc.': bearer abbreviated.","1363, Cyprus. 'Et ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L10
+19,census,118,form_assigned,neither,comanda,D-ABBR,L11
+20,census,118,notes,1367. 'Hec tamen comanda eat ad risicum etc.': bearer abbreviated.,"1367. 'Hec tamen comanda eat ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L11
+21,census,123,form_assigned,neither,comanda,D-ABBR,L11
+22,census,123,notes,"1368. 'hec comanda vadat ad risicum etc., ut est solitum fieri': bearer abbreviated.","1368. 'hec comanda vadat ad risicum etc., ut est solitum fieri': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L11
+23,census,125,form_assigned,neither,comanda,D-ABBR,L11
+24,census,125,notes,1371. 'Et ad risicum etc.': bearer abbreviated. 'possim transmittere ac arriscare'.,"1371. 'Et ad risicum etc.': bearer abbreviated. 'possim transmittere ac arriscare'. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L11
+25,census,128,form_assigned,neither,comanda,D-ABBR,L11
+26,census,128,notes,"1373, Sicily. 'Hec igitur comanda ad risicum etc.': bearer abbreviated.","1373, Sicily. 'Hec igitur comanda ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L11
+27,census,136,form_assigned,neither,comanda,D-ABBR,L12
+28,census,136,notes,"1374, Alexandria. Every act 'Et ad risicum etc.': bearer abbreviated.","1374, Alexandria. Every act 'Et ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L12
+29,census,138,form_assigned,neither,comanda,D-ABBR,L12
+30,census,138,notes,"1374, Alexandria/Beirut. 'Et sit ad risicum etc.': bearer abbreviated.","1374, Alexandria/Beirut. 'Et sit ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L12
+31,census,147,form_assigned,neither,comanda,D-ABBR,L13
+32,census,147,notes,"1382, Genoa. 'Risicum etc.': bearer abbreviated. Agent holds a third of the goods.","1382, Genoa. 'Risicum etc.': bearer abbreviated. Agent holds a third of the goods. [2026-11-03] D-ABBR: abbreviated risk clause read as Felip Gombau's house formula, written out with the investor as bearer in doc. 142; abbreviated_entry stays yes.",D-ABBR,L13
+33,census,149,form_assigned,neither,comanda,D-SALV,L13
+34,census,149,notes,1383. 'restituam ... prout eam Deus salvare voluerit'; no risk clause. Loss terms not stated.,1383. 'restituam ... prout eam Deus salvare voluerit'; no risk clause. Loss terms not stated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor.,D-SALV,L13
+35,census,153,form_assigned,neither,comanda,D-SALV,L14
+36,census,153,notes,"1394, Cyprus/Beirut. Text ends 'Et pro hiis complendis.': no risk clause printed. Loss terms not stated.","1394, Cyprus/Beirut. Text ends 'Et pro hiis complendis.': no risk clause printed. Loss terms not stated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor. The entry stops before the risk clause.",D-SALV,L14
+37,census,164,form_assigned,neither,comanda,D-ABBR,L15
+38,census,164,notes,"1399, Sicily. 'Risicum etc.': bearer abbreviated.","1399, Sicily. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L15
+39,census,165,form_assigned,neither,comanda,D-ABBR,L15
+40,census,165,notes,"1399, Alexandria. 'Hec igitur etc. risicum.': bearer abbreviated.","1399, Alexandria. 'Hec igitur etc. risicum.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L15
+41,census,167,form_assigned,neither,comanda,D-ABBR,L15
+42,census,167,notes,"1400, Beirut/Sicily/Cyprus/Syria/Egypt. 'Risicum etc.': bearer abbreviated.","1400, Beirut/Sicily/Cyprus/Syria/Egypt. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L15
+43,census,168,form_assigned,neither,comanda,D-ABBR+D-SALV,L15
+44,census,168,notes,"1402, Sicily. 'Predictam autem comandam etc.': no risk clause. Loss terms not stated.","1402, Sicily. 'Predictam autem comandam etc.': no risk clause. Loss terms not stated. [2026-11-03] D-ABBR + D-SALV on two abbreviations only: 'Que implicamenta etc.' (salvage clause) and 'Predictam autem comandam etc.' (opening of Bellmunt's written clause, docs. 190, 191). Rests on abbreviations, not a written clause.",D-ABBR+D-SALV,L15
+45,census,170,form_assigned,neither,comanda,D-ABBR,L16
+46,census,170,notes,1404. 'Predicta autem comanda eat etc.': bearer abbreviated.,"1404. 'Predicta autem comanda eat etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L16
+47,census,171,form_assigned,neither,comanda,D-ABBR,L16
+48,census,171,notes,1404. 'Et hec comanda ete.': risk clause cut. Co-patron consents.,"1404. 'Et hec comanda ete.': risk clause cut. Co-patron consents. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L16
+49,census,172,form_assigned,neither,comanda,D-ABBR,L16
+50,census,172,notes,"1405, Sicily/Rhodes/Cyprus/Beirut. 'Et eadem comanda vestra etc.': risk clause cut. Father consents.","1405, Sicily/Rhodes/Cyprus/Beirut. 'Et eadem comanda vestra etc.': risk clause cut. Father consents. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L16
+51,census,173,form_assigned,neither,comanda,D-ABBR,L16
+52,census,173,notes,"1406. 'Et eadem comanda vestra etc. eat, maneat etc.': risk clause cut.","1406. 'Et eadem comanda vestra etc. eat, maneat etc.': risk clause cut. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L16
+53,census,174,form_assigned,neither,comanda,D-SIM,L16
+54,census,174,notes,"1407, Alexandria. 'Cum posse primi instrumenti'; no risk clause. Loss terms not stated.","1407, Alexandria. 'Cum posse primi instrumenti'; no risk clause. Loss terms not stated. [2026-11-03] D-SIM: a 'simile' / 'fiat ut in proxime' entry takes over the notary's earlier written instrument, which names the investor.",D-SIM,L16
+55,census,175,form_assigned,neither,comanda,D-SALV,L16
+56,census,175,notes,"1408. 'Et hec comanda vestra eat etc.' from sailing to arrival, 'prout Dominus Deus salvaverit tres caxias de corall ... per solidum et libram': bearer abbreviated.","1408. 'Et hec comanda vestra eat etc.' from sailing to arrival, 'prout Dominus Deus salvaverit tres caxias de corall ... per solidum et libram': bearer abbreviated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor. Written out, bounded in time and secured on the chests.",D-SALV,L16
+57,census,176,form_assigned,neither,comanda,D-ABBR,L16
+58,census,176,notes,1408. 'Et hec comanda etc.': risk clause cut.,"1408. 'Et hec comanda etc.': risk clause cut. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L16
+59,census,177,form_assigned,neither,comanda,D-ABBR,L16
+60,census,177,notes,1408. 'Et hec comanda etc.': risk clause cut.,"1408. 'Et hec comanda etc.': risk clause cut. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L16
+61,census,178,form_assigned,neither,comanda,D-ABBR,L16
+62,census,178,notes,"1409, Alexandria. No risk clause; 'Fiat in proxime subscripti'. Loss terms not stated.","1409, Alexandria. No risk clause; 'Fiat in proxime subscripti'. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L16
+63,census,180,form_assigned,neither,comanda,D-ABBR,L16
+64,census,180,notes,"1409, Beirut/Damascus. 'Et hec comanda etc.': risk clause cut. 'fidare quibuscumque personis'.","1409, Beirut/Damascus. 'Et hec comanda etc.': risk clause cut. 'fidare quibuscumque personis'. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L16
+65,census,181,form_assigned,neither,comanda,D-SIM,L16
+66,census,181,notes,1409. 'Cum posse proxime dicti instrumenti': no risk clause.,"1409. 'Cum posse proxime dicti instrumenti': no risk clause. [2026-11-03] D-SIM: a 'simile' / 'fiat ut in proxime' entry takes over the notary's earlier written instrument, which names the investor.",D-SIM,L16
+67,census,182,form_assigned,neither,comanda,D-ABBR,L17
+68,census,182,notes,1409. 'Et hec comanda etc.': risk clause cut.,"1409. 'Et hec comanda etc.': risk clause cut. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L17
+69,census,183,form_assigned,neither,comanda,D-ABBR,L17
+70,census,183,notes,"1409, Alexandria. 'Et hec comanda etc.': risk clause cut. Goods sent to be entered in the ship's scribe's book.","1409, Alexandria. 'Et hec comanda etc.': risk clause cut. Goods sent to be entered in the ship's scribe's book. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L17
+71,census,187,form_assigned,neither,comanda,D-ABBR,L17
+72,census,187,notes,1413. No risk clause; 'Hec igitur etc.'. Loss terms not stated.,"1413. No risk clause; 'Hec igitur etc.'. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L17
+73,census,188,form_assigned,neither,comanda,D-ABBR,L17
+74,census,188,notes,"1414, Rhodes/Alexandria. 'Risicum etc.': bearer abbreviated.","1414, Rhodes/Alexandria. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L17
+75,census,189,form_assigned,neither,comanda,D-SALV,L17
+76,census,189,notes,"1414. 'tendunt ad risicum et periculum, prout Dominus Deus salvaverit duas caxias coralli' until arrival and 24 hours after: bearer not named. 'Ad medium quartum lucri'. 'Et eadem comanda vestra ete.'.","1414. 'tendunt ad risicum et periculum, prout Dominus Deus salvaverit duas caxias coralli' until arrival and 24 hours after: bearer not named. 'Ad medium quartum lucri'. 'Et eadem comanda vestra ete.'. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor. Written out ('prout Dominus Deus salvaverit duas caxias coralli'); 'Et eadem comanda vestra etc.' is Bellmunt's abbreviated clause.",D-SALV,L17
+77,census,192,form_assigned,neither,comanda,D-ABBR,L17
+78,census,192,notes,"1414, France. 'Risicum etc.': bearer abbreviated.","1414, France. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L17
+79,census,194,form_assigned,neither,comanda,D-ABBR,L18
+80,census,194,notes,"1415, Alexandria. 'Risicum etc.': bearer abbreviated.","1415, Alexandria. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L18
+81,census,195,form_assigned,neither,comanda,D-ABBR,L18
+82,census,195,notes,"1415, Alexandria. 'Risicum etc.': bearer abbreviated.","1415, Alexandria. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L18
+83,census,196,form_assigned,neither,comanda,D-SIM,L18
+84,census,196,notes,"1415, Syracuse/Catania. No risk clause. Loss terms not stated.","1415, Syracuse/Catania. No risk clause. Loss terms not stated. [2026-11-03] D-SIM: a 'simile' / 'fiat ut in proxime' entry takes over the notary's earlier written instrument, which names the investor.",D-SIM,L18
+85,census,197,form_assigned,neither,comanda,D-ABBR,L18
+86,census,197,notes,"1415, Sicily/Rhodes/Alexandria. 'Risicum etc.': bearer abbreviated.","1415, Sicily/Rhodes/Alexandria. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L18
+87,census,203,form_assigned,neither,comanda,D-ABBR,L18
+88,census,203,notes,"1421. Investor his mother-in-law. 'Et ipsa comanda eat, maneat et sit etc.': risk clause cut.","1421. Investor his mother-in-law. 'Et ipsa comanda eat, maneat et sit etc.': risk clause cut. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L18
+89,census,204,form_assigned,neither,comanda,D-ABBR,L19
+90,census,204,notes,"1421, Sicily. 'Risicum etc.': bearer abbreviated. Second instrument for the wife. Agent a minor who swears.","1421, Sicily. 'Risicum etc.': bearer abbreviated. Second instrument for the wife. Agent a minor who swears. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L19
+91,census,205,form_assigned,neither,comanda,D-ABBR,L19
+92,census,205,notes,1421. 'Predicta vero comanda eat et maneat et sit ubique etc.': bearer not stated. Agent a minor.,"1421. 'Predicta vero comanda eat et maneat et sit ubique etc.': bearer not stated. Agent a minor. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L19
+93,census,206,form_assigned,neither,comanda,D-ABBR,L19
+94,census,206,notes,"1422, Naples. 'Predicta autem comanda maneat et sit ubique ad risicum etc.': bearer abbreviated.","1422, Naples. 'Predicta autem comanda maneat et sit ubique ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L19
+95,census,209,form_assigned,neither,comanda,D-ABBR,L19
+96,census,209,notes,"1423, Sicily/Naples. 'Risicum etc.': bearer abbreviated. Exchanges 'salvis in terra'.","1423, Sicily/Naples. 'Risicum etc.': bearer abbreviated. Exchanges 'salvis in terra'. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L19
+97,census,213,form_assigned,neither,comanda,D-ABBR,L19
+98,census,213,notes,"1425, Rhodes. 'ad risicum.': bearer omitted. Marginal notes: recognition and cession of the comanda to a third party (1427).","1425, Rhodes. 'ad risicum.': bearer omitted. Marginal notes: recognition and cession of the comanda to a third party (1427). [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L19
+99,census,215,form_assigned,neither,comanda,D-SALV,L20
+100,census,215,notes,"1426, Sicily. No risk clause. Loss terms not stated.","1426, Sicily. No risk clause. Loss terms not stated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor.",D-SALV,L20
+101,census,217,form_assigned,neither,comanda,D-ABBR,L20
+102,census,217,notes,"1427, Naples. 'Risicum ubique etc.': bearer abbreviated.","1427, Naples. 'Risicum ubique etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L20
+103,census,225,form_assigned,neither,comanda,D-ABBR,L20
+104,census,225,notes,"1437, Levant/Sicily. Text ends 'Et ipsa etiam comanda vestra': risk clause cut. Loss terms not stated.","1437, Levant/Sicily. Text ends 'Et ipsa etiam comanda vestra': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Francesc Cerda's house formula, written out with the investor as bearer in docs. 223, 224; abbreviated_entry stays yes.",D-ABBR,L20
+105,census,233,form_assigned,neither,comanda,D-BELL,L21
+106,census,233,notes,"1451, Naples/Sicily. 'nichil ex lucro inde michi retento ex pacto'; 'Risicum etc.': bearer abbreviated.","1451, Naples/Sicily. 'nichil ex lucro inde michi retento ex pacto'; 'Risicum etc.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L21
+107,census,237,form_assigned,neither,comanda,D-ABBR,L22
+108,census,237,notes,"1459, Levant. 1,703 l. 'dicta comanda eat, maneat et sit ubique etc.': risk clause cut. Loss terms not stated.","1459, Levant. 1,703 l. 'dicta comanda eat, maneat et sit ubique etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Esteve Mir's house formula, written out with the investor as bearer in docs. 230, 231, 236, 246; abbreviated_entry stays yes.",D-ABBR,L22
+109,census,239,form_assigned,neither,comanda,D-BELL,L22
+110,census,239,notes,1463. 'Risicum etc.': bearer abbreviated.,"1463. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L22
+111,census,240,form_assigned,neither,comanda,D-BELL,L22
+112,census,240,notes,"1464. Agent 1/3, food allowance 12 d. a day up to 12 days. 'Risicum etc.': bearer abbreviated.","1464. Agent 1/3, food allowance 12 d. a day up to 12 days. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L22
+113,census,241,form_assigned,neither,comanda,D-BELL,L22
+114,census,241,notes,1464. 'Ad sextum lucri'; 'Risicum': bearer abbreviated.,"1464. 'Ad sextum lucri'; 'Risicum': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L22
+115,census,242,form_assigned,neither,comanda,D-BELL,L22
+116,census,242,notes,1464. 'Risicum ete.': bearer abbreviated.,"1464. 'Risicum ete.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L22
+117,census,244,form_assigned,neither,comanda,D-BELL,L22
+118,census,244,notes,1465. 'Risicum etc.': bearer abbreviated.,"1465. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L22
+119,census,245,form_assigned,neither,comanda,D-BELL,L22
+120,census,245,notes,1465. 'Risicum etc.': bearer abbreviated. Mentions the agent's wife's dowry.,"1465. 'Risicum etc.': bearer abbreviated. Mentions the agent's wife's dowry. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L22
+121,census,104,form_assigned,comanda,neither,D105/D-ERRAND,L09
+122,census,104,notes,"1349, Famagusta. 'ad risicum, periculum et fortunam vestri et dicti ser Georgii, quousque dicta cocha fuerit ad portum Famaguste'. Capital and profit payable there within 15 days.","1349, Famagusta. 'ad risicum, periculum et fortunam vestri et dicti ser Georgii, quousque dicta cocha fuerit ad portum Famaguste'. Capital and profit payable there within 15 days. [2026-11-03] D105 / D-ERRAND: remittance of value: silver carried for sale, whole price to the principal; no profit allocation to the carrier. Form changed comanda -> neither.",D105/D-ERRAND,L09
+123,census,105,form_assigned,comanda,neither,D105/D-ERRAND,L09/L10
+124,census,105,notes,"1349, Beirut/Damascus. Ship's patrons as agents. 'ad Dei vestrum risicum, periculum et fortunam, usquequo dicta cocha fuerit ad dictum portum de Barut et ibi descarricate fuerint res'.","1349, Beirut/Damascus. Ship's patrons as agents. 'ad Dei vestrum risicum, periculum et fortunam, usquequo dicta cocha fuerit ad dictum portum de Barut et ibi descarricate fuerint res'. [2026-11-03] D105 / D-ERRAND: remittance of value by the ship's patrons; capital and profit paid at Damascus; no profit allocation to the carriers. Form changed comanda -> neither.",D105/D-ERRAND,L09/L10
+125,census,152,form_assigned,comanda,neither,D105/D-ERRAND,L13
+126,census,152,notes,"1393, Aragon/Castile. 13,200 s. 'ad vestri risicum, periculum et fortunam'.","1393, Aragon/Castile. 13,200 s. 'ad vestri risicum, periculum et fortunam'. [2026-11-03] D105 / D-ERRAND: purchase on commission: goods bought for and delivered to the principal at his expense; no profit allocation to the agent. Form changed comanda -> neither.",D105/D-ERRAND,L13
+127,census,43,notes,"1270s, Mallorca. Translatum. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4.","1280, Mallorca. Translatum. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4.",date,L04
+128,census,43,notes,"1280, Mallorca. Translatum. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4.","1280, Mallorca. Translatum. 'ad voluntatem Dei et tui redegum et fortunam'. 1/4. [2026-11-03] Date corrected 1270s -> 1280: deed of 10 May 1280 (VI id. Mai.; "".Mo.CCo. octuagesimo"").",date,L04
+129,census,66,notes,"1290s, Cyprus. 'Ad quartum denarium de lucro et vestri fortunam'.","1299, Cyprus. 'Ad quartum denarium de lucro et vestri fortunam'.",date,L06
+130,census,66,notes,"1299, Cyprus. 'Ad quartum denarium de lucro et vestri fortunam'.","1299, Cyprus. 'Ad quartum denarium de lucro et vestri fortunam'. [2026-11-03] Date corrected 1290s -> 1299: heading and manual give 1299.",date,L06
+131,census,106,notes,"1340s, Cyprus. Promise to pay to heirs.","1349, Cyprus. Promise to pay to heirs.",date,L10
+132,census,106,notes,"1349, Cyprus. Promise to pay to heirs.","1349, Cyprus. Promise to pay to heirs. [2026-11-03] Date corrected 1340s -> 1349: the year is 1349.",date,L10
+133,census,110,notes,"1350s. 'ad vestri risicum, periculum et fortunam, prout Dominus Deus salvaverit dictum comune meum, ad libram et solidum'. 1/4.","1359. 'ad vestri risicum, periculum et fortunam, prout Dominus Deus salvaverit dictum comune meum, ad libram et solidum'. 1/4.",date,L10
+134,census,110,notes,"1359. 'ad vestri risicum, periculum et fortunam, prout Dominus Deus salvaverit dictum comune meum, ad libram et solidum'. 1/4.","1359. 'ad vestri risicum, periculum et fortunam, prout Dominus Deus salvaverit dictum comune meum, ad libram et solidum'. 1/4. [2026-11-03] Date corrected 1350s -> 1359: deed of 6 September 1359.",date,L10
+135,census,126,notes,"1370s, Sicily. 'Et hec comanda vestra sit ad vestrum risicum etc.': bearer stated.","1371, Sicily. 'Et hec comanda vestra sit ad vestrum risicum etc.': bearer stated.",date,L11
+136,census,126,notes,"1371, Sicily. 'Et hec comanda vestra sit ad vestrum risicum etc.': bearer stated.","1371, Sicily. 'Et hec comanda vestra sit ad vestrum risicum etc.': bearer stated. [2026-11-03] Date corrected 1370s -> 1371: editors' 25 September 1371 (fol. 38, with doc. 125).",date,L11
+137,census,142,notes,"1370s. 'ad usum maris et gencium et ad vestri et vestrorum resicum, periculum et fortunam'. Investor a widow.","1379. 'ad usum maris et gencium et ad vestri et vestrorum resicum, periculum et fortunam'. Investor a widow.",date,L13
+138,census,142,notes,"1379. 'ad usum maris et gencium et ad vestri et vestrorum resicum, periculum et fortunam'. Investor a widow.","1379. 'ad usum maris et gencium et ad vestri et vestrorum resicum, periculum et fortunam'. Investor a widow. [2026-11-03] Date corrected 1370s -> 1379: deed of 30 July 1379.",date,L13
+139,census,222,notes,"1430s. 'ad vestri risicum, periculum et fortunam'. 1/4.","1434. 'ad vestri risicum, periculum et fortunam'. 1/4.",date,L20
+140,census,222,notes,"1434. 'ad vestri risicum, periculum et fortunam'. 1/4.","1434. 'ad vestri risicum, periculum et fortunam'. 1/4. [2026-11-03] Date corrected 1430s -> 1434: dated deed of 8 June 1434.",date,L20
+141,census,235,notes,1450s. Catalan. One agent is one of the four contributors; agents may insure goods and exchanges ('fase asegurar'). Loss terms not stated.,1456. Catalan. One agent is one of the four contributors; agents may insure goods and exchanges ('fase asegurar'). Loss terms not stated.,date,L21
+142,census,235,notes,1456. Catalan. One agent is one of the four contributors; agents may insure goods and exchanges ('fase asegurar'). Loss terms not stated.,1456. Catalan. One agent is one of the four contributors; agents may insure goods and exchanges ('fase asegurar'). Loss terms not stated. [2026-11-03] Date corrected 1450s -> 1456: Saturday 4 September 1456 (computed weekday agrees).,date,L21
+143,census,251,notes,"1488, Castile/Portugal. 'ad vestri risicum, periculum et fortunam ... per solidum et libram'. Catalan letter embedded.","1489, Castile/Portugal. 'ad vestri risicum, periculum et fortunam ... per solidum et libram'. Catalan letter embedded.",date,L23
+144,census,251,notes,"1489, Castile/Portugal. 'ad vestri risicum, periculum et fortunam ... per solidum et libram'. Catalan letter embedded.","1489, Castile/Portugal. 'ad vestri risicum, periculum et fortunam ... per solidum et libram'. Catalan letter embedded. [2026-11-03] Date corrected 1488 -> 1489: 10 December 1489, before the 25 December change of the Nativity year.",date,L23
+145,census,178,notes,"1409, Alexandria. No risk clause; 'Fiat in proxime subscripti'. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.","1408, Alexandria. No risk clause; 'Fiat in proxime subscripti'. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",date,L16
+146,census,178,notes,"1408, Alexandria. No risk clause; 'Fiat in proxime subscripti'. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.","1408, Alexandria. No risk clause; 'Fiat in proxime subscripti'. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes. [2026-11-03] Date corrected 1409 -> 1408 (L16). The note's 'No risk clause' misses 'Et eodem etc.', Nadal's abbreviated clause (docs. 172, 173); 'Que etc.' abbreviates the salvage clause.",D-ABBR,L16
+147,census,255,notes,"15th c. Catalan. Goods held 'en sa comanda' for carriage; carrier takes 'tot risch, perill e fortuna' and pays for loss; loss to be shown 'ab scriptura auténtica'. No trading, no profit share.","undated; 2nd half 14th c. (editors, by party and hand) Catalan. Goods held 'en sa comanda' for carriage; carrier takes 'tot risch, perill e fortuna' and pays for loss; loss to be shown 'ab scriptura auténtica'. No trading, no profit share.",date,L23
+148,census,255,notes,"undated; 2nd half 14th c. (editors, by party and hand) Catalan. Goods held 'en sa comanda' for carriage; carrier takes 'tot risch, perill e fortuna' and pays for loss; loss to be shown 'ab scriptura auténtica'. No trading, no profit share.","undated; 2nd half 14th c. (editors, by party and hand) Catalan. Goods held 'en sa comanda' for carriage; carrier takes 'tot risch, perill e fortuna' and pays for loss; loss to be shown 'ab scriptura auténtica'. No trading, no profit share. [2026-11-03] Date corrected '15th c.' -> editors' dating: heading 'mediados del siglo XIV'; study p. 105, 2nd half of the 14th c., by the party Berenguer Marti (docs. 100, 1349; 114, 1361) and the hand. 15th-c. indications (placed after acts of 1501; the Canyelles bolsa of 1419, doc. 201; the Geneva fairs) noted, not decisive.",date,L23
+149,census,238,acts_in_entry,1,2,acts,L22
+150,census,238,notes,"1462. 'ad vestri risicum, periculum et fortunam'.","1462. 'ad vestri risicum, periculum et fortunam'. [2026-11-03] acts_in_entry 1 -> 2: [2] is a second comanda (90 lb) from two of the three investors, 'Fiat in omnibus ut in proxime instrumento' (D-SIM: comanda, investor). Total 2,540 lb. Remuneration is commission (2 % outward, 3 % returns), not a profit share; returns in wheat or barley.",D-SIM,L22
+151,census,248,acts_in_entry,1,2,acts,L23
+152,census,248,notes,1474. Catalan. One comanda 'a risch e bona ventura del dit Manuel Oliver'.,"1474. Catalan. One comanda 'a risch e bona ventura del dit Manuel Oliver'. [2026-11-03] acts_in_entry 1 -> 2: [1] is a jointly owned lot, the agent a third-owner, no loss term ('neither' on its own, doc. 235 precedent); [2] 'a risch e bona ventura del dit Manuel Oliver' (comanda, investor). The entry stays 'comanda' on [2].",acts,L23
+153,census,226,act_type,apocha: agents' receipt of pepper returned to the investor's heir's tutors,apocha: investors' receipt of pepper from the agent's heir's tutors,parties,L21
+154,census,226,notes,1438.,"1438. [2026-11-03] Roles reversed in the 10-27 act_type (which followed the regest): the declarants had made two comandas to the late money-changer Pere Jaume de Sant Joan ('duarum comandarum per nos dicto quondam Petro Jacobo ... factarum'); they are the investors and he was their agent. One pont of pepper, 1,033 Alexandrian rotols, assigned by albara.",parties,L21
+155,census,220,act_type,chapters of a companyia in the furriers' trade: investor's 400 l. held 'en pura comanda' at his pleasure,chapters of a companyia in the clothes-dealers' (peller) trade: investor's 400 l. held 'en pura comanda' at his pleasure,gloss,L24
+156,census,220,notes,1428/29. Catalan. Agent pays from his own goods for credit he gives ('queu haja a pagar de sos béns propris'); 1/3 profit; investor may dissolve at will. Only credit losses allocated (to the agent); not shared.,"1428/29. Catalan. Agent pays from his own goods for credit he gives ('queu haja a pagar de sos béns propris'); 1/3 profit; investor may dissolve at will. Only credit losses allocated (to the agent); not shared. [2026-11-03] 'furriers' -> 'clothes-dealers' (peller), per the Glosario.",gloss,L24
+157,census,171,notes,"1404. 'Et hec comanda ete.': risk clause cut. Co-patron consents. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.","1404. 'Et hec comanda ete.': risk clause cut. The father, Francesc de Niubo, consents. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",parties,L16
+158,census,171,notes,"1404. 'Et hec comanda ete.': risk clause cut. The father, Francesc de Niubo, consents. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.","1404. 'Et hec comanda ete.': risk clause cut. The father, Francesc de Niubo, consents. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes. [2026-11-03] The consenting Franciscus is Francesc de Niubo, the father of the minor Perico de Niubo, not Francesc ca Rovira the co-patron.",parties,L16
+159,census,193,notes,"1415. Some twenty investors, several minors and a procurator, permit the return to be sent via Alxiu or Rhodes.","1415. Fifty-five investors by count on pp. 317-318 (some with a procurator), permit the return to be sent via Alxiu or Rhodes.",parties,L17/L18
+160,census,193,notes,"1415. Fifty-five investors by count on pp. 317-318 (some with a procurator), permit the return to be sent via Alxiu or Rhodes.","1415. Fifty-five investors by count on pp. 317-318 (some with a procurator), permit the return to be sent via Alxiu or Rhodes. [2026-11-03] 'Some twenty' undercounts (55 names, L17 count); 'several minors' misreads 'minor diebus' (the younger), paired with 'maior diebus'.",parties,L17/L18
+161,census,122,act_type,"comanda (two agents, with surety clause)",comanda (two agents),security,L11
+162,census,122,notes,"1368. Renunciation of the principal-first rule (fideiussor). 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'.","1368. Renunciation of the principal-first rule (fideiussor). 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'. [2026-11-03] No surety: the clause is the co-obligors' renunciation of the benefit of excussion (doc. 121 has it word for word). Two investors (Jacobus Solerii, Jacobus de Palacio).",security,L11
+163,census,191,act_type,"comanda in exchanges, agent bears the sea, investor the credit of the takers","comanda in exchanges, agent answers for placing the money safe on land, investor the credit of the takers",loss,L17
+164,census,191,notes,"1414. 'salve et secure in terra absque aliquo risico seu periculo vestris ... nisi subscripto'; 'ad vestri ... risicum ... quo scilicet ad malum seu insufficientem receptorem'. Investor the agent's sister, a widow. Agent's wife consents.","1414. 'salve et secure in terra absque aliquo risico seu periculo vestris ... nisi subscripto'; 'ad vestri ... risicum ... quo scilicet ad malum seu insufficientem receptorem'. Investor the agent's sister, a widow. Agent's wife consents. [2026-11-03] 'agent bears the sea' removed: there is no sea in the deed; 'salve et secure in terra' is the agent's undertaking to place the money safely on land (L17).",loss,L17
+165,census,235,notes,1456. Catalan. One agent is one of the four contributors; agents may insure goods and exchanges ('fase asegurar'). Loss terms not stated. [2026-11-03] Date corrected 1450s -> 1456: Saturday 4 September 1456 (computed weekday agrees).,"1456. Catalan. One agent is one of the four contributors; agents may insure goods and exchanges ('fase asegurar'). Loss terms not stated. [2026-11-03] Date corrected 1450s -> 1456: Saturday 4 September 1456 (computed weekday agrees). [2026-11-03] Agents take 1/4 of the net profit; the insurance clause ('fase asegurar') is a power of the agents. Recommended act_type 'comanda converted to companyia (four contributors, two agents, one agent a contributor)' (L21).",profit,L21
+166,census,140,notes,"1375, Cyprus/Beirut. Act 1 'ad vestri risicum, periculum et fortunam etc.'; others 'ad risicum etc.' (one 'ut supra').","1375, Cyprus/Beirut. Act 1 'ad vestri risicum, periculum et fortunam etc.'; others 'ad risicum etc.' (one 'ut supra'). [2026-11-03] Five acts in the manual; the editors print three (two left out for faded ink: Francesc de Pedralbes after [2], Jaume de Nogueres after [3]). acts_in_entry counts the edited acts.",acts,L12
+167,census,149,notes,1383. 'restituam ... prout eam Deus salvare voluerit'; no risk clause. Loss terms not stated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor.,"1383. 'restituam ... prout eam Deus salvare voluerit'; no risk clause. Loss terms not stated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor. [2026-11-03] The agent also executes an antipoca for the same 300 lb (a second instrument, not counted).",acts,L13
+168,census,19,notes,"1260s, Ultramar. OCR garbled. 'ad tuum redegum et fortunam'. Second act in entry: check.","1260s, Ultramar. OCR garbled. 'ad tuum redegum et fortunam'. Second act in entry: check. [2026-11-03] The flag 'Second act in entry: check' is answered by the image: one act (two investors, Fonts and Homo Dei).",acts,L02
+169,census,207,notes,"1422. 'ad risicum, periculum et fortunam vestri dicti Petri': 'vestri' addresses the investor (Antonius Ledó), 'dicti Petri' names the agent. Bearer contradictory as printed; check page image.","1422. 'ad risicum, periculum et fortunam vestri dicti Petri': 'vestri' addresses the investor (Antonius Ledó), 'dicti Petri' names the agent. Bearer contradictory as printed; check page image. [2026-11-03] D-207: stays neither (an errand to buy a slave for the investor, no profit allocation; D-ERRAND). The risk clause names the investor; ""vestri dicti Petri"" is a scribal slip, confirmed in the image.",D-207,L19
+170,census,218,notes,1428. 'ubique ad vestri risicum etc.'.,1428. 'ubique ad vestri risicum etc.'. [2026-11-03] D-ERRAND: a trading comanda with all profit to the investor stays comanda. The profit rule is not otherwise recorded.,D-ERRAND,L20
+171,census,233,notes,"1451, Naples/Sicily. 'nichil ex lucro inde michi retento ex pacto'; 'Risicum etc.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).","1451, Naples/Sicily. 'nichil ex lucro inde michi retento ex pacto'; 'Risicum etc.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor). [2026-11-03] D-ERRAND: a trading comanda without profit to the agent is comanda.",D-ERRAND,L22
+172,census,214,notes,1426. 'ad vestri risicum periculum et fortunam'.,"1426. 'ad vestri risicum periculum et fortunam'. [2026-11-03] Remuneration is a commission ('2 % + 2 %', entrada and exida), not a profit share.",profit,L19
+173,census,75,notes,"1314, Marseille. 'Ad quartum lucri et usum maris': loss by custom only.","1314, Marseille. 'Ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+174,census,76,notes,1316. Jewish brothers in solidum. 'Ad quartum lucri et usum maris': loss by custom only.,"1316. Jewish brothers in solidum. 'Ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+175,census,77,notes,"1316, Cagliari/Sicily. 'ad quartum lucri et usum maris': loss by custom only.","1316, Cagliari/Sicily. 'ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+176,census,78,notes,"1316, Cagliari/Sicily. Investor the agent's mother. 'ad quartum lucri et usum maris': loss by custom only.","1316, Cagliari/Sicily. Investor the agent's mother. 'ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+177,census,79,notes,"1316, Cagliari/Sicily. 'ad quartum lucri et usum maris'; 'facere de dicta comanda tanquam de rebus meis'. Loss by custom only.","1316, Cagliari/Sicily. 'ad quartum lucri et usum maris'; 'facere de dicta comanda tanquam de rebus meis'. Loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+178,census,80,notes,"1328, Narbonne. Albaran. 'ad quartum lucri et usum maris': loss by custom only.","1328, Narbonne. Albaran. 'ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+179,census,81,notes,"1328, Sardinia. Entry prints one act and three 'Simile instrumentum fiat' (not marked as further acts in the file). 'Ad quartum lucri et usum maris': loss by custom only.","1328, Sardinia. Entry prints one act and three 'Simile instrumentum fiat' (not marked as further acts in the file). 'Ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+180,census,84,notes,"1331, Sardinia. 'Ad quartum lucri et usum maris': loss by custom only.","1331, Sardinia. 'Ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+181,census,85,notes,"1331, Tortosa. 'Ad quartum lucri et usum maris': loss by custom only.","1331, Tortosa. 'Ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Open theory call, not ruled: Pere de Torre's 'ad quartum lucri et usum maris' read as loss by custom only; no D-ABBR reading is applied (no written-out Torre clause naming the bearer in the edition).",open,L07
+182,instances,CMD-060-1,form_assigned,neither,comanda,D-BELL,L05/L06
+183,instances,CMD-060-1,loss_rule,abbreviated,investor (abbreviated; city formula),D-BELL,L05/L06
+184,instances,CMD-060-1,notes,"1293, Cyprus/Armenia. Cancelled by consent. Census: 1293, Cyprus/Armenia. Two agents in solidum. Risk clause cut: 'eat, [maneat et redeat etc.]' (bracket editorial). 'ad .IIII. denarium de lucro'. Cancelled by consent of parties.","1293, Cyprus/Armenia. Cancelled by consent. Census: 1293, Cyprus/Armenia. Two agents in solidum. Risk clause cut: 'eat, [maneat et redeat etc.]' (bracket editorial). 'ad .IIII. denarium de lucro'. Cancelled by consent of parties. [2026-11-03] D-BELL: abbreviated risk clause; Bernat de Vilarrubia has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L05/L06
+185,instances,CMD-099-1,form_assigned,neither,comanda,D-ABBR,L09
+186,instances,CMD-099-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L09
+187,instances,CMD-099-1,notes,"1349. Census: 1349, Cyprus/Rhodes/Candia. 'Ad .IIII. denarium lucri'; 'Hec tamen comanda etc.': risk clause cut. Loss terms not stated.","1349. Census: 1349, Cyprus/Rhodes/Candia. 'Ad .IIII. denarium lucri'; 'Hec tamen comanda etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.",D-ABBR,L09
+188,instances,CMD-102-1,form_assigned,neither,comanda,D-ABBR,L09
+189,instances,CMD-102-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L09
+190,instances,CMD-102-1,notes,"1349. Census: 1349, Beirut/Cyprus. 'Hec tamen comanda' then marginal note: risk clause cut. Loss terms not stated.","1349. Census: 1349, Beirut/Cyprus. 'Hec tamen comanda' then marginal note: risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.",D-ABBR,L09
+191,instances,CMD-117-1,form_assigned,neither,comanda,D-ABBR,L10
+192,instances,CMD-117-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L10
+193,instances,CMD-117-1,notes,"1363. Census: 1363, Cyprus. 'Et ad risicum etc.': bearer abbreviated.","1363. Census: 1363, Cyprus. 'Et ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L10
+194,instances,CMD-123-1,form_assigned,neither,comanda,D-ABBR,L11
+195,instances,CMD-123-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L11
+196,instances,CMD-123-1,notes,"1368. Census: 1368. 'hec comanda vadat ad risicum etc., ut est solitum fieri': bearer abbreviated.","1368. Census: 1368. 'hec comanda vadat ad risicum etc., ut est solitum fieri': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L11
+197,instances,CMD-138-1,form_assigned,neither,comanda,D-ABBR,L12
+198,instances,CMD-138-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L12
+199,instances,CMD-138-1,notes,"1374. Census: 1374, Alexandria/Beirut. 'Et sit ad risicum etc.': bearer abbreviated.","1374. Census: 1374, Alexandria/Beirut. 'Et sit ad risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L12
+200,instances,CMD-147-1,form_assigned,neither,comanda,D-ABBR,L13
+201,instances,CMD-147-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L13
+202,instances,CMD-147-1,notes,"1382, Genoa. Census: 1382, Genoa. 'Risicum etc.': bearer abbreviated. Agent holds a third of the goods.","1382, Genoa. Census: 1382, Genoa. 'Risicum etc.': bearer abbreviated. Agent holds a third of the goods. [2026-11-03] D-ABBR: abbreviated risk clause read as Felip Gombau's house formula, written out with the investor as bearer in doc. 142; abbreviated_entry stays yes.",D-ABBR,L13
+203,instances,CMD-153-1,form_assigned,neither,comanda,D-SALV,L14
+204,instances,CMD-153-1,loss_rule,not-stated,investor (by the salvage clause; entry unfinished),D-SALV,L14
+205,instances,CMD-153-1,notes,"1394. Text ends. Census: 1394, Cyprus/Beirut. Text ends 'Et pro hiis complendis.': no risk clause printed. Loss terms not stated.","1394. Text ends. Census: 1394, Cyprus/Beirut. Text ends 'Et pro hiis complendis.': no risk clause printed. Loss terms not stated. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor. The entry stops before the risk clause.",D-SALV,L14
+206,instances,CMD-165-1,form_assigned,neither,comanda,D-ABBR,L15
+207,instances,CMD-165-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L15
+208,instances,CMD-165-1,notes,"1399. Census: 1399, Alexandria. 'Hec igitur etc. risicum.': bearer abbreviated.","1399. Census: 1399, Alexandria. 'Hec igitur etc. risicum.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L15
+209,instances,CMD-168-1,form_assigned,neither,comanda,D-ABBR+D-SALV,L15
+210,instances,CMD-168-1,loss_rule,not-stated,investor (abbreviated; house formula; salvage clause abbreviated),D-ABBR+D-SALV,L15
+211,instances,CMD-168-1,notes,"1402. Census: 1402, Sicily. 'Predictam autem comandam etc.': no risk clause. Loss terms not stated.","1402. Census: 1402, Sicily. 'Predictam autem comandam etc.': no risk clause. Loss terms not stated. [2026-11-03] D-ABBR + D-SALV on two abbreviations only: 'Que implicamenta etc.' (salvage clause) and 'Predictam autem comandam etc.' (opening of Bellmunt's written clause, docs. 190, 191). Rests on abbreviations, not a written clause.",D-ABBR+D-SALV,L15
+212,instances,CMD-171-1,form_assigned,neither,comanda,D-ABBR,L16
+213,instances,CMD-171-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L16
+214,instances,CMD-171-1,notes,1404. Census: 1404. 'Et hec comanda ete.': risk clause cut. Co-patron consents.,"1404. Census: 1404. 'Et hec comanda ete.': risk clause cut. Co-patron consents. [2026-11-03] D-ABBR: abbreviated risk clause read as Bernat Nadal's house formula, written out with the investor as bearer in docs. 161-163, 166; abbreviated_entry stays yes.",D-ABBR,L16
+215,instances,CMD-174-1,form_assigned,neither,comanda,D-SIM,L16
+216,instances,CMD-174-1,loss_rule,not-stated,investor (incorporated by 'simile'),D-SIM,L16
+217,instances,CMD-174-1,notes,"1407. Census: 1407, Alexandria. 'Cum posse primi instrumenti'; no risk clause. Loss terms not stated.","1407. Census: 1407, Alexandria. 'Cum posse primi instrumenti'; no risk clause. Loss terms not stated. [2026-11-03] D-SIM: a 'simile' / 'fiat ut in proxime' entry takes over the notary's earlier written instrument, which names the investor.",D-SIM,L16
+218,instances,CMD-177-1,form_assigned,neither,comanda,D-ABBR,L16
+219,instances,CMD-177-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L16
+220,instances,CMD-177-1,notes,1408. Census: 1408. 'Et hec comanda etc.': risk clause cut.,"1408. Census: 1408. 'Et hec comanda etc.': risk clause cut. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L16
+221,instances,CMD-180-1,form_assigned,neither,comanda,D-ABBR,L16
+222,instances,CMD-180-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L16
+223,instances,CMD-180-1,notes,"1409. Census: 1409, Beirut/Damascus. 'Et hec comanda etc.': risk clause cut. 'fidare quibuscumque personis'.","1409. Census: 1409, Beirut/Damascus. 'Et hec comanda etc.': risk clause cut. 'fidare quibuscumque personis'. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L16
+224,instances,CMD-183-1,form_assigned,neither,comanda,D-ABBR,L17
+225,instances,CMD-183-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L17
+226,instances,CMD-183-1,notes,"1409. Census: 1409, Alexandria. 'Et hec comanda etc.': risk clause cut. Goods sent to be entered in the ship's scribe's book.","1409. Census: 1409, Alexandria. 'Et hec comanda etc.': risk clause cut. Goods sent to be entered in the ship's scribe's book. [2026-11-03] D-ABBR: abbreviated risk clause read as Arnau Lledo's house formula, written out with the investor as bearer in docs. 179, 184, 185, 200; abbreviated_entry stays yes.",D-ABBR,L17
+227,instances,CMD-189-1,form_assigned,neither,comanda,D-SALV,L17
+228,instances,CMD-189-1,loss_rule,not-stated (bearer not named),"investor (by the salvage clause; bounded to the coral chests, sailing to arrival)",D-SALV,L17
+229,instances,CMD-189-1,notes,"1414. Census: 1414. 'tendunt ad risicum et periculum, prout Dominus Deus salvaverit duas caxias coralli' until arrival and 24 hours after: bearer not named. 'Ad medium quartum lucri'. 'Et eadem comanda vestra ete.'.","1414. Census: 1414. 'tendunt ad risicum et periculum, prout Dominus Deus salvaverit duas caxias coralli' until arrival and 24 hours after: bearer not named. 'Ad medium quartum lucri'. 'Et eadem comanda vestra ete.'. [2026-11-03] D-SALV: the salvage clause ('prout Dominus Deus ... salvaverit') limits restitution to what survives; loss on the investor. Written out ('prout Dominus Deus salvaverit duas caxias coralli'); 'Et eadem comanda vestra etc.' is Bellmunt's abbreviated clause.",D-SALV,L17
+230,instances,CMD-192-1,form_assigned,neither,comanda,D-ABBR,L17
+231,instances,CMD-192-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L17
+232,instances,CMD-192-1,notes,"1414. Census: 1414, France. 'Risicum etc.': bearer abbreviated.","1414. Census: 1414, France. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L17
+233,instances,CMD-195-1,form_assigned,neither,comanda,D-ABBR,L18
+234,instances,CMD-195-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L18
+235,instances,CMD-195-1,notes,"1415. Census: 1415, Alexandria. 'Risicum etc.': bearer abbreviated.","1415. Census: 1415, Alexandria. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Tomas de Bellmunt's house formula, written out with the investor as bearer in docs. 190, 191; abbreviated_entry stays yes.",D-ABBR,L18
+236,instances,CMD-204-1,form_assigned,neither,comanda,D-ABBR,L19
+237,instances,CMD-204-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L19
+238,instances,CMD-204-1,notes,"1421, Sicily. Census: 1421, Sicily. 'Risicum etc.': bearer abbreviated. Second instrument for the wife. Agent a minor who swears.","1421, Sicily. Census: 1421, Sicily. 'Risicum etc.': bearer abbreviated. Second instrument for the wife. Agent a minor who swears. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L19
+239,instances,CMD-213-1,form_assigned,neither,comanda,D-ABBR,L19
+240,instances,CMD-213-1,loss_rule,not-stated (bearer omitted),investor (abbreviated; house formula),D-ABBR,L19
+241,instances,CMD-213-1,notes,"1425, Rhodes. Census: 1425, Rhodes. 'ad risicum.': bearer omitted. Marginal notes: recognition and cession of the comanda to a third party (1427).","1425, Rhodes. Census: 1425, Rhodes. 'ad risicum.': bearer omitted. Marginal notes: recognition and cession of the comanda to a third party (1427). [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L19
+242,instances,CMD-217-1,form_assigned,neither,comanda,D-ABBR,L20
+243,instances,CMD-217-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L20
+244,instances,CMD-217-1,notes,"1427. Directed search for CI3. Census: 1427, Naples. 'Risicum ubique etc.': bearer abbreviated.","1427. Directed search for CI3. Census: 1427, Naples. 'Risicum ubique etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.",D-ABBR,L20
+245,instances,CMD-225-1,form_assigned,neither,comanda,D-ABBR,L20
+246,instances,CMD-225-1,loss_rule,not-stated,investor (abbreviated; house formula),D-ABBR,L20
+247,instances,CMD-225-1,notes,"1437. Census: 1437, Levant/Sicily. Text ends 'Et ipsa etiam comanda vestra': risk clause cut. Loss terms not stated.","1437. Census: 1437, Levant/Sicily. Text ends 'Et ipsa etiam comanda vestra': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Francesc Cerda's house formula, written out with the investor as bearer in docs. 223, 224; abbreviated_entry stays yes.",D-ABBR,L20
+248,instances,CMD-237-1,form_assigned,neither,comanda,D-ABBR,L22
+249,instances,CMD-237-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L22
+250,instances,CMD-237-1,notes,"1459. Census: 1459, Levant. 1,703 l. 'dicta comanda eat, maneat et sit ubique etc.': risk clause cut. Loss terms not stated.","1459. Census: 1459, Levant. 1,703 l. 'dicta comanda eat, maneat et sit ubique etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Esteve Mir's house formula, written out with the investor as bearer in docs. 230, 231, 236, 246; abbreviated_entry stays yes.",D-ABBR,L22
+251,instances,CMD-240-1,form_assigned,neither,comanda,D-BELL,L22
+252,instances,CMD-240-1,loss_rule,abbreviated,investor (abbreviated; city formula),D-BELL,L22
+253,instances,CMD-240-1,notes,"1464. Census: 1464. Agent 1/3, food allowance 12 d. a day up to 12 days. 'Risicum etc.': bearer abbreviated.","1464. Census: 1464. Agent 1/3, food allowance 12 d. a day up to 12 days. 'Risicum etc.': bearer abbreviated. [2026-11-03] D-BELL: abbreviated risk clause; Pere Bastat has no written-out clause in the edition, read on the city formula (every written 'eat, maneat' clause in L01-L15 names the investor).",D-BELL,L22
+254,instances,CMD-129-1,form_assigned,neither,comanda,D-ABBR,L11
+255,instances,CMD-129-1,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L11
+256,instances,CMD-129-1,notes,"1373. Census: 1373, Sicily. Act 1 'Et ad risicum etc.' (bearer abbreviated); act 2 'Ed ad vestri risicum etc.' (bearer stated). Entry assigned on act 2. Two acts marked [1] [2], not marked as further acts in the file.","1373. Census: 1373, Sicily. Act 1 'Et ad risicum etc.' (bearer abbreviated); act 2 'Ed ad vestri risicum etc.' (bearer stated). Entry assigned on act 2. Two acts marked [1] [2], not marked as further acts in the file. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L11
+257,instances,CMD-135-2,form_assigned,neither,comanda,D-ABBR,L12
+258,instances,CMD-135-2,loss_rule,abbreviated,investor (abbreviated; house formula),D-ABBR,L12
+259,instances,CMD-135-2,notes,"1374. Census: 1374, Rhodes/Cyprus/Beirut. Act 1 'ad vestri risicum ... ad usum gentium atque maris'; act 2 'Et ad risicum etc.'. Not marked as further acts in the file.","1374. Census: 1374, Rhodes/Cyprus/Beirut. Act 1 'ad vestri risicum ... ad usum gentium atque maris'; act 2 'Et ad risicum etc.'. Not marked as further acts in the file. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Just's house formula, written out with the investor as bearer in docs. 119-121, 126, 127, 129 [2], 130, 131; abbreviated_entry stays yes.",D-ABBR,L12
+260,instances,CMD-105-1,form_assigned,comanda,neither,D105/D-ERRAND,L09/L10
+261,instances,CMD-105-1,notes,"1349. Census: 1349, Beirut/Damascus. Ship's patrons as agents. 'ad Dei vestrum risicum, periculum et fortunam, usquequo dicta cocha fuerit ad dictum portum de Barut et ibi descarricate fuerint res'.","1349. Census: 1349, Beirut/Damascus. Ship's patrons as agents. 'ad Dei vestrum risicum, periculum et fortunam, usquequo dicta cocha fuerit ad dictum portum de Barut et ibi descarricate fuerint res'. [2026-11-03] D105: remittance by carriage and sale; capital and profit paid to the principal at Damascus; no profit allocation to the carriers. Form changed comanda -> neither.",D105/D-ERRAND,L09/L10
+262,instances,CMD-207-1,loss_rule,contradictory as printed,"investor [sic: dicti Petri, scribal slip for the investor]",D-207,L19
+263,instances,CMD-207-1,ocr_flag,bearer: vestri (investor) vs dicti Petri (agent); check page image,none (image confirms the print),D-207,L19
+264,instances,CMD-207-1,notes,"1422. Census: 1422. 'ad risicum, periculum et fortunam vestri dicti Petri': 'vestri' addresses the investor (Antonius Ledó), 'dicti Petri' names the agent. Bearer contradictory as printed; check page image.","1422. Census: 1422. 'ad risicum, periculum et fortunam vestri dicti Petri': 'vestri' addresses the investor (Antonius Ledó), 'dicti Petri' names the agent. Bearer contradictory as printed; check page image. [2026-11-03] D-207: form stays neither (errand, no profit allocation). 'vestri dicti Petri' is confirmed in the image; read as a slip for the investor.",D-207,L19
+265,instances,CMD-207-1,peril_clause,vestri dicti Petri,ad usum maris et gencium; salvage clause,D-207,L19
+266,census,207,act_type,comanda to buy a slave (cancelled),comanda to buy a slave (cancelled) (purchase errand: one female slave; no profit allocation; D105 rule),D-207,L19
+267,census,232,notes,"1451, Sardinia. 'ad vestri risicum'.","1451, Sardinia. 'ad vestri risicum'. [2026-11-03] D-ABBR: [2]'s abbreviated clause read on Esteve Mir's house formula (written out in [1], docs. 230, 231, 236); entry already comanda.",D-ABBR,L21
+268,instances,CMD-191-1,loss_rule,agent (sea) / investor (credit of exchange takers),investor (credit risk of exchange takers); agent answers for placement,loss,L17
+269,instances,CMD-191-1,notes,"1414. Directed search for CF2 agent-bears clauses. Second of two such acts in the edition. Census: 1414. 'salve et secure in terra absque aliquo risico seu periculo vestris ... nisi subscripto'; 'ad vestri ... risicum ... quo scilicet ad malum seu insufficientem receptorem'. Investor the agent's sister, a widow. Agent's wife consents.","1414. Directed search for CF2 agent-bears clauses. Second of two such acts in the edition. Census: 1414. 'salve et secure in terra absque aliquo risico seu periculo vestris ... nisi subscripto'; 'ad vestri ... risicum ... quo scilicet ad malum seu insufficientem receptorem'. Investor the agent's sister, a widow. Agent's wife consents. [2026-11-03] '(sea)' removed: there is no sea in the deed; 'salve et secure in terra' is the agent's undertaking to place the money safely on land. Stated value 6,600 s (600 florins). CF2 'P' unchanged.",loss,L17
+270,instances,CMD-174-2,(new row),,split from CMD-174-1,split,L16
+271,instances,CMD-174-1,n_investors,2,1,split,L16
+272,instances,CMD-174-1,common_fund_quote,"| [2] Simile comande instrumentum facio ego dictus Ludovicus Cirvent, vobis venerabili Francisco Sunyerii, mercatori civi Barchinone, de trecentis viginti libris Barchinone, implicitis in mei comuni.",.NR,split,L16
+273,instances,CMD-174-1,common_fund,agent comune,single,split,L16
+274,instances,CMD-174-1,agent_own_capital_quote,"| [2] Simile comande instrumentum facio ego dictus Ludovicus Cirvent, vobis venerabili Francisco Sunyerii, mercatori civi Barchinone, de trecentis viginti libris Barchinone, implicitis in mei comuni.",.NR,split,L16
+275,instances,CMD-174-1,agent_own_capital,yes,.NR,split,L16
+276,instances,CMD-174-1,notes,"1407. Census: 1407, Alexandria. 'Cum posse primi instrumenti'; no risk clause. Loss terms not stated. [2026-11-03] D-SIM: a 'simile' / 'fiat ut in proxime' entry takes over the notary's earlier written instrument, which names the investor.","1407. Census: 1407, Alexandria. 'Cum posse primi instrumenti'; no risk clause. Loss terms not stated. [2026-11-03] D-SIM: a 'simile' / 'fiat ut in proxime' entry takes over the notary's earlier written instrument, which names the investor. [2026-11-03] Re-scoped to act [1]; act [2] is now CMD-174-2.",split,L16
+277,instances,CMD-204-2,(new row),,split from CMD-204-1,split,L19
+278,instances,CMD-204-1,n_investors,2,1,split,L19
+279,instances,CMD-204-1,notes,"1421, Sicily. Census: 1421, Sicily. 'Risicum etc.': bearer abbreviated. Second instrument for the wife. Agent a minor who swears. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.","1421, Sicily. Census: 1421, Sicily. 'Risicum etc.': bearer abbreviated. Second instrument for the wife. Agent a minor who swears. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes. [2026-11-03] Re-scoped to act [1]; act [2] is now CMD-204-2.",split,L19
+280,instances,CMD-217-2,(new row),,split from CMD-217-1,split,L20
+281,instances,CMD-217-1,notes,"1427. Directed search for CI3. Census: 1427, Naples. 'Risicum ubique etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes.","1427. Directed search for CI3. Census: 1427, Naples. 'Risicum ubique etc.': bearer abbreviated. [2026-11-03] D-ABBR: abbreviated risk clause read as Joan Nadal's house formula, written out with the investor as bearer in docs. 202, 208, 210-212, 214; abbreviated_entry stays yes. [2026-11-03] Re-scoped to act [1]; act [2] is now CMD-217-2.",split,L20
+282,instances,CMD-081-1,n_investors,4,1,rescope,L07
+283,instances,CMD-081-1,notes,"1328, Sardinia. Census: 1328, Sardinia. Entry prints one act and three 'Simile instrumentum fiat' (not marked as further acts in the file). 'Ad quartum lucri et usum maris': loss by custom only.","1328, Sardinia. Census: 1328, Sardinia. Entry prints one act and three 'Simile instrumentum fiat' (not marked as further acts in the file). 'Ad quartum lucri et usum maris': loss by custom only. [2026-11-03] Re-scoped to act [1]: the 10-27 row counted 4 investors in one act; the entry is four instruments ('Simile instrumentum fiat'), one investor each. Acts [2]-[4] are not instanced (deferred); census acts_in_entry is right.",rescope,L07
+284,instances,CMD-097-1,n_investors,5,1,rescope,L08
+285,instances,CMD-097-1,notes,"1349, Sicily. Census: 1349, Sicily. Residue 'remansit emerciatum in Sicilia in debito et frumento'. Five similar apochae in one entry (not marked as further acts in the file).","1349, Sicily. Census: 1349, Sicily. Residue 'remansit emerciatum in Sicilia in debito et frumento'. Five similar apochae in one entry (not marked as further acts in the file). [2026-11-03] Re-scoped to act [1]: the 10-27 row counted 5 investors in one act; the entry is five apochae, one investor each, on three dates. Acts [2]-[5] are not instanced (deferred); census acts_in_entry is right.",rescope,L08
+286,instances,CMD-099-1,n_investors,27,1,rescope,L09
+287,instances,CMD-099-1,notes,"1349. Census: 1349, Cyprus/Rhodes/Candia. 'Ad .IIII. denarium lucri'; 'Hec tamen comanda etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.","1349. Census: 1349, Cyprus/Rhodes/Candia. 'Ad .IIII. denarium lucri'; 'Hec tamen comanda etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes. [2026-11-03] Re-scoped to act [1]: the 10-27 row counted 27 investors in one act; the entry is 27 instruments, one investor each (two in [21] and [27]). Acts [2]-[27] are not instanced (deferred); census acts_in_entry is right.",rescope,L09
+288,instances,CMD-102-1,n_investors,4,1,rescope,L09
+289,instances,CMD-102-1,notes,"1349. Census: 1349, Beirut/Cyprus. 'Hec tamen comanda' then marginal note: risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes.","1349. Census: 1349, Beirut/Cyprus. 'Hec tamen comanda' then marginal note: risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Jaume Ferrer's house formula, written out with the investor as bearer in docs. 104, 105, 107, 108, 110; abbreviated_entry stays yes. [2026-11-03] Re-scoped to act [1]: the 10-27 row counted 4 investors in one act; the entry is four instruments, one investor each. Acts [2]-[4] are not instanced (deferred); census acts_in_entry is right.",rescope,L09
+290,instances,CMD-014-1,amount_as_read,sexaginta libras monete barchinonensis perpetue de terno,trecentas sexaginta libras monete barchinonensis perpetue de terno,amount-wrong,L02
+291,instances,CMD-015-1,amount_as_read,quatuor libras monete curribilis Barchinone perpetue de terno,trecentas et octuaginta quatuor libras monete curribilis Barchinone perpetue de terno,amount-wrong,L02
+292,instances,CMD-016-1,amount_as_read,duas libras de canyela,viginti duas libras de canyela,amount-wrong,L02
+293,instances,CMD-018-1,amount_as_read,septem libras et tres solidos et medium monete Barchinone de te,viginti septem libras et tres solidos et medium monete Barchinone de teerno,amount-wrong,L02
+294,instances,CMD-021-1,amount_as_read,octo libris et duodecim solidis monete Barchinone de terno,sexaginta octo libris et duodecim solidis monete Barchinone de terno,amount-wrong,L02
+295,instances,CMD-045-1,amount_as_read,quatuor solidos et septem denarios monete Barchinone de terno,septuaginta quatuor solidos et septem denarios monete Barchinone de terno,amount-wrong,L04
+296,instances,CMD-048-1,amount_as_read,quinque libras monete Barchinone perpetue de terno,septuaginta quinque libras monete Barchinone perpetue de terno,amount-wrong,L05
+297,instances,CMD-060-1,amount_as_read,quinque libras Barchinone de terno,viginti quinque libras Barchinone de terno,amount-wrong,L06
+298,instances,CMD-069-1,amount_as_read,octo solidos monete Barchinone de terno,triginta octo solidos monete Barchinone de terno,amount-wrong,L06
+299,instances,CMD-070-1,amount_as_read,sexaginta libras Barchinone vel circa,trescentas sexaginta libras Barchinone vel circa,amount-wrong,L06
+300,instances,CMD-075-1,amount_as_read,duas libras et quinque solidos Barchinone de terno,triginta duas libras et quinque solidos Barchinone de terno,amount-wrong,L07
+301,instances,CMD-088-1,amount_as_read,quinquaginta libras barchinonenses de terno,centum et quinque libras monete predicte,amount-wrong,L08
+302,instances,CMD-090-1,amount_as_read,sani libras monete barchinonensium de terno,quingentas libras monete barchinonensium de terno,amount-wrong,L08
+303,instances,CMD-091-1,amount_as_read,tresdecim libras monete Barchinone de terno. Et ideo,tresdecim libras monete Barchinone de terno,amount-truncated,L08
+304,instances,CMD-092-1,amount_as_read,sex libras et decem solidos Barchinone,centum et triginta sex libras et decem solidos Barchinone,amount-wrong,L08
+305,instances,CMD-093-1,amount_as_read,triginta libras regalium Maiorice minutorum,trescentas triginta libras regalium Maiorice minutorum,amount-wrong,L08
+306,instances,CMD-094-1,amount_as_read,novem libras,"nonagentas quadraginta novem libras, septem solidos et undecim denarios monete barchinonensium de terno",amount-wrong,L08
+307,instances,CMD-102-1,amount_as_read,septem libras,"nonaginta septem libras, .IX. solidos et sex denarios Barchinone",amount-wrong,L09
+308,instances,CMD-107-1,amount_as_read,octuaginta libras et quatuor solidos et octo denarios monete Barchi,octuaginta libras et quatuor solidos et octo denarios monete Barchinone de terno,amount-truncated,L10
+309,instances,CMD-108-1,amount_as_read,centum et quinquaginta libras et novem solidos et sex denarios monete Barchinon,centum et quinquaginta libras et novem solidos et sex denarios monete Barchinone de terno,amount-truncated,L10
+310,instances,CMD-111-1,amount_as_read,novem libris Barchinone vel alterius cuiuscumque quantitatis,septuaginta novem libris Barchinone vel alterius cuiuscumque quantitatis,amount-wrong,L10
+311,instances,CMD-114-1,amount_as_read,octo libras] et portamus in viagio quod,[octo libras],amount-truncated,L10
+312,instances,CMD-122-1,amount_as_read,centum et tres libras,"centum et tres libras, sexdecim solidos et sex denarios monete Barchinone de terno",amount-truncated,L11
+313,instances,CMD-126-1,amount_as_read,tres libras,"quadraginta tres libras, XIX solidos Barchinone",amount-wrong,L11
+314,instances,CMD-129-1,amount_as_read,septem libras et decem solidos Barchinone,viginti septem libras et decem solidos Barchinone,amount-wrong,L11
+315,instances,CMD-129-2,amount_as_read,quinque libris Barchinone,viginti quinque libris Barchinone,amount-wrong,L11
+316,instances,CMD-132-1,amount_as_read,septem libras .XV. solidos .IIII. denarios Barchinone,centum et decem septem libras .XV. solidos .IIII. denarios Barchinone,amount-wrong,L12
+317,instances,CMD-135-2,amount_as_read,quatuor libris Barchinone,viginti quatuor libris Barchinone,amount-wrong,L12
+318,instances,CMD-138-1,amount_as_read,septem libras et quatuordecim solidos,viginti septem libras et quatuordecim solidos,amount-wrong,L12
+319,instances,CMD-141-1,amount_as_read,quadraginta libras et decem solidos Barchinone,trescentas quadraginta libras et decem solidos Barchinone,amount-wrong,L12
+320,instances,CMD-147-1,amount_as_read,tres libras Barchinone,quadraginta tres libras Barchinone,amount-wrong,L13
+321,instances,CMD-150-1,amount_as_read,quinque libras Barchinone in peccunia Barchinone. Et ideo renunc,quingentas quinquaginta quinque libras Barchinone in peccunia Barchinone,amount-wrong,L13
+322,instances,CMD-153-1,amount_as_read,quinque libras,"viginti quinque libras, decem septem solidos et septem denarios monete Barchinone de terno",amount-wrong,L14
+323,instances,CMD-154-1,amount_as_read,decem libras monete Barchinone de terno. Et ideo,centum decem libras monete Barchinone de terno,amount-wrong,L14
+324,instances,CMD-159-1,amount_as_read,.NR,XXVIm. quingentorum solidorum,amount-truncated,L15
+325,instances,CMD-165-1,amount_as_read,novem libras,"septuaginta novem libras, tres solidos et duos denarios barchinonenses",amount-wrong,L15
+326,instances,CMD-171-1,amount_as_read,duas libras,"centum septuaginta duas libras, unum solidum et quinque denarios barchinonenses de terno",amount-wrong,L16
+327,instances,CMD-174-1,amount_as_read,quatuordecim libris,"quatuordecim libris, quatuordecim solidis et undecim denariis Barchinone",amount-truncated,L16
+328,instances,CMD-177-1,amount_as_read,quinque libris,"trecentis sexaginta quinque libris, undecim solidis et octo denariis Barchinone",amount-wrong,L16
+329,instances,CMD-189-1,amount_as_read,duos bisancios,"septuaginta duos bisancios, quatuor quiratos et medium monete Alexandrie",amount-wrong,L17
+330,instances,CMD-192-1,amount_as_read,tres libras Barchinone,triginta tres libras Barchinone,amount-wrong,L17
+331,instances,CMD-195-1,amount_as_read,tres libras et quinque solidos barchinonenses de terno,sexaginta tres libras et quinque solidos barchinonenses de terno,amount-wrong,L18
+332,instances,CMD-199-1,amount_as_read,novem libras,"centum novem libras, tresdecim solidos et decem denarios barchinonenses",amount-wrong,L18
+333,instances,CMD-204-1,amount_as_read,una libras,"octingentas quinquaginta una libras, undecim solidos et sex denarios Barchinone",amount-wrong,L19
+334,instances,CMD-213-1,amount_as_read,quinque libras barchinonenses de terno,centum octuaginta quinque libras barchinonenses de terno,amount-wrong,L19
+335,instances,CMD-216-1,amount_as_read,quatuor libras monete barchinonensium de terno,quadraginta quatuor libras monete barchinonensium de terno,amount-wrong,L20
+336,instances,CMD-217-1,amount_as_read,unam libras,"quadrigentas tringa (sic) unam libras, decem solidos et decem denarios Barchinone de terno",amount-wrong,L20
+337,instances,CMD-219-1,amount_as_read,septem libras,centum triginta septem libras,amount-wrong,L20
+338,instances,CMD-222-1,amount_as_read,duas libras,"nonaginta duas libras, decem octo solidos et unum denarium barchinonenses",amount-wrong,L20
+339,instances,CMD-228-1,amount_as_read,duas libras,"quadringentas viginti duas libras, decem novem solidos et sex denarios monete barchinonensium de terno",amount-wrong,L21
+340,instances,CMD-231-1,amount_as_read,septem libras et quatuordecim solidos monete barchinonensium de,septuaginta septem libras et quatuordecim solidos monete barchinonensium de terno,amount-wrong,L21
+341,instances,CMD-234-1,amount_as_read,quatuor libras,"ducentas viginti quatuor libras, decem septem solidos et sex denarios barchinonenses de terno",amount-wrong,L21
+342,instances,CMD-237-1,amount_as_read,tres libras,"mille septingentas tres libras, decem novem solidos et sex denarios barchinonenses",amount-wrong,L22
+343,instances,CMD-246-1,amount_as_read,septingentas libras Barchinone,duas mille septingentas libras Barchinone,amount-wrong,L22
+344,instances,CMD-249-1,amount_as_read,quadraginta libras bar chinonenses,ducentas quadraginta libras barchinonenses,amount-wrong,L23
+345,instances,CMD-250-1,amount_as_read,quinquaginta libras barchinonenses,trescentas quinquaginta libras barchinonenses,amount-wrong,L23
+346,instances,CMD-070-1,date_as_read,.NR,Die martis scilicet festum Beati Michaelis .IIIº. kalendas octobris anno predicto [1299].,date,L06
+347,instances,CMD-099-1,date_as_read,.NR,Die martis .III. nonas madi anno predicto [5 mayo 1349].,date,L09
+348,instances,CMD-120-1,date_as_read,.NR,Die sabbati .XIX. die februarii anno a Nativitate Domini .Mº.CCCº.LXVIIIº.,date,L11
+349,instances,CMD-135-1,date_as_read,.NR,Die mercurii .XXXIª die madii anno a Nativitate Domini .MºCCCº.LXXº quarto.,date,L12
+350,instances,CMD-135-2,date_as_read,.NR,Die jovis XXI junii anno predicto.,date,L12
+351,instances,CMD-147-1,date_as_read,.NR,Die lune .VIIª. die mensis julii anno predicto [1382].,date,L13
+352,instances,CMD-150-1,date_as_read,.NR,Die sabbati .XXVIIª die junii anno a Nativitate Domini .Mº.CCC.LXXX. tercio.,date,L13
+353,instances,CMD-156-1,date_as_read,.NR,Die jovis .XIIIIª mensis madii anno predicto [1394].,date,L14
+354,instances,CMD-189-1,date_as_read,.NR,Die martis .XVII. die mensis aprilis anno predicto [1414].,date,L17
+355,instances,CMD-191-1,date_as_read,.NR,Die sabbati .XXVIIª die mensis octobris anno predicto [1414].,date,L17
+356,instances,CMD-192-1,date_as_read,.NR,Die mercurii .XXI. die mensis novembris anno predicto [1414].,date,L17
+357,instances,CMD-195-1,date_as_read,.NR,Die lune .XIIIª die mensis madii anno a Nativitate Domini .MºCCCCº.XVº.,date,L18
+358,instances,CMD-198-1,date_as_read,.NR,Die sabati .XXXIª mensis augusti anno predicto millesimo .CCCCº.XVº.,date,L18
+359,instances,CMD-204-1,date_as_read,.NR,Die lune .XXVII. die dicti mensis jannuarii anno predicto [1421].,date,L19
+360,instances,CMD-207-1,date_as_read,.NR,Die veneris .VIª die mensis novembris anno a Nativitate Domini .Mº.CCCCº.XXIIº.,date,L19
+361,instances,CMD-213-1,date_as_read,.NR,Die jovis .XXVII. mensis septembris anno predicto [1425].,date,L19
+362,instances,CMD-216-1,date_as_read,.NR,Die Jovis .XIª. julii anno predicto [1426].,date,L20
+363,instances,CMD-217-1,date_as_read,.NR,Die Jovis .XIª. die mensis decembris anno predicto [1427].,date,L20
+364,instances,CMD-219-1,date_as_read,.NR,Die sabbati .XVª. die mensis octobris anno a Nativitate .MºCCCCº.XXº.IXº.,date,L20
+365,instances,CMD-227-1,date_as_read,.NR,Die lune .XIIII.ª mensis julii anno predicto [1449].,date,L21
+366,instances,CMD-228-1,date_as_read,.NR,Die veneris .VIII.ª mensis augusti anno predicto [1449].,date,L21
+367,instances,CMD-231-1,date_as_read,.NR,Die mercurii .XI.ª mensis augusti anno predicto a Nativitate Domini millesimo .CCCC°.L. primo.,date,L21
+368,instances,CMD-234-1,date_as_read,.NR,Die jovis .VI.ª mensis marcii anno predicto [1455].,date,L21
+369,instances,CMD-237-1,date_as_read,.NR,Die mercurii .X.ª mensis octobris anno predicto [1459].,date,L22
+370,instances,CMD-243-1,date_as_read,.NR,Die veneris .XI.ª mensis januarii anno predicto [1465].,date,L22
+371,instances,CMD-246-1,date_as_read,.NR,Die sabbati .XVIIII.ª septembris anno predicto millesimo .CCCC.LX° septimo.,date,L22
+372,instances,CMD-247-1,date_as_read,.NR,Die veneris .XX.ª mensis augusti anno predicto [1473].,date,L22
+373,instances,CMD-249-1,date_as_read,.NR,Die martis .XVII. mensis marcii anno a Nativitate Domini M.CCCC.LXXX nono.,date,L23
+374,instances,CMD-250-1,date_as_read,.NR,Die martis .XVII. mensis marcii anno a Nativitate Domini .M.CCCC.LXXX. nono.,date,L23
+375,instances,CMD-253-1,date_as_read,.NR,Die martis .XXVII.ª mensis julii anno a Nativitate Domini .M.D. primo.,date,L23
+376,instances,CMD-129-1,date_as_read,.NR,Die sabbati .XIIª die novembris anno a Nativitate Domini .Mº.CCCº.LXXº. tercio.,date,L11
+377,instances,CMD-129-2,date_as_read,.NR,Die sabbati .XIIª die novembris anno a Nativitate Domini .Mº.CCCº.LXXº. tercio.,date,L11
+378,instances,CMD-141-1,date_as_read,.NR,Die mercurii octava die octobris anno a Nativitate Domini .Mº.CCCº.LXXº.VI.º,date,L12
+379,instances,CMD-141-2,date_as_read,.NR,Die jovis .XVIª die octobris anno predicto [1376].,date,L13
+380,instances,CMD-165-1,date_as_read,.NR,Die veneris .XVIIIª die mensis julii anno a Nativitate Domini .Mº.CCCº. .XCº. nono.,date,L15
+381,instances,CMD-199-1,date_as_read,.NR,Die martis .Xª. die mensis marcii anno a Nativitate Domini Mº.CCCCº. .XVIº.,date,L18
+382,instances,CMD-201-1,date_as_read,.NR,Die sabbati .XXVIª. die augusti anno a Nativitate Domini .Mº.CCCCº. decimo nono (signing of the chapters),date,L18
+383,instances,CMD-210-1,date_as_read,.NR,Die jovis .XXª. mensis madii anno predicto a Nativitate Domini millesimo .CCCCº. vicesimo tercio.,date,L19
+384,instances,CMD-225-1,date_as_read,.NR,Die martis .XVIª mensis julii anno a Nativitate Domini .MºCCCCº.XXXº. septimo.,date,L20
+385,instances,CMD-240-1,date_as_read,.NR,Die mercurii .XXVIIII.ª mensis febroarii anno a Nativitate Domini .M°. .CCCC°.LXIIII.ª,date,L22
+386,instances,CMD-102-1,date_as_read,.NR,[1] .V. idus madii anno predicto [1349] [11 mayo 1349].,date,L09
+387,instances,CMD-097-1,date_as_read,.NR,Die veneris intitulata .XV. kalendas madii anno Domini .M.CCC.XLIX.,date,L08
+388,instances,CMD-098-1,date_as_read,.NR,Die lune .XII. kalendas madii anno Domini .M.CCC.XLIX.,date,L08
+389,instances,CMD-069-1,date_as_read,.NR,"Die sabbati, scilicet .VI. kalendas octobris [1299]",date,L06
+390,instances,CMD-222-1,date_as_read,.NR,Die martis .VIIIª die dictorum mensis et anni [junio 1434].,date,L20
+391,instances,CMD-142-1,date_as_read,Actum est hoc Barchinone tricesima die mensis julii anno a Nativitate DoKATA,Die sabbati .XXXª. die mensis julii anno a Nativitate Domini .Mº.CCCº.LXXº.IXº.,date,L13
+392,instances,CMD-177-1,date_as_read,Die vicesima tercia septembris anno ,Die vicesima tercia septembris anno .Mº.CCCCº. octavo.,date,L16
+393,instances,CMD-180-1,date_as_read,Die jovis octava dié augusti anno a Nativitate Domin i millesimo ,Die jovis octava die augusti anno a Nativitate Domini millesimo .CCCCº. nono.,date,L16
+394,instances,CMD-183-1,date_as_read,Die sabbati tricesima prima die augusti anno ,Die sabbati tricesima prima die augusti anno .Mº.CCCCº. nono.,date,L17
+395,instances,CMD-186-1,date_as_read,.NR,die jovis hora quinta post meridiem qua computabatur decima octava die febroarii anno a Nativitate Domini millesimo quadringentesimo duodecimo,date,L17
+396,instances,CMD-174-1,loss_rule_quote,.NR,Simile comande instrumentum facio ego dictus Ludovicus Cirvent,D-SIM,L16
+397,instances,CMD-174-2,loss_rule_quote,.NR,Simile comande instrumentum facio ego dictus Ludovicus Cirvent,D-SIM,L16
+398,instances,CMD-217-2,loss_rule_quote,.NR,facio aliud comande instrumentum vobis dicto Berengario de Junyent,D-SIM,L20
+399,instances,CMD-204-2,date_as_read,.NR,Die lune .XXVII. die dicti mensis jannuarii anno predicto [1421]. (entry date; act [2] carries none of its own),date,L19
+400,instances,CMD-217-2,date_as_read,.NR,Die Jovis .XIª. die mensis decembris anno predicto [1427]. (entry date; act [2] carries none of its own),date,L20
+401,instances,CMD-017-1,notes,1252. Debt acknowledgment. Census: 1260s. Proceeds of a ship share and profit held 'in comanda seu deposito'. Check full text.,"1263 (written 1262, Incarnation style). Debt acknowledgment. Census: 1260s. Proceeds of a ship share and profit held 'in comanda seu deposito'. Check full text.",date,L02
+402,instances,CMD-017-1,notes,"1263 (written 1262, Incarnation style). Debt acknowledgment. Census: 1260s. Proceeds of a ship share and profit held 'in comanda seu deposito'. Check full text.","1263 (written 1262, Incarnation style). Debt acknowledgment. Census: 1260s. Proceeds of a ship share and profit held 'in comanda seu deposito'. Check full text. [2026-11-03] Year 1252 was wrong against both the written (1262) and the modern year (1263); census '1260s' is right.",date,L02
+403,instances,CMD-066-1,destination,.NR,ad partes de Xipre,destination,L06
+404,instances,CMD-075-1,destination,ad partes Barchinone,ad partes Marsilie,destination,L07
+405,instances,CMD-099-1,destination,ad partes Xipri et de Rodes,ad partes Xipri et de Rodes o de Candia,destination,L09
+406,instances,CMD-105-1,destination,.NR,ad partes de Barut (payment at Damascus),destination,L10
+407,instances,CMD-114-1,destination,.NR,ad partes Alexandrie,destination,L10
+408,instances,CMD-135-1,destination,.NR,ad partes de Rodes et de Xipro et de Barut,destination,L12
+409,instances,CMD-138-1,destination,.NR,ad dictas partes Alexandrie et de Barut,destination,L12
+410,instances,CMD-141-1,destination,.NR,"ad partes de Rodes, Xipre et de Barut",destination,L12
+411,instances,CMD-141-2,destination,.NR,"ad partes de Rodes, Xipre et de Barut",destination,L13
+412,instances,CMD-144-1,destination,.NR,ad partes de Barut,destination,L13
+413,instances,CMD-150-1,destination,.NR,ad partes regni Portugalensis,destination,L13
+414,instances,CMD-183-1,destination,.NR,ad dictas partes [Alaxandrie] (editorial supply),destination,L17
+415,instances,CMD-186-1,destination,.NR,vers les parts de Rodes e de Barut,destination,L17
+416,instances,CMD-189-1,destination,.NR,ad dictas partes [Rodarum et Alexandrie],destination,L17
+417,instances,CMD-198-1,destination,.NR,"ad partes de Rodes, Cipri, Baruti et Damasci",destination,L18
+418,instances,CMD-199-1,destination,ad partes Sicilie,"ad partes Sicilie, Rodarum, Sipri, Baruti, Damasci et Alexandrie",destination,L18
+419,instances,CMD-207-1,destination,.NR,ad partes ultramarinas,destination,L19
+420,instances,CMD-221-1,destination,ad partes Sicilie,"ad partes Sicilie, Rodarum et de Levant et de Romania",destination,L20
+421,instances,CMD-222-1,destination,.NR,ad partes de Lavant,destination,L20
+422,instances,CMD-225-1,destination,.NR,ad partes de Levant; ad partes Sicilie e del Realme,destination,L20
+423,instances,CMD-231-1,destination,.NR,versus partes de Tunis,destination,L21
+424,instances,CMD-234-1,destination,.NR,ad partes de Tunis et de Alaxandria,destination,L21
+425,instances,CMD-237-1,destination,.NR,versus partes de Levant,destination,L22
+426,instances,CMD-240-1,destination,.NR,ad villam Aqualate et vel Cervarie et ad alias villas seu loca ad quas ... dominus rex cum sua gente armorum accedet,destination,L22
+427,instances,CMD-246-1,destination,.NR,versus partes de Levant,destination,L22
+428,instances,CMD-247-1,destination,.NR,ad partes regni Aragonum,destination,L22
+429,instances,CMD-249-1,destination,.NR,pro partibus de Levant,destination,L23
+430,instances,CMD-174-1,destination,.NR,ad dictas partes Alexandrie,destination,L16
+431,instances,CMD-048-1,parties,declarant: .NR | to: Marie,"declarant: Petrus de Medalia et Philipus de Boscho, junior | to: Marie",parties,L05
+432,instances,CMD-060-1,parties,declarant: .NR | to: Jacobo de Malvino,"declarant: Guillelmus Francisci de Podio et Bonanat de Turre, cives Barchinone | to: Jacobo de Malvino",parties,L06
+433,instances,CMD-066-1,parties,declarant: .NR | to: Nicholao de Samanis,"declarant: Jacobus Laurenci et Berengarius Geraldi, cives Barchinone | to: Nicholao de Samanis",parties,L06
+434,instances,CMD-081-1,parties,declarant: .NR | to: Raymundo Regalis,"declarant: Petrus de Episcopali et Bernardus de Sabateri, socii cives Barchinone | to: Raymundo Regalis",parties,L07
+435,instances,CMD-087-1,parties,declarant: .NR | to: venerabili Bernardo de Burdillis,"declarant: Petrus de Media Villa et Arnaldus Spaherii, cives Barchinone, et Bernardus de Podio Moradello, civis Gerunde | to: venerabili Bernardo de Burdillis",parties,L07
+436,instances,CMD-088-1,parties,declarant: .NR | to: venerabili Petro de Mediavilla,declarant: Eymericus de Usallio | to: venerabili Petro de Mediavilla,parties,L08
+437,instances,CMD-091-1,parties,declarant: .NR | to: Bernardo Viaderii,"declarant: Franciscus de Caldevol, mercator civis | to: Bernardo Viaderii",parties,L08
+438,instances,CMD-093-1,parties,declarant: .NR | to: Guillelmo Moratoni,"declarant: Arnaldus Laurencii, mercator Barchinone, procurator Petri de Media Villa | to: Guillelmo Moratoni",parties,L08
+439,instances,CMD-094-1,parties,declarant: .NR | to: Petro de Media Villa,"declarant: Jacobus de Media Villa, mercator civis Barchinone | to: Petro de Media Villa",parties,L08
+440,instances,CMD-105-1,parties,declarant: .NR | to: Bernardo Durandi,"declarant: Petrus de Croso et Petrus Pochasanch, cives Barchinone [patrones] coche | to: Bernardo Durandi et Vitali de Rexaco",parties,L10
+441,instances,CMD-122-1,parties,"declarant: Bernardus de Graells et Bernardus de Casis Albis, mercatores cives Barchinone | to: Jacobo Solerii","declarant: Bernardus de Graells et Bernardus de Casis Albis, mercatores cives Barchinone | to: Jacobo Solerii et Jacobo de Palacio",parties,L11
+442,instances,CMD-129-2,parties,declarant: .NR | to: domine Isabeli,"declarant: Franciscus Castilionis et Johannes Marqués, marinerii, cives Barchinone | to: domine Isabeli",parties,L11
+443,instances,CMD-135-2,parties,declarant: .NR | to: Jacobo Solà,"declarant: Berengarius de Fabrica et Bernardus Felicis, mercatores cives Barchinone | to: Jacobo Solà",parties,L12
+444,instances,CMD-141-1,parties,declarant: .NR | to: Durando Guarcia,"declarant: Bernardus Guardiola, Petrus Ballistarii, Johannes Guardiola et Michael Marçal, cives Barchinone | to: Durando Guarcia",parties,L12
+445,instances,CMD-141-2,parties,declarant: .NR | to: Jacobo Raserio,"declarant: Bernardus Guardiola, Petrus Ballistarii, Johannes Guardiola et Michael Marçal, cives Barchinone | to: Jacobo Raserio",parties,L13
+446,instances,CMD-147-1,parties,declarant: .NR | to: Bartholomeo Paschalis,"declarant: Johannes Martells, marinerius civis Barchinone | to: Bartholomeo Paschalis",parties,L13
+447,instances,CMD-156-1,parties,declarant: .NR | to: venerabili Johanni de Dous,"declarant: Michael Vila Nova, mercator habitator Barchinone | to: venerabili Johanni de Dous",parties,L14
+448,instances,CMD-159-1,parties,declarant: .NR | to: .NR,"declarant: Anthonius de Fonte, civis Barchinone | to: Jacobo Ferrarii, mercatori",parties,L15
+449,instances,CMD-165-1,parties,declarant: .NR | to: Jacobo de Prexana,"declarant: Jacobus Gilii, mercator habitator Valencie | to: Jacobo de Prexana",parties,L15
+450,instances,CMD-168-1,parties,declarant: .NR | to: Galcerando dez Serra Gallarde,"declarant: Bartholomeus Arquimbau, mercator civis Barchinone | to: Galcerando dez Serra Gallarde",parties,L15
+451,instances,CMD-171-1,parties,declarant: .NR | to: venerabili Petro Tapioles,"declarant: Periconus Saragossa, patronus navis, civis Barchinone, et Periconus de Nidobono | to: venerabili Petro Tapioles",parties,L16
+452,instances,CMD-174-1,parties,declarant: .NR | to: Bernardo Sent Martí,declarant: Ludovicus Cirvent | to: Bernardo Sent Martí,parties,L16
+453,instances,CMD-177-1,parties,declarant: .NR | to: Arnaldo Sent Just,declarant: Franciscus Brugal et Franciscus Miró | to: Arnaldo Sent Just,parties,L16
+454,instances,CMD-180-1,parties,declarant: .NR | to: venerabili Andree de Olivella,"declarant: Guillelmus Pujades, botiguerius civis Barchinone | to: venerabili Andree de Olivella",parties,L16
+455,instances,CMD-183-1,parties,declarant: .NR | to: venerabili Ferrario Berengarii,declarant: Petrus de Olivella [mercator] | to: venerabili Ferrario Berengarii,parties,L17
+456,instances,CMD-189-1,parties,declarant: .NR | to: dicto Bernardo Fabre,"declarant: Petrus Loreta, mercator civis Barchinone | to: dicto Bernardo Fabre",parties,L17
+457,instances,CMD-191-1,parties,declarant: .NR | to: venerabili domine Ysabeli,"declarant: Petrus Toralles, mercator civis Barchinone | to: venerabili domine Ysabeli",parties,L17
+458,instances,CMD-192-1,parties,declarant: .NR | to: venerabili Bernardo Fabre,"declarant: Franciscus Costa, argenterius civis Barchinone | to: venerabili Bernardo Fabre",parties,L17
+459,instances,CMD-193-1,parties,declarant: .NR | to: plenam damus et tribuimus potestatem,declarant: 55 investors (named pp. 317-318) | to: .NR,parties,L17/L18
+460,instances,CMD-195-1,parties,declarant: .NR | to: venerabili Bernardo Fabre,"declarant: Petrus Miret, mercator civis Barchinone | to: venerabili Bernardo Fabre et Johanni Damiani",parties,L18
+461,instances,CMD-199-1,parties,declarant: .NR | to: venerabili Guillelmo Perayerii,"declarant: Bertrandus Porta et Johannes Scuderii, mercatores cives Barchinone | to: venerabili Guillelmo Perayerii",parties,L18
+462,instances,CMD-204-1,parties,declarant: .NR | to: Guillelmo de Fonolleto,"declarant: Gabriel Cardona, mercator oriundus ville Morelle regni Valencie | to: Guillelmo de Fonolleto",parties,L19
+463,instances,CMD-207-1,parties,declarant: .NR | to: Antonio Ledó,"declarant: Petrus Muntsech, magister axie civis Barchinone | to: Antonio Ledó",parties,L19
+464,instances,CMD-213-1,parties,declarant: .NR | to: Francisco Arbolini,"declarant: Miquael Homedes, mercator civis Dertuse | to: Francisco Arbolini",parties,L19
+465,instances,CMD-216-1,parties,declarant: .NR | to: Raymundo Pujolli,"declarant: Petrus Folch, curritor auris civis Barchinone | to: Raymundo Pujolli",parties,L20
+466,instances,CMD-217-1,parties,declarant: .NR | to: Berengario de Junyent,"declarant: Franciscus Riart, mercator civis Barchinone | to: Berengario de Junyent",parties,L20
+467,instances,CMD-219-1,parties,declarant: .NR | to: Leonardo de Doni,"declarant: Franciscus Buada, mercator habitator Barchinone | to: Leonardo de Doni",parties,L20
+468,instances,CMD-221-1,parties,"declarant: Petrus Bertrandi, mercator civis Dertuse | to: administrabit","declarant: Petrus Bertrandi, mercator civis Dertuse | to: Gabrielem Pujolli et Guillelmum Bertrandi",parties,L20
+469,instances,CMD-225-1,parties,declarant: .NR | to: venerabili Johanni Jordà,"declarant: Petrus Jacobi de Sancto Johanne, campsor monetarum civis Barchinone | to: venerabili Johanni Jordà",parties,L20
+470,instances,CMD-226-1,parties,"declarant: Anthonius de Puigdangoles, mercator, et Geraldus Salvatoris, calafatus, cives Barchinone | to: honorabili Paulo de Erolis","declarant: Anthonius de Puigdangoles, mercator, et Geraldus Salvatoris, calafatus, cives Barchinone (investors) | to: honorabili Paulo de Erolis, Jacobo de Sancto Johanne, fratri Jacobo de Sancto Johanne et domine Angeline, tutoribus et tutrici (agent's heir)",parties,L21
+471,instances,CMD-227-1,parties,declarant: .NR | to: honorabili Guillelmo Martini,"declarant: Bonanatus de Carcassona, mercator civis Barchinone | to: honorabili Guillelmo Martini",parties,L21
+472,instances,CMD-228-1,parties,declarant: .NR | to: honorabili Bartholomeo Sentjust,"declarant: Petrus Arnaldus dez Carner, mercator civis Barchinone | to: honorabili Bartholomeo Sentjust",parties,L21
+473,instances,CMD-231-1,parties,declarant: .NR | to: venerabilibus Michael Coscó et Luppo Sanxis del Boey,"declarant: Andreas Sucre, mercator civis Barchinone | to: venerabilibus Michael Coscó et Luppo Sanxis del Boey",parties,L21
+474,instances,CMD-234-1,parties,declarant: .NR | to: venerabili Ludovico Guillelmo del Castell,"declarant: Gispertus dez Carner, mercator civis Barchinone, heir of Petrus Arnaldus dez Carner | to: venerabili Ludovico Guillelmo del Castell",parties,L21
+475,instances,CMD-237-1,parties,declarant: .NR | to: honorabili Valentino Gibert,"declarant: Franciscus Lobera, mercator habitator Barchinone | to: honorabili Valentino Gibert, Bartholomeo Sant Just, militi, et Johanni Urgellers, mercatori",parties,L22
+476,instances,CMD-240-1,parties,declarant: .NR | to: Anthonio Maruny,"declarant: Petrus Palau, flaçaderius civis Barchinone | to: Anthonio Maruny",parties,L22
+477,instances,CMD-243-1,parties,declarant: .NR | to: Raymundo Vitalis,"declarant: Guillelmus Badorch, mercator civis Barchinone | to: Raymundo Vitalis",parties,L22
+478,instances,CMD-246-1,parties,declarant: .NR | to: venerabili Lehonardo de Corbera,"declarant: Johannes de Corbera, mercator civis Barchinone | to: venerabili Lehonardo de Corbera",parties,L22
+479,instances,CMD-247-1,parties,declarant: .NR | to: Anthonio Sadorní,"declarant: Franciscus Portella, brodator habitator Barchinone | to: Anthonio Sadorní",parties,L22
+480,instances,CMD-249-1,parties,declarant: .NR | to: honorabili Bernardo Mahull,"declarant: Antichus Blanch, mercator civis Barchinone | to: honorabili Bernardo Mahull",parties,L23
+481,instances,CMD-250-1,parties,declarant: .NR | to: dicto honorabili Bernardo Mahull,declarant: Anthicus Blanch | to: dicto honorabili Bernardo Mahull,parties,L23
+482,instances,CMD-252-1,parties,declarant: .NR | to: .NR,"declarant: Lorenç Belloch, mercer (agent) | to: Anthoni Postomi (investor)",parties,L23
+483,instances,CMD-253-1,parties,declarant: .NR | to: venerabili Jacobo Bertran,"declarant: Petrus Ubach, mercator civis Barchinone | to: venerabili Jacobo Bertran",parties,L23
+484,instances,CMD-226-1,n_investors,1,2,parties,L21
+485,instances,CMD-226-1,n_agents,2,1,parties,L21
+486,instances,CMD-226-1,act_type,apocha: agents receipt of returned pepper,apocha: investors' receipt of returned pepper from the agent's heir's tutors,parties,L21
+487,instances,CMD-226-1,object,.NR,"unum pont de pebre, 1,033 Alexandrian rotols",object,L21
+488,instances,CMD-226-1,notes,1438.,1438. [2026-11-03] Roles reversed in the 10-27 row: the declarants are the investors; the late money-changer Pere Jaume de Sant Joan was their agent; the receiving side is his daughter's three tutors and tutrix.,parties,L21
+489,instances,CMD-193-1,n_investors,60,55,parties,L17/L18
+490,instances,CMD-193-1,notes,"1415, Constantinople. Census: 1415. Some twenty investors, several minors and a procurator, permit the return to be sent via Alxiu or Rhodes.","1415, Constantinople. Census: 1415. Some twenty investors, several minors and a procurator, permit the return to be sent via Alxiu or Rhodes. [2026-11-03] n_investors 60 -> 55: names counted on pp. 317-318 (L17). The 10-27 'parties' held a phrase ('plenam damus et tribuimus potestatem'), not a party.",parties,L17/L18
+491,instances,CMD-142-1,profit_rule,.NR,agent-1/4,profit,L13
+492,instances,CMD-142-1,notes,"1370s. Directed search for VF1: the credence clause concerns the investor recovery costs, not loss to the venture. Census: 1370s. 'ad usum maris et gencium et ad vestri et vestrorum resicum, periculum et fortunam'. Investor a widow.","1370s. Directed search for VF1: the credence clause concerns the investor recovery costs, not loss to the venture. Census: 1370s. 'ad usum maris et gencium et ad vestri et vestrorum resicum, periculum et fortunam'. Investor a widow. [2026-11-03] profit_rule '.NR' -> agent-1/4: the deed gives the agent's quarter (p. 270, rendered as scrambled prose in the text layer).",profit,L13
+493,instances,CMD-199-1,profit_rule,.NR,agent-1/4,profit,L18
+494,instances,CMD-199-1,profit_rule_quote,.NR,Ad quartum lucri etc.,profit,L18
+495,instances,CMD-199-1,notes,"1415. Directed search for TS1: the comanda continues, at the heirs risk, after the investor death. Census: 1415. 'Risicum dictorum heredum ete.': bearer stated.","1415. Directed search for TS1: the comanda continues, at the heirs risk, after the investor death. Census: 1415. 'Risicum dictorum heredum ete.': bearer stated. [2026-11-03] The deed was made after the money had been handed over and the investor had died (bears on survivorship).",note,L18
+496,instances,CMD-048-1,profit_rule_quote,"cioni predictorum pannorum non receptorum et predicte comande non recepte, promittimus dictos pannos illue vendere bona fide et partem tuam precii quod inde habebitur fideliter implicare, scilicet duas partes in cera et terciam partem in masticho.","De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes cum tuo capitali.",quote,L05
+497,instances,CMD-237-1,profit_rule_quote,In qua comanda unusquisque vestrum habet terciam partem.,Ad quartum lucri.,quote,L22
+498,instances,CMD-237-1,notes,"1459. Census: 1459, Levant. 1,703 l. 'dicta comanda eat, maneat et sit ubique etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Esteve Mir's house formula, written out with the investor as bearer in docs. 230, 231, 236, 246; abbreviated_entry stays yes.","1459. Census: 1459, Levant. 1,703 l. 'dicta comanda eat, maneat et sit ubique etc.': risk clause cut. Loss terms not stated. [2026-11-03] D-ABBR: abbreviated risk clause read as Esteve Mir's house formula, written out with the investor as bearer in docs. 230, 231, 236, 246; abbreviated_entry stays yes. [2026-11-03] The 10-27 profit_rule_quote ('In qua comanda unusquisque vestrum habet terciam partem') is the investors' shares, not the profit rule.",quote,L22
+499,instances,CMD-122-1,security,surety (renunciation of principal-first rule) and general estate,"general-estate, agents in solidum (renunciation of the benefit of excussion; no surety)",security,L11
+500,instances,CMD-122-1,notes,"1368. Directed search for RB3 (surety). Census: 1368. Renunciation of the principal-first rule (fideiussor). 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'.","1368. Directed search for RB3 (surety). Census: 1368. Renunciation of the principal-first rule (fideiussor). 'ad vestri redegum, periculum et fortunam ... ad usum gentium atque maris'. [2026-11-03] No surety (L11): the renunciation is the co-obligors'; doc. 121 has it word for word. The RB3 recoding LM-R0102's note cites doc. 122 for 'a surety'; that citation is wrong (value general-estate unaffected).",security,L11
+501,instances,CMD-250-1,loss_rule_quote,"Predicta vero comanda et eius implicamenta eant et sint ad usum maris et gencium et ad vestri risicum , periculum et fortunam, prout, scilicet, Dominus Deus ea salvaverit, per solidum.","Predicta vero comanda et eius implicamenta eant et sint ad usum maris et gencium et ad vestri risicum , periculum et fortunam, prout, scilicet, Dominus Deus ea salvaverit, per solidum et libram computando.",quote,L23
+502,instances,CMD-250-1,peril_clause_quote,"Predicta vero comanda et eius implicamenta eant et sint ad usum maris et gencium et ad vestri risicum , periculum et fortunam, prout, scilicet, Dominus Deus ea salvaverit, per solidum.","Predicta vero comanda et eius implicamenta eant et sint ad usum maris et gencium et ad vestri risicum , periculum et fortunam, prout, scilicet, Dominus Deus ea salvaverit, per solidum et libram computando.",quote,L23
+503,instances,CMD-192-1,loss_rule_quote,Risicum etc. scriptor Barchinone.,Risicum etc.,quote-witness,L17
+504,instances,CMD-192-1,peril_clause_quote,Risicum etc. scriptor Barchinone.,Risicum etc.,quote-witness,L17
+505,instances,CMD-195-1,loss_rule_quote,"Risicum etc. estes Jacobus Ferrarii, mercator civis, Raymundus de Virgilio et Anthonius Maruny, scriptores habitatores Barchinone.",Risicum etc.,quote-witness,L18
+506,instances,CMD-195-1,peril_clause_quote,"Risicum etc. estes Jacobus Ferrarii, mercator civis, Raymundus de Virgilio et Anthonius Maruny, scriptores habitatores Barchinone.",Risicum etc.,quote-witness,L18
+507,instances,CMD-204-1,loss_rule_quote,"Risicum etc. mercator oriundus llerde, et Franciscus Erbolí, scriptor Barchinone.",Risicum etc.,quote-witness,L19
+508,instances,CMD-204-1,peril_clause_quote,"Risicum etc. mercator oriundus llerde, et Franciscus Erbolí, scriptor Barchinone.",Risicum etc.,quote-witness,L19
+509,instances,CMD-213-1,loss_rule_quote,"Et eadem comanda eat, maneat et sit ubique ad risicum. cives, et Petrus Devesa, scriptor habitator Barchinone.","Et eadem comanda eat, maneat et sit ubique ad risicum.",quote-witness,L19
+510,instances,CMD-213-1,peril_clause_quote,"Et eadem comanda eat, maneat et sit ubique ad risicum. cives, et Petrus Devesa, scriptor habitator Barchinone.","Et eadem comanda eat, maneat et sit ubique ad risicum.",quote-witness,L19
+511,instances,CMD-228-1,loss_rule_quote,"Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote-witness,L21
+512,instances,CMD-228-1,peril_clause_quote,"Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote-witness,L21
+513,instances,CMD-240-1,loss_rule_quote,"Risicum etc. ""estes discretus Bernardus Bastat, notarius civis, et Johannes Pinyol, scriptor habitator Barchinone.",Risicum etc.,quote-witness,L22
+514,instances,CMD-240-1,peril_clause_quote,"Risicum etc. ""estes discretus Bernardus Bastat, notarius civis, et Johannes Pinyol, scriptor habitator Barchinone.",Risicum etc.,quote-witness,L22
+515,instances,CMD-246-1,loss_rule_quote,"Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote-witness,L22
+516,instances,CMD-246-1,peril_clause_quote,"Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote-witness,L22
+517,instances,CMD-129-1,loss_rule_quote,Et ad risicum etc. chinone.,Et ad risicum etc.,quote-witness,L11
+518,instances,CMD-129-1,peril_clause_quote,Et ad risicum etc. chinone.,Et ad risicum etc.,quote-witness,L11
+519,instances,CMD-147-1,loss_rule_quote,Risicum etc. I Barchinone.,Risicum etc.,quote-witness,L13
+520,instances,CMD-147-1,peril_clause_quote,Risicum etc. I Barchinone.,Risicum etc.,quote-witness,L13
+521,instances,CMD-045-1,parties,"declarant: Filipus de Bosco, iunior, et Periconus de ""Medalia | to: Guillelmo de Palacio","declarant: Filipus de Bosco, iunior, et Periconus de Medalia | to: Guillelmo de Palacio",parties,L04
+522,instances,CMD-075-1,notes,"1314, Marseille. Census: 1314, Marseille. 'Ad quartum lucri et usum maris': loss by custom only.","1314, Marseille. Census: 1314, Marseille. 'Ad quartum lucri et usum maris': loss by custom only. [2026-11-03] destination: 'ad partes Barchinone' was the return clause; the voyage is to Marseille.",destination,L07
+523,instances,CMD-012-1,transfer_quote,"Pro hae enim concessione a vobis recepisse concedo quinquaginta solidos monete Barchinone de teerno, de quibus, quia bene paccatus sum, renuncio omni exceptioni non recepte peccunie.","Pro hac enim concessione a vobis recepisse concedo quinquaginta solidos monete Barchinone de teerno, de quibus, quia bene paccatus sum, renuncio omni exceptioni non recepte peccunie.",ocr,L04-L23
+524,instances,CMD-018-1,profit_rule_quote,"Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hae comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.","Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.",ocr,L04-L23
+525,instances,CMD-027-1,transfer_quote,"Quam dictam comandam et predictam tuam pàartem lucri atque percacii tenear et promitto restituere, dare et tradere tibi vel tuis aut cui velis in termino supradicto, scilicet de hine ad unum annum primum venturum, sine dilacione, omni excusacione et contradiccione et absque omni tuo tuorumque dampno, gravamine et missione.","Quam dictam comandam et predictam tuam pàartem lucri atque percacii tenear et promitto restituere, dare et tradere tibi vel tuis aut cui velis in termino supradicto, scilicet de hinc ad unum annum primum venturum, sine dilacione, omni excusacione et contradiccione et absque omni tuo tuorumque dampno, gravamine et missione.",ocr,L04-L23
+526,instances,CMD-036-1,profit_rule_quote,"De lucro quod Deus in hae comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.","De lucro quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.",ocr,L04-L23
+527,instances,CMD-036-1,security_quote,"Lt pro hiis complendis, obligamus tibi et tuis uterque nostrum in solidum nos et omnia bona nostra mobilia et inmobilia.","Et pro hiis complendis, obligamus tibi et tuis uterque nostrum in solidum nos et omnia bona nostra mobilia et inmobilia.",ocr,L04-L23
+528,instances,CMD-039-1,common_fund_quote,"tempesulanum vel Aquas Mortuas in barcis Bernardi de Serriano et Berengarii Cerviani et sociorum, vel in quocumque loco dicte barce portum faciant causa mercandi, viginti libras monete Barchinone de terno, implieatas in comuni quod nobiseum portamus in dictis barcis, quod est de frumento, ordeo et milio.","tempesulanum vel Aquas Mortuas in barcis Bernardi de Serriano et Berengarii Cerviani et sociorum, vel in quocumque loco dicte barce portum faciant causa mercandi, viginti libras monete Barchinone de terno, implicatas in comuni quod nobiscum portamus in dictis barcis, quod est de frumento, ordeo et milio.",ocr,L04-L23
+529,instances,CMD-045-1,profit_rule_quote,"Ita tamen quod de omni lucro quod Deus in hae comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad","Ita tamen quod de omni lucro quod Deus in hac comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad",ocr,L04-L23
+530,instances,CMD-054-1,loss_rule_quote,Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,ocr,L04-L23
+531,instances,CMD-054-1,peril_clause_quote,Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,ocr,L04-L23
+532,instances,CMD-057-1,loss_rule_quote,Set hee comanda maneat ubique ad vestrum redegum et fortunam.,Set hec comanda maneat ubique ad vestrum redegum et fortunam.,ocr,L04-L23
+533,instances,CMD-057-1,peril_clause_quote,Set hee comanda maneat ubique ad vestrum redegum et fortunam.,Set hec comanda maneat ubique ad vestrum redegum et fortunam.,ocr,L04-L23
+534,instances,CMD-066-1,security_quote,"Et obligamus nos et bona nostra et renunciamus, ete.","Et obligamus nos et bona nostra et renunciamus, etc.",ocr,L04-L23
+535,instances,CMD-072-1,profit_rule_quote,"De lucro autem quod Deus in hae comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.","De lucro autem quod Deus in hac comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.",ocr,L04-L23
+536,instances,CMD-087-1,date_as_read,Actum est hoe Barchinone pridie nonas octobris anno Domini millesimo trescentesimo tricesimo quarto,Actum est hoc Barchinone pridie nonas octobris anno Domini millesimo trescentesimo tricesimo quarto,ocr,L04-L23
+537,instances,CMD-093-1,date_as_read,Actum est hoe Maioricis octavo idus septembris anno Domini millesimo trescentesimo quadragesimo,Actum est hoc Maioricis octavo idus septembris anno Domini millesimo trescentesimo quadragesimo,ocr,L04-L23
+538,instances,CMD-096-1,date_as_read,Die veneris intitulata tercio nonas aprilis anno predicto [1849],Die veneris intitulata tercio nonas aprilis anno predicto [1349],ocr,L04-L23
+539,instances,CMD-105-1,transfer_quote,"s vobis quod ego dictus Petrus de Croso in civitate de Domàs dictum argentum vendam, prout melius potero bona fide, et precium quod in[de] habebo, tam capitale scilicet quam lucrum, in dicta civitate de Domàs, vobis vel cui volueritis tradam et solvam infra viginti dies primo venturos postqua m cum dicta cocha ad portum de Barut apulero [sic] sine omni scilicet dilacione ete.","s vobis quod ego dictus Petrus de Croso in civitate de Domàs dictum argentum vendam, prout melius potero bona fide, et precium quod in[de] habebo, tam capitale scilicet quam lucrum, in dicta civitate de Domàs, vobis vel cui volueritis tradam et solvam infra viginti dies primo venturos postqua m cum dicta cocha ad portum de Barut apulero [sic] sine omni scilicet dilacione etc.",ocr,L04-L23
+540,instances,CMD-107-1,transfer_quote,"a quod omnis fraus et dolus inde aberunt, et quod dictam comandam vestram, prout Deus ipsam salvaverit, simul cum res er eS tribus partibus lucri, quod in ea Deus dederit, dabo, restituam et tradam vobis vel vestris aut cui sive quibus volueritis ad vestram voluntatem, quandocumque vobis placuerit, statim scilicet cum inde a vobis vel vestris fuero requisitus, sine omni seilicet dilacione, excusacione et excepcione et absque omni dampno et missione vestri","a quod omnis fraus et dolus inde aberunt, et quod dictam comandam vestram, prout Deus ipsam salvaverit, simul cum res er eS tribus partibus lucri, quod in ea Deus dederit, dabo, restituam et tradam vobis vel vestris aut cui sive quibus volueritis ad vestram voluntatem, quandocumque vobis placuerit, statim scilicet cum inde a vobis vel vestris fuero requisitus, sine omni scilicet dilacione, excusacione et excepcione et absque omni dampno et missione vestri",ocr,L04-L23
+541,instances,CMD-107-1,date_as_read,Die veneris septimo decimo die mensis junii anno predicto [1851],Die veneris septimo decimo die mensis junii anno predicto [1351],ocr,L04-L23
+542,instances,CMD-108-1,common_fund_quote,"centum et quinquaginta libras et novem solidos et sex denarios monete Barchinone de terno, quas ego de vestri voluntate misi, posui et converti in comuni meo, quod rego in arte mercature, de quo computare debeo, Deo dante, hine ad duos annos proxime venturos.","centum et quinquaginta libras et novem solidos et sex denarios monete Barchinone de terno, quas ego de vestri voluntate misi, posui et converti in comuni meo, quod rego in arte mercature, de quo computare debeo, Deo dante, hinc ad duos annos proxime venturos.",ocr,L04-L23
+543,instances,CMD-108-1,agent_own_capital_quote,"centum et quinquaginta libras et novem solidos et sex denarios monete Barchinone de terno, quas ego de vestri voluntate misi, posui et converti in comuni meo, quod rego in arte mercature, de quo computare debeo, Deo dante, hine ad duos annos proxime venturos.","centum et quinquaginta libras et novem solidos et sex denarios monete Barchinone de terno, quas ego de vestri voluntate misi, posui et converti in comuni meo, quod rego in arte mercature, de quo computare debeo, Deo dante, hinc ad duos annos proxime venturos.",ocr,L04-L23
+544,instances,CMD-117-1,date_as_read,Die martis decima die octobris anno predicto [1863],Die martis decima die octobris anno predicto [1363],ocr,L04-L23
+545,instances,CMD-122-1,profit_rule_quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.",ocr,L04-L23
+546,instances,CMD-123-1,profit_rule_quote,Ita tamen ad quartum denarium lucri ete.,Ita tamen ad quartum denarium lucri etc.,ocr,L04-L23
+547,instances,CMD-135-1,profit_rule_quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.",ocr,L04-L23
+548,instances,CMD-135-1,parties,"declarant: Berengarius de Fabrica et Bernardus F elicis, mercatores cives . Barchinone | to: Guillelmo Calaf","declarant: Berengarius de Fabrica et Bernardus Felicis, mercatores cives . Barchinone | to: Guillelmo Calaf",ocr,L04-L23
+549,instances,CMD-138-1,profit_rule_quote,Ad quartum denarium lucri ete.,Ad quartum denarium lucri etc.,ocr,L04-L23
+550,instances,CMD-144-1,parties,"declarant: Berengarius] Canals et: Periconus Selom, mercatores ville Sabadelli | to: venerabili Francisco Cisa","declarant: Berengarius Canals et Periconus Selom, mercatores ville Sabadelli | to: venerabili Francisco Cisa",ocr,L04-L23
+551,instances,CMD-156-1,profit_rule_quote,"Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem ete.","Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem etc.",ocr,L04-L23
+552,instances,CMD-156-1,loss_rule_quote,"Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",ocr,L04-L23
+553,instances,CMD-156-1,peril_clause_quote,"Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",ocr,L04-L23
+554,instances,CMD-156-1,security_quote,"Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",ocr,L04-L23
+555,instances,CMD-156-1,peril_clause,ad vestri risicum ete.,ad vestri risicum etc.,ocr,L04-L23
+556,instances,CMD-162-1,date_as_read,Actum est hoe Barchinone octava decima die mensis augusti anno a Nativitate Domini ,Actum est hoc Barchinone octava decima die mensis augusti anno a Nativitate Domini ,ocr,L04-L23
+557,instances,CMD-171-1,loss_rule_quote,Et hec comanda ete. Hec igitur etc.,Et hec comanda etc. Hec igitur etc.,ocr,L04-L23
+558,instances,CMD-171-1,peril_clause_quote,Et hec comanda ete. Hec igitur etc.,Et hec comanda etc. Hec igitur etc.,ocr,L04-L23
+559,instances,CMD-171-1,peril_clause,Et hec comanda ete.,Et hec comanda etc.,ocr,L04-L23
+560,instances,CMD-177-1,security_quote,Obligamus uterque nostrum in solidum personaliter et bona ete.,Obligamus uterque nostrum in solidum personaliter et bona etc.,ocr,L04-L23
+561,instances,CMD-189-1,security_quote,Obligo personaliter et bona ete.,Obligo personaliter et bona etc.,ocr,L04-L23
+562,instances,CMD-195-1,object,implicitas in duobus sachs de violes boschanes ponderis nitidarum de tores undecim quintalium et medii ,implicitas in duobus sachs de violes boschanes ponderis nitidarum de tares undecim quintalium et medii ,ocr,L04-L23
+563,instances,CMD-199-1,loss_rule_quote,Risicum dictorum heredum ete.,Risicum dictorum heredum etc.,ocr,L04-L23
+564,instances,CMD-199-1,peril_clause_quote,Risicum dictorum heredum ete.,Risicum dictorum heredum etc.,ocr,L04-L23
+565,instances,CMD-210-1,loss_rule_quote,"Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",ocr,L04-L23
+566,instances,CMD-210-1,peril_clause_quote,"Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",ocr,L04-L23
+567,instances,CMD-210-1,peril_clause,ad vestri risicum ete.,ad vestri risicum etc.,ocr,L04-L23
+568,instances,CMD-216-1,loss_rule_quote,"ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",ocr,L04-L23
+569,instances,CMD-216-1,peril_clause_quote,"ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",ocr,L04-L23
+570,instances,CMD-216-1,peril_clause,ad risicum vestrum ete.,ad risicum vestrum etc.,ocr,L04-L23
+571,instances,CMD-217-1,transfer_quote,"Nota de encabezamiento: Fuit cancellatum sequens comande instrumentum Je voluntate venerabilis Johannis de Junyent, habentis recognicionem et cessionem de subscripta [comanda facta] a subseripto Berengario de Junyent, cum instrumento in posse mei notarii infrascripti .XXIIII.","Nota de encabezamiento: Fuit cancellatum sequens comande instrumentum Je voluntate venerabilis Johannis de Junyent, habentis recognicionem et cessionem de subscripta [comanda facta] a subscripto Berengario de Junyent, cum instrumento in posse mei notarii infrascripti .XXIIII.",ocr,L04-L23
+572,instances,CMD-222-1,profit_rule_quote,"Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huie vestre comande, habeam ego pro opere et laboribus meis quartam partem.","Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huic vestre comande, habeam ego pro opere et laboribus meis quartam partem.",ocr,L04-L23
+573,instances,CMD-228-1,profit_rule_quote,Ad quartum lucri ete.,Ad quartum lucri etc.,ocr,L04-L23
+574,instances,CMD-231-1,verification_quote,Credatur ete.,Credatur etc.,ocr,L04-L23
+575,instances,CMD-240-1,security_quote,Obligo me personaliter et bona ete.,Obligo me personaliter et bona etc.,ocr,L04-L23
+576,instances,CMD-247-1,security_quote,Obligo me personaliter et bona mea ete.,Obligo me personaliter et bona mea etc.,ocr,L04-L23
+577,instances,CMD-249-1,verification_quote,Credatur ete.,Credatur etc.,ocr,L04-L23
+578,instances,CMD-250-1,security_quote,Obligo personaliter et bona ete.,Obligo personaliter et bona etc.,ocr,L04-L23
+579,instances,CMD-250-1,verification_quote,Credatur ete.,Credatur etc.,ocr,L04-L23
+580,instance-chars,CMD-060-1/CF2,state,.NR,(replaced by derived row),D-BELL,
+581,instance-chars,CMD-060-1/CF2,(new row),,0,derived,
+582,instance-chars,CMD-060-1/RB1,(new row),,capital-provider,derived,
+583,instance-chars,CMD-060-1/RB4,(new row),,1,derived,
+584,instance-chars,CMD-060-1/RB2,(new row),,capital-provider,derived,
+585,instance-chars,CMD-060-1/LR3,(new row),,1,derived,
+586,instance-chars,CMD-060-1/LR2,(new row),,coupled,derived,
+587,instance-chars,CMD-060-1/LR6,(new row),,upside-only,derived,
+588,instance-chars,CMD-060-1/CF1,(new row),,1,derived,
+589,instance-chars,CMD-060-1/RB3,(new row),,general-estate,derived,
+590,instance-chars,CMD-060-1/TS2,(new row),,single-venture,derived,
+591,instance-chars,CMD-060-1/CI1,(new row),,none,derived,
+592,instance-chars,CMD-060-1/CF3,(new row),,bilateral,derived,
+593,instance-chars,CMD-060-1/CI5,(new row),,commingled,derived,
+594,instance-chars,CMD-060-1/LP2,(new row),,0,derived,
+595,instance-chars,CMD-099-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+596,instance-chars,CMD-099-1/CF2,(new row),,0,derived,
+597,instance-chars,CMD-099-1/RB1,(new row),,capital-provider,derived,
+598,instance-chars,CMD-099-1/RB4,(new row),,1,derived,
+599,instance-chars,CMD-099-1/RB2,(new row),,capital-provider,derived,
+600,instance-chars,CMD-099-1/LR3,(new row),,1,derived,
+601,instance-chars,CMD-099-1/LR2,(new row),,coupled,derived,
+602,instance-chars,CMD-099-1/LR6,(new row),,upside-only,derived,
+603,instance-chars,CMD-099-1/CF1,(new row),,1,derived,
+604,instance-chars,CMD-099-1/RB3,(new row),,general-estate,derived,
+605,instance-chars,CMD-099-1/TS2,(new row),,single-venture,derived,
+606,instance-chars,CMD-099-1/CI1,(new row),,none,derived,
+607,instance-chars,CMD-099-1/CF3,(new row),,bilateral,derived,
+608,instance-chars,CMD-099-1/CI5,(new row),,commingled,derived,
+609,instance-chars,CMD-099-1/LP2,(new row),,0,derived,
+610,instance-chars,CMD-102-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+611,instance-chars,CMD-102-1/CF2,(new row),,0,derived,
+612,instance-chars,CMD-102-1/RB1,(new row),,capital-provider,derived,
+613,instance-chars,CMD-102-1/RB4,(new row),,1,derived,
+614,instance-chars,CMD-102-1/RB2,(new row),,capital-provider,derived,
+615,instance-chars,CMD-102-1/LR3,(new row),,1,derived,
+616,instance-chars,CMD-102-1/LR2,(new row),,coupled,derived,
+617,instance-chars,CMD-102-1/LR6,(new row),,upside-only,derived,
+618,instance-chars,CMD-102-1/CF1,(new row),,1,derived,
+619,instance-chars,CMD-102-1/RB3,(new row),,general-estate,derived,
+620,instance-chars,CMD-102-1/TS2,(new row),,single-venture,derived,
+621,instance-chars,CMD-102-1/CI1,(new row),,none,derived,
+622,instance-chars,CMD-102-1/CF3,(new row),,bilateral,derived,
+623,instance-chars,CMD-102-1/LP2,(new row),,0,derived,
+624,instance-chars,CMD-105-1/CF2,notes,,contextual: act assigned to neither; not counted for the comanda row.  [2026-11-03] D105: act now neither.,D105,L09/L10
+625,instance-chars,CMD-105-1/RB1,notes,,contextual: act assigned to neither; not counted for the comanda row.  [2026-11-03] D105: act now neither.,D105,L09/L10
+626,instance-chars,CMD-105-1/RB4,notes,Obligation limited to what God saved; investor bears the peril. Transit only: after unloading the agent owes capital and profit.,contextual: act assigned to neither; not counted for the comanda row. Obligation limited to what God saved; investor bears the peril. Transit only: after unloading the agent owes capital and profit. [2026-11-03] D105: act now neither.,D105,L09/L10
+627,instance-chars,CMD-105-1/RB2,notes,Risk-and-fortune clause is general (not limited to sea peril) and the duty is to return the implicamenta as saved: analyst reading.,contextual: act assigned to neither; not counted for the comanda row. Risk-and-fortune clause is general (not limited to sea peril) and the duty is to return the implicamenta as saved: analyst reading. [2026-11-03] D105: act now neither.,D105,L09/L10
+628,instance-chars,CMD-105-1/RB3,notes,general-estate in solidum,contextual: act assigned to neither; not counted for the comanda row. general-estate in solidum [2026-11-03] D105: act now neither.,D105,L09/L10
+629,instance-chars,CMD-105-1/TS2,notes,,contextual: act assigned to neither; not counted for the comanda row.  [2026-11-03] D105: act now neither.,D105,L09/L10
+630,instance-chars,CMD-105-1/CI1,notes,2 investor(s) in the act.,contextual: act assigned to neither; not counted for the comanda row. 2 investor(s) in the act. [2026-11-03] D105: act now neither.,D105,L09/L10
+631,instance-chars,CMD-105-1/CF3,notes,2 investor(s).,contextual: act assigned to neither; not counted for the comanda row. 2 investor(s). [2026-11-03] D105: act now neither.,D105,L09/L10
+632,instance-chars,CMD-105-1/CI3,notes,Payment to the investor or whomever he designates.,contextual: act assigned to neither; not counted for the comanda row. Payment to the investor or whomever he designates. [2026-11-03] D105: act now neither.,D105,L09/L10
+633,instance-chars,CMD-105-1/LP2,notes,The comanda is the investor's (tua/vestra comanda); the arrangement holds nothing in its own name.,contextual: act assigned to neither; not counted for the comanda row. The comanda is the investor's (tua/vestra comanda); the arrangement holds nothing in its own name. [2026-11-03] D105: act now neither.,D105,L09/L10
+634,instance-chars,CMD-117-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+635,instance-chars,CMD-117-1/CF2,(new row),,0,derived,
+636,instance-chars,CMD-117-1/RB1,(new row),,capital-provider,derived,
+637,instance-chars,CMD-117-1/RB4,(new row),,1,derived,
+638,instance-chars,CMD-117-1/RB2,(new row),,capital-provider,derived,
+639,instance-chars,CMD-117-1/LR3,(new row),,1,derived,
+640,instance-chars,CMD-117-1/LR2,(new row),,coupled,derived,
+641,instance-chars,CMD-117-1/LR6,(new row),,upside-only,derived,
+642,instance-chars,CMD-117-1/CF1,(new row),,1,derived,
+643,instance-chars,CMD-117-1/RB3,(new row),,general-estate,derived,
+644,instance-chars,CMD-117-1/TS2,(new row),,single-venture,derived,
+645,instance-chars,CMD-117-1/CI1,(new row),,none,derived,
+646,instance-chars,CMD-117-1/CF3,(new row),,bilateral,derived,
+647,instance-chars,CMD-117-1/CI5,(new row),,commingled,derived,
+648,instance-chars,CMD-117-1/LP2,(new row),,0,derived,
+649,instance-chars,CMD-123-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+650,instance-chars,CMD-123-1/CF2,(new row),,0,derived,
+651,instance-chars,CMD-123-1/RB1,(new row),,capital-provider,derived,
+652,instance-chars,CMD-123-1/RB4,(new row),,1,derived,
+653,instance-chars,CMD-123-1/RB2,(new row),,capital-provider,derived,
+654,instance-chars,CMD-123-1/LR3,(new row),,1,derived,
+655,instance-chars,CMD-123-1/LR2,(new row),,coupled,derived,
+656,instance-chars,CMD-123-1/LR6,(new row),,upside-only,derived,
+657,instance-chars,CMD-123-1/CF1,(new row),,1,derived,
+658,instance-chars,CMD-123-1/RB3,(new row),,general-estate,derived,
+659,instance-chars,CMD-123-1/TS2,(new row),,open,derived,
+660,instance-chars,CMD-123-1/CI1,(new row),,none,derived,
+661,instance-chars,CMD-123-1/CF3,(new row),,bilateral,derived,
+662,instance-chars,CMD-123-1/LP2,(new row),,0,derived,
+663,instance-chars,CMD-129-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+664,instance-chars,CMD-129-1/CF2,(new row),,0,derived,
+665,instance-chars,CMD-129-1/RB1,(new row),,capital-provider,derived,
+666,instance-chars,CMD-129-1/RB4,(new row),,1,derived,
+667,instance-chars,CMD-129-1/RB2,(new row),,capital-provider,derived,
+668,instance-chars,CMD-129-1/LR3,(new row),,1,derived,
+669,instance-chars,CMD-129-1/LR2,(new row),,coupled,derived,
+670,instance-chars,CMD-129-1/LR6,(new row),,upside-only,derived,
+671,instance-chars,CMD-129-1/CF1,(new row),,1,derived,
+672,instance-chars,CMD-129-1/RB3,(new row),,general-estate,derived,
+673,instance-chars,CMD-129-1/TS2,(new row),,single-venture,derived,
+674,instance-chars,CMD-129-1/CI1,(new row),,none,derived,
+675,instance-chars,CMD-129-1/CF3,(new row),,bilateral,derived,
+676,instance-chars,CMD-129-1/CI5,(new row),,commingled,derived,
+677,instance-chars,CMD-129-1/LP2,(new row),,0,derived,
+678,instance-chars,CMD-135-2/CF2,state,.NR,(replaced by derived row),D-ABBR,
+679,instance-chars,CMD-135-2/CF2,(new row),,0,derived,
+680,instance-chars,CMD-135-2/RB1,(new row),,capital-provider,derived,
+681,instance-chars,CMD-135-2/RB4,(new row),,1,derived,
+682,instance-chars,CMD-135-2/RB2,(new row),,capital-provider,derived,
+683,instance-chars,CMD-135-2/LR3,(new row),,1,derived,
+684,instance-chars,CMD-135-2/LR2,(new row),,coupled,derived,
+685,instance-chars,CMD-135-2/LR6,(new row),,upside-only,derived,
+686,instance-chars,CMD-135-2/CF1,(new row),,1,derived,
+687,instance-chars,CMD-135-2/RB3,(new row),,general-estate,derived,
+688,instance-chars,CMD-135-2/TS2,(new row),,single-venture,derived,
+689,instance-chars,CMD-135-2/CI1,(new row),,none,derived,
+690,instance-chars,CMD-135-2/CF3,(new row),,bilateral,derived,
+691,instance-chars,CMD-135-2/LP2,(new row),,0,derived,
+692,instance-chars,CMD-138-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+693,instance-chars,CMD-138-1/CF2,(new row),,0,derived,
+694,instance-chars,CMD-138-1/RB1,(new row),,capital-provider,derived,
+695,instance-chars,CMD-138-1/RB4,(new row),,1,derived,
+696,instance-chars,CMD-138-1/RB2,(new row),,capital-provider,derived,
+697,instance-chars,CMD-138-1/LR3,(new row),,1,derived,
+698,instance-chars,CMD-138-1/LR2,(new row),,coupled,derived,
+699,instance-chars,CMD-138-1/LR6,(new row),,upside-only,derived,
+700,instance-chars,CMD-138-1/CF1,(new row),,1,derived,
+701,instance-chars,CMD-138-1/RB3,(new row),,general-estate,derived,
+702,instance-chars,CMD-138-1/TS2,(new row),,single-venture,derived,
+703,instance-chars,CMD-138-1/CI1,(new row),,none,derived,
+704,instance-chars,CMD-138-1/CF3,(new row),,bilateral,derived,
+705,instance-chars,CMD-138-1/LP2,(new row),,0,derived,
+706,instance-chars,CMD-142-1/LR3,(new row),,1,derived-profit,L13/L18
+707,instance-chars,CMD-142-1/LR2,(new row),,coupled,derived-profit,L13/L18
+708,instance-chars,CMD-142-1/LR6,(new row),,upside-only,derived-profit,L13/L18
+709,instance-chars,CMD-142-1/CF1,(new row),,1,derived-profit,L13/L18
+710,instance-chars,CMD-147-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+711,instance-chars,CMD-147-1/CF2,(new row),,0,derived,
+712,instance-chars,CMD-147-1/RB1,(new row),,capital-provider,derived,
+713,instance-chars,CMD-147-1/RB4,(new row),,1,derived,
+714,instance-chars,CMD-147-1/RB2,(new row),,capital-provider,derived,
+715,instance-chars,CMD-147-1/LR3,(new row),,1,derived,
+716,instance-chars,CMD-147-1/LR2,(new row),,coupled,derived,
+717,instance-chars,CMD-147-1/LR6,(new row),,upside-only,derived,
+718,instance-chars,CMD-147-1/CF1,(new row),,1,derived,
+719,instance-chars,CMD-147-1/RB3,(new row),,general-estate,derived,
+720,instance-chars,CMD-147-1/TS2,(new row),,single-venture,derived,
+721,instance-chars,CMD-147-1/CI1,(new row),,none,derived,
+722,instance-chars,CMD-147-1/CF3,(new row),,bilateral,derived,
+723,instance-chars,CMD-147-1/LP2,(new row),,0,derived,
+724,instance-chars,CMD-153-1/CF2,(new row),,0,derived,
+725,instance-chars,CMD-153-1/RB1,(new row),,capital-provider,derived,
+726,instance-chars,CMD-153-1/RB4,(new row),,1,derived,
+727,instance-chars,CMD-153-1/RB2,(new row),,capital-provider,derived,
+728,instance-chars,CMD-153-1/LR3,(new row),,1,derived,
+729,instance-chars,CMD-153-1/LR2,(new row),,coupled,derived,
+730,instance-chars,CMD-153-1/LR6,(new row),,upside-only,derived,
+731,instance-chars,CMD-153-1/CF1,(new row),,1,derived,
+732,instance-chars,CMD-153-1/TS2,(new row),,single-venture,derived,
+733,instance-chars,CMD-153-1/CI1,(new row),,none,derived,
+734,instance-chars,CMD-153-1/CF3,(new row),,bilateral,derived,
+735,instance-chars,CMD-153-1/LP2,(new row),,0,derived,
+736,instance-chars,CMD-165-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+737,instance-chars,CMD-165-1/CF2,(new row),,0,derived,
+738,instance-chars,CMD-165-1/RB1,(new row),,capital-provider,derived,
+739,instance-chars,CMD-165-1/RB4,(new row),,1,derived,
+740,instance-chars,CMD-165-1/RB2,(new row),,capital-provider,derived,
+741,instance-chars,CMD-165-1/LR3,(new row),,1,derived,
+742,instance-chars,CMD-165-1/LR2,(new row),,coupled,derived,
+743,instance-chars,CMD-165-1/LR6,(new row),,upside-only,derived,
+744,instance-chars,CMD-165-1/CF1,(new row),,1,derived,
+745,instance-chars,CMD-165-1/RB3,(new row),,general-estate,derived,
+746,instance-chars,CMD-165-1/TS2,(new row),,single-venture,derived,
+747,instance-chars,CMD-165-1/CI1,(new row),,none,derived,
+748,instance-chars,CMD-165-1/CF3,(new row),,bilateral,derived,
+749,instance-chars,CMD-165-1/LP2,(new row),,0,derived,
+750,instance-chars,CMD-168-1/CF2,(new row),,0,derived,
+751,instance-chars,CMD-168-1/RB1,(new row),,capital-provider,derived,
+752,instance-chars,CMD-168-1/RB4,(new row),,1,derived,
+753,instance-chars,CMD-168-1/RB2,(new row),,capital-provider,derived,
+754,instance-chars,CMD-168-1/LR3,(new row),,1,derived,
+755,instance-chars,CMD-168-1/LR2,(new row),,coupled,derived,
+756,instance-chars,CMD-168-1/LR6,(new row),,upside-only,derived,
+757,instance-chars,CMD-168-1/CF1,(new row),,1,derived,
+758,instance-chars,CMD-168-1/RB3,(new row),,general-estate,derived,
+759,instance-chars,CMD-168-1/TS2,(new row),,single-venture,derived,
+760,instance-chars,CMD-168-1/CI1,(new row),,none,derived,
+761,instance-chars,CMD-168-1/CF3,(new row),,bilateral,derived,
+762,instance-chars,CMD-168-1/LP2,(new row),,0,derived,
+763,instance-chars,CMD-171-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+764,instance-chars,CMD-171-1/CF2,(new row),,0,derived,
+765,instance-chars,CMD-171-1/RB1,(new row),,capital-provider,derived,
+766,instance-chars,CMD-171-1/RB4,(new row),,1,derived,
+767,instance-chars,CMD-171-1/RB2,(new row),,capital-provider,derived,
+768,instance-chars,CMD-171-1/LR3,(new row),,1,derived,
+769,instance-chars,CMD-171-1/LR2,(new row),,coupled,derived,
+770,instance-chars,CMD-171-1/LR6,(new row),,upside-only,derived,
+771,instance-chars,CMD-171-1/CF1,(new row),,1,derived,
+772,instance-chars,CMD-171-1/RB3,(new row),,general-estate,derived,
+773,instance-chars,CMD-171-1/TS2,(new row),,single-venture,derived,
+774,instance-chars,CMD-171-1/CI1,(new row),,none,derived,
+775,instance-chars,CMD-171-1/CF3,(new row),,bilateral,derived,
+776,instance-chars,CMD-171-1/LP2,(new row),,0,derived,
+777,instance-chars,CMD-174-1/CF2,(new row),,0,derived,
+778,instance-chars,CMD-174-1/RB1,(new row),,capital-provider,derived,
+779,instance-chars,CMD-174-1/RB4,(new row),,1,derived,
+780,instance-chars,CMD-174-1/RB2,(new row),,capital-provider,derived,
+781,instance-chars,CMD-174-1/LR3,(new row),,1,derived,
+782,instance-chars,CMD-174-1/LR2,(new row),,coupled,derived,
+783,instance-chars,CMD-174-1/LR6,(new row),,upside-only,derived,
+784,instance-chars,CMD-174-1/CF1,(new row),,1,derived,
+785,instance-chars,CMD-174-1/RB3,(new row),,general-estate,derived,
+786,instance-chars,CMD-174-1/TS2,(new row),,single-venture,derived,
+787,instance-chars,CMD-174-1/CI1,(new row),,none,derived,
+788,instance-chars,CMD-174-1/CF3,(new row),,bilateral,derived,
+789,instance-chars,CMD-174-1/LP2,(new row),,0,derived,
+790,instance-chars,CMD-174-2/CF2,(new row),,0,derived,
+791,instance-chars,CMD-174-2/RB1,(new row),,capital-provider,derived,
+792,instance-chars,CMD-174-2/RB4,(new row),,1,derived,
+793,instance-chars,CMD-174-2/RB2,(new row),,capital-provider,derived,
+794,instance-chars,CMD-174-2/LR3,(new row),,1,derived,
+795,instance-chars,CMD-174-2/LR2,(new row),,coupled,derived,
+796,instance-chars,CMD-174-2/LR6,(new row),,upside-only,derived,
+797,instance-chars,CMD-174-2/CF1,(new row),,1,derived,
+798,instance-chars,CMD-174-2/RB3,(new row),,general-estate,derived,
+799,instance-chars,CMD-174-2/TS2,(new row),,single-venture,derived,
+800,instance-chars,CMD-174-2/CI1,(new row),,none,derived,
+801,instance-chars,CMD-174-2/CF3,(new row),,bilateral,derived,
+802,instance-chars,CMD-174-2/CI5,(new row),,commingled,derived,
+803,instance-chars,CMD-174-2/LP2,(new row),,0,derived,
+804,instance-chars,CMD-177-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+805,instance-chars,CMD-177-1/CF2,(new row),,0,derived,
+806,instance-chars,CMD-177-1/RB1,(new row),,capital-provider,derived,
+807,instance-chars,CMD-177-1/RB4,(new row),,1,derived,
+808,instance-chars,CMD-177-1/RB2,(new row),,capital-provider,derived,
+809,instance-chars,CMD-177-1/LR3,(new row),,1,derived,
+810,instance-chars,CMD-177-1/LR2,(new row),,coupled,derived,
+811,instance-chars,CMD-177-1/LR6,(new row),,upside-only,derived,
+812,instance-chars,CMD-177-1/CF1,(new row),,1,derived,
+813,instance-chars,CMD-177-1/RB3,(new row),,general-estate,derived,
+814,instance-chars,CMD-177-1/TS2,(new row),,single-venture,derived,
+815,instance-chars,CMD-177-1/CI1,(new row),,none,derived,
+816,instance-chars,CMD-177-1/CF3,(new row),,bilateral,derived,
+817,instance-chars,CMD-177-1/CI5,(new row),,commingled,derived,
+818,instance-chars,CMD-177-1/LP2,(new row),,0,derived,
+819,instance-chars,CMD-180-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+820,instance-chars,CMD-180-1/CF2,(new row),,0,derived,
+821,instance-chars,CMD-180-1/RB1,(new row),,capital-provider,derived,
+822,instance-chars,CMD-180-1/RB4,(new row),,1,derived,
+823,instance-chars,CMD-180-1/RB2,(new row),,capital-provider,derived,
+824,instance-chars,CMD-180-1/LR3,(new row),,1,derived,
+825,instance-chars,CMD-180-1/LR2,(new row),,coupled,derived,
+826,instance-chars,CMD-180-1/LR6,(new row),,upside-only,derived,
+827,instance-chars,CMD-180-1/CF1,(new row),,1,derived,
+828,instance-chars,CMD-180-1/RB3,(new row),,general-estate,derived,
+829,instance-chars,CMD-180-1/TS2,(new row),,single-venture,derived,
+830,instance-chars,CMD-180-1/CI1,(new row),,none,derived,
+831,instance-chars,CMD-180-1/CF3,(new row),,bilateral,derived,
+832,instance-chars,CMD-180-1/CI5,(new row),,commingled,derived,
+833,instance-chars,CMD-180-1/LP2,(new row),,0,derived,
+834,instance-chars,CMD-183-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+835,instance-chars,CMD-183-1/CF2,(new row),,0,derived,
+836,instance-chars,CMD-183-1/RB1,(new row),,capital-provider,derived,
+837,instance-chars,CMD-183-1/RB4,(new row),,1,derived,
+838,instance-chars,CMD-183-1/RB2,(new row),,capital-provider,derived,
+839,instance-chars,CMD-183-1/LR3,(new row),,1,derived,
+840,instance-chars,CMD-183-1/LR2,(new row),,coupled,derived,
+841,instance-chars,CMD-183-1/LR6,(new row),,upside-only,derived,
+842,instance-chars,CMD-183-1/CF1,(new row),,1,derived,
+843,instance-chars,CMD-183-1/RB3,(new row),,general-estate,derived,
+844,instance-chars,CMD-183-1/TS2,(new row),,single-venture,derived,
+845,instance-chars,CMD-183-1/CI1,(new row),,none,derived,
+846,instance-chars,CMD-183-1/CF3,(new row),,bilateral,derived,
+847,instance-chars,CMD-183-1/CI5,(new row),,commingled,derived,
+848,instance-chars,CMD-183-1/LP2,(new row),,0,derived,
+849,instance-chars,CMD-189-1/CF2,(new row),,0,derived,
+850,instance-chars,CMD-189-1/RB1,(new row),,capital-provider,derived,
+851,instance-chars,CMD-189-1/RB4,(new row),,1,derived,
+852,instance-chars,CMD-189-1/RB2,(new row),,capital-provider,derived,
+853,instance-chars,CMD-189-1/LR3,(new row),,1,derived,
+854,instance-chars,CMD-189-1/LR2,(new row),,coupled,derived,
+855,instance-chars,CMD-189-1/LR6,(new row),,upside-only,derived,
+856,instance-chars,CMD-189-1/CF1,(new row),,1,derived,
+857,instance-chars,CMD-189-1/RB3,(new row),,general-estate,derived,
+858,instance-chars,CMD-189-1/TS2,(new row),,single-venture,derived,
+859,instance-chars,CMD-189-1/CI1,(new row),,none,derived,
+860,instance-chars,CMD-189-1/CF3,(new row),,bilateral,derived,
+861,instance-chars,CMD-189-1/LP2,(new row),,0,derived,
+862,instance-chars,CMD-192-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+863,instance-chars,CMD-192-1/CF2,(new row),,0,derived,
+864,instance-chars,CMD-192-1/RB1,(new row),,capital-provider,derived,
+865,instance-chars,CMD-192-1/RB4,(new row),,1,derived,
+866,instance-chars,CMD-192-1/RB2,(new row),,capital-provider,derived,
+867,instance-chars,CMD-192-1/LR3,(new row),,1,derived,
+868,instance-chars,CMD-192-1/LR2,(new row),,coupled,derived,
+869,instance-chars,CMD-192-1/LR6,(new row),,upside-only,derived,
+870,instance-chars,CMD-192-1/CF1,(new row),,1,derived,
+871,instance-chars,CMD-192-1/RB3,(new row),,general-estate,derived,
+872,instance-chars,CMD-192-1/TS2,(new row),,single-venture,derived,
+873,instance-chars,CMD-192-1/CI1,(new row),,none,derived,
+874,instance-chars,CMD-192-1/CF3,(new row),,bilateral,derived,
+875,instance-chars,CMD-192-1/LP2,(new row),,0,derived,
+876,instance-chars,CMD-195-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+877,instance-chars,CMD-195-1/CF2,(new row),,0,derived,
+878,instance-chars,CMD-195-1/RB1,(new row),,capital-provider,derived,
+879,instance-chars,CMD-195-1/RB4,(new row),,1,derived,
+880,instance-chars,CMD-195-1/RB2,(new row),,capital-provider,derived,
+881,instance-chars,CMD-195-1/LR3,(new row),,1,derived,
+882,instance-chars,CMD-195-1/LR2,(new row),,coupled,derived,
+883,instance-chars,CMD-195-1/LR6,(new row),,upside-only,derived,
+884,instance-chars,CMD-195-1/CF1,(new row),,1,derived,
+885,instance-chars,CMD-195-1/RB3,(new row),,general-estate,derived,
+886,instance-chars,CMD-195-1/TS2,(new row),,single-venture,derived,
+887,instance-chars,CMD-195-1/CI1,(new row),,several-accounts,derived,
+888,instance-chars,CMD-195-1/CF3,(new row),,multilateral,derived,
+889,instance-chars,CMD-195-1/LP2,(new row),,0,derived,
+890,instance-chars,CMD-199-1/LR3,(new row),,1,derived-profit,L13/L18
+891,instance-chars,CMD-199-1/LR2,(new row),,coupled,derived-profit,L13/L18
+892,instance-chars,CMD-199-1/LR6,(new row),,upside-only,derived-profit,L13/L18
+893,instance-chars,CMD-199-1/CF1,(new row),,1,derived-profit,L13/L18
+894,instance-chars,CMD-204-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+895,instance-chars,CMD-204-1/CF2,(new row),,0,derived,
+896,instance-chars,CMD-204-1/RB1,(new row),,capital-provider,derived,
+897,instance-chars,CMD-204-1/RB4,(new row),,1,derived,
+898,instance-chars,CMD-204-1/RB2,(new row),,capital-provider,derived,
+899,instance-chars,CMD-204-1/LR3,(new row),,1,derived,
+900,instance-chars,CMD-204-1/LR2,(new row),,coupled,derived,
+901,instance-chars,CMD-204-1/LR6,(new row),,upside-only,derived,
+902,instance-chars,CMD-204-1/CF1,(new row),,1,derived,
+903,instance-chars,CMD-204-1/RB3,(new row),,general-estate,derived,
+904,instance-chars,CMD-204-1/TS2,(new row),,single-venture,derived,
+905,instance-chars,CMD-204-1/CI1,(new row),,none,derived,
+906,instance-chars,CMD-204-1/CF3,(new row),,bilateral,derived,
+907,instance-chars,CMD-204-1/CI5,(new row),,commingled,derived,
+908,instance-chars,CMD-204-1/LP2,(new row),,0,derived,
+909,instance-chars,CMD-204-2/CF2,(new row),,0,derived,
+910,instance-chars,CMD-204-2/RB1,(new row),,capital-provider,derived,
+911,instance-chars,CMD-204-2/RB4,(new row),,1,derived,
+912,instance-chars,CMD-204-2/RB2,(new row),,capital-provider,derived,
+913,instance-chars,CMD-204-2/LR3,(new row),,1,derived,
+914,instance-chars,CMD-204-2/LR2,(new row),,coupled,derived,
+915,instance-chars,CMD-204-2/LR6,(new row),,upside-only,derived,
+916,instance-chars,CMD-204-2/CF1,(new row),,1,derived,
+917,instance-chars,CMD-204-2/RB3,(new row),,general-estate,derived,
+918,instance-chars,CMD-204-2/TS2,(new row),,single-venture,derived,
+919,instance-chars,CMD-204-2/CI1,(new row),,none,derived,
+920,instance-chars,CMD-204-2/CF3,(new row),,bilateral,derived,
+921,instance-chars,CMD-204-2/CI5,(new row),,commingled,derived,
+922,instance-chars,CMD-204-2/LP2,(new row),,0,derived,
+923,instance-chars,CMD-213-1/CI3,notes,contextual: act assigned to neither; not counted for the comanda row. Cession of the investor's rights in a comanda.,Cession of the investor's rights in a comanda. [2026-11-03] contextual prefix removed: act now comanda.,context,
+924,instance-chars,CMD-213-1/CF2,(new row),,0,derived,
+925,instance-chars,CMD-213-1/RB1,(new row),,capital-provider,derived,
+926,instance-chars,CMD-213-1/RB4,(new row),,1,derived,
+927,instance-chars,CMD-213-1/RB2,(new row),,capital-provider,derived,
+928,instance-chars,CMD-213-1/LR3,(new row),,1,derived,
+929,instance-chars,CMD-213-1/LR2,(new row),,coupled,derived,
+930,instance-chars,CMD-213-1/LR6,(new row),,upside-only,derived,
+931,instance-chars,CMD-213-1/CF1,(new row),,1,derived,
+932,instance-chars,CMD-213-1/RB3,(new row),,general-estate,derived,
+933,instance-chars,CMD-213-1/TS2,(new row),,single-venture,derived,
+934,instance-chars,CMD-213-1/CI1,(new row),,none,derived,
+935,instance-chars,CMD-213-1/CF3,(new row),,bilateral,derived,
+936,instance-chars,CMD-213-1/LP2,(new row),,0,derived,
+937,instance-chars,CMD-217-1/CI3,notes,contextual: act assigned to neither; not counted for the comanda row. Cession of the investor's rights in a comanda. [directed],Cession of the investor's rights in a comanda. [directed] [2026-11-03] contextual prefix removed: act now comanda.,context,
+938,instance-chars,CMD-217-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+939,instance-chars,CMD-217-1/CF2,(new row),,0,derived,
+940,instance-chars,CMD-217-1/RB1,(new row),,capital-provider,derived,
+941,instance-chars,CMD-217-1/RB4,(new row),,1,derived,
+942,instance-chars,CMD-217-1/RB2,(new row),,capital-provider,derived,
+943,instance-chars,CMD-217-1/LR3,(new row),,1,derived,
+944,instance-chars,CMD-217-1/LR2,(new row),,coupled,derived,
+945,instance-chars,CMD-217-1/LR6,(new row),,upside-only,derived,
+946,instance-chars,CMD-217-1/CF1,(new row),,1,derived,
+947,instance-chars,CMD-217-1/RB3,(new row),,general-estate,derived,
+948,instance-chars,CMD-217-1/TS2,(new row),,single-venture,derived,
+949,instance-chars,CMD-217-1/CI1,(new row),,none,derived,
+950,instance-chars,CMD-217-1/CF3,(new row),,bilateral,derived,
+951,instance-chars,CMD-217-1/LP2,(new row),,0,derived,
+952,instance-chars,CMD-217-2/CF2,(new row),,0,derived,
+953,instance-chars,CMD-217-2/RB1,(new row),,capital-provider,derived,
+954,instance-chars,CMD-217-2/RB4,(new row),,1,derived,
+955,instance-chars,CMD-217-2/RB2,(new row),,capital-provider,derived,
+956,instance-chars,CMD-217-2/LR3,(new row),,1,derived,
+957,instance-chars,CMD-217-2/LR2,(new row),,coupled,derived,
+958,instance-chars,CMD-217-2/LR6,(new row),,upside-only,derived,
+959,instance-chars,CMD-217-2/CF1,(new row),,1,derived,
+960,instance-chars,CMD-217-2/RB3,(new row),,general-estate,derived,
+961,instance-chars,CMD-217-2/TS2,(new row),,single-venture,derived,
+962,instance-chars,CMD-217-2/CI1,(new row),,none,derived,
+963,instance-chars,CMD-217-2/CF3,(new row),,bilateral,derived,
+964,instance-chars,CMD-217-2/LP2,(new row),,0,derived,
+965,instance-chars,CMD-225-1/CF2,(new row),,0,derived,
+966,instance-chars,CMD-225-1/RB1,(new row),,capital-provider,derived,
+967,instance-chars,CMD-225-1/RB4,(new row),,1,derived,
+968,instance-chars,CMD-225-1/RB2,(new row),,capital-provider,derived,
+969,instance-chars,CMD-225-1/LR3,(new row),,1,derived,
+970,instance-chars,CMD-225-1/LR2,(new row),,coupled,derived,
+971,instance-chars,CMD-225-1/LR6,(new row),,upside-only,derived,
+972,instance-chars,CMD-225-1/CF1,(new row),,1,derived,
+973,instance-chars,CMD-225-1/RB3,(new row),,general-estate,derived,
+974,instance-chars,CMD-225-1/TS2,(new row),,single-venture,derived,
+975,instance-chars,CMD-225-1/CI1,(new row),,none,derived,
+976,instance-chars,CMD-225-1/CF3,(new row),,bilateral,derived,
+977,instance-chars,CMD-225-1/LP2,(new row),,0,derived,
+978,instance-chars,CMD-237-1/CF2,state,.NR,(replaced by derived row),D-ABBR,
+979,instance-chars,CMD-237-1/CF2,(new row),,0,derived,
+980,instance-chars,CMD-237-1/RB1,(new row),,capital-provider,derived,
+981,instance-chars,CMD-237-1/RB4,(new row),,1,derived,
+982,instance-chars,CMD-237-1/RB2,(new row),,capital-provider,derived,
+983,instance-chars,CMD-237-1/LR3,(new row),,1,derived,
+984,instance-chars,CMD-237-1/LR2,(new row),,coupled,derived,
+985,instance-chars,CMD-237-1/LR6,(new row),,upside-only,derived,
+986,instance-chars,CMD-237-1/CF1,(new row),,1,derived,
+987,instance-chars,CMD-237-1/RB3,(new row),,general-estate,derived,
+988,instance-chars,CMD-237-1/TS2,(new row),,single-venture,derived,
+989,instance-chars,CMD-237-1/CI1,(new row),,several-accounts,derived,
+990,instance-chars,CMD-237-1/CF3,(new row),,multilateral,derived,
+991,instance-chars,CMD-237-1/LP2,(new row),,0,derived,
+992,instance-chars,CMD-240-1/CF2,state,.NR,(replaced by derived row),D-BELL,
+993,instance-chars,CMD-240-1/CF2,(new row),,0,derived,
+994,instance-chars,CMD-240-1/RB1,(new row),,capital-provider,derived,
+995,instance-chars,CMD-240-1/RB4,(new row),,1,derived,
+996,instance-chars,CMD-240-1/RB2,(new row),,capital-provider,derived,
+997,instance-chars,CMD-240-1/LR3,(new row),,1,derived,
+998,instance-chars,CMD-240-1/LR2,(new row),,coupled,derived,
+999,instance-chars,CMD-240-1/LR6,(new row),,upside-only,derived,
+1000,instance-chars,CMD-240-1/CF1,(new row),,1,derived,
+1001,instance-chars,CMD-240-1/RB3,(new row),,general-estate,derived,
+1002,instance-chars,CMD-240-1/TS2,(new row),,single-venture,derived,
+1003,instance-chars,CMD-240-1/CI1,(new row),,none,derived,
+1004,instance-chars,CMD-240-1/CF3,(new row),,bilateral,derived,
+1005,instance-chars,CMD-240-1/LP2,(new row),,0,derived,
+1006,instance-chars,CMD-018-1/LR3,quote,"Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hae comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.","Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.",quote,
+1007,instance-chars,CMD-018-1/LR2,quote,"Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hae comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.","Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.",quote,
+1008,instance-chars,CMD-018-1/LR6,quote,"Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hae comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali. || Set hec comanda maneat ubique ad tuum redegum et fortunam.","Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali. || Set hec comanda maneat ubique ad tuum redegum et fortunam.",quote,
+1009,instance-chars,CMD-018-1/CF1,quote,"Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hae comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.","Et ipsa implicamenta, lucrum et capitale, sicut Deus ea salvaverit, convenio in tuum tuorumque posse reducere, facto dicto viatico, De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeam ego quartam partem et tu tres partes cum tuo capitali.",quote,
+1010,instance-chars,CMD-027-1/CI3,quote,"Quam dictam comandam et predictam tuam pàartem lucri atque percacii tenear et promitto restituere, dare et tradere tibi vel tuis aut cui velis in termino supradicto, scilicet de hine ad unum annum primum venturum, sine dilacione, omni excusacione et contradiccione et absque omni tuo tuorumque dampno, gravamine et missione.","Quam dictam comandam et predictam tuam pàartem lucri atque percacii tenear et promitto restituere, dare et tradere tibi vel tuis aut cui velis in termino supradicto, scilicet de hinc ad unum annum primum venturum, sine dilacione, omni excusacione et contradiccione et absque omni tuo tuorumque dampno, gravamine et missione.",quote,
+1011,instance-chars,CMD-036-1/LR3,quote,"De lucro quod Deus in hae comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.","De lucro quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.",quote,
+1012,instance-chars,CMD-036-1/LR2,quote,"De lucro quod Deus in hae comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.","De lucro quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.",quote,
+1013,instance-chars,CMD-036-1/LR6,quote,"De lucro quod Deus in hae comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali. || Set hec comanda maneat ubique ad tuum redegum et fortunam.","De lucro quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali. || Set hec comanda maneat ubique ad tuum redegum et fortunam.",quote,
+1014,instance-chars,CMD-036-1/CF1,quote,"De lucro quod Deus in hae comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.","De lucro quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes, cum tuo capitali.",quote,
+1015,instance-chars,CMD-036-1/RB3,quote,"Lt pro hiis complendis, obligamus tibi et tuis uterque nostrum in solidum nos et omnia bona nostra mobilia et inmobilia.","Et pro hiis complendis, obligamus tibi et tuis uterque nostrum in solidum nos et omnia bona nostra mobilia et inmobilia.",quote,
+1016,instance-chars,CMD-039-1/CI5,quote,"tempesulanum vel Aquas Mortuas in barcis Bernardi de Serriano et Berengarii Cerviani et sociorum, vel in quocumque loco dicte barce portum faciant causa mercandi, viginti libras monete Barchinone de terno, implieatas in comuni quod nobiseum portamus in dictis barcis, quod est de frumento, ordeo et milio.","tempesulanum vel Aquas Mortuas in barcis Bernardi de Serriano et Berengarii Cerviani et sociorum, vel in quocumque loco dicte barce portum faciant causa mercandi, viginti libras monete Barchinone de terno, implicatas in comuni quod nobiscum portamus in dictis barcis, quod est de frumento, ordeo et milio.",quote,
+1017,instance-chars,CMD-045-1/LR3,quote,"Ita tamen quod de omni lucro quod Deus in hae comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad","Ita tamen quod de omni lucro quod Deus in hac comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad",quote,
+1018,instance-chars,CMD-045-1/LR2,quote,"Ita tamen quod de omni lucro quod Deus in hae comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad","Ita tamen quod de omni lucro quod Deus in hac comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad",quote,
+1019,instance-chars,CMD-045-1/LR6,quote,"Ita tamen quod de omni lucro quod Deus in hae comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad || eunte ubique ad voluntatem [Dei et ad vestrum redeg|um.","Ita tamen quod de omni lucro quod Deus in hac comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad || eunte ubique ad voluntatem [Dei et ad vestrum redeg|um.",quote,
+1020,instance-chars,CMD-045-1/CF1,quote,"Ita tamen quod de omni lucro quod Deus in hae comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad","Ita tamen quod de omni lucro quod Deus in hac comanda dederit, habeamus nos quartam partem et tu residuas tres partes ipsius lucri cum tuo prenotato capitali, Et possimus hane comandam ambo et alter nostrum portare per mare et terram ubique in dicto viatico causa mercandi, et reducere in omni navi veniente ad",quote,
+1021,instance-chars,CMD-048-1/LR3,quote,"cioni predictorum pannorum non receptorum et predicte comande non recepte, promittimus dictos pannos illue vendere bona fide et partem tuam precii quod inde habebitur fideliter implicare, scilicet duas partes in cera et terciam partem in masticho.","De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes cum tuo capitali.",quote,
+1022,instance-chars,CMD-048-1/LR2,quote,"cioni predictorum pannorum non receptorum et predicte comande non recepte, promittimus dictos pannos illue vendere bona fide et partem tuam precii quod inde habebitur fideliter implicare, scilicet duas partes in cera et terciam partem in masticho.","De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes cum tuo capitali.",quote,
+1023,instance-chars,CMD-048-1/LR6,quote,"cioni predictorum pannorum non receptorum et predicte comande non recepte, promittimus dictos pannos illue vendere bona fide et partem tuam precii quod inde habebitur fideliter implicare, scilicet duas partes in cera et terciam partem in masticho. || Set hec comanda maneat ubique ad tuum redegum et fortunam.","De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes cum tuo capitali. || Set hec comanda maneat ubique ad tuum redegum et fortunam.",quote,
+1024,instance-chars,CMD-048-1/CF1,quote,"cioni predictorum pannorum non receptorum et predicte comande non recepte, promittimus dictos pannos illue vendere bona fide et partem tuam precii quod inde habebitur fideliter implicare, scilicet duas partes in cera et terciam partem in masticho.","De lucro vero quod Deus in hac comanda dederit, deducto prius tuo capitali, habeamus nos quartam partem et tu tres partes cum tuo capitali.",quote,
+1025,instance-chars,CMD-054-1/CF2,quote,Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,quote,
+1026,instance-chars,CMD-054-1/RB1,quote,Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,quote,
+1027,instance-chars,CMD-054-1/RB4,quote,Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,quote,
+1028,instance-chars,CMD-054-1/RB2,quote,Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,quote,
+1029,instance-chars,CMD-054-1/LR6,quote,"Ita tamen quod de omni lucro quod Deus in hac comanda dederit, habeam ego quartam partem et vos residuas tres partes cum vestro capitali predicto. || Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.","Ita tamen quod de omni lucro quod Deus in hac comanda dederit, habeam ego quartam partem et vos residuas tres partes cum vestro capitali predicto. || Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.",quote,
+1030,instance-chars,CMD-054-1/LP2,quote,Set hee comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,Set hec comanda sit ubique ad voluntatem Dei et vestri redegum et fortunam.,quote,
+1031,instance-chars,CMD-057-1/CF2,quote,Set hee comanda maneat ubique ad vestrum redegum et fortunam.,Set hec comanda maneat ubique ad vestrum redegum et fortunam.,quote,
+1032,instance-chars,CMD-057-1/RB1,quote,Set hee comanda maneat ubique ad vestrum redegum et fortunam.,Set hec comanda maneat ubique ad vestrum redegum et fortunam.,quote,
+1033,instance-chars,CMD-057-1/RB4,quote,Set hee comanda maneat ubique ad vestrum redegum et fortunam.,Set hec comanda maneat ubique ad vestrum redegum et fortunam.,quote,
+1034,instance-chars,CMD-057-1/RB2,quote,Set hee comanda maneat ubique ad vestrum redegum et fortunam.,Set hec comanda maneat ubique ad vestrum redegum et fortunam.,quote,
+1035,instance-chars,CMD-057-1/LR6,quote,"deducto prius vestro capitali, habeam ego quartam partem et vos tres partes cum vestro capitali. || Set hee comanda maneat ubique ad vestrum redegum et fortunam.","deducto prius vestro capitali, habeam ego quartam partem et vos tres partes cum vestro capitali. || Set hec comanda maneat ubique ad vestrum redegum et fortunam.",quote,
+1036,instance-chars,CMD-057-1/LP2,quote,Set hee comanda maneat ubique ad vestrum redegum et fortunam.,Set hec comanda maneat ubique ad vestrum redegum et fortunam.,quote,
+1037,instance-chars,CMD-066-1/RB3,quote,"Et obligamus nos et bona nostra et renunciamus, ete.","Et obligamus nos et bona nostra et renunciamus, etc.",quote,
+1038,instance-chars,CMD-072-1/LR3,quote,"De lucro autem quod Deus in hae comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.","De lucro autem quod Deus in hac comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.",quote,
+1039,instance-chars,CMD-072-1/LR2,quote,"De lucro autem quod Deus in hae comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.","De lucro autem quod Deus in hac comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.",quote,
+1040,instance-chars,CMD-072-1/LR6,quote,"De lucro autem quod Deus in hae comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali. || Hec autem comanda eat, maneat et redeat ad voluntatem Dei et vestri redegum et fortunam.","De lucro autem quod Deus in hac comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali. || Hec autem comanda eat, maneat et redeat ad voluntatem Dei et vestri redegum et fortunam.",quote,
+1041,instance-chars,CMD-072-1/CF1,quote,"De lucro autem quod Deus in hae comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.","De lucro autem quod Deus in hac comanda dederit, levato vobis primitus vestro capitali, habeam ego quartam partem et vos habeatis residuas tres partes ipsius lucri cum dicto vestro capitali.",quote,
+1042,instance-chars,CMD-105-1/CI3,quote,"s vobis quod ego dictus Petrus de Croso in civitate de Domàs dictum argentum vendam, prout melius potero bona fide, et precium quod in[de] habebo, tam capitale scilicet quam lucrum, in dicta civitate de Domàs, vobis vel cui volueritis tradam et solvam infra viginti dies primo venturos postqua m cum dicta cocha ad portum de Barut apulero [sic] sine omni scilicet dilacione ete.","s vobis quod ego dictus Petrus de Croso in civitate de Domàs dictum argentum vendam, prout melius potero bona fide, et precium quod in[de] habebo, tam capitale scilicet quam lucrum, in dicta civitate de Domàs, vobis vel cui volueritis tradam et solvam infra viginti dies primo venturos postqua m cum dicta cocha ad portum de Barut apulero [sic] sine omni scilicet dilacione etc.",quote,
+1043,instance-chars,CMD-107-1/CI3,quote,"a quod omnis fraus et dolus inde aberunt, et quod dictam comandam vestram, prout Deus ipsam salvaverit, simul cum res er eS tribus partibus lucri, quod in ea Deus dederit, dabo, restituam et tradam vobis vel vestris aut cui sive quibus volueritis ad vestram voluntatem, quandocumque vobis placuerit, statim scilicet cum inde a vobis vel vestris fuero requisitus, sine omni seilicet dilacione, excusacione et excepcione et absque omni dampno et missione vestri","a quod omnis fraus et dolus inde aberunt, et quod dictam comandam vestram, prout Deus ipsam salvaverit, simul cum res er eS tribus partibus lucri, quod in ea Deus dederit, dabo, restituam et tradam vobis vel vestris aut cui sive quibus volueritis ad vestram voluntatem, quandocumque vobis placuerit, statim scilicet cum inde a vobis vel vestris fuero requisitus, sine omni scilicet dilacione, excusacione et excepcione et absque omni dampno et missione vestri",quote,
+1044,instance-chars,CMD-108-1/CI5,quote,"centum et quinquaginta libras et novem solidos et sex denarios monete Barchinone de terno, quas ego de vestri voluntate misi, posui et converti in comuni meo, quod rego in arte mercature, de quo computare debeo, Deo dante, hine ad duos annos proxime venturos.","centum et quinquaginta libras et novem solidos et sex denarios monete Barchinone de terno, quas ego de vestri voluntate misi, posui et converti in comuni meo, quod rego in arte mercature, de quo computare debeo, Deo dante, hinc ad duos annos proxime venturos.",quote,
+1045,instance-chars,CMD-122-1/LR3,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.",quote,
+1046,instance-chars,CMD-122-1/LR2,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.",quote,
+1047,instance-chars,CMD-122-1/LR6,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali. || Hec igitur comanda vestra eat, maneat et sit ubique ad voluntatem Dei et ad vestri redegum, periculum et fortunam, prout Dominus Deus ipsam salvaverit, ad usum gentium atque maris.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali. || Hec igitur comanda vestra eat, maneat et sit ubique ad voluntatem Dei et ad vestri redegum, periculum et fortunam, prout Dominus Deus ipsam salvaverit, ad usum gentium atque maris.",quote,
+1048,instance-chars,CMD-122-1/CF1,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit seu auxerit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro prenominato capitali.",quote,
+1049,instance-chars,CMD-135-1/LR3,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.",quote,
+1050,instance-chars,CMD-135-1/LR2,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.",quote,
+1051,instance-chars,CMD-135-1/LR6,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali. || Hec igitur comanda vestra eat, maneat et sit ubique ad voluntatem Dei et ad vestri risicum, prout Dominus Deus ipsam salvaverit, ad usum gentium atque maris etc.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali. || Hec igitur comanda vestra eat, maneat et sit ubique ad voluntatem Dei et ad vestri risicum, prout Dominus Deus ipsam salvaverit, ad usum gentium atque maris etc.",quote,
+1052,instance-chars,CMD-135-1/CF1,quote,"Ita tamen quod de omni lucro, quod Dominus Deus huie comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.","Ita tamen quod de omni lucro, quod Dominus Deus huic comande dederit, habeamus nos pro labore nostro quartam partem et vos residuas tres partes simul cum vestro capitali.",quote,
+1053,instance-chars,CMD-135-1/CI1,quote,"declarant: Berengarius de Fabrica et Bernardus F elicis, mercatores cives . Barchinone | to: Guillelmo Calaf","declarant: Berengarius de Fabrica et Bernardus Felicis, mercatores cives . Barchinone | to: Guillelmo Calaf",quote,
+1054,instance-chars,CMD-135-1/CF3,quote,"declarant: Berengarius de Fabrica et Bernardus F elicis, mercatores cives . Barchinone | to: Guillelmo Calaf","declarant: Berengarius de Fabrica et Bernardus Felicis, mercatores cives . Barchinone | to: Guillelmo Calaf",quote,
+1055,instance-chars,CMD-144-1/CI1,quote,"declarant: Berengarius] Canals et: Periconus Selom, mercatores ville Sabadelli | to: venerabili Francisco Cisa","declarant: Berengarius Canals et Periconus Selom, mercatores ville Sabadelli | to: venerabili Francisco Cisa",quote,
+1056,instance-chars,CMD-144-1/CF3,quote,"declarant: Berengarius] Canals et: Periconus Selom, mercatores ville Sabadelli | to: venerabili Francisco Cisa","declarant: Berengarius Canals et Periconus Selom, mercatores ville Sabadelli | to: venerabili Francisco Cisa",quote,
+1057,instance-chars,CMD-156-1/CF2,quote,"Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",quote,
+1058,instance-chars,CMD-156-1/RB1,quote,"Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",quote,
+1059,instance-chars,CMD-156-1/RB4,quote,"Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",quote,
+1060,instance-chars,CMD-156-1/RB2,quote,"Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",quote,
+1061,instance-chars,CMD-156-1/LR3,quote,"Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem ete.","Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem etc.",quote,
+1062,instance-chars,CMD-156-1/LR2,quote,"Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem ete.","Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem etc.",quote,
+1063,instance-chars,CMD-156-1/LR6,quote,"Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem ete. || Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem etc. || Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",quote,
+1064,instance-chars,CMD-156-1/CF1,quote,"Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem ete.","Ita tamen quod de omni lucro, quod Dominus Deus (dederit) in hac vestra comanda dederit, habeam ego quartam partem etc.",quote,
+1065,instance-chars,CMD-156-1/RB3,quote,"Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",quote,
+1066,instance-chars,CMD-156-1/LP2,quote,"Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum ete. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea ete.","Predictam vero comandam possim vobis apportare vel mittere cum quibuscumque vasellis voluero et eandem comandam vestram eat, maneat et sit ubique ad vestri risicum etc. Et pro hiis etc., obligo vobis me personaliter et omnia bona mea etc.",quote,
+1067,instance-chars,CMD-199-1/CF2,quote,Risicum dictorum heredum ete.,Risicum dictorum heredum etc.,quote,
+1068,instance-chars,CMD-199-1/RB1,quote,Risicum dictorum heredum ete.,Risicum dictorum heredum etc.,quote,
+1069,instance-chars,CMD-199-1/RB4,quote,Risicum dictorum heredum ete.,Risicum dictorum heredum etc.,quote,
+1070,instance-chars,CMD-199-1/RB2,quote,Risicum dictorum heredum ete.,Risicum dictorum heredum etc.,quote,
+1071,instance-chars,CMD-210-1/CF2,quote,"Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",quote,
+1072,instance-chars,CMD-210-1/RB1,quote,"Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",quote,
+1073,instance-chars,CMD-210-1/RB4,quote,"Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",quote,
+1074,instance-chars,CMD-210-1/RB2,quote,"Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",quote,
+1075,instance-chars,CMD-210-1/LR6,quote,"Ad quartum lucri. || Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Ad quartum lucri. || Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",quote,
+1076,instance-chars,CMD-210-1/LP2,quote,"Predicta vero comanda eat, maneat et sit ubique ad vestri risicum ete. Actum etc.","Predicta vero comanda eat, maneat et sit ubique ad vestri risicum etc. Actum etc.",quote,
+1077,instance-chars,CMD-216-1/CF2,quote,"ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",quote,
+1078,instance-chars,CMD-216-1/RB1,quote,"ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",quote,
+1079,instance-chars,CMD-216-1/RB4,quote,"ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",quote,
+1080,instance-chars,CMD-216-1/RB2,quote,"ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",quote,
+1081,instance-chars,CMD-216-1/LR6,quote,"Ad quartum lucri etc. || ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","Ad quartum lucri etc. || ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",quote,
+1082,instance-chars,CMD-216-1/LP2,quote,"ad risicum vestrum ete. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.","ad risicum vestrum etc. Predictam vero comandam possim baratare, portare et arriscare, cambiare ad illas mundi partes quas voluero et michi visum fuerit etc.",quote,
+1083,instance-chars,CMD-217-1/CI3,quote,"Nota de encabezamiento: Fuit cancellatum sequens comande instrumentum Je voluntate venerabilis Johannis de Junyent, habentis recognicionem et cessionem de subscripta [comanda facta] a subseripto Berengario de Junyent, cum instrumento in posse mei notarii infrascripti .XXIIII.","Nota de encabezamiento: Fuit cancellatum sequens comande instrumentum Je voluntate venerabilis Johannis de Junyent, habentis recognicionem et cessionem de subscripta [comanda facta] a subscripto Berengario de Junyent, cum instrumento in posse mei notarii infrascripti .XXIIII.",quote,
+1084,instance-chars,CMD-222-1/LR3,quote,"Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huie vestre comande, habeam ego pro opere et laboribus meis quartam partem.","Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huic vestre comande, habeam ego pro opere et laboribus meis quartam partem.",quote,
+1085,instance-chars,CMD-222-1/LR2,quote,"Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huie vestre comande, habeam ego pro opere et laboribus meis quartam partem.","Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huic vestre comande, habeam ego pro opere et laboribus meis quartam partem.",quote,
+1086,instance-chars,CMD-222-1/LR6,quote,"Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huie vestre comande, habeam ego pro opere et laboribus meis quartam partem. || Et predicta comanda vestra eat, maneat et sit ubique ad vestri risicum, periculum et fortunam.","Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huic vestre comande, habeam ego pro opere et laboribus meis quartam partem. || Et predicta comanda vestra eat, maneat et sit ubique ad vestri risicum, periculum et fortunam.",quote,
+1087,instance-chars,CMD-222-1/CF1,quote,"Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huie vestre comande, habeam ego pro opere et laboribus meis quartam partem.","Ita tamen quod de omni lucro, quod Dominus Deus dederit sive auxerit huic vestre comande, habeam ego pro opere et laboribus meis quartam partem.",quote,
+1088,instance-chars,CMD-228-1/CF2,quote,"Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote,
+1089,instance-chars,CMD-228-1/RB1,quote,"Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote,
+1090,instance-chars,CMD-228-1/RB4,quote,"Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote,
+1091,instance-chars,CMD-228-1/RB2,quote,"Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote,
+1092,instance-chars,CMD-228-1/LR3,quote,Ad quartum lucri ete.,Ad quartum lucri etc.,quote,
+1093,instance-chars,CMD-228-1/LR2,quote,Ad quartum lucri ete.,Ad quartum lucri etc.,quote,
+1094,instance-chars,CMD-228-1/LR6,quote,"Ad quartum lucri ete. || Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Ad quartum lucri etc. || Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote,
+1095,instance-chars,CMD-228-1/CF1,quote,Ad quartum lucri ete.,Ad quartum lucri etc.,quote,
+1096,instance-chars,CMD-228-1/LP2,quote,"Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc. Barchinone.","Et ipsa comanda vestra eat, maneat et sit ad vestri risicum etc.",quote,
+1097,instance-chars,CMD-246-1/CF2,quote,"Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote,
+1098,instance-chars,CMD-246-1/RB1,quote,"Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote,
+1099,instance-chars,CMD-246-1/RB4,quote,"Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote,
+1100,instance-chars,CMD-246-1/RB2,quote,"Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote,
+1101,instance-chars,CMD-246-1/LR6,quote,"Ad quartum lucri etc. || Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Ad quartum lucri etc. || Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote,
+1102,instance-chars,CMD-246-1/LP2,quote,"Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc. Barchinone.","Intelligatur tamen quod dicta comanda eat, maneat et sit ubique ad vestri risicum etc.",quote,
+1103,instance-chars,CMD-250-1/RB3,quote,Obligo personaliter et bona ete.,Obligo personaliter et bona etc.,quote,

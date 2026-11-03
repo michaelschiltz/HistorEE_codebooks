@@ -18,6 +18,22 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-11-03 (records only)
+
+**The Madurell translation is finished. Its corrections are applied to successor records of the comanda primary pass, and a recount of the sample statistics is proposed. No `data.csv` cell changes; no version bump.**
+
+- **Records.**
+  - `records/act-census-2026-11-03.csv`, `records/instances-2026-11-03.csv` and `records/instance-chars-2026-11-03.csv` succeed the 2026-10-27 files, which are untouched.
+  - 1,103 changes are listed field by field in `records/CORRECTIONS-madurell-translation-2026-11-03.csv`, with a summary note.
+  - They cover wrong or truncated amounts (56), dates, parties, destinations, OCR in quotations, three merged acts split, four collapsed entries re-scoped, census dates and act types.
+- **Form assignment.** The rulings D105, D-ERRAND, D-ABBR, D-BELL, D-SALV, D-SIM and D-207 (`records/RULINGS-madurell-translation-2026-11-03.md`) read abbreviated, implied and incorporated loss terms on the notary's own clauses.
+  - Census `comanda` 145 → 202 and `neither` 108 → 51.
+  - The mod3 `comanda` sample goes from 45 to 71 instances, 27 of them by ruling. Each reading is labelled in `loss_rule`, so it can be switched off.
+  - Pere de Torre's custom-only acts are left open.
+- **Proposed, not applied.** `proposed-of/RECOUNT-comanda-madurell-2026-11-03.md` recounts the sample statistics quoted in 18 `comanda` and `comanda_alloc` cells. One statement is false ("all one quarter", OF-0853), three citations are stale or wrong (docs 105, 191, 122), and no value moves.
+- **Logbooks.** 2, 4 and 5, 2026-11-03.
+- **Checks.** Vocabularies; soft-wrap and tables; dependence 0 on both datasets; codebooks current; views unchanged (no `data.csv` or vocabulary input changed); citations 0 errors; quotations `--strict` 0 errors. The new records are LF, and the 2026-10-27 records round-trip CRLF byte-identical.
+
 ## organizational_forms — 2026-11-01 (ii)
 
 **D2 closed: doc 252, read from the page image, allocates no loss. No value changes; the 2026-11-01 note on `comanda` `CF2` (OF-0866) updated to say so. No version bump.**
