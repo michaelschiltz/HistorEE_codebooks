@@ -76,7 +76,9 @@ These rules were learned on the comanda pass. It was coded on 2026-10-27 from th
 
 **The text layer is evidence that a clause is present, never that it is absent.** A clause the layer shows is there. A clause the layer does not show may have been dropped at a line break, split off with a table, scrambled into garbage, or cut by the scribe's own abbreviation. So every coded absence that rests on a primary edition is checked against the page image: every `.NR`, every "not stated", every assignment to a neither row for want of a clause.
 
-**Comparing `pdftotext` with Zotero's rendering checks layout, not OCR.** Both read the same embedded layer. Numeral and character errors are in the layer itself, so only the page image, or a second independent OCR, can catch them.
+**Comparing `pdftotext` with Zotero's rendering checks layout, not OCR.** Both read the same embedded layer, so only the page image, or a second OCR, can catch the layer's recognition errors.
+
+**A second Tesseract run is not an independent witness.** The layers in this repository's editions were themselves made by Tesseract, through OCRmyPDF. On a Venetian page the layer and a best-model re-run shared 23 wrong words of 362 (`records/OCR-TEST-madurell-venetian-2026-11-03.md`). Use disagreement between two runs to send a line to the image; never use agreement to clear one. Of the engines tried, the `Latin` script model from `tessdata_best`, on a 300–400 dpi rendering, read both editions best.
 
 **Measure the layer before coding.** The operator checks about ten pages against the images and records the errors by class in the selection brief:
 
@@ -86,7 +88,9 @@ These rules were learned on the comanda pass. It was coded on 2026-10-27 from th
 - truncation;
 - headings.
 
-Where numerals fail, every numeral field gets an image check. In Madurell 1973, 56 of 115 instance amounts were wrong or truncated, mostly because a leading number word was lost at a line break ("sep-/tuaginta" → "tuaginta"; doc 204 read 1 lb for 851 lb).
+Where numerals fail, every numeral field gets an image check.
+
+**Before blaming the OCR, check the text a field was filled from.** In the comanda pass, 56 of 115 instance amounts were wrong (doc 204 read 1 lb for 851 lb), and the full amount stood in the coder's own source text in 54 of them: the field extraction had kept only the number word next to the unit. A wrong verbatim field filled by script is as likely an extraction error as a recognition error, and only the source text tells them apart. [Corrected 2026-11-03: this paragraph first blamed the 56 amounts on the text layer; `records/OCR-TEST-madurell-venetian-2026-11-03.md`.]
 
 **Code from the layer, then check against the image only these:**
 
@@ -97,7 +101,7 @@ Where numerals fail, every numeral field gets an image check. In Madurell 1973, 
 
 Flag candidates by script first: amounts that begin with a unit word or carry too few number words, line-end hyphens, years outside the edition's range, and known OCR forms (*ete*, *hee*, *huie*, *hine*, *hoe*). Where a second OCR engine is available, compare its output with the layer and send the lines where the two disagree to the image.
 
-**Settle the assignment conventions before the coding, by reading at least one notary's series in full.** The conventions are how to read an abbreviated clause, an entry incorporating an earlier instrument, a salvage clause, and an errand. Record them as rulings before any row exists. In the comanda pass the convention chosen during coding sent abbreviated acts to the neither row. The full series showed that every written-out clause named the investor, and the corrected convention decided 60 of the 202 comanda acts. The OCR errors decided none.
+**Settle the assignment conventions before the coding, by reading at least one notary's series in full.** The conventions are how to read an abbreviated clause, an entry incorporating an earlier instrument, a salvage clause, and an errand. Record them as rulings before any row exists. In the comanda pass the convention chosen during coding sent abbreviated acts to the neither row. The full series showed that every written-out clause named the investor, and the corrected convention decided 60 of the 202 comanda acts. The OCR and extraction errors decided none.
 
 **Never take parties or roles from an editor's regest or heading.** Headings are editorial: Madurell's reverse the roles in docs 226 and 252, and the coding followed one of them.
 
