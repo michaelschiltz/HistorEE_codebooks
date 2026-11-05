@@ -1,0 +1,27 @@
+seq,file,key,field,old,new,rule,source
+1,census,247,incised_flag,0,1,CENSUS-MISS,I PDF 275
+2,census,247,image_check,,2026-11-05 (ii): 'Carta incisa' read on image (I PDF 275); incised_flag 0 -> 1,note,I PDF 275
+3,census,327,incised_flag,0,1,CENSUS-MISS,I PDF 356
+4,census,327,image_check,,2026-11-05 (ii): 'Carta incisa' read on image (I PDF 356); incised_flag 0 -> 1,note,I PDF 356
+5,census,340,incised_flag,0,1,CENSUS-MISS,I PDF 369
+6,census,340,image_check,,2026-11-05 (ii): 'Carta incisa' read on image (I PDF 369); incised_flag 0 -> 1,note,I PDF 369
+7,census,381,incised_flag,0,1,LAYER-LOST,I PDF 407
+8,census,381,image_check,,2026-11-05 (ii): 'Carta incisa' read on image (I PDF 407); incised_flag 0 -> 1,note,I PDF 407
+9,census,706,incised_flag,0,1,CENSUS-MISS,II PDF 244
+10,census,706,image_check,,2026-11-05 (ii): 'Carta incisa' read on image (II PDF 244); incised_flag 0 -> 1,note,II PDF 244
+11,census,786,incised_flag,0,1,CENSUS-MISS,II PDF 319
+12,census,786,image_check,,2026-11-05 (ii): 'Carta incisa' read on image (II PDF 319); incised_flag 0 -> 1,note,II PDF 319
+13,census,811,incised_flag,0,1,LAYER-LOST,II PDF 344
+14,census,811,image_check,sample2: incised missed: the OCR text layer lost the line -> stays missed,sample2: incised missed: the OCR text layer lost the line -> stays missed ; 2026-11-05 (ii): 'Carta incisa' read on image (II PDF 344); incised_flag 0 -> 1,note,II PDF 344
+15,census,859,incised_flag,0,1,LAYER-LOST,II PDF 392
+16,census,859,image_check,,2026-11-05 (ii): 'Carta incisa' read on image (II PDF 392); incised_flag 0 -> 1,note,II PDF 392
+17,loss_mitigation_forms/data.csv,LM-0533,notes,cum tribus parlibus,cum tribus partibus,QUOTE-IMAGE,"I PDF 469 (p. 436), no. 444"
+18,loss_mitigation_forms/data.csv,LM-0555,notes,maris el genlis,maris et gentis,QUOTE-IMAGE,"II PDF 80 (p. 73), no. 533"
+19,loss_mitigation_forms/data.csv,LM-0555,notes,"inquirere debeat, Si vero",inquirere debeat. Si vero,QUOTE-IMAGE,"I PDF 364 (p. 330), no. 334"
+20,loss_mitigation_forms/data.csv,LM-0557,notes,maris el genlis,maris et gentis,QUOTE-IMAGE,"II PDF 80 (p. 73), no. 533"
+21,loss_mitigation_forms/data.csv,LM-0557,notes,"inquirere debeat, Si vero",inquirere debeat. Si vero,QUOTE-IMAGE,"I PDF 364 (p. 330), no. 334"
+22,loss_mitigation_forms/data.csv,LM-0560,notes,quid absil,quid absit,QUOTE-IMAGE,"I PDF 364 (p. 330), no. 334"
+23,loss_mitigation_forms/data.csv,LM-0560,notes,et eril clarefactum,et erit clarefactum,QUOTE-IMAGE,"I PDF 364 (p. 330), no. 334"
+24,organizational_forms/data.csv,OF-0290,notes,el ego posui,et ego posui,QUOTE-IMAGE,"I PDF 363 (p. 330), no. 334"
+25,organizational_forms/data.csv,OF-0293,notes,medielatem,medietatem,QUOTE-IMAGE,"I PDF 364 (p. 330), no. 334"
+26,organizational_forms/data.csv,OF-0293,notes,"inquirere debeat, Si vero",inquirere debeat. Si vero,QUOTE-IMAGE,"I PDF 364 (p. 330), no. 334"

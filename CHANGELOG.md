@@ -19,6 +19,16 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-11-05 (iii)
+
+**Notes only: ten OCR forms in six Venetian quotations corrected from the page images. No value, confidence or articulation changes; no version bump.**
+
+- **Corrected in place.** LM-0533, LM-0555, LM-0557, LM-0560, OF-0290 and OF-0293. Each cell's note records its correction, for example *maris el genlis* → *maris et gentis*.
+- **Records.** `records/CORPUS-morozzo-lombardo-2026-11-05-ii.csv` succeeds the census of the morning: eight `incised_flag` values go from 0 to 1, read on the image. The ledger is `records/CORRECTIONS-venetian-ocr-2026-11-05-ii.csv`, with a summary note.
+- **Rulings.** `records/RULINGS-venetian-ocr-2026-11-05.md`: act 156's year is 1162 (ruled by MS). V-246 is pending.
+- **Logbook.** Logbook 5, 2026-11-05 (iii).
+- **Checks.** Vocabularies valid; dependence 0 on both datasets; quotations `--strict` 0 errors; citations 0 errors; codebooks and views current; frictionless VALID on both datasets. The `data.csv` files round-tripped byte-identical before the rewrite.
+
 ## organizational_forms and loss_mitigation_forms — 2026-11-05 (ii, records only)
 
 **The Venetian pass's records read against the page images for years and amounts. Successor records; no `data.csv` or `recodings.csv` cell changes; no version bump.**
