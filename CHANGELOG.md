@@ -19,6 +19,18 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-11-05
+
+**Notes only: 21 comanda-family cells recounted on the image-read records of 2026-11-03, and seven OCR quotations corrected. No value, confidence or articulation changes; no version bump.**
+
+- **Ruled by MS** on 2026-11-05: `records/RULINGS-madurell-recount-2026-11-05.md`.
+- **The false statement.** OF-0853 (`comanda` LR3) said "all one quarter". The corrected sample has 66 shares at a quarter, one at an eighth (doc 189) and one at a third (doc 240). The commissions of docs 214 and 238 (2 + 2 and 2 + 3 per cent on goods out and back) are now read, and docs 218 and 233 give the agent no share.
+- **Updated counts.** The sample is 71 instances, 27 of them by ruling. CF2 is 199 of 202 census acts.
+- **Superseded and withdrawn.** The superseded assignment convention and ruling D1 are marked (OF-0866). Doc 105, doc 191's "sea" and doc 122's "surety" are withdrawn from LM-0743 and LM-0745.
+- **Corrected in place.** Quotations in OF-0843, OF-0844, OF-0857, OF-0860, LM-0743 and LM-0749 had carried OCR forms.
+- **Logbook.** Logbook 4, 2026-11-05.
+- **Checks.** Vocabularies; dependence 0; quotations `--strict` 0; citations 0 errors; codebooks and views current; frictionless VALID.
+
 ## organizational_forms and loss_mitigation_forms — 2026-11-03 (records only)
 
 **The Madurell translation is finished. Its corrections are applied to successor records of the comanda primary pass, and a recount of the sample statistics is proposed. No `data.csv` cell changes; no version bump.**
