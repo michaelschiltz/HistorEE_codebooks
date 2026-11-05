@@ -27,6 +27,7 @@ All notable, dataset-level changes are recorded here. This is the human-readable
   - `records/CORPUS-morozzo-lombardo-2026-11-05.csv` and `records/INSTANCES-venetian-pass-2026-11-05.csv` succeed the 2026-10-25 files, which are untouched.
   - 44 changes are listed field by field in `records/CORRECTIONS-venetian-ocr-2026-11-05.csv`, with a summary note: 12 census years (5 of them change period) and 6 instance amounts, all six field-extraction errors.
   - `records/REGEST-YEARS-venetian-editions-2026-11-05.md` records the regest-year check of the three editions' current text layers.
+- **Addendum.** `records/ADDENDUM-venetian-ocr-2026-11-05.md`: the image reads verified, act 156 restated as a print discrepancy (ruling pending, 1162 recommended), and all 66 regest-only census years confirmed on the page images.
 - **Logbook.** Logbook 5, 2026-11-05.
 
 ## organizational_forms and loss_mitigation_forms — 2026-11-05
