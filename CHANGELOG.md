@@ -19,6 +19,17 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms and loss_mitigation_forms — 2026-11-05 (iv, records only)
+
+**The Venetian instances' parties, places and notaries read against the page images. Successor record; no `data.csv` or `recodings.csv` cell changes; no version bump.**
+
+- **Records.**
+  - `records/INSTANCES-venetian-pass-2026-11-05-ii.csv` succeeds the instances of the morning.
+  - 68 changes are listed in `records/CORRECTIONS-venetian-ocr-2026-11-05-iii.csv`, with a summary note.
+  - The changes: 29 `.NR` parties filled, 5 garbled names repaired, one role error (no. 42), 3 places and 3 notaries.
+- **Rulings.** V-246 is ruled by MS: act 246 is not incised. Recorded in `records/RULINGS-venetian-ocr-2026-11-05.md` below the pending entry, which stays as written.
+- **Logbook.** Logbook 5, 2026-11-05 (iv).
+
 ## organizational_forms and loss_mitigation_forms — 2026-11-05 (iii)
 
 **Notes only: ten OCR forms in six Venetian quotations corrected from the page images. No value, confidence or articulation changes; no version bump.**

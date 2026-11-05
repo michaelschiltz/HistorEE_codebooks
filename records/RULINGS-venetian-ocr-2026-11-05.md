@@ -11,3 +11,7 @@ The regest of act 156 (Morozzo della Rocca & Lombardo 1940, vol. I, p. 154; PDF 
 ## V-246: pending
 
 Put to MS on 2026-11-05 in `records/CORRECTIONS-venetian-ocr-2026-11-05-ii.md`. Recommendation: `incised_flag` stays 0.
+
+## V-246 ruled (added 2026-11-05, after the pending entry above): act 246 is not incised
+
+**Ruled by MS on 2026-11-05 ("recommendation accepted").** The editors' «La parte inferiore del documento è incisa e mancante sui lati e alle estremità» (vol. I, PDF 273; a testament) describes damage, not the cancelling cut of a discharged contract. `incised_flag` stays 0 in `records/CORPUS-morozzo-lombardo-2026-11-05-ii.csv`. No. 489 («La pergamena è incisa con totale abrasione della parte inferiore», an investment contract with a surviving quittance) stays 1.
