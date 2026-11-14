@@ -92,6 +92,8 @@ python scripts/check_dependence.py [datasets/<dataset>]
 python scripts/check_vocabularies.py
 python scripts/check_softwrap.py
 python scripts/check_citations.py            # --zotero locally, against the library
+python scripts/check_counts.py               # register every new census, instance or coding file in it
+python scripts/check_error_rates.py
 python scripts/build_codebook.py --check
 python scripts/build_views.py --component <component> --check
 ```

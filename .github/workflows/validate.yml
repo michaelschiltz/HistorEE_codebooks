@@ -86,6 +86,24 @@ jobs:
             python scripts/check_dependence.py "$d"
           done
 
+      - name: Count audit of the batch record
+        # A pass that prints DONE can still have lost rows. Instances against their
+        # census and sample, codings against instances, successor records against
+        # their predecessors, blind scope against data.csv and recodings.csv, and
+        # every manifest and quoted sha256 against a tracked file. Every census,
+        # instance and coding file in records/ must be registered in the script, so
+        # a new successor cannot slip past it. Reads records/, never writes it.
+        # Added 2026-11-15 after the Lighthouse comparison (vault note on
+        # model-read manuscripts, false-positive mode 10).
+        run: python scripts/check_counts.py
+
+      - name: Check the error-rate register
+        # logbook/4-appendix-error-rates.csv: one row per measured stage of a pass,
+        # labelled by sample and by who read the reference. Fails on a malformed row
+        # or a rate that is not errors/n; reports, without failing, how many rates
+        # are citable as independent (none until a random sample is read blind).
+        run: python scripts/check_error_rates.py
+
       - name: Validate every datapackage against its data
         run: |
           for dp in datasets/*/datapackage.json; do
