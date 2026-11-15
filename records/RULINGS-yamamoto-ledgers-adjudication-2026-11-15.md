@@ -1,6 +1,6 @@
 # Rulings: adjudication of the Yamamoto ledgers pass, Nos. 221–259 (2026-11-15)
 
-**Status: ruled by MS on 2026-11-15**, on the page images, in two rounds. First round: the adjudication sheet (56 decision rows, 8 convention questions, with the assistant's recommendations), returned at 18:12 JST. Second round: five rulings the assistant queried after collating against Ning & Hao 1997, answered in chat at 18:29 JST ("1. agreed; 2: incorrect, 㺃 is the right call; 3: incorrect, it is 戶; 4: agreed; 5: agreed").
+**Status: ruled by MS on 2026-11-15**, on the page images, in three rounds. First round: the adjudication sheet (56 decision rows, 8 convention questions, with the assistant's recommendations), returned at 18:12 JST. Second round: five rulings the assistant queried after collating against Ning & Hao 1997, answered in chat at 18:29 JST ("1. agreed; 2: incorrect, 㺃 is the right call; 3: incorrect, it is 戶; 4: agreed; 5: agreed"). Third round: the open items of the adjudicated text, answered in chat at 18:50 and 18:53 JST (below).
 
 The pass, the blind design and both freezes are in `records/NOTES-yamamoto-ledgers-operator-2026-11-15.md`. The edition dates from 1989 and the repository is public, so this file cites single characters and short readings only. The transcriptions, the sheet and the adjudicated text stay in `~/ocr/_adjudication-yamamoto-ledgers-2026-11-15/`.
 
@@ -96,14 +96,24 @@ Two kinds of check were made against each ruling: N&H's reading where it has the
 
 ## Shared error found after the rulings
 
-The residual check of the adjudicated text against A turned up one more shared error of the F12 kind: 235 l. 1 and the heading print 張馬歩女師, and both transcribers wrote 步. Corrected on the same basis as F12. Open, for a zoom: 黑 at 230 l. 51 and 237 l. 7, where A and B agree and the edition prints 黒 at 246 l. 3.
+The residual check of the adjudicated text against A turned up one more shared error of the F12 kind: 235 l. 1 and the heading print 張馬歩女師, and both transcribers wrote 步. Corrected on the same basis as F12.
+
+## Third round: the open items
+
+| # | Place | Before | Ruled | Note |
+| --- | --- | --- | --- | --- |
+| U1 | 221 l. 1, two boxed characters with the edition's ？ | [九?], [佰?] | 九, 仵 | Both transcribers read the second as 佰 |
+| U2 | 224 l. 4, boxed, edition's ？ | [策?] | 策 | — |
+| U3 | 228 l. 4 | [纈?] | 纈 | — |
+| U4 | 229 l. 7 | [纐?] | 纐 | — |
+| U5 | 235 l. 15, boxed | [紫?], [綾?] | 紫, 綾 | — |
+| U6 | 249, second fragment l. 2, the name 程?子 | [渭?] | 淸, boxed | Ruled 清 by MS on the crop (18:53 JST); both transcribers had read 渭. Written 淸 under F1 and CV8, the form the edition prints elsewhere |
+| U7 | 230 l. 51; 237 l. 7 | 黑 (A and B) | 黑 | Ruled on the classical spelling. At 230 l. 51 the print is also 黑 (zoom); 237 l. 7 not zoomed. 246 l. 3 stays 黒 as printed (F5) |
+| U8 | 245 l. 6, 欠幷五丁 after 碧綿綾内 | — | Agreed | — |
+| U9 | 吳 at 234 ll. 2, 7; 240 l. 17; 251 l. 30 (F3a) | — | 吳 | — |
+
+The edition's own ？ after a boxed character is kept; only the transcriber's [X?] brackets are removed. The adjudicated text now has no [X?] marks.
 
 ## The adjudicated text
 
-B's frozen `out/` is the base; the rulings above are applied by a script that asserts every match count (`patch.py` in the adjudication folder), with No. 233's 12 name rows merged into their sub-lines. Result: 39 files in `~/ocr/_adjudication-yamamoto-ledgers-2026-11-15/adjudicated/`; the hash of its `SHA256SUMS` is d6ef55868eda6ca1d94a92129dad0c9d12d997417e685b515525b0cacaa4a7e3. Every remaining content difference from A is accounted for by a ruling above.
-
-**Still open in the adjudicated text.**
-
-- B's remaining uncertainty marks: [九?] and [佰?] (221 l. 1), [策?] (224 l. 4), [纈?] (228 l. 4), [纐?] (229 l. 7), [紫?] and [綾?] (235 l. 15), [渭?] (249 l. 2). Under CV6 each needs a look at the print.
-- 245 l. 6: 欠幷五丁 is placed after 碧綿綾内, following N&H; the exact point of insertion in Yamamoto's print is not fixed by the geometry.
-- F3a and the two 黑 above.
+B's frozen `out/` is the base; the rulings above are applied by a script that asserts every match count (`patch.py` in the adjudication folder), with No. 233's 12 name rows merged into their sub-lines. Result: 39 files in `~/ocr/_adjudication-yamamoto-ledgers-2026-11-15/adjudicated/`; the hash of its `SHA256SUMS` is 2c1de63c6938b4a31e36641daee3f281afdce1016e75c99cd125042ab9a6e1c8. Every remaining content difference from A is accounted for by a ruling above.
