@@ -42,3 +42,25 @@ The pilot measured the text layer of Yamamoto IV(A) at 72.5 per cent character r
 **Blindness.** The second session read the first session's p. 113 log entry and `No-240.txt`; it is closed and takes no further part. The first B session and A are unaffected: neither saw the other's text. The second session's readings of No. 240 (歩 at ll. 10 and 16, 尚 at ll. 6 and 11, at 6×) go on the adjudication sheet as flags, marked not independent.
 
 **Lesson, applied from here on.** A continuation prompt is given only after the transcriber has itself reported a stop and written `RESUME.md`; the operator checks the folder before issuing one.
+
+## Incident, 2026-11-15, 15:26–15:51 JST: A's continuation ran under two models and two branches
+
+**What the folder shows.** A's continuation session opened at 15:26 under `claude-fable-5-2`, B's model, and wrote only its session header. At 15:32 it was switched to `claude-opus-5-5`; under Opus it wrote `No-237.txt` (15:39), `No-238.txt` and `No-239.txt` ll. 1–3 (15:44), the `SIGNS.md` additions (15:45) and the page notes for pp. 111–112. A second switch at 15:48 restarted the conversation on a branch that did not hold that work in its context; that branch found the files, appended a second model-change note (15:50) and stopped. Nothing was written in A's folder between 15:45 and 15:50, so the first branch is not running.
+
+**Assessment.** Nos. 237–239 ll. 1–3 are A's work under `claude-opus-5-5`, by its own log, in A's conventions; A never saw B. The Fable interval wrote no transcription. The duplicated model-change notes stay in `LOG.md` (append-only). The continuing branch takes over from No. 239 l. 4 (p. 113) after reading A's own files 237–239 and the new `SIGNS.md` entries.
+
+**Lesson.** A transcriber's model is not changed mid-session; a change of model is a new session with a continuation prompt after a clean stop.
+
+## B frozen, 2026-11-15 15:54 JST
+
+B (`claude-fable-5-2`, one session throughout, apart from the withdrawn second session above) froze at 15:54. Checked by the operator at 15:59: 39 files `No-221.txt` to `No-259.txt`, no `RESUME.md`, `SHA256SUMS` verifies against every file in `out/`; its own hash is 31d579f44a3734ae4c32da65be927768ada982c24b3be51285caa777926ca43d. `No-240.txt` still holds 步 ×2 and 尙 ×2. B verified the bundle images against `MANIFEST.sha256` (240 of 240) before freezing.
+
+## A frozen, 2026-11-15 16:33 JST
+
+A (`claude-opus-5-5` for every transcribed document; see the incident above for the Fable interval, which wrote no transcription) froze at 16:33. Checked by the operator at 16:34: 39 files `No-221.txt` to `No-259.txt`; `RESUME.md` remains in `out/`, updated by A to state that the pass is complete, and falls inside the hashes; `SHA256SUMS` verifies against every file in `out/`; its own hash is 098df8cbafb10ea8d1e8b41313088b08712100f5667bda771ac6d64b8af8ce57.
+
+## Diff of A against B, 2026-11-15
+
+Document level, after normalising notation (uncertainty brackets, print marks, sign and component notation, whitespace): A 9,962 characters, B 9,975. Disagreements: 73 content operations (214 characters), 55 form operations (56 characters; 清/淸, 青/靑 and the like), 42 placement operations (side notes, overflow, sub-columns). Uncertainty marks: A 28, B 14. Row structure differs in No. 233 (B gives names their own rows) and wherever A writes side notes as separate rows.
+
+The adjudication sheet (56 decision rows, 8 convention questions, recommendations read from the page images) is in `~/ocr/_adjudication-yamamoto-ledgers-2026-11-15/`, outside the repository, because it carries crops of the edition. Recommendation tally: A 22, B 30, combine 2, neither 1 (歩 at No. 240 ll. 10 and 16, which both transcribers wrote as 步), check on tile 1. The maintainer rules on the image; rulings go into a `records/` file citing single characters and short readings only.
