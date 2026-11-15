@@ -36,3 +36,7 @@ LM-0768 (`she_death_aid` CN2 = `equal`, high). The value stands: the claim it su
 
 - **Yamamoto's ≀ is a cancellation mark.** N&H omits every character Yamamoto marks with it (231 ll. 33, 34, 42, 50/51). A count of entries or items from Yamamoto must drop marked characters, as the count above does.
 - **Quotations should mark emendations.** Where N&H prints an emendation in parentheses, a quotation should keep it in that form (併(餅)), or take the manuscript reading. It should not take the emended reading silently.
+
+## Applied
+
+**2026-11-15, 19:05 JST: MS, "yes, apply the new count."** The LM-0768 note in `datasets/loss_mitigation_forms/data.csv` now reads "bread and grain in 55 of 62 entries (grain alone in five, bread alone in one, one entry blank), cloth in 23", with a pointer to this file. The value is unchanged. `records/proposed-rows-she-associations-2026-10-13.csv` and `records/RULINGS-she-associations-2026-10-13.md` keep the original wording, as records.
