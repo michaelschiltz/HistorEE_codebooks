@@ -117,3 +117,15 @@ The edition's own ？ after a boxed character is kept; only the transcriber's [X
 ## The adjudicated text
 
 B's frozen `out/` is the base; the rulings above are applied by a script that asserts every match count (`patch.py` in the adjudication folder), with No. 233's 12 name rows merged into their sub-lines. Result: 39 files in `~/ocr/_adjudication-yamamoto-ledgers-2026-11-15/adjudicated/`; the hash of its `SHA256SUMS` is 2c1de63c6938b4a31e36641daee3f281afdce1016e75c99cd125042ab9a6e1c8. Every remaining content difference from A is accounted for by a ruling above.
+
+## Measurement: ER-0023 and ER-0024
+
+Both transcriptions are compared with the adjudicated text after the notation is normalised: transcriber brackets, print marks, sign and component notation, `{2col:…}` and whitespace removed, and a component token counted as one character. That leaves n = 9,938 characters. Per document, the characters a transcription has in excess of the adjudicated text are paired with the characters it lacks, regardless of position. A pair is a form error when the two characters are a ruled form pair (淸/清, 靑/青, 吳/呉, 鎭/鎮, 尙/尚, 戶/戸, 彥/彦, 黑/黒, 橫/横, 并/幷, 荆/荊, ㈠/(一)); otherwise it is a content error. Notation equivalents are not errors: A's {氵+門} for 𣶯, {曷+毛} for 毼 and {□} for □. Placement is counted separately, as runs of characters present in both but in a different position.
+
+| | Content errors | Rate | Form errors | Placement moves (characters) |
+| --- | --- | --- | --- | --- |
+| A (`claude-opus-5-5`) | 39 | 0.0039 | 58 | 17 (52) |
+| B (`claude-fable-5-2`) | 25 | 0.0025 | 5 | 5 (8) |
+
+Measured the same way, A and B disagreed on 57 characters of content and 61 of form before adjudication; the 214 content characters of the operator notes come from the position-sensitive diff, which also counts placement fragments. Both rates are lower bounds. The reference was read on the image only where A and B disagreed and at the shared errors found by the residual check (歩 ×3, 仵, 淸). A character both transcribed identically and wrongly elsewhere is not counted. Both rates are `maintainer-image-read` over `all-units`, so neither is citable as an independent error rate under `scripts/check_error_rates.py`.
+
