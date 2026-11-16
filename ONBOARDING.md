@@ -29,7 +29,7 @@ HistorEE keeps its **evidence** and its **claims** in two separate Git repositor
 | Enforcement             | CI (`validate.yml`) + local check scripts                                                                 | Pre-commit hook + CI (`vault.yml`) running `validate_vault.py`                   |
 | Narrative record        | Six logbooks, `CHANGELOG.md`, `records/`                                                                  | `source-session` frontmatter + `git blame`                                       |
 | Licence                 | Data and prose CC BY 4.0; code MIT                                                                        | Note prose CC BY 4.0; code MIT                                                   |
-| Citable as              | Zenodo concept DOI `10.5281/zenodo.21341360`; FigShare `10.6084/m9.figshare.32947250`                     | Zenodo DOI `10.5281/zenodo.21615890` [verify — cited in Part 2, not yet checked] |
+| Citable as              | Zenodo concept DOI `10.5281/zenodo.21341360`                                                              | Zenodo DOI `10.5281/zenodo.21615890` [verify — cited in Part 2, not yet checked] |
 | Pushes anchored in      | `research-ledger` (Zenodo concept DOI `10.5281/zenodo.24275780`), by the `pre-push` hook in `.git/hooks/` | The same ledger, by the tracked hook in `.githooks/`                             |
 | Editor                  | VS Code                                                                                                   | VS Code with the Foam extension                                                  |
 

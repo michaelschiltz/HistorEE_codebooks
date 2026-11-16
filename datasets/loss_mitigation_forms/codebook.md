@@ -15,7 +15,7 @@ PROVISIONAL / PARTLY ASSISTANT-CODED seed dataset. A morphological coding of arr
 
 ## Provenance
 
-Attribution and timestamps are supplied by Git (`git blame` for line-level history); releases are frozen and citable via a FigShare and Zenodo DOI. Per-observation coder attribution is carried in the `coder` field.
+Attribution and timestamps are supplied by Git (`git blame` for line-level history); releases are frozen and citable via a Zenodo DOI. Per-observation coder attribution is carried in the `coder` field.
 
 
 ## Missing-value conventions

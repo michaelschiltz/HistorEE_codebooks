@@ -21,9 +21,6 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21341360"
     description: "Zenodo concept DOI — represents all versions, resolves to the latest"
-  - type: doi
-    value: "10.6084/m9.figshare.32947250"
-    description: "FigShare DOI — version-independent, resolves to the latest"
 keywords:
   - economic history
   - Japan

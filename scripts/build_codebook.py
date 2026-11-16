@@ -99,7 +99,7 @@ def build(dataset_dir: Path, check: bool = False) -> Path:
 
     w("\n## Provenance\n")
     w("Attribution and timestamps are supplied by Git (`git blame` for line-level "
-      "history); releases are frozen and citable via a FigShare and Zenodo DOI. "
+      "history); releases are frozen and citable via a Zenodo DOI. "
       "Per-observation coder attribution is carried in the `coder` field.\n")
 
     w("\n## Missing-value conventions\n")
