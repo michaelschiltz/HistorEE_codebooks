@@ -1,5 +1,7 @@
 # HistorEE_codebooks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21341360.svg)](https://doi.org/10.5281/zenodo.21341360)
+
 Versioned, timestamped, attributed data and codebooks for the project HistorEE.
 
 This repository is the data-and-documentation backbone of HistorEE. It is the natural successor to the single-author logbook method used in [`even-keel`](https://github.com/michaelschiltz/even-keel), yet extended into a team-grade apparatus for a multi-year, multi-member project.
