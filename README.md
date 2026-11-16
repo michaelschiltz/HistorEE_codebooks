@@ -51,6 +51,7 @@ HistorEE_codebooks/
 
 - **Git history** supplies line-level attribution and timestamps (`git blame`).
 - **Signed commits** and a **protected `main`** make attribution cryptographic.
+- **Timestamped pushes**: every push is anchored in the public ledger [`research-ledger`](https://github.com/michaelschiltz/research-ledger), which dates each pushed commit with an OpenTimestamps proof in the Bitcoin blockchain, independently of GitHub and of the committer's clock. The `pre-push` hook that writes the entry also refuses force pushes, so an anchored commit missing from the history can only mean a rewrite. The ledger is itself archived at Zenodo: [concept DOI](https://doi.org/10.5281/zenodo.24275780). See `CONTRIBUTING.md` §3.
 - **Tagged releases minted to a FigShare and Zenodo DOI** freeze citable snapshots at each milestone (the model used by the Seshat Global History Databank). Cite the version-independent concept DOIs, which always resolve to the latest release: [Zenodo](https://doi.org/10.5281/zenodo.21341360) · [FigShare](https://doi.org/10.6084/m9.figshare.32947250). Each tagged version also receives its own snapshot DOI on the archive.
 - **Redundancy**: the repository is mirrored to FigShare and Zenodo, so survival does not solely depend on GitHub.
 

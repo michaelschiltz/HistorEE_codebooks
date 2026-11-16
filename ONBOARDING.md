@@ -20,17 +20,18 @@ HistorEE keeps its **evidence** and its **claims** in two separate Git repositor
 
 ## 2. The two repositories at a glance
 
-|                         | `HistorEE_codebooks`                                                                  | `myfoamrepo` (the Foam vault)                                                    |
-|-------------------------|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| Holds                   | Data, schemas, vocabularies, decision logs                                            | Arguments, distinctions, objections, source and archive notes                    |
-| Unit                    | One row = one characteristic of one form (`type_id` × `char_id`)                      | One note = one claim                                                             |
-| Canonical format        | UTF-8 CSV + Frictionless `datapackage.json`                                           | Markdown with YAML frontmatter and `[[wikilinks]]`                               |
-| Generated, never edited | `codebook.md`, `views/*`                                                              | `graph/graph.html`                                                               |
-| Enforcement             | CI (`validate.yml`) + local check scripts                                             | Pre-commit hook + CI (`vault.yml`) running `validate_vault.py`                   |
-| Narrative record        | Six logbooks, `CHANGELOG.md`, `records/`                                              | `source-session` frontmatter + `git blame`                                       |
-| Licence                 | Data and prose CC BY 4.0; code MIT                                                    | Note prose CC BY 4.0; code MIT                                                   |
-| Citable as              | Zenodo concept DOI `10.5281/zenodo.21341360`; FigShare `10.6084/m9.figshare.32947250` | Zenodo DOI `10.5281/zenodo.21615890` [verify — cited in Part 2, not yet checked] |
-| Editor                  | VS Code                                                                               | VS Code with the Foam extension                                                  |
+|                         | `HistorEE_codebooks`                                                                                      | `myfoamrepo` (the Foam vault)                                                    |
+|-------------------------|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Holds                   | Data, schemas, vocabularies, decision logs                                                                | Arguments, distinctions, objections, source and archive notes                    |
+| Unit                    | One row = one characteristic of one form (`type_id` × `char_id`)                                          | One note = one claim                                                             |
+| Canonical format        | UTF-8 CSV + Frictionless `datapackage.json`                                                               | Markdown with YAML frontmatter and `[[wikilinks]]`                               |
+| Generated, never edited | `codebook.md`, `views/*`                                                                                  | `graph/graph.html`                                                               |
+| Enforcement             | CI (`validate.yml`) + local check scripts                                                                 | Pre-commit hook + CI (`vault.yml`) running `validate_vault.py`                   |
+| Narrative record        | Six logbooks, `CHANGELOG.md`, `records/`                                                                  | `source-session` frontmatter + `git blame`                                       |
+| Licence                 | Data and prose CC BY 4.0; code MIT                                                                        | Note prose CC BY 4.0; code MIT                                                   |
+| Citable as              | Zenodo concept DOI `10.5281/zenodo.21341360`; FigShare `10.6084/m9.figshare.32947250`                     | Zenodo DOI `10.5281/zenodo.21615890` [verify — cited in Part 2, not yet checked] |
+| Pushes anchored in      | `research-ledger` (Zenodo concept DOI `10.5281/zenodo.24275780`), by the `pre-push` hook in `.git/hooks/` | The same ledger, by the tracked hook in `.githooks/`                             |
+| Editor                  | VS Code                                                                                                   | VS Code with the Foam extension                                                  |
 
 Both repositories are **public**. Anything committed to either is published under CC BY 4.0 the moment it is pushed. Section 9.1 draws the consequences.
 
