@@ -105,6 +105,16 @@ Flag candidates by script first: amounts that begin with a unit word or carry to
 
 **Never take parties or roles from an editor's regest or heading.** Headings are editorial: Madurell's reverse the roles in docs 226 and 252, and the coding followed one of them.
 
+### What each class of evidence can carry
+
+Ruled by MS on 2026-11-18, before the Carrera de Indias batch (logbook 5, 2026-11-18). The classes are those of `source_class` (logbook 1, 2026-09-27), judged by the cited passage, not by the publication that contains it. These rules say which cells each class may carry.
+
+- **A deed read in full in an edition is `primary-transactional`, wherever it is printed.** A documentary appendix to a study counts: Martínez Gijón 1970 prints ten Seville deeds of 1516–1550 in full. Such a deed can carry any value, a coded absence included, subject to the image check above.
+- **A clause quoted inside a study is `secondary`, however verbatim.** It can carry a present value, with the quotation in `notes`. It can never carry a coded absence: the author chose what to quote, so a study's silence about a clause says nothing about the deed. This holds even where the author reports having read the whole series, unless the deeds themselves are printed.
+- **A regest or catalogue entry is a finding aid, not evidence for a clause cell.** It can show that an instrument of the kind it names existed at a date. It cannot show what the deed said, and the rule above still applies: never take parties or roles from an editor's regest or heading.
+- **Ordinances, codes and doctrine are `primary-normative`, and are never coded as practice.** Where a normative text and the deeds disagree, both readings enter the record and the disagreement is not resolved. The cell carries the reading its characteristic asks about; the other is quoted in `notes` with its class, and the conflict is stated there. Where the vocabulary has a value for a disputed state, as `bazacle_mill FP1=mixed` does, use it.
+- **An editor's normalised text is quoted as printed.** A deed from an edition counts as primary for its content, but a quotation reproduces the editor's text: Martínez Gijón modernises spelling and accents: his deeds open «Sepan cuantos esta carta vieren cómo». `notes` cite the edition and document number with the archival reference beside it, e.g. "ed. Martínez Gijón 1970, doc. 3 (APS, Oficio XV, Alonso de Cazalla, lib. 1.º de 1542, fols. 294r–295r)". This keeps the archival trail without claiming that the manuscript was read.
+
 ## 4. Coding conventions (the parts referees test)
 
 **Missingness is disaggregated.** Never leave a cell blank. Any field may carry one of three inline tokens, which the schema's `missingValues` treats as missing rather than as a value:
