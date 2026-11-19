@@ -135,6 +135,8 @@ CR-0004,.IL,monme,illegible,.NR,Amount illegible (water damage); counterparty no
 CR-0006,0,monme,explicit_zero,Kōnoike-ya,Source records a nil settlement (offsetting entry) — a real zero, not missing.
 ```
 
+**Variation across a form's instances.** A row codes a form, and its instances can disagree. A state found in a minority of instances does not make a cell `P`, which is half-presence within one arrangement: code the modal state, give each instance's state in `notes`, lower `confidence`, and where the minority is a coherent drafting variant propose a split (ruling 2 of 2026-10-07, `records/RULINGS-commenda-pilot-definitional-2026-10-07.md`). **A tie is answered, not silent, and is never `.NR`.** Where the instances that answer a cell have no single modal state, first test the split; failing a split, the cell takes the token `.TI` (tied across instances), which enters the schema with the first batch that needs it (ruled by MS, `records/RULINGS-tie-across-instances-2026-11-19.md`).
+
 **Uncertainty is explicit.** The `confidence` field is coded `high` / `medium`/ `low`, defined in the codebook. Do not launder uncertainty into prose.
 
 **Every cited work resolves.** A work named in a `source_ref` has a row in `references/works.csv` pointing at the Zotero item actually read; a work cited for the first time gets its row in the same commit. `scripts/check_citations.py` enforces registration in CI and checks the rows against the library with `--zotero`. See `references/README.md`.
