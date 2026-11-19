@@ -6,7 +6,7 @@
 - **Version**: 0.13.0  
 - **License**: CC-BY-4.0  
 - **Contributors**: Michael Schiltz (maintainer)  
-- **Rows**: 948  
+- **Rows**: 981  
 - **Generated**: deterministically from `datapackage.json` (timestamps via Git history)
 
 
@@ -35,21 +35,21 @@ Absence is coded, never blank. These tokens are treated as missing by the schema
 
 |  # | Field           | Type   | Required | Coded values                                                                                    | Present |
 |---:|-----------------|--------|:--------:|-------------------------------------------------------------------------------------------------|--------:|
-|  1 | `record_id`     | string |    ✓     |                                                                                                 | 948/948 |
-|  2 | `type_id`       | string |          |                                                                                                 | 948/948 |
-|  3 | `char_id`       | string |          |                                                                                                 | 948/948 |
-|  4 | `value`         | string |          |                                                                                                 | 653/948 |
-|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 653/948 |
-|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 369/948 |
-|  7 | `source_ref`    | string |          |                                                                                                 | 842/948 |
-|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 800/948 |
-|  9 | `coder`         | string |    ✓     |                                                                                                 | 948/948 |
-| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                            | 861/948 |
-| 11 | `reviewed_by`   | string |    ✓     |                                                                                                 | 948/948 |
-| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                                    | 948/948 |
-| 13 | `notes`         | string |          |                                                                                                 | 948/948 |
-| 14 | `coder_model`   | string |          |                                                                                                 | 948/948 |
-| 15 | `coder_effort`  | string |          | `low`, `medium`, `high`, `xhigh`, `max`                                                         | 948/948 |
+|  1 | `record_id`     | string |    ✓     |                                                                                                 | 981/981 |
+|  2 | `type_id`       | string |          |                                                                                                 | 981/981 |
+|  3 | `char_id`       | string |          |                                                                                                 | 981/981 |
+|  4 | `value`         | string |          |                                                                                                 | 670/981 |
+|  5 | `confidence`    | string |          | `high`, `medium`, `low`                                                                         | 670/981 |
+|  6 | `articulation`  | string |          | `articulated`, `analyst-imposed`                                                                | 386/981 |
+|  7 | `source_ref`    | string |          |                                                                                                 | 872/981 |
+|  8 | `source_lang`   | string |          | `ja`, `nl`, `de`, `fr`, `en`, `es`, `he`, `arc`, `ar`, `la`, `it`, `tr`, `pl`, `pt`, `zh`, `ca` | 830/981 |
+|  9 | `coder`         | string |    ✓     |                                                                                                 | 981/981 |
+| 10 | `source_read`   | string |          | `full`, `partial`, `none`, `unknown`                                                            | 891/981 |
+| 11 | `reviewed_by`   | string |    ✓     |                                                                                                 | 981/981 |
+| 12 | `review_status` | string |          | `unreviewed`, `source-checked`, `coding-checked`, `disputed`                                    | 981/981 |
+| 13 | `notes`         | string |          |                                                                                                 | 981/981 |
+| 14 | `coder_model`   | string |          |                                                                                                 | 981/981 |
+| 15 | `coder_effort`  | string |          | `low`, `medium`, `high`, `xhigh`, `max`                                                         | 981/981 |
 
 ## Variable definitions
 

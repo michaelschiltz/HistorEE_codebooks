@@ -36,7 +36,8 @@ tracked record makes checkable, and checks nothing else.
                               excepted as a class.
   C9  quoted hashes           every sha256 quoted in backticks in records/*.md,
                               logbook/*.md or CHANGELOG.md is the hash of a
-                              tracked file.
+                              tracked file, or of a source PDF that a
+                              MANIFEST-*.sha256 lists under ./sources/.
   C10 sample -> instances     where the census marks its sample, every sampled act
                               has an instance and every instance's act is sampled.
 
@@ -114,6 +115,7 @@ STANDALONE = {
     "TYPE-CENSUS-commenda-primary-2026-09-28.csv": "type census of the pass; rows are types, not instances",
     "TYPE-CENSUS-venetian-pass-2026-10-25.csv": "type census of the pass; rows are types, not instances",
     "instance-chars-2026-10-27.csv": "codings of 2026-10-27, superseded by instance-chars-2026-11-03.csv with derived rows added",
+    "INSTANCES-compania-sevilla-2026-11-19.csv": "deed-level record of the compania-sevilla first coding (ten deeds, Martinez Gijon 1970); cells coded at form level in data.csv, no instance-chars file",
 }
 
 # C3: an instance may carry no coded row only if it is assigned to `neither` and
@@ -279,13 +281,35 @@ def check_manifests(hashes):
     return pdfs
 
 
+def manifest_source_pdfs():
+    """Hashes of source PDFs listed in a MANIFEST-*.sha256 under ./sources/.
+
+    Source PDFs are never committed (records/README.md), so C8 excepts them as a
+    class. C9 takes the same exception for a quoted hash, but only where a
+    manifest records the PDF: a coding note that quotes its source's hash is
+    then checkable against the manifest, not waved through. Added 2026-11-19,
+    when the compania-sevilla coding notes quoted the hash of their source PDF.
+    """
+    out = set()
+    for m in sorted(REC.glob("MANIFEST-*.sha256")):
+        for line in m.read_text(encoding="utf-8").splitlines():
+            if not line.strip() or line.startswith("#"):
+                continue
+            h, name = line.split(None, 1)
+            name = name.strip()
+            if name.startswith("./sources/") and name.lower().endswith(".pdf"):
+                out.add(h)
+    return out
+
+
 def check_quoted(hashes):
     files = sorted(REC.glob("*.md")) + sorted((ROOT / "logbook").glob("*.md")) + [ROOT / "CHANGELOG.md"]
+    pdfs = manifest_source_pdfs()
     n = 0
     for f in files:
         for m in re.finditer(r"sha256[^`\n]{0,40}`([0-9a-f]{64})`", f.read_text(encoding="utf-8")):
             n += 1
-            if m.group(1) not in hashes:
+            if m.group(1) not in hashes and m.group(1) not in pdfs:
                 fail("C9", f"{f.relative_to(ROOT)}: quoted sha256 {m.group(1)[:12]}… matches no tracked file")
     return n
 

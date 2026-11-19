@@ -1,6 +1,6 @@
 # Scoped view — component `risk-pooling`
 
-No mechanism filter (this dataset has no mechanism characteristic). **36 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
+No mechanism filter (this dataset has no mechanism characteristic). **37 forms × 2 characteristics.** This is NOT the full characteristic set: comparative claims run on a declared component set only (`CHARACTER-CODING.md`). At this *n* the matrix is a coverage map, not evidence.
 
 ## Matrix
 
@@ -19,6 +19,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **36 forms �
 | `compagnia`                     | .NR   | .NR   |
 | `compagnie_antwerpen_1582`      | .NR   | .NR   |
 | `compagnie_antwerpen_1608`      | .NR   | .NR   |
+| `compania_factoria_sevilla`     | 0     | .NA   |
 | `deed_of_settlement_company`    | .NR   | .NR   |
 | `fraterna`                      | .NR   | .NR   |
 | `hegu_shengu`                   | --    | --    |
@@ -65,6 +66,7 @@ No mechanism filter (this dataset has no mechanism characteristic). **36 forms �
 - `compagnia` — Compagnia · Tuscan (Florentine) · 13-15c
 - `compagnie_antwerpen_1582` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Impressae phase · Low Countries (Antwerp, duchy of Brabant) · 1582-1608 as enacted law, on evidence reaching back to c.1540; the Impressae remained the operative compilation in Antwerp after 1608, so the phase boundary is TEXTUAL rather than practical
 - `compagnie_antwerpen_1608` — Antwerp general commercial partnership (societas generalis / compagnie), Costuymen Compilatae phase · Low Countries (Antwerp, duchy of Brabant) · 1608-c.1700 as enacted text; NEVER DISPLACED THE 1582 IMPRESSAE IN PRACTICE, which is why FP4 is P and not 1
+- `compania_factoria_sevilla` — Compañía y factoría (Seville partnership with a resident factor-partner in the Indies) · Castilian (Seville; Carrera de Indias) · 1542-1550 (assigned deeds 1542, 1542, 1550)
 - `deed_of_settlement_company` — Deed of settlement company (English unincorporated joint-stock company) · English (common law and equity) · c.1720-1844 (Bubble Act 1720 to the Joint Stock Companies Act 1844); ALL CODED CELLS REST ON 1790-1827 EVIDENCE
 - `fraterna` — Fraterna · Venetian · 12-15c
 - `hegu_shengu` — 身股 — body share (labour share, non-inheritable) · Chinese · 18c-20c

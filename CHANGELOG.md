@@ -27,6 +27,22 @@ All notable, dataset-level changes are recorded here. This is the human-readable
 - The `guild_box_brabant` entry (`loss_mitigation_forms` 0.2.2) says "after five forms whose `MC1` could not be set because they pool assets while moving no peril". That overstates a pattern the 2026-08-12 audit took apart (logbook 4): `MC1` was then `.NR` on four forms, for three unlike reasons. Recorded here because the history is not rewritten. Today it is `.NR` on six, four of them for no peril at issue, three of those `same-persons` (logbook 4, 2026-10-21).
 - Zenodo concept DOI in `README.md` and `CITATION.cff` corrected from 10.5281/zenodo.1462909 (the 2018 `even-keel` codebooks record, carried over from the predecessor repository) to 10.5281/zenodo.21341360.
 
+## organizational_forms — 2026-11-19
+
+**New form `compania_factoria_sevilla`, the Seville partnership with a resident factor-partner in the Indies, coded blind from three deeds of 1542–1550 printed by Martínez Gijón 1970. 33 rows and one type code; no schema or vocabulary-value change; no version bump.**
+
+- **Rows.** `OF-0951`–`OF-0983`: 17 substantive, 13 `.NR`, 3 `.NA`. No new value-instance in any column. Coded in a blind chat from the deeds read in full against the page images; priors committed first.
+- **Type.** `compania_factoria_sevilla` in `vocabularies/organizational_form_type.csv`; period 1542–1550, on docs. 3, 8 and 9 (APS Oficio XV, Alonso de Cazalla).
+- **Rulings by MS** (`records/RULINGS-compania-sevilla-2026-11-19.md`):
+  - doc. 2 (1516) is not an instance: an equal-capital partnership, outside the form. Struck from `source_ref`; `CF1` recoded `.NR` → 1 and `CF3` `.NR` → multilateral, each 2 of 3, confidence low.
+  - heterogeneity across the deeds is coded under ruling 2 of 2026-10-07 (modal state, counts in `notes`); the operator's proposed new `CF2`/`LR6` value is withdrawn.
+  - no split now; the criterion for a later split (loss allocation to a labour-only factor, at least three deeds per variant) is fixed before further evidence is read.
+- **Reference.** `references/works.csv`: Martínez Gijón 1970 (`K36HMDA9`).
+- **Script.** `scripts/check_counts.py`: the batch's instance file registered as standalone (C6); a quoted source-PDF hash resolved against `records/MANIFEST-*.sha256` (C9).
+- **Records.** Operator brief, withheld predictions, coding prompt, bundle README, priors (template and filled), coding notes, instances, rows as frozen, rulings and manifest under `records/*compania-sevilla*-2026-11-19*`.
+- **Regenerated.** `codebook.md` and the nine organizational views (`--mechanism all`), each built twice and `cmp`-identical.
+- **Logbooks.** 2, 3, 4 (scoring and standing-table rows) and 5, 2026-11-19.
+
 ## organizational_forms and loss_mitigation_forms — 2026-11-05 (iv, records only)
 
 **The Venetian instances' parties, places and notaries read against the page images. Successor record; no `data.csv` or `recodings.csv` cell changes; no version bump.**
