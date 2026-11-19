@@ -118,6 +118,10 @@ The excerpt is PDF pp. 39–79 of the attachment (41 pages, 3.7 MB): the OCR lay
 
 Before the coding prompt is handed over, it is read back against the predictions file and every sentence that appears in both is deleted. The loaded skills (`code-a-form`, `run-a-coding-batch`) are read back against it too. Anything that cannot be removed is disclosed in the coding notes.
 
+**Clarifications sent to the coder after the priors, before step 4** (raised by the coder; both are errors in the operator's prompt, copied from a recoding prompt):
+- *Record IDs.* The prompt said to take the next `record_id` from the bundle's `data.csv`. `code-a-form` requires placeholder IDs (`OF-XXXX-01`, …) for a first coding, so that parallel batches cannot collide; real IDs are assigned at application from the live file. Ruling: placeholders.
+- *`source_class`.* The prompt asked for it, but `data.csv` has no such column (only `recodings.csv` has). Ruling: keep the `data.csv` columns, state the class at the start of each cell's `notes`, and raise it in the coding notes, as the coder proposed.
+
 ## 9. For MS, before the coding chat opens
 
 1. ~~Rule on D1–D7 (§1).~~ Done, 2026-11-19.
