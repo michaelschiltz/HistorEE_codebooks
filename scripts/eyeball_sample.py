@@ -7,7 +7,7 @@ error-rate register's `human-independent` x `random-seeded` rows
 (logbook/4-appendix-error-rates.csv). The protocol for the first run is
 records/PROTOCOL-eyeball-madurell-2026-11-19.md.
 
-Two subcommands:
+Three subcommands:
 
   draw   Draw the sample from the instance record with a fixed seed. Writes the
          reading sheet (no record values, no strata) and the draw key (strata
@@ -23,7 +23,14 @@ Two subcommands:
          error, a form error, or a reader's slip. The score never decides a
          content error by itself.
 
+  census Write a reading sheet for one field across every instance, leaving out
+         the lines a previous sheet already read (the escalation rule of the
+         protocol: a stratum with two or more content errors in its ten goes
+         to a full census). The key carries no strata and may be committed
+         with the sheet. Added 2026-11-20 for the date census.
+
 Usage:
+  python scripts/eyeball_sample.py census --field date --exclude-key KEY.csv --sheet SHEET.md --key KEY2.csv
   python scripts/eyeball_sample.py draw  --seed 20261119 --sheet SHEET.md --key KEY.csv
   python scripts/eyeball_sample.py score --sheet FILLED.md --key KEY.csv --out SCORED.csv
 
@@ -54,6 +61,13 @@ QUESTIONS = {
     "risk": "Risk clause: the clause placing the goods or the capital at someone's risk (risicum, periculum, fortuna, or the like), verbatim. Write 'none' if the act has no such clause.",
     "security": "Obligation clause: the clause binding a person or goods for performance (obligo ..., or the like), verbatim. Write 'none' if the act has no such clause.",
 }
+
+# Wording for a census sheet, tightened after the 2026-11-20 adjudication.
+CENSUS_QUESTIONS = {
+    "date": "Dating clause: every dating clause in the act's own text (an opening date line, a closing 'Actum est hoc ...', or both), each in full as printed, including the year. Not the editor's heading. Write 'none' if the act carries no date.",
+}
+ACT_NOTE = (" The edition prints more than one act under this number; read act {n}, counting each instrument printed "
+            "under the number in order, including one introduced by 'Simile ...' or 'aliud instrumentum'.")
 
 # field -> (column holding the verbatim value, column holding the coded state)
 COLUMNS = {
@@ -132,6 +146,35 @@ def draw(args):
         print(f"stratum  {s:15s} population {len(p)}")
 
 
+def census(args):
+    rows = read_record()
+    with open(args.exclude_key, encoding="utf-8", newline="") as f:
+        done = {r["instance_id"] for r in csv.DictReader(f) if r["field"] == args.field}
+    todo = [r for r in rows if r["instance_id"] not in done]
+    multi = {d for d in {r["doc_no"] for r in rows} if sum(1 for x in rows if x["doc_no"] == d) > 1}
+    key_rows, sheet = [], []
+    for line, r in enumerate(todo, 1):
+        key_rows.append({"line": line, "instance_id": r["instance_id"], "doc_no": r["doc_no"],
+                         "act_in_entry": r["act_in_entry"], "page_printed": r["page_printed"], "field": args.field,
+                         "stratum": "census", "record_column": COLUMNS[args.field][0], "population": len(todo)})
+        act = f" (act {r['act_in_entry']} of the entry)" if r["doc_no"] in multi else ""
+        note = ACT_NOTE.format(n=r["act_in_entry"]) if r["doc_no"] in multi else ""
+        sheet.append(f"## {line}. Doc. {r['doc_no']}{act}, printed p. {r['page_printed']}\n\n"
+                     f"Question: {CENSUS_QUESTIONS[args.field]}{note}\n\nReading: \n")
+    with open(args.key, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(key_rows[0]), lineterminator="\n")
+        w.writeheader()
+        w.writerows(key_rows)
+    head = (f"# Census sheet: {args.field}, Madurell Marimón & García Sanz 1973\n\n"
+            f"Written by `scripts/eyeball_sample.py census --field {args.field}` from `records/{RECORD.name}` "
+            f"(sha256 `{sha256(RECORD)}`), leaving out the {len(done)} instances already read on the eyeball sheet. "
+            f"{len(sheet)} lines, in record order. Read each act in the printed volume and answer after `Reading:`. "
+            f"Do not open the instance record, the text layer or the translation Docs until the filled sheet is pushed. "
+            f"Rulings that set this census: `records/RULINGS-eyeball-madurell-2026-11-20.md`.\n\n")
+    Path(args.sheet).write_text(head + "\n".join(sheet), encoding="utf-8")
+    print(f"sheet {args.sheet} sha256 {sha256(args.sheet)}; key {args.key} sha256 {sha256(args.key)}; {len(sheet)} lines")
+
+
 def norm(s):
     s = unicodedata.normalize("NFKD", s)
     s = "".join(c for c in s if not unicodedata.combining(c)).lower()
@@ -170,7 +213,7 @@ def score(args):
             result = "flag"
         elif norm(value) == norm(reading):
             result = "match"
-        elif field in ("risk", "security") and norm(value) in norm(reading):
+        elif (field in ("risk", "security") or k["stratum"] == "census") and norm(value) in norm(reading):
             result = "match"
         else:
             result = "flag"
@@ -192,12 +235,17 @@ def main():
     d.add_argument("--seed", type=int, required=True)
     d.add_argument("--sheet", required=True)
     d.add_argument("--key", required=True)
+    c = sub.add_parser("census")
+    c.add_argument("--field", required=True, choices=sorted(CENSUS_QUESTIONS))
+    c.add_argument("--exclude-key", required=True)
+    c.add_argument("--sheet", required=True)
+    c.add_argument("--key", required=True)
     s = sub.add_parser("score")
     s.add_argument("--sheet", required=True)
     s.add_argument("--key", required=True)
     s.add_argument("--out", required=True)
     a = ap.parse_args()
-    {"draw": draw, "score": score}[a.cmd](a)
+    {"draw": draw, "census": census, "score": score}[a.cmd](a)
 
 
 if __name__ == "__main__":
