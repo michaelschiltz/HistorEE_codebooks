@@ -1,6 +1,6 @@
 # `records/` — the batch record, tracked and preserved verbatim
 
-**These files are evidence, not prose.** They are committed so that the claims the deposit makes *about how it was made* can be checked by someone who was not here, and they are preserved **verbatim**: nothing in this directory is reformatted, re-wrapped, re-aligned or tidied, ever. `check_softwrap.py` and `check_tables.py` both exclude it for that reason, on the same ground that excludes the verbatim `LICENSE-DATA.md` from the soft-wrap rule.
+**These files are evidence, not prose.** They are committed so that the claims the deposit makes *about how it was made* can be checked by someone who was not here, and they are preserved **verbatim**: nothing in this directory is reformatted, re-wrapped, re-aligned or tidied, ever. `check_softwrap.py` and `check_tables.py` both exclude it for that reason, on the same ground that excludes the verbatim `LICENSE-DATA.md` from the soft-wrap rule. **The rule attaches at a file's first commit.** A file a session writes here itself may have its tables aligned once, before that commit, by `check_tables.py --fix --new-record`, which refuses any file already tracked; nothing carried out of a blind bundle is touched (CONTRIBUTING §3, adopted by MS on 2026-11-21).
 
 ## Why this directory exists
 

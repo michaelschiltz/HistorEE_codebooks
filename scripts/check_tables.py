@@ -16,6 +16,19 @@ re-parsing both versions with the same Markdown parser the soft-wrap checker
 uses and asserting that every cell's content is identical; a file whose cells
 would change is left alone and reported as an error, never written.
 
+RECORDS ARE ALIGNED ONCE, BEFORE THEIR FIRST COMMIT, AND NEVER AFTER.
+`records/` is excluded from discovery and from explicit paths alike, because a
+committed record is evidence and stays byte-exact. The one way in is
+
+    python scripts/check_tables.py --fix --new-record records/FILE.md ...
+
+which opens only the files named, and refuses any that Git already tracks. It
+reads `.git/index` directly rather than running `git`, so it leaves no lock
+files. It is for the files a session writes into `records/` itself (operator
+notes, rulings, corrections, collations); a file received from a blind coding
+chat goes in exactly as received, and the `cmp` against its bundle copy at
+application catches one that was not.
+
 GENERATED FILES ARE CHECKED BUT NEVER FIXED. `datasets/*/codebook.md` and
 `views/*.md` come from their build scripts, so a ragged table there is a bug in
 the generator and must be fixed at the source. Checking them is deliberate: it
@@ -25,6 +38,8 @@ from __future__ import annotations
 
 import argparse
 import fnmatch
+import re
+import struct
 import sys
 import unicodedata
 from pathlib import Path
@@ -81,7 +96,8 @@ def split_row(line: str) -> list[str]:
         s = s[1:]
     if s.endswith("|"):
         s = s[:-1]
-    return [c.strip() for c in s.split("|")]
+    # An escaped \| belongs to its cell (GFM, inside code spans too).
+    return [c.strip() for c in re.split(r"(?<!\\)\|", s)]
 
 
 def is_delimiter(line: str) -> bool:
@@ -151,6 +167,15 @@ def process(path: Path, fix: bool, generated: bool) -> tuple[int, int]:
     ragged = refused = 0
     for start, end in reversed(find_tables(lines)):
         block = lines[start:end]
+        ncol = len(aligns_of(block[1]))
+        if any(len(split_row(r)) != ncol for r in block[:1] + block[2:]):
+            # render() leaves such a table as it is, which used to count as
+            # aligned: a table could look ragged and pass. Report it instead.
+            print(f"{path}:{start + 1}: REFUSED — a row's cell count differs "
+                  f"from the delimiter's ({ncol}); an unescaped | inside code "
+                  f"splits a cell. Fix by hand", file=sys.stderr)
+            refused += 1
+            continue
         new = render(block)
         if new == block:
             continue
@@ -166,6 +191,67 @@ def process(path: Path, fix: bool, generated: bool) -> tuple[int, int]:
     if fix and not generated and ragged:
         path.write_text("\n".join(lines), encoding="utf-8")
     return ragged, refused
+
+
+def tracked_paths() -> set[str] | None:
+    """Paths in the Git index, read from `.git/index` without running `git`.
+
+    Handles index versions 2 and 3 (this repository is at 2). Returns None for
+    anything it cannot read with certainty -- no index, version 4, a bad
+    signature -- and the caller then refuses every --new-record file, since a
+    record wrongly taken for untracked would be rewritten.
+    """
+    idx = REPO / ".git" / "index"
+    try:
+        data = idx.read_bytes()
+    except OSError:
+        return None
+    if len(data) < 12 or data[:4] != b"DIRC":
+        return None
+    version, count = struct.unpack(">II", data[4:12])
+    if version not in (2, 3):
+        return None
+    out, pos = set(), 12
+    try:
+        for _ in range(count):
+            flags = struct.unpack(">H", data[pos + 60:pos + 62])[0]
+            head = 62
+            if version == 3 and flags & 0x4000:
+                head += 2
+            end = data.index(b"\0", pos + head)
+            out.add(data[pos + head:end].decode("utf-8"))
+            length = end - pos + 1
+            pos += (length + 7) // 8 * 8
+    except (struct.error, ValueError, UnicodeDecodeError):
+        return None
+    return out
+
+
+def new_record_targets(paths: list[Path]) -> list[Path] | None:
+    """Validate --new-record paths; print every refusal, return None if any."""
+    tracked = tracked_paths()
+    ok, bad = [], False
+    for p in paths:
+        p = p.resolve()
+        rel = p.relative_to(REPO).as_posix() if REPO in p.parents else str(p)
+        if not rel.startswith("records/") or not rel.endswith(".md"):
+            print(f"{rel}: REFUSED — --new-record takes Markdown files under "
+                  f"records/ only", file=sys.stderr)
+            bad = True
+        elif not p.exists():
+            print(f"{rel}: REFUSED — does not exist", file=sys.stderr)
+            bad = True
+        elif tracked is None:
+            print(f"{rel}: REFUSED — cannot read .git/index, so cannot show "
+                  f"the file is uncommitted", file=sys.stderr)
+            bad = True
+        elif rel in tracked:
+            print(f"{rel}: REFUSED — already tracked; a committed record is "
+                  f"never re-aligned", file=sys.stderr)
+            bad = True
+        else:
+            ok.append(p)
+    return None if bad else ok
 
 
 def discover() -> list[Path]:
@@ -185,9 +271,32 @@ def main() -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("paths", nargs="*", type=Path)
     ap.add_argument("--fix", action="store_true", help="align tables in place")
+    ap.add_argument("--new-record", action="store_true",
+                    help="open only the records/ files named, and only if Git "
+                         "does not track them yet")
     args = ap.parse_args()
 
-    targets = [p for p in args.paths] if args.paths else discover()
+    if args.new_record:
+        if not args.paths:
+            ap.error("--new-record needs the records/ files named explicitly")
+        targets = new_record_targets(args.paths)
+        if targets is None:
+            return 1
+    elif args.paths:
+        # An explicit path is held to the same exclusions as discovery, so a
+        # committed record cannot be reformatted by naming it.
+        targets = []
+        for p in args.paths:
+            rp = p.resolve()
+            rel = rp.relative_to(REPO).as_posix() if REPO in rp.parents else rp.name
+            if _match(rel, EXCLUDE):
+                print(f"{rel}: skipped — excluded (verbatim); for a records/ "
+                      f"file not yet committed use --new-record",
+                      file=sys.stderr)
+                continue
+            targets.append(p)
+    else:
+        targets = discover()
     ragged = refused = checked = gen_ragged = 0
     for path in targets:
         path = path.resolve()
@@ -209,8 +318,9 @@ def main() -> int:
                 print(f"{rel}: {r} ragged table(s)", file=sys.stderr)
 
     if refused:
-        print(f"\n{refused} table(s) refused: a rewrite would have changed cell "
-              f"content. Fix those by hand.", file=sys.stderr)
+        print(f"\n{refused} table(s) refused: a malformed row, or a rewrite "
+              f"that would have changed cell content. Fix those by hand.",
+              file=sys.stderr)
         return 1
     if args.fix:
         print(f"aligned {ragged} table(s) in {checked} file(s).")
